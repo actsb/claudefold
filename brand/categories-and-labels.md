@@ -4,7 +4,7 @@ Blogger has no category hierarchy — only flat **labels** (max 20 per post, cas
 
 ## A. Category labels (one per post — the "section" the post lives in)
 
-Label URL pattern: `https://YOURADDRESS.blogspot.com/search/label/<Label%20Name>`
+Label URL pattern: `https://acts39.blogspot.com/search/label/<Label%20Name>`
 
 | Section (nav tab) | Category label (exact string) | First 3 product guides to write | Why this category |
 |---|---|---|---|

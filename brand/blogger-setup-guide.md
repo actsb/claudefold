@@ -4,7 +4,7 @@ Blog dashboard: https://www.blogger.com/blog/posts/9072207571822466986
 
 Work through this top to bottom once. Every step is a Blogger UI setting; nothing needs code except the HTML pages provided in `brand/pages/`.
 
-> **Status when this guide was written:** the blog is **private** and shows Blogger's automatic EU cookie notice. Steps 1 and 4 fix the first; step 8 handles the second.
+> **Status:** blog address is `acts39.blogspot.com`, reader access is already **Public**, the five pages and the launch post were imported on 2026-09-12. Blogger auto-shows the EU cookie notice; step 8 covers what it does not.  
 
 ---
 
@@ -70,7 +70,7 @@ So:
   User-agent: *
   Disallow: /search
   Allow: /
-  Sitemap: https://YOURADDRESS.blogspot.com/sitemap.xml
+  Sitemap: https://acts39.blogspot.com/sitemap.xml
   ```
   (Replace `YOURADDRESS`. Blocking `/search` prevents thin label/search pages from being indexed as duplicates.)
 * **Enable custom robots header tags** → ON. Home page: `all`, `noodp`. Archive and search pages: `noindex`, `noodp`. Post and page: `all`, `noodp`.
@@ -84,7 +84,7 @@ So:
 
 1. **Theme** → choose **Emporio** (grid) or **Contempo**. Click **Customize** → set the accent color to `#1E8E5A` and headings to `#1B2A41` (Advanced → colors).
 2. **Layout** → add/arrange gadgets:
-   * **Pages** gadget (top, "Show as: Top tabs") — add the five pages from step 13 plus one **link per category** pointing to its label URL, e.g. `https://YOURADDRESS.blogspot.com/search/label/Robot%20Vacuums`. This is how Blogger's flat labels become a category menu.
+   * **Pages** gadget (top, "Show as: Top tabs") — add the five pages from step 13 plus one **link per category** pointing to its label URL, e.g. `https://acts39.blogspot.com/search/label/Robot%20Vacuums`. This is how Blogger's flat labels become a category menu.
    * **Featured Post** (sidebar/top) — pin the current flagship guide.
    * **Labels** gadget — Display: *Selected labels* → tick only the category labels (not the post-type labels), Sort: alphabetically, Show number of posts: on.
    * **Popular Posts** — last 30 days, 5 posts, thumbnails on.
