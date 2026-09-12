@@ -62,3 +62,4 @@ Amazon's Associates agreement requires product images to come through its own to
 - [ ] Preview on desktop and phone: verdict box, tables scroll sideways, SVG charts visible, every video plays
 - [ ] Publish → Search Console → Request indexing
 - [ ] Layout → Featured Post gadget → select this post
+* **Updated September 12, 2026:** replaced in place (same URL) with the shopping-guide-first format; full deep-dive follows with a reading plan.

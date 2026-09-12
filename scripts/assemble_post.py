@@ -104,6 +104,10 @@ def main(post_dir):
     easy = (d / "src" / "00-easy.html").read_text(encoding="utf-8")
     easy = responsive_grid(easy)
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
+    notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
+              '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
+              'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we tested, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
+    easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
     easy = easy.replace("<!--CARDS-->", "\n".join(pick_card(d, c, i + 1, with_video=(i > 0)) for i, c in enumerate(cards)))
     easy = re.sub(r"<!--CARD:([a-z0-9\-]+)-->", lambda m: pick_card(d, by_id[m.group(1)], cards.index(by_id[m.group(1)]) + 1), easy)
@@ -112,12 +116,20 @@ def main(post_dir):
     # strip the wrapper, byline and cover the deep-dive parts open with, and the wrapper close at the end
     deep = re.sub(r'^\s*<div class="vp-post"[^>]*>\s*<p[^>]*><em>.*?</em></p>\s*<p[^>]*><img[^>]*></p>', "", deep, count=1, flags=re.S)
     deep = re.sub(r"</div>\s*$", "", deep.rstrip(), count=1)
+    # reading guide for the deep-dive: one line per section with a minutes estimate
+    secs = [(m.group(1), re.sub(r"<[^>]+>", "", m.group(2)).strip(), m.start()) for m in re.finditer(r'<h2 id="([a-z0-9\-]+)"[^>]*>(.*?)</h2>', deep, flags=re.S)]
+    items = []
+    for i, (sid, title, pos) in enumerate(secs):
+        nxt = secs[i + 1][2] if i + 1 < len(secs) else len(deep)
+        words = len(re.findall(r"[A-Za-z0-9$][A-Za-z0-9$'’.,%/-]*", re.sub(r"<[^>]+>", " ", deep[pos:nxt])))
+        mins = max(1, round(words / 230))
+        items.append(f'<li style="margin-bottom:.3em;"><a href="#{sid}" style="color:#1B2A41;font-weight:700;">{esc(title)}</a> <span style="color:#777;font-size:.9em;">· about {mins} min</span></li>')
     out = (easy
-           + '\n<h2 id="deep" style="color:#1B2A41;font-size:1.6em;">Want the full story? The complete deep-dive</h2>\n'
-           + '<p>Everything below is the long version: how we tested, every brand, every pick in detail, the owner-review analysis, the buying calendar and the sources. Tap to open it.</p>\n'
-           + '<details class="vp-deep" style="border:1px solid #ddd;border-radius:12px;padding:6px 18px;background:#FBFAF7;margin:1em 0 1.6em;">\n'
-           + '<summary style="cursor:pointer;font-weight:700;font-size:1.15em;color:#1B2A41;padding:12px 0;">Open the complete analysis (long read)</summary>\n'
-           + '<div style="font-size:0.94em;">\n' + deep + '\n</div>\n</details>\n'
+           + '\n<h2 id="deep" style="color:#1B2A41;font-size:1.6em;line-height:1.25;margin:1.6em 0 .5em;">Have more time? The full deep-dive, section by section</h2>\n'
+           + '<p>The quick guide above is enough to buy well. If you want to know <em>why</em> — how we tested, what every brand does well and badly, every pick in detail, what thousands of owners said, and when to buy — the complete analysis follows. Read it in one go, or one section at a time when you have a few minutes. Each section stands on its own.</p>\n'
+           + '<div class="vp-roadmap" style="border:2px solid #1B2A41;border-radius:12px;padding:14px 20px;background:#F7F5F0;margin:1em 0 1.6em;">\n<strong style="color:#1B2A41;">Reading plan</strong>\n<ol style="margin:8px 0 0;padding-left:22px;">\n' + "\n".join(items) + '\n</ol>\n</div>\n'
+           + '<div class="vp-deep" style="border-top:3px solid #1B2A41;margin-top:1.4em;padding-top:1.2em;font-size:0.94em;">\n' + deep + '\n</div>\n'
+           + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
            + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices are US list and sale prices seen in 2026 at the time of writing; check the retailer for today\'s price. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
     (d / "post.src.html").write_text(out, encoding="utf-8")
