@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 580" role="img" aria-label="The four classes of portable power station in 2026 with picks and prices">
+<rect width="1000" height="580" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Four classes, four jobs: where the 2026 picks sit</text>
+<g font-size="13" fill="#222">
+<rect x="30" y="66" width="225" height="460" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="30" y="66" width="225" height="46" rx="10" fill="#C9D1DC"/>
+<text x="142" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">~300 Wh</text>
+<text x="42" y="136" font-weight="700">$150 – $300 · 6–10 lb</text>
+<text x="42" y="164" font-weight="700" fill="#1E8E5A">Job</text><text x="42" y="184">Phones, laptop, camp lights,</text><text x="42" y="202">one CPAP night, car-camping</text>
+<text x="42" y="232" font-weight="700" fill="#1B2A41">Picks</text>
+<text x="42" y="252">Bluetti Elite 30 V2</text><text x="42" y="268" fill="#555">288 Wh · 600 W · $219–$299</text>
+<text x="42" y="292">Anker SOLIX C300 DC</text><text x="42" y="308" fill="#555">288 Wh · 6 lb · $249</text>
+<text x="42" y="332">EcoFlow River 3</text><text x="42" y="348" fill="#555">245 Wh · water-resistant · ~$200</text>
+<text x="42" y="382" font-weight="700" fill="#C9781B">Won't run</text><text x="42" y="400">Fridge for long, AC, tools</text>
+<rect x="268" y="66" width="225" height="460" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="268" y="66" width="225" height="46" rx="10" fill="#8FB8DE"/>
+<text x="380" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">~1,000 Wh</text>
+<text x="280" y="136" font-weight="700">$450 – $800 · 25–30 lb</text>
+<text x="280" y="164" font-weight="700" fill="#1E8E5A">Job</text><text x="280" y="184">Fridge + lights + phones for a</text><text x="280" y="202">night; the most popular class</text>
+<text x="280" y="232" font-weight="700" fill="#1B2A41">Picks</text>
+<text x="280" y="252">Anker SOLIX C1000 Gen 2</text><text x="280" y="268" fill="#555">1,024 Wh · 2,000 W · 49 min · ~$499</text>
+<text x="280" y="292">EcoFlow DELTA 3 Plus</text><text x="280" y="308" fill="#555">1,024 Wh · 1,800 W · UPS · $599–$799</text>
+<text x="280" y="332">Jackery Explorer 1000 v2</text><text x="280" y="348" fill="#555">1,070 Wh · 1,500 W · $550–$799</text>
+<text x="280" y="372">Bluetti AC70</text><text x="280" y="388" fill="#555">768 Wh · 1,000 W · $349–$599</text>
+<rect x="506" y="66" width="225" height="460" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="506" y="66" width="225" height="46" rx="10" fill="#7FD1A5"/>
+<text x="618" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">~2,000 Wh</text>
+<text x="518" y="136" font-weight="700">$600 – $1,300 · 40–55 lb</text>
+<text x="518" y="164" font-weight="700" fill="#1E8E5A">Job</text><text x="518" y="184">Essentials 12–24 h; multi-day</text><text x="518" y="202">with a 200–400 W solar panel</text>
+<text x="518" y="232" font-weight="700" fill="#1B2A41">Picks</text>
+<text x="518" y="252">Jackery Explorer 2000 v2</text><text x="518" y="268" fill="#555">2,042 Wh · 2,200 W · $599–$899</text>
+<text x="518" y="292">Bluetti Elite 200 V2</text><text x="518" y="308" fill="#555">2,074 Wh · 53 lb · $949–$1,000</text>
+<text x="518" y="332">EcoFlow DELTA 3 Max</text><text x="518" y="348" fill="#555">2,048 Wh · ~$799 on sale</text>
+<text x="518" y="382" font-weight="700" fill="#C9781B">Watch for</text><text x="518" y="400">Weight; fan noise under load</text>
+<rect x="744" y="66" width="225" height="460" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="744" y="66" width="225" height="46" rx="10" fill="#1E8E5A"/>
+<text x="856" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4,000 Wh +</text>
+<text x="756" y="136" font-weight="700">$1,700 – $2,600 · 100–130 lb</text>
+<text x="756" y="164" font-weight="700" fill="#1E8E5A">Job</text><text x="756" y="184">Whole-home essentials 24 h+,</text><text x="756" y="202">240 V, expandable to 10 kWh+</text>
+<text x="756" y="232" font-weight="700" fill="#1B2A41">Picks</text>
+<text x="756" y="252">EcoFlow DELTA Pro 3</text><text x="756" y="268" fill="#555">4,096 Wh · 4,000 W · ~$1,999</text>
+<text x="756" y="292">Anker SOLIX F3800 / Plus</text><text x="756" y="308" fill="#555">3,840 Wh · 6,000 W · $1,709–$2,399</text>
+<text x="756" y="332">Bluetti / Pecron 3–4 kWh</text><text x="756" y="348" fill="#555">value alternatives, fewer 240 V options</text>
+<text x="756" y="382" font-weight="700" fill="#C9781B">Watch for</text><text x="756" y="400">Wheels are mandatory; idle drain</text>
+</g>
+<text x="500" y="556" text-anchor="middle" font-size="12" fill="#777">Prices are 2026 US sale ranges (list prices run 30–60% higher). Capacities are LiFePO4 (LFP) rated for 3,000–4,000 cycles on every pick shown.</text>
+</g>
+</svg>

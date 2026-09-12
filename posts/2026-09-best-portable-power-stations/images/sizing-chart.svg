@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="How many watt-hours common devices use, and how long each power station class runs them">
+<rect width="1000" height="620" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Sizing in one chart: what runs for how long on each class of power station</text>
+<text x="500" y="58" text-anchor="middle" font-size="13" fill="#555">Approximate runtimes at ~85% inverter efficiency. Real appliances cycle on and off; surge on start-up must stay under the station's peak rating.</text>
+<rect x="30" y="76" width="940" height="34" fill="#F7F5F0"/>
+<g font-size="12" font-weight="700" fill="#1B2A41">
+<text x="40" y="98">Device (typical draw)</text><text x="330" y="98" text-anchor="middle">300 Wh class</text><text x="490" y="98" text-anchor="middle">1,000 Wh class</text><text x="650" y="98" text-anchor="middle">2,000 Wh class</text><text x="830" y="98" text-anchor="middle">4,000 Wh class</text>
+</g>
+<g font-size="13" fill="#222">
+<text x="40" y="136">Phone (10 Wh per full charge)</text><text x="330" y="136" text-anchor="middle">~25 charges</text><text x="490" y="136" text-anchor="middle">~85 charges</text><text x="650" y="136" text-anchor="middle">~170</text><text x="830" y="136" text-anchor="middle">~340</text>
+<text x="40" y="170">Laptop (60 W)</text><text x="330" y="170" text-anchor="middle">4 h</text><text x="490" y="170" text-anchor="middle">14 h</text><text x="650" y="170" text-anchor="middle">29 h</text><text x="830" y="170" text-anchor="middle">58 h</text>
+<text x="40" y="204">Wi-Fi router + modem (15 W)</text><text x="330" y="204" text-anchor="middle">17 h</text><text x="490" y="204" text-anchor="middle">58 h</text><text x="650" y="204" text-anchor="middle">4.8 days</text><text x="830" y="204" text-anchor="middle">9.6 days</text>
+<text x="40" y="238">CPAP without humidifier (40 W)</text><text x="330" y="238" text-anchor="middle">1 night</text><text x="490" y="238" text-anchor="middle">2–3 nights</text><text x="650" y="238" text-anchor="middle">5 nights</text><text x="830" y="238" text-anchor="middle">10 nights</text>
+<text x="40" y="272">Full-size fridge (avg 120 W, cycling)</text><text x="330" y="272" text-anchor="middle">2 h</text><text x="490" y="272" text-anchor="middle">7–14 h</text><text x="650" y="272" text-anchor="middle">17–20 h</text><text x="830" y="272" text-anchor="middle">1.5–2 days</text>
+<text x="40" y="306">Chest freezer (avg 60 W)</text><text x="330" y="306" text-anchor="middle">4 h</text><text x="490" y="306" text-anchor="middle">14 h</text><text x="650" y="306" text-anchor="middle">29 h</text><text x="830" y="306" text-anchor="middle">2.4 days</text>
+<text x="40" y="340">55" TV + streaming box (110 W)</text><text x="330" y="340" text-anchor="middle">2.3 h</text><text x="490" y="340" text-anchor="middle">8 h</text><text x="650" y="340" text-anchor="middle">16 h</text><text x="830" y="340" text-anchor="middle">31 h</text>
+<text x="40" y="374">Window AC (900 W)</text><text x="330" y="374" text-anchor="middle" fill="#C9781B">no</text><text x="490" y="374" text-anchor="middle">~1 h</text><text x="650" y="374" text-anchor="middle">~2 h</text><text x="830" y="374" text-anchor="middle">~4 h</text>
+<text x="40" y="408">Microwave (1,000–1,500 W, minutes)</text><text x="330" y="408" text-anchor="middle" fill="#C9781B">no</text><text x="490" y="408" text-anchor="middle">yes, briefly</text><text x="650" y="408" text-anchor="middle">yes</text><text x="830" y="408" text-anchor="middle">yes</text>
+<text x="40" y="442">Sump pump (800 W, 2,000 W surge)</text><text x="330" y="442" text-anchor="middle" fill="#C9781B">no</text><text x="490" y="442" text-anchor="middle">check surge</text><text x="650" y="442" text-anchor="middle">yes</text><text x="830" y="442" text-anchor="middle">yes</text>
+<text x="40" y="476">Space heater / electric range</text><text x="330" y="476" text-anchor="middle" fill="#C9781B">no</text><text x="490" y="476" text-anchor="middle" fill="#C9781B">no</text><text x="650" y="476" text-anchor="middle" fill="#C9781B">not worth it</text><text x="830" y="476" text-anchor="middle">hours, 240 V models</text>
+</g>
+<g stroke="#eee"><line x1="30" y1="146" x2="970" y2="146"/><line x1="30" y1="180" x2="970" y2="180"/><line x1="30" y1="214" x2="970" y2="214"/><line x1="30" y1="248" x2="970" y2="248"/><line x1="30" y1="282" x2="970" y2="282"/><line x1="30" y1="316" x2="970" y2="316"/><line x1="30" y1="350" x2="970" y2="350"/><line x1="30" y1="384" x2="970" y2="384"/><line x1="30" y1="418" x2="970" y2="418"/><line x1="30" y1="452" x2="970" y2="452"/></g>
+<rect x="30" y="496" width="940" height="100" rx="8" fill="#F7F5F0"/>
+<text x="46" y="520" font-size="13" font-weight="700" fill="#1B2A41">The rule of thumb reviewers converged on for hurricane season</text>
+<text x="46" y="542" font-size="13" fill="#222">• 1,000 Wh: fridge + phones + lights + router for a short outage (a night); recharges in about an hour from the wall.</text>
+<text x="46" y="562" font-size="13" fill="#222">• 2,000 Wh: the essentials — fridge, lights, router, CPAP — for 12+ hours; add a 200–400 W solar panel for multi-day.</text>
+<text x="46" y="582" font-size="13" fill="#222">• 4,000 Wh+ (expandable): 24+ hours of essentials, a window AC or a well pump, 240 V models for hard-wired circuits.</text>
+</g>
+</svg>

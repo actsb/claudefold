@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-label="Decision flowchart: which portable power station should you buy in 2026">
+<rect width="1000" height="760" fill="#fff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1B2A41"/></marker></defs>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Which power station should you buy? Start with what has to stay on.</text>
+<rect x="360" y="60" width="280" height="44" rx="22" fill="#1B2A41"/><text x="500" y="88" text-anchor="middle" fill="#fff" font-weight="700" font-size="15">What must it run, and for how long?</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M430 104 L170 150"/><path d="M500 104 L500 150"/><path d="M570 104 L830 150"/></g>
+<rect x="60" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="170" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Devices, a night, a weekend</text>
+<rect x="390" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="500" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Fridge + essentials, 1–2 days</text>
+<rect x="720" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="830" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Whole-home essentials, days</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M170 192 L170 240"/><path d="M500 192 L500 240"/><path d="M830 192 L830 240"/></g>
+<rect x="60" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="170" y="269" text-anchor="middle" fill="#1B2A41">CPAP or camping, or both?</text>
+<rect x="390" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="500" y="269" text-anchor="middle" fill="#1B2A41">One night, or longer?</text>
+<rect x="720" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="830" y="269" text-anchor="middle" fill="#1B2A41">Need 240 V or EV charging?</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M120 286 L120 340"/><path d="M220 286 L220 340"/></g>
+<text x="105" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">CPAP</text><text x="235" y="322" fill="#C9781B" font-weight="700">CAMP</text>
+<rect x="20" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="95" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Bluetti Elite 30 V2</text><text x="95" y="384" text-anchor="middle" font-size="11" fill="#555">288 Wh · $219–$299</text>
+<text x="95" y="408" text-anchor="middle" font-size="11" fill="#555">1–2 CPAP nights (no</text><text x="95" y="424" text-anchor="middle" font-size="11" fill="#555">humidifier); step up to</text><text x="95" y="440" text-anchor="middle" font-size="11" fill="#555">1 kWh for a week</text>
+<rect x="180" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="255" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Anker C300 DC</text><text x="255" y="384" text-anchor="middle" font-size="11" fill="#555">or EcoFlow River 3</text>
+<text x="255" y="408" text-anchor="middle" font-size="11" fill="#555">6–8 lb, phones + laptop</text><text x="255" y="424" text-anchor="middle" font-size="11" fill="#555">+ lights for a weekend;</text><text x="255" y="440" text-anchor="middle" font-size="11" fill="#555">River 3 is splash-rated</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M450 286 L450 340"/><path d="M550 286 L550 340"/></g>
+<text x="435" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">NIGHT</text><text x="565" y="322" fill="#C9781B" font-weight="700">LONGER</text>
+<rect x="350" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="425" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Anker C1000 Gen 2</text><text x="425" y="384" text-anchor="middle" font-size="11" fill="#555">1,024 Wh · ~$499</text>
+<text x="425" y="408" text-anchor="middle" font-size="11" fill="#555">or EcoFlow DELTA 3 Plus</text><text x="425" y="424" text-anchor="middle" font-size="11" fill="#555">(best UPS) or Jackery</text><text x="425" y="440" text-anchor="middle" font-size="11" fill="#555">1000 v2 (lightest)</text>
+<rect x="510" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="585" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Jackery 2000 v2</text><text x="585" y="384" text-anchor="middle" font-size="11" fill="#555">2,042 Wh · $599–$899</text>
+<text x="585" y="408" text-anchor="middle" font-size="11" fill="#555">or Bluetti Elite 200 V2;</text><text x="585" y="424" text-anchor="middle" font-size="11" fill="#555">add a 200–400 W panel</text><text x="585" y="440" text-anchor="middle" font-size="11" fill="#555">for multi-day outages</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M780 286 L780 340"/><path d="M880 286 L880 340"/></g>
+<text x="765" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">YES</text><text x="895" y="322" fill="#C9781B" font-weight="700">NO</text>
+<rect x="680" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="755" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Anker SOLIX F3800</text><text x="755" y="384" text-anchor="middle" font-size="11" fill="#555">3,840 Wh · 6,000 W</text>
+<text x="755" y="408" text-anchor="middle" font-size="11" fill="#555">120/240 V, EV "emergency</text><text x="755" y="424" text-anchor="middle" font-size="11" fill="#555">mile," expandable; $1,709</text><text x="755" y="440" text-anchor="middle" font-size="11" fill="#555">–$2,399 on sale</text>
+<rect x="840" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="915" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">EcoFlow DELTA Pro 3</text><text x="915" y="384" text-anchor="middle" font-size="11" fill="#555">4,096 Wh · 4,000 W</text>
+<text x="915" y="408" text-anchor="middle" font-size="11" fill="#555">most capable single unit,</text><text x="915" y="424" text-anchor="middle" font-size="11" fill="#555">X-Stream recharge, 240 V;</text><text x="915" y="440" text-anchor="middle" font-size="11" fill="#555">~$1,999 on sale</text>
+<rect x="20" y="490" width="960" height="150" rx="8" fill="#FFF7EC" stroke="#C9781B"/>
+<text x="36" y="514" font-weight="700" fill="#C9781B">Before you buy, whichever box you landed in</text>
+<text x="36" y="538" fill="#222">• <tspan font-weight="700">Check surge, not just watts:</tspan> a fridge needs 3–5× its running draw for a second; a sump pump more. 1,000 W-class units may trip.</text>
+<text x="36" y="560" fill="#222">• <tspan font-weight="700">LiFePO4 only</tspan> (LFP): 3,000–4,000 cycles vs 500–800 for older NMC. Every pick here is LFP; many sub-$150 units are not.</text>
+<text x="36" y="582" fill="#222">• <tspan font-weight="700">Wait for the sale:</tspan> list prices are fiction. Prime Big Deal Days (Oct 7–8) and Black Friday cut 30–55%; the 2000 v2 hit $599, the C1000 Gen 2 under $500.</text>
+<text x="36" y="604" fill="#222">• <tspan font-weight="700">Skip</tspan> no-name "solar generators" under $150 and anything without a UL/ETL listing and a 5-year warranty.</text>
+<text x="36" y="626" fill="#222">• <tspan font-weight="700">Skip a gas generator</tspan> only if you can live without days of AC; a power station plus a 400 W panel covers essentials, not a whole house in August.</text>
+<text x="500" y="672" text-anchor="middle" font-size="12" fill="#777">Medical devices: size for the full outage plus a day, and buy the panel. Your CPAP's manual lists its draw; humidifier heat triples it.</text>
+<text x="500" y="740" text-anchor="middle" font-size="12" fill="#777">Picks reflect OutdoorGearLab / Outdoor Life / The Inertia / Consumer Reports / TechRadar testing cross-checked with owner reviews, September 2026.</text>
+</g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" role="img" aria-label="Brand comparison of portable power station makers: warranty, charging, ecosystem, support reputation">
+<rect width="1000" height="520" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#222">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">The four brands that matter, side by side</text>
+<rect x="20" y="56" width="960" height="34" fill="#F7F5F0"/>
+<g font-weight="700" fill="#1B2A41">
+<text x="28" y="78">Brand</text><text x="130" y="78">Known for</text><text x="380" y="78">Warranty</text><text x="500" y="78">Fastest charge</text><text x="630" y="78">App / ecosystem</text><text x="800" y="78">Support reputation</text>
+</g>
+<text x="28" y="118" font-weight="700">EcoFlow</text><text x="130" y="118">Software, UPS &lt;10 ms, smart-home</text><text x="130" y="134">panels, expandable DELTA 3 line</text><text x="380" y="118">5 yr (DELTA 3 / Pro 3);</text><text x="380" y="134">2–3 yr older models</text><text x="500" y="118">56 min (DELTA 3 Plus)</text><text x="630" y="118">Deepest app; account</text><text x="630" y="134">required; firmware via app</text><text x="800" y="118">Mixed; Delta Max 2000</text><text x="800" y="134">recall (Oct 2025, firmware fix)</text>
+<text x="28" y="172" font-weight="700">Anker SOLIX</text><text x="130" y="172">Fastest charging, highest output</text><text x="130" y="188">per class, whole-home F3800</text><text x="380" y="172">5 yr standard;</text><text x="380" y="188">longer on home units</text><text x="500" y="172">49 min (C1000 Gen 2,</text><text x="500" y="188">Guinness-certified)</text><text x="630" y="172">Solid app; simple UI;</text><text x="630" y="188">big readable screens</text><text x="800" y="172">Best of the four in</text><text x="800" y="188">owner reports</text>
+<text x="28" y="226" font-weight="700">Jackery</text><text x="130" y="226">Lightest units per Wh, simple,</text><text x="130" y="242">the "easiest recommendation"</text><text x="380" y="226">5 yr (3 + 2 with</text><text x="380" y="242">registration)</text><text x="500" y="226">0–80% in 66 min</text><text x="500" y="242">(2000 v2)</text><text x="630" y="226">Basic app; fewer</text><text x="630" y="242">smart-home features</text><text x="800" y="226">Generally good;</text><text x="800" y="242">fan noise gripes</text>
+<text x="28" y="280" font-weight="700">Bluetti</text><text x="130" y="280">Value per Wh, Elite 200 V2 is the</text><text x="130" y="296">2 kWh bargain, lab-grade cells</text><text x="380" y="280">5–6 yr depending</text><text x="380" y="296">on model</text><text x="500" y="280">~1 h class-typical;</text><text x="500" y="296">Turbo modes on Elite</text><text x="630" y="280">Adequate app;</text><text x="630" y="296">AC70 fan chatter reports</text><text x="800" y="280">Weakest: owners report</text><text x="800" y="296">unanswered warranty tickets</text>
+<g stroke="#eee"><line x1="20" y1="150" x2="980" y2="150"/><line x1="20" y1="204" x2="980" y2="204"/><line x1="20" y1="258" x2="980" y2="258"/><line x1="20" y1="312" x2="980" y2="312"/></g>
+<rect x="20" y="332" width="960" height="170" rx="8" fill="#F7F5F0"/>
+<text x="36" y="356" font-weight="700" fill="#1B2A41" font-size="13">Also on the shelf</text>
+<text x="36" y="378">• <tspan font-weight="700">Goal Zero</tspan> — the original; premium prices, US-made frames, strong warranty; fewer 2026 updates.</text>
+<text x="36" y="398">• <tspan font-weight="700">Pecron, Oupes, Dabbsson, AllPowers</tspan> — aggressive $/Wh in the 2–4 kWh tiers; thinner support, buy through Amazon for the return window.</text>
+<text x="36" y="418">• <tspan font-weight="700">DJI Power</tspan> — fast-charging, quiet units aimed at drone users; US availability affected by 2025–26 import restrictions.</text>
+<text x="36" y="438">• <tspan font-weight="700">No-name Amazon "500W solar generator" units under $150</tspan> — often NMC cells, optimistic ratings, no UL listing. Skip.</text>
+<text x="36" y="470" fill="#555">Warranty terms change by model and require registration; check the product page. "Fastest charge" is 0–100% from a wall outlet unless noted.</text>
+</g>
+</svg>

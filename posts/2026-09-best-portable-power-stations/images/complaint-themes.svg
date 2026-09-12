@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-label="Most common owner complaints about portable power stations, ranked qualitatively">
+<rect width="1000" height="600" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">What power-station owners complain about most (recent 1–3★ reviews and owner threads)</text>
+<g font-size="12" fill="#555" text-anchor="middle"><text x="470" y="66">Occasional</text><text x="640" y="66">Common</text><text x="830" y="66">Very common</text></g>
+<g font-size="13" fill="#1B2A41">
+<text x="30" y="100" font-weight="700">Fan noise while charging or under load</text><rect x="350" y="86" width="540" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="120" font-size="11" fill="#555">Fast charging = loud fans. Every brand's app has a slower "quiet" charge mode; use it overnight. Bluetti EB3A/AC70 fan pulses are the most-cited.</text>
+<text x="30" y="160" font-weight="700">Heavier than the photos suggest</text><rect x="350" y="146" width="500" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="180" font-size="11" fill="#555">1 kWh units are 25–30 lb; 2 kWh are 40–55 lb; 4 kWh are 100–130 lb and need the wheels. "Portable" is relative.</text>
+<text x="30" y="220" font-weight="700">Idle / phantom drain when left switched on</text><rect x="350" y="206" width="420" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="240" font-size="11" fill="#555">Inverters draw power just being on; some big units lose several percent a day. Turn AC off when not in use; the F3800 Plus drew specific complaints.</text>
+<text x="30" y="280" font-weight="700">App account required; firmware only via app</text><rect x="350" y="266" width="400" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="300" font-size="11" fill="#555">EcoFlow in particular. The units work without the app, but updates and some settings don't.</text>
+<text x="30" y="340" font-weight="700">Surge trips: fridge, sump pump, coffee maker</text><rect x="350" y="326" width="380" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="360" font-size="11" fill="#555">Motors and heating elements spike on start-up. Check the surge rating, not just continuous watts; 1,000 W units struggle with sump pumps.</text>
+<text x="30" y="400" font-weight="700">Customer service and warranty turnaround</text><rect x="350" y="386" width="360" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="420" font-size="11" fill="#555">Bluetti draws the most (tickets open for months); Anker the fewest. Buying through Amazon adds the return window as a first line.</text>
+<text x="30" y="460" font-weight="700">Confusing charge settings; slower than advertised</text><rect x="350" y="446" width="320" height="22" rx="11" fill="#F0C987"/>
+<text x="30" y="480" font-size="11" fill="#555">Headline charge times need the "fast" mode enabled and a 15–20 A circuit; default modes are slower on purpose.</text>
+<text x="30" y="520" font-weight="700">Safety worries after the EcoFlow recall</text><rect x="350" y="506" width="260" height="22" rx="11" fill="#F0C987"/>
+<text x="30" y="540" font-size="11" fill="#555">25,030 units, six fires, firmware fix (Oct 2025). Not the DELTA 3 line. Keep firmware current on any brand; charge on a hard surface, never in a hot car.</text>
+</g>
+<text x="500" y="582" text-anchor="middle" font-size="12" fill="#777">Qualitative ranking of themes across recent Amazon 1–3★ reviews and Reddit / forum owner threads for the stations in this guide — a tally, not a survey.</text>
+</g>
+</svg>
