@@ -42,3 +42,15 @@ python3 scripts/build_post.py posts/2026-09-best-robot-vacuums   # inline SVGs -
 python3 scripts/check_post.py posts/2026-09-best-robot-vacuums/post.html
 node scripts/render_png.mjs posts/2026-09-best-robot-vacuums/images  # optional PNG copies
 ```
+
+## Two ways to publish without copy-pasting
+
+1. **One-file import (no credentials):** Blogger → Settings → Manage blog → **Import content** → choose
+   `posts/2026-09-best-robot-vacuums/blogger-import.xml` → tick *Automatically publish all imported posts and pages*.
+   Imports the launch post (with its 6 labels) and the 5 static pages. Regenerate with `python3 scripts/make_blogger_import.py [--draft]`.
+2. **API publish (from this repo):** mint a 1-hour token at https://developers.google.com/oauthplayground
+   (scope *Blogger API v3 → https://www.googleapis.com/auth/blogger*), then
+   `BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py [--draft|--check]`.
+   Creates/updates the 5 pages and publishes the post; idempotent by title.
+
+Blog *settings* (public visibility, title, description, search-description toggle) are not exposed by the API — those are five clicks in Settings, listed in `brand/blogger-setup-guide.md`.
