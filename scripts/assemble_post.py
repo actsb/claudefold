@@ -112,6 +112,9 @@ def main(post_dir):
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
               'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we tested, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
     easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
+    # Blogger jump break after the lead paragraph: index pages show only the lead, and
+    # auto-pagination stops hiding posts because of the page size
+    easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
     easy = easy.replace("<!--CARDS-->", "\n".join(pick_card(d, c, i + 1, with_video=(i > 0)) for i, c in enumerate(cards)))
     easy = re.sub(r"<!--CARD:([a-z0-9\-]+)-->", lambda m: pick_card(d, by_id[m.group(1)], cards.index(by_id[m.group(1)]) + 1), easy)

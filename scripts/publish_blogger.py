@@ -84,7 +84,11 @@ def call(method, path, body=None, params=None):
     except urllib.error.HTTPError as e:
         return e.code, json.loads(e.read() or b"{}")
 
-def strip_comments(html): return re.sub(r"<!--.*?-->", "", html, flags=re.S).strip()
+def strip_comments(html):
+    """Drop HTML comments except Blogger's jump break <!--more-->."""
+    html = html.replace("<!--more-->", "\x00MORE\x00")
+    html = re.sub(r"<!--.*?-->", "", html, flags=re.S)
+    return html.replace("\x00MORE\x00", "<!--more-->").strip()
 
 # 1. token + blog access
 st, info = call("GET", "/users/self/blogs")
