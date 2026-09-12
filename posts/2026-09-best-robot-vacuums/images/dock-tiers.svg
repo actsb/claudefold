@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-label="Four tiers of robot vacuum docks and what you still have to do yourself">
+<rect width="1000" height="460" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Dock tiers: what each one automates — and what it doesn't</text>
+<line x1="60" y1="66" x2="940" y2="66" stroke="#1E8E5A" stroke-width="3"/>
+<polygon points="940,60 956,66 940,72" fill="#1E8E5A"/>
+<text x="500" y="60" text-anchor="middle" font-size="13" fill="#1E8E5A" font-weight="700">more hands-off →</text>
+<g font-size="13" fill="#222">
+<!-- tier 1 -->
+<rect x="40" y="90" width="215" height="330" rx="10" fill="#F7F5F0" stroke="#ddd"/>
+<rect x="40" y="90" width="215" height="44" rx="10" fill="#C9D1DC"/>
+<text x="147" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">1 · Charge-only</text>
+<text x="147" y="160" text-anchor="middle" font-weight="700">$150 – $300</text>
+<text x="52" y="190" font-weight="700" fill="#1E8E5A">Automates</text>
+<text x="52" y="210">• Charging</text>
+<text x="52" y="248" font-weight="700" fill="#C9781B">You still do</text>
+<text x="52" y="268">• Empty the bin every 1–3 runs</text>
+<text x="52" y="288">• Hand-wash mop pad (if any)</text>
+<text x="52" y="308">• Refill water tank</text>
+<text x="52" y="346" fill="#555">Examples: eufy 11S MAX,</text>
+<text x="52" y="364" fill="#555">Tikom, Lefant, Roomba 105</text>
+<!-- tier 2 -->
+<rect x="275" y="90" width="215" height="330" rx="10" fill="#F7F5F0" stroke="#ddd"/>
+<rect x="275" y="90" width="215" height="44" rx="10" fill="#8FB8DE"/>
+<text x="382" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">2 · Self-empty</text>
+<text x="382" y="160" text-anchor="middle" font-weight="700">$250 – $550</text>
+<text x="287" y="190" font-weight="700" fill="#1E8E5A">Automates</text>
+<text x="287" y="210">• Charging</text>
+<text x="287" y="228">• Bin emptying (30–60 days)</text>
+<text x="287" y="258" font-weight="700" fill="#C9781B">You still do</text>
+<text x="287" y="278">• Wash/replace mop pad</text>
+<text x="287" y="298">• Refill water, clear dock port</text>
+<text x="287" y="346" fill="#555" font-size="12">Examples: Shark PowerDetect,</text>
+<text x="287" y="364" fill="#555">Roborock Q7 M5+, Roomba 705,</text>
+<text x="287" y="382" fill="#555">Dreame D10 Plus Gen 2</text>
+<!-- tier 3 -->
+<rect x="510" y="90" width="215" height="330" rx="10" fill="#F7F5F0" stroke="#ddd"/>
+<rect x="510" y="90" width="215" height="44" rx="10" fill="#7FD1A5"/>
+<text x="617" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">3 · Omni</text>
+<text x="617" y="160" text-anchor="middle" font-weight="700">$550 – $1,100</text>
+<text x="522" y="190" font-weight="700" fill="#1E8E5A">Automates</text>
+<text x="522" y="210">• Empty bin, wash + dry mops</text>
+<text x="522" y="228">• Refill robot's water tank</text>
+<text x="522" y="258" font-weight="700" fill="#C9781B">You still do</text>
+<text x="522" y="278">• Fill clean tank / dump dirty tank</text>
+<text x="522" y="298">• Add detergent, scrub base tray</text>
+<text x="522" y="346" fill="#555" font-size="12">Examples: Qrevo Curv 2 Flow,</text>
+<text x="522" y="364" fill="#555">Dreame L50 Ultra, eufy E28,</text>
+<text x="522" y="382" fill="#555">Ecovacs T80 Omni</text>
+<!-- tier 4 -->
+<rect x="745" y="90" width="215" height="330" rx="10" fill="#F7F5F0" stroke="#ddd"/>
+<rect x="745" y="90" width="215" height="44" rx="10" fill="#1E8E5A"/>
+<text x="852" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4 · Omni+</text>
+<text x="852" y="160" text-anchor="middle" font-weight="700">$1,000 – $2,600</text>
+<text x="757" y="190" font-weight="700" fill="#1E8E5A">Automates</text>
+<text x="757" y="210">• Everything in tier 3, plus:</text>
+<text x="757" y="228">• Hot water + auto detergent</text>
+<text x="757" y="246">• Bagless or plumbing options</text>
+<text x="757" y="276" font-weight="700" fill="#C9781B">You still do</text>
+<text x="757" y="296">• Rinse base tray monthly</text>
+<text x="757" y="314">• Yearly filters and brushes</text>
+<text x="757" y="346" fill="#555" font-size="12">Examples: Saros 10R/20, X9S Pro,</text>
+<text x="757" y="364" fill="#555" font-size="12">X11 OmniCyclone, Narwal Flow 2,</text>
+<text x="757" y="382" fill="#555" font-size="12">eufy Omni S2, Dreame X50 Ultra</text>
+</g>
+<text x="500" y="448" text-anchor="middle" font-size="12" fill="#777">Price bands are typical 2026 US street prices for the tier, not list prices. "Omni" is Ecovacs' name for the all-in-one dock; the industry now uses it generically.</text>
+</g>
+</svg>

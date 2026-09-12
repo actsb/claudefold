@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-label="Most common owner complaints about robot vacuums, ranked qualitatively">
+<rect width="1000" height="600" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">What owners complain about most (recent 1–3★ reviews and owner threads)</text>
+<g font-size="12" fill="#555" text-anchor="middle"><text x="470" y="66">Occasional</text><text x="640" y="66">Common</text><text x="830" y="66">Very common</text></g>
+<g font-size="13" fill="#1B2A41">
+<text x="30" y="100" font-weight="700">Hair wrapped on the brush roll / side brush</text><rect x="350" y="86" width="540" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="120" font-size="11" fill="#555">Worst with long human hair. Split/dual rollers, bristle-free brushes and hair-cutting combs help; nothing eliminates it.</text>
+<text x="30" y="160" font-weight="700">Stuck on cords, rug fringe, chair legs</text><rect x="350" y="146" width="520" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="180" font-size="11" fill="#555">Camera + LiDAR flagships cut this dramatically; bump-navigation budget bots suffer most. Threshold-climbing chassis solve the door-sill case.</text>
+<text x="30" y="220" font-weight="700">Dock port clogs / loses suction over time</text><rect x="350" y="206" width="400" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="240" font-size="11" fill="#555">Pet-hair homes. Check the bin-to-dock port monthly; bagless cyclone docks need their cyclone cleared too.</text>
+<text x="30" y="280" font-weight="700">Mop odor / dirty-water tank smell</text><rect x="350" y="266" width="380" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="300" font-size="11" fill="#555">Docks without hot-air drying, and owners who leave the dirty tank for days. Hot-water wash + heated dry docks get far fewer of these reviews.</text>
+<text x="30" y="340" font-weight="700">Navigation quirks and ignored no-go zones</text><rect x="350" y="326" width="360" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="360" font-size="11" fill="#555">Usually after map edits or a firmware update; a fresh map fixes most cases. Multi-floor homes report it more.</text>
+<text x="30" y="400" font-weight="700">Run time far below the claim on carpet</text><rect x="350" y="386" width="340" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="420" font-size="11" fill="#555">Claims are measured in quiet mode on hard floor. Expect 40–60% of the headline minutes in max mode on carpet.</text>
+<text x="30" y="460" font-weight="700">App, 2.4 GHz Wi-Fi setup, firmware regressions</text><rect x="350" y="446" width="320" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="480" font-size="11" fill="#555">Narwal and Ecovacs apps draw the most criticism in reviews; Roborock the least. Every brand needs a 2.4 GHz network during setup.</text>
+<text x="30" y="520" font-weight="700">Customer support and warranty turnaround</text><rect x="350" y="506" width="280" height="22" rx="11" fill="#F0C987"/>
+<text x="30" y="540" font-size="11" fill="#555">Ecovacs is the most-cited; iRobot support is in flux after its 2025 bankruptcy and 2026 change of ownership. Buying via Amazon adds Amazon's own return window.</text>
+</g>
+<text x="500" y="582" text-anchor="middle" font-size="12" fill="#777">Qualitative ranking from the recent Amazon 1–3★ reviews and Reddit owner threads we read for the products in this guide — a tally of themes, not a statistical survey.</text>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Claimed suction in Pascals versus measured intake suction">
+<rect width="1000" height="560" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">"Pa" on the box vs. what a lab measures at the intake</text>
+<text x="30" y="70" font-size="15" font-weight="700" fill="#1B2A41">Claimed maximum suction (marketing spec)</text>
+<g font-size="13" fill="#1B2A41">
+<text x="30" y="104">Roborock Saros 20</text><rect x="250" y="90" width="330" height="20" fill="#1B2A41"/><text x="588" y="105">36,000 Pa</text>
+<text x="30" y="139">Roborock Qrevo Edge 3 Pro</text><rect x="250" y="125" width="330" height="20" fill="#1B2A41"/><text x="588" y="140">36,000 Pa</text>
+<text x="30" y="174">eufy Omni S2</text><rect x="250" y="160" width="275" height="20" fill="#3D5A80"/><text x="533" y="175">30,000 Pa</text>
+<text x="30" y="209">Dreame Aqua10 Ultra Roller</text><rect x="250" y="195" width="275" height="20" fill="#3D5A80"/><text x="533" y="210">30,000 Pa</text>
+<text x="30" y="244">Roborock Saros 10R</text><rect x="250" y="230" width="202" height="20" fill="#6C8EBF"/><text x="460" y="245">22,000 Pa</text>
+<text x="30" y="279">Ecovacs Deebot X9 Pro Omni</text><rect x="250" y="265" width="152" height="20" fill="#8FB8DE"/><text x="410" y="280">16,600 Pa</text>
+<text x="30" y="314">iRobot Roomba Max 705</text><rect x="250" y="300" width="4" height="20" fill="#bbb"/><text x="262" y="315" fill="#777">no Pa figure published ("180× the 600 series")</text>
+</g>
+<rect x="30" y="345" width="940" height="190" rx="10" fill="#F7F5F0"/>
+<text x="50" y="375" font-size="15" font-weight="700" fill="#1B2A41">What independent testers measured at the intake</text>
+<g font-size="14" fill="#222">
+<text x="50" y="405">• Roborock Saros 10R — labeled 22,000 Pa — measured <tspan font-weight="700">0.6 kPa</tspan> (Vacuum Wars)</text>
+<text x="50" y="430">• Roborock Saros Z70 — also labeled 22,000 Pa — measured <tspan font-weight="700">0.3 kPa</tspan>; the site's robot-vacuum average was <tspan font-weight="700">0.8 kPa</tspan></text>
+<text x="50" y="455">• Roborock Saros 20 — labeled 36,000 Pa — measured <tspan font-weight="700">0.41 kPa</tspan> against a <tspan font-weight="700">0.99 kPa</tspan> category average (RobotVacHub lab)</text>
+<text x="50" y="490" font-weight="700" fill="#1E8E5A">Takeaway: two robots with the same "22,000 Pa" sticker differed 2× in measured suction, and the 36,000 Pa flagship</text>
+<text x="50" y="512" font-weight="700" fill="#1E8E5A">measured below average. Judge by pickup tests (carpet, sand, pet hair), never by the Pa number.</text>
+</g>
+<text x="970" y="552" text-anchor="end" font-size="11" fill="#777">Claimed figures from manufacturer listings; measured figures from the labs named. Methods differ between labs; compare within a lab, not across.</text>
+</g>
+</svg>

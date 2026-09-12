@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-label="Decision flowchart: which robot vacuum should you buy in 2026">
+<rect width="1000" height="800" fill="#fff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1B2A41"/></marker></defs>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Which robot vacuum should you buy? Start with your budget.</text>
+<!-- start -->
+<rect x="390" y="60" width="220" height="44" rx="22" fill="#1B2A41"/>
+<text x="500" y="88" text-anchor="middle" fill="#fff" font-weight="700" font-size="15">What's your budget?</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)">
+<path d="M440 104 L170 150"/><path d="M500 104 L500 150"/><path d="M560 104 L830 150"/>
+</g>
+<!-- budget branches -->
+<rect x="70" y="152" width="200" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="170" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Under $350</text>
+<rect x="400" y="152" width="200" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="500" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">$350 – $800</text>
+<rect x="730" y="152" width="200" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="830" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">$800 and up</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)">
+<path d="M170 192 L170 240"/><path d="M500 192 L500 240"/><path d="M830 192 L830 240"/>
+</g>
+<!-- questions -->
+<rect x="60" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="170" y="269" text-anchor="middle" fill="#1B2A41">Mostly carpet?</text>
+<rect x="390" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="500" y="269" text-anchor="middle" fill="#1B2A41">Do you want real mopping?</text>
+<rect x="720" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="830" y="269" text-anchor="middle" fill="#1B2A41">What's your #1 priority?</text>
+<!-- left leaves -->
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M120 286 L120 340"/><path d="M220 286 L220 340"/></g>
+<text x="105" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">YES</text><text x="235" y="322" fill="#C9781B" font-weight="700">NO</text>
+<rect x="20" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="95" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Shark PowerDetect</text><text x="95" y="384" text-anchor="middle" font-weight="700" fill="#1B2A41">Self-Empty</text>
+<text x="95" y="408" text-anchor="middle" font-size="11" fill="#555">best carpet pickup</text><text x="95" y="424" text-anchor="middle" font-size="11" fill="#555">under $350, bagless</text><text x="95" y="440" text-anchor="middle" font-size="11" fill="#555">60-day bin</text>
+<rect x="180" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="255" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Roborock Q7 M5+</text><text x="255" y="384" text-anchor="middle" font-size="11" fill="#555">or Dreame D10 Plus Gen 2</text>
+<text x="255" y="408" text-anchor="middle" font-size="11" fill="#555">LiDAR maps, 7–13 week</text><text x="255" y="424" text-anchor="middle" font-size="11" fill="#555">bags, light mopping;</text><text x="255" y="440" text-anchor="middle" font-size="11" fill="#555">you rinse the pad</text>
+<!-- middle leaves -->
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M450 286 L450 340"/><path d="M550 286 L550 340"/></g>
+<text x="435" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">YES</text><text x="565" y="322" fill="#C9781B" font-weight="700">NO</text>
+<rect x="350" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="425" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Roborock Qrevo</text><text x="425" y="384" text-anchor="middle" font-weight="700" fill="#1B2A41">Curv 2 Flow</text>
+<text x="425" y="408" text-anchor="middle" font-size="11" fill="#555">or Dreame L50 Ultra;</text><text x="425" y="424" text-anchor="middle" font-size="11" fill="#555">roller mop / climbing</text><text x="425" y="440" text-anchor="middle" font-size="11" fill="#555">legs, full omni dock</text>
+<rect x="510" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="585" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Roomba Max 705 Vac</text><text x="585" y="384" text-anchor="middle" font-size="11" fill="#555">or Shark PowerDetect</text><text x="585" y="400" text-anchor="middle" font-size="11" fill="#555">NeverTouch Pro</text>
+<text x="585" y="424" text-anchor="middle" font-size="11" fill="#555">vacuum-first, rubber</text><text x="585" y="440" text-anchor="middle" font-size="11" fill="#555">brushes, simple docks</text>
+<!-- right leaves -->
+<g stroke="#1B2A41" stroke-width="2" fill="none"><path d="M830 286 L830 300 L700 300 L700 720"/></g>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)">
+<path d="M700 340 L704 340"/><path d="M700 430 L704 430"/><path d="M700 520 L704 520"/><path d="M700 610 L704 610"/><path d="M700 700 L704 700"/>
+</g>
+<rect x="705" y="312" width="290" height="56" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="717" y="332" font-weight="700" fill="#1B2A41">Obstacle avoidance + best app</text><text x="717" y="352" fill="#1E8E5A" font-weight="700">→ Roborock Saros 10R</text>
+<rect x="705" y="402" width="290" height="56" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="717" y="422" font-weight="700" fill="#1B2A41">Mopping that actually scrubs</text><text x="717" y="442" fill="#1E8E5A" font-weight="700" font-size="12">→ Narwal Flow 2 · Ecovacs X9S Pro Omni</text>
+<rect x="705" y="492" width="290" height="56" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="717" y="512" font-weight="700" fill="#1B2A41">Thick rugs, door sills, thresholds</text><text x="717" y="532" fill="#1E8E5A" font-weight="700" font-size="12">→ Dreame X50 Ultra · Roborock Saros 20</text>
+<rect x="705" y="582" width="290" height="56" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="717" y="602" font-weight="700" fill="#1B2A41">Quiet running + clean corners</text><text x="717" y="622" fill="#1E8E5A" font-weight="700">→ eufy Omni S2</text>
+<rect x="705" y="672" width="290" height="56" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="717" y="692" font-weight="700" fill="#1B2A41">Never buy a dust bag again</text><text x="717" y="712" fill="#1E8E5A" font-weight="700">→ Ecovacs X11 OmniCyclone</text>
+<!-- skip box -->
+<rect x="20" y="490" width="660" height="120" rx="8" fill="#FFF7EC" stroke="#C9781B"/>
+<text x="36" y="514" font-weight="700" fill="#C9781B">Skip, whatever your budget</text>
+<text x="36" y="538" fill="#222">• Any robot over $200 without LiDAR or camera mapping — 2018 navigation at a 2026 price.</text>
+<text x="36" y="560" fill="#222">• Roborock Saros Z70 for the arm — $2,600 for a gimmick with below-average measured suction.</text>
+<text x="36" y="582" fill="#222">• "Mop" robots with a dragged wet cloth and no pad lifting if you have any carpet.</text>
+<text x="36" y="604" fill="#222">• Older Roomba j/i/s-series at full price while iRobot's post-bankruptcy lineup replaces them.</text>
+<text x="20" y="660" fill="#555" font-size="12">Under $200 and just want daily crumb patrol on hard floors? eufy 11S MAX — no app, no map, no dock, works.</text>
+<text x="500" y="780" text-anchor="middle" font-size="12" fill="#777">Picks reflect Vacuum Wars / RTINGS / Tom's Guide / TechGearLab testing cross-checked with recent owner reviews, September 2026. Full reasoning in the guide.</text>
+</g>
+</svg>

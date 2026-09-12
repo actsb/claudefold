@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 0 1040 640" role="img" aria-label="Robot vacuum brand map 2026: typical price versus how hands-off the dock is">
+<rect x="-40" width="1040" height="640" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">The US robot vacuum market in 2026: who plays where</text>
+<!-- axes -->
+<line x1="120" y1="540" x2="960" y2="540" stroke="#1B2A41" stroke-width="2"/>
+<line x1="120" y1="60" x2="120" y2="540" stroke="#1B2A41" stroke-width="2"/>
+<g font-size="13" fill="#555" text-anchor="middle">
+<text x="120" y="562">$200</text><text x="330" y="562">$600</text><text x="540" y="562">$1,000</text><text x="750" y="562">$1,400</text><text x="960" y="562">$1,800</text>
+</g>
+<text x="540" y="592" text-anchor="middle" font-size="14" fill="#1B2A41" font-weight="600">Typical street price of the brand's best-selling models →</text>
+<g font-size="12" fill="#555" text-anchor="end">
+<text x="110" y="474">Charge-only</text><text x="110" y="364">Self-empty</text><text x="110" y="254">Omni (empty +</text><text x="110" y="270">wash/dry/refill)</text><text x="110" y="124">Omni+ (hot water,</text><text x="110" y="140">bagless, plumbing)</text>
+</g>
+<text x="-12" y="300" transform="rotate(-90 -12 300)" text-anchor="middle" font-size="14" fill="#1B2A41" font-weight="600">How hands-off the dock is →</text>
+<g stroke="#eee" stroke-width="1"><line x1="120" y1="470" x2="960" y2="470"/><line x1="120" y1="360" x2="960" y2="360"/><line x1="120" y1="250" x2="960" y2="250"/><line x1="120" y1="120" x2="960" y2="120"/></g>
+<!-- bubbles -->
+<g font-size="13" fill="#1B2A41" text-anchor="middle">
+<circle cx="165" cy="470" r="40" fill="#C9D1DC"/><text x="165" y="466" font-weight="700" font-size="12">Tikom · Lefant</text><text x="165" y="481" font-size="11">eufy 11S</text>
+<text x="165" y="522" font-size="11" fill="#555">bump navigation, no dock</text>
+<circle cx="225" cy="360" r="40" fill="#8FB8DE"/><text x="225" y="365" font-weight="700">Shark</text>
+<text x="225" y="416" font-size="11" fill="#555">carpet + bagless dock, $300–$500</text>
+<circle cx="320" cy="322" r="38" fill="#8FB8DE"/><text x="320" y="327" font-weight="700">iRobot</text>
+<text x="345" y="380" font-size="11" fill="#555">post-bankruptcy reboot</text>
+<circle cx="382" cy="250" r="40" fill="#7FD1A5"/><text x="382" y="255" font-weight="700">eufy</text>
+<text x="430" y="255" text-anchor="start" font-size="11" fill="#555">quiet, corners, $200–$1,600 range</text>
+<circle cx="435" cy="135" r="42" fill="#1E8E5A"/><text x="435" y="140" font-weight="700" fill="#fff">Dreame</text>
+<text x="435" y="192" font-size="11" fill="#555">spec-sheet value, climbing legs</text>
+<circle cx="520" cy="110" r="42" fill="#1E8E5A"/><text x="520" y="115" font-weight="700" fill="#fff">Ecovacs</text>
+<text x="520" y="58" font-size="11" fill="#555">roller-mop pioneer, uneven software</text>
+<circle cx="600" cy="150" r="50" fill="#1B2A41"/><text x="600" y="155" font-weight="700" fill="#fff">Roborock</text>
+<text x="600" y="215" font-size="11" fill="#555">premium all-rounder, best app</text>
+<circle cx="675" cy="105" r="38" fill="#1E8E5A"/><text x="675" y="110" font-weight="700" fill="#fff">Narwal</text>
+<text x="705" y="160" font-size="11" fill="#555">mopping specialist</text>
+<circle cx="820" cy="80" r="30" fill="#C9781B"/><text x="820" y="85" font-weight="700" fill="#fff" font-size="11">Saros Z70</text>
+<text x="820" y="128" font-size="11" fill="#555">$2,600 robot-arm experiment</text>
+</g>
+<text x="960" y="620" text-anchor="end" font-size="12" fill="#777">Bubble size ≈ share of Amazon's US best-seller list (qualitative). Price = where each brand's volume sits, not its cheapest or dearest model.</text>
+</g>
+</svg>
