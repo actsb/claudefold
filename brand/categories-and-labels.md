@@ -64,4 +64,4 @@ Start with the first row and expand one section at a time; a section tab appears
 * Best Smart Glasses of 2026 — `Smart Glasses, Buying Guide, Premium, Under $500`
 * Best Portable Power Stations of 2026 — `Power Stations, Buying Guide, Home Backup, Under $500, Camping`
 
-Nav tabs (Layout → Pages gadget → add external links): `/search/label/Wireless%20Earbuds`, `/search/label/Smart%20Glasses`, `/search/label/Power%20Stations`.
+Nav tabs: each category has a static **hub page** with the same short title as its label (`/p/wireless-earbuds.html`, `/p/smart-glasses.html`, `/p/power-stations.html`, sources in `brand/pages/hub-*.html`, published by `scripts/publish_blogger.py --hubs-only`). Blogger adds new pages to the Pages gadget; if a tab is missing, Layout → Pages gadget → Edit → tick the page → Save. The Robot Vacuums tab is an external link to `/search/label/Robot%20Vacuums`.
