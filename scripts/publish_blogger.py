@@ -54,6 +54,7 @@ PAGES = [
     ("Privacy & Cookie Policy", "brand/pages/privacy-policy.html"),
     ("Contact Us", "brand/pages/contact.html"),
     # category hub pages — short titles so they read as nav tabs in the Pages gadget
+    ("Robot Vacuums", "brand/pages/hub-robot-vacuums.html"),
     ("Wireless Earbuds", "brand/pages/hub-wireless-earbuds.html"),
     ("Smart Glasses", "brand/pages/hub-smart-glasses.html"),
     ("Power Stations", "brand/pages/hub-power-stations.html"),
@@ -103,7 +104,7 @@ if POSTS_ONLY or ONLY:
 st, existing = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "live", "fetchBodies": "false", "maxResults": 50})
 st2, drafts = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "draft", "fetchBodies": "false", "maxResults": 50})
 by_title = {p["title"]: p for p in (existing.get("items", []) + drafts.get("items", []))}
-for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-3:] if HUBS_ONLY else PAGES)):
+for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-4:] if HUBS_ONLY else PAGES)):
     body = {"title": title, "content": strip_comments(pathlib.Path(f).read_text(encoding="utf-8"))}
     if title in by_title:
         st, res = call("PUT", f"/blogs/{BLOG_ID}/pages/{by_title[title]['id']}", body)

@@ -104,6 +104,10 @@ def main(post_dir):
     easy = (d / "src" / "00-easy.html").read_text(encoding="utf-8")
     easy = responsive_grid(easy)
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
+    strip = ('<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> '
+             '<a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · '
+             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a></p>\n')
+    easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
               'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we tested, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
