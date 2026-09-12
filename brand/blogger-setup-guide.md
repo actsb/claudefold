@@ -96,11 +96,11 @@ So:
 
 | Page title | File | Path suggestion (Blogger picks it from the title) |
 |---|---|---|
-| About Verdict Picks | `brand/pages/about.html` | `/p/about.html` |
-| How We Rank Products | `brand/pages/how-we-rank.html` | `/p/how-we-rank.html` |
+| About Verdict Picks | `brand/pages/about.html` | `/p/about-verdict-picks.html` |
+| How We Rank Products | `brand/pages/how-we-rank.html` | `/p/how-we-rank-products.html` |
 | Affiliate Disclosure | `brand/pages/affiliate-disclosure.html` | `/p/affiliate-disclosure.html` |
-| Privacy & Cookie Policy | `brand/pages/privacy-policy.html` | `/p/privacy-policy.html` |
-| Contact | `brand/pages/contact.html` | `/p/contact.html` |
+| Privacy & Cookie Policy | `brand/pages/privacy-policy.html` | `/p/privacy-cookie-policy.html` |
+| Contact Us | `brand/pages/contact.html` | `/p/contact-us.html` |
 
 Each page: Options → Reader comments: **Don't allow**.
 
