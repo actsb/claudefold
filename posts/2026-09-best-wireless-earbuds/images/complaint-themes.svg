@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-label="Most common owner complaints about wireless earbuds, ranked qualitatively">
+<rect width="1000" height="600" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">What earbud owners complain about most (recent 1–3★ reviews and owner threads)</text>
+<g font-size="12" fill="#555" text-anchor="middle"><text x="470" y="66">Occasional</text><text x="640" y="66">Common</text><text x="830" y="66">Very common</text></g>
+<g font-size="13" fill="#1B2A41">
+<text x="30" y="100" font-weight="700">Fit: falling out, pressure, pain after an hour</text><rect x="350" y="86" width="540" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="120" font-size="11" fill="#555">The #1 reason for returns. Ear shapes vary more than earbuds do; foam tips and a fit test fix most cases, hook designs fix the rest.</text>
+<text x="30" y="160" font-weight="700">Battery fades after 12–24 months</text><rect x="350" y="146" width="500" height="22" rx="11" fill="#C9781B"/>
+<text x="30" y="180" font-size="11" fill="#555">Tiny non-replaceable cells; heat and full-charge storage accelerate it. Expect 60–70% of day-one runtime by year two on any brand.</text>
+<text x="30" y="220" font-weight="700">Connection dropouts, stutter, one side cutting out</text><rect x="350" y="206" width="440" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="240" font-size="11" fill="#555">Crowded 2.4 GHz areas, phone in a back pocket, multipoint fighting over two devices. Firmware updates fix a surprising share.</text>
+<text x="30" y="280" font-weight="700">One earbud won't charge / case won't charge</text><rect x="350" y="266" width="400" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="300" font-size="11" fill="#555">Usually dirty charging contacts (ear wax + sweat) — not a defect. Clean pins with a dry swab before claiming warranty.</text>
+<text x="30" y="340" font-weight="700">ANC: pressure feeling, hiss, wind noise</text><rect x="350" y="326" width="380" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="360" font-size="11" fill="#555">Pressure sensitivity is individual; try a lower ANC level or adaptive mode. Some AirPods Pro 3 owners reported static that firmware addressed.</text>
+<text x="30" y="400" font-weight="700">Touch controls too sensitive or unresponsive</text><rect x="350" y="386" width="330" height="22" rx="11" fill="#E0A24A"/>
+<text x="30" y="420" font-size="11" fill="#555">Stem-squeeze (Apple, Nothing, Beats) draws far fewer complaints than touch pads (Samsung, Sony, budget brands).</text>
+<text x="30" y="460" font-weight="700">Call quality in wind, traffic, or a busy office</text><rect x="350" y="446" width="300" height="22" rx="11" fill="#F0C987"/>
+<text x="30" y="480" font-size="11" fill="#555">Bose, Sony XM6 and AirPods lead the labs; Technics, Sennheiser and most budget buds trail. If you take calls outdoors, weight this heavily.</text>
+<text x="30" y="520" font-weight="700">Counterfeits and "renewed" units sold as new</text><rect x="350" y="506" width="260" height="22" rx="11" fill="#F0C987"/>
+<text x="30" y="540" font-size="11" fill="#555">Mostly AirPods. Buy "Ships from and sold by Amazon.com" or Apple/Best Buy, and check Find My + separate L/R serials on arrival.</text>
+</g>
+<text x="500" y="582" text-anchor="middle" font-size="12" fill="#777">Qualitative ranking of themes across recent Amazon 1–3★ reviews and Reddit owner threads for the earbuds in this guide — a tally, not a survey.</text>
+</g>
+</svg>

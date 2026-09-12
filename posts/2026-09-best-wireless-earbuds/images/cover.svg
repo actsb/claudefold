@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Best Wireless Earbuds of 2026 — Verdict Picks buying guide cover">
+<rect width="1200" height="630" fill="#1B2A41"/>
+<circle cx="1000" cy="330" r="240" fill="#22344F"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="70" y="80" rx="16" ry="16" width="330" height="34" fill="#1E8E5A"/>
+<text x="235" y="104" text-anchor="middle" font-size="16" font-weight="700" fill="#fff" letter-spacing="2">VERDICT PICKS · BUYING GUIDE</text>
+<text x="70" y="220" font-size="78" font-weight="800" fill="#fff">Best Wireless</text>
+<text x="70" y="305" font-size="78" font-weight="800" fill="#fff">Earbuds</text>
+<text x="70" y="390" font-size="78" font-weight="800" fill="#7FD1A5">of 2026</text>
+<text x="70" y="455" font-size="26" fill="#F7F5F0">AirPods 5 &amp; Pro 3 · Sony XM6 · Bose · Galaxy Buds · Pixel Buds</text>
+<text x="70" y="492" font-size="26" fill="#F7F5F0">Lab tests + owner reviews → one pick per phone and budget</text>
+<text x="70" y="560" font-size="18" fill="#9FB0C6">Updated for the September 2026 AirPods 5 launch</text>
+</g>
+<!-- earbud icons -->
+<g transform="translate(1000 330)">
+<g transform="translate(-95 0)"><path d="M-40 -70 C-40 -130 40 -130 40 -70 L40 -20 C40 20 -10 30 -20 60 L-30 150 C-32 170 -60 170 -62 150 L-58 40 C-56 10 -40 0 -40 -20 Z" fill="#E9ECF1"/><ellipse cx="-2" cy="-60" rx="26" ry="30" fill="#1B2A41"/><circle cx="-2" cy="-60" r="9" fill="#7FD1A5"/></g>
+<g transform="translate(95 0) scale(-1 1)"><path d="M-40 -70 C-40 -130 40 -130 40 -70 L40 -20 C40 20 -10 30 -20 60 L-30 150 C-32 170 -60 170 -62 150 L-58 40 C-56 10 -40 0 -40 -20 Z" fill="#E9ECF1"/><ellipse cx="-2" cy="-60" rx="26" ry="30" fill="#1B2A41"/><circle cx="-2" cy="-60" r="9" fill="#7FD1A5"/></g>
+<circle cx="150" cy="-150" r="42" fill="#1E8E5A"/><path d="M132 -150 l13 13 l25 -28" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

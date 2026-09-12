@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="What each price tier of wireless earbuds buys you in 2026">
+<rect width="1000" height="560" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">What your money buys in 2026 (typical sale prices)</text>
+<g font-size="13" fill="#222">
+<rect x="30" y="70" width="225" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="30" y="70" width="225" height="44" rx="10" fill="#C9D1DC"/>
+<text x="142" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">Under $60</text>
+<text x="42" y="140" font-weight="700" fill="#1E8E5A">You get</text><text x="42" y="160">• Decent sound, long battery</text><text x="42" y="178">• Basic or no ANC</text><text x="42" y="196">• IPX4–IPX7 water resistance</text>
+<text x="42" y="230" font-weight="700" fill="#C9781B">You give up</text><text x="42" y="250">• Real noise cancelling</text><text x="42" y="268">• Call quality in wind/noise</text><text x="42" y="286">• Multipoint, app EQ, updates</text><text x="42" y="304">• Brand support after year 1</text>
+<text x="42" y="340" fill="#555">Picks: JLab Go Pop ANC,</text><text x="42" y="358" fill="#555">Soundcore P20i / P31i,</text><text x="42" y="376" fill="#555">TOZO NC9</text>
+<rect x="268" y="70" width="225" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="268" y="70" width="225" height="44" rx="10" fill="#8FB8DE"/>
+<text x="380" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">$60 – $130</text>
+<text x="280" y="140" font-weight="700" fill="#1E8E5A">You get</text><text x="280" y="160">• Good hybrid ANC</text><text x="280" y="178">• LDAC hi-res, multipoint</text><text x="280" y="196">• Wireless charging, app EQ</text><text x="280" y="214">• 2023's $200 features</text>
+<text x="280" y="248" font-weight="700" fill="#C9781B">You give up</text><text x="280" y="268">• Flagship ANC depth</text><text x="280" y="286">• Mic quality, spatial audio</text><text x="280" y="304">• Ecosystem tricks</text>
+<text x="280" y="340" fill="#555">Picks: Soundcore Liberty 4 NC,</text><text x="280" y="358" fill="#555">EarFun Air Pro 4+, Nothing</text><text x="280" y="376" fill="#555">Ear (a), Pixel Buds 2a,</text><text x="280" y="394" fill="#555">AirPods 5 ($129)</text>
+<rect x="506" y="70" width="225" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="506" y="70" width="225" height="44" rx="10" fill="#7FD1A5"/>
+<text x="618" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">$130 – $250</text>
+<text x="518" y="140" font-weight="700" fill="#1E8E5A">You get</text><text x="518" y="160">• Near-flagship ANC &amp; sound</text><text x="518" y="178">• Ecosystem features</text><text x="518" y="196">• Heart rate, translation</text><text x="518" y="214">• 8h ANC-on battery</text>
+<text x="518" y="248" font-weight="700" fill="#C9781B">You give up</text><text x="518" y="268">• The last 10% of ANC</text><text x="518" y="286">• Audiophile tuning</text>
+<text x="518" y="340" fill="#555">Picks: AirPods Pro 3 ($199 sale),</text><text x="518" y="358" fill="#555">Pixel Buds Pro 2, Galaxy</text><text x="518" y="376" fill="#555">Buds4 Pro, Nothing Ear (3),</text><text x="518" y="394" fill="#555">Powerbeats Pro 2, Shokz OpenFit 2+</text>
+<rect x="744" y="70" width="225" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="744" y="70" width="225" height="44" rx="10" fill="#1E8E5A"/>
+<text x="856" y="98" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">$250 – $330</text>
+<text x="756" y="140" font-weight="700" fill="#1E8E5A">You get</text><text x="756" y="160">• Best ANC on earth (Bose)</text><text x="756" y="178">• Best all-rounder (Sony)</text><text x="756" y="196">• Audiophile sound (Technics,</text><text x="756" y="214">  Sennheiser)</text>
+<text x="756" y="248" font-weight="700" fill="#C9781B">You give up</text><text x="756" y="268">• Ecosystem magic on iPhone</text><text x="756" y="286">• Case size (Sony, Bose)</text><text x="756" y="304">• Value — sales matter here</text>
+<text x="756" y="340" fill="#555">Picks: Sony WF-1000XM6,</text><text x="756" y="358" fill="#555">Bose QC Ultra 2nd Gen,</text><text x="756" y="376" fill="#555">Technics AZ100,</text><text x="756" y="394" fill="#555">Sennheiser MTW4</text>
+</g>
+<text x="500" y="540" text-anchor="middle" font-size="12" fill="#777">Sale prices observed at US retailers, September 2026. List prices run $30–$80 higher; flagships are discounted within months of launch.</text>
+</g>
+</svg>
