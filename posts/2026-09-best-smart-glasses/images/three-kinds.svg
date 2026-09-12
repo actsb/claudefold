@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="The three kinds of smart glasses in 2026 and what each one is for">
+<rect width="1000" height="560" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">"Smart glasses" means three different products. Pick the kind first.</text>
+<g font-size="13" fill="#222">
+<rect x="30" y="66" width="300" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="30" y="66" width="300" height="46" rx="10" fill="#8FB8DE"/>
+<text x="180" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">1 · AI camera glasses</text>
+<text x="44" y="136" font-weight="700" fill="#1E8E5A">What they do</text>
+<text x="44" y="156">• Camera + open-ear speakers + mics</text><text x="44" y="174">• Ask an AI about what you see</text><text x="44" y="192">• POV photos/video, calls, music</text><text x="44" y="210">• Live translation in your ear</text>
+<text x="44" y="240" font-weight="700" fill="#C9781B">No screen — answers are spoken</text>
+<text x="44" y="270" font-weight="700" fill="#1B2A41">Examples &amp; prices</text>
+<text x="44" y="290">Ray-Ban Meta Gen 2 — $379</text><text x="44" y="308">Oakley Meta HSTN — $399</text><text x="44" y="326">Oakley Meta Vanguard — $499</text><text x="44" y="344">Rokid AI Glasses Style — $299</text><text x="44" y="362">Solos AirGo V — $299</text>
+<text x="44" y="392" font-weight="700" fill="#1B2A41">Best for</text>
+<text x="44" y="412">Hands-free capture, travel,</text><text x="44" y="430">"what am I looking at", music</text>
+<text x="44" y="460" font-weight="700" fill="#1B2A41">Weight · battery</text><text x="44" y="480">~50 g · 4–9 h</text>
+<rect x="350" y="66" width="300" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="350" y="66" width="300" height="46" rx="10" fill="#7FD1A5"/>
+<text x="500" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#1B2A41">2 · Display AI glasses (HUD)</text>
+<text x="364" y="136" font-weight="700" fill="#1E8E5A">What they do</text>
+<text x="364" y="156">• Everything in kind 1, plus a small</text><text x="364" y="174">  in-lens screen for text &amp; maps</text><text x="364" y="192">• Captions, translation, directions,</text><text x="364" y="210">  notifications, teleprompter</text>
+<text x="364" y="240" font-weight="700" fill="#C9781B">Not for movies — it's a 20° readout</text>
+<text x="364" y="270" font-weight="700" fill="#1B2A41">Examples &amp; prices</text>
+<text x="364" y="290">Meta Ray-Ban Display — $799</text><text x="364" y="308">Rokid Glasses — $599</text><text x="364" y="326">Even Realities G2 — $599 (no camera)</text><text x="364" y="344">Halliday — $489</text><text x="364" y="362">Android XR display glasses — fall 2026</text>
+<text x="364" y="392" font-weight="700" fill="#1B2A41">Best for</text>
+<text x="364" y="412">Glanceable info without the phone,</text><text x="364" y="430">languages, navigation, meetings</text>
+<text x="364" y="460" font-weight="700" fill="#1B2A41">Weight · battery</text><text x="364" y="480">49–69 g · 6 h (Even G2: days)</text>
+<rect x="670" y="66" width="300" height="440" rx="10" fill="#F7F5F0" stroke="#ddd"/><rect x="670" y="66" width="300" height="46" rx="10" fill="#1E8E5A"/>
+<text x="820" y="95" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">3 · XR display glasses</text>
+<text x="684" y="136" font-weight="700" fill="#1E8E5A">What they do</text>
+<text x="684" y="156">• A big virtual screen (100"+) from a</text><text x="684" y="174">  phone, laptop, Steam Deck, console</text><text x="684" y="192">• Movies on planes, gaming, a private</text><text x="684" y="210">  monitor; 3DoF screen anchoring</text>
+<text x="684" y="240" font-weight="700" fill="#C9781B">Tethered by USB-C — no AI, no camera</text>
+<text x="684" y="270" font-weight="700" fill="#1B2A41">Examples &amp; prices</text>
+<text x="684" y="290">Xreal One Pro — $599</text><text x="684" y="308">Xreal One / 1S — less</text><text x="684" y="326">Viture Luma Pro — $499</text><text x="684" y="344">Rokid AR Lite — ~$500</text><text x="684" y="362">(Apple Vision Pro is a headset, not this)</text>
+<text x="684" y="392" font-weight="700" fill="#1B2A41">Best for</text>
+<text x="684" y="412">Flights, hotel rooms, handheld gaming,</text><text x="684" y="430">working on a laptop in a tiny space</text>
+<text x="684" y="460" font-weight="700" fill="#1B2A41">Weight · battery</text><text x="684" y="480">75–90 g · runs off the device</text>
+</g>
+<text x="500" y="540" text-anchor="middle" font-size="12" fill="#777">Prices are US list prices, September 2026. Kind 1 and 2 need a phone and an account (Meta, Rokid, Even); kind 3 needs a device with USB-C DisplayPort output.</text>
+</g>
+</svg>

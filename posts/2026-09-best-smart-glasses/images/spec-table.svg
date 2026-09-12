@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Spec comparison of 2026 smart glasses: display, weight, battery, camera, AI, price">
+<rect width="1000" height="560" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#222">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">The 2026 field at a glance</text>
+<rect x="20" y="56" width="960" height="34" fill="#F7F5F0"/>
+<g font-weight="700" fill="#1B2A41" font-size="12">
+<text x="28" y="78">Model</text><text x="230" y="78">Display</text><text x="440" y="78">Weight</text><text x="520" y="78">Battery</text><text x="620" y="78">Camera</text><text x="720" y="78">AI</text><text x="850" y="78">Price</text><text x="920" y="78">Rx</text>
+</g>
+<g>
+<text x="28" y="116" font-weight="700">Ray-Ban Meta Gen 2</text><text x="230" y="116">none</text><text x="440" y="116">~52 g</text><text x="520" y="116">8 h (+48 h case)</text><text x="620" y="116">12MP, 3K video</text><text x="720" y="116">Meta AI, Live AI</text><text x="850" y="116">$379</text><text x="920" y="116">yes</text>
+<text x="28" y="146" font-weight="700">Oakley Meta HSTN</text><text x="230" y="146">none</text><text x="440" y="146">~50 g</text><text x="520" y="146">8 h</text><text x="620" y="146">12MP, 3K</text><text x="720" y="146">Meta AI</text><text x="850" y="146">$399</text><text x="920" y="146">yes</text>
+<text x="28" y="176" font-weight="700">Oakley Meta Vanguard</text><text x="230" y="176">none</text><text x="440" y="176">~66 g</text><text x="520" y="176">9 h</text><text x="620" y="176">12MP, centered</text><text x="720" y="176">Meta AI + Garmin/Strava</text><text x="850" y="176">$499</text><text x="920" y="176">limited</text>
+<text x="28" y="206" font-weight="700">Meta Ray-Ban Display</text><text x="230" y="206">600×600 color, 20°, right eye, 5000 nits</text><text x="440" y="206">~69 g</text><text x="520" y="206">6 h mixed (+30 h case)</text><text x="620" y="206">12MP</text><text x="720" y="206">Meta AI + Neural Band</text><text x="850" y="206">$799</text><text x="920" y="206">−4 to +4</text>
+<text x="28" y="236" font-weight="700">Rokid Glasses</text><text x="230" y="236">480×398 green, 23°, both eyes</text><text x="440" y="236">49 g</text><text x="520" y="236">a day of light use</text><text x="620" y="236">12MP Sony</text><text x="720" y="236">ChatGPT or Gemini</text><text x="850" y="236">$599</text><text x="920" y="236">yes</text>
+<text x="28" y="266" font-weight="700">Rokid AI Glasses Style</text><text x="230" y="266">none</text><text x="440" y="266">~45 g</text><text x="520" y="266">"impressive" (reviews)</text><text x="620" y="266">12MP</text><text x="720" y="266">ChatGPT or Gemini</text><text x="850" y="266">$299</text><text x="920" y="266">yes</text>
+<text x="28" y="296" font-weight="700">Even Realities G2</text><text x="230" y="296">green waveguide HUD, both eyes</text><text x="440" y="296">~36 g</text><text x="520" y="296">~48 h</text><text x="620" y="296">none</text><text x="720" y="296">Even AI (ChatGPT-based)</text><text x="850" y="296">$599</text><text x="920" y="296">yes</text>
+<text x="28" y="326" font-weight="700">Xreal One Pro (XR)</text><text x="230" y="326">1080p micro-OLED, 57°, both eyes, 120 Hz</text><text x="440" y="326">87 g</text><text x="520" y="326">tethered</text><text x="620" y="326">none</text><text x="720" y="326">none</text><text x="850" y="326">$599</text><text x="920" y="326">inserts</text>
+<text x="28" y="356" font-weight="700">Viture Luma Pro (XR)</text><text x="230" y="356">1200p micro-OLED, 52°, dimming lenses</text><text x="440" y="356">~80 g</text><text x="520" y="356">tethered</text><text x="620" y="356">none</text><text x="720" y="356">none</text><text x="850" y="356">$499</text><text x="920" y="356">dials/inserts</text>
+<text x="28" y="386" font-weight="700">Amazon Echo Frames (3rd Gen)</text><text x="230" y="386">none</text><text x="440" y="386">~40 g</text><text x="520" y="386">6 h talk / 14 h mixed</text><text x="620" y="386">none</text><text x="720" y="386">Alexa+</text><text x="850" y="386">$270</text><text x="920" y="386">yes</text>
+<text x="28" y="416" font-weight="700">Android XR glasses (Google/Samsung)</text><text x="230" y="416">audio &amp; display versions</text><text x="440" y="416">—</text><text x="520" y="416">—</text><text x="620" y="416">yes</text><text x="720" y="416">Gemini</text><text x="850" y="416">TBA</text><text x="920" y="416">fall 2026</text>
+</g>
+<g stroke="#eee"><line x1="20" y1="126" x2="980" y2="126"/><line x1="20" y1="156" x2="980" y2="156"/><line x1="20" y1="186" x2="980" y2="186"/><line x1="20" y1="216" x2="980" y2="216"/><line x1="20" y1="246" x2="980" y2="246"/><line x1="20" y1="276" x2="980" y2="276"/><line x1="20" y1="306" x2="980" y2="306"/><line x1="20" y1="336" x2="980" y2="336"/><line x1="20" y1="366" x2="980" y2="366"/><line x1="20" y1="396" x2="980" y2="396"/><line x1="20" y1="426" x2="980" y2="426"/></g>
+<rect x="20" y="446" width="960" height="90" rx="8" fill="#F7F5F0"/>
+<text x="36" y="470" font-weight="700" fill="#1B2A41" font-size="13">How to read it</text>
+<text x="36" y="492">Battery figures are manufacturer claims for mixed use; Live AI on Meta glasses drains a charge in about 30 minutes. Weights are from reviewers' scales where published.</text>
+<text x="36" y="510">"Rx" = prescription lenses available from the maker or a retrofit service; the Display's −4/+4 range is the tightest. XR glasses take snap-in inserts instead.</text>
+<text x="36" y="528">Prices are US list, September 2026; Ray-Ban Meta Gen 1 clearance runs $224–$239 and Rokid Style has sold for $269.</text>
+</g>
+</svg>

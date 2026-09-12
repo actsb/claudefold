@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="Smart glasses privacy: default settings to change and where the glasses are banned">
+<rect width="1000" height="560" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13" fill="#222">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">The privacy reality in 2026: what's on by default, and where you can't wear them</text>
+<rect x="30" y="60" width="460" height="470" rx="10" fill="#F7F5F0" stroke="#ddd"/>
+<text x="50" y="90" font-size="15" font-weight="700" fill="#C9781B">Meta AI glasses — defaults to change on day one</text>
+<text x="50" y="120" font-weight="700">1. "Hey Meta" wake word</text><text x="50" y="138">Keeps the mics — and camera-for-AI — always ready. Turn it off</text><text x="50" y="156">in the Meta AI app if you want button-only capture.</text>
+<text x="50" y="186" font-weight="700">2. Voice recordings</text><text x="50" y="204">Stored by default, up to a year, no opt-out per Meta's 2025 policy.</text><text x="50" y="222">Deletable manually in the app's voice-history settings.</text>
+<text x="50" y="252" font-weight="700">3. Photos, video and audio used to train Meta AI</text><text x="50" y="270">Camera captures used with Meta AI feed the training pipeline by default.</text><text x="50" y="288">Review "Meta AI with camera" and data-sharing toggles in Settings → Privacy.</text>
+<text x="50" y="318" font-weight="700">4. Human review</text><text x="50" y="336">A 2026 lawsuit alleges contractors reviewed intimate footage. Assume</text><text x="50" y="354">anything you send to the AI can be seen by a person.</text>
+<text x="50" y="384" font-weight="700">5. The LED</text><text x="50" y="402">Recording lights the front LED; it's small and easy to miss in daylight.</text><text x="50" y="420">Tell people. Ask first indoors. Don't record where you'd need consent.</text>
+<text x="50" y="456" font-size="12" fill="#555">Rokid (ChatGPT/Gemini), Even Realities and Android XR glasses have their own</text><text x="50" y="474" font-size="12" fill="#555">policies; Even's G2 sidesteps most of this by having no camera at all.</text>
+<rect x="510" y="60" width="460" height="470" rx="10" fill="#FFF7EC" stroke="#C9781B"/>
+<text x="530" y="90" font-size="15" font-weight="700" fill="#C9781B">Where camera glasses are banned (a growing list)</text>
+<text x="530" y="120">• <tspan font-weight="700">Courts:</tspan> New York banned camera/mic eyewear statewide in all</text><text x="545" y="138">Unified Court System facilities (July 20, 2026); federal courts list them</text><text x="545" y="156">as prohibited items.</text>
+<text x="530" y="186">• <tspan font-weight="700">Cinemas and theatres</tspan> — anti-piracy policies, US and UK chains.</text>
+<text x="530" y="216">• <tspan font-weight="700">Gyms, spas, locker rooms, pools, cruise ships, casinos.</tspan></text>
+<text x="530" y="246">• <tspan font-weight="700">Schools and exam halls</tspan> — after the Korean "AI glasses solved the</text><text x="545" y="264">college entrance exam" video, exam boards worldwide moved to ban them.</text>
+<text x="530" y="294">• <tspan font-weight="700">Hospitals and clinics, workplaces</tspan> with recording policies.</text>
+<text x="530" y="324">• <tspan font-weight="700">Military bases, secure facilities, DEF CON 34</tspan> (no exceptions,</text><text x="545" y="342">including prescription versions).</text>
+<text x="530" y="372">• <tspan font-weight="700">EU:</tspan> the AI Act's ban on real-time remote biometric identification</text><text x="545" y="390">in public applied from August 2, 2026 — facial recognition on glasses</text><text x="545" y="408">is off the table there.</text>
+<text x="530" y="444" font-size="12" fill="#555">Trackers counted 47+ venues and jurisdictions with explicit bans by mid-2026,</text><text x="530" y="462" font-size="12" fill="#555">up from a handful in 2024. Expect a "please remove your glasses" moment.</text>
+<text x="530" y="496" font-weight="700" fill="#1B2A41">Camera-free alternatives:</text><text x="530" y="514">Even Realities G2, Amazon Echo Frames, Xreal/Viture XR glasses.</text>
+</g>
+<text x="500" y="550" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#777">Sources: Meta privacy policy updates (2025), TechCrunch, Incogni, Glasses Radar ban tracker, NY OCA notice, MBC/Korean press on exam cheating. Check the current policy before relying on any default.</text>
+</svg>

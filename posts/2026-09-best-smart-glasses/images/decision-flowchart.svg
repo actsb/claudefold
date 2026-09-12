@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" role="img" aria-label="Decision flowchart: which smart glasses should you buy in 2026">
+<rect width="1000" height="760" fill="#fff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#1B2A41"/></marker></defs>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13">
+<text x="500" y="34" text-anchor="middle" font-size="22" font-weight="700" fill="#1B2A41">Which smart glasses should you buy? Start with what you want them to do.</text>
+<rect x="370" y="60" width="260" height="44" rx="22" fill="#1B2A41"/><text x="500" y="88" text-anchor="middle" fill="#fff" font-weight="700" font-size="15">What's the main job?</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M430 104 L170 150"/><path d="M500 104 L500 150"/><path d="M570 104 L830 150"/></g>
+<rect x="60" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="170" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Capture + AI, hands-free</text>
+<rect x="390" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="500" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">Info on a screen in my eye</text>
+<rect x="720" y="152" width="220" height="40" rx="8" fill="#F7F5F0" stroke="#1B2A41"/><text x="830" y="177" text-anchor="middle" font-weight="700" fill="#1B2A41">A big private screen</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M170 192 L170 240"/><path d="M500 192 L500 240"/><path d="M830 192 L830 240"/></g>
+<rect x="60" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="170" y="269" text-anchor="middle" fill="#1B2A41">Sports, or everyday?</text>
+<rect x="390" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="500" y="269" text-anchor="middle" fill="#1B2A41">OK with a camera on your face?</text>
+<rect x="720" y="242" width="220" height="44" rx="8" fill="#fff" stroke="#1B2A41" stroke-dasharray="4 3"/><text x="830" y="269" text-anchor="middle" fill="#1B2A41">Features or picture?</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M120 286 L120 340"/><path d="M220 286 L220 340"/></g>
+<text x="105" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">SPORT</text><text x="235" y="322" fill="#C9781B" font-weight="700">DAILY</text>
+<rect x="20" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="95" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Oakley Meta</text><text x="95" y="384" text-anchor="middle" font-weight="700" fill="#1B2A41">Vanguard</text>
+<text x="95" y="408" text-anchor="middle" font-size="11" fill="#555">$499 · 9 h · Garmin</text><text x="95" y="424" text-anchor="middle" font-size="11" fill="#555">&amp; Strava, centered</text><text x="95" y="440" text-anchor="middle" font-size="11" fill="#555">POV camera</text>
+<rect x="180" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="255" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Ray-Ban Meta Gen 2</text><text x="255" y="384" text-anchor="middle" font-size="11" fill="#555">$379 · 8 h · 3K video</text>
+<text x="255" y="408" text-anchor="middle" font-size="11" fill="#555">Budget: Rokid Style $299</text><text x="255" y="424" text-anchor="middle" font-size="11" fill="#555">or Gen 1 clearance $224.</text><text x="255" y="440" text-anchor="middle" font-size="11" fill="#555">Wait for Gen 3 (Sept 23)</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M450 286 L450 340"/><path d="M550 286 L550 340"/></g>
+<text x="435" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">YES</text><text x="565" y="322" fill="#C9781B" font-weight="700">NO</text>
+<rect x="350" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="425" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Rokid Glasses</text><text x="425" y="384" text-anchor="middle" font-size="11" fill="#555">$599 · 49 g · binocular</text>
+<text x="425" y="408" text-anchor="middle" font-size="11" fill="#555">ChatGPT or Gemini; or</text><text x="425" y="424" text-anchor="middle" font-size="11" fill="#555">Meta Ray-Ban Display $799</text><text x="425" y="440" text-anchor="middle" font-size="11" fill="#555">for color + Neural Band</text>
+<rect x="510" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="585" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Even Realities G2</text><text x="585" y="384" text-anchor="middle" font-size="11" fill="#555">$599 · no camera</text>
+<text x="585" y="408" text-anchor="middle" font-size="11" fill="#555">translation, navigation,</text><text x="585" y="424" text-anchor="middle" font-size="11" fill="#555">teleprompter, notes;</text><text x="585" y="440" text-anchor="middle" font-size="11" fill="#555">looks like normal glasses</text>
+<g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M780 286 L780 340"/><path d="M880 286 L880 340"/></g>
+<text x="765" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">FEATURES</text><text x="895" y="322" fill="#C9781B" font-weight="700">PICTURE</text>
+<rect x="680" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="755" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Xreal One Pro</text><text x="755" y="384" text-anchor="middle" font-size="11" fill="#555">$599 · 57° · X1 chip</text>
+<text x="755" y="408" text-anchor="middle" font-size="11" fill="#555">3DoF anchoring built in,</text><text x="755" y="424" text-anchor="middle" font-size="11" fill="#555">ultrawide on PC;</text><text x="755" y="440" text-anchor="middle" font-size="11" fill="#555">Switch 2 needs the Hub</text>
+<rect x="840" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
+<text x="915" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Viture Luma Pro</text><text x="915" y="384" text-anchor="middle" font-size="11" fill="#555">$499 · 1200p · 52°</text>
+<text x="915" y="408" text-anchor="middle" font-size="11" fill="#555">sharpest, most comfortable,</text><text x="915" y="424" text-anchor="middle" font-size="11" fill="#555">electrochromic dimming;</text><text x="915" y="440" text-anchor="middle" font-size="11" fill="#555">fewer software tricks</text>
+<rect x="20" y="490" width="960" height="150" rx="8" fill="#FFF7EC" stroke="#C9781B"/>
+<text x="36" y="514" font-weight="700" fill="#C9781B">Wait, or skip</text>
+<text x="36" y="538" fill="#222">• <tspan font-weight="700">Wait until September 24</tspan> if you want Meta camera glasses — Meta Connect (Sept 23–24) is expected to bring Ray-Ban Meta Gen 3 with all-day Live AI.</text>
+<text x="36" y="560" fill="#222">• <tspan font-weight="700">Wait for fall</tspan> if you're on Android and want Gemini: Google/Samsung Android XR glasses (Warby Parker, Gentle Monster) launch this fall, price TBA.</text>
+<text x="36" y="582" fill="#222">• <tspan font-weight="700">Skip</tspan> the $17–$40 "ChatGPT AI smart glasses" on Amazon — 2K cameras, dead apps, no updates, and your footage on an unknown server.</text>
+<text x="36" y="604" fill="#222">• <tspan font-weight="700">Skip</tspan> any camera glasses if your week includes a gym, a courtroom, a clinic or a cinema — you'll be taking them off constantly.</text>
+<text x="36" y="626" fill="#222">• <tspan font-weight="700">Skip</tspan> XR glasses with an iPhone 14 or older (Lightning has no video out) and with a Switch 2 unless you budget for the Xreal Hub.</text>
+<text x="500" y="672" text-anchor="middle" font-size="12" fill="#777">Under $300 and just want audio + Alexa in normal-looking frames? Amazon Echo Frames (often $120–$170 on sale).</text>
+<text x="500" y="740" text-anchor="middle" font-size="12" fill="#777">Picks reflect Tom's Guide / Wareable / AR Compare / Android Authority / Gizmodo testing cross-checked with owner reviews, September 2026.</text>
+</g>
+</svg>
