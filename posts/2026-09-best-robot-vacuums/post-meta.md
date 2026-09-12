@@ -7,7 +7,7 @@ Paste each field into the matching Blogger post setting (right-hand panel of the
 | **Title** | `Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict` |
 | **Labels** | `Robot Vacuums, Buying Guide, For Pet Owners, Under $1000, Carpet, Hardwood Floors` |
 | **Search Description** (≤155 chars) | `Roborock vs Dreame vs Ecovacs vs eufy vs Shark vs Roomba: lab tests cross-checked with owner reviews to pick the best robot vacuum for every home and budget.` |
-| **Permalink → Custom** | `best-robot-vacuums-2026` (Blogger will produce `/2026/09/best-robot-vacuums-2026.html`) |
+| **Live URL** | https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html — leave the permalink alone now; changing it again only creates redirects and more suffixes |
 | **Featured image** (Blogger picks the first image; upload this one first if you want it as the thumbnail) | `images/cover.png` (1200×630 — also the right size for social sharing) |
 | **Options → Reader comments** | Allow (moderated) |
 | **Published date** | Leave as publish time; the byline inside the post says "Updated September 12, 2026" — change both together on future updates |
