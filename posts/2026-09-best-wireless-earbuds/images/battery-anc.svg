@@ -6,13 +6,13 @@
 <g stroke="#eee"><line x1="360" y1="72" x2="360" y2="560"/><line x1="480" y1="72" x2="480" y2="560"/><line x1="600" y1="72" x2="600" y2="560"/><line x1="720" y1="72" x2="720" y2="560"/><line x1="840" y1="72" x2="840" y2="560"/></g>
 <!-- scale: 60px per hour, x0=240 -->
 <g font-size="13" fill="#1B2A41">
-<text x="30" y="96">Shokz OpenFit 2+ (open-ear, no ANC)</text><rect x="240" y="82" width="660" height="20" fill="#C9D1DC"/><text x="908" y="97" font-size="12">11h</text>
+<text x="30" y="96">Shokz OpenFit 2+ (open-ear)</text><rect x="240" y="82" width="660" height="20" fill="#C9D1DC"/><text x="908" y="97" font-size="12">11h</text>
 <text x="30" y="132">Sony WF-1000XM6</text><rect x="240" y="118" width="480" height="20" fill="#1E8E5A"/><text x="728" y="133" font-size="12">8h (9h41m measured by SoundGuys)</text>
 <text x="30" y="168">AirPods Pro 3</text><rect x="240" y="154" width="480" height="20" fill="#1E8E5A"/><text x="728" y="169" font-size="12">8h</text>
 <text x="30" y="204">Pixel Buds Pro 2</text><rect x="240" y="190" width="480" height="20" fill="#4FA37B"/><text x="728" y="205" font-size="12">8h</text>
 <text x="30" y="240">Beats Powerbeats Pro 2</text><rect x="240" y="226" width="480" height="20" fill="#4FA37B"/><text x="728" y="241" font-size="12">8h</text>
 <text x="30" y="276">Soundcore Liberty 4 NC</text><rect x="240" y="262" width="480" height="20" fill="#4FA37B"/><text x="728" y="277" font-size="12">8h</text>
-<text x="30" y="312">Technics AZ100 · Sennheiser MTW4</text><rect x="240" y="298" width="450" height="20" fill="#8FB8DE"/><text x="698" y="313" font-size="12">7.5h</text>
+<text x="30" y="312">Technics AZ100 · Sennheiser</text><rect x="240" y="298" width="450" height="20" fill="#8FB8DE"/><text x="698" y="313" font-size="12">7.5h</text>
 <text x="30" y="348">Pixel Buds 2a</text><rect x="240" y="334" width="420" height="20" fill="#8FB8DE"/><text x="668" y="349" font-size="12">7h</text>
 <text x="30" y="384">Galaxy Buds4 Pro</text><rect x="240" y="370" width="360" height="20" fill="#E0A24A"/><text x="608" y="385" font-size="12">6h (4.5–5h with every feature on)</text>
 <text x="30" y="420">Bose QC Ultra Earbuds (2nd Gen)</text><rect x="240" y="406" width="360" height="20" fill="#E0A24A"/><text x="608" y="421" font-size="12">6h</text>
@@ -22,7 +22,7 @@
 </g>
 <rect x="30" y="570" width="940" height="56" rx="8" fill="#F7F5F0"/>
 <text x="50" y="592" font-size="13" fill="#1B2A41" font-weight="700">ANC tiers in 2026 lab testing:</text>
-<text x="50" y="612" font-size="13" fill="#222">Tier 1 — Bose QC Ultra 2, Sony XM6, AirPods Pro 3  ·  Tier 2 — Galaxy Buds4 Pro, Pixel Buds Pro 2/2a, Technics AZ100  ·  Tier 3 — Nothing Ear (3), Sennheiser MTW4, Liberty 4 NC, EarFun  ·  Open-fit — AirPods 5 (best of its kind)</text>
+<text x="50" y="612" font-size="12" fill="#222">Tier 1 — Bose QC Ultra 2, Sony XM6, AirPods Pro 3 · Tier 2 — Galaxy Buds4 Pro, Pixel Buds Pro 2/2a, Technics AZ100 · Tier 3 — Nothing Ear (3), Sennheiser, Liberty 4 NC, EarFun · Open-fit — AirPods 5</text>
 <text x="970" y="636" text-anchor="end" font-size="11" fill="#777">Claims from manufacturer spec sheets; measured figures noted. Expect 60–70% of these numbers by year two.</text>
 </g>
 </svg>

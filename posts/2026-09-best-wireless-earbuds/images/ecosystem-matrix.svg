@@ -21,7 +21,7 @@
 <rect x="30" y="460" width="940" height="140" rx="10" fill="#F7F5F0"/>
 <g font-size="13" fill="#222">
 <text x="50" y="488" font-weight="700" fill="#1B2A41">What you lose off-platform</text>
-<text x="50" y="512">• AirPods on Android: no Adaptive Audio, no Conversation Awareness, no hearing-health features, no Find My, no fit test, no firmware updates without an Apple device.</text>
+<text x="50" y="512">• AirPods on Android: no Adaptive Audio, Conversation Awareness, hearing features, Find My, fit test, or firmware updates.</text>
 <text x="50" y="534">• Galaxy Buds on iPhone: no app at all — no ANC adjustment, no EQ, no 360 Audio, no Galaxy AI translation.</text>
 <text x="50" y="556">• Pixel Buds on iPhone: no app, no Gemini, no Find My Device. On Galaxy: works, minus some Pixel-only tricks.</text>
 <text x="50" y="578">• Sony, Bose, Technics, Sennheiser, Nothing, Soundcore, EarFun: the same app and features on every phone — the safe choice if you switch platforms.</text>
