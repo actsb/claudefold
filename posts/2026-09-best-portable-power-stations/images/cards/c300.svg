@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Anker SOLIX C300 DC (illustration)">
+<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
+<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
+<rect x="234.0" y="139" width="132.0" height="30" rx="14" fill="#C9C9C4"/>
+<rect x="190.0" y="165" width="220" height="150" rx="22" fill="#2B2F36"/>
+<rect x="190.0" y="165" width="220" height="18" rx="9" fill="#8A8F98"/>
+<rect x="207.6" y="195.0" width="79.2" height="54.0" rx="10" fill="#1B2A41" stroke="#000" stroke-width="2"/>
+<text x="247.2" y="230.0" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#8FD3AE">288 Wh</text>
+<rect x="304.4" y="207.54" width="41.8" height="16.72" rx="8.36" fill="#F1F1EE"/>
+<rect x="312.76" y="212.55599999999998" width="25.08" height="6.688" rx="3.344" fill="#2B2F36"/>
+<rect x="356.2" y="207.54" width="41.8" height="16.72" rx="8.36" fill="#F1F1EE"/>
+<rect x="364.56" y="212.55599999999998" width="25.08" height="6.688" rx="3.344" fill="#2B2F36"/>
+<rect x="304.4" y="257.34000000000003" width="41.8" height="16.72" rx="8.36" fill="#F1F1EE"/>
+<rect x="312.76" y="262.356" width="25.08" height="6.688" rx="3.344" fill="#2B2F36"/>
+<rect x="356.2" y="257.34000000000003" width="41.8" height="16.72" rx="8.36" fill="#F1F1EE"/>
+<rect x="364.56" y="262.356" width="25.08" height="6.688" rx="3.344" fill="#2B2F36"/>
+<text x="351.2" y="300.6" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="11" fill="#F1F1EE" opacity="0.8">USB-C only</text>
+<rect x="207.6" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<rect x="234.0" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<rect x="260.4" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="239" height="28" rx="14" fill="#1B2A41"/>
+<text x="137.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">288 Wh · two 140 W USB-C · 6 lb</text>
+<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Anker SOLIX C300 DC</text>
+<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+</g>
+</svg>

@@ -23,7 +23,7 @@ minutes.
 | `posts/2026-09-best-robot-vacuums/post-meta.md` | Title, labels, search description, permalink, and the publishing checklist for that post |
 | `posts/2026-09-best-robot-vacuums/research-notes.md` | Data and sources the article is built from |
 | `posts/2026-09-best-robot-vacuums/images/` | The article graphics as `.svg` (inline in the post) and `.png` (for upload via the Blogger image tool) |
-| `scripts/` | `build_post.py` (inlines the SVGs into the post), `check_post.py` (word count / HTML / link / embed audit), `render_png.mjs` (SVG → PNG via Chromium) |
+| `scripts/` | `product_cards.py` (illustrated product cards from `cards.json`), `assemble_post.py` (easy shopping layer + deep-dive in `<details>`), `build_post.py` (inlines the SVG figures), `check_post.py` (word count / HTML / link / embed audit), `render_png.mjs` (SVG → PNG), `preview_post.mjs` (page screenshots for QA), `contact_sheet.mjs`, `publish_blogger.py` (Blogger API v3, all four posts + pages) |
 
 ## Publishing a post (short version)
 
@@ -34,6 +34,25 @@ minutes.
 5. Preview, check the video embeds play, then **Publish**.
 
 Full detail: `brand/blogger-setup-guide.md`.
+
+## Post format (since September 12, 2026)
+
+Every post has two layers. The **easy layer** comes first: the one product to buy (illustrated card, price,
+buy-if / skip-if / from-the-reviews, Amazon button, video), a *needs × budget* picker grid, what owners
+say, six terms in one line each, a 30-second card for every pick, and quick answers. The **deep-dive**
+(how we tested, brands, every pick in detail, complaints, buying calendar, sources) is folded into a
+`<details>` block underneath so the page stays long for search but reads short for people.
+
+```
+posts/<slug>/cards.json          one entry per pick: badge, price, buy_if, skip_if, owners, cta, video, art
+posts/<slug>/src/00-easy.html    the easy layer (placeholders <!--TOPPICK--> and <!--CARDS-->)
+posts/<slug>/src/01..06-*.html   the deep-dive parts
+python3 scripts/product_cards.py posts/<slug>     # cards.json -> images/cards/*.svg (original flat illustrations)
+python3 scripts/assemble_post.py posts/<slug>     # 00-easy + cards + <details>deep-dive</details> -> post.src.html
+python3 scripts/build_post.py posts/<slug>        # inline the <!--SVG:name--> figures -> post.html
+python3 scripts/check_post.py posts/<slug>/post.html
+node scripts/preview_post.mjs posts/<slug>/post.html /tmp/prev 760   # optional screenshots for QA
+```
 
 ## Rebuilding the launch article
 

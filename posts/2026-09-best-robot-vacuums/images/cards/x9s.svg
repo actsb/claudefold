@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Ecovacs Deebot X9S Pro Omni (illustration)">
+<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
+<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
+<rect x="400" y="110" width="150" height="190" rx="18" fill="#E4E2DC" stroke="#B9B6AE" stroke-width="3"/>
+<rect x="400" y="110" width="150" height="30" rx="14" fill="#B9B6AE"/>
+<rect x="418" y="160" width="48" height="70" rx="8" fill="#fff" opacity="0.7"/><rect x="484" y="160" width="48" height="70" rx="8" fill="#fff" opacity="0.7"/>
+<text x="475.0" y="284" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="12" fill="#666">wash · dry · empty</text>
+<circle cx="260" cy="200" r="112" fill="#2C2C2C" stroke="#111" stroke-width="6"/>
+<circle cx="260" cy="200" r="90" fill="none" stroke="#111" stroke-width="2" opacity="0.6"/>
+<path d="M 165 142 A 112 112 0 0 1 355 142" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round" opacity="0.9"/>
+<circle cx="260" cy="200" r="30" fill="#C9781B"/><circle cx="260" cy="200" r="16" fill="#fff" opacity="0.25"/><circle cx="260" cy="200" r="7" fill="#fff" opacity="0.6"/>
+<circle cx="312" cy="122" r="7" fill="#111"/><circle cx="314" cy="120" r="2" fill="#fff"/>
+<g stroke="#C9781B" stroke-width="4" stroke-linecap="round" opacity="0.8"><line x1="182" y1="130" x2="156" y2="110"/><line x1="182" y1="130" x2="150" y2="140"/><line x1="182" y1="130" x2="174" y2="98"/></g><circle cx="182" cy="130" r="5" fill="#C9781B"/>
+<rect x="200" y="262" width="120" height="14" rx="7" fill="#C9781B" opacity="0.35"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="232" height="28" rx="14" fill="#1B2A41"/>
+<text x="134.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Roller mop · 30,000 Pa · LiDAR</text>
+<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Ecovacs Deebot X9S Pro Omni</text>
+<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+</g>
+</svg>

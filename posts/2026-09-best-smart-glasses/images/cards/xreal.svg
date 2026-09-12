@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Xreal One Pro (illustration)">
+<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
+<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
+<rect x="108" y="160" width="165" height="95" rx="26" fill="#111" stroke="#222" stroke-width="10"/>
+<rect x="327" y="160" width="165" height="95" rx="26" fill="#111" stroke="#222" stroke-width="10"/>
+<path d="M 288 178 Q 300 168 312 178" fill="none" stroke="#222" stroke-width="9" stroke-linecap="round"/>
+<path d="M 110 176 L 70 150 M 490 176 L 530 150" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+<path d="M 128 230 L 168 180" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+<path d="M 347 230 L 387 180" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="224" height="28" rx="14" fill="#1B2A41"/>
+<text x="130.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Private cinema · 57° · 120 Hz</text>
+<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Xreal One Pro</text>
+<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+</g>
+</svg>

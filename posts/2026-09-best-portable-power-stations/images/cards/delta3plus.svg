@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="EcoFlow DELTA 3 Plus (illustration)">
+<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
+<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
+<rect x="210.0" y="99" width="180.0" height="30" rx="14" fill="#C9C9C4"/>
+<rect x="150.0" y="125" width="300" height="190" rx="22" fill="#3A3D42"/>
+<rect x="150.0" y="125" width="300" height="18" rx="9" fill="#5C6470"/>
+<rect x="174.0" y="163.0" width="108.0" height="68.39999999999999" rx="10" fill="#1B2A41" stroke="#000" stroke-width="2"/>
+<text x="228.0" y="205.2" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#8FD3AE">1,024 Wh</text>
+<rect x="306.0" y="163.0" width="57.0" height="57.0" rx="8" fill="#F1F1EE"/>
+<rect x="321.96" y="180.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/><rect x="340.2" y="180.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/>
+<rect x="373.0" y="163.0" width="57.0" height="57.0" rx="8" fill="#F1F1EE"/>
+<rect x="388.96" y="180.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/><rect x="407.2" y="180.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/>
+<rect x="306.0" y="228.0" width="57.0" height="57.0" rx="8" fill="#F1F1EE"/>
+<rect x="321.96" y="245.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/><rect x="340.2" y="245.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/>
+<rect x="373.0" y="228.0" width="57.0" height="57.0" rx="8" fill="#F1F1EE"/>
+<rect x="388.96" y="245.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/><rect x="407.2" y="245.1" width="6.84" height="18.240000000000002" rx="2" fill="#3A3D42"/>
+<rect x="174.0" y="245.39999999999998" width="28.0" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<rect x="210.0" y="245.39999999999998" width="28.0" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<rect x="246.0" y="245.39999999999998" width="28.0" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
+<path d="M 404.0 263 l -12 24 h 12 l -6 22 l 20 -30 h -12 l 8 -16 z" fill="#5C6470"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="347" height="28" rx="14" fill="#1B2A41"/>
+<text x="191.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Sub-10 ms UPS · 1,000 W solar · grows to 5 kWh</text>
+<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">EcoFlow DELTA 3 Plus</text>
+<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+</g>
+</svg>

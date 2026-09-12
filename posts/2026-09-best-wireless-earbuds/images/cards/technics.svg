@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Technics EAH-AZ100 (illustration)">
+<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
+<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
+<rect x="150" y="70" width="300" height="120" rx="40" fill="#3A3A3A" opacity="0.92"/>
+<rect x="150" y="150" width="300" height="140" rx="40" fill="#2B2B2B"/>
+<rect x="170" y="165" width="260" height="110" rx="30" fill="#000" opacity="0.18"/>
+<circle cx="300" cy="228" r="6" fill="#C0C0C0" opacity="0.8"/>
+<ellipse cx="248" cy="212" rx="34" ry="30" fill="#2B2B2B"/><circle cx="232" cy="228" r="12" fill="#2B2B2B" stroke="#fff" stroke-opacity="0.35" stroke-width="2"/><circle cx="256" cy="206" r="9" fill="#C0C0C0" opacity="0.85"/>
+<ellipse cx="352" cy="212" rx="34" ry="30" fill="#2B2B2B"/><circle cx="368" cy="228" r="12" fill="#2B2B2B" stroke="#fff" stroke-opacity="0.35" stroke-width="2"/><circle cx="344" cy="206" r="9" fill="#C0C0C0" opacity="0.85"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="340" height="28" rx="14" fill="#1B2A41"/>
+<text x="188.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Audiophile sound · 7.5h · 3-device multipoint</text>
+<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Technics EAH-AZ100</text>
+<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+</g>
+</svg>

@@ -27,6 +27,14 @@ Amazon pages that surface the candidates: **Best Sellers**, **Movers & Shakers**
 
 ## 3. Writing rules
 
+**Easy layer first (the part most readers see).** Big type (19 px body), short sentences, one idea each.
+Lead with the one product to buy and why, in plain words. Then the picker grid: rows are situations a
+reader recognises ("pets that shed", "a CPAP through the night"), columns are budgets, cells are product
+names that link to cards. "From the reviews" lines paraphrase what owners repeat — never invent quotes.
+Every pick gets an illustrated card, a price range we have actually seen, buy-if / skip-if, a video where
+one exists and one Amazon button. Jargon gets one line each. The deep-dive stays underneath in `<details>`.
+
+
 * Lead with the verdict box; readers who scroll no further must still get the right answer.
 * Every spec claim gets a reality check ("claimed 36,000 Pa; measured 0.41 kPa at the intake").
 * Every pick gets: spec box, 3–5 pros, 3–5 cons, the single most common owner complaint, "who should skip it", link.

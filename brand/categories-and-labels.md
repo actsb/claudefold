@@ -25,7 +25,8 @@ Label URL pattern: `https://acts39.blogspot.com/search/label/<Label%20Name>`
 | **Pets & Baby** | `Pet Tech` | Best automatic litter boxes · Best pet cameras · Best dog GPS trackers | High engagement, high AOV |
 | | `Baby Gear` | Best baby monitors · Best car seats (with safety-first framing) · Best strollers | |
 | **Outdoor & Auto** | `Dash Cams` | Best dash cams · Viofo vs Garmin vs 70mai | |
-| | `Power Stations` | Best portable power stations · EcoFlow vs Jackery vs Anker | |
+| | `Power Stations` | Best portable power stations · EcoFlow vs Jackery vs Anker | Live: Best Portable Power Stations of 2026 |
+| | `Smart Glasses` | Best smart & AI glasses · Ray-Ban Meta vs Rokid vs Xreal | Live: Best Smart Glasses of 2026 |
 | | `Coolers` | Best coolers · Yeti vs RTIC vs Coleman | |
 | **Home Office** | `Office Chairs` | Best office chairs · Herman Miller vs Steelcase vs budget | |
 | | `Standing Desks` | Best standing desks · Uplift vs FlexiSpot | |
@@ -56,6 +57,11 @@ Start with the first row and expand one section at a time; a section tab appears
 4. The **Labels** gadget in the layout shows **only category labels** (select them manually in the gadget settings).
 5. The nav (Pages gadget → external links) lists the **section tabs**; each tab points to the busiest category label in that section until the section has its own landing post.
 
-## E. Launch-post labels
+## E. Labels on the live posts
 
-`Robot Vacuums, Buying Guide, For Pet Owners, Under $1000, Carpet, Hardwood Floors`
+* Best Robot Vacuums of 2026 — `Robot Vacuums, Buying Guide, For Pet Owners, Under $1000, Carpet, Hardwood Floors`
+* Best Wireless Earbuds of 2026 — `Wireless Earbuds, Buying Guide, Under $300, Under $100`
+* Best Smart Glasses of 2026 — `Smart Glasses, Buying Guide, Premium, Under $500`
+* Best Portable Power Stations of 2026 — `Power Stations, Buying Guide, Home Backup, Under $500, Camping`
+
+Nav tabs (Layout → Pages gadget → add external links): `/search/label/Wireless%20Earbuds`, `/search/label/Smart%20Glasses`, `/search/label/Power%20Stations`.
