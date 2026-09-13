@@ -30,7 +30,7 @@ minutes.
 1. Blogger → Posts → **New post** → switch the editor to **HTML view** (the `<>` icon).
 2. Paste the contents of `posts/<slug>/post.html`.
 3. In the right-hand post settings: add the **Labels**, the **Search Description**, and the custom **Permalink** listed in `post-meta.md`.
-4. Replace every `YOURTAG-20` with your Amazon Associates tracking ID.
+4. Every Amazon link carries the live Associates tag `verdictpicks-20`; new posts must use the same tag.
 5. Preview, check the video embeds play, then **Publish**.
 
 Full detail: `brand/blogger-setup-guide.md`.

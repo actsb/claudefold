@@ -17,7 +17,7 @@ Paste each field into the matching Blogger post setting (right-hand panel of the
 * Word count (article text, excluding graphics): **~11,500 words** (`scripts/check_post.py` prints the exact figure).
 * 7 inline SVG graphics (cover, brand map, suction reality, dock tiers, complaint themes, decision flowchart, cost of ownership). PNG copies in `images/` are only needed if an SVG fails to display in Blogger's preview.
 * 14 ranked picks + 6 honorable mentions/avoid; 8 brand deep-dives; 11-question FAQ; 13-item source list.
-* 28 Amazon links, all `https://www.amazon.com/s?k=<model>&tag=YOURTAG-20` search links with `rel="nofollow sponsored noopener"`.
+* 28 Amazon links, all `https://www.amazon.com/s?k=<model>&tag=verdictpicks-20` search links with `rel="nofollow sponsored noopener"`.
 
 ## Video embeds (YouTube IDs used)
 
@@ -55,7 +55,7 @@ Amazon's Associates agreement requires product images to come through its own to
 
 - [ ] Blogger → Settings → Permissions → Reader access = **Public** (blog is currently private)
 - [ ] Settings → Meta tags → Enable search description = ON
-- [ ] Replace all 28 `YOURTAG-20` with your Associates tracking ID (find/replace in any text editor before pasting)
+- [x] All Amazon links carry the live Associates ID `verdictpicks-20` (set September 13, 2026)
 - [ ] Posts → New post → HTML view → paste `post.html`
 - [ ] Set Title, Labels, Search Description, Permalink from the table above
 - [ ] Insert product images via SiteStripe (or delete the 14 slot boxes)

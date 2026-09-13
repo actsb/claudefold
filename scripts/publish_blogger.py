@@ -166,4 +166,4 @@ for key, P in POSTS.items():
             verb = "created (short URL) + renamed to full title"
     print(f"post {key} {verb}: HTTP {st} status={res.get('status')} url={res.get('url', res.get('error', {}).get('message', ''))}")
 print("\nStill manual (the API cannot change blog settings or layout): Settings → Meta tags → search description per post"
-      " (see each post-meta.md); Layout → Pages gadget → add the new label URLs as tabs; Amazon tag YOURTAG-20 → your real tag.")
+      " (see each post-meta.md); Layout → Pages gadget → tick the hub pages.")

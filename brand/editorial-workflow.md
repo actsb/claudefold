@@ -49,7 +49,7 @@ one exists and one Amazon button. Jargon gets one line each. The deep-dive stays
 - [ ] Verdict box, disclosure line, and table of contents are in the first screen.
 - [ ] No spec appears without a source or a measured counterpart.
 - [ ] Every recommended product has a "who should skip it".
-- [ ] All `YOURTAG-20` placeholders replaced.
+- [ ] Every Amazon link carries `tag=verdictpicks-20` (the live Associates ID, registered September 13, 2026).
 - [ ] `scripts/check_post.py` passes (word count, no unreplaced placeholders, balanced tags, all embeds listed).
 - [ ] Preview on mobile: tables scroll horizontally, videos fit, SVGs visible.
 - [ ] Labels: 1 category + 1 post type + ≤4 intent labels. Search description ≤155 chars. Custom permalink set.

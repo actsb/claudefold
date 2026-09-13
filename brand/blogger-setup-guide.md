@@ -107,7 +107,7 @@ Each page: Options → Reader comments: **Don't allow**.
 ## 14. Amazon Associates (monetization) — do this the same day you go public
 
 1. Apply at https://affiliate-program.amazon.com with the live blog URL. You get a tracking ID that looks like `verdictpicks-20`.
-2. Replace every `YOURTAG-20` in the posts with that ID (all links in this repo are Amazon search links, e.g. `https://www.amazon.com/s?k=Roborock+Saros+10R&tag=YOURTAG-20`, so they work before you have product ASINs).
+2. The ID is `verdictpicks-20`, and every Amazon link in the posts already carries it (all links in this repo are Amazon search links, e.g. `https://www.amazon.com/s?k=Roborock+Saros+10R&tag=verdictpicks-20`, so they work before you have product ASINs).
 3. Amazon gives you **180 days to make 3 qualifying sales** or the account is closed; publish 5–8 guides before applying so there is traffic.
 4. Product photos: use **SiteStripe → Image** on the Amazon product page (paste the generated `<a><img></a>` code into the post's image slots). Amazon's operating agreement does not allow hot-linking product images any other way; the image slots in the launch post are clearly marked.
 5. Prices: do not paste live Amazon prices into text. Use manufacturer list price and "typically on sale for…" phrasing (this is how the launch post is written), or Amazon's own PA-API/SiteStripe widgets.
