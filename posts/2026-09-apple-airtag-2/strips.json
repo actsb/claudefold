@@ -1,0 +1,6 @@
+{"strips": [{"id": "airtag-day", "card": "airtag2", "title": "The keys, the bag, the flight — an AirTag 2 week", "panels": [
+ {"glyph": "music", "head": "7:50 AM — where are the keys?", "text": "Tap Play Sound. The new chime is about 50% louder. Second cushion from the left."},
+ {"glyph": "map", "head": "Arrows from across the room", "text": "Precision Finding shows a distance and an arrow, now from much farther away."},
+ {"glyph": "plane", "head": "Checked bag, tight connection", "text": "Share Item Location sends the airline a link to where your bag actually is."},
+ {"glyph": "check", "product": true, "host": {"pose": "thumbsup"}, "head": "$20 a tag, a year a battery", "text": "Buy the 4-pack under $80. Keys, wallet, suitcase, kid."}
+]}]}

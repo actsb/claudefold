@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Stanley Quencher H2.0 FlowState (40 oz) (product render)">
+<defs>
+<radialGradient id="cstanley-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cstanley-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cstanley-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cstanley-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cstanley-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#eaded8"/><stop offset="0.55" stop-color="#D9C2B6"/><stop offset="1" stop-color="#c9a998"/></linearGradient>
+<linearGradient id="cstanley-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cfb1a2"/><stop offset="1" stop-color="#b68a73"/></linearGradient>
+<linearGradient id="cstanley-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e3d3ca"/></linearGradient>
+<radialGradient id="cstanley-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#D9C2B6"/><stop offset="1" stop-color="#c19b87"/></radialGradient>
+<linearGradient id="cstanley-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cstanley-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cstanley-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cstanley-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#314d77"/><stop offset="1" stop-color="#090e16"/></linearGradient>
+<linearGradient id="cstanley-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cstanley-bg)"/><ellipse cx="300" cy="330" rx="90" ry="12" fill="#000" opacity="0.28" filter="url(#cstanley-blur)"/>
+<linearGradient id="cstanley-cyl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ba907a"/><stop offset="0.28" stop-color="#f5efec"/><stop offset="0.55" stop-color="#D9C2B6"/><stop offset="1" stop-color="#af7f66"/></linearGradient>
+<linearGradient id="cstanley-lidg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d5d5cc"/><stop offset="0.35" stop-color="#ffffff"/><stop offset="1" stop-color="#bebeb0"/></linearGradient>
+<path d="M 236 120 L 364 120 L 348 316 Q 300 330 252 316 Z" fill="url(#cstanley-cyl)"/>
+<ellipse cx="300" cy="120" rx="64" ry="12" fill="#eaded8"/>
+<rect x="232" y="96" width="136" height="30" rx="10" fill="url(#cstanley-lidg)"/><ellipse cx="300" cy="96" rx="68" ry="12" fill="#ffffff"/><rect x="300" y="84" width="14" height="24" rx="5" fill="#1B2A41" transform="rotate(12 300 84)"/>
+<path d="M 366 150 Q 430 150 430 210 Q 430 270 356 270" fill="none" stroke="#d0b4a5" stroke-width="20" stroke-linecap="round"/><path d="M 366 150 Q 430 150 430 210 Q 430 270 356 270" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="5"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="282" height="28" rx="14" fill="#1B2A41"/>
+<text x="159.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Handle · 3-position lid · hot or cold</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Stanley Quencher 40 oz</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

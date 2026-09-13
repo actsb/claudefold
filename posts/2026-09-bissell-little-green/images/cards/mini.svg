@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Bissell Little Green Mini (4075) (product render)">
+<defs>
+<radialGradient id="cmini-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cmini-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cmini-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cmini-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cmini-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#4eb271"/><stop offset="0.55" stop-color="#3E8E5A"/><stop offset="1" stop-color="#306e46"/></linearGradient>
+<linearGradient id="cmini-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#35794d"/><stop offset="1" stop-color="#1f472d"/></linearGradient>
+<linearGradient id="cmini-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fc798"/><stop offset="1" stop-color="#47a368"/></linearGradient>
+<radialGradient id="cmini-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#78c493"/><stop offset="0.6" stop-color="#3E8E5A"/><stop offset="1" stop-color="#285c3b"/></radialGradient>
+<linearGradient id="cmini-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cmini-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cmini-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cmini-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#314d77"/><stop offset="1" stop-color="#090e16"/></linearGradient>
+<linearGradient id="cmini-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cmini-bg)"/><ellipse cx="300" cy="328" rx="190" ry="16" fill="#000" opacity="0.28" filter="url(#cmini-blur)"/>
+<g transform="translate(66.0 72.59999999999997) scale(0.78)">
+<path d="M 400 223.6 L 433.0 196.6 L 433.0 281.4 Q 433.0 291.0 425.8 291.0 L 400 314.4 Z" fill="url(#cmini-side)"/><path d="M 182.0 214 L 215.0 187.0 L 425.8 187.0 Q 433.0 187.0 433.0 196.6 L 400 223.6 Q 400 214 388.0 214 Z" fill="url(#cmini-top)"/><rect x="170" y="214" width="230" height="104" rx="24" fill="url(#cmini-front)"/><rect x="170" y="214" width="230" height="104" rx="24" fill="none" stroke="#173522" stroke-width="1.2" opacity="0.6"/><path d="M 194 217 L 376 217" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+<rect x="196" y="126" width="180" height="96" rx="20" fill="#9FD3FF" opacity="0.85"/><rect x="196" y="126" width="180" height="96" rx="20" fill="url(#cmini-gloss)"/>
+<rect x="196" y="170" width="180" height="52" rx="14" fill="#5FA8E6" opacity="0.55"/><rect x="204" y="134" width="18" height="70" rx="9" fill="#fff" opacity="0.35"/>
+<rect x="188" y="118" width="196" height="16" rx="8" fill="#275938"/>
+<path d="M 236 118 L 236 84 Q 236 68 252 68 L 320 68 Q 336 68 336 84 L 336 118" fill="none" stroke="#2a4165" stroke-width="16" stroke-linecap="round"/><path d="M 250 66 L 322 66" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<rect x="196" y="236" width="70" height="26" rx="8" fill="#173522"/><circle cx="214" cy="249" r="7" fill="#1B2A41"/><rect x="230" y="244" width="28" height="10" rx="5" fill="#F1F1EE" opacity="0.8"/>
+<rect x="300" y="232" width="86" height="60" rx="10" fill="#2f6b44"/><circle cx="343" cy="262" r="16" fill="#08120b"/>
+<path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#2A2A2A" stroke-width="13" stroke-linecap="round"/><path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#fff" stroke-opacity="0.15" stroke-width="4" stroke-linecap="round"/>
+<rect x="262" y="344" width="52" height="22" rx="8" fill="#223653" transform="rotate(-12 288 355)"/><rect x="252" y="352" width="22" height="12" rx="4" fill="#DDE3EA" transform="rotate(-12 263 358)"/>
+</g>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="304" height="28" rx="14" fill="#1B2A41"/>
+<text x="170.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">7 lb · 4-inch tool · fits a closet shelf</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Little Green Mini 4075</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

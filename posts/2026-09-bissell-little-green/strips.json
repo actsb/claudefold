@@ -1,0 +1,6 @@
+{"strips": [{"id": "little-green-day", "card": "little-green", "title": "The couch you thought was clean — a Saturday with the Little Green", "panels": [
+ {"glyph": "dog", "head": "The dog. The couch. The stain.", "text": "Vacuum the crumbs first. Fill the tank with warm water and formula."},
+ {"glyph": "home", "head": "Spray, scrub, pull back slowly", "text": "The dirty tank turns brown. That's five years of 'clean' cushions."},
+ {"glyph": "map", "head": "Car seats and the stairs", "text": "The 15-foot cord reaches the driveway. The hose is short, so move the machine."},
+ {"glyph": "check", "product": true, "host": {"pose": "thumbsup"}, "head": "Rinse the hose, leave tanks open", "text": "Do that and it never smells. Owners are on year six."}
+]}]}

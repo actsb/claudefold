@@ -2,5 +2,5 @@
  {"glyph": "clock", "head": "8:00 AM — you leave", "text": "The schedule starts it after the door closes. You never think about it."},
  {"glyph": "cable", "head": "It sees the phone cable", "text": "Camera + AI steer around cables, socks and the dog's accident. No rescue call at work."},
  {"glyph": "sofa", "head": "Under the sofa: 3.14 inches", "text": "No turret on top, so it cleans where every 4-inch robot gives up."},
- {"glyph": "dock", "product": true, "head": "Home: it empties itself", "text": "The dock does the dirty work. You touch a dust bag every 7 weeks."}
+ {"glyph": "dock", "product": true, "host": {"pose": "thumbsup"}, "head": "Home: it empties itself", "text": "The dock does the dirty work. You touch a dust bag every 7 weeks."}
 ]}]}

@@ -265,7 +265,90 @@ def draw_power(uid, a):
             out.append(f'<circle cx="{wx}" cy="{y+h+14}" r="20" fill="#1a1a1a"/><circle cx="{wx}" cy="{y+h+14}" r="12" fill="#3a3a3a"/><circle cx="{wx}" cy="{y+h+14}" r="4" fill="#777"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power}
+
+# ---------------------------------------------------------------- bluetooth tracker (coin or tag)
+def draw_tracker(uid, a):
+    body = a.get("body", "#F7F7F5"); back = a.get("back", "#C9CACB"); style = a.get("style", "coin"); pack = int(a.get("pack", 1))
+    out = [defs(uid, body, back), studio(uid, 300, 322, 150, 14)]
+    out.append(f'<radialGradient id="{uid}-coin" cx="40%" cy="32%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="{body}"/><stop offset="1" stop-color="{shade(body, -.10)}"/></radialGradient>')
+    def coin(cx, cy, r, face=True, sc=1.0):
+        ry = r * 0.92
+        if face:
+            return (f'<path d="M {cx-r} {cy} A {r} {ry} 0 0 0 {cx+r} {cy} L {cx+r} {cy+12*sc} A {r} {ry} 0 0 1 {cx-r} {cy+12*sc} Z" fill="url(#{uid}-metal)"/>'
+                    f'<ellipse cx="{cx}" cy="{cy}" rx="{r}" ry="{ry}" fill="url(#{uid}-coin)" stroke="{shade(body, -.12)}" stroke-width="1.5"/>'
+                    f'<ellipse cx="{cx}" cy="{cy}" rx="{r*0.62}" ry="{ry*0.62}" fill="none" stroke="{shade(body, -.08)}" stroke-width="1.2" opacity="0.8"/>'
+                    f'<ellipse cx="{cx-r*0.28}" cy="{cy-ry*0.36}" rx="{r*0.36}" ry="{ry*0.16}" fill="#fff" opacity="0.55"/>')
+        return (f'<path d="M {cx-r} {cy} A {r} {ry} 0 0 0 {cx+r} {cy} L {cx+r} {cy+12*sc} A {r} {ry} 0 0 1 {cx-r} {cy+12*sc} Z" fill="{shade(back, -.2)}"/>'
+                f'<ellipse cx="{cx}" cy="{cy}" rx="{r}" ry="{ry}" fill="url(#{uid}-metal)" stroke="{shade(back, -.25)}" stroke-width="1.5"/>'
+                f'<ellipse cx="{cx}" cy="{cy}" rx="{r*0.5}" ry="{ry*0.5}" fill="none" stroke="{shade(back, -.15)}" stroke-width="1.2"/>'
+                f'<ellipse cx="{cx-r*0.3}" cy="{cy-ry*0.3}" rx="{r*0.3}" ry="{ry*0.12}" fill="#fff" opacity="0.5"/>')
+    def tag(cx, cy, w, h, col):
+        return (f'<rect x="{cx-w/2+6}" y="{cy-h/2+8}" width="{w}" height="{h}" rx="{w*0.28}" fill="{shade(col, -.3)}"/>'
+                f'<rect x="{cx-w/2}" y="{cy-h/2}" width="{w}" height="{h}" rx="{w*0.28}" fill="{col}"/>'
+                f'<rect x="{cx-w/2}" y="{cy-h/2}" width="{w}" height="{h}" rx="{w*0.28}" fill="url(#{uid}-gloss)"/>'
+                f'<circle cx="{cx}" cy="{cy-h/2+w*0.16}" r="{w*0.085}" fill="{PAPER}" stroke="{shade(col, -.3)}" stroke-width="3"/>'
+                f'<circle cx="{cx}" cy="{cy+h*0.12}" r="{w*0.16}" fill="none" stroke="{shade(col, -.18)}" stroke-width="2"/>')
+    if style == "coin":
+        if pack >= 4:
+            out.append(coin(190, 250, 62, face=False, sc=0.9)); out.append(coin(410, 250, 62, face=False, sc=0.9))
+            out.append(coin(250, 205, 74, face=True)); out.append(coin(350, 205, 74, face=True))
+            out.append(f'<text x="300" y="322" text-anchor="middle" font-family="{FONT}" font-size="14" fill="#666">4-pack</text>')
+        else:
+            out.append(coin(300, 212, 104, face=True))
+    else:
+        out.append(tag(300, 215, 150, 172, body))
+    return "\n".join(out)
+
+# ---------------------------------------------------------------- insulated bottle / tumbler
+def draw_bottle(uid, a):
+    body = a.get("body", "#3D6FA8"); lid = a.get("lid", "#1B2A41"); accent = a.get("accent", "#8FD3AE"); style = a.get("style", "freesip")
+    out = [defs(uid, body, accent), studio(uid, 300, 330, 90, 12)]
+    out.append(f'<linearGradient id="{uid}-cyl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{shade(body, -.18)}"/><stop offset="0.28" stop-color="{shade(body, .16)}"/><stop offset="0.55" stop-color="{body}"/><stop offset="1" stop-color="{shade(body, -.24)}"/></linearGradient>')
+    out.append(f'<linearGradient id="{uid}-lidg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{shade(lid, -.12)}"/><stop offset="0.35" stop-color="{shade(lid, .18)}"/><stop offset="1" stop-color="{shade(lid, -.22)}"/></linearGradient>')
+    if style == "tumbler":
+        out.append(f'<path d="M 236 120 L 364 120 L 348 316 Q 300 330 252 316 Z" fill="url(#{uid}-cyl)"/>')
+        out.append(f'<ellipse cx="300" cy="120" rx="64" ry="12" fill="{shade(body, .1)}"/>')
+        out.append(f'<rect x="232" y="96" width="136" height="30" rx="10" fill="url(#{uid}-lidg)"/><ellipse cx="300" cy="96" rx="68" ry="12" fill="{shade(lid, .25)}"/><rect x="300" y="84" width="14" height="24" rx="5" fill="{accent}" transform="rotate(12 300 84)"/>')
+        out.append(f'<path d="M 366 150 Q 430 150 430 210 Q 430 270 356 270" fill="none" stroke="{shade(body, -.05)}" stroke-width="20" stroke-linecap="round"/><path d="M 366 150 Q 430 150 430 210 Q 430 270 356 270" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="5"/>')
+    else:
+        out.append(f'<rect x="238" y="118" width="124" height="204" rx="22" fill="url(#{uid}-cyl)"/>')
+        out.append(f'<ellipse cx="300" cy="322" rx="62" ry="10" fill="{shade(body, -.3)}"/>')
+        out.append(f'<path d="M 238 140 Q 238 100 262 96 L 338 96 Q 362 100 362 140" fill="url(#{uid}-cyl)"/>')
+        out.append(f'<rect x="254" y="72" width="92" height="30" rx="10" fill="url(#{uid}-lidg)"/>')
+        if style == "freesip":
+            out.append(f'<path d="M 262 72 Q 262 50 284 50 L 318 50 Q 340 50 340 72 Z" fill="{shade(lid, .10)}"/><rect x="286" y="46" width="40" height="10" rx="5" fill="{accent}"/>')
+            out.append(f'<path d="M 330 60 Q 372 40 380 84 Q 384 110 350 104" fill="none" stroke="{shade(lid, .05)}" stroke-width="9" stroke-linecap="round"/>')
+            out.append(f'<circle cx="300" cy="88" r="7" fill="{accent}"/>')
+        else:  # straw bottle
+            out.append(f'<rect x="270" y="52" width="60" height="26" rx="8" fill="{shade(lid, .10)}"/><rect x="296" y="14" width="10" height="44" rx="4" fill="{accent}" transform="rotate(-14 300 40)"/>')
+            out.append(f'<path d="M 262 66 Q 226 40 236 90" fill="none" stroke="{shade(lid, .05)}" stroke-width="8" stroke-linecap="round"/>')
+        out.append(f'<rect x="258" y="150" width="14" height="140" rx="7" fill="#fff" opacity="0.28"/>')
+    return "\n".join(out)
+
+# ---------------------------------------------------------------- portable spot / carpet cleaner
+def draw_cleaner(uid, a):
+    body = a.get("body", "#3E8E5A"); tank = a.get("tank", "#9FD3FF"); accent = a.get("accent", "#1B2A41"); style = a.get("style", "classic")
+    sc = 0.78 if style == "mini" else 1.0
+    out = [defs(uid, body, accent), studio(uid, 300, 328, 190, 16)]
+    out.append(f'<g transform="translate({300 - 300*sc} {330 - 330*sc}) scale({sc})">')
+    # base body (three-quarter)
+    out.append(box3d(uid, 170, 214, 230, 104, 60, body, rx=24))
+    # tank on top (translucent)
+    out.append(f'<rect x="196" y="126" width="180" height="96" rx="20" fill="{tank}" opacity="0.85"/><rect x="196" y="126" width="180" height="96" rx="20" fill="url(#{uid}-gloss)"/>')
+    out.append(f'<rect x="196" y="170" width="180" height="52" rx="14" fill="#5FA8E6" opacity="0.55"/><rect x="204" y="134" width="18" height="70" rx="9" fill="#fff" opacity="0.35"/>')
+    out.append(f'<rect x="188" y="118" width="196" height="16" rx="8" fill="{shade(body, -.15)}"/>')
+    # handle
+    out.append(f'<path d="M 236 118 L 236 84 Q 236 68 252 68 L 320 68 Q 336 68 336 84 L 336 118" fill="none" stroke="{shade(accent, .1)}" stroke-width="16" stroke-linecap="round"/><path d="M 250 66 L 322 66" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>')
+    # front panel: switch + logo-less badge
+    out.append(f'<rect x="196" y="236" width="70" height="26" rx="8" fill="{shade(body, -.25)}"/><circle cx="214" cy="249" r="7" fill="{accent}"/><rect x="230" y="244" width="28" height="10" rx="5" fill="#F1F1EE" opacity="0.8"/>')
+    out.append(f'<rect x="300" y="232" width="86" height="60" rx="10" fill="{shade(body, -.1)}"/><circle cx="343" cy="262" r="16" fill="{shade(body, -.35)}"/>')
+    # hose from the right side, looping to the front with a tool
+    out.append(f'<path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#2A2A2A" stroke-width="13" stroke-linecap="round"/><path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#fff" stroke-opacity="0.15" stroke-width="4" stroke-linecap="round"/>')
+    out.append(f'<rect x="262" y="344" width="52" height="22" rx="8" fill="{shade(accent, .05)}" transform="rotate(-12 288 355)"/><rect x="252" y="352" width="22" height="12" rx="4" fill="#DDE3EA" transform="rotate(-12 263 358)"/>')
+    out.append('</g>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

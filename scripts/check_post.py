@@ -42,7 +42,8 @@ def main(path):
     if placeholders: fails.append(f"unreplaced SVG placeholders: {placeholders}")
     if p.stack: fails.append(f"unclosed tags at end: {p.stack}")
     if p.errors: fails.append(f"tag balance errors: {p.errors[:5]}")
-    if len(words) < 7000: fails.append(f"word count {len(words)} < 7000")
+    min_words = int(sys.argv[sys.argv.index("--min-words") + 1]) if "--min-words" in sys.argv else 7000
+    if len(words) < min_words: fails.append(f"word count {len(words)} < {min_words}")
     if "<script" in raw.lower(): fails.append("contains <script> (Blogger may strip it)")
     for f in fails: print("FAIL:", f)
     print("RESULT:", "FAIL" if fails else "PASS")

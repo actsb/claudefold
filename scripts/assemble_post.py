@@ -7,6 +7,8 @@ Reads  src/00-easy.html (placeholders: <!--TOPPICK-->, <!--CARDS-->, <!--CARD:id
 Writes post.src.html (then run build_post.py to inline the remaining <!--SVG:...--> figures).
 """
 import json, re, sys, pathlib, html
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from host import host_banner
 
 BADGE = ('display:inline-block;font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.02em;'
          'padding:4px 11px;border-radius:999px;background:{bg};color:#fff;')
@@ -106,7 +108,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
     strip = ('<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> '
              '<a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · '
-             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a></p>\n')
+             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a></p>\n')
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
@@ -116,6 +118,13 @@ def main(post_dir):
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
+    def host_fig(m):
+        pose, lines = m.group(1), [html.escape(x) for x in m.group(2).split("|") if x.strip()]
+        art = cards[0].get("art", {})
+        gl = {"frame": art.get("frame", "#111"), "style": "round" if art.get("style") == "round" else "wayfarer"} if spec["category"] == "glasses" else None
+        eb = art.get("bud", "#222") if spec["category"] == "earbuds" else None
+        return '<div class="vp-host" style="margin:1em 0 1.2em;">' + host_banner("hb", lines, pose=pose, glasses=gl, earbud=eb) + '</div>'
+    easy = re.sub(r"<!--HOST:([a-z]+)\|(.*?)-->", host_fig, easy)
     def strip_fig(m):
         sid, cap = m.group(1), m.group(2) or ""
         f = d / "images" / "strips" / f"{sid}.svg"
@@ -127,6 +136,11 @@ def main(post_dir):
     easy = easy.replace("<!--CARDS-->", "\n".join(pick_card(d, c, i + 1, with_video=(i > 0)) for i, c in enumerate(cards)))
     easy = re.sub(r"<!--CARD:([a-z0-9\-]+)-->", lambda m: pick_card(d, by_id[m.group(1)], cards.index(by_id[m.group(1)]) + 1), easy)
     parts = sorted(p for p in (d / "src").glob("0[1-9]-*.html"))
+    if not parts:
+        # short story post: no deep-dive, just close the wrapper
+        out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices are US list and sale prices seen in 2026 at the time of writing; check the retailer for today\'s price. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
+        (d / "post.src.html").write_text(out, encoding="utf-8")
+        print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
     deep = "\n".join(p.read_text(encoding="utf-8") for p in parts)
     # strip the wrapper, byline and cover the deep-dive parts open with, and the wrapper close at the end
     deep = re.sub(r'^\s*<div class="vp-post"[^>]*>\s*<p[^>]*><em>.*?</em></p>\s*<p[^>]*><img[^>]*></p>', "", deep, count=1, flags=re.S)

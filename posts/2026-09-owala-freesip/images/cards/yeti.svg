@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Yeti Rambler 26 oz Straw Bottle (product render)">
+<defs>
+<radialGradient id="cyeti-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cyeti-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cyeti-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cyeti-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cyeti-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#73895f"/><stop offset="0.55" stop-color="#5A6B4A"/><stop offset="1" stop-color="#435037"/></linearGradient>
+<linearGradient id="cyeti-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4b593d"/><stop offset="1" stop-color="#272f20"/></linearGradient>
+<linearGradient id="cyeti-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#97ab85"/><stop offset="1" stop-color="#697d57"/></linearGradient>
+<radialGradient id="cyeti-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#92a67f"/><stop offset="0.6" stop-color="#5A6B4A"/><stop offset="1" stop-color="#36412d"/></radialGradient>
+<linearGradient id="cyeti-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cyeti-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cyeti-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cyeti-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5d5cc"/></linearGradient>
+<linearGradient id="cyeti-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cyeti-bg)"/><ellipse cx="300" cy="330" rx="90" ry="12" fill="#000" opacity="0.28" filter="url(#cyeti-blur)"/>
+<linearGradient id="cyeti-cyl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2c3524"/><stop offset="0.28" stop-color="#839a6d"/><stop offset="0.55" stop-color="#5A6B4A"/><stop offset="1" stop-color="#1d2318"/></linearGradient>
+<linearGradient id="cyeti-lidg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1e261b"/><stop offset="0.35" stop-color="#64805a"/><stop offset="1" stop-color="#060806"/></linearGradient>
+<rect x="238" y="118" width="124" height="204" rx="22" fill="url(#cyeti-cyl)"/>
+<ellipse cx="300" cy="322" rx="62" ry="10" fill="#0e110b"/>
+<path d="M 238 140 Q 238 100 262 96 L 338 96 Q 362 100 362 140" fill="url(#cyeti-cyl)"/>
+<rect x="254" y="72" width="92" height="30" rx="10" fill="url(#cyeti-lidg)"/>
+<rect x="270" y="52" width="60" height="26" rx="8" fill="#516849"/><rect x="296" y="14" width="10" height="44" rx="4" fill="#F1F1EE" transform="rotate(-14 300 40)"/>
+<path d="M 262 66 Q 226 40 236 90" fill="none" stroke="#46593f" stroke-width="8" stroke-linecap="round"/>
+<rect x="258" y="150" width="14" height="140" rx="7" fill="#fff" opacity="0.28"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="332" height="28" rx="14" fill="#1B2A41"/>
+<text x="184.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Dishwasher-safe · dent-resistant · straw lid</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Yeti Rambler 26 oz</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

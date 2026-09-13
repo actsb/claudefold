@@ -8,6 +8,7 @@ Writes posts/<slug>/images/strips/<id>.svg (1200x440).
 import json, sys, pathlib, html
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from product_cards import render_product, FONT, NAVY, GREEN, AMBER
+from host import draw_host
 
 def esc(s): return html.escape(str(s), quote=True)
 
@@ -78,14 +79,22 @@ def strip_svg(strip, category, art):
         out.append(f'<rect x="{x+4}" y="{y+4}" width="{pw-8}" height="{ph*0.56}" rx="12" fill="{tones[i % 4]}"/>')
         # step number
         out.append(f'<circle cx="{x+30}" cy="{y+30}" r="18" fill="{NAVY}"/><text x="{x+30}" y="{y+37}" text-anchor="middle" font-family="{FONT}" font-size="20" font-weight="800" fill="#fff">{i+1}</text>')
-        # art: product render or glyph
+        # art: host, product render and/or glyph
+        host = p.get("host")
+        if host:
+            hp = host if isinstance(host, dict) else {"pose": host}
+            gl_art = {"frame": art.get("frame", "#111"), "style": "round" if art.get("style") == "round" else "wayfarer"} if hp.get("glasses") else None
+            eb = art.get("bud", "#222") if hp.get("earbud") else None
+            out.append(draw_host(f"h{i}", hp.get("pose", "present"), tx=x + 8, ty=y + 10, scale=0.5, glasses=gl_art, earbud=eb, flip=hp.get("flip", False)))
         if p.get("product"):
-            out.append(render_product(category, art, f"s{i}", scale=0.36, tx=x + pw/2 - 108, ty=y + 22, with_studio=False))
+            px = x + pw/2 - 108 if not host else x + pw - 178
+            py = y + 22 if not host else y + 60
+            out.append(render_product(category, art, f"s{i}", scale=0.36 if not host else 0.28, tx=px, ty=py, with_studio=False))
         gl = p.get("glyph")
         if gl and gl in GLYPHS:
-            gx = x + pw/2 - 70 if not p.get("product") else x + pw - 96
-            gy = y + 44 if not p.get("product") else y + 20
-            sc = 1.0 if not p.get("product") else 0.55
+            if host: gx, gy, sc = x + pw - 74, y + 14, 0.42
+            elif p.get("product"): gx, gy, sc = x + pw - 96, y + 20, 0.55
+            else: gx, gy, sc = x + pw/2 - 70, y + 44, 1.0
             out.append(f'<g transform="translate({gx} {gy}) scale({sc})">{GLYPHS[gl]()}</g>')
         # captions
         cy = y + ph*0.56 + 34

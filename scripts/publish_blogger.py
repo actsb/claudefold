@@ -40,6 +40,24 @@ POSTS = {
         "slug_title": "Best Smart Glasses 2026",
         "labels": ["Smart Glasses", "Buying Guide", "Premium", "Under $500"],
     },
+    "airtag": {
+        "dir": "posts/2026-09-apple-airtag-2",
+        "title": "Apple AirTag 2: Why Amazon Can't Keep the 4-Pack in Stock (and Whether You Need It)",
+        "slug_title": "Apple AirTag 2 Review 2026",
+        "labels": ["Best Sellers", "Review", "Under $100"],
+    },
+    "owala": {
+        "dir": "posts/2026-09-owala-freesip",
+        "title": "Owala FreeSip: How a $30 Water Bottle Beat Stanley to #1 on Amazon",
+        "slug_title": "Owala FreeSip Review 2026",
+        "labels": ["Best Sellers", "Review", "Under $100"],
+    },
+    "bissell": {
+        "dir": "posts/2026-09-bissell-little-green",
+        "title": "Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos",
+        "slug_title": "Bissell Little Green Review 2026",
+        "labels": ["Best Sellers", "Review", "Under $100", "For Pet Owners"],
+    },
     "power-stations": {
         "dir": "posts/2026-09-best-portable-power-stations",
         "title": "Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti — Sized for Outages, Camping, CPAP and Home Backup",
@@ -58,6 +76,7 @@ PAGES = [
     ("Wireless Earbuds", "brand/pages/hub-wireless-earbuds.html"),
     ("Smart Glasses", "brand/pages/hub-smart-glasses.html"),
     ("Power Stations", "brand/pages/hub-power-stations.html"),
+    ("Best Sellers", "brand/pages/hub-best-sellers.html"),
 ]
 
 args = sys.argv[1:]
@@ -108,7 +127,7 @@ if POSTS_ONLY or ONLY:
 st, existing = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "live", "fetchBodies": "false", "maxResults": 50})
 st2, drafts = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "draft", "fetchBodies": "false", "maxResults": 50})
 by_title = {p["title"]: p for p in (existing.get("items", []) + drafts.get("items", []))}
-for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-4:] if HUBS_ONLY else PAGES)):
+for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-5:] if HUBS_ONLY else PAGES)):
     body = {"title": title, "content": strip_comments(pathlib.Path(f).read_text(encoding="utf-8"))}
     if title in by_title:
         st, res = call("PUT", f"/blogs/{BLOG_ID}/pages/{by_title[title]['id']}", body)

@@ -1,0 +1,23 @@
+{"category": "cleaner", "cards": [
+ {"id": "little-green", "name": "Bissell Little Green (1400B)", "short": "Bissell Little Green 1400B", "badge": "Over one million sold",
+  "price": "$94.99–$129.99 (list $123.59) · Black Friday low $81", "chip": "Spray + suck · 48 oz tank · 9.7 lb",
+  "buy_if": "you have pets, kids, a couch, car seats or stairs — anything you can't put in a washing machine.",
+  "skip_if": "you need whole-room carpet cleaning, or years-old set-in stains.",
+  "owners": "Praise: the before-and-after on a 'clean' couch. Complaints: loud as a shop vac, a short 4-foot hose, tanks that need drying.",
+  "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=YOURTAG-20", "video": "pHWrhVtkYLA", "video_title": "6 years with the Bissell Little Green — a long-term review",
+  "art": {"style": "classic", "body": "#3E8E5A", "tank": "#9FD3FF", "accent": "#1B2A41"}},
+ {"id": "mini", "name": "Bissell Little Green Mini (4075)", "short": "Little Green Mini 4075", "badge": "#1 best seller · half the size",
+  "price": "$79.99–$99 · Mini Cordless about $82–$90", "chip": "7 lb · 4-inch tool · fits a closet shelf",
+  "buy_if": "you live in an apartment, or mostly clean car seats and small spots.",
+  "skip_if": "you have big rugs — the tank is small and refills add up.",
+  "owners": "Praise: the size and the price. Complaint: refills on big jobs.",
+  "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+Mini+4075&tag=YOURTAG-20",
+  "art": {"style": "mini", "body": "#3E8E5A", "tank": "#9FD3FF", "accent": "#1B2A41"}},
+ {"id": "cleanslate", "name": "Hoover CleanSlate Plus", "short": "Hoover CleanSlate Plus", "badge": "Best alternative",
+  "price": "about $129.99", "chip": "Built-in hose rinse · longer reach",
+  "buy_if": "you want a longer hose and a system that rinses itself.",
+  "skip_if": "you want the smallest, cheapest spot cleaner.",
+  "owners": "CNN Underscored's most convenient carpet cleaner. Complaint: heavier than the Little Green.",
+  "cta": "https://www.amazon.com/s?k=Hoover+CleanSlate+Plus+carpet+cleaner&tag=YOURTAG-20",
+  "art": {"style": "classic", "body": "#B22222", "tank": "#DDE8F0", "accent": "#333"}}
+]}

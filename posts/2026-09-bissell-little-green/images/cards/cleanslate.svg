@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Hoover CleanSlate Plus (product render)">
+<defs>
+<radialGradient id="ccleanslate-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="ccleanslate-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="ccleanslate-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="ccleanslate-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="ccleanslate-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#d73030"/><stop offset="0.55" stop-color="#B22222"/><stop offset="1" stop-color="#8b1b1b"/></linearGradient>
+<linearGradient id="ccleanslate-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#981d1d"/><stop offset="1" stop-color="#5c1212"/></linearGradient>
+<linearGradient id="ccleanslate-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e36c6c"/><stop offset="1" stop-color="#cc2727"/></linearGradient>
+<radialGradient id="ccleanslate-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#e16363"/><stop offset="0.6" stop-color="#B22222"/><stop offset="1" stop-color="#761717"/></radialGradient>
+<linearGradient id="ccleanslate-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ccleanslate-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="ccleanslate-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="ccleanslate-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#595959"/><stop offset="1" stop-color="#141414"/></linearGradient>
+<linearGradient id="ccleanslate-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#ccleanslate-bg)"/><ellipse cx="300" cy="328" rx="190" ry="16" fill="#000" opacity="0.28" filter="url(#ccleanslate-blur)"/>
+<g transform="translate(0.0 0.0) scale(1.0)">
+<path d="M 400 223.6 L 433.0 196.6 L 433.0 281.4 Q 433.0 291.0 425.8 291.0 L 400 314.4 Z" fill="url(#ccleanslate-side)"/><path d="M 182.0 214 L 215.0 187.0 L 425.8 187.0 Q 433.0 187.0 433.0 196.6 L 400 223.6 Q 400 214 388.0 214 Z" fill="url(#ccleanslate-top)"/><rect x="170" y="214" width="230" height="104" rx="24" fill="url(#ccleanslate-front)"/><rect x="170" y="214" width="230" height="104" rx="24" fill="none" stroke="#470e0e" stroke-width="1.2" opacity="0.6"/><path d="M 194 217 L 376 217" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+<rect x="196" y="126" width="180" height="96" rx="20" fill="#DDE8F0" opacity="0.85"/><rect x="196" y="126" width="180" height="96" rx="20" fill="url(#ccleanslate-gloss)"/>
+<rect x="196" y="170" width="180" height="52" rx="14" fill="#5FA8E6" opacity="0.55"/><rect x="204" y="134" width="18" height="70" rx="9" fill="#fff" opacity="0.35"/>
+<rect x="188" y="118" width="196" height="16" rx="8" fill="#721616"/>
+<path d="M 236 118 L 236 84 Q 236 68 252 68 L 320 68 Q 336 68 336 84 L 336 118" fill="none" stroke="#4d4d4d" stroke-width="16" stroke-linecap="round"/><path d="M 250 66 L 322 66" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<rect x="196" y="236" width="70" height="26" rx="8" fill="#470e0e"/><circle cx="214" cy="249" r="7" fill="#333"/><rect x="230" y="244" width="28" height="10" rx="5" fill="#F1F1EE" opacity="0.8"/>
+<rect x="300" y="232" width="86" height="60" rx="10" fill="#871a1a"/><circle cx="343" cy="262" r="16" fill="#1c0505"/>
+<path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#2A2A2A" stroke-width="13" stroke-linecap="round"/><path d="M 400 250 Q 470 240 468 300 Q 464 350 400 342 Q 330 336 300 356" fill="none" stroke="#fff" stroke-opacity="0.15" stroke-width="4" stroke-linecap="round"/>
+<rect x="262" y="344" width="52" height="22" rx="8" fill="#404040" transform="rotate(-12 288 355)"/><rect x="252" y="352" width="22" height="12" rx="4" fill="#DDE3EA" transform="rotate(-12 263 358)"/>
+</g>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="260" height="28" rx="14" fill="#1B2A41"/>
+<text x="148.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Built-in hose rinse · longer reach</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Hoover CleanSlate Plus</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

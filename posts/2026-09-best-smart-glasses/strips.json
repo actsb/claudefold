@@ -1,6 +1,6 @@
 {"strips": [{"id": "gen2-lisbon", "card": "gen2", "title": "A day in Lisbon with the Ray-Ban Meta Gen 2", "panels": [
- {"glyph": "translate", "head": "The menu is in Portuguese", "text": "\"Hey Meta, read this.\" You hear it in English. Nobody reaches for a phone."},
+ {"glyph": "translate", "host": {"pose": "present", "glasses": true}, "head": "The menu is in Portuguese", "text": "\"Hey Meta, read this.\" You hear it in English. Nobody reaches for a phone."},
  {"glyph": "camera", "head": "Hands-free photos, 3K video", "text": "Tap the temple. 12MP shots and 3K video from your own point of view."},
  {"glyph": "phone", "head": "Grandma joins the walk", "text": "A WhatsApp video call streams what you see. Both hands stay free."},
- {"glyph": "gym", "product": true, "head": "Hotel gym: glasses off", "text": "Cameras aren't welcome everywhere. The case adds 48 hours of charge while you train."}
+ {"glyph": "gym", "product": true, "host": {"pose": "hold"}, "head": "Hotel gym: glasses off", "text": "Cameras aren't welcome everywhere. The case adds 48 hours of charge while you train."}
 ]}]}

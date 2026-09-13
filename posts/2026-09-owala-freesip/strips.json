@@ -1,0 +1,6 @@
+{"strips": [{"id": "freesip-day", "card": "freesip", "title": "A day of actually drinking water — with the Owala FreeSip", "panels": [
+ {"glyph": "clock", "head": "9 AM — at the desk", "text": "Straw mode. Sip without tipping, no spills on the keyboard, still ice-cold."},
+ {"glyph": "map", "head": "Noon — in the car", "text": "The 24 oz fits the cup holder. One thumb on the button, eyes on the road."},
+ {"glyph": "gym", "head": "6 PM — after the workout", "text": "Tilt further and chug through the wide spout. Lock it, drop it in the bag."},
+ {"glyph": "check", "product": true, "host": {"pose": "thumbsup"}, "head": "Sunday — two-minute reset", "text": "Pull the gasket, top-rack the lid and straw. Ice-cold again on Monday."}
+]}]}
