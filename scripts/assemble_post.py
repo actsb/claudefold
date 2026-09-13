@@ -113,7 +113,8 @@ def main(post_dir):
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
               'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we tested, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
-    easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
+    if sorted((d / "src").glob("0[1-9]-*.html")):   # only guides with a deep-dive get the two-ways notice
+        easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
     # Blogger jump break after the lead paragraph: index pages show only the lead, and
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
