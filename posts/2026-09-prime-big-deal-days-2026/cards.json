@@ -1,0 +1,256 @@
+{
+ "category": "robot",
+ "cards": [
+  {
+   "id": "saros-10r",
+   "name": "Roborock Saros 10R",
+   "short": "Roborock Saros 10R",
+   "badge": "Robot vacuum · the flagship deal",
+   "price": "Real deal at $899 or less · great at $850 (list $1,600; most of 2026 near $900)",
+   "chip": "No turret · 3.14 in · omni dock",
+   "buy_if": "it's at or under $899 and you want 2026's best all-round robot — the October event has a real shot at $850.",
+   "skip_if": "the page shows $1,000-plus with a giant 'coupon' — that's the list-price game, not a deal — or you'd rather spend under $600 (see the Roomba below).",
+   "owners": "Owners praise how rarely it needs rescuing. The top complaint is the dock's auto-empty port clogging in multi-pet homes — check it monthly.",
+   "cta": "https://www.amazon.com/s?k=Roborock+Saros+10R&tag=verdictpicks-20",
+   "video": "RXKR7-McdF0",
+   "video_title": "Roborock Saros 10R review — Vacuum Wars",
+   "art": {
+    "body": "#F4F4F1",
+    "rim": "#C4C4BE",
+    "turret": false,
+    "camera": true,
+    "dock": "omni",
+    "accent": "#1B2A41",
+    "mop": "pads"
+   },
+   "category": "robot"
+  },
+  {
+   "id": "x50",
+   "name": "Dreame X50 Ultra",
+   "short": "Dreame X50 Ultra",
+   "badge": "Robot vacuum · the step-climber",
+   "price": "Real deal at $799 or less (list $1,700; 2026 range $800–$1,050)",
+   "chip": "Climbs 2.36 in · lowering turret · 3.5 in",
+   "buy_if": "you want the robot that climbs thresholds and crosses steps, and it drops to $800 or less — it touched $800 in the summer event.",
+   "skip_if": "it's still $900-plus; at that money the Saros 10R is the better buy.",
+   "owners": "Owners are amazed by the climbing. Complaints: it still gets stuck on some thresholds, and the dock is huge.",
+   "cta": "https://www.amazon.com/s?k=Dreame+X50+Ultra&tag=verdictpicks-20",
+   "art": {
+    "body": "#2B2B2B",
+    "rim": "#111",
+    "turret": true,
+    "camera": true,
+    "dock": "omni",
+    "accent": "#7FB3D5",
+    "mop": "pads"
+   },
+   "category": "robot"
+  },
+  {
+   "id": "max705",
+   "name": "iRobot Roomba Max 705 Vac",
+   "short": "Roomba Max 705 Vac",
+   "badge": "Robot vacuum · under $500",
+   "price": "Real deal at $499 or less (list $900; sale range $500–$650)",
+   "chip": "Rubber brushes · LiDAR · no camera",
+   "buy_if": "you want a self-emptying robot from a brand with US phone support for under $500.",
+   "skip_if": "you need mopping (this one only vacuums) or it's above $550.",
+   "owners": "Owners praise the tangle-free rubber rollers. Worries centre on iRobot's future after its bankruptcy.",
+   "cta": "https://www.amazon.com/s?k=iRobot+Roomba+Max+705+Vac&tag=verdictpicks-20",
+   "art": {
+    "body": "#1F1F1F",
+    "rim": "#000",
+    "turret": true,
+    "camera": false,
+    "dock": "bin",
+    "accent": "#6B6B6B"
+   },
+   "category": "robot"
+  },
+  {
+   "id": "pro3",
+   "name": "Apple AirPods Pro 3",
+   "short": "Apple AirPods Pro 3",
+   "badge": "Earbuds · the iPhone pick",
+   "price": "Real deal at $199 · buy instantly at $179 or less (list $249; summer low $169)",
+   "chip": "Best on iPhone · heart rate · hearing aid",
+   "buy_if": "you're on iPhone — $199 is already close to the floor, and October may bring $169–$179 again.",
+   "skip_if": "you see 'AirPods Pro' at $150: check it's the Pro 3, not the older Pro 2 on clearance.",
+   "owners": "Owners love the fit and the noise cancelling. Complaints: the case scratches, and batteries can't be replaced.",
+   "cta": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=verdictpicks-20",
+   "video": "5uFCY-14j94",
+   "video_title": "AirPods Pro 3 review",
+   "art": {
+    "style": "stem",
+    "case": "#F4F4F4",
+    "lid": "#E4E4E4",
+    "bud": "#FAFAFA",
+    "accent": "#222"
+   },
+   "category": "earbuds"
+  },
+  {
+   "id": "xm6",
+   "name": "Sony WF-1000XM6",
+   "short": "Sony WF-1000XM6",
+   "badge": "Earbuds · the Android pick",
+   "price": "Real deal at $278 or less (list $330; sale range $279–$299)",
+   "chip": "Tier-1 ANC · 9h+ · any phone",
+   "buy_if": "you want the best noise cancelling on any phone and it drops under $280 — its first real cut is due.",
+   "skip_if": "you can wait: Black Friday is where the XM6 should hit its lowest of the year.",
+   "owners": "Owners praise the sound and the battery. The complaint is fit for small ears, and the price.",
+   "cta": "https://www.amazon.com/s?k=Sony+WF-1000XM6&tag=verdictpicks-20",
+   "art": {
+    "style": "stemless",
+    "case": "#151515",
+    "lid": "#2B2B2B",
+    "bud": "#1A1A1A",
+    "accent": "#B08D57"
+   },
+   "category": "earbuds"
+  },
+  {
+   "id": "c1000",
+   "name": "Anker SOLIX C1000 Gen 2",
+   "short": "Anker SOLIX C1000 Gen 2",
+   "badge": "Power station · best value 1 kWh",
+   "price": "Real deal at $499 or less · great at $449 (list $799)",
+   "chip": "1,024 Wh · 2,000 W · 49-min charge",
+   "buy_if": "you want the best-value 1 kWh station for outages and camping; $449–$499 is the October target.",
+   "skip_if": "a storm is in the forecast — buy now, don't wait; the popular sizes sell out in a day.",
+   "owners": "Owners praise the recharge speed and Anker's support. Complaint: loud fans on fast charge.",
+   "cta": "https://www.amazon.com/s?k=Anker+SOLIX+C1000+Gen+2+portable+power+station&tag=verdictpicks-20",
+   "video": "qe2BonqDN7s",
+   "video_title": "6 best portable power stations of 2026 — including the C1000 Gen 2",
+   "art": {
+    "size": "mid",
+    "body": "#2B2F36",
+    "accent": "#8A8F98",
+    "screen_text": "1,024 Wh",
+    "handle": "bar"
+   },
+   "category": "power"
+  },
+  {
+   "id": "delta3plus",
+   "name": "EcoFlow DELTA 3 Plus",
+   "short": "EcoFlow DELTA 3 Plus",
+   "badge": "Power station · the fast charger",
+   "price": "Real deal at $599 or less · great at $549 (list $999)",
+   "chip": "Sub-10 ms UPS · 1,000 W solar · grows to 5 kWh",
+   "buy_if": "you want the fast-charging 1 kWh alternative that takes an expansion battery, and it's under $600.",
+   "skip_if": "it's $650-plus; the C1000 Gen 2 at $499 does the same job for less.",
+   "owners": "Owners praise the UPS and the app. Complaints: the account requirement, and it runs warm under heavy load.",
+   "cta": "https://www.amazon.com/s?k=EcoFlow+DELTA+3+Plus+portable+power+station&tag=verdictpicks-20",
+   "art": {
+    "size": "mid",
+    "body": "#3A3D42",
+    "accent": "#5C6470",
+    "screen_text": "1,024 Wh",
+    "handle": "bar"
+   },
+   "category": "power"
+  },
+  {
+   "id": "2000v2",
+   "name": "Jackery Explorer 2000 v2",
+   "short": "Jackery Explorer 2000 v2",
+   "badge": "Power station · the outage size",
+   "price": "Real deal at $749 or less · buy without waiting at $649 (list $1,499; Black Friday low $599)",
+   "chip": "2,042 Wh · 2,200 W · 40 lb",
+   "buy_if": "you need 2 kWh for the fridge, a CPAP and lights through a multi-day outage, and it's under $750.",
+   "skip_if": "it's $800-plus — Black Friday brought $599 last year, so wait seven weeks.",
+   "owners": "Owners love the simplicity and the weight. Complaint: fan noise on fast charge.",
+   "cta": "https://www.amazon.com/s?k=Jackery+Explorer+2000+v2+portable+power+station&tag=verdictpicks-20",
+   "art": {
+    "size": "large",
+    "body": "#222",
+    "accent": "#F58220",
+    "screen_text": "2,042 Wh",
+    "handle": "fold",
+    "handle_color": "#F58220"
+   },
+   "category": "power"
+  },
+  {
+   "id": "gen2",
+   "name": "Ray-Ban Meta (Gen 2)",
+   "short": "Ray-Ban Meta (Gen 2)",
+   "badge": "Smart glasses · wait for Connect first",
+   "price": "Real deal at $299 or less (list $379; Meta Connect on Sept 23–24 comes first)",
+   "chip": "Camera + AI · 8 h · 3K video",
+   "buy_if": "Meta announces the Gen 3 on Sept 23–24 and the Gen 2 drops to $299 — then October is your moment.",
+   "skip_if": "you're tempted by a brand-new Gen 3 or the Ray-Ban Display at full price; new Meta hardware isn't discounted for months.",
+   "owners": "Owners call them addictive fun. Complaints: privacy defaults, and features that arrive months late.",
+   "cta": "https://www.amazon.com/s?k=Ray-Ban+Meta+Gen+2+smart+glasses&tag=verdictpicks-20",
+   "art": {
+    "style": "wayfarer",
+    "frame": "#111",
+    "lens": "#3B3B3B",
+    "camera": true,
+    "display": "none"
+   },
+   "category": "glasses"
+  },
+  {
+   "id": "airtag2",
+   "name": "Apple AirTag 2 (4-pack)",
+   "short": "Apple AirTag 2 · 4-pack",
+   "badge": "Best seller · the $80 four-pack",
+   "price": "Real deal at $79.99 or less for four (list $99)",
+   "chip": "Louder · finds from 50% farther · Apple Watch finding",
+   "buy_if": "you have an iPhone and keys, luggage or a bike to protect; $79.99 is the record low and the October target.",
+   "skip_if": "you're on Android — get the Chipolo Pop or Galaxy SmartTag2 instead (both about $29).",
+   "owners": "Owners call it 'much louder' and easier to find. Complaints: still no keyring hole, and the same coin battery.",
+   "cta": "https://www.amazon.com/s?k=Apple+AirTag+2+4+pack&tag=verdictpicks-20",
+   "art": {
+    "style": "coin",
+    "pack": 4,
+    "body": "#F7F7F5",
+    "back": "#C9CACB"
+   },
+   "category": "tracker"
+  },
+  {
+   "id": "freesip",
+   "name": "Owala FreeSip (24 oz)",
+   "short": "Owala FreeSip 24 oz",
+   "badge": "Best seller · the $24 bottle",
+   "price": "Real deal at $24 or less (list $29.99; sale floor $23.99)",
+   "chip": "Sip or chug · locks shut · cold for 24 h",
+   "buy_if": "you want the colour you like at $24 — it sells out before it gets cheaper.",
+   "skip_if": "it's a 'deal' at $27–$28; that's just the everyday price of the 32-ounce.",
+   "owners": "Reported 117,000+ ratings at 4.6 stars. Praise: the lid. Complaints: clean the gasket or it molds; lock it or it leaks.",
+   "cta": "https://www.amazon.com/s?k=Owala+FreeSip+24+oz+water+bottle&tag=verdictpicks-20",
+   "art": {
+    "style": "freesip",
+    "body": "#3D6FA8",
+    "lid": "#1B2A41",
+    "accent": "#8FD3AE"
+   },
+   "category": "bottle"
+  },
+  {
+   "id": "little-green",
+   "name": "Bissell Little Green (1400B)",
+   "short": "Bissell Little Green 1400B",
+   "badge": "Best seller · the spot cleaner",
+   "price": "Real deal at $89 or less (list $123.59; Black Friday low $81)",
+   "chip": "Spray + suck · 48 oz tank · 9.7 lb",
+   "buy_if": "you have pets, kids or a light-coloured couch and it's under $90 in October.",
+   "skip_if": "it's $95-plus (that's its everyday price) or you want it for whole carpets — it's a spot cleaner.",
+   "owners": "Praise: the before-and-after on a 'clean' couch. Complaints: loud as a shop vac, a short 4-foot hose, tanks that need drying.",
+   "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=verdictpicks-20",
+   "video": "pHWrhVtkYLA",
+   "video_title": "6 years with the Bissell Little Green — a long-term review",
+   "art": {
+    "style": "classic",
+    "body": "#3E8E5A",
+    "tank": "#9FD3FF",
+    "accent": "#1B2A41"
+   },
+   "category": "cleaner"
+  }
+ ]
+}

@@ -16,9 +16,9 @@ def main(post_dir):
     cfg = json.loads((d / "cover.json").read_text(encoding="utf-8"))
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
     hero = next(c for c in spec["cards"] if c["id"] == cfg["hero"])
-    prod = render_product(spec["category"], hero.get("art", {}), "hero", scale=cfg.get("scale", 1.0),
+    prod = render_product(hero.get("category", spec["category"]), hero.get("art", {}), "hero", scale=cfg.get("scale", 1.0),
                           tx=cfg.get("tx", 600), ty=cfg.get("ty", 120), with_studio=False)
-    title = "".join(f'<text x="70" y="{262 + i*92}" font-size="86" font-weight="800" fill="{"#8FD3AE" if line.startswith("of ") else "#fff"}">{esc(line)}</text>' for i, line in enumerate(cfg["title"]))
+    title = "".join(f'<text x="70" y="{262 + i*92}" font-size="{cfg.get("title_size", 86)}" font-weight="800" fill="{"#8FD3AE" if line.startswith("of ") else "#fff"}">{esc(line)}</text>' for i, line in enumerate(cfg["title"]))
     sub = "".join(f'<text x="70" y="{500 + i*32}" font-size="25" fill="#E6E9EE">{esc(line)}</text>' for i, line in enumerate(cfg["subtitle"]))
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="{esc(cfg.get("alt", " ".join(cfg["title"])))}">
 <defs>

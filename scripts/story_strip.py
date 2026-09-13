@@ -120,7 +120,8 @@ def main(post_dir):
     cards = {c["id"]: c for c in spec["cards"]}
     for s in strips:
         art = cards[s["card"]].get("art", {}) if s.get("card") else {}
-        (outdir / f"{s['id']}.svg").write_text(strip_svg(s, spec["category"], art), encoding="utf-8")
+        cat = cards[s["card"]].get("category", spec["category"]) if s.get("card") else spec["category"]
+        (outdir / f"{s['id']}.svg").write_text(strip_svg(s, cat, art), encoding="utf-8")
     print(f"wrote {len(strips)} strips to {outdir}")
 
 if __name__ == "__main__":

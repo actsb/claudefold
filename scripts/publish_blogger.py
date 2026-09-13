@@ -64,6 +64,12 @@ POSTS = {
         "slug_title": "Best Portable Power Stations 2026",
         "labels": ["Power Stations", "Buying Guide", "Home Backup", "Under $500", "Camping"],
     },
+    "prime-days": {
+        "dir": "posts/2026-09-prime-big-deal-days-2026",
+        "title": "Prime Big Deal Days 2026: The 12 Deals Worth Waiting For (and the Price That Makes Each One Real)",
+        "slug_title": "Prime Big Deal Days 2026",
+        "labels": ["Deals", "Buying Guide", "Best Sellers"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

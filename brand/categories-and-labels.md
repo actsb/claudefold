@@ -44,7 +44,7 @@ Start with the first row and expand one section at a time; a section tab appears
 | `Buying Guide` | "Best X of 2026" category guides (the flagship format) |
 | `Brand vs Brand` | Head-to-heads (Roborock vs Dreame) |
 | `Deep Dive` | Single-product long reviews built from review analysis |
-| `Deals` | Sale-event roundups (Prime Day, Black Friday) — short shelf life, mark the date in the title |
+| `Deals` | Sale-event roundups (Prime Day, Black Friday) — short shelf life, mark the date in the title. First use: *Prime Big Deal Days 2026* (Sept 13, 2026), linked from the Best Sellers hub |
 | `Explainer` | "LiDAR vs camera navigation", "Do you need a self-empty dock?" |
 
 ## C. Cross-cutting labels (0–4 per post — reader intent)

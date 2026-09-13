@@ -15,7 +15,7 @@ def main(post_dir):
     cfg = json.loads((d / "cover.json").read_text(encoding="utf-8"))
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
     hero = next(c for c in spec["cards"] if c["id"] == cfg["hero"])
-    prod = render_product(spec["category"], hero.get("art", {}), "pin", scale=1.3, tx=110, ty=560, with_studio=False)
+    prod = render_product(hero.get("category", spec["category"]), hero.get("art", {}), "pin", scale=1.3, tx=110, ty=560, with_studio=False)
     lines = cfg["title"]
     fs = 96 if max(len(l) for l in lines) <= 14 else 84
     title = "".join(f'<text x="500" y="{250 + i*(fs+10)}" text-anchor="middle" font-size="{fs}" font-weight="800" fill="{"#8FD3AE" if l.startswith("of ") else "#fff"}">{esc(l)}</text>' for i, l in enumerate(lines))

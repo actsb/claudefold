@@ -1,0 +1,38 @@
+{
+ "strips": [
+  {
+   "id": "deal-day",
+   "card": "saros-10r",
+   "title": "Deal day in real life — how a calm shopper does Prime Big Deal Days",
+   "panels": [
+    {
+     "glyph": "phone",
+     "head": "Sept 30 — the list",
+     "text": "Write down what you actually need and the price that makes each one real. Twelve items, twelve numbers.",
+     "host": {
+      "pose": "point"
+     }
+    },
+    {
+     "glyph": "warning",
+     "head": "Oct 6 — the 'was $1,600' trap",
+     "text": "A robot 'was $1,600, now $999'? It has been $900 all year. The only number that matters is yours."
+    },
+    {
+     "glyph": "sun",
+     "product": true,
+     "head": "Oct 7, 7 AM — buy or skip",
+     "text": "Two items hit their price. Buy those. The rest stay on the list — Black Friday is seven weeks away."
+    },
+    {
+     "glyph": "check",
+     "host": {
+      "pose": "thumbsup"
+     },
+     "head": "Oct 8 — done in ten minutes",
+     "text": "No cart full of 'deals'. Two real ones, money saved, and a list ready for November."
+    }
+   ]
+  }
+ ]
+}

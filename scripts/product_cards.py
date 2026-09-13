@@ -378,7 +378,7 @@ def main(post_dir):
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
     outdir = d / "images" / "cards"; outdir.mkdir(parents=True, exist_ok=True)
     for c in spec["cards"]:
-        (outdir / f"{c['id']}.svg").write_text(card_svg(spec["category"], c), encoding="utf-8")
+        (outdir / f"{c['id']}.svg").write_text(card_svg(c.get("category", spec["category"]), c), encoding="utf-8")
     print(f"wrote {len(spec['cards'])} cards to {outdir}")
 
 if __name__ == "__main__":
