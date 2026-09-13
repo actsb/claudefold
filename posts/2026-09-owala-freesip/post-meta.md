@@ -8,3 +8,4 @@
 * **Cover:** images/cover.png (hero render); cards in images/cards; strip in images/strips.
 * **Research:** research/best-sellers-2026-09.md (figures marked unverified there are phrased as reported/approximate in the post).
 * **Placeholders:** `YOURTAG-20` Amazon Associates tag.
+* **Live URL (published September 13, 2026 via the Blogger API):** https://acts39.blogspot.com/2026/09/owala-freesip-review-2026.html

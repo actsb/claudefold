@@ -11,3 +11,4 @@
 * **Placeholders to replace before/after publishing:** `YOURTAG-20` (Amazon Associates tag) in 28 links.
 * **Live URL (published September 12, 2026 via the Blogger API):** https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html
 * **Format:** shopping-guide layer first (top pick card, picker grid, 30-second cards), full deep-dive below with a reading plan.
+* **Updated September 13, 2026:** studio-style renders, hero-render cover, Vera verdict banner and four-panel strip; republished in place.

@@ -63,3 +63,4 @@ Amazon's Associates agreement requires product images to come through its own to
 - [ ] Publish → Search Console → Request indexing
 - [ ] Layout → Featured Post gadget → select this post
 * **Updated September 12, 2026:** replaced in place (same URL) with the shopping-guide-first format; full deep-dive follows with a reading plan.
+* **Updated September 13, 2026:** studio-style renders, hero-render cover, Vera verdict banner and four-panel strip; republished in place.
