@@ -1,0 +1,6 @@
+{"strips": [{"id": "c1000-outage", "card": "c1000", "title": "The night the power goes out — with the Anker SOLIX C1000 Gen 2", "panels": [
+ {"glyph": "moon", "head": "9:12 PM — lights out", "text": "You carry it to the kitchen in one hand. 25 pounds, no fumes, no noise."},
+ {"glyph": "fridge", "head": "Fridge + Wi-Fi + phones", "text": "2,000 W starts the compressor without a hiccup. The router never blinks."},
+ {"glyph": "sun", "head": "7 AM — grid back for an hour", "text": "You plug it in. 49 minutes later it's full again, before the power drops a second time."},
+ {"glyph": "check", "product": true, "head": "Day 3: the milk is still cold", "text": "The review owners write most: \"I should have bought this years ago.\""}
+]}]}

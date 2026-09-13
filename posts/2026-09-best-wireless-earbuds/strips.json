@@ -1,0 +1,6 @@
+{"strips": [{"id": "xm6-commute", "card": "xm6", "title": "A commute with the Sony WF-1000XM6", "panels": [
+ {"glyph": "train", "head": "7:40 AM — the train hum", "text": "Tap once. Tier-1 noise cancelling takes the rumble down to almost nothing."},
+ {"glyph": "phone", "head": "A call on a windy platform", "text": "Class-leading mics: the other side hears you, not the wind."},
+ {"glyph": "battery", "head": "3 min in the case = 1 hour", "text": "Forgot to charge? A quick top-up covers the ride home."},
+ {"glyph": "check", "product": true, "head": "9 hours later, still going", "text": "Measured 9h41m with ANC on. Works the same on iPhone and Android."}
+]}]}

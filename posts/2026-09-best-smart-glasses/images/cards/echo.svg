@@ -1,14 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Amazon Echo Frames (3rd Gen) (illustration)">
-<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
-<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
-<rect x="120" y="165" width="150" height="88" rx="22" fill="#9A9A9A" fill-opacity="0.25" stroke="#222" stroke-width="4"/>
-<rect x="330" y="165" width="150" height="88" rx="22" fill="#9A9A9A" fill-opacity="0.25" stroke="#222" stroke-width="4"/>
-<path d="M 288 178 Q 300 168 312 178" fill="none" stroke="#222" stroke-width="9" stroke-linecap="round"/>
-<path d="M 110 176 L 70 150 M 490 176 L 530 150" stroke="#222" stroke-width="10" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Amazon Echo Frames (3rd Gen) (product render)">
+<defs>
+<radialGradient id="cecho-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cecho-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cecho-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cecho-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cecho-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#3c3c3c"/><stop offset="0.55" stop-color="#222"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+<linearGradient id="cecho-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131313"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="cecho-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f5f5f"/><stop offset="1" stop-color="#313131"/></linearGradient>
+<radialGradient id="cecho-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5a5a5a"/><stop offset="0.6" stop-color="#222"/><stop offset="1" stop-color="#000000"/></radialGradient>
+<linearGradient id="cecho-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cecho-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cecho-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cecho-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdefd2"/><stop offset="1" stop-color="#4ed487"/></linearGradient>
+<linearGradient id="cecho-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cecho-bg)"/><ellipse cx="300" cy="300" rx="200" ry="14" fill="#000" opacity="0.28" filter="url(#cecho-blur)"/>
+<linearGradient id="cecho-fr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6e6e6e"/><stop offset="0.45" stop-color="#222"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<rect x="118" y="172" width="152" height="92" rx="24" fill="url(#cecho-lens)" opacity="0.96"/>
+<rect x="118" y="172" width="152" height="92" rx="24" fill="none" stroke="url(#cecho-fr)" stroke-width="6" stroke-linejoin="round"/>
+<path d="M 151.44 243.76 L 201.60000000000002 188.56" stroke="#fff" stroke-opacity="0.32" stroke-width="14.72" stroke-linecap="round" filter="url(#cecho-soft)"/>
+<rect x="330" y="172" width="152" height="92" rx="24" fill="url(#cecho-lens)" opacity="0.96"/>
+<rect x="330" y="172" width="152" height="92" rx="24" fill="none" stroke="url(#cecho-fr)" stroke-width="6" stroke-linejoin="round"/>
+<path d="M 363.44 243.76 L 413.6 188.56" stroke="#fff" stroke-opacity="0.32" stroke-width="14.72" stroke-linecap="round" filter="url(#cecho-soft)"/>
+<path d="M 288 190 Q 300 178 312 190" fill="none" stroke="url(#cecho-fr)" stroke-width="6" stroke-linecap="round"/>
+<path d="M 110 186 L 66 156 M 490 186 L 534 156" stroke="url(#cecho-fr)" stroke-width="7" stroke-linecap="round"/>
+<path d="M 66 156 L 62 150 M 534 156 L 538 150" stroke="#000000" stroke-width="7" stroke-linecap="round"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <rect x="18" y="18" width="196" height="28" rx="14" fill="#1B2A41"/>
 <text x="116.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Alexa · music · no camera</text>
-<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Amazon Echo Frames (3rd Gen)</text>
-<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Amazon Echo Frames (3rd Gen)</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>
 </svg>

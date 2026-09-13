@@ -1,27 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="EcoFlow RIVER 3 (illustration)">
-<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
-<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
-<rect x="234.0" y="139" width="132.0" height="30" rx="14" fill="#C9C9C4"/>
-<rect x="190.0" y="165" width="220" height="150" rx="22" fill="#3A3D42"/>
-<rect x="190.0" y="165" width="220" height="18" rx="9" fill="#5C6470"/>
-<rect x="207.6" y="195.0" width="79.2" height="54.0" rx="10" fill="#1B2A41" stroke="#000" stroke-width="2"/>
-<text x="247.2" y="230.0" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#8FD3AE">245 Wh</text>
-<rect x="304.4" y="195.0" width="41.8" height="41.8" rx="8" fill="#F1F1EE"/>
-<rect x="316.104" y="207.54" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/><rect x="329.47999999999996" y="207.54" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/>
-<rect x="356.2" y="195.0" width="41.8" height="41.8" rx="8" fill="#F1F1EE"/>
-<rect x="367.904" y="207.54" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/><rect x="381.28" y="207.54" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/>
-<rect x="304.4" y="244.8" width="41.8" height="41.8" rx="8" fill="#F1F1EE"/>
-<rect x="316.104" y="257.34000000000003" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/><rect x="329.47999999999996" y="257.34000000000003" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/>
-<rect x="356.2" y="244.8" width="41.8" height="41.8" rx="8" fill="#F1F1EE"/>
-<rect x="367.904" y="257.34000000000003" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/><rect x="381.28" y="257.34000000000003" width="5.015999999999999" height="13.376" rx="2" fill="#3A3D42"/>
-<rect x="207.6" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<rect x="234.0" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<rect x="260.4" y="263.0" width="18.400000000000002" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<path d="M 364.0 263 l -12 24 h 12 l -6 22 l 20 -30 h -12 l 8 -16 z" fill="#5C6470"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="EcoFlow RIVER 3 (product render)">
+<defs>
+<radialGradient id="criver3-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="criver3-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="criver3-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="criver3-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="criver3-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#52565d"/><stop offset="0.55" stop-color="#3A3D42"/><stop offset="1" stop-color="#25262a"/></linearGradient>
+<linearGradient id="criver3-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2c2e32"/><stop offset="1" stop-color="#0a0b0c"/></linearGradient>
+<linearGradient id="criver3-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#737983"/><stop offset="1" stop-color="#484c52"/></linearGradient>
+<radialGradient id="criver3-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#6e747e"/><stop offset="0.6" stop-color="#3A3D42"/><stop offset="1" stop-color="#191a1c"/></radialGradient>
+<linearGradient id="criver3-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="criver3-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="criver3-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="criver3-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#818a98"/><stop offset="1" stop-color="#40464e"/></linearGradient>
+<linearGradient id="criver3-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#criver3-bg)"/><ellipse cx="300" cy="326" rx="142.6" ry="16" fill="#000" opacity="0.28" filter="url(#criver3-blur)"/>
+<linearGradient id="criver3-h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f5f4"/><stop offset="0.5" stop-color="#C9C9C4"/><stop offset="1" stop-color="#939389"/></linearGradient>
+<path d="M 400.0 176.0 L 433.0 149.0 L 433.0 283.0 Q 433.0 291.0 427.0 291.0 L 400.0 315.0 Z" fill="url(#criver3-side)"/><path d="M 180.0 168 L 213.0 141.0 L 427.0 141.0 Q 433.0 141.0 433.0 149.0 L 400.0 176.0 Q 400.0 168 390.0 168 Z" fill="url(#criver3-top)"/><rect x="170.0" y="168" width="230" height="150" rx="20" fill="url(#criver3-front)"/><rect x="170.0" y="168" width="230" height="150" rx="20" fill="none" stroke="#000000" stroke-width="1.2" opacity="0.6"/><path d="M 190.0 171 L 380.0 171" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+<rect x="228.8" y="148.5" width="12" height="16" rx="4" fill="#8c8c81"/><rect x="362.2" y="148.5" width="12" height="16" rx="4" fill="#8c8c81"/>
+<rect x="234.8" y="132.5" width="133.39999999999998" height="24" rx="12" fill="url(#criver3-h)"/><rect x="244.8" y="136.5" width="113.39999999999998" height="5" rx="2.5" fill="#fff" opacity="0.4"/>
+<rect x="170.0" y="168" width="230" height="14" rx="7" fill="url(#criver3-accent)"/><rect x="170.0" y="176" width="230" height="6" fill="url(#criver3-accent)"/>
+<rect x="186.1" y="198.0" width="82.8" height="51.00000000000001" rx="9" fill="url(#criver3-screen)" stroke="#000" stroke-width="2"/>
+<rect x="190.1" y="202.0" width="74.8" height="20.400000000000006" rx="6" fill="#fff" opacity="0.05"/>
+<text x="227.5" y="224.52" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#8FE3B2">245 Wh</text>
+<rect x="196.036" y="231.66" width="62.928" height="7.1400000000000015" rx="3" fill="#0f2a1c"/><rect x="196.036" y="231.66" width="57.89376" height="7.1400000000000015" rx="3" fill="#2ecc71"/>
+<rect x="289.6" y="198.0" width="43.7" height="43.7" rx="6.992000000000001" fill="#efefec"/><rect x="291.1" y="199.5" width="40.7" height="40.7" rx="6.118000000000001" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="301.399" y="208.488" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><rect x="316.694" y="208.488" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><circle cx="311.45000000000005" cy="229.464" r="3.4960000000000004" fill="#333"/>
+<rect x="343.3" y="198.0" width="43.7" height="43.7" rx="6.992000000000001" fill="#efefec"/><rect x="344.8" y="199.5" width="40.7" height="40.7" rx="6.118000000000001" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="355.099" y="208.488" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><rect x="370.394" y="208.488" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><circle cx="365.15000000000003" cy="229.464" r="3.4960000000000004" fill="#333"/>
+<rect x="289.6" y="249.7" width="43.7" height="43.7" rx="6.992000000000001" fill="#efefec"/><rect x="291.1" y="251.2" width="40.7" height="40.7" rx="6.118000000000001" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="301.399" y="260.188" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><rect x="316.694" y="260.188" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><circle cx="311.45000000000005" cy="281.164" r="3.4960000000000004" fill="#333"/>
+<rect x="343.3" y="249.7" width="43.7" height="43.7" rx="6.992000000000001" fill="#efefec"/><rect x="344.8" y="251.2" width="40.7" height="40.7" rx="6.118000000000001" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="355.099" y="260.188" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><rect x="370.394" y="260.188" width="4.807" height="13.110000000000001" rx="1.5" fill="#333"/><circle cx="365.15000000000003" cy="281.164" r="3.4960000000000004" fill="#333"/>
+<rect x="186.1" y="261.0" width="19.599999999999998" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="190.1" y="264.5" width="11.599999999999998" height="4" rx="2" fill="#333"/>
+<rect x="213.7" y="261.0" width="19.599999999999998" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="217.7" y="264.5" width="11.599999999999998" height="4" rx="2" fill="#333"/>
+<rect x="241.29999999999998" y="261.0" width="19.599999999999998" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="245.29999999999998" y="264.5" width="11.599999999999998" height="4" rx="2" fill="#333"/>
+<circle cx="374.0" cy="292" r="9" fill="#575b63" stroke="#000000" stroke-width="1.5"/><circle cx="374.0" cy="292" r="3" fill="#5C6470"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <rect x="18" y="18" width="289" height="28" rx="14" fill="#1B2A41"/>
 <text x="162.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">245 Wh · 300 W · splash-proof · 7.8 lb</text>
-<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">EcoFlow RIVER 3</text>
-<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">EcoFlow RIVER 3</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>
 </svg>

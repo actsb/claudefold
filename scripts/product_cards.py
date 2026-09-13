@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""Generate flat-style product illustration cards (SVG) from posts/<slug>/cards.json.
+"""Studio-photo style product renders (SVG) from posts/<slug>/cards.json.
 
 Usage: python3 scripts/product_cards.py posts/<slug>
-Writes posts/<slug>/images/cards/<id>.svg for every card. Illustrations are original
-drawings (no logos, no photos) so they can be hosted and inlined freely.
+Writes posts/<slug>/images/cards/<id>.svg. Every render is an original drawing
+(three-quarter view, gradients, soft shadows, no logos, no photos), so it can be
+hosted and inlined freely. Gradient/filter ids are prefixed with the card id so
+many cards can be inlined on one page.
+
+Also exposes render_product(category, art, uid, scale, tx, ty) for covers and strips.
 """
-import json, sys, pathlib, html
+import json, sys, pathlib, html, colorsys
 
 W, H = 600, 400
 FONT = "-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
@@ -13,186 +17,278 @@ NAVY, GREEN, AMBER, PAPER = "#1B2A41", "#1E8E5A", "#C9781B", "#F7F5F0"
 
 def esc(s): return html.escape(str(s), quote=True)
 
-def frame(title, chip, inner, label):
-    """Common card frame: paper background, floor shadow, top-left chip, bottom label."""
-    chip_w = 16 + int(len(chip) * 7.2)
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(title)} (illustration)">
-<rect width="{W}" height="{H}" rx="18" fill="{PAPER}"/>
-<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
-{inner}
-<g font-family="{FONT}">
-<rect x="18" y="18" width="{chip_w}" height="28" rx="14" fill="{NAVY}"/>
-<text x="{18 + chip_w/2}" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">{esc(chip)}</text>
-<text x="22" y="378" font-size="22" font-weight="700" fill="{NAVY}">{esc(label)}</text>
-<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
-</g>
-</svg>
-'''
+# ---------------------------------------------------------------- colour helpers
+def _rgb(h):
+    h = h.lstrip('#')
+    if len(h) == 3: h = ''.join(ch * 2 for ch in h)
+    return tuple(int(h[i:i+2], 16) / 255 for i in (0, 2, 4))
+def _hex(r, g, b): return '#%02x%02x%02x' % tuple(max(0, min(255, round(v * 255))) for v in (r, g, b))
+def shade(h, dl):
+    """lighten (dl>0) or darken (dl<0) a hex colour by dl in HLS lightness."""
+    r, g, b = _rgb(h); hh, l, s = colorsys.rgb_to_hls(r, g, b)
+    l = max(0, min(1, l + dl)); return _hex(*colorsys.hls_to_rgb(hh, l, s))
 
-# ---------------------------------------------------------------- robot vacuum (top view)
-def draw_robot(a):
-    body = a.get("body", "#F2F2F0"); rim = a.get("rim", "#C8C8C3"); accent = a.get("accent", NAVY)
-    cx, cy, r = 260, 200, 112
-    out = []
+# ---------------------------------------------------------------- shared defs
+def defs(uid, body, accent):
+    return f'''<defs>
+<radialGradient id="{uid}-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="{uid}-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="{uid}-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="{uid}-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="{uid}-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="{shade(body, .10)}"/><stop offset="0.55" stop-color="{body}"/><stop offset="1" stop-color="{shade(body, -.09)}"/></linearGradient>
+<linearGradient id="{uid}-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{shade(body, -.06)}"/><stop offset="1" stop-color="{shade(body, -.20)}"/></linearGradient>
+<linearGradient id="{uid}-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{shade(body, .24)}"/><stop offset="1" stop-color="{shade(body, .06)}"/></linearGradient>
+<radialGradient id="{uid}-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="{shade(body, .22)}"/><stop offset="0.6" stop-color="{body}"/><stop offset="1" stop-color="{shade(body, -.14)}"/></radialGradient>
+<linearGradient id="{uid}-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="{uid}-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="{uid}-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="{uid}-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{shade(accent, .15)}"/><stop offset="1" stop-color="{shade(accent, -.12)}"/></linearGradient>
+<linearGradient id="{uid}-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>'''
+
+def studio(uid, cx=300, cy=326, rx=170, ry=18):
+    return (f'<rect width="{W}" height="{H}" rx="18" fill="url(#{uid}-bg)"/>'
+            f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="#000" opacity="0.28" filter="url(#{uid}-blur)"/>')
+
+def box3d(uid, x, y, w, h, depth, body, rx=16, skew=0.55):
+    """A rounded box in three-quarter view: front face at (x,y,w,h); side & top faces to the right/up."""
+    d = depth; dx, dy = d * skew, d * 0.45
+    side = f'<path d="M {x+w} {y+rx*0.4} L {x+w+dx} {y-dy+rx*0.4} L {x+w+dx} {y+h-dy-rx*0.4} Q {x+w+dx} {y+h-dy} {x+w+dx-rx*0.3} {y+h-dy} L {x+w} {y+h-rx*0.15} Z" fill="url(#{uid}-side)"/>'
+    top = f'<path d="M {x+rx*0.5} {y} L {x+dx+rx*0.5} {y-dy} L {x+w+dx-rx*0.3} {y-dy} Q {x+w+dx} {y-dy} {x+w+dx} {y-dy+rx*0.4} L {x+w} {y+rx*0.4} Q {x+w} {y} {x+w-rx*0.5} {y} Z" fill="url(#{uid}-top)"/>'
+    front = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="url(#{uid}-front)"/>'
+    edge = f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{rx}" fill="none" stroke="{shade(body, -.25)}" stroke-width="1.2" opacity="0.6"/>'
+    gloss = f'<path d="M {x+rx} {y+3} L {x+w-rx} {y+3}" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>'
+    return side + top + front + edge + gloss
+
+def outlet(uid, x, y, s, body):
+    """A US AC outlet face."""
+    return (f'<rect x="{x}" y="{y}" width="{s}" height="{s}" rx="{s*0.16}" fill="#efefec"/>'
+            f'<rect x="{x+1.5}" y="{y+1.5}" width="{s-3}" height="{s-3}" rx="{s*0.14}" fill="none" stroke="#c9c9c4" stroke-width="1"/>'
+            f'<rect x="{x+s*0.27}" y="{y+s*0.24}" width="{s*0.11}" height="{s*0.30}" rx="1.5" fill="#333"/>'
+            f'<rect x="{x+s*0.62}" y="{y+s*0.24}" width="{s*0.11}" height="{s*0.30}" rx="1.5" fill="#333"/>'
+            f'<circle cx="{x+s*0.5}" cy="{y+s*0.72}" r="{s*0.08}" fill="#333"/>')
+
+# ---------------------------------------------------------------- robot vacuum (three-quarter top view)
+def draw_robot(uid, a):
+    body = a.get("body", "#F4F4F1"); accent = a.get("accent", NAVY)
+    out = [defs(uid, body, accent), studio(uid, 270, 322, 170, 16)]
+    cx, cy, rx, ry, hh = 270, 218, 158, 86, 40
     dock = a.get("dock")
     if dock:
-        dw, dh = (150, 190) if dock == "omni" else (120, 150)
-        dx, dy = 400, 300 - dh
-        dcol = a.get("dock_color", "#E4E2DC"); ddark = a.get("dock_dark", "#B9B6AE")
-        out.append(f'<rect x="{dx}" y="{dy}" width="{dw}" height="{dh}" rx="18" fill="{dcol}" stroke="{ddark}" stroke-width="3"/>')
-        out.append(f'<rect x="{dx}" y="{dy}" width="{dw}" height="30" rx="14" fill="{ddark}"/>')
+        dw, dh, dd = (120, 175, 52) if dock == "omni" else (96, 132, 42)
+        dx, dy = 430, 305 - dh
+        dcol = a.get("dock_color", "#ECEAE4")
+        out.append(f'<ellipse cx="{dx+dw/2+10}" cy="{dy+dh+6}" rx="{dw*0.75}" ry="10" fill="#000" opacity="0.22" filter="url(#{uid}-blur)"/>')
+        out.append(box3d(uid + "d", dx, dy, dw, dh, dd, dcol, rx=14))
+        out.append(f'<rect x="{dx}" y="{dy}" width="{dw}" height="26" rx="14" fill="{shade(dcol, -.28)}"/><rect x="{dx}" y="{dy+14}" width="{dw}" height="12" fill="{shade(dcol, -.28)}"/>')
         if dock == "omni":
-            out.append(f'<rect x="{dx+18}" y="{dy+50}" width="48" height="70" rx="8" fill="#fff" opacity="0.7"/><rect x="{dx+84}" y="{dy+50}" width="48" height="70" rx="8" fill="#fff" opacity="0.7"/>')
-            out.append(f'<text x="{dx+dw/2}" y="{dy+dh-16}" text-anchor="middle" font-family="{FONT}" font-size="12" fill="#666">wash · dry · empty</text>')
+            for k in (0, 1):
+                tx = dx + 14 + k * (dw/2 - 10)
+                out.append(f'<rect x="{tx}" y="{dy+46}" width="{dw/2-22}" height="72" rx="8" fill="#ffffff" opacity="0.55"/><rect x="{tx+6}" y="{dy+70}" width="{dw/2-34}" height="40" rx="5" fill="#9fd3ff" opacity="0.35"/>')
+            out.append(f'<rect x="{dx+12}" y="{dy+dh-40}" width="{dw-24}" height="22" rx="4" fill="{shade(dcol, -.12)}"/>')
         else:
-            out.append(f'<rect x="{dx+30}" y="{dy+50}" width="60" height="60" rx="10" fill="#fff" opacity="0.7"/>')
-            out.append(f'<text x="{dx+dw/2}" y="{dy+dh-16}" text-anchor="middle" font-family="{FONT}" font-size="12" fill="#666">auto-empty</text>')
-    # body
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{body}" stroke="{rim}" stroke-width="6"/>')
-    out.append(f'<circle cx="{cx}" cy="{cy}" r="{r-22}" fill="none" stroke="{rim}" stroke-width="2" opacity="0.6"/>')
-    # bumper (front = top)
-    out.append(f'<path d="M {cx-95} {cy-58} A {r} {r} 0 0 1 {cx+95} {cy-58}" fill="none" stroke="{rim}" stroke-width="12" stroke-linecap="round" opacity="0.9"/>')
-    # turret or flat sensor
+            out.append(f'<rect x="{dx+14}" y="{dy+44}" width="{dw-28}" height="54" rx="8" fill="{shade(dcol, -.10)}"/><rect x="{dx+18}" y="{dy+48}" width="{dw-36}" height="46" rx="6" fill="#ffffff" opacity="0.5"/>')
+        out.append(f'<rect x="{dx+dw/2-10}" y="{dy+dh-14}" width="20" height="4" rx="2" fill="{accent}" opacity="0.8"/>')
+    # side wall (lower half of ellipse extruded)
+    out.append(f'<path d="M {cx-rx} {cy} A {rx} {ry} 0 0 0 {cx+rx} {cy} L {cx+rx} {cy+hh} A {rx} {ry} 0 0 1 {cx-rx} {cy+hh} Z" fill="url(#{uid}-side)"/>')
+    # bumper seam on the wall
+    out.append(f'<path d="M {cx-rx+2} {cy+14} A {rx} {ry} 0 0 0 {cx+rx-2} {cy+14}" fill="none" stroke="{shade(body, -.30)}" stroke-width="1.5" opacity="0.7"/>')
+    # front sensor window on the wall
+    out.append(f'<path d="M {cx-58} {cy+ry-2} Q {cx} {cy+ry+8} {cx+58} {cy+ry-2} L {cx+58} {cy+ry+18} Q {cx} {cy+ry+28} {cx-58} {cy+ry+18} Z" fill="#141414"/>')
+    out.append(f'<path d="M {cx-40} {cy+ry+4} Q {cx} {cy+ry+11} {cx+40} {cy+ry+4}" stroke="#fff" stroke-opacity="0.25" stroke-width="2" fill="none"/>')
+    # top face
+    out.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="url(#{uid}-dome)"/>')
+    out.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx-14}" ry="{ry-8}" fill="none" stroke="{shade(body, -.16)}" stroke-width="1.2" opacity="0.7"/>')
+    # lid gloss
+    out.append(f'<ellipse cx="{cx-40}" cy="{cy-30}" rx="86" ry="26" fill="url(#{uid}-gloss)"/>')
     if a.get("turret", True):
-        out.append(f'<circle cx="{cx}" cy="{cy}" r="30" fill="{accent}"/><circle cx="{cx}" cy="{cy}" r="16" fill="#fff" opacity="0.25"/><circle cx="{cx}" cy="{cy}" r="7" fill="#fff" opacity="0.6"/>')
+        tcol = a.get("turret_color", "#2B2B2B")
+        out.append(f'<path d="M {cx-34} {cy-4} A 34 19 0 0 0 {cx+34} {cy-4} L {cx+34} {cy+12} A 34 19 0 0 1 {cx-34} {cy+12} Z" fill="{shade(tcol, -.12)}"/>')
+        out.append(f'<ellipse cx="{cx}" cy="{cy-4}" rx="34" ry="19" fill="{tcol}"/><ellipse cx="{cx}" cy="{cy-4}" rx="24" ry="13" fill="{shade(tcol, .10)}"/>')
+        out.append(f'<rect x="{cx-22}" y="{cy+1}" width="44" height="6" rx="3" fill="#0d0d0d" opacity="0.8"/>')
+        out.append(f'<ellipse cx="{cx-10}" cy="{cy-10}" rx="12" ry="5" fill="#fff" opacity="0.28"/>')
     else:
-        out.append(f'<rect x="{cx-40}" y="{cy-r+18}" width="80" height="14" rx="7" fill="{accent}"/>')
-        out.append(f'<circle cx="{cx}" cy="{cy}" r="26" fill="none" stroke="{accent}" stroke-width="3" opacity="0.35"/>')
+        out.append(f'<rect x="{cx-48}" y="{cy+ry-30}" width="96" height="14" rx="7" fill="#101418"/><rect x="{cx-36}" y="{cy+ry-27}" width="40" height="4" rx="2" fill="#fff" opacity="0.25"/>')
+        out.append(f'<ellipse cx="{cx}" cy="{cy}" rx="46" ry="24" fill="none" stroke="{shade(body, -.12)}" stroke-width="1.5" opacity="0.8"/>')
     if a.get("camera"):
-        out.append(f'<circle cx="{cx+52}" cy="{cy-r+34}" r="7" fill="#111"/><circle cx="{cx+54}" cy="{cy-r+32}" r="2" fill="#fff"/>')
-    # side brush (front-left)
-    bx, by = cx-78, cy-70
-    out.append(f'<g stroke="{accent}" stroke-width="4" stroke-linecap="round" opacity="0.8"><line x1="{bx}" y1="{by}" x2="{bx-26}" y2="{by-20}"/><line x1="{bx}" y1="{by}" x2="{bx-32}" y2="{by+10}"/><line x1="{bx}" y1="{by}" x2="{bx-8}" y2="{by-32}"/></g><circle cx="{bx}" cy="{by}" r="5" fill="{accent}"/>')
-    # mop hint
+        out.append(f'<circle cx="{cx+64}" cy="{cy+ry-20}" r="7" fill="#0a0a0a"/><circle cx="{cx+62}" cy="{cy+ry-22}" r="2.2" fill="#fff" opacity="0.8"/>')
+    # buttons
+    out.append(f'<rect x="{cx-26}" y="{cy-ry+22}" width="20" height="6" rx="3" fill="{shade(body, -.22)}"/><rect x="{cx+6}" y="{cy-ry+22}" width="20" height="6" rx="3" fill="{shade(body, -.22)}"/>')
+    # side brush at front-left of the wall
+    bx, by = cx - rx + 26, cy + hh - 4
+    out.append(f'<g stroke="{accent}" stroke-width="3.5" stroke-linecap="round" opacity="0.9"><line x1="{bx}" y1="{by}" x2="{bx-28}" y2="{by+10}"/><line x1="{bx}" y1="{by}" x2="{bx-20}" y2="{by+24}"/><line x1="{bx}" y1="{by}" x2="{bx-2}" y2="{by+28}"/></g><circle cx="{bx}" cy="{by}" r="4.5" fill="{shade(accent, -.1)}"/>')
     if a.get("mop") == "roller":
-        out.append(f'<rect x="{cx-60}" y="{cy+62}" width="120" height="14" rx="7" fill="{accent}" opacity="0.35"/>')
+        out.append(f'<rect x="{cx-80}" y="{cy+hh+2}" width="160" height="10" rx="5" fill="{shade(accent, .1)}" opacity="0.55"/>')
     elif a.get("mop") == "pads":
-        out.append(f'<circle cx="{cx-34}" cy="{cy+70}" r="16" fill="{accent}" opacity="0.3"/><circle cx="{cx+34}" cy="{cy+70}" r="16" fill="{accent}" opacity="0.3"/>')
+        out.append(f'<ellipse cx="{cx-60}" cy="{cy+hh+6}" rx="22" ry="7" fill="{shade(accent, .1)}" opacity="0.5"/><ellipse cx="{cx+60}" cy="{cy+hh+6}" rx="22" ry="7" fill="{shade(accent, .1)}" opacity="0.5"/>')
     return "\n".join(out)
 
-# ---------------------------------------------------------------- earbuds (open case)
-def draw_earbuds(a):
-    case = a.get("case", "#111"); lid = a.get("lid", "#2a2a2a"); bud = a.get("bud", "#111"); accent = a.get("accent", "#888")
-    style = a.get("style", "stemless")
-    out = []
-    # lid (open, behind)
-    out.append(f'<rect x="150" y="70" width="300" height="120" rx="40" fill="{lid}" opacity="0.92"/>')
-    out.append(f'<rect x="150" y="150" width="300" height="140" rx="40" fill="{case}"/>')
-    out.append(f'<rect x="170" y="165" width="260" height="110" rx="30" fill="#000" opacity="0.18"/>')
-    out.append(f'<circle cx="300" cy="228" r="6" fill="{accent}" opacity="0.8"/>')
+# ---------------------------------------------------------------- earbuds (open case, three-quarter)
+def draw_earbuds(uid, a):
+    case = a.get("case", "#111"); bud = a.get("bud", "#111"); accent = a.get("accent", "#888"); style = a.get("style", "stemless")
+    out = [defs(uid, case, accent), studio(uid, 300, 322, 150, 16)]
+    # lid: open, tilted back
+    lid_in = shade(case, .14)
+    out.append(f'<g transform="translate(300 175) skewX(-6)"><rect x="-118" y="-92" width="236" height="104" rx="42" fill="url(#{uid}-side)"/><rect x="-106" y="-80" width="212" height="82" rx="34" fill="{lid_in}"/><rect x="-96" y="-74" width="190" height="30" rx="15" fill="#fff" opacity="0.10"/></g>')
+    # case body (front + top faces)
+    out.append(box3d(uid, 180, 185, 240, 118, 26, case, rx=44, skew=0.5))
+    # cavity
+    out.append(f'<ellipse cx="300" cy="196" rx="112" ry="26" fill="{shade(case, -.35)}"/><ellipse cx="300" cy="194" rx="104" ry="20" fill="{shade(case, -.22)}"/>')
+    out.append(f'<circle cx="300" cy="262" r="5" fill="{accent}" opacity="0.9"/><circle cx="300" cy="262" r="2" fill="#fff" opacity="0.6"/>')
     def one(x, flip):
         s = -1 if flip else 1
+        g = f'''<radialGradient id="{uid}-b{int(x)}" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="{shade(bud, .30)}"/><stop offset="0.55" stop-color="{bud}"/><stop offset="1" stop-color="{shade(bud, -.22)}"/></radialGradient>'''
+        parts = [g, f'<ellipse cx="{x}" cy="{212}" rx="30" ry="9" fill="#000" opacity="0.35" filter="url(#{uid}-soft)"/>']
         if style == "stem":
-            return (f'<ellipse cx="{x}" cy="205" rx="26" ry="24" fill="{bud}" stroke="#fff" stroke-width="1" stroke-opacity="0.3"/>'
-                    f'<rect x="{x-8 + s*6}" y="218" width="16" height="58" rx="8" fill="{bud}" transform="rotate({-8*s} {x} 240)"/>'
-                    f'<circle cx="{x - s*10}" cy="200" r="7" fill="{accent}" opacity="0.7"/>')
-        if style == "hook":
-            return (f'<ellipse cx="{x}" cy="215" rx="30" ry="26" fill="{bud}"/>'
-                    f'<path d="M {x - s*18} 195 C {x - s*40} 170, {x - s*64} 195, {x - s*46} 240" fill="none" stroke="{bud}" stroke-width="10" stroke-linecap="round"/>'
-                    f'<circle cx="{x + s*8}" cy="216" r="7" fill="{accent}"/>')
-        if style == "openear":
-            return (f'<rect x="{x-30}" y="196" width="60" height="30" rx="15" fill="{bud}"/>'
-                    f'<path d="M {x - s*18} 200 C {x - s*46} 168, {x - s*70} 200, {x - s*44} 250" fill="none" stroke="{bud}" stroke-width="9" stroke-linecap="round"/>'
-                    f'<circle cx="{x + s*10}" cy="211" r="6" fill="{accent}"/>')
-        # stemless
-        return (f'<ellipse cx="{x}" cy="212" rx="34" ry="30" fill="{bud}"/>'
-                f'<circle cx="{x - s*16}" cy="228" r="12" fill="{bud}" stroke="#fff" stroke-opacity="0.35" stroke-width="2"/>'
-                f'<circle cx="{x + s*8}" cy="206" r="9" fill="{accent}" opacity="0.85"/>')
-    out.append(one(248, False)); out.append(one(352, True))
+            parts.append(f'<rect x="{x-9 + s*8}" y="186" width="18" height="66" rx="9" fill="url(#{uid}-b{int(x)})" transform="rotate({-9*s} {x} 200)"/>')
+            parts.append(f'<ellipse cx="{x}" cy="176" rx="24" ry="22" fill="url(#{uid}-b{int(x)})"/>')
+            parts.append(f'<ellipse cx="{x - s*9}" cy="168" rx="8" ry="6" fill="#fff" opacity="0.45"/>')
+            parts.append(f'<rect x="{x-3 + s*8}" y="228" width="6" height="14" rx="3" fill="{shade(bud, -.25)}" transform="rotate({-9*s} {x} 200)"/>')
+        elif style == "hook":
+            parts.append(f'<path d="M {x - s*16} 176 C {x - s*40} 150, {x - s*66} 178, {x - s*46} 222" fill="none" stroke="{bud}" stroke-width="11" stroke-linecap="round"/>')
+            parts.append(f'<path d="M {x - s*18} 173 C {x - s*40} 150, {x - s*62} 176, {x - s*46} 216" fill="none" stroke="#fff" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round"/>')
+            parts.append(f'<ellipse cx="{x}" cy="192" rx="30" ry="26" fill="url(#{uid}-b{int(x)})"/><circle cx="{x + s*8}" cy="190" r="8" fill="{accent}"/><ellipse cx="{x - s*8}" cy="180" rx="9" ry="6" fill="#fff" opacity="0.4"/>')
+        elif style == "openear":
+            parts.append(f'<path d="M {x - s*16} 178 C {x - s*46} 146, {x - s*72} 182, {x - s*44} 228" fill="none" stroke="{bud}" stroke-width="10" stroke-linecap="round"/>')
+            parts.append(f'<rect x="{x-32}" y="176" width="64" height="30" rx="15" fill="url(#{uid}-b{int(x)})"/><circle cx="{x + s*10}" cy="191" r="6" fill="{accent}"/><rect x="{x-20}" y="181" width="26" height="5" rx="2.5" fill="#fff" opacity="0.35"/>')
+        else:  # stemless pebble
+            parts.append(f'<ellipse cx="{x}" cy="190" rx="36" ry="31" fill="url(#{uid}-b{int(x)})"/>')
+            parts.append(f'<circle cx="{x - s*17}" cy="205" r="13" fill="{shade(bud, -.05)}"/><circle cx="{x - s*17}" cy="205" r="9" fill="{shade(bud, -.3)}"/>')
+            parts.append(f'<circle cx="{x + s*9}" cy="184" r="12" fill="none" stroke="{accent}" stroke-width="3" opacity="0.9"/><circle cx="{x + s*9}" cy="184" r="5" fill="{accent}" opacity="0.8"/>')
+            parts.append(f'<ellipse cx="{x - s*10}" cy="172" rx="14" ry="8" fill="#fff" opacity="0.38"/>')
+        return "\n".join(parts)
+    out.append(one(250, False)); out.append(one(350, True))
     return "\n".join(out)
 
-# ---------------------------------------------------------------- glasses (front view)
-def draw_glasses(a):
-    fr = a.get("frame", "#111"); lens = a.get("lens", "#3a3a3a"); style = a.get("style", "wayfarer")
-    disp = a.get("display", "none"); accent = a.get("accent", GREEN)
-    out = []
-    cy = 205
+# ---------------------------------------------------------------- glasses (front, slight perspective)
+def draw_glasses(uid, a):
+    fr = a.get("frame", "#111"); style = a.get("style", "wayfarer"); disp = a.get("display", "none"); accent = a.get("accent", "#7FE0A8")
+    out = [defs(uid, fr, accent), studio(uid, 300, 300, 200, 14)]
+    fdef = f'<linearGradient id="{uid}-fr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{shade(fr, .30)}"/><stop offset="0.45" stop-color="{fr}"/><stop offset="1" stop-color="{shade(fr, -.20)}"/></linearGradient>'
+    out.append(fdef)
+    lens_fill = f"url(#{uid}-lens)" if a.get("lens", "dark") != "clear" else "#dfe6ec"
+    lens_op = "0.96" if a.get("lens", "dark") != "clear" else "0.55"
     if style == "wrap":
-        out.append(f'<path d="M 90 175 Q 300 150 510 175 L 500 235 Q 300 265 100 235 Z" fill="{lens}" stroke="{fr}" stroke-width="8" stroke-linejoin="round"/>')
-        out.append(f'<path d="M 92 178 L 60 150 M 508 178 L 540 150" stroke="{fr}" stroke-width="10" stroke-linecap="round"/>')
-        out.append(f'<rect x="284" y="222" width="32" height="10" rx="5" fill="{fr}"/>')
-        lens_boxes = [(110, 170, 180, 60), (310, 170, 180, 60)]
+        out.append(f'<path d="M 74 190 Q 300 152 526 190 L 512 250 Q 300 292 88 250 Z" fill="{lens_fill}" opacity="{lens_op}"/>')
+        out.append(f'<path d="M 74 190 Q 300 152 526 190 L 512 250 Q 300 292 88 250 Z" fill="none" stroke="url(#{uid}-fr)" stroke-width="12" stroke-linejoin="round"/>')
+        out.append(f'<path d="M 120 205 Q 300 175 480 205" stroke="#fff" stroke-opacity="0.35" stroke-width="10" fill="none" filter="url(#{uid}-soft)"/>')
+        out.append(f'<rect x="282" y="238" width="36" height="12" rx="6" fill="{fr}"/>')
+        out.append(f'<path d="M 76 194 L 40 160 M 524 194 L 560 160" stroke="url(#{uid}-fr)" stroke-width="12" stroke-linecap="round"/>')
+        boxes = [(90, 178, 190, 76), (320, 178, 190, 76)]
     else:
         if style == "round":
-            shapes = [f'<circle cx="{x}" cy="{cy}" r="62" fill="{lens}" stroke="{fr}" stroke-width="9"/>' for x in (205, 395)]
-            lens_boxes = [(150, 150, 110, 110), (340, 150, 110, 110)]
+            shapes = [(f'<circle cx="{x}" cy="212" r="66"', x-66, 146, 132, 132) for x in (205, 395)]
         elif style == "xr":
-            shapes = [f'<rect x="{x}" y="160" width="165" height="95" rx="26" fill="{lens}" stroke="{fr}" stroke-width="10"/>' for x in (108, 327)]
-            lens_boxes = [(108, 160, 165, 95), (327, 160, 165, 95)]
+            shapes = [(f'<rect x="{x}" y="168" width="170" height="98" rx="28"', x, 168, 170, 98) for x in (105, 325)]
         elif style == "thin":
-            shapes = [f'<rect x="{x}" y="165" width="150" height="88" rx="22" fill="{lens}" fill-opacity="0.25" stroke="{fr}" stroke-width="4"/>' for x in (120, 330)]
-            lens_boxes = [(120, 165, 150, 88), (330, 165, 150, 88)]
+            shapes = [(f'<rect x="{x}" y="172" width="152" height="92" rx="24"', x, 172, 152, 92) for x in (118, 330)]
         else:  # wayfarer
-            shapes = [f'<path d="M {x} 160 L {x+165} 160 Q {x+178} 160 {x+176} 175 L {x+160} 245 Q {x+156} 258 {x+142} 258 L {x+34} 258 Q {x+18} 258 {x+14} 244 L {x+2} 176 Q 0 160 {x+12} 160 Z" fill="{lens}" stroke="{fr}" stroke-width="10" stroke-linejoin="round"/>' for x in (112, 322)]
-            lens_boxes = [(112, 160, 176, 98), (322, 160, 176, 98)]
-        out += shapes
-        out.append(f'<path d="M 288 178 Q 300 168 312 178" fill="none" stroke="{fr}" stroke-width="9" stroke-linecap="round"/>')
-        out.append(f'<path d="M 110 176 L 70 150 M 490 176 L 530 150" stroke="{fr}" stroke-width="10" stroke-linecap="round"/>')
+            shapes = [(f'<path d="M {x} 168 L {x+168} 168 Q {x+182} 168 {x+180} 184 L {x+162} 254 Q {x+158} 268 {x+144} 268 L {x+34} 268 Q {x+18} 268 {x+14} 254 L {x+2} 184 Q {x-2} 168 {x+12} 168 Z"', x, 168, 182, 100) for x in (108, 322)]
+        boxes = [s[1:] for s in shapes]
+        sw = 6 if style == "thin" else (13 if style == "xr" else 11)
+        for shp, x, y, w, h in shapes:
+            out.append(shp + f' fill="{lens_fill}" opacity="{lens_op}"/>')
+            out.append(shp + f' fill="none" stroke="url(#{uid}-fr)" stroke-width="{sw}" stroke-linejoin="round"/>')
+            # reflection streak
+            out.append(f'<path d="M {x+w*0.22} {y+h*0.78} L {x+w*0.55} {y+h*0.18}" stroke="#fff" stroke-opacity="0.32" stroke-width="{h*0.16}" stroke-linecap="round" filter="url(#{uid}-soft)"/>')
+        out.append(f'<path d="M 288 190 Q 300 178 312 190" fill="none" stroke="url(#{uid}-fr)" stroke-width="{sw}" stroke-linecap="round"/>')
+        out.append(f'<path d="M 110 186 L 66 156 M 490 186 L 534 156" stroke="url(#{uid}-fr)" stroke-width="{sw+1}" stroke-linecap="round"/>')
+        out.append(f'<path d="M 66 156 L 62 150 M 534 156 L 538 150" stroke="{shade(fr, -.2)}" stroke-width="{sw+1}" stroke-linecap="round"/>')
     if a.get("camera"):
-        x, y, w, h = lens_boxes[0]
-        out.append(f'<circle cx="{x+16}" cy="{y+16}" r="9" fill="#0d0d0d" stroke="#888" stroke-width="2"/><circle cx="{x+19}" cy="{y+13}" r="2.5" fill="#fff"/>')
+        x, y, w, h = boxes[0]
+        out.append(f'<circle cx="{x+14}" cy="{y+14}" r="10" fill="#0b0b0b" stroke="#9a9a9a" stroke-width="2.5"/><circle cx="{x+14}" cy="{y+14}" r="5" fill="#1a2430"/><circle cx="{x+11}" cy="{y+11}" r="2" fill="#fff" opacity="0.9"/>')
+        x2, y2, w2, h2 = boxes[1]
+        out.append(f'<circle cx="{x2+w2-14}" cy="{y2+14}" r="3.5" fill="#fff" opacity="0.7"/>')
     if disp in ("right", "both"):
-        boxes = lens_boxes if disp == "both" else lens_boxes[1:]
-        for (x, y, w, h) in boxes:
-            gx, gy = x + w*0.30, y + h*0.30
-            out.append(f'<rect x="{gx}" y="{gy}" width="{w*0.42}" height="{h*0.38}" rx="4" fill="{accent}" opacity="0.85"/>')
-            out.append(f'<rect x="{gx+6}" y="{gy+6}" width="{w*0.28}" height="4" rx="2" fill="#fff" opacity="0.8"/><rect x="{gx+6}" y="{gy+14}" width="{w*0.2}" height="4" rx="2" fill="#fff" opacity="0.6"/>')
-    if style == "xr":
-        for (x, y, w, h) in lens_boxes:
-            out.append(f'<path d="M {x+20} {y+70} L {x+60} {y+20}" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.25"/>')
+        for (x, y, w, h) in (boxes if disp == "both" else boxes[1:]):
+            gx, gy, gw, gh = x + w*0.30, y + h*0.30, w*0.42, h*0.36
+            out.append(f'<rect x="{gx}" y="{gy}" width="{gw}" height="{gh}" rx="4" fill="{accent}" opacity="0.55" filter="url(#{uid}-glow)"/>')
+            out.append(f'<rect x="{gx}" y="{gy}" width="{gw}" height="{gh}" rx="4" fill="{accent}" opacity="0.85"/>')
+            out.append(f'<rect x="{gx+7}" y="{gy+7}" width="{gw*0.6}" height="4" rx="2" fill="#fff" opacity="0.85"/><rect x="{gx+7}" y="{gy+16}" width="{gw*0.42}" height="4" rx="2" fill="#fff" opacity="0.6"/><rect x="{gx+7}" y="{gy+25}" width="{gw*0.5}" height="4" rx="2" fill="#fff" opacity="0.45"/>')
     return "\n".join(out)
 
-# ---------------------------------------------------------------- power station (front view)
-def draw_power(a):
+# ---------------------------------------------------------------- power station (three-quarter box)
+def draw_power(uid, a):
     size = a.get("size", "mid"); body = a.get("body", "#2E2E2E"); accent = a.get("accent", "#F2A900")
-    screen_text = a.get("screen_text", "1,024 Wh"); handle = a.get("handle", "bar")
-    dims = {"small": (220, 150), "mid": (300, 190), "large": (340, 220), "xl": (380, 250)}
-    w, h = dims.get(size, dims["mid"])
-    x, y = 300 - w/2, 315 - h - (26 if size == "xl" else 0)
-    out = []
+    screen_text = a.get("screen_text", "1,024 Wh"); handle = a.get("handle", "bar"); hcol = a.get("handle_color", "#C9C9C4")
+    dims = {"small": (230, 150, 60), "mid": (300, 190, 74), "large": (330, 214, 82), "xl": (340, 222, 86)}
+    w, h, d = dims.get(size, dims["mid"])
+    x = 300 - w/2 - d*0.25; y = 318 - h - (22 if size == "xl" else 0)
+    out = [defs(uid, body, accent), studio(uid, 300, 326, w*0.62, 16)]
+    hdef = f'<linearGradient id="{uid}-h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="{shade(hcol, .18)}"/><stop offset="0.5" stop-color="{hcol}"/><stop offset="1" stop-color="{shade(hcol, -.22)}"/></linearGradient>'
+    out.append(hdef)
+    out.append(box3d(uid, x, y, w, h, d, body, rx=20, skew=0.55))
+    dx, dy = d * 0.55, d * 0.45           # top-face offsets used by box3d
+    tcx, tcy = x + w/2 + dx*0.5, y - dy*0.5   # centre of the top face
     if handle == "bar":
-        out.append(f'<rect x="{x + w*0.2}" y="{y-26}" width="{w*0.6}" height="30" rx="14" fill="{a.get("handle_color", "#C9C9C4")}"/>')
+        bw = w * 0.58
+        out.append(f'<rect x="{tcx-bw/2-6}" y="{tcy-6}" width="12" height="16" rx="4" fill="{shade(hcol, -.25)}"/><rect x="{tcx+bw/2-6}" y="{tcy-6}" width="12" height="16" rx="4" fill="{shade(hcol, -.25)}"/>')
+        out.append(f'<rect x="{tcx-bw/2}" y="{tcy-22}" width="{bw}" height="24" rx="12" fill="url(#{uid}-h)"/><rect x="{tcx-bw/2+10}" y="{tcy-18}" width="{bw-20}" height="5" rx="2.5" fill="#fff" opacity="0.4"/>')
     elif handle == "fold":
-        out.append(f'<rect x="{x + w*0.15}" y="{y-22}" width="{w*0.7}" height="34" rx="16" fill="none" stroke="{a.get("handle_color", "#C9C9C4")}" stroke-width="12"/>')
+        bw = w * 0.66
+        out.append(f'<path d="M {tcx-bw/2} {tcy+2} L {tcx-bw/2} {tcy-28} Q {tcx-bw/2} {tcy-40} {tcx-bw/2+12} {tcy-40} L {tcx+bw/2-12} {tcy-40} Q {tcx+bw/2} {tcy-40} {tcx+bw/2} {tcy-28} L {tcx+bw/2} {tcy+2}" fill="none" stroke="url(#{uid}-h)" stroke-width="14" stroke-linecap="round"/>')
+        out.append(f'<path d="M {tcx-bw/2+14} {tcy-41} L {tcx+bw/2-14} {tcy-41}" stroke="#fff" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>')
     elif handle == "side":
-        out.append(f'<rect x="{x+w-24}" y="{y-60}" width="14" height="70" rx="6" fill="{a.get("handle_color", "#C9C9C4")}"/><rect x="{x+w-64}" y="{y-66}" width="60" height="14" rx="7" fill="{a.get("handle_color", "#C9C9C4")}"/>')
-    out.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="22" fill="{body}"/>')
-    out.append(f'<rect x="{x}" y="{y}" width="{w}" height="18" rx="9" fill="{accent}"/>')
+        hx = x + w + dx*0.55
+        out.append(f'<rect x="{hx-8}" y="{y-dy-58}" width="14" height="70" rx="6" fill="url(#{uid}-h)"/><rect x="{hx-58}" y="{y-dy-66}" width="64" height="14" rx="7" fill="url(#{uid}-h)"/>')
+    # accent stripe along the top of the front face
+    out.append(f'<rect x="{x}" y="{y}" width="{w}" height="14" rx="7" fill="url(#{uid}-accent)"/><rect x="{x}" y="{y+8}" width="{w}" height="6" fill="url(#{uid}-accent)"/>')
     # screen
-    sw, sh = w*0.36, h*0.36
-    sx, sy = x + w*0.08, y + h*0.2
-    out.append(f'<rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="10" fill="{NAVY}" stroke="#000" stroke-width="2"/>')
-    out.append(f'<text x="{sx+sw/2}" y="{sy+sh/2+8}" text-anchor="middle" font-family="{FONT}" font-size="{max(14, int(sw/6.2))}" font-weight="700" fill="#8FD3AE">{esc(screen_text)}</text>')
-    # outlets 2x2 (or a USB-C panel for DC-only units)
-    ox, oy = x + w*0.52, y + h*0.2
-    cell = min(w*0.19, h*0.3)
+    sw, sh = w*0.36, h*0.34; sx, sy = x + w*0.07, y + h*0.2
+    out.append(f'<rect x="{sx}" y="{sy}" width="{sw}" height="{sh}" rx="9" fill="url(#{uid}-screen)" stroke="#000" stroke-width="2"/>')
+    out.append(f'<rect x="{sx+4}" y="{sy+4}" width="{sw-8}" height="{sh*0.4}" rx="6" fill="#fff" opacity="0.05"/>')
+    fs = max(13, int(sw/6.4))
+    out.append(f'<text x="{sx+sw/2}" y="{sy+sh*0.52}" text-anchor="middle" font-family="{FONT}" font-size="{fs}" font-weight="700" fill="#8FE3B2">{esc(screen_text)}</text>')
+    # battery bar
+    bx, by, bw = sx + sw*0.12, sy + sh*0.66, sw*0.76
+    out.append(f'<rect x="{bx}" y="{by}" width="{bw}" height="{sh*0.14}" rx="3" fill="#0f2a1c"/><rect x="{bx}" y="{by}" width="{bw*0.92}" height="{sh*0.14}" rx="3" fill="#2ecc71"/>')
+    # outlets or USB-C panel
+    ox, oy = x + w*0.52, y + h*0.2; cell = min(w*0.19, h*0.3)
     if a.get("no_ac"):
         for i in range(2):
             for j in range(2):
                 cx0 = ox + j*(cell+10); cy0 = oy + i*(cell+8)
-                out.append(f'<rect x="{cx0}" y="{cy0+cell*0.3}" width="{cell}" height="{cell*0.4}" rx="{cell*0.2}" fill="#F1F1EE"/>')
-                out.append(f'<rect x="{cx0+cell*0.2}" y="{cy0+cell*0.42}" width="{cell*0.6}" height="{cell*0.16}" rx="{cell*0.08}" fill="{body}"/>')
-        out.append(f'<text x="{ox+cell+5}" y="{oy+2*cell+22}" text-anchor="middle" font-family="{FONT}" font-size="11" fill="#F1F1EE" opacity="0.8">USB-C only</text>')
-    for i in range(2 if not a.get("no_ac") else 0):
-        for j in range(2):
-            cx0 = ox + j*(cell+10); cy0 = oy + i*(cell+8)
-            out.append(f'<rect x="{cx0}" y="{cy0}" width="{cell}" height="{cell}" rx="8" fill="#F1F1EE"/>')
-            out.append(f'<rect x="{cx0+cell*0.28}" y="{cy0+cell*0.3}" width="{cell*0.12}" height="{cell*0.32}" rx="2" fill="{body}"/><rect x="{cx0+cell*0.6}" y="{cy0+cell*0.3}" width="{cell*0.12}" height="{cell*0.32}" rx="2" fill="{body}"/>')
-    # usb row under screen
-    uy = sy + sh + 14
+                out.append(f'<rect x="{cx0}" y="{cy0+cell*0.3}" width="{cell}" height="{cell*0.4}" rx="{cell*0.2}" fill="#efefec"/><rect x="{cx0+cell*0.22}" y="{cy0+cell*0.43}" width="{cell*0.56}" height="{cell*0.14}" rx="{cell*0.07}" fill="#222"/>')
+    else:
+        for i in range(2):
+            for j in range(2):
+                out.append(outlet(uid, ox + j*(cell+10), oy + i*(cell+8), cell, body))
+    # usb row under the screen
+    uy = sy + sh + 12
     for k in range(3):
-        out.append(f'<rect x="{sx + k*(sw/3)}" y="{uy}" width="{sw/3 - 8}" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>')
+        ux = sx + k*(sw/3)
+        out.append(f'<rect x="{ux}" y="{uy}" width="{sw/3 - 8}" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="{ux+4}" y="{uy+3.5}" width="{sw/3 - 16}" height="4" rx="2" fill="#333"/>')
+    # power button + LED
+    out.append(f'<circle cx="{x+w-26}" cy="{y+h-26}" r="9" fill="{shade(body, .12)}" stroke="{shade(body, -.3)}" stroke-width="1.5"/><circle cx="{x+w-26}" cy="{y+h-26}" r="3" fill="{accent}"/>')
     if a.get("wheels") or size == "xl":
-        out.append(f'<circle cx="{x+40}" cy="{y+h+14}" r="18" fill="#222" stroke="#555" stroke-width="4"/><circle cx="{x+w-40}" cy="{y+h+14}" r="18" fill="#222" stroke="#555" stroke-width="4"/>')
-    if a.get("bolt", True):
-        out.append(f'<path d="M {x+w-46} {y+h-52} l -12 24 h 12 l -6 22 l 20 -30 h -12 l 8 -16 z" fill="{accent}"/>')
+        for wx in (x+44, x+w-44):
+            out.append(f'<circle cx="{wx}" cy="{y+h+14}" r="20" fill="#1a1a1a"/><circle cx="{wx}" cy="{y+h+14}" r="12" fill="#3a3a3a"/><circle cx="{wx}" cy="{y+h+14}" r="4" fill="#777"/>')
     return "\n".join(out)
 
 DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power}
 
+def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
+    """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""
+    svg = DRAW[category](uid, art)
+    if not with_studio:
+        # drop the studio background rect but keep the soft shadow
+        svg = svg.replace(f'<rect width="{W}" height="{H}" rx="18" fill="url(#{uid}-bg)"/>', '', 1)
+    return f'<g transform="translate({tx} {ty}) scale({scale})">{svg}</g>'
+
 def card_svg(category, c):
-    inner = DRAW[category](c.get("art", {}))
-    return frame(c["name"], c.get("chip", ""), inner, c.get("short", c["name"]))
+    uid = "c" + "".join(ch for ch in c["id"] if ch.isalnum())
+    inner = DRAW[category](uid, c.get("art", {}))
+    chip = c.get("chip", ""); chip_w = 16 + int(len(chip) * 7.2)
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(c["name"])} (product render)">
+{inner}
+<g font-family="{FONT}">
+<rect x="18" y="18" width="{chip_w}" height="28" rx="14" fill="{NAVY}"/>
+<text x="{18 + chip_w/2}" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">{esc(chip)}</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="{NAVY}">{esc(c.get("short", c["name"]))}</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>
+'''
 
 def main(post_dir):
     d = pathlib.Path(post_dir)

@@ -116,6 +116,14 @@ def main(post_dir):
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
+    def strip_fig(m):
+        sid, cap = m.group(1), m.group(2) or ""
+        f = d / "images" / "strips" / f"{sid}.svg"
+        if not f.exists(): return ""
+        svg = re.sub(r"^<\?xml[^>]*\?>\s*", "", f.read_text(encoding="utf-8").strip())
+        capt = f'<div style="font-size:14px;color:#555;margin-top:6px;">{cap}</div>' if cap else ""
+        return f'<div class="vp-strip" style="margin:1.2em 0;">{svg}{capt}</div>'
+    easy = re.sub(r"<!--STRIP:([a-z0-9\-]+)(?:\|(.*?))?-->", strip_fig, easy)
     easy = easy.replace("<!--CARDS-->", "\n".join(pick_card(d, c, i + 1, with_video=(i > 0)) for i, c in enumerate(cards)))
     easy = re.sub(r"<!--CARD:([a-z0-9\-]+)-->", lambda m: pick_card(d, by_id[m.group(1)], cards.index(by_id[m.group(1)]) + 1), easy)
     parts = sorted(p for p in (d / "src").glob("0[1-9]-*.html"))

@@ -1,16 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Xreal One Pro (illustration)">
-<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
-<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
-<rect x="108" y="160" width="165" height="95" rx="26" fill="#111" stroke="#222" stroke-width="10"/>
-<rect x="327" y="160" width="165" height="95" rx="26" fill="#111" stroke="#222" stroke-width="10"/>
-<path d="M 288 178 Q 300 168 312 178" fill="none" stroke="#222" stroke-width="9" stroke-linecap="round"/>
-<path d="M 110 176 L 70 150 M 490 176 L 530 150" stroke="#222" stroke-width="10" stroke-linecap="round"/>
-<path d="M 128 230 L 168 180" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
-<path d="M 347 230 L 387 180" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.25"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Xreal One Pro (product render)">
+<defs>
+<radialGradient id="cxreal-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cxreal-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cxreal-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cxreal-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cxreal-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#3c3c3c"/><stop offset="0.55" stop-color="#222"/><stop offset="1" stop-color="#0b0b0b"/></linearGradient>
+<linearGradient id="cxreal-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131313"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="cxreal-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f5f5f"/><stop offset="1" stop-color="#313131"/></linearGradient>
+<radialGradient id="cxreal-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5a5a5a"/><stop offset="0.6" stop-color="#222"/><stop offset="1" stop-color="#000000"/></radialGradient>
+<linearGradient id="cxreal-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cxreal-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cxreal-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cxreal-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdefd2"/><stop offset="1" stop-color="#4ed487"/></linearGradient>
+<linearGradient id="cxreal-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cxreal-bg)"/><ellipse cx="300" cy="300" rx="200" ry="14" fill="#000" opacity="0.28" filter="url(#cxreal-blur)"/>
+<linearGradient id="cxreal-fr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6e6e6e"/><stop offset="0.45" stop-color="#222"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<rect x="105" y="168" width="170" height="98" rx="28" fill="url(#cxreal-lens)" opacity="0.96"/>
+<rect x="105" y="168" width="170" height="98" rx="28" fill="none" stroke="url(#cxreal-fr)" stroke-width="13" stroke-linejoin="round"/>
+<path d="M 142.4 244.44 L 198.5 185.64" stroke="#fff" stroke-opacity="0.32" stroke-width="15.68" stroke-linecap="round" filter="url(#cxreal-soft)"/>
+<rect x="325" y="168" width="170" height="98" rx="28" fill="url(#cxreal-lens)" opacity="0.96"/>
+<rect x="325" y="168" width="170" height="98" rx="28" fill="none" stroke="url(#cxreal-fr)" stroke-width="13" stroke-linejoin="round"/>
+<path d="M 362.4 244.44 L 418.5 185.64" stroke="#fff" stroke-opacity="0.32" stroke-width="15.68" stroke-linecap="round" filter="url(#cxreal-soft)"/>
+<path d="M 288 190 Q 300 178 312 190" fill="none" stroke="url(#cxreal-fr)" stroke-width="13" stroke-linecap="round"/>
+<path d="M 110 186 L 66 156 M 490 186 L 534 156" stroke="url(#cxreal-fr)" stroke-width="14" stroke-linecap="round"/>
+<path d="M 66 156 L 62 150 M 534 156 L 538 150" stroke="#000000" stroke-width="14" stroke-linecap="round"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <rect x="18" y="18" width="224" height="28" rx="14" fill="#1B2A41"/>
 <text x="130.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Private cinema · 57° · 120 Hz</text>
-<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Xreal One Pro</text>
-<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Xreal One Pro</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>
 </svg>

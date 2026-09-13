@@ -1,27 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Bluetti Elite 200 V2 (illustration)">
-<rect width="600" height="400" rx="18" fill="#F7F5F0"/>
-<ellipse cx="300" cy="318" rx="190" ry="16" fill="#000" opacity="0.07"/>
-<rect x="198.0" y="69" width="204.0" height="30" rx="14" fill="#C9C9C4"/>
-<rect x="130.0" y="95" width="340" height="220" rx="22" fill="#2E2E2E"/>
-<rect x="130.0" y="95" width="340" height="18" rx="9" fill="#2EAF6B"/>
-<rect x="157.2" y="139.0" width="122.39999999999999" height="79.2" rx="10" fill="#1B2A41" stroke="#000" stroke-width="2"/>
-<text x="218.39999999999998" y="186.6" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="19" font-weight="700" fill="#8FD3AE">2,074 Wh</text>
-<rect x="306.8" y="139.0" width="64.6" height="64.6" rx="8" fill="#F1F1EE"/>
-<rect x="324.88800000000003" y="158.38" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/><rect x="345.56" y="158.38" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/>
-<rect x="381.4" y="139.0" width="64.6" height="64.6" rx="8" fill="#F1F1EE"/>
-<rect x="399.488" y="158.38" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/><rect x="420.15999999999997" y="158.38" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/>
-<rect x="306.8" y="211.6" width="64.6" height="64.6" rx="8" fill="#F1F1EE"/>
-<rect x="324.88800000000003" y="230.98" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/><rect x="345.56" y="230.98" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/>
-<rect x="381.4" y="211.6" width="64.6" height="64.6" rx="8" fill="#F1F1EE"/>
-<rect x="399.488" y="230.98" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/><rect x="420.15999999999997" y="230.98" width="7.751999999999999" height="20.671999999999997" rx="2" fill="#2E2E2E"/>
-<rect x="157.2" y="232.2" width="32.8" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<rect x="198.0" y="232.2" width="32.8" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<rect x="238.79999999999998" y="232.2" width="32.8" height="12" rx="4" fill="#F1F1EE" opacity="0.85"/>
-<path d="M 424.0 263 l -12 24 h 12 l -6 22 l 20 -30 h -12 l 8 -16 z" fill="#2EAF6B"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Bluetti Elite 200 V2 (product render)">
+<defs>
+<radialGradient id="celite200-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="celite200-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="celite200-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="celite200-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="celite200-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#484848"/><stop offset="0.55" stop-color="#2E2E2E"/><stop offset="1" stop-color="#171717"/></linearGradient>
+<linearGradient id="celite200-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f1f1f"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="celite200-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6b6b6b"/><stop offset="1" stop-color="#3d3d3d"/></linearGradient>
+<radialGradient id="celite200-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#666666"/><stop offset="0.6" stop-color="#2E2E2E"/><stop offset="1" stop-color="#0a0a0a"/></radialGradient>
+<linearGradient id="celite200-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="celite200-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="celite200-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="celite200-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#57d391"/><stop offset="1" stop-color="#217f4d"/></linearGradient>
+<linearGradient id="celite200-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#celite200-bg)"/><ellipse cx="300" cy="326" rx="204.6" ry="16" fill="#000" opacity="0.28" filter="url(#celite200-blur)"/>
+<linearGradient id="celite200-h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f5f4"/><stop offset="0.5" stop-color="#C9C9C4"/><stop offset="1" stop-color="#939389"/></linearGradient>
+<path d="M 444.5 112.0 L 489.6 75.1 L 489.6 273.1 Q 489.6 281.1 483.6 281.1 L 444.5 315.0 Z" fill="url(#celite200-side)"/><path d="M 124.5 104 L 169.6 67.1 L 483.6 67.1 Q 489.6 67.1 489.6 75.1 L 444.5 112.0 Q 444.5 104 434.5 104 Z" fill="url(#celite200-top)"/><rect x="114.5" y="104" width="330" height="214" rx="20" fill="url(#celite200-front)"/><rect x="114.5" y="104" width="330" height="214" rx="20" fill="none" stroke="#000000" stroke-width="1.2" opacity="0.6"/><path d="M 134.5 107 L 424.5 107" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+<rect x="200.35000000000002" y="79.55" width="12" height="16" rx="4" fill="#8c8c81"/><rect x="391.75" y="79.55" width="12" height="16" rx="4" fill="#8c8c81"/>
+<rect x="206.35000000000002" y="63.55" width="191.39999999999998" height="24" rx="12" fill="url(#celite200-h)"/><rect x="216.35000000000002" y="67.55" width="171.39999999999998" height="5" rx="2.5" fill="#fff" opacity="0.4"/>
+<rect x="114.5" y="104" width="330" height="14" rx="7" fill="url(#celite200-accent)"/><rect x="114.5" y="112" width="330" height="6" fill="url(#celite200-accent)"/>
+<rect x="137.6" y="146.8" width="118.8" height="72.76" rx="9" fill="url(#celite200-screen)" stroke="#000" stroke-width="2"/>
+<rect x="141.6" y="150.8" width="110.8" height="29.104000000000003" rx="6" fill="#fff" opacity="0.05"/>
+<text x="197.0" y="184.63520000000003" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="18" font-weight="700" fill="#8FE3B2">2,074 Wh</text>
+<rect x="151.856" y="194.82160000000002" width="90.288" height="10.186400000000003" rx="3" fill="#0f2a1c"/><rect x="151.856" y="194.82160000000002" width="83.06496" height="10.186400000000003" rx="3" fill="#2ecc71"/>
+<rect x="286.1" y="146.8" width="62.7" height="62.7" rx="10.032" fill="#efefec"/><rect x="287.6" y="148.3" width="59.7" height="59.7" rx="8.778" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="303.029" y="161.848" width="6.897" height="18.81" rx="1.5" fill="#333"/><rect x="324.97400000000005" y="161.848" width="6.897" height="18.81" rx="1.5" fill="#333"/><circle cx="317.45000000000005" cy="191.94400000000002" r="5.016" fill="#333"/>
+<rect x="358.8" y="146.8" width="62.7" height="62.7" rx="10.032" fill="#efefec"/><rect x="360.3" y="148.3" width="59.7" height="59.7" rx="8.778" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="375.72900000000004" y="161.848" width="6.897" height="18.81" rx="1.5" fill="#333"/><rect x="397.67400000000004" y="161.848" width="6.897" height="18.81" rx="1.5" fill="#333"/><circle cx="390.15000000000003" cy="191.94400000000002" r="5.016" fill="#333"/>
+<rect x="286.1" y="217.5" width="62.7" height="62.7" rx="10.032" fill="#efefec"/><rect x="287.6" y="219.0" width="59.7" height="59.7" rx="8.778" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="303.029" y="232.548" width="6.897" height="18.81" rx="1.5" fill="#333"/><rect x="324.97400000000005" y="232.548" width="6.897" height="18.81" rx="1.5" fill="#333"/><circle cx="317.45000000000005" cy="262.644" r="5.016" fill="#333"/>
+<rect x="358.8" y="217.5" width="62.7" height="62.7" rx="10.032" fill="#efefec"/><rect x="360.3" y="219.0" width="59.7" height="59.7" rx="8.778" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="375.72900000000004" y="232.548" width="6.897" height="18.81" rx="1.5" fill="#333"/><rect x="397.67400000000004" y="232.548" width="6.897" height="18.81" rx="1.5" fill="#333"/><circle cx="390.15000000000003" cy="262.644" r="5.016" fill="#333"/>
+<rect x="137.6" y="231.56" width="31.6" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="141.6" y="235.06" width="23.6" height="4" rx="2" fill="#333"/>
+<rect x="177.2" y="231.56" width="31.6" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="181.2" y="235.06" width="23.6" height="4" rx="2" fill="#333"/>
+<rect x="216.8" y="231.56" width="31.6" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="220.8" y="235.06" width="23.6" height="4" rx="2" fill="#333"/>
+<circle cx="418.5" cy="292" r="9" fill="#4d4d4d" stroke="#000000" stroke-width="1.5"/><circle cx="418.5" cy="292" r="3" fill="#2EAF6B"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <rect x="18" y="18" width="289" height="28" rx="14" fill="#1B2A41"/>
 <text x="162.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2,074 Wh · 2,600 W · 6,000-cycle cells</text>
-<text x="22" y="378" font-size="22" font-weight="700" fill="#1B2A41">Bluetti Elite 200 V2</text>
-<text x="578" y="380" text-anchor="end" font-size="11" fill="#999">Illustration</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Bluetti Elite 200 V2</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>
 </svg>
