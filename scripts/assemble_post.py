@@ -150,7 +150,7 @@ def main(post_dir):
     parts = sorted(p for p in (d / "src").glob("0[1-9]-*.html"))
     if not parts:
         # short story post: no deep-dive, just close the wrapper
-        out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices are US list and sale prices seen in 2026 at the time of writing; check the retailer for today\'s price. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
+        out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (September 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
         (d / "post.src.html").write_text(out, encoding="utf-8")
         print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
     deep = "\n".join(p.read_text(encoding="utf-8") for p in parts)
@@ -171,7 +171,7 @@ def main(post_dir):
            + '<div class="vp-roadmap" style="border:2px solid #1B2A41;border-radius:12px;padding:14px 20px;background:#F7F5F0;margin:1em 0 1.6em;">\n<strong style="color:#1B2A41;">Reading plan</strong>\n<ol style="margin:8px 0 0;padding-left:22px;">\n' + "\n".join(items) + '\n</ol>\n</div>\n'
            + '<div class="vp-deep" style="border-top:3px solid #1B2A41;margin-top:1.4em;padding-top:1.2em;font-size:0.94em;">\n' + deep + '\n</div>\n'
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
-           + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices are US list and sale prices seen in 2026 at the time of writing; check the retailer for today\'s price. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
+           + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (September 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
     (d / "post.src.html").write_text(out, encoding="utf-8")
     print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards)")
