@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" role="img" aria-label="Best Smart and AI Glasses of 2026 — Verdict Picks buying guide, with a render of the Ray-Ban Meta Gen 2">
+<defs>
+<radialGradient id="pin-spot" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#3A4D6B"/><stop offset="0.6" stop-color="#24344D"/><stop offset="1" stop-color="#1B2A41" stop-opacity="0"/></radialGradient>
+<radialGradient id="pin-halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1000" height="1500" fill="#1B2A41"/>
+<ellipse cx="500" cy="820" rx="520" ry="380" fill="url(#pin-spot)"/>
+<ellipse cx="500" cy="800" rx="340" ry="240" fill="url(#pin-halo)"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="310" y="96" width="380" height="44" rx="22" fill="#1E8E5A"/>
+<text x="500" y="126" text-anchor="middle" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.8">VERDICT PICKS · BUYING GUIDE</text>
+<text x="500" y="250" text-anchor="middle" font-size="96" font-weight="800" fill="#fff">Best Smart</text><text x="500" y="356" text-anchor="middle" font-size="96" font-weight="800" fill="#fff">&amp; AI Glasses</text><text x="500" y="462" text-anchor="middle" font-size="96" font-weight="800" fill="#8FD3AE">of 2026</text>
+<g transform="translate(110 560) scale(1.3)"><defs>
+<radialGradient id="pin-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="pin-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="pin-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="pin-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="pin-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#2b2b2b"/><stop offset="0.55" stop-color="#111"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="pin-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020202"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="pin-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4e4e4e"/><stop offset="1" stop-color="#202020"/></linearGradient>
+<radialGradient id="pin-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#494949"/><stop offset="0.6" stop-color="#111"/><stop offset="1" stop-color="#000000"/></radialGradient>
+<linearGradient id="pin-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="pin-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="pin-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="pin-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdefd2"/><stop offset="1" stop-color="#4ed487"/></linearGradient>
+<linearGradient id="pin-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<ellipse cx="300" cy="300" rx="200" ry="14" fill="#000" opacity="0.28" filter="url(#pin-blur)"/>
+<linearGradient id="pin-fr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5e5e5e"/><stop offset="0.45" stop-color="#111"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<path d="M 108 168 L 276 168 Q 290 168 288 184 L 270 254 Q 266 268 252 268 L 142 268 Q 126 268 122 254 L 110 184 Q 106 168 120 168 Z" fill="url(#pin-lens)" opacity="0.96"/>
+<path d="M 108 168 L 276 168 Q 290 168 288 184 L 270 254 Q 266 268 252 268 L 142 268 Q 126 268 122 254 L 110 184 Q 106 168 120 168 Z" fill="none" stroke="url(#pin-fr)" stroke-width="11" stroke-linejoin="round"/>
+<path d="M 148.04 246.0 L 208.10000000000002 186.0" stroke="#fff" stroke-opacity="0.32" stroke-width="16.0" stroke-linecap="round" filter="url(#pin-soft)"/>
+<path d="M 322 168 L 490 168 Q 504 168 502 184 L 484 254 Q 480 268 466 268 L 356 268 Q 340 268 336 254 L 324 184 Q 320 168 334 168 Z" fill="url(#pin-lens)" opacity="0.96"/>
+<path d="M 322 168 L 490 168 Q 504 168 502 184 L 484 254 Q 480 268 466 268 L 356 268 Q 340 268 336 254 L 324 184 Q 320 168 334 168 Z" fill="none" stroke="url(#pin-fr)" stroke-width="11" stroke-linejoin="round"/>
+<path d="M 362.04 246.0 L 422.1 186.0" stroke="#fff" stroke-opacity="0.32" stroke-width="16.0" stroke-linecap="round" filter="url(#pin-soft)"/>
+<path d="M 288 190 Q 300 178 312 190" fill="none" stroke="url(#pin-fr)" stroke-width="11" stroke-linecap="round"/>
+<path d="M 110 186 L 66 156 M 490 186 L 534 156" stroke="url(#pin-fr)" stroke-width="12" stroke-linecap="round"/>
+<path d="M 66 156 L 62 150 M 534 156 L 538 150" stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+<circle cx="122" cy="182" r="10" fill="#0b0b0b" stroke="#9a9a9a" stroke-width="2.5"/><circle cx="122" cy="182" r="5" fill="#1a2430"/><circle cx="119" cy="179" r="2" fill="#fff" opacity="0.9"/>
+<circle cx="490" cy="182" r="3.5" fill="#fff" opacity="0.7"/></g>
+<rect x="60" y="1130" width="880" height="250" rx="24" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+<g transform="translate(0 1190)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">Camera vs display vs XR glasses</text></g><g transform="translate(0 1256)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">10 pairs from $224 to $799</text></g><g transform="translate(0 1322)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">The day-one privacy checklist</text></g>
+<text x="500" y="1448" text-anchor="middle" font-size="30" font-weight="700" fill="#8FD3AE" letter-spacing="1">acts39.blogspot.com</text>
+</g>
+<circle cx="900" cy="118" r="44" fill="#1E8E5A"/><path d="M 878 119 L 893 134 L 923 103" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

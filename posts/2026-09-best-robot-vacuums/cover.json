@@ -1,5 +1,23 @@
-{"hero": "saros-10r", "scale": 1.0, "tx": 590, "ty": 120,
- "title": ["Best Robot", "Vacuums", "of 2026"],
- "subtitle": ["Every brand compared. Owner reviews distilled.", "One clear verdict for your home."],
+{
+ "hero": "saros-10r",
+ "scale": 1.0,
+ "tx": 590,
+ "ty": 120,
+ "title": [
+  "Best Robot",
+  "Vacuums",
+  "of 2026"
+ ],
+ "subtitle": [
+  "Every brand compared. Owner reviews distilled.",
+  "One clear verdict for your home."
+ ],
  "footer": "Roborock · Dreame · Ecovacs · eufy · Narwal · Shark · iRobot and more",
- "alt": "Best Robot Vacuums of 2026 — Verdict Picks buying guide, with a render of the Roborock Saros 10R"}
+ "alt": "Best Robot Vacuums of 2026 — Verdict Picks buying guide, with a render of the Roborock Saros 10R",
+ "pin": [
+  "One pick for every kind of home",
+  "14 robots in 30 seconds each",
+  "Lab tests + thousands of reviews"
+ ],
+ "url": "https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html"
+}

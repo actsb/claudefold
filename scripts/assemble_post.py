@@ -6,7 +6,7 @@ Reads  src/00-easy.html (placeholders: <!--TOPPICK-->, <!--CARDS-->, <!--CARD:id
        cards.json, images/cards/<id>.svg, src/01..06 (the deep-dive parts)
 Writes post.src.html (then run build_post.py to inline the remaining <!--SVG:...--> figures).
 """
-import json, re, sys, pathlib, html
+import json, re, sys, pathlib, html, urllib.parse
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from host import host_banner
 
@@ -126,6 +126,17 @@ def main(post_dir):
         eb = art.get("bud", "#222") if spec["category"] == "earbuds" else None
         return '<div class="vp-host" style="margin:1em 0 1.2em;">' + host_banner("hb", lines, pose=pose, glasses=gl, earbud=eb) + '</div>'
     easy = re.sub(r"<!--HOST:([a-z]+)\|(.*?)-->", host_fig, easy)
+    def pin_block(m):
+        cov = json.loads((d / "cover.json").read_text(encoding="utf-8")) if (d / "cover.json").exists() else {}
+        url = cov.get("url", ""); img = f"https://raw.githubusercontent.com/actsb/claudefold/claude/sharp-lovelace-n7vhzq/{d.as_posix()}/images/pin.png"
+        desc = cov.get("alt", " ".join(cov.get("title", [])))
+        save = "https://pinterest.com/pin/create/button/?" + urllib.parse.urlencode({"url": url, "media": img, "description": desc})
+        return (f'<div class="vp-pin" style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;border:1px solid #ddd;border-radius:14px;padding:18px;background:#fff;margin:1.6em 0;">'
+                f'<a href="{save}" rel="noopener nofollow" target="_blank" style="flex:0 1 220px;"><img src="{img}" alt="{html.escape(desc)}" width="1000" height="1500" style="width:100%;max-width:220px;height:auto;border-radius:10px;display:block;" loading="lazy"></a>'
+                f'<div style="flex:1 1 260px;min-width:0;"><h3 style="margin:0 0 .3em;color:#1B2A41;font-size:1.25em;">Save this guide for later</h3>'
+                f'<p style="margin:0 0 .8em;font-size:17px;">Pin it to your Pinterest board and it will be there when the sale hits.</p>'
+                f'<a href="{save}" rel="noopener nofollow" target="_blank" style="display:inline-block;background:#E60023;color:#fff;text-decoration:none;font-weight:700;font-size:17px;padding:11px 18px;border-radius:8px;">Save to Pinterest</a></div></div>')
+    easy = re.sub(r"<!--PIN-->", pin_block, easy)
     def strip_fig(m):
         sid, cap = m.group(1), m.group(2) or ""
         f = d / "images" / "strips" / f"{sid}.svg"

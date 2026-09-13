@@ -1,5 +1,23 @@
-{"hero": "freesip", "scale": 1.0, "tx": 590, "ty": 120,
- "title": ["Owala FreeSip", "The Bottle", "That Beat Stanley"],
- "subtitle": ["Amazon's #1 in Kitchen & Dining, 117,000+ ratings —", "because of a lid. Which size, when to buy, how to keep it clean."],
+{
+ "hero": "freesip",
+ "scale": 1.0,
+ "tx": 590,
+ "ty": 120,
+ "title": [
+  "Owala FreeSip",
+  "The Bottle",
+  "That Beat Stanley"
+ ],
+ "subtitle": [
+  "Amazon's #1 in Kitchen & Dining, 117,000+ ratings —",
+  "because of a lid. Which size, when to buy, how to keep it clean."
+ ],
  "footer": "Best-seller review · 24 / 32 / 40 oz · Stanley and Yeti compared",
- "alt": "Owala FreeSip review — Verdict Picks best-seller story"}
+ "alt": "Owala FreeSip review — Verdict Picks best-seller story",
+ "pin": [
+  "Why the lid beat Stanley",
+  "Which size fits your cup holder",
+  "The two-minute mold fix"
+ ],
+ "url": "https://acts39.blogspot.com/2026/09/owala-freesip-review-2026.html"
+}

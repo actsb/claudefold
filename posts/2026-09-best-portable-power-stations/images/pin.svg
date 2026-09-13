@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" role="img" aria-label="Best Portable Power Stations of 2026 — Verdict Picks buying guide, with a render of the Anker SOLIX C1000 Gen 2">
+<defs>
+<radialGradient id="pin-spot" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#3A4D6B"/><stop offset="0.6" stop-color="#24344D"/><stop offset="1" stop-color="#1B2A41" stop-opacity="0"/></radialGradient>
+<radialGradient id="pin-halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1000" height="1500" fill="#1B2A41"/>
+<ellipse cx="500" cy="820" rx="520" ry="380" fill="url(#pin-spot)"/>
+<ellipse cx="500" cy="800" rx="340" ry="240" fill="url(#pin-halo)"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="310" y="96" width="380" height="44" rx="22" fill="#1E8E5A"/>
+<text x="500" y="126" text-anchor="middle" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.8">VERDICT PICKS · BUYING GUIDE</text>
+<text x="500" y="250" text-anchor="middle" font-size="96" font-weight="800" fill="#fff">Best Portable</text><text x="500" y="356" text-anchor="middle" font-size="96" font-weight="800" fill="#fff">Power Stations</text><text x="500" y="462" text-anchor="middle" font-size="96" font-weight="800" fill="#8FD3AE">of 2026</text>
+<g transform="translate(110 560) scale(1.3)"><defs>
+<radialGradient id="pin-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="pin-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="pin-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="pin-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="pin-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#424852"/><stop offset="0.55" stop-color="#2B2F36"/><stop offset="1" stop-color="#17191c"/></linearGradient>
+<linearGradient id="pin-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2025"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="pin-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#616a7a"/><stop offset="1" stop-color="#393e47"/></linearGradient>
+<radialGradient id="pin-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5d6574"/><stop offset="0.6" stop-color="#2B2F36"/><stop offset="1" stop-color="#0b0c0e"/></radialGradient>
+<linearGradient id="pin-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="pin-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="pin-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="pin-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b3b6bc"/><stop offset="1" stop-color="#6b707a"/></linearGradient>
+<linearGradient id="pin-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<ellipse cx="300" cy="326" rx="186.0" ry="16" fill="#000" opacity="0.28" filter="url(#pin-blur)"/>
+<linearGradient id="pin-h" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5f5f4"/><stop offset="0.5" stop-color="#C9C9C4"/><stop offset="1" stop-color="#939389"/></linearGradient>
+<path d="M 431.5 136.0 L 472.2 102.69999999999999 L 472.2 276.7 Q 472.2 284.7 466.2 284.7 L 431.5 315.0 Z" fill="url(#pin-side)"/><path d="M 141.5 128 L 182.2 94.69999999999999 L 466.2 94.69999999999999 Q 472.2 94.69999999999999 472.2 102.69999999999999 L 431.5 136.0 Q 431.5 128 421.5 128 Z" fill="url(#pin-top)"/><rect x="131.5" y="128" width="300" height="190" rx="20" fill="url(#pin-front)"/><rect x="131.5" y="128" width="300" height="190" rx="20" fill="none" stroke="#000000" stroke-width="1.2" opacity="0.6"/><path d="M 151.5 131 L 411.5 131" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
+<rect x="208.85000000000002" y="105.35" width="12" height="16" rx="4" fill="#8c8c81"/><rect x="382.85" y="105.35" width="12" height="16" rx="4" fill="#8c8c81"/>
+<rect x="214.85000000000002" y="89.35" width="174.0" height="24" rx="12" fill="url(#pin-h)"/><rect x="224.85000000000002" y="93.35" width="154.0" height="5" rx="2.5" fill="#fff" opacity="0.4"/>
+<rect x="131.5" y="128" width="300" height="14" rx="7" fill="url(#pin-accent)"/><rect x="131.5" y="136" width="300" height="6" fill="url(#pin-accent)"/>
+<rect x="152.5" y="166.0" width="108.0" height="64.60000000000001" rx="9" fill="url(#pin-screen)" stroke="#000" stroke-width="2"/>
+<rect x="156.5" y="170.0" width="100.0" height="25.840000000000003" rx="6" fill="#fff" opacity="0.05"/>
+<text x="206.5" y="199.592" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700" fill="#8FE3B2">1,024 Wh</text>
+<rect x="165.46" y="208.63600000000002" width="82.08" height="9.044000000000002" rx="3" fill="#0f2a1c"/><rect x="165.46" y="208.63600000000002" width="75.5136" height="9.044000000000002" rx="3" fill="#2ecc71"/>
+<rect x="287.5" y="166.0" width="57.0" height="57.0" rx="9.120000000000001" fill="#efefec"/><rect x="289.0" y="167.5" width="54.0" height="54.0" rx="7.98" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="302.89" y="179.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><rect x="322.84" y="179.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><circle cx="316.0" cy="207.04" r="4.5600000000000005" fill="#333"/>
+<rect x="354.5" y="166.0" width="57.0" height="57.0" rx="9.120000000000001" fill="#efefec"/><rect x="356.0" y="167.5" width="54.0" height="54.0" rx="7.98" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="369.89" y="179.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><rect x="389.84" y="179.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><circle cx="383.0" cy="207.04" r="4.5600000000000005" fill="#333"/>
+<rect x="287.5" y="231.0" width="57.0" height="57.0" rx="9.120000000000001" fill="#efefec"/><rect x="289.0" y="232.5" width="54.0" height="54.0" rx="7.98" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="302.89" y="244.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><rect x="322.84" y="244.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><circle cx="316.0" cy="272.04" r="4.5600000000000005" fill="#333"/>
+<rect x="354.5" y="231.0" width="57.0" height="57.0" rx="9.120000000000001" fill="#efefec"/><rect x="356.0" y="232.5" width="54.0" height="54.0" rx="7.98" fill="none" stroke="#c9c9c4" stroke-width="1"/><rect x="369.89" y="244.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><rect x="389.84" y="244.68" width="6.2700000000000005" height="17.099999999999998" rx="1.5" fill="#333"/><circle cx="383.0" cy="272.04" r="4.5600000000000005" fill="#333"/>
+<rect x="152.5" y="242.60000000000002" width="28.0" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="156.5" y="246.10000000000002" width="20.0" height="4" rx="2" fill="#333"/>
+<rect x="188.5" y="242.60000000000002" width="28.0" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="192.5" y="246.10000000000002" width="20.0" height="4" rx="2" fill="#333"/>
+<rect x="224.5" y="242.60000000000002" width="28.0" height="11" rx="4" fill="#efefec" opacity="0.9"/><rect x="228.5" y="246.10000000000002" width="20.0" height="4" rx="2" fill="#333"/>
+<circle cx="405.5" cy="292" r="9" fill="#464d58" stroke="#000000" stroke-width="1.5"/><circle cx="405.5" cy="292" r="3" fill="#8A8F98"/></g>
+<rect x="60" y="1130" width="880" height="250" rx="24" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+<g transform="translate(0 1190)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">How many watt-hours you need</text></g><g transform="translate(0 1256)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">10 stations, $199 to $2,399</text></g><g transform="translate(0 1322)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">The 72-hour outage playbook</text></g>
+<text x="500" y="1448" text-anchor="middle" font-size="30" font-weight="700" fill="#8FD3AE" letter-spacing="1">acts39.blogspot.com</text>
+</g>
+<circle cx="900" cy="118" r="44" fill="#1E8E5A"/><path d="M 878 119 L 893 134 L 923 103" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
