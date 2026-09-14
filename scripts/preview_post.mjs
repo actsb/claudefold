@@ -10,6 +10,8 @@ try { ({ chromium } = require('playwright')); } catch { ({ chromium } = require(
 const [file, out, widthArg, maxArg] = process.argv.slice(2);
 const width = Number(widthArg || 760), maxH = Number(maxArg || 3200);
 let html = readFileSync(file, 'utf8');
+// screenshots are taken without scrolling, so lazy images below the fold would stay blank: load everything eagerly
+html = html.replace(/ loading="lazy"/g, '');
 // YouTube is unreachable from the sandbox: replace iframes with grey boxes so layout still shows.
 html = html.replace(/<iframe[^>]*youtube\.com\/embed\/([A-Za-z0-9_\-]+)[^>]*><\/iframe>/g, '<div style="position:absolute;top:0;left:0;width:100%;height:100%;background:#333;color:#fff;font:14px sans-serif;display:flex;align-items:center;justify-content:center;">▶ YouTube $1</div>');
 html = html.replace(/class="vp-short" style="/g, 'class="vp-short" style="position:relative;');
