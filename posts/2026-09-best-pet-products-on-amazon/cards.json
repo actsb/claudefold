@@ -17,7 +17,11 @@
         "body": "#F4F4F1",
         "accent": "#1B2A41",
         "strip": "#2A2A2A"
-      }
+      },
+      "video": "fTYMnh6c1r8",
+      "video_title": "Bull or No Bull? ABC15 tests the ChomChom Roller",
+      "video_channel": "ABC15 Arizona · Smart Shopper",
+      "video_why": "A local TV consumer team tests the roller on camera and rates it “no bull,” with the fair footnote that results vary by fabric. Watch the stroke: short, quick, back and forth. Long rolls do nothing, which is the whole learning curve in one shot."
     },
     {
       "id": "p1pro",
@@ -36,7 +40,11 @@
         "accent": "#3C8DAD",
         "cup": "#9FD3FF",
         "tool": "#2A2A2A"
-      }
+      },
+      "video": "YUcAU5oHfJc",
+      "video_title": "Neabot Neakasa P1 Pro grooming kit and vacuum review: best pet grooming vacuum?",
+      "video_channel": "YouTube review · December 2024",
+      "video_why": "A full-length review of the P1 Pro kit built around the question we asked: is this the best pet grooming vacuum? Watch it for the attachments and the noise before you spend $85."
     },
     {
       "id": "lr4",
@@ -50,13 +58,15 @@
       "skip_if": "you have a kitten under 3 lb (semi-automatic mode until then), a cat that hates enclosed boxes (see the open-top Neakasa M1), or you can wait for Black Friday bundles.",
       "owners": "4.4/5 across 7,000-plus verified reviews on Whisker's own site; Catster 4.6, Hepper 4.85. Praise: odor control, hands-off, quiet. Complaints: the price, occasional false 'drawer full' readings (wipe the sensors), OdorTrap refills add up.",
       "cta": "https://www.amazon.com/s?k=Litter-Robot+4+self-cleaning+litter+box&tag=verdictpicks-20",
-      "video": "2IHJJ6Jaz_o",
-      "video_title": "One Man Five Cats: is the Litter-Robot 4 still the best after three years?",
       "art": {
         "body": "#F2F2EF",
         "accent": "#1B2A41",
         "trim": "#8A8F98"
-      }
+      },
+      "video": "2IHJJ6Jaz_o",
+      "video_title": "Litter-Robot 4: still the best after three years? (One Man Five Cats)",
+      "video_channel": "One Man Five Cats · long-term review",
+      "video_why": "Three years and five cats after buying it, a cat-tech channel asks whether the Litter-Robot 4 is still the one to buy — the long-term view most reviews can’t give, and the question to settle before spending $699."
     }
   ]
 }

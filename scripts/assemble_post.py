@@ -79,8 +79,27 @@ def top_pick(d, c):
 </div>
 </div>'''
 
+WATCH = ('<div class="vp-watch" id="watch-{cid}" style="margin:18px -18px -18px;padding:14px 18px 18px;border-top:1px solid #e3e3e3;background:#F7F5F0;border-radius:0 0 13px 13px;">'
+         '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px;">'
+         '<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#1E8E5A;color:#fff;font-size:12px;flex:0 0 auto;">&#9654;</span>'
+         '<span style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Watch &middot; video {n} of {total}</span>'
+         '<span style="margin-left:auto;font-size:13px;color:#666;">{channel}</span></div>'
+         '<div class="vp-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;background:#000;">'
+         '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}" title="{title}" loading="lazy" '
+         'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+         '<p style="margin:10px 0 0;font-size:15px;line-height:1.5;color:#333;"><strong style="color:#1B2A41;">Why this one:</strong> {why}</p></div>')
+
+def card_video(d, c):
+    """Plain embed by default; the framed, numbered Watch panel when the card explains why the video is worth it."""
+    title = esc(c.get("video_title", c["name"] + " review"))
+    if not c.get("video_why"):
+        return VIDEO.format(vid=c["video"], title=title)
+    with_video = [x["id"] for x in json.loads((d / "cards.json").read_text(encoding="utf-8"))["cards"] if x.get("video")]
+    return WATCH.format(cid=c["id"], n=with_video.index(c["id"]) + 1, total=len(with_video), channel=esc(c.get("video_channel", "YouTube")),
+                        vid=c["video"], title=title, why=esc(c["video_why"]))
+
 def pick_card(d, c, n, with_video=True):
-    vid = VIDEO.format(vid=c["video"], title=esc(c.get("video_title", c["name"] + " review"))) if (c.get("video") and with_video) else ""
+    vid = card_video(d, c) if (c.get("video") and with_video) else ""
     return f'''<div class="vp-card" id="card-{c["id"]}" style="border:1px solid #ddd;border-radius:14px;padding:18px;background:#fff;margin:1.2em 0;">
 <div style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;">
 <div style="flex:1 1 240px;min-width:0;max-width:420px;">{card_svg(d, c["id"])}</div>
