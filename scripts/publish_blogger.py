@@ -70,6 +70,12 @@ POSTS = {
         "slug_title": "Prime Big Deal Days 2026",
         "labels": ["Deals", "Buying Guide", "Best Sellers"],
     },
+    "pets": {
+        "dir": "posts/2026-09-best-pet-products-on-amazon",
+        "title": "The 3 Best Pet Products on Amazon in 2026: a $25 Roller, an $85 Grooming Vacuum and the $699 Robot Litter Box (Good · Better · Best)",
+        "slug_title": "Best Pet Products on Amazon 2026",
+        "labels": ["Pets", "Best Sellers", "Buying Guide", "For Pet Owners"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

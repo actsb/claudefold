@@ -348,7 +348,85 @@ def draw_cleaner(uid, a):
     out.append('</g>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner}
+
+def draw_groomvac(uid, a):
+    """Pet grooming vacuum kit: rounded canister with a dust-cup window, top handle, hose to a brush head, two spare tools."""
+    body = a.get("body", "#F1F1EE"); accent = a.get("accent", "#3C8DAD"); cup = a.get("cup", "#9FD3FF"); tool = a.get("tool", "#2A2A2A")
+    out = [defs(uid, body, accent), studio(uid, 300, 334, 220, 16)]
+    # spare tools at the front-left: clipper and de-shedding comb
+    out.append(f'<g transform="rotate(-8 130 300)"><rect x="76" y="290" width="100" height="26" rx="12" fill="{tool}"/><rect x="80" y="288" width="42" height="9" rx="4.5" fill="{shade(tool, .35)}"/>'
+               f'<path d="M 128 303 h 40" stroke="{accent}" stroke-width="6" stroke-linecap="round"/></g>')
+    out.append(f'<g transform="rotate(5 140 344)"><rect x="86" y="336" width="108" height="18" rx="9" fill="{shade(tool, .15)}"/>'
+               + "".join(f'<rect x="{94 + i*9.5}" y="328" width="3" height="10" rx="1.5" fill="{shade(tool, .15)}"/>' for i in range(11)) + '</g>')
+    # canister: rounded body with a darker right edge for roundness, cap on top
+    out.append(f'<rect x="212" y="168" width="182" height="154" rx="30" fill="url(#{uid}-front)"/>'
+               f'<path d="M 364 168 h 0 a 30 30 0 0 1 30 30 v 94 a 30 30 0 0 1 -30 30 z" fill="url(#{uid}-side)" opacity="0.55"/>'
+               f'<rect x="212" y="168" width="182" height="154" rx="30" fill="none" stroke="{shade(body, -.25)}" stroke-width="1.2" opacity="0.6"/>')
+    out.append(f'<rect x="222" y="148" width="162" height="36" rx="18" fill="{shade(body, -.08)}"/><rect x="222" y="148" width="162" height="36" rx="18" fill="url(#{uid}-gloss)"/>')
+    # translucent dust cup window
+    out.append(f'<rect x="232" y="212" width="142" height="94" rx="18" fill="{cup}" opacity="0.8"/><rect x="232" y="212" width="142" height="94" rx="18" fill="url(#{uid}-gloss)"/>'
+               f'<rect x="232" y="266" width="142" height="40" rx="12" fill="#5FA8E6" opacity="0.5"/><rect x="240" y="220" width="16" height="70" rx="8" fill="#fff" opacity="0.35"/>')
+    # accent band with power button and mode dial
+    out.append(f'<rect x="212" y="188" width="182" height="14" fill="{accent}" opacity="0.9"/><circle cx="362" cy="195" r="9" fill="#fff"/><circle cx="362" cy="195" r="4" fill="{accent}"/>'
+               f'<circle cx="250" cy="195" r="6" fill="{shade(accent, -.3)}"/>')
+    # carry handle
+    out.append(f'<path d="M 262 150 L 262 122 Q 262 106 278 106 L 328 106 Q 344 106 344 122 L 344 150" fill="none" stroke="{shade(body, -.35)}" stroke-width="15" stroke-linecap="round"/>'
+               f'<path d="M 276 104 L 330 104" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>')
+    # hose from the right port, looping out and down to the brush head at the front-right
+    hose = "M 392 246 Q 470 228 500 272 Q 528 314 486 336 Q 452 352 448 336"
+    out.append(f'<circle cx="392" cy="246" r="16" fill="{shade(body, -.3)}"/><circle cx="392" cy="246" r="9" fill="{tool}"/>')
+    out.append(f'<path d="{hose}" fill="none" stroke="{tool}" stroke-width="14" stroke-linecap="round"/><path d="{hose}" fill="none" stroke="#fff" stroke-opacity="0.15" stroke-width="4" stroke-linecap="round"/>')
+    # brush head (angled, bristles down) with a few captured hairs
+    out.append(f'<g transform="rotate(-22 452 344)"><rect x="410" y="334" width="92" height="26" rx="12" fill="{shade(accent, -.05)}"/>'
+               + "".join(f'<rect x="{418 + i*8}" y="358" width="3" height="9" rx="1.5" fill="{tool}"/>' for i in range(10)) + '</g>')
+    out.append(f'<path d="M 404 372 q 6 -8 12 0 M 424 380 q 6 -8 12 0 M 388 360 q 6 -8 12 0" stroke="{AMBER}" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85"/>')
+    return "\n".join(out)
+
+def draw_roller(uid, a):
+    """Reusable pet-hair roller (ChomChom style): rounded handle body, roller face with bristle strips, release button, fur wad."""
+    body = a.get("body", "#F4F4F1"); accent = a.get("accent", "#1B2A41"); strip = a.get("strip", "#2A2A2A")
+    out = [defs(uid, body, accent), studio(uid, 300, 330, 200, 16)]
+    out.append(f'<g transform="rotate(-14 300 250)">')
+    # roller head: a wide capsule seen from the front-top, with two bristle strips and the chamber
+    out.append(f'<rect x="150" y="196" width="300" height="120" rx="56" fill="url(#{uid}-front)"/><rect x="150" y="196" width="300" height="120" rx="56" fill="none" stroke="{shade(body, -.25)}" stroke-width="1.2" opacity="0.6"/>')
+    out.append(f'<rect x="150" y="256" width="300" height="60" rx="30" fill="{shade(body, -.12)}" opacity="0.9"/>')
+    # bristle strips on the underside face
+    for y in (272, 296):
+        out.append(f'<rect x="176" y="{y}" width="248" height="10" rx="5" fill="{strip}"/>' + "".join(f'<rect x="{182 + i*10}" y="{y-3}" width="2.5" height="6" rx="1.2" fill="{shade(strip, .35)}"/>' for i in range(24)))
+    # chamber door seam and release button
+    out.append(f'<path d="M 176 236 H 424" stroke="{shade(body, -.3)}" stroke-width="2" stroke-linecap="round" opacity="0.7"/>')
+    out.append(f'<rect x="286" y="206" width="28" height="18" rx="6" fill="{accent}"/><rect x="290" y="208" width="20" height="6" rx="3" fill="#fff" opacity="0.35"/>')
+    # handle rising from the back
+    out.append(f'<path d="M 300 196 L 300 150 Q 300 118 334 118 L 372 118" fill="none" stroke="{shade(body, -.18)}" stroke-width="34" stroke-linecap="round"/>'
+               f'<path d="M 300 196 L 300 150 Q 300 118 334 118 L 372 118" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>'
+               f'<circle cx="372" cy="118" r="17" fill="{accent}"/><circle cx="372" cy="118" r="7" fill="#fff" opacity="0.5"/>')
+    out.append('</g>')
+    # a wad of collected fur next to the roller
+    out.append(f'<ellipse cx="470" cy="350" rx="46" ry="16" fill="{AMBER}" opacity="0.55"/><ellipse cx="462" cy="344" rx="30" ry="10" fill="{shade(AMBER, .25)}" opacity="0.7"/>'
+               f'<path d="M 436 342 q 8 -10 16 0 M 468 336 q 8 -10 16 0 M 484 348 q 8 -10 16 0" stroke="{shade(AMBER, -.2)}" stroke-width="2.5" fill="none" stroke-linecap="round"/>')
+    return "\n".join(out)
+
+def draw_litterbot(uid, a):
+    """Self-cleaning litter box (rotating globe on a base with a waste drawer), three-quarter view."""
+    body = a.get("body", "#F2F2EF"); accent = a.get("accent", "#1B2A41"); trim = a.get("trim", "#8A8F98")
+    out = [defs(uid, body, accent), studio(uid, 300, 350, 200, 16)]
+    # base with the waste drawer (front) and a step in front of it
+    out.append(box3d(uid, 168, 262, 250, 92, 70, body, rx=18))
+    out.append(f'<rect x="184" y="290" width="218" height="50" rx="10" fill="{shade(body, -.12)}"/><rect x="270" y="310" width="46" height="8" rx="4" fill="{shade(body, -.4)}"/>')
+    out.append(f'<rect x="176" y="352" width="120" height="14" rx="6" fill="{shade(body, -.2)}" opacity="0.9"/>')
+    # globe: big sphere with a dark bezel opening facing front-left
+    out.append(f'<circle cx="300" cy="176" r="112" fill="url(#{uid}-front)"/><circle cx="300" cy="176" r="112" fill="none" stroke="{shade(body, -.25)}" stroke-width="1.2" opacity="0.6"/>')
+    out.append(f'<ellipse cx="262" cy="176" rx="34" ry="72" transform="rotate(-8 262 176)" fill="{shade(body, -.5)}"/><ellipse cx="256" cy="176" rx="26" ry="62" transform="rotate(-8 256 176)" fill="#111"/>')
+    out.append(f'<ellipse cx="262" cy="176" rx="34" ry="72" transform="rotate(-8 262 176)" fill="none" stroke="{trim}" stroke-width="5"/>')
+    # seam and sensor bar on the globe, gloss highlight
+    out.append(f'<path d="M 300 66 Q 372 96 380 176" fill="none" stroke="{shade(body, -.2)}" stroke-width="2" opacity="0.7"/>'
+               f'<path d="M 330 84 Q 362 104 368 140" fill="none" stroke="#fff" stroke-opacity="0.55" stroke-width="6" stroke-linecap="round"/>')
+    out.append(f'<rect x="318" y="228" width="60" height="10" rx="5" fill="{accent}" opacity="0.85"/><circle cx="392" cy="248" r="5" fill="{GREEN}"/>')
+    # a sitting cat silhouette peeking from the opening for scale
+    out.append(f'<g fill="{shade(body, -.55)}"><circle cx="238" cy="186" r="14"/><path d="M 228 176 l -4 -14 l 12 8 z M 248 176 l 4 -14 l -12 8 z"/></g>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Neakasa P1 Pro Grooming Vacuum Kit (product render)">
+<defs>
+<radialGradient id="cp1pro-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cp1pro-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cp1pro-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cp1pro-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cp1pro-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#F1F1EE"/><stop offset="1" stop-color="#dcdcd5"/></linearGradient>
+<linearGradient id="cp1pro-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3e3dd"/><stop offset="1" stop-color="#c3c3b6"/></linearGradient>
+<linearGradient id="cp1pro-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="cp1pro-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#F1F1EE"/><stop offset="1" stop-color="#d1d1c7"/></radialGradient>
+<linearGradient id="cp1pro-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cp1pro-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cp1pro-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cp1pro-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ab0cb"/><stop offset="1" stop-color="#2c6880"/></linearGradient>
+<linearGradient id="cp1pro-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cp1pro-bg)"/><ellipse cx="300" cy="334" rx="220" ry="16" fill="#000" opacity="0.28" filter="url(#cp1pro-blur)"/>
+<g transform="rotate(-8 130 300)"><rect x="76" y="290" width="100" height="26" rx="12" fill="#2A2A2A"/><rect x="80" y="288" width="42" height="9" rx="4.5" fill="#838383"/><path d="M 128 303 h 40" stroke="#3C8DAD" stroke-width="6" stroke-linecap="round"/></g>
+<g transform="rotate(5 140 344)"><rect x="86" y="336" width="108" height="18" rx="9" fill="#505050"/><rect x="94.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="103.5" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="113.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="122.5" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="132.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="141.5" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="151.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="160.5" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="170.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="179.5" y="328" width="3" height="10" rx="1.5" fill="#505050"/><rect x="189.0" y="328" width="3" height="10" rx="1.5" fill="#505050"/></g>
+<rect x="212" y="168" width="182" height="154" rx="30" fill="url(#cp1pro-front)"/><path d="M 364 168 h 0 a 30 30 0 0 1 30 30 v 94 a 30 30 0 0 1 -30 30 z" fill="url(#cp1pro-side)" opacity="0.55"/><rect x="212" y="168" width="182" height="154" rx="30" fill="none" stroke="#b7b7a8" stroke-width="1.2" opacity="0.6"/>
+<rect x="222" y="148" width="162" height="36" rx="18" fill="#dfdfd8"/><rect x="222" y="148" width="162" height="36" rx="18" fill="url(#cp1pro-gloss)"/>
+<rect x="232" y="212" width="142" height="94" rx="18" fill="#9FD3FF" opacity="0.8"/><rect x="232" y="212" width="142" height="94" rx="18" fill="url(#cp1pro-gloss)"/><rect x="232" y="266" width="142" height="40" rx="12" fill="#5FA8E6" opacity="0.5"/><rect x="240" y="220" width="16" height="70" rx="8" fill="#fff" opacity="0.35"/>
+<rect x="212" y="188" width="182" height="14" fill="#3C8DAD" opacity="0.9"/><circle cx="362" cy="195" r="9" fill="#fff"/><circle cx="362" cy="195" r="4" fill="#3C8DAD"/><circle cx="250" cy="195" r="6" fill="#15303b"/>
+<path d="M 262 150 L 262 122 Q 262 106 278 106 L 328 106 Q 344 106 344 122 L 344 150" fill="none" stroke="#a0a08c" stroke-width="15" stroke-linecap="round"/><path d="M 276 104 L 330 104" stroke="#fff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round"/>
+<circle cx="392" cy="246" r="16" fill="#acac9a"/><circle cx="392" cy="246" r="9" fill="#2A2A2A"/>
+<path d="M 392 246 Q 470 228 500 272 Q 528 314 486 336 Q 452 352 448 336" fill="none" stroke="#2A2A2A" stroke-width="14" stroke-linecap="round"/><path d="M 392 246 Q 470 228 500 272 Q 528 314 486 336 Q 452 352 448 336" fill="none" stroke="#fff" stroke-opacity="0.15" stroke-width="4" stroke-linecap="round"/>
+<g transform="rotate(-22 452 344)"><rect x="410" y="334" width="92" height="26" rx="12" fill="#357e9a"/><rect x="418" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="426" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="434" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="442" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="450" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="458" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="466" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="474" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="482" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/><rect x="490" y="358" width="3" height="9" rx="1.5" fill="#2A2A2A"/></g>
+<path d="M 404 372 q 6 -8 12 0 M 424 380 q 6 -8 12 0 M 388 360 q 6 -8 12 0" stroke="#C9781B" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.85"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="203" height="28" rx="14" fill="#1B2A41"/>
+<text x="119.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">5 tools · 9,000 Pa · 52 dB</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Neakasa P1 Pro</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

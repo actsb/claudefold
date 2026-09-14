@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="Three tiers of pet product: Good $25 ChomChom Roller, Better $85 Neakasa P1 Pro, Best $699 Litter-Robot 4"><rect width="1200" height="560" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start" >Three prices, three jobs</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >Buy the tier that matches the problem, not the one that matches the budget.</text>
+<rect x="40" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="40" y="110" width="360" height="12" rx="6" fill="#1E8E5A"/>
+<text x="64" y="168" font-size="18" font-weight="800" fill="#1E8E5A" text-anchor="start" letter-spacing="2">GOOD</text>
+<text x="64" y="236" font-size="60" font-weight="800" fill="#1B2A41" text-anchor="start" >$25</text>
+<text x="64" y="276" font-size="22" font-weight="700" fill="#1B2A41" text-anchor="start" >ChomChom Roller</text>
+<circle cx="74" cy="312" r="11" fill="#1E8E5A"/><path d="M 69 312 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="96" y="318" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Solves: fur on the couch, the car</text>
+<text x="96" y="342" font-size="18" font-weight="400" fill="#222" text-anchor="start" >seat, the duvet</text>
+<circle cx="74" cy="374" r="11" fill="#1E8E5A"/><path d="M 69 374 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="96" y="380" font-size="18" font-weight="400" fill="#222" text-anchor="start" >For: every home with a shedding</text>
+<text x="96" y="404" font-size="18" font-weight="400" fill="#222" text-anchor="start" >pet</text>
+<circle cx="74" cy="436" r="11" fill="#1E8E5A"/><path d="M 69 436 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="96" y="442" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Runs on: nothing — no refills, no</text>
+<text x="96" y="466" font-size="18" font-weight="400" fill="#222" text-anchor="start" >batteries</text>
+<rect x="420" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="420" y="110" width="360" height="12" rx="6" fill="#C9781B"/>
+<text x="444" y="168" font-size="18" font-weight="800" fill="#C9781B" text-anchor="start" letter-spacing="2">BETTER</text>
+<text x="444" y="236" font-size="60" font-weight="800" fill="#1B2A41" text-anchor="start" >$85</text>
+<text x="444" y="276" font-size="22" font-weight="700" fill="#1B2A41" text-anchor="start" >Neakasa P1 Pro grooming kit</text>
+<circle cx="454" cy="312" r="11" fill="#C9781B"/><path d="M 449 312 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="476" y="318" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Solves: fur before it leaves the</text>
+<text x="476" y="342" font-size="18" font-weight="400" fill="#222" text-anchor="start" >dog (or cat)</text>
+<circle cx="454" cy="374" r="11" fill="#C9781B"/><path d="M 449 374 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="476" y="380" font-size="18" font-weight="400" fill="#222" text-anchor="start" >For: weekly brushers, double</text>
+<text x="476" y="404" font-size="18" font-weight="400" fill="#222" text-anchor="start" >coats, multi-pet homes</text>
+<circle cx="454" cy="436" r="11" fill="#C9781B"/><path d="M 449 436 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="476" y="442" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Runs on: a wall outlet; filters</text>
+<text x="476" y="466" font-size="18" font-weight="400" fill="#222" text-anchor="start" >and blades wear</text>
+<rect x="800" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="800" y="110" width="360" height="12" rx="6" fill="#1B2A41"/>
+<text x="824" y="168" font-size="18" font-weight="800" fill="#1B2A41" text-anchor="start" letter-spacing="2">BEST</text>
+<text x="824" y="236" font-size="60" font-weight="800" fill="#1B2A41" text-anchor="start" >$699</text>
+<text x="824" y="276" font-size="22" font-weight="700" fill="#1B2A41" text-anchor="start" >Whisker Litter-Robot 4</text>
+<circle cx="834" cy="312" r="11" fill="#1B2A41"/><path d="M 829 312 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="856" y="318" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Solves: scooping, odor, the sitter</text>
+<text x="856" y="342" font-size="18" font-weight="400" fill="#222" text-anchor="start" >problem</text>
+<circle cx="834" cy="374" r="11" fill="#1B2A41"/><path d="M 829 374 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="856" y="380" font-size="18" font-weight="400" fill="#222" text-anchor="start" >For: 1–4 cats, travellers,</text>
+<text x="856" y="404" font-size="18" font-weight="400" fill="#222" text-anchor="start" >scoop-haters</text>
+<circle cx="834" cy="436" r="11" fill="#1B2A41"/><path d="M 829 436 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="856" y="442" font-size="18" font-weight="400" fill="#222" text-anchor="start" >Runs on: liners and filters, about</text>
+<text x="856" y="466" font-size="18" font-weight="400" fill="#222" text-anchor="start" >$50–$120 a year</text>
+<text x="40" y="540" font-size="15" font-weight="400" fill="#777" text-anchor="start" >Prices: 2026 US sale prices at the time of writing. Everyday prices sit higher; deal days sit lower.</text>
+</g></svg>

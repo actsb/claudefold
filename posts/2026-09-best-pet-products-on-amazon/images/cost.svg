@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Yearly running cost: ChomChom $0, Neakasa P1 Pro about $20 to $40, Litter-Robot 4 $50 to $120 typical, up to about $360 with OdorTrap packs"><rect width="1200" height="400" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start" >What each one costs to run, per year</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >After the box arrives. Consumables only; electricity is pennies.</text>
+<path d="M 300.0 120 V 320" stroke="#e3e1db" stroke-width="1"/>
+<text x="300.0" y="344" font-size="15" font-weight="400" fill="#777" text-anchor="middle" >$0</text>
+<path d="M 505.0 120 V 320" stroke="#e3e1db" stroke-width="1"/>
+<text x="505.0" y="344" font-size="15" font-weight="400" fill="#777" text-anchor="middle" >$100</text>
+<path d="M 710.0 120 V 320" stroke="#e3e1db" stroke-width="1"/>
+<text x="710.0" y="344" font-size="15" font-weight="400" fill="#777" text-anchor="middle" >$200</text>
+<path d="M 915.0 120 V 320" stroke="#e3e1db" stroke-width="1"/>
+<text x="915.0" y="344" font-size="15" font-weight="400" fill="#777" text-anchor="middle" >$300</text>
+<path d="M 1120.0 120 V 320" stroke="#e3e1db" stroke-width="1"/>
+<text x="1120.0" y="344" font-size="15" font-weight="400" fill="#777" text-anchor="middle" >$400</text>
+<text x="280" y="158" font-size="20" font-weight="700" fill="#1B2A41" text-anchor="end" >ChomChom Roller</text>
+<circle cx="300.0" cy="150" r="9" fill="#1E8E5A"/>
+<text x="318.0" y="157" font-size="17" font-weight="400" fill="#222" text-anchor="start" >$0 — nothing to buy, ever</text>
+<text x="280" y="220" font-size="20" font-weight="700" fill="#1B2A41" text-anchor="end" >Neakasa P1 Pro</text>
+<rect x="341.0" y="201" width="41.0" height="22" rx="4" fill="#1E8E5A"/>
+<text x="400.0" y="219" font-size="17" font-weight="400" fill="#222" text-anchor="start" >about $20–$40 — filters and clipper blades (our estimate)</text>
+<text x="280" y="282" font-size="20" font-weight="700" fill="#1B2A41" text-anchor="end" >Litter-Robot 4</text>
+<rect x="546.0" y="263" width="492.0" height="22" rx="0" fill="#1E8E5A" opacity="0.22"/>
+<rect x="402.5" y="263" width="143.5" height="22" rx="4" fill="#1E8E5A"/>
+<text x="564.0" y="281" font-size="17" font-weight="400" fill="#222" text-anchor="start" >$50–$120 typical — liners and carbon filters</text>
+<text x="1034.0" y="308" font-size="14" font-weight="400" fill="#777" text-anchor="end" >up to ~$360 if you run OdorTrap packs nonstop</text>
+<text x="40" y="380" font-size="14" font-weight="400" fill="#777" text-anchor="start" >Sources: Whisker consumable prices and owner cost breakdowns (Petful, Reviewed); Neakasa parts listings. Ranges, not quotes.</text>
+</g></svg>

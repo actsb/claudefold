@@ -1,0 +1,69 @@
+{
+ "strips": [
+  {
+   "id": "shedding-week",
+   "card": "chomchom",
+   "title": "A shedding week with Noeul — how the fur actually gets handled",
+   "panels": [
+    {
+     "glyph": "fur",
+     "head": "Monday — the couch, again",
+     "text": "A 23 kg Jindo blows his coat twice a year. The sofa is beige. The dog is not.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "sofa",
+     "product": true,
+     "head": "Tuesday — thirty seconds",
+     "text": "Short strokes at 45 degrees. The chamber fills, press the button, dump the wad. No refills."
+    },
+    {
+     "glyph": "dog",
+     "head": "Saturday — brush day",
+     "text": "The grooming vacuum takes fur off the dog before it reaches the couch. Eco mode, treats, ten minutes."
+    },
+    {
+     "glyph": "check",
+     "head": "Sunday — guests",
+     "text": "One pass on the cushions, one on the car seat. Nobody mentions dog hair.",
+     "host": {
+      "pose": "thumbsup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "litter-week",
+   "card": "lr4",
+   "title": "The robot litter box, week one — what cat owners describe",
+   "panels": [
+    {
+     "glyph": "phone",
+     "head": "Day 1 — set up in minutes",
+     "text": "Old box beside it, Wi-Fi on, app open. Fill to the line, not over it — the classic rookie mistake."
+    },
+    {
+     "glyph": "cat",
+     "head": "Day 3 — first visit",
+     "text": "Most cats walk in within days. The globe turns after they leave; clumps drop into the sealed drawer."
+    },
+    {
+     "glyph": "moon",
+     "product": true,
+     "head": "Night — about 37 dB",
+     "text": "Roughly a whisper. The night light is on; nobody wakes up."
+    },
+    {
+     "glyph": "plane",
+     "head": "Vacation — the app knows",
+     "text": "Drawer and litter levels on your phone. The sitter comes when it says so, not every day.",
+     "host": {
+      "pose": "thumbsup"
+     }
+    }
+   ]
+  }
+ ]
+}

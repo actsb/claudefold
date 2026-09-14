@@ -35,6 +35,7 @@ Label URL pattern: `https://acts39.blogspot.com/search/label/<Label%20Name>`
 
 Start with the first row and expand one section at a time; a section tab appears in the nav only once it has 3+ posts.
 
+| **Pets** | `Pets` | Good/better/best guides and best-seller stories for dog and cat owners (first: the 3 best pet products on Amazon, Sept 14, 2026); shares the Best Sellers hub until a Pets hub exists | Cross-category |
 | **Best Sellers** | `Best Sellers` | Short story reviews of Amazon's current top sellers (AirTag 2, Owala FreeSip, Bissell Little Green) | Cross-category; hub page `/p/best-sellers.html` |
 
 ## B. Post-type labels (one per post)
