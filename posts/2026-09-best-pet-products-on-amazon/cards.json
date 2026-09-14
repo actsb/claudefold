@@ -1,66 +1,62 @@
 {
- "category": "roller",
- "cards": [
-  {
-   "id": "chomchom",
-   "category": "roller",
-   "name": "ChomChom Roller (Original)",
-   "short": "ChomChom Roller",
-   "badge": "Good · under $25 · Amazon's No. 1 pet hair remover",
-   "price": "$24.99 everyday · $17–$20 on deal days · $12–$15 is a historic low (list $27.99–$31.99)",
-   "chip": "No refills · no batteries · 190,000+ ratings",
-   "buy_if": "you have a couch, a car seat or a duvet and a pet that sheds; it is the cheapest thing on this page that changes daily life.",
-   "skip_if": "you want it for carpet pile or loose blankets — it needs a taut, firm surface (a vacuum or an Uproot Cleaner Pro does carpet).",
-   "owners": "4.5 stars across 190,000-plus ratings, as reported by Reader's Digest. Praise: a cushion cleared in 30 seconds, nothing to refill. Complaints: a week to learn the stroke, and the button pops open under your thumb.",
-   "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20",
-   "video": "fTYMnh6c1r8",
-   "video_title": "ABC15 tests the ChomChom Roller on a couch (45 seconds)",
-   "art": {
-    "body": "#F4F4F1",
-    "accent": "#1B2A41",
-    "strip": "#2A2A2A"
-   }
-  },
-  {
-   "id": "p1pro",
-   "category": "groomvac",
-   "name": "Neakasa P1 Pro Grooming Vacuum Kit",
-   "short": "Neakasa P1 Pro",
-   "badge": "Better · $83–$85 · the top-selling grooming vacuum",
-   "price": "$83–$85 on sale in 2026 · $70–$75 is the floor (list $130)",
-   "chip": "5 tools · 9,000 Pa · 52 dB",
-   "buy_if": "your dog or cat sheds enough that you brush weekly and the fur still ends up everywhere; it turns the brush into a vacuum.",
-   "skip_if": "you have a big double-coated dog and want one-pass grooming (the 1-liter cup fills fast — the P2 Pro's 2-liter cup is the fix), or you want a full shave-down tool.",
-   "owners": "Dogster scores it 4.9/5. Owners praise that fur goes straight into the bin and that vacuum-averse dogs accept it after a few short sessions. Complaints: emptying the cup mid-groom, and the clipper is for trims, not shaves.",
-   "cta": "https://www.amazon.com/s?k=Neakasa+P1+Pro+pet+grooming+vacuum+kit&tag=verdictpicks-20",
-   "video": "qVN6eMTKipw",
-   "video_title": "Honest review: Neakasa P1 Pro grooming kit and vacuum",
-   "art": {
-    "body": "#F1F1EE",
-    "accent": "#3C8DAD",
-    "cup": "#9FD3FF",
-    "tool": "#2A2A2A"
-   }
-  },
-  {
-   "id": "lr4",
-   "category": "litterbot",
-   "name": "Whisker Litter-Robot 4",
-   "short": "Litter-Robot 4",
-   "badge": "Best · $699 · the internet-famous robot litter box",
-   "price": "$699 all of 2026 · $799 with a 3-year warranty · Costco bundle $699.99 · reconditioned $599",
-   "chip": "Up to 4 cats · app · no subscription",
-   "buy_if": "you have one to four cats, hate scooping, or travel — the sealed drawer and the app are what 7,000-plus verified owners keep praising.",
-   "skip_if": "you have a kitten under 3 lb (semi-automatic mode until then), a cat that hates enclosed boxes (see the open-top Neakasa M1), or you can wait for Black Friday bundles.",
-   "owners": "4.4/5 across 7,000-plus verified reviews on Whisker's own site; Catster 4.6, Hepper 4.85. Praise: odor control, hands-off, quiet. Complaints: the price, occasional false 'drawer full' readings (wipe the sensors), OdorTrap refills add up.",
-   "cta": "https://www.amazon.com/s?k=Litter-Robot+4+self-cleaning+litter+box&tag=verdictpicks-20",
-   "video": "2IHJJ6Jaz_o",
-   "video_title": "One Man Five Cats: is the Litter-Robot 4 still the best after three years?",
-   "art": {
-    "body": "#F2F2EF",
-    "accent": "#1B2A41",
-    "trim": "#8A8F98"
-   }
-  }
- ]
+  "category": "roller",
+  "cards": [
+    {
+      "id": "chomchom",
+      "category": "roller",
+      "name": "ChomChom Roller (Original)",
+      "short": "ChomChom Roller",
+      "badge": "Good · under $25 · Amazon's No. 1 pet hair remover",
+      "price": "$24.99 everyday · $17–$20 on deal days · $12–$15 is a historic low (list $27.99–$31.99)",
+      "chip": "No refills · no batteries · 190,000+ ratings",
+      "buy_if": "you have a couch, a car seat or a duvet and a pet that sheds; it is the cheapest thing on this page that changes daily life.",
+      "skip_if": "you want it for carpet pile or loose blankets — it needs a taut, firm surface (a vacuum or an Uproot Cleaner Pro does carpet).",
+      "owners": "4.5 stars across 190,000-plus ratings, as reported by Reader's Digest. Praise: a cushion cleared in 30 seconds, nothing to refill. Complaints: a week to learn the stroke, and the button pops open under your thumb.",
+      "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20",
+      "art": {
+        "body": "#F4F4F1",
+        "accent": "#1B2A41",
+        "strip": "#2A2A2A"
+      }
+    },
+    {
+      "id": "p1pro",
+      "category": "groomvac",
+      "name": "Neakasa P1 Pro Grooming Vacuum Kit",
+      "short": "Neakasa P1 Pro",
+      "badge": "Better · $83–$85 · the top-selling grooming vacuum",
+      "price": "$83–$85 on sale in 2026 · $70–$75 is the floor (list $130)",
+      "chip": "5 tools · 9,000 Pa · 52 dB",
+      "buy_if": "your dog or cat sheds enough that you brush weekly and the fur still ends up everywhere; it turns the brush into a vacuum.",
+      "skip_if": "you have a big double-coated dog and want one-pass grooming (the 1-liter cup fills fast — the P2 Pro's 2-liter cup is the fix), or you want a full shave-down tool.",
+      "owners": "Dogster scores it 4.9/5. Owners praise that fur goes straight into the bin and that vacuum-averse dogs accept it after a few short sessions. Complaints: emptying the cup mid-groom, and the clipper is for trims, not shaves.",
+      "cta": "https://www.amazon.com/s?k=Neakasa+P1+Pro+pet+grooming+vacuum+kit&tag=verdictpicks-20",
+      "art": {
+        "body": "#F1F1EE",
+        "accent": "#3C8DAD",
+        "cup": "#9FD3FF",
+        "tool": "#2A2A2A"
+      }
+    },
+    {
+      "id": "lr4",
+      "category": "litterbot",
+      "name": "Whisker Litter-Robot 4",
+      "short": "Litter-Robot 4",
+      "badge": "Best · $699 · the internet-famous robot litter box",
+      "price": "$699 all of 2026 · $799 with a 3-year warranty · Costco bundle $699.99 · reconditioned $599",
+      "chip": "Up to 4 cats · app · no subscription",
+      "buy_if": "you have one to four cats, hate scooping, or travel — the sealed drawer and the app are what 7,000-plus verified owners keep praising.",
+      "skip_if": "you have a kitten under 3 lb (semi-automatic mode until then), a cat that hates enclosed boxes (see the open-top Neakasa M1), or you can wait for Black Friday bundles.",
+      "owners": "4.4/5 across 7,000-plus verified reviews on Whisker's own site; Catster 4.6, Hepper 4.85. Praise: odor control, hands-off, quiet. Complaints: the price, occasional false 'drawer full' readings (wipe the sensors), OdorTrap refills add up.",
+      "cta": "https://www.amazon.com/s?k=Litter-Robot+4+self-cleaning+litter+box&tag=verdictpicks-20",
+      "video": "2IHJJ6Jaz_o",
+      "video_title": "One Man Five Cats: is the Litter-Robot 4 still the best after three years?",
+      "art": {
+        "body": "#F2F2EF",
+        "accent": "#1B2A41",
+        "trim": "#8A8F98"
+      }
+    }
+  ]
 }
