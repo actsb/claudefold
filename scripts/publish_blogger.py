@@ -72,9 +72,10 @@ POSTS = {
     },
     "pets": {
         "dir": "posts/2026-09-best-pet-products-on-amazon",
-        "title": "The 3 Best Pet Products on Amazon in 2026: a $25 Roller, an $85 Grooming Vacuum and the $699 Robot Litter Box (Good · Better · Best)",
+        "title": "Best Pet Products on Amazon 2026: Pet Hair Roller, Grooming Vacuum, Robot Litter Box (Good, Better, Best)",
         "slug_title": "Best Pet Products on Amazon 2026",
-        "labels": ["Pets", "Best Sellers", "Buying Guide", "For Pet Owners"],
+        "aliases": ["The 3 Best Pet Products on Amazon in 2026: a $25 Roller, an $85 Grooming Vacuum and the $699 Robot Litter Box (Good · Better · Best)"],
+        "labels": ["Pets", "Pet Products", "Buying Guide", "Best Sellers", "For Pet Owners", "Cat Litter", "Robot Litter Box", "Pet Grooming", "Pet Hair Removal", "Cats", "Dogs", "Under $100", "Amazon Finds"],
     },
 }
 PAGES = [
@@ -159,7 +160,7 @@ for key, P in POSTS.items():
     if ONLY and key != ONLY:
         continue
     content = strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8"))
-    existing = posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"])
+    existing = posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"]) or next((posts_by_title[a] for a in P.get("aliases", []) if a in posts_by_title), None)
     if existing:
         pid = existing["id"]
         body = {"kind": "blogger#post", "title": P["title"], "labels": P["labels"], "content": content}
