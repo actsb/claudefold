@@ -61,9 +61,17 @@ def g_warning(c="#1B2A41"):
 def g_home(c="#1B2A41"):
     return f'<path d="M 16 70 L 70 22 L 124 70" fill="none" stroke="{c}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/><rect x="32" y="66" width="76" height="56" rx="6" fill="{c}"/><rect x="60" y="88" width="20" height="34" rx="3" fill="#F2C94C"/>'
 
+def g_cat(c="#1B2A41"):
+    return f'<circle cx="70" cy="80" r="34" fill="{c}"/><path d="M 44 58 l -6 -30 l 26 16 z M 96 58 l 6 -30 l -26 16 z" fill="{c}"/><circle cx="58" cy="76" r="4" fill="#fff"/><circle cx="82" cy="76" r="4" fill="#fff"/><path d="M 66 90 l 4 4 l 4 -4" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/><path d="M 30 84 l 26 2 M 30 96 l 26 -4 M 110 84 l -26 2 M 110 96 l -26 -4" stroke="{AMBER}" stroke-width="3" stroke-linecap="round"/>'
+def g_paw(c="#1B2A41"):
+    return f'<ellipse cx="70" cy="92" rx="26" ry="20" fill="{c}"/><circle cx="40" cy="62" r="11" fill="{c}"/><circle cx="60" cy="48" r="11" fill="{c}"/><circle cx="82" cy="48" r="11" fill="{c}"/><circle cx="102" cy="62" r="11" fill="{c}"/><circle cx="70" cy="92" r="6" fill="{GREEN}"/>'
+def g_bowl(c="#1B2A41"):
+    return f'<path d="M 22 70 h 96 l -10 40 a 12 12 0 0 1 -12 10 h -52 a 12 12 0 0 1 -12 -10 z" fill="{c}"/><ellipse cx="70" cy="70" rx="48" ry="10" fill="{shade(c, .35) if False else "#4A5B76"}"/><circle cx="56" cy="66" r="5" fill="{AMBER}"/><circle cx="74" cy="64" r="5" fill="{AMBER}"/><circle cx="90" cy="67" r="5" fill="{AMBER}"/><circle cx="64" cy="72" r="4" fill="{AMBER}"/>'
+def g_fur(c="#1B2A41"):
+    return f'<rect x="16" y="56" width="108" height="40" rx="12" fill="{c}"/><rect x="8" y="76" width="124" height="28" rx="10" fill="{c}"/><rect x="16" y="104" width="10" height="16" fill="{c}"/><rect x="114" y="104" width="10" height="16" fill="{c}"/><path d="M 36 50 q 4 -14 12 -4 M 56 46 q 6 -12 12 -2 M 78 50 q 2 -14 12 -6 M 98 48 q 6 -10 12 -2 M 46 68 q 4 -10 10 -2 M 86 70 q 4 -10 10 -2" stroke="{AMBER}" stroke-width="3" fill="none" stroke-linecap="round"/>'
 GLYPHS = {"clock": g_clock, "phone": g_phone, "cable": g_cable, "sofa": g_sofa, "dock": g_dock, "fridge": g_fridge, "moon": g_moon, "sun": g_sun,
           "bolt": g_bolt, "wifi": g_wifi, "check": g_check, "train": g_train, "translate": g_translate, "camera": g_camera, "gym": g_gym,
-          "bed": g_bed, "plane": g_plane, "battery": g_battery, "dog": g_dog, "music": g_music, "map": g_map, "warning": g_warning, "home": g_home}
+          "bed": g_bed, "plane": g_plane, "battery": g_battery, "dog": g_dog, "music": g_music, "map": g_map, "warning": g_warning, "home": g_home, "cat": g_cat, "paw": g_paw, "bowl": g_bowl, "fur": g_fur}
 
 def strip_svg(strip, category, art):
     W, H = 1200, 440
