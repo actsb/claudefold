@@ -45,7 +45,7 @@ Compiled September 14, 2026 from a researcher's web-search sweep (Google's AI-fe
 
 Pets, Pet Products, Buying Guide, Best Sellers, For Pet Owners, Cat Litter, Robot Litter Box, Pet Grooming, Pet Hair Removal, Cats, Dogs, Under $100, Amazon Finds
 
-## Candidate label sets for the other posts (to apply at their next republish)
+## Label sets applied to the other eight posts on September 14, 2026 (`scripts/publish_blogger.py`)
 
 * Robot vacuums: Robot Vacuums, Buying Guide, Home Cleaning, For Pet Owners, Carpet, Hardwood Floors, Under $1000, Roborock, Dreame, Roomba, Smart Home, Amazon Finds
 * Wireless earbuds: Wireless Earbuds, Buying Guide, AirPods, Sony, Bose, Noise Cancelling, Under $300, Under $100, Tech Gifts, Amazon Finds
@@ -53,3 +53,7 @@ Pets, Pet Products, Buying Guide, Best Sellers, For Pet Owners, Cat Litter, Robo
 * Power stations: Power Stations, Buying Guide, Home Backup, Camping, Emergency Prep, Anker SOLIX, EcoFlow, Jackery, Under $500, Solar, Amazon Finds
 * AirTag 2 / Owala / Bissell stories: Best Sellers, Review, Under $100, Amazon Finds, plus the product's category (Trackers / Water Bottles / Carpet Cleaners) and audience (Travel / Hydration / For Pet Owners)
 * Prime Big Deal Days: Deals, Prime Day, Buying Guide, Best Sellers, Robot Vacuums, Wireless Earbuds, Power Stations, Amazon Finds, Price Tracking
+
+## Applied on September 14, 2026 (`scripts/seo_layer.py` + `brand/seo-configs.json`)
+
+All nine posts now carry the structure above: Published/Updated byline linking to the About page (byline stays "Verdict Picks editors", no personal name, per the owner), Key takeaways box, collapsed Korean summary, question-form H2s with a verdict sentence, minified ItemList + FAQPage JSON-LD, 10–13 labels. The three best-seller stories gained a real comparison table (Product / Price at the time of writing / Buy it if / Skip it if) built from their cards. Titles without exact prices: the Owala and Bissell stories were renamed (old titles kept as aliases in the publisher), and the smart-glasses and power-station titles were shortened.

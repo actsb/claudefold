@@ -26,49 +26,53 @@ POSTS = {
         "dir": "posts/2026-09-best-robot-vacuums",
         "title": "Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict",
         "slug_title": "Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict",   # already live under this title
-        "labels": ["Robot Vacuums", "Buying Guide", "For Pet Owners", "Under $1000", "Carpet", "Hardwood Floors"],
+        "labels": ["Robot Vacuums", "Buying Guide", "Home Cleaning", "For Pet Owners", "Carpet", "Hardwood Floors", "Under $1000", "Roborock", "Dreame", "Roomba", "Smart Home", "Amazon Finds"],
     },
     "earbuds": {
         "dir": "posts/2026-09-best-wireless-earbuds",
         "title": "Best Wireless Earbuds of 2026: AirPods 5 & Pro 3 vs Sony, Bose, Galaxy Buds and Pixel Buds",
         "slug_title": "Best Wireless Earbuds 2026",
-        "labels": ["Wireless Earbuds", "Buying Guide", "Under $300", "Under $100"],
+        "labels": ["Wireless Earbuds", "Buying Guide", "AirPods", "Sony", "Bose", "Noise Cancelling", "Under $300", "Under $100", "Tech Gifts", "Amazon Finds"],
     },
     "glasses": {
         "dir": "posts/2026-09-best-smart-glasses",
-        "title": "Best Smart Glasses of 2026: Meta Ray-Ban Display vs Ray-Ban Meta Gen 2, Rokid, Xreal, Even Realities — and the AI-Glasses Exam Scandal",
+        "title": "Best Smart Glasses of 2026: Ray-Ban Meta vs Meta Display, Rokid, Xreal, Even Realities",
+        "aliases": ["Best Smart Glasses of 2026: Meta Ray-Ban Display vs Ray-Ban Meta Gen 2, Rokid, Xreal, Even Realities — and the AI-Glasses Exam Scandal"],   # title it was first published under
         "slug_title": "Best Smart Glasses 2026",
-        "labels": ["Smart Glasses", "Buying Guide", "Premium", "Under $500"],
+        "labels": ["Smart Glasses", "AI Glasses", "Buying Guide", "Ray-Ban Meta", "XR Glasses", "Wearable Tech", "Premium", "Under $500", "Privacy", "Amazon Finds"],
     },
     "airtag": {
         "dir": "posts/2026-09-apple-airtag-2",
         "title": "Apple AirTag 2: Why Amazon Can't Keep the 4-Pack in Stock (and Whether You Need It)",
         "slug_title": "Apple AirTag 2 Review 2026",
-        "labels": ["Best Sellers", "Review", "Under $100"],
+        "labels": ["Best Sellers", "Review", "Under $100", "Amazon Finds", "Trackers", "Travel", "Apple", "Tech Gifts", "Find My", "Smart Home"],
     },
     "owala": {
         "dir": "posts/2026-09-owala-freesip",
-        "title": "Owala FreeSip: How a $30 Water Bottle Beat Stanley to #1 on Amazon",
+        "title": "Owala FreeSip Review: How a Water Bottle Beat Stanley to #1 on Amazon",
+        "aliases": ["Owala FreeSip: How a $30 Water Bottle Beat Stanley to #1 on Amazon"],   # title it was first published under
         "slug_title": "Owala FreeSip Review 2026",
-        "labels": ["Best Sellers", "Review", "Under $100"],
+        "labels": ["Best Sellers", "Review", "Under $100", "Amazon Finds", "Water Bottles", "Hydration", "Owala", "Stanley", "Fitness", "Gifts"],
     },
     "bissell": {
         "dir": "posts/2026-09-bissell-little-green",
-        "title": "Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos",
+        "title": "Bissell Little Green Review: Behind a Million Before-and-After Videos",
+        "aliases": ["Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos"],   # title it was first published under
         "slug_title": "Bissell Little Green Review 2026",
-        "labels": ["Best Sellers", "Review", "Under $100", "For Pet Owners"],
+        "labels": ["Best Sellers", "Review", "Under $100", "Amazon Finds", "Carpet Cleaners", "For Pet Owners", "Home Cleaning", "Carpet", "Bissell", "Stain Removal"],
     },
     "power-stations": {
         "dir": "posts/2026-09-best-portable-power-stations",
-        "title": "Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti — Sized for Outages, Camping, CPAP and Home Backup",
+        "title": "Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti",
+        "aliases": ["Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti — Sized for Outages, Camping, CPAP and Home Backup"],   # title it was first published under
         "slug_title": "Best Portable Power Stations 2026",
-        "labels": ["Power Stations", "Buying Guide", "Home Backup", "Under $500", "Camping"],
+        "labels": ["Power Stations", "Buying Guide", "Home Backup", "Camping", "Emergency Prep", "Anker SOLIX", "EcoFlow", "Jackery", "Under $500", "Solar", "Amazon Finds"],
     },
     "prime-days": {
         "dir": "posts/2026-09-prime-big-deal-days-2026",
         "title": "Prime Big Deal Days 2026: The 12 Deals Worth Waiting For (and the Price That Makes Each One Real)",
         "slug_title": "Prime Big Deal Days 2026",
-        "labels": ["Deals", "Buying Guide", "Best Sellers"],
+        "labels": ["Deals", "Prime Day", "Buying Guide", "Best Sellers", "Robot Vacuums", "Wireless Earbuds", "Power Stations", "Smart Glasses", "Price Tracking", "Amazon Finds"],
     },
     "pets": {
         "dir": "posts/2026-09-best-pet-products-on-amazon",

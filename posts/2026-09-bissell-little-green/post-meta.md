@@ -1,6 +1,6 @@
-# Post metadata — Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos
+# Post metadata — Bissell Little Green Review: Behind a Million Before-and-After Videos
 
-* **Title:** Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos
+* **Title:** Bissell Little Green Review: Behind a Million Before-and-After Videos
 * **Slug title (publish first, then rename):** Bissell Little Green Review 2026
 * **Labels:** Best Sellers, Review, Under $100, For Pet Owners
 * **Search description (set in Blogger UI, ≤150 chars):** Bissell Little Green review: what the viral spot cleaner really cleans, its limits, Mini vs classic, and the Black Friday price to wait for.
@@ -9,3 +9,5 @@
 * **Research:** research/best-sellers-2026-09.md (figures marked unverified there are phrased as reported/approximate in the post).
 * **Amazon Associates tag:** `verdictpicks-20` (live ID, set September 13, 2026).
 * **Live URL (published September 13, 2026 via the Blogger API):** https://acts39.blogspot.com/2026/09/bissell-little-green-review-2026.html
+
+*Title changed on September 14, 2026 (search brief: no exact prices, roughly 60–90 characters). First published as: Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos*
