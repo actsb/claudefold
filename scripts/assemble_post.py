@@ -31,6 +31,11 @@ STYLE = """<style>
   .vp-post .vp-grid tr{border:1px solid #ddd;border-radius:10px;margin:0 0 14px;overflow:hidden}
   .vp-post .vp-grid td{display:block;border:0!important;border-top:1px solid #eee!important;padding:9px 12px!important}
   .vp-post .vp-grid td:first-child{border-top:0!important;background:#1B2A41!important;color:#fff;font-size:1.05em}
+  .vp-post .vp-moment>div:first-child{margin:0 auto}
+  .vp-post .vp-host-text{display:block!important}
+  .vp-post .vp-figure,.vp-post .vp-strip{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .vp-post .vp-figure svg[viewBox^="0 0 1200"],.vp-post .vp-strip svg[viewBox^="0 0 1200"]{width:820px;max-width:none;display:block}
+  .vp-post .vp-figure .vp-source,.vp-post .vp-strip .vp-source{position:sticky;left:0}
   .vp-post .vp-grid td[data-col]:not(:first-child)::before{content:attr(data-col);display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#1E8E5A;margin-bottom:2px}
 }
 </style>
@@ -51,7 +56,7 @@ def responsive_grid(html_text):
         t = re.sub(r"<tr>.*?</tr>", fix_row, t, flags=re.S)
         t = t.replace("<table ", '<table class="vp-grid" ', 1)
         return t
-    html_text = re.sub(r'<table style="border-collapse:collapse;width:100%;font-size:17px;min-width:\d+px;">.*?</table>', fix_table, html_text, count=1, flags=re.S)
+    html_text = re.sub(r'<table style="border-collapse:collapse;width:100%;[^"]*min-width:\d+px[^"]*">.*?</table>', fix_table, html_text, count=1, flags=re.S)
     return html_text.replace('<div style="overflow-x:auto;margin:1em 0 1.4em;">', '<div class="vp-gridwrap" style="overflow-x:auto;margin:1em 0 1.4em;">', 1)
 
 
@@ -143,7 +148,10 @@ def main(post_dir):
         art = cards[0].get("art", {})
         gl = {"frame": art.get("frame", "#111"), "style": "round" if art.get("style") == "round" else "wayfarer"} if spec["category"] == "glasses" else None
         eb = art.get("bud", "#222") if spec["category"] == "earbuds" else None
-        return '<div class="vp-host" style="margin:1em 0 1.2em;">' + host_banner("hb", lines, pose=pose, glasses=gl, earbud=eb) + '</div>'
+        # phones shrink the banner until the speech bubble is unreadable, so the same lines follow as text (shown by the phone CSS only)
+        text = ('<div class="vp-host-text" style="display:none;background:#F7F5F0;border-left:5px solid #1E8E5A;padding:12px 14px;margin:-.4em 0 1.2em;font-size:16px;line-height:1.45;color:#222;">'
+                + "<br>".join(f"<strong>{l}</strong>" if i == 0 else l for i, l in enumerate(lines)) + '</div>')
+        return '<div class="vp-host" style="margin:1em 0 1.2em;">' + host_banner("hb", lines, pose=pose, glasses=gl, earbud=eb) + '</div>' + text
     easy = re.sub(r"<!--HOST:([a-z]+)\|(.*?)-->", host_fig, easy)
     def pin_block(m):
         cov = json.loads((d / "cover.json").read_text(encoding="utf-8")) if (d / "cover.json").exists() else {}
