@@ -9,3 +9,5 @@
 * **Graphics:** scripts/pet_infographics.py → images/{tiers,cost,voices,amazon}.svg; new renderers roller / groomvac / litterbot in scripts/product_cards.py.
 * **Amazon Associates tag:** `verdictpicks-20` on every Amazon link.
 * **Live URL:** https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html
+
+*Published live on September 14, 2026 (blog time, US Eastern) after the owner's review of the draft; linked from the Best Sellers hub the same evening.*
