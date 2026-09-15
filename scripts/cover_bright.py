@@ -34,7 +34,7 @@ DEFS = '''<defs>
 <radialGradient id="{u}-leaf" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8FD3AE" stop-opacity="0.7"/><stop offset="1" stop-color="#8FD3AE" stop-opacity="0"/></radialGradient>
 </defs>'''
 
-def wrap_sub(lines, width=46, max_lines=3):
+def wrap_sub(lines, width=54, max_lines=3):
     """Re-wrap a subtitle written for the wide dark layout into the narrower bright column, keeping the author's line breaks."""
     import textwrap
     out = [w for l in lines for w in (textwrap.wrap(l, width=width) or [""])]
@@ -45,7 +45,7 @@ def cover(d, cfg, spec):
     W, H = 1200, 630; u = "bc"
     fs = min(cfg.get("title_size", 78), int(690 / (max(len(l) for l in cfg["title"]) * 0.56)))
     title = "".join(f'<text x="64" y="{236 + i*(fs+14)}" font-size="{fs}" font-weight="800" fill="{NAVY}">{esc(l)}</text>' for i, l in enumerate(cfg["title"]))
-    sub = "".join(f'<text x="64" y="{468 + i*30}" font-size="23" fill="#3A4453">{esc(l)}</text>' for i, l in enumerate(wrap_sub(cfg["subtitle"])))
+    sub = "".join(f'<text x="64" y="{468 + i*30}" font-size="22" fill="#3A4453">{esc(l)}</text>' for i, l in enumerate(wrap_sub(cfg["subtitle"])))
     chips = "".join(chip(spec, cid, 700 + i * 164, 478, w=150, h=104, uid="c") for i, cid in enumerate(cfg.get("products", [])[:3]))
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(cfg.get("alt", " ".join(cfg["title"])))}">' + DEFS.format(u=u) +
             f'<rect width="{W}" height="{H}" fill="url(#{u}-bg)"/><circle cx="1010" cy="120" r="300" fill="url(#{u}-sun)"/><circle cx="760" cy="560" r="260" fill="url(#{u}-leaf)"/>'
