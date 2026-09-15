@@ -14,6 +14,8 @@ def main(post_dir):
     d = pathlib.Path(post_dir)
     cfg = json.loads((d / "cover.json").read_text(encoding="utf-8"))
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
+    if cfg.get("style") == "bright":
+        import cover_bright; (d / "images" / "pin.svg").write_text(cover_bright.pin(d, cfg, spec), encoding="utf-8"); print(f"wrote {d/'images'/'pin.svg'} (bright)"); return
     hero = next(c for c in spec["cards"] if c["id"] == cfg["hero"])
     prod = render_product(hero.get("category", spec["category"]), hero.get("art", {}), "pin", scale=1.3, tx=110, ty=560, with_studio=False)
     lines = cfg["title"]

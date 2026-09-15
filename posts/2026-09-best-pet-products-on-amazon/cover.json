@@ -10,8 +10,9 @@
   "Good · Better · Best"
  ],
  "subtitle": [
-  "A $25 roller, an $85 grooming vacuum and the $699 robot litter box:",
-  "what 200,000+ owners say, and what buying on Amazon actually gets you."
+  "A $25 roller, an $85 grooming vacuum and the",
+  "$699 robot litter box: what 200,000+ owners say,",
+  "and what buying on Amazon actually gets you."
  ],
  "footer": "Pets · Best sellers · Reviews, delivery and returns explained · Starring Noeul the Jindo",
  "alt": "The best pet products on Amazon in 2026 at three prices — ChomChom Roller, Neakasa P1 Pro, Litter-Robot 4 (Verdict Picks)",
@@ -20,5 +21,12 @@
   "What 200,000+ owners really say",
   "Delivery, returns and fakes, explained"
  ],
- "url": "https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html"
+ "url": "https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html",
+ "style": "bright",
+ "photo": "images/noeul/noeul-grass-front.jpg",
+ "products": [
+  "chomchom",
+  "p1pro",
+  "lr4"
+ ]
 }
