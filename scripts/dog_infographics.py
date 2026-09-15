@@ -94,10 +94,56 @@ def kong():
     o.append(text(40, 540, "Vets and trainers recommend feeding at least one meal a day from a puzzle; this is the cheapest puzzle there is.", 15, 400, "#777"))
     o.append("</g></svg>"); return "\n".join(o)
 
+def retailers():
+    W, H = 1200, 700
+    o = head(W, H, "Where Amazon wins and loses for dog supplies in 2026: price, speed, returns, subscriptions, authenticity, compared with Chewy, Walmart, Petco and Temu",
+             "Where Amazon wins, and where it doesn't", "Five things that decide where a dog owner should buy, scored from 2025–2026 policies and price studies.")
+    cols = ["Amazon", "Chewy", "Walmart", "Petco / PetSmart", "Temu"]
+    rows = [("Everyday price on brands", ["~6% below the field (Profitero 2025)", "~1% above Amazon", "~3% above; rollbacks can beat it", "list price, coupons", "no genuine brands — copies only"], [2, 1, 1, 0, -1]),
+            ("Speed", ["same-day on $25+ with Prime", "1–3 days, $49 for free shipping", "1–3 days; $35 free", "same-day via DoorDash, $39–$49", "3–7 days \"local\", 7–15 from China"], [2, 1, 1, 1, -1]),
+            ("Returns", ["30 days; food and meds excluded", "365 days, free, often \"keep it\"", "90 days (marketplace 30)", "60 days, in store", "90 days; one free label, then $7.99"], [0, 2, 1, 1, -1]),
+            ("Re-order savings", ["Subscribe & Save 5%, 15% with 5+ items", "Autoship 35% first ($20 cap), then 5%", "subscription; discount status unclear", "Repeat Delivery 35% first, then 5%", "coupons and games"], [2, 1, 0, 1, -1]),
+            ("Authenticity", ["check the \"Sold by\" line; 15M fakes seized in 2025", "first-party only", "first-party good; marketplace risky", "first-party, in store", "look-alike harnesses, KONGs, bags"], [1, 2, 0, 2, -1])]
+    x0, y0, cw, rh = 40, 118, 200, 96
+    o.append(f'<rect x="{x0}" y="{y0}" width="{W - 80}" height="{rh * len(rows) + 44}" rx="16" fill="#fff" stroke="#e3e1db"/>')
+    o.append(f'<rect x="{x0}" y="{y0}" width="{W - 80}" height="44" rx="16" fill="{NAVY}"/><rect x="{x0}" y="{y0 + 22}" width="{W - 80}" height="22" fill="{NAVY}"/>')
+    for i, c in enumerate(cols):
+        o.append(text(x0 + 220 + i * 180 + 90, y0 + 29, c, 16, 800, "#fff", "middle"))
+    for r, (name, cells, score) in enumerate(rows):
+        y = y0 + 44 + r * rh
+        if r % 2: o.append(f'<rect x="{x0}" y="{y}" width="{W - 80}" height="{rh}" fill="{PAPER}"/>')
+        o.append(text(x0 + 16, y + 40, name, 17, 800, NAVY))
+        for i, (cell, sc) in enumerate(zip(cells, score)):
+            cx = x0 + 220 + i * 180 + 90
+            colour = GREEN if sc == 2 else ("#5FAF84" if sc == 1 else ("#999" if sc == 0 else AMBER))
+            glyph = "★★" if sc == 2 else ("★" if sc == 1 else ("–" if sc == 0 else "✕"))
+            o.append(text(cx, y + 30, glyph, 16, 800, colour, "middle"))
+            for k, ln in enumerate(wrap(cell, 24)[:3]): o.append(text(cx, y + 52 + k * 16, ln, 12.5, 400, "#333", "middle"))
+    o.append(text(40, 662, "Sources: Profitero Price Wars 2025 (pet supplies, 23 retailers); retailer policy pages and Temu's returns policy, September 2026; Toy Association safety tests, December 2025.", 13, 400, "#777"))
+    o.append(text(40, 684, "★★ best in class · ★ good · – neutral · ✕ weak. Temu carries no genuine Rabbitgoo, KONG, Earth Rated or Chuckit!. Prices move daily; the pattern is what matters.", 13, 400, "#777"))
+    o.append("</g></svg>"); return "\n".join(o)
+
+def bagmath():
+    W, H = 1200, 460
+    o = head(W, H, "Poop-bag math for one dog: about 730 bags a year; cost per year by brand", "Poop-bag math, one dog, one year", "Two bags a day, every day: about 60 a month, 730 a year. Here is what that costs per brand at the prices we found.")
+    rows = [("Amazon Basics 900-count (Amazon only)", 1.5, "$11", GREEN), ("Earth Rated 270-count on Amazon, with Subscribe & Save", 3.3, "$24", GREEN),
+            ("Pogi's 300 with handles (one-handed tying)", 4.8, "$35", AMBER), ("Earth Rated 270-count at Chewy ($14.99)", 5.4, "$39", AMBER), ("Pogi's compostable 270", 6.7, "$49", NAVY)]
+    x0, y0, bw = 470, 120, 470
+    for i, (name, cents, yr, c) in enumerate(rows):
+        y = y0 + i * 58
+        o.append(text(x0 - 16, y + 22, name, 15, 700, NAVY, "end"))
+        w = bw * cents / 7.0
+        o.append(f'<rect x="{x0}" y="{y}" width="{w}" height="34" rx="8" fill="{c}" opacity="0.9"/>')
+        o.append(text(x0 + w + 12, y + 23, f"{cents:.1f}¢ a bag · about {yr} a year", 15, 700, NAVY))
+    o.append(text(40, 420, "Per-bag prices from September 2026 listings and deal snippets; counts assume two bags a day, 365 days.", 13, 400, "#777"))
+    o.append(text(40, 442, "Earth Rated won CNN Underscored's eight-brand 2026 test; Amazon Basics was the only other bag to survive its asphalt-scoop test.", 13, 400, "#777"))
+    o.append("</g></svg>"); return "\n".join(o)
+
 def main(post_dir):
     out = pathlib.Path(post_dir) / "images"; out.mkdir(parents=True, exist_ok=True)
     (out / "fit.svg").write_text(fit(), encoding="utf-8"); (out / "kong.svg").write_text(kong(), encoding="utf-8")
-    print("wrote fit.svg, kong.svg")
+    (out / "retailers.svg").write_text(retailers(), encoding="utf-8"); (out / "bagmath.svg").write_text(bagmath(), encoding="utf-8")
+    print("wrote fit, kong, retailers, bagmath")
 
 if __name__ == "__main__":
     main(sys.argv[1])

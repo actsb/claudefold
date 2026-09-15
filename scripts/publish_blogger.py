@@ -81,6 +81,12 @@ POSTS = {
         "aliases": ["The 3 Best Pet Products on Amazon in 2026: a $25 Roller, an $85 Grooming Vacuum and the $699 Robot Litter Box (Good · Better · Best)"],
         "labels": ["Pets", "Pet Products", "Buying Guide", "Best Sellers", "For Pet Owners", "Cat Litter", "Robot Litter Box", "Pet Grooming", "Pet Hair Removal", "Cats", "Dogs", "Under $100", "Amazon Finds"],
     },
+    "dogs": {
+        "dir": "posts/2026-09-dog-essentials-on-amazon",
+        "title": "Best-Value Dog Essentials on Amazon 2026: No-Pull Harness, KONG Classic, Poop Bags",
+        "slug_title": "Best Value Dog Essentials on Amazon 2026",
+        "labels": ["Dogs", "Dog Supplies", "Pets", "Pet Products", "Buying Guide", "Best Sellers", "For Pet Owners", "Dog Harness", "Dog Toys", "Poop Bags", "Under $30", "Amazon vs Chewy", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

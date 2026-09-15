@@ -1,0 +1,10 @@
+# Post metadata — Best-Value Dog Essentials on Amazon 2026: No-Pull Harness, KONG Classic, Poop Bags
+
+* **Title:** Best-Value Dog Essentials on Amazon 2026: No-Pull Harness, KONG Classic, Poop Bags
+* **Slug title (first publish):** Best Value Dog Essentials on Amazon 2026 → /2026/09/best-value-dog-essentials-on-amazon-2026.html
+* **Labels (13):** Dogs, Dog Supplies, Pets, Pet Products, Buying Guide, Best Sellers, For Pet Owners, Dog Harness, Dog Toys, Poop Bags, Under $30, Amazon vs Chewy, Amazon Finds
+* **Search description (set in Blogger UI, ≤150 chars):** The 3 dog essentials with the best value on Amazon: Rabbitgoo harness, KONG Classic, Earth Rated bags. Fit, stuff, scoop, and Amazon vs Chewy, Walmart, Temu.
+* **Format:** best-value guide with a real-dog thread (Noeul, a 2-year-old, 23 kg Jindo): hook, Key takeaways (with a jump to the buy box), Korean summary, Vera's verdict (text fallback on phones), "Meet the tester" with a then-and-now clip pair (November 2024 puppy at the door, the window shift now), six-row picks table (stacks on phones), "Watch before you buy" rail, three product cards each with a numbered Watch panel (how-to/review videos confirmed by title in search results), a Noeul clip or photo per section, harness-fit and KONG-stuffing infographics, poop-bag math chart, two four-panel strips (a walk; the same cart at three stores), retailer scorecard, starter-kit table with the "day one in a box" clip, when-to-buy, the buy box (exact variant + check line + button per pick), Quick answers (10), JSON-LD (ItemList + FAQPage), pin block.
+* **Media:** four owner-filmed clips (no people, no on-screen Korean; the run clip shows a distant, illegible fence banner the owner approved), three photos, five renders/infographics, cover 1200×630, pin 1000×1500.
+* **Research:** research/dog-essentials-2026-09.md (three researcher briefs; figures marked UNVERIFIED there are phrased as "reported" or "about" here; current Amazon prices could not be read live).
+* **Status:** built and checked locally on September 15, 2026; awaiting the owner's review before publishing.

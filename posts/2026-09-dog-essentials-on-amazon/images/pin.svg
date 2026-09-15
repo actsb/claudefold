@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1500" role="img" aria-label="The three dog essentials with the best value on Amazon in 2026 — Rabbitgoo harness, KONG Classic, Earth Rated poop bags (Verdict Picks)">
+<defs>
+<radialGradient id="pin-spot" cx="50%" cy="45%" r="60%"><stop offset="0" stop-color="#3A4D6B"/><stop offset="0.6" stop-color="#24344D"/><stop offset="1" stop-color="#1B2A41" stop-opacity="0"/></radialGradient>
+<radialGradient id="pin-halo" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1000" height="1500" fill="#1B2A41"/>
+<ellipse cx="500" cy="820" rx="520" ry="380" fill="url(#pin-spot)"/>
+<ellipse cx="500" cy="800" rx="340" ry="240" fill="url(#pin-halo)"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="310" y="96" width="380" height="44" rx="22" fill="#1E8E5A"/>
+<text x="500" y="126" text-anchor="middle" font-size="19" font-weight="700" fill="#fff" letter-spacing="1.8">VERDICT PICKS · BUYING GUIDE</text>
+<text x="500" y="250" text-anchor="middle" font-size="84" font-weight="800" fill="#fff">The 3 Dog Essentials</text><text x="500" y="344" text-anchor="middle" font-size="84" font-weight="800" fill="#fff">Every Owner Buys:</text><text x="500" y="438" text-anchor="middle" font-size="84" font-weight="800" fill="#fff">Best Value on Amazon</text>
+<g transform="translate(110 560) scale(1.3)"><defs>
+<radialGradient id="pin-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="pin-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="pin-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="pin-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="pin-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ed1e40"/><stop offset="0.55" stop-color="#C8102E"/><stop offset="1" stop-color="#9d0d24"/></linearGradient>
+<linearGradient id="pin-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ac0e27"/><stop offset="1" stop-color="#6a0818"/></linearGradient>
+<linearGradient id="pin-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f26078"/><stop offset="1" stop-color="#e41235"/></linearGradient>
+<radialGradient id="pin-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#f25770"/><stop offset="0.6" stop-color="#C8102E"/><stop offset="1" stop-color="#860b1f"/></radialGradient>
+<linearGradient id="pin-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="pin-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="pin-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="pin-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8d48a"/><stop offset="1" stop-color="#eba20e"/></linearGradient>
+<linearGradient id="pin-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<ellipse cx="300" cy="340" rx="150" ry="16" fill="#000" opacity="0.28" filter="url(#pin-blur)"/>
+<g transform="rotate(-9 300 240)">
+<ellipse cx="300" cy="300" rx="88" ry="66" fill="url(#pin-dome)"/><ellipse cx="300" cy="300" rx="88" ry="66" fill="none" stroke="#440510" stroke-width="1.5" opacity="0.7"/>
+<ellipse cx="300" cy="214" rx="68" ry="54" fill="url(#pin-dome)"/><ellipse cx="300" cy="214" rx="68" ry="54" fill="none" stroke="#440510" stroke-width="1.5" opacity="0.7"/>
+<ellipse cx="300" cy="148" rx="48" ry="40" fill="url(#pin-dome)"/><ellipse cx="300" cy="148" rx="48" ry="40" fill="none" stroke="#440510" stroke-width="1.5" opacity="0.7"/>
+<ellipse cx="300" cy="256" rx="58" ry="20" fill="#C8102E"/><ellipse cx="300" cy="182" rx="44" ry="16" fill="#C8102E"/>
+<ellipse cx="300" cy="112" rx="22" ry="11" fill="#000000"/><ellipse cx="300" cy="111" rx="16" ry="7" fill="#F4B942"/><path d="M 291 110 q 6 -6 12 0 q 4 4 8 -1" fill="none" stroke="#946609" stroke-width="2" stroke-linecap="round"/>
+<path d="M 246 292 q -8 -40 20 -62" fill="none" stroke="#fff" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/><path d="M 262 206 q -6 -26 12 -40" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="7" stroke-linecap="round"/><path d="M 280 140 q -4 -14 8 -22" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="300" cy="364" rx="6" ry="3" fill="#000000"/>
+</g>
+<g fill="#7c5507"><circle cx="404" cy="350" r="6"/><circle cx="420" cy="342" r="5"/><circle cx="392" cy="362" r="5"/><circle cx="184" cy="354" r="6"/></g></g>
+<rect x="60" y="1130" width="880" height="250" rx="24" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.12"/>
+<g transform="translate(0 1190)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">Harness · KONG · poop bags: the value picks</text></g><g transform="translate(0 1256)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">Amazon vs Chewy vs Walmart vs Temu</text></g><g transform="translate(0 1322)"><circle cx="110" cy="0" r="18" fill="#1E8E5A"/><path d="M 101 1 L 108 8 L 120 -7" fill="none" stroke="#fff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><text x="148" y="10" font-size="34" fill="#F1F4F8">Fit, stuff, scoop — the how-to for each</text></g>
+<text x="500" y="1448" text-anchor="middle" font-size="30" font-weight="700" fill="#8FD3AE" letter-spacing="1">acts39.blogspot.com</text>
+</g>
+<circle cx="900" cy="118" r="44" fill="#1E8E5A"/><path d="M 878 119 L 893 134 L 923 103" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

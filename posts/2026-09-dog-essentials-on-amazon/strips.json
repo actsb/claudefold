@@ -1,0 +1,72 @@
+{
+ "strips": [
+  {
+   "id": "walk-day",
+   "card": "harness",
+   "title": "A walk with Noeul — the three things in the bag",
+   "panels": [
+    {
+     "glyph": "clock",
+     "head": "4:58 p.m. — the window shift",
+     "text": "A Jindo keeps time. The stare at the door starts two minutes before the walk, every day, without an app.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "dog",
+     "product": true,
+     "head": "Harness on, two fingers",
+     "text": "Over the head, two clicks, two fingers under the girth strap. Front ring today: the park is that way."
+    },
+    {
+     "glyph": "paw",
+     "head": "The sniff, the deed, the flip",
+     "text": "Hand inside the bag, grab, invert, knot. Sixty a month: the bag is the product that must not fail."
+    },
+    {
+     "glyph": "moon",
+     "head": "8 p.m. — the frozen KONG",
+     "text": "Dinner went into the KONG at noon and into the freezer. Thirty quiet minutes; the couch survives another evening.",
+     "host": {
+      "pose": "thumbsup"
+     }
+    }
+   ]
+  },
+  {
+   "id": "three-stores",
+   "card": "kong",
+   "title": "The same cart, three stores — what owners describe in 2026",
+   "panels": [
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Amazon, day 1",
+     "text": "Sold-by line reads KONG. Red rubber, the logo, two openings. Stuffed and frozen by dinner.",
+     "host": {
+      "pose": "point"
+     }
+    },
+    {
+     "glyph": "sun",
+     "head": "Walmart, day 3",
+     "text": "A rollback ball for less than the pet shop charges. Sold and shipped by Walmart, not the marketplace beside it."
+    },
+    {
+     "glyph": "clock",
+     "head": "Temu, day 9",
+     "text": "A red look-alike: no logo, one hole, 3 to 15 days later. Temu has no genuine KONG, Chuckit! or Earth Rated."
+    },
+    {
+     "glyph": "phone",
+     "head": "Day 10 — the return",
+     "text": "Amazon: 30 days, drop it at a store. Chewy: 365 days and \"keep it\". Temu: one free label per order, then $7.99 each.",
+     "host": {
+      "pose": "thumbsup"
+     }
+    }
+   ]
+  }
+ ]
+}

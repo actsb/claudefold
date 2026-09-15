@@ -1,57 +1,89 @@
 {
   "category": "harness",
+  "buy_title": "The exact version to order, one tap each",
+  "buy_total": "All three at everyday prices: about $45–$55, roughly one groomer visit. On a deal day (Prime Big Deal Days, October 6–7): about $35–$40. Prices change hourly, so the buttons show today's; as an Amazon Associate we earn from qualifying purchases.",
   "cards": [
     {
       "id": "harness",
       "category": "harness",
       "name": "Rabbitgoo No-Pull Dog Harness",
       "short": "Rabbitgoo No-Pull Harness",
-      "chip": "Front + back clip · reflective · 4 straps",
+      "badge": "Walk · the harness in every dog-park photo",
+      "chip": "Front + back clip · reflective · 4 adjusters",
       "art": {
         "body": "#2F3A48",
         "accent": "#F08A24"
       },
-      "badge": "x",
-      "price": "x",
-      "buy_if": "x",
-      "skip_if": "x",
-      "owners": "x",
-      "cta": "https://www.amazon.com/s?k=rabbitgoo+no+pull+dog+harness&tag=verdictpicks-20"
+      "price": "$20–$26 by size and colour at the time of writing · Prime Day brought it to $16",
+      "buy_if": "your dog pulls, slips collars, or you want a handle for curbs and vet scales; it is the four-adjuster harness that fits most dogs on the first try.",
+      "skip_if": "you have a strong, reactive or escape-artist dog — spend $25–$45 on a three-strap escape-proof harness or a 2 Hounds Freedom instead.",
+      "owners": "Reported 100,000+ ratings at 4.5 stars. Praise: four adjustment points, the handle, reflective piping, the price. Complaints: armpit rub when worn loose, and buckles on a small share of units.",
+      "cta": "https://www.amazon.com/s?k=rabbitgoo+no+pull+dog+harness+2+leash+clips&tag=verdictpicks-20",
+      "video": "DReSNmNJ6S0",
+      "video_title": "How to adjust a Rabbitgoo No-Pull Dog Harness: neck and chest strap adjustment",
+      "video_channel": "YouTube how-to · May 2021",
+      "video_why": "The neck and chest sliders are the whole difference between a harness that stays on a spitz-type dog and one that doesn't. Four minutes on exactly those two straps.",
+      "buy": {
+        "tier": "Good · the walk",
+        "pick": "Measure the chest just behind the front legs and choose the size that puts that number mid-range. A 50-lb Jindo lands in Large.",
+        "check": "Sold by the rabbitgoo store or Amazon; \"2 leash clips\" in the title; pick a colour that's in stock (prices differ by colour).",
+        "label": "See today's price"
+      }
     },
     {
       "id": "kong",
       "category": "kong",
-      "name": "KONG Classic",
+      "name": "KONG Classic (natural rubber, made in the USA)",
       "short": "KONG Classic",
+      "badge": "Enrichment · the toy vets name first",
       "chip": "Natural rubber · stuffable · dishwasher-safe",
       "art": {
         "body": "#C8102E",
         "accent": "#F4B942"
       },
-      "badge": "x",
-      "price": "x",
-      "buy_if": "x",
-      "skip_if": "x",
-      "owners": "x",
-      "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy&tag=verdictpicks-20"
+      "price": "about $8–$16 by size at the time of writing · Large (30–65 lb) sits around $12",
+      "buy_if": "you want one toy that does crate training, rainy days, separation departures and slow dinners for years, at the cost of a sandwich.",
+      "skip_if": "your dog shreds rubber — get the black KONG Extreme in the same size, or go up one size; a KONG that can be clamped whole is a KONG that fails.",
+      "owners": "Praise: nearly indestructible for normal chewers, and a frozen peanut-butter KONG buys twenty quiet minutes. Complaints: ignored unless stuffed, smells if not washed, too small when bought by guess.",
+      "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+large+natural+rubber&tag=verdictpicks-20",
+      "video": "3tCjekqSC3M",
+      "video_title": "5 stuffed KONG recipes: how to stuff a KONG dog toy",
+      "video_channel": "YouTube how-to",
+      "video_why": "Five fillings, easy to hard. The stuffing is the product; an empty KONG is a red doorstop, and the freezer is where the twenty minutes come from.",
+      "buy": {
+        "tier": "Better · enrichment",
+        "pick": "Large for 30–65 lb dogs (Noeul's size). Between sizes, go up, never down; power chewers get the black Extreme.",
+        "check": "\"Ships from and sold by Amazon.com\" or the KONG store; red \"Classic\" for normal chewers, black \"Extreme\" for destroyers; the 2-pack is the cheaper per-toy route.",
+        "label": "See today's price"
+      }
     },
     {
       "id": "bags",
       "category": "bags",
-      "name": "Earth Rated Dog Poop Bags",
+      "name": "Earth Rated Dog Poop Bags (270, unscented, refill rolls)",
       "short": "Earth Rated Poop Bags",
-      "chip": "Leak-proof · 9 x 13 in · dispenser included",
+      "badge": "Consumable · three walks a day, 365 days",
+      "chip": "Leak-proof · 9 x 13 in · 15 per roll",
       "art": {
         "body": "#2E8B57",
         "accent": "#1B2A41",
         "bag": "#7BC47F"
       },
-      "badge": "x",
-      "price": "x",
-      "buy_if": "x",
-      "skip_if": "x",
-      "owners": "x",
-      "cta": "https://www.amazon.com/s?k=Earth+Rated+dog+poop+bags&tag=verdictpicks-20"
+      "price": "about $9–$14 for 270 at the time of writing (3–5 cents a bag; less with Subscribe & Save)",
+      "buy_if": "you walk a dog: this is the one thing you'll buy every four months for the rest of the dog's life, and the one that must not fail.",
+      "skip_if": "you want the absolute cheapest bag that still passed the same durability test — Amazon Basics 900-count at about 1.5 cents a bag.",
+      "owners": "Reported 236,000+ ratings, the most in the category. Praise: thick, opens with cold fingers, the \"3 bags left\" sticker. Complaints: an occasional roll that sticks, and lavender divides households.",
+      "cta": "https://www.amazon.com/s?k=Earth+Rated+dog+poop+bags+270+unscented+refill+rolls&tag=verdictpicks-20",
+      "video": "kd1S5MI-RyE",
+      "video_title": "Earth Rated dog poop bags and dispenser: an honest review",
+      "video_channel": "YouTube owner review · October 2025",
+      "video_why": "A 2025 owner review of the rolls and the leash dispenser. Watch the tear-off and the thickness; that is the entire purchase decision for a bag.",
+      "buy": {
+        "tier": "Best value · consumable",
+        "pick": "270-count unscented on refill rolls (15 a roll, fits any dispenser); add the leash dispenser once, not every time.",
+        "check": "Tick Subscribe & Save for 5–15% off; sold by Earth Rated or Amazon; unscented unless you already know you like lavender.",
+        "label": "See today's price"
+      }
     }
   ]
 }

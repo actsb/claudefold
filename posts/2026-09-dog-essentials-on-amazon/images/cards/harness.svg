@@ -28,8 +28,8 @@
 <rect x="318" y="236" width="44" height="14" rx="5" fill="#F08A24"/><rect x="322" y="239" width="24" height="4" rx="2" fill="#fff" opacity="0.5"/>
 <path d="M 300 118 l 0 -22 q 0 -16 16 -16 l 6 0" fill="none" stroke="url(#charness-metal)" stroke-width="8" stroke-linecap="round"/><circle cx="326" cy="80" r="6" fill="url(#charness-metal)"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
-<rect x="18" y="18" width="311" height="28" rx="14" fill="#1B2A41"/>
-<text x="173.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Front + back clip · reflective · 4 straps</text>
+<rect x="18" y="18" width="332" height="28" rx="14" fill="#1B2A41"/>
+<text x="184.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Front + back clip · reflective · 4 adjusters</text>
 <text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Rabbitgoo No-Pull Harness</text>
 <text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>
