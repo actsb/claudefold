@@ -4,43 +4,44 @@
 <rect x="40" y="110" width="265" height="330" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="40" y="110" width="265" height="12" rx="6" fill="#1E8E5A"/>
 <text x="60" y="158" font-size="16" font-weight="800" fill="#1E8E5A" text-anchor="start" letter-spacing="2">Level 1</text>
 <text x="60" y="190" font-size="22" font-weight="800" fill="#1B2A41" text-anchor="start" >Kibble only</text>
-<ellipse cx="240" cy="290" rx="30" ry="24" fill="#C8102E"/><ellipse cx="240" cy="256" rx="23" ry="19" fill="#C8102E"/><ellipse cx="240" cy="228" rx="16" ry="13" fill="#C8102E"/>
-<clipPath id="k0"><ellipse cx="240" cy="290" rx="30" ry="24"/><ellipse cx="240" cy="256" rx="23" ry="19"/><ellipse cx="240" cy="228" rx="16" ry="13"/></clipPath>
-<rect x="208" y="300" width="64" height="14" fill="#F4B942" opacity="0.9" clip-path="url(#k0)"/>
-<text x="60" y="230" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Dry kibble poured in; the dog</text>
-<text x="60" y="252" font-size="16" font-weight="400" fill="#333" text-anchor="start" >tips it out.</text>
-<rect x="60" y="360" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="135" y="383" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 3–5 min</text>
+<ellipse cx="252" cy="358" rx="30" ry="24" fill="#C8102E"/><ellipse cx="252" cy="324" rx="23" ry="19" fill="#C8102E"/><ellipse cx="252" cy="296" rx="16" ry="13" fill="#C8102E"/>
+<clipPath id="k0"><ellipse cx="252" cy="358" rx="30" ry="24"/><ellipse cx="252" cy="324" rx="23" ry="19"/><ellipse cx="252" cy="296" rx="16" ry="13"/></clipPath>
+<rect x="220" y="368" width="64" height="14" fill="#F4B942" opacity="0.9" clip-path="url(#k0)"/>
+<text x="60" y="226" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Dry kibble poured in; the</text>
+<text x="60" y="248" font-size="16" font-weight="400" fill="#333" text-anchor="start" >dog tips it out.</text>
+<rect x="60" y="396" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="135" y="419" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 3–5 min</text>
 <rect x="325" y="110" width="265" height="330" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="325" y="110" width="265" height="12" rx="6" fill="#1E8E5A"/>
 <text x="345" y="158" font-size="16" font-weight="800" fill="#1E8E5A" text-anchor="start" letter-spacing="2">Level 2</text>
 <text x="345" y="190" font-size="22" font-weight="800" fill="#1B2A41" text-anchor="start" >Kibble + a smear</text>
-<ellipse cx="525" cy="290" rx="30" ry="24" fill="#C8102E"/><ellipse cx="525" cy="256" rx="23" ry="19" fill="#C8102E"/><ellipse cx="525" cy="228" rx="16" ry="13" fill="#C8102E"/>
-<clipPath id="k1"><ellipse cx="525" cy="290" rx="30" ry="24"/><ellipse cx="525" cy="256" rx="23" ry="19"/><ellipse cx="525" cy="228" rx="16" ry="13"/></clipPath>
-<rect x="493" y="286" width="64" height="28" fill="#F4B942" opacity="0.9" clip-path="url(#k1)"/>
-<text x="345" y="230" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Kibble sealed in with peanut</text>
-<text x="345" y="252" font-size="16" font-weight="400" fill="#333" text-anchor="start" >butter (xylitol-free) or plain</text>
-<text x="345" y="274" font-size="16" font-weight="400" fill="#333" text-anchor="start" >yogurt.</text>
-<rect x="345" y="360" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="420" y="383" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 10–15 min</text>
+<ellipse cx="537" cy="358" rx="30" ry="24" fill="#C8102E"/><ellipse cx="537" cy="324" rx="23" ry="19" fill="#C8102E"/><ellipse cx="537" cy="296" rx="16" ry="13" fill="#C8102E"/>
+<clipPath id="k1"><ellipse cx="537" cy="358" rx="30" ry="24"/><ellipse cx="537" cy="324" rx="23" ry="19"/><ellipse cx="537" cy="296" rx="16" ry="13"/></clipPath>
+<rect x="505" y="354" width="64" height="28" fill="#F4B942" opacity="0.9" clip-path="url(#k1)"/>
+<text x="345" y="226" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Kibble sealed in with</text>
+<text x="345" y="248" font-size="16" font-weight="400" fill="#333" text-anchor="start" >peanut butter</text>
+<text x="345" y="270" font-size="16" font-weight="400" fill="#333" text-anchor="start" >(xylitol-free) or plain</text>
+<text x="345" y="292" font-size="16" font-weight="400" fill="#333" text-anchor="start" >yogurt.</text>
+<rect x="345" y="396" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="420" y="419" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 10–15 min</text>
 <rect x="610" y="110" width="265" height="330" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="610" y="110" width="265" height="12" rx="6" fill="#C9781B"/>
 <text x="630" y="158" font-size="16" font-weight="800" fill="#C9781B" text-anchor="start" letter-spacing="2">Level 3</text>
 <text x="630" y="190" font-size="22" font-weight="800" fill="#1B2A41" text-anchor="start" >Layered and frozen</text>
-<ellipse cx="810" cy="290" rx="30" ry="24" fill="#C8102E"/><ellipse cx="810" cy="256" rx="23" ry="19" fill="#C8102E"/><ellipse cx="810" cy="228" rx="16" ry="13" fill="#C8102E"/>
-<clipPath id="k2"><ellipse cx="810" cy="290" rx="30" ry="24"/><ellipse cx="810" cy="256" rx="23" ry="19"/><ellipse cx="810" cy="228" rx="16" ry="13"/></clipPath>
-<rect x="778" y="268" width="64" height="46" fill="#F4B942" opacity="0.9" clip-path="url(#k2)"/>
-<text x="630" y="230" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Soaked kibble or wet food, a</text>
-<text x="630" y="252" font-size="16" font-weight="400" fill="#333" text-anchor="start" >treat in the middle, frozen</text>
-<text x="630" y="274" font-size="16" font-weight="400" fill="#333" text-anchor="start" >2–3 hours.</text>
-<rect x="630" y="360" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="705" y="383" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 20–30 min</text>
-<text x="630" y="424" font-size="14" fill="#555">Freeze on a plate or in a mug so the filling stays put.</text>
+<ellipse cx="822" cy="358" rx="30" ry="24" fill="#C8102E"/><ellipse cx="822" cy="324" rx="23" ry="19" fill="#C8102E"/><ellipse cx="822" cy="296" rx="16" ry="13" fill="#C8102E"/>
+<clipPath id="k2"><ellipse cx="822" cy="358" rx="30" ry="24"/><ellipse cx="822" cy="324" rx="23" ry="19"/><ellipse cx="822" cy="296" rx="16" ry="13"/></clipPath>
+<rect x="790" y="336" width="64" height="46" fill="#F4B942" opacity="0.9" clip-path="url(#k2)"/>
+<text x="630" y="226" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Soaked kibble or wet food,</text>
+<text x="630" y="248" font-size="16" font-weight="400" fill="#333" text-anchor="start" >a treat in the middle,</text>
+<text x="630" y="270" font-size="16" font-weight="400" fill="#333" text-anchor="start" >frozen 2–3 hours on a</text>
+<text x="630" y="292" font-size="16" font-weight="400" fill="#333" text-anchor="start" >plate.</text>
+<rect x="630" y="396" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="705" y="419" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 20–30 min</text>
 <rect x="895" y="110" width="265" height="330" rx="16" fill="#fff" stroke="#e3e1db"/><rect x="895" y="110" width="265" height="12" rx="6" fill="#1B2A41"/>
 <text x="915" y="158" font-size="16" font-weight="800" fill="#1B2A41" text-anchor="start" letter-spacing="2">Level 4</text>
 <text x="915" y="190" font-size="22" font-weight="800" fill="#1B2A41" text-anchor="start" >The dinner KONG</text>
-<ellipse cx="1095" cy="290" rx="30" ry="24" fill="#C8102E"/><ellipse cx="1095" cy="256" rx="23" ry="19" fill="#C8102E"/><ellipse cx="1095" cy="228" rx="16" ry="13" fill="#C8102E"/>
-<clipPath id="k3"><ellipse cx="1095" cy="290" rx="30" ry="24"/><ellipse cx="1095" cy="256" rx="23" ry="19"/><ellipse cx="1095" cy="228" rx="16" ry="13"/></clipPath>
-<rect x="1063" y="254" width="64" height="60" fill="#F4B942" opacity="0.9" clip-path="url(#k3)"/>
-<text x="915" y="230" font-size="16" font-weight="400" fill="#333" text-anchor="start" >The whole meal goes in; two</text>
-<text x="915" y="252" font-size="16" font-weight="400" fill="#333" text-anchor="start" >frozen KONGs replace the bowl</text>
-<text x="915" y="274" font-size="16" font-weight="400" fill="#333" text-anchor="start" >on a rainy day.</text>
-<rect x="915" y="360" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="990" y="383" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 30 min+</text>
+<ellipse cx="1107" cy="358" rx="30" ry="24" fill="#C8102E"/><ellipse cx="1107" cy="324" rx="23" ry="19" fill="#C8102E"/><ellipse cx="1107" cy="296" rx="16" ry="13" fill="#C8102E"/>
+<clipPath id="k3"><ellipse cx="1107" cy="358" rx="30" ry="24"/><ellipse cx="1107" cy="324" rx="23" ry="19"/><ellipse cx="1107" cy="296" rx="16" ry="13"/></clipPath>
+<rect x="1075" y="322" width="64" height="60" fill="#F4B942" opacity="0.9" clip-path="url(#k3)"/>
+<text x="915" y="226" font-size="16" font-weight="400" fill="#333" text-anchor="start" >The whole meal goes in; two</text>
+<text x="915" y="248" font-size="16" font-weight="400" fill="#333" text-anchor="start" >frozen KONGs replace the</text>
+<text x="915" y="270" font-size="16" font-weight="400" fill="#333" text-anchor="start" >bowl on a rainy day.</text>
+<rect x="915" y="396" width="150" height="34" rx="17" fill="#F7F5F0" stroke="#e3e1db"/><text x="990" y="419" font-size="15" font-weight="700" fill="#1B2A41" text-anchor="middle" >Busy: 30 min+</text>
 <text x="40" y="480" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start" >Rules: no xylitol (check peanut-butter labels), no cooked bones, size up for power chewers, and wash it in the top rack of the dishwasher.</text>
 <text x="40" y="508" font-size="15" font-weight="400" fill="#777" text-anchor="start" >Times are typical for a food-motivated medium dog; a KONG that empties in a minute needs a harder level or a smaller opening (freeze it).</text>
 <text x="40" y="540" font-size="15" font-weight="400" fill="#777" text-anchor="start" >Vets and trainers recommend feeding at least one meal a day from a puzzle; this is the cheapest puzzle there is.</text>

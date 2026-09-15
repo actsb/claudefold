@@ -50,12 +50,8 @@ def fit():
     o.append(f'<rect x="40" y="108" width="560" height="470" rx="16" fill="#fff" stroke="#e3e1db"/>')
     o.append(dog(150, 520, 1.15, harness=NAVY))
     # callouts
-    calls = [(556, 178, "Back plate sits behind the shoulder blades, not on the neck", 2), (556, 268, "Girth strap: two fingers flat under it, no more", 3),
-             (556, 358, "Chest strap crosses the breastbone, above the front legs", 1), (556, 448, "Front ring for pullers; back ring for relaxed walks", 4)]
-    for cx, cy, label, n in calls:
-        o.append(f'<circle cx="{cx - 20}" cy="{cy}" r="16" fill="{GREEN}"/>' + text(cx - 20, cy + 6, str(n), 17, 800, "#fff", "middle"))
-    # number markers on the drawing
-    for px, py, n in ((246, 282, 2), (322, 350, 3), (240, 386, 1), (250, 460, 4)):
+    # number markers on the drawing: 1 chest strap, 2 back plate, 3 girth strap, 4 front ring
+    for px, py, n in ((214, 336, 1), (288, 284, 2), (322, 350, 3), (272, 382, 4)):
         o.append(f'<circle cx="{px}" cy="{py}" r="15" fill="{GREEN}" stroke="#fff" stroke-width="3"/>' + text(px, py + 6, str(n), 16, 800, "#fff", "middle"))
     # right column: checks and the escape fix
     x = 640
@@ -78,7 +74,7 @@ def kong():
     o = head(W, H, "How to stuff a KONG: four fillings from easy to expert, and how long each keeps a dog busy", "The KONG, from 3 minutes to 30", "Same toy, four difficulty levels. The freezer is the whole trick.")
     levels = [("Level 1", "Kibble only", "Dry kibble poured in; the dog tips it out.", "3–5 min", GREEN),
               ("Level 2", "Kibble + a smear", "Kibble sealed in with peanut butter (xylitol-free) or plain yogurt.", "10–15 min", GREEN),
-              ("Level 3", "Layered and frozen", "Soaked kibble or wet food, a treat in the middle, frozen 2–3 hours.", "20–30 min", AMBER),
+              ("Level 3", "Layered and frozen", "Soaked kibble or wet food, a treat in the middle, frozen 2–3 hours on a plate.", "20–30 min", AMBER),
               ("Level 4", "The dinner KONG", "The whole meal goes in; two frozen KONGs replace the bowl on a rainy day.", "30 min+", NAVY)]
     for i, (lv, name, desc, mins, c) in enumerate(levels):
         x = 40 + i * 285
@@ -86,14 +82,13 @@ def kong():
         o.append(text(x + 20, 158, lv, 16, 800, c, extra='letter-spacing="2"'))
         o.append(text(x + 20, 190, name, 22, 800, NAVY))
         # a small KONG glyph filled to the level
-        kx, ky = x + 200, 250
+        kx, ky = x + 212, 318
         o.append(f'<ellipse cx="{kx}" cy="{ky + 40}" rx="30" ry="24" fill="#C8102E"/><ellipse cx="{kx}" cy="{ky + 6}" rx="23" ry="19" fill="#C8102E"/><ellipse cx="{kx}" cy="{ky - 22}" rx="16" ry="13" fill="#C8102E"/>')
         fill_h = [14, 28, 46, 60][i]
         o.append(f'<clipPath id="k{i}"><ellipse cx="{kx}" cy="{ky + 40}" rx="30" ry="24"/><ellipse cx="{kx}" cy="{ky + 6}" rx="23" ry="19"/><ellipse cx="{kx}" cy="{ky - 22}" rx="16" ry="13"/></clipPath>')
         o.append(f'<rect x="{kx - 32}" y="{ky + 64 - fill_h}" width="64" height="{fill_h}" fill="#F4B942" opacity="0.9" clip-path="url(#k{i})"/>')
-        for j, r in enumerate(wrap(desc, 30)): o.append(text(x + 20, 230 + j * 22, r, 16, 400, "#333"))
-        o.append(f'<rect x="{x + 20}" y="360" width="150" height="34" rx="17" fill="{PAPER}" stroke="#e3e1db"/>' + text(x + 95, 383, f"Busy: {mins}", 15, 700, NAVY, "middle"))
-        if i == 2: o.append(f'<text x="{x + 20}" y="424" font-size="14" fill="{INK2}">Freeze on a plate or in a mug so the filling stays put.</text>')
+        for j, r in enumerate(wrap(desc, 27)): o.append(text(x + 20, 226 + j * 22, r, 16, 400, "#333"))
+        o.append(f'<rect x="{x + 20}" y="396" width="150" height="34" rx="17" fill="{PAPER}" stroke="#e3e1db"/>' + text(x + 95, 419, f"Busy: {mins}", 15, 700, NAVY, "middle"))
     o.append(text(40, 480, "Rules: no xylitol (check peanut-butter labels), no cooked bones, size up for power chewers, and wash it in the top rack of the dishwasher.", 16, 700, NAVY))
     o.append(text(40, 508, "Times are typical for a food-motivated medium dog; a KONG that empties in a minute needs a harder level or a smaller opening (freeze it).", 15, 400, "#777"))
     o.append(text(40, 540, "Vets and trainers recommend feeding at least one meal a day from a puzzle; this is the cheapest puzzle there is.", 15, 400, "#777"))
