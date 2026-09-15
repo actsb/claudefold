@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Earth Rated Dog Poop Bags (product render)">
+<defs>
+<radialGradient id="cbags-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cbags-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cbags-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cbags-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cbags-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#3bb16f"/><stop offset="0.55" stop-color="#2E8B57"/><stop offset="1" stop-color="#236941"/></linearGradient>
+<linearGradient id="cbags-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#267449"/><stop offset="1" stop-color="#153e27"/></linearGradient>
+<linearGradient id="cbags-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#67cd94"/><stop offset="1" stop-color="#36a265"/></linearGradient>
+<radialGradient id="cbags-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5fca8e"/><stop offset="0.6" stop-color="#2E8B57"/><stop offset="1" stop-color="#1c5535"/></radialGradient>
+<linearGradient id="cbags-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cbags-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cbags-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cbags-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#314d77"/><stop offset="1" stop-color="#090e16"/></linearGradient>
+<linearGradient id="cbags-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cbags-bg)"/><ellipse cx="300" cy="336" rx="210" ry="16" fill="#000" opacity="0.28" filter="url(#cbags-blur)"/>
+<g transform="rotate(-18 250 250)">
+<rect x="150" y="196" width="200" height="104" fill="url(#cbags-front)"/>
+<ellipse cx="350" cy="248" rx="30" ry="52" fill="#3db974"/><ellipse cx="350" cy="248" rx="14" ry="26" fill="#000000"/><ellipse cx="350" cy="248" rx="7" ry="13" fill="#111"/>
+<ellipse cx="150" cy="248" rx="30" ry="52" fill="#1f5d3a"/>
+<path d="M 176 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.8"/><path d="M 176 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.6"/>
+<path d="M 210 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.8"/><path d="M 210 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.6"/>
+<path d="M 244 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.8"/><path d="M 244 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.6"/>
+<path d="M 278 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.8"/><path d="M 278 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.6"/>
+<path d="M 312 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.8"/><path d="M 312 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="#91dbb1" opacity="0.6"/>
+<path d="M 150 300 L 150 196 L 92 176 Q 62 220 92 292 Z" fill="#7BC47F" opacity="0.92"/><path d="M 150 196 L 150 300" stroke="#08180f" stroke-width="2" stroke-dasharray="3 4"/><path d="M 100 190 q -22 40 0 92" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>
+</g>
+<rect x="392" y="222" width="96" height="60" rx="26" fill="url(#cbags-accent)"/><rect x="392" y="222" width="96" height="60" rx="26" fill="none" stroke="#000000" stroke-width="1.5"/>
+<rect x="424" y="248" width="34" height="8" rx="4" fill="#000000"/><path d="M 418 246 q 12 -10 24 0" fill="none" stroke="#7BC47F" stroke-width="5" stroke-linecap="round"/>
+<path d="M 440 222 l 0 -26 q 0 -18 18 -18 l 22 0" fill="none" stroke="#000000" stroke-width="10" stroke-linecap="round"/><path d="M 480 178 a 12 12 0 1 1 0.1 0" fill="none" stroke="url(#cbags-metal)" stroke-width="6"/>
+<path d="M 404 244 q 10 -14 24 -10" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="520" cy="338" rx="26" ry="18" fill="#7BC47F"/><path d="M 512 322 q 8 -14 16 0 q -4 -8 8 -6" fill="none" stroke="#2b612e" stroke-width="4" stroke-linecap="round"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="325" height="28" rx="14" fill="#1B2A41"/>
+<text x="180.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Leak-proof · 9 x 13 in · dispenser included</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Earth Rated Poop Bags</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

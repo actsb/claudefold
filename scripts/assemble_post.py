@@ -23,6 +23,7 @@ def esc(s): return html.escape(s, quote=True)
 STYLE = """<style>
 .vp-post img{max-width:100%;height:auto}
 .vp-post .vp-grid a{color:#1B2A41;font-weight:700}
+.vp-post p a[href*="amazon.com"],.vp-post li a[href*="amazon.com"]{color:#1E8E5A;font-weight:700;text-decoration:underline dotted;text-underline-offset:3px}
 @media (max-width:640px){
   .vp-post .vp-gridwrap{overflow:visible}
   .vp-post .vp-grid{min-width:0!important;display:block;border:0}
@@ -123,6 +124,37 @@ def pick_card(d, c, n, with_video=True):
 {vid}
 </div>'''
 
+def buy_box(d, cards):
+    """<!--BUYBOX--> : a framed 'buy box' with one row per card that carries a `buy` dict
+    ({"pick": "which variant/size", "check": "what to confirm on the listing", "tier": "Good"}), a button each, and the total line from spec["buy_total"]."""
+    spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
+    rows = []
+    for i, c in enumerate([c for c in cards if c.get("buy")], 1):
+        b = c["buy"]
+        thumb = (d / "images" / "cards" / f'{c["id"]}.svg')
+        svg = re.sub(r"<g font-family=.*?</g>\s*", "", thumb.read_text(encoding="utf-8"), flags=re.S) if thumb.exists() else ""   # render without the chip/name text
+        svg = re.sub(r'<svg ', '<svg style="width:100%;height:100%;display:block;" ', svg, count=1)
+        rows.append(
+            f'<div style="display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding:14px 18px;border-top:1px solid #e6e6e6;">'
+            f'<div style="flex:0 0 96px;width:96px;height:64px;border-radius:10px;overflow:hidden;background:#F7F5F0;">{svg}</div>'
+            f'<div style="flex:1 1 220px;min-width:0;">'
+            f'<div style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">{i} &middot; {esc(b.get("tier", ""))}</div>'
+            f'<div style="font-size:17px;font-weight:700;color:#1B2A41;line-height:1.3;">{esc(c["name"])}</div>'
+            f'<div style="font-size:14px;color:#444;margin-top:2px;"><strong>Pick:</strong> {esc(b["pick"])}</div>'
+            f'<div style="font-size:13px;color:#666;margin-top:2px;"><strong>Check:</strong> {esc(b["check"])}</div></div>'
+            f'<a href="{esc(c["cta"])}" rel="nofollow sponsored noopener" target="_blank" style="flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;background:#1E8E5A;color:#fff;font-weight:700;font-size:16px;padding:12px 18px;border-radius:10px;text-decoration:none;white-space:nowrap;">'
+            f'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H7"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>'
+            f'{esc(b.get("label", "See price on Amazon"))}</a></div>')
+    total = spec.get("buy_total", "")
+    return (f'<div class="vp-buybox" id="buy-box" style="border:2px solid #1B2A41;border-radius:16px;overflow:hidden;background:#fff;margin:1.6em 0;">'
+            f'<div style="display:flex;align-items:center;gap:12px;padding:14px 18px;background:#1B2A41;color:#fff;">'
+            f'<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#9fd9b9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H7"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>'
+            f'<div><div style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#9fd9b9;">Buy box &middot; every pick on this page</div>'
+            f'<div style="font-size:18px;font-weight:700;line-height:1.25;">{esc(spec.get("buy_title", "The exact version to order, one tap each"))}</div></div></div>'
+            + "".join(rows) +
+            (f'<div style="padding:12px 18px 14px;border-top:1px solid #e6e6e6;background:#F7F5F0;font-size:14px;color:#444;line-height:1.5;">{total}</div>' if total else "") +
+            '</div>')
+
 def main(post_dir):
     d = pathlib.Path(post_dir)
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
@@ -143,6 +175,7 @@ def main(post_dir):
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
+    easy = easy.replace("<!--BUYBOX-->", buy_box(d, cards))
     def host_fig(m):
         pose, lines = m.group(1), [html.escape(x) for x in m.group(2).split("|") if x.strip()]
         art = cards[0].get("art", {})

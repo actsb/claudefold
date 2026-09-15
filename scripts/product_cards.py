@@ -426,7 +426,87 @@ def draw_litterbot(uid, a):
     out.append(f'<g fill="{shade(body, -.55)}"><circle cx="238" cy="186" r="14"/><path d="M 228 176 l -4 -14 l 12 8 z M 248 176 l 4 -14 l -12 8 z"/></g>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot}
+def draw_harness(uid, a):
+    """No-pull dog harness (Rabbitgoo style) laid out three-quarter: padded chest plate, back plate with a D-ring, side straps with buckles, reflective piping."""
+    body = a.get("body", "#2F3A48"); accent = a.get("accent", "#F08A24"); ring = a.get("ring", "#B9BEC6")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 210, 16)]
+    dark = shade(body, -.35); lite = shade(body, .18)
+    # back plate (top) and chest plate (bottom), joined by two shoulder straps forming the neck loop
+    out.append(f'<path d="M 214 118 Q 300 78 386 118 L 372 178 Q 300 150 228 178 Z" fill="url(#{uid}-front)" stroke="{dark}" stroke-width="2"/>')
+    out.append(f'<path d="M 190 262 Q 300 226 410 262 L 392 318 Q 300 292 208 318 Z" fill="url(#{uid}-front)" stroke="{dark}" stroke-width="2"/>')
+    for x1, x2 in ((228, 208), (372, 392)):
+        out.append(f'<path d="M {x1} 178 Q {x1 + (x2 - x1) * .5} 222 {x2} 262" fill="none" stroke="{body}" stroke-width="30" stroke-linecap="round"/>'
+                   f'<path d="M {x1} 178 Q {x1 + (x2 - x1) * .5} 222 {x2} 262" fill="none" stroke="{lite}" stroke-width="3" stroke-dasharray="6 5" opacity="0.9"/>')
+    # girth straps going out to the sides with side-release buckles
+    for sx, dirn in ((208, -1), (392, 1)):
+        ex = sx + dirn * 88
+        out.append(f'<path d="M {sx} 290 L {ex} 290" stroke="{body}" stroke-width="22" stroke-linecap="round"/>'
+                   f'<path d="M {sx} 290 L {ex} 290" stroke="{lite}" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.9"/>'
+                   f'<rect x="{ex - 20 if dirn < 0 else ex - 12}" y="276" width="32" height="28" rx="7" fill="{dark}"/>'
+                   f'<rect x="{ex - 14 if dirn < 0 else ex - 6}" y="282" width="20" height="16" rx="4" fill="{shade(body, -.1)}"/>')
+    # stitching and padding lines on the plates
+    out.append(f'<path d="M 232 128 Q 300 96 368 128 M 240 168 Q 300 146 360 168" fill="none" stroke="{lite}" stroke-width="2" stroke-dasharray="6 5" opacity="0.8"/>'
+               f'<path d="M 210 270 Q 300 240 390 270 M 220 306 Q 300 282 380 306" fill="none" stroke="{lite}" stroke-width="2" stroke-dasharray="6 5" opacity="0.8"/>')
+    # handle on the back plate, metal D-ring, front leash ring on the chest
+    out.append(f'<path d="M 268 108 Q 300 84 332 108" fill="none" stroke="{dark}" stroke-width="12" stroke-linecap="round"/>')
+    out.append(f'<path d="M 282 128 a 18 18 0 1 0 36 0" fill="none" stroke="url(#{uid}-metal)" stroke-width="7"/><path d="M 282 128 H 318" stroke="{dark}" stroke-width="9" stroke-linecap="round"/>')
+    out.append(f'<circle cx="300" cy="270" r="15" fill="none" stroke="url(#{uid}-metal)" stroke-width="7"/><circle cx="300" cy="270" r="15" fill="none" stroke="{ring}" stroke-width="1" opacity="0.5"/>')
+    # orange accent tab (brand-style) and a leash clip resting on the plate
+    out.append(f'<rect x="318" y="236" width="44" height="14" rx="5" fill="{accent}"/><rect x="322" y="239" width="24" height="4" rx="2" fill="#fff" opacity="0.5"/>')
+    out.append(f'<path d="M 300 118 l 0 -22 q 0 -16 16 -16 l 6 0" fill="none" stroke="url(#{uid}-metal)" stroke-width="8" stroke-linecap="round"/><circle cx="326" cy="80" r="6" fill="url(#{uid}-metal)"/>')
+    return "\n".join(out)
+
+def draw_kong(uid, a):
+    """The classic KONG: three stacked rubber lobes, hollow top with a swirl of peanut butter, slightly tilted, glossy."""
+    body = a.get("body", "#C8102E"); accent = a.get("accent", "#F4B942")
+    out = [defs(uid, body, accent), studio(uid, 300, 340, 150, 16)]
+    out.append(f'<g transform="rotate(-9 300 240)">')
+    for cx, cy, rx, ry in ((300, 300, 88, 66), (300, 214, 68, 54), (300, 148, 48, 40)):
+        out.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="url(#{uid}-dome)"/>'
+                   f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" fill="none" stroke="{shade(body, -.28)}" stroke-width="1.5" opacity="0.7"/>')
+    # waist blends between lobes
+    out.append(f'<ellipse cx="300" cy="256" rx="58" ry="20" fill="{body}"/><ellipse cx="300" cy="182" rx="44" ry="16" fill="{body}"/>')
+    # hollow opening at the top with peanut butter
+    out.append(f'<ellipse cx="300" cy="112" rx="22" ry="11" fill="{shade(body, -.6)}"/><ellipse cx="300" cy="111" rx="16" ry="7" fill="{accent}"/>'
+               f'<path d="M 291 110 q 6 -6 12 0 q 4 4 8 -1" fill="none" stroke="{shade(accent, -.3)}" stroke-width="2" stroke-linecap="round"/>')
+    # gloss highlights and the small bottom hole
+    out.append(f'<path d="M 246 292 q -8 -40 20 -62" fill="none" stroke="#fff" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>'
+               f'<path d="M 262 206 q -6 -26 12 -40" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="7" stroke-linecap="round"/>'
+               f'<path d="M 280 140 q -4 -14 8 -22" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="5" stroke-linecap="round"/>')
+    out.append(f'<ellipse cx="300" cy="364" rx="6" ry="3" fill="{shade(body, -.55)}"/>')
+    out.append('</g>')
+    # a few kibble pieces spilled at the base
+    out.append(f'<g fill="{shade(accent, -.35)}"><circle cx="404" cy="350" r="6"/><circle cx="420" cy="342" r="5"/><circle cx="392" cy="362" r="5"/><circle cx="184" cy="354" r="6"/></g>')
+    return "\n".join(out)
+
+def draw_bags(uid, a):
+    """Dog waste bags: a roll with one bag peeling off, next to a dispenser on a strap; leaf pattern on the roll."""
+    body = a.get("body", "#2E8B57"); accent = a.get("accent", "#1B2A41"); bag = a.get("bag", "#7BC47F")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 210, 16)]
+    # the roll: a cylinder lying at an angle (front ellipse face + body)
+    out.append(f'<g transform="rotate(-18 250 250)">')
+    out.append(f'<rect x="150" y="196" width="200" height="104" fill="url(#{uid}-front)"/>')
+    out.append(f'<ellipse cx="350" cy="248" rx="30" ry="52" fill="{shade(body, .12)}"/><ellipse cx="350" cy="248" rx="14" ry="26" fill="{shade(body, -.45)}"/><ellipse cx="350" cy="248" rx="7" ry="13" fill="#111"/>')
+    out.append(f'<ellipse cx="150" cy="248" rx="30" ry="52" fill="{shade(body, -.12)}"/>')
+    # leaf pattern along the roll
+    for i in range(5):
+        x = 176 + i * 34
+        out.append(f'<path d="M {x} 232 q 10 -14 22 0 q -10 14 -22 0 Z" fill="{shade(body, .35)}" opacity="0.8"/><path d="M {x} 268 q 10 -14 22 0 q -10 14 -22 0 Z" fill="{shade(body, .35)}" opacity="0.6"/>')
+    # a bag peeling off the roll with a perforation line
+    out.append(f'<path d="M 150 300 L 150 196 L 92 176 Q 62 220 92 292 Z" fill="{bag}" opacity="0.92"/><path d="M 150 196 L 150 300" stroke="{shade(body, -.3)}" stroke-width="2" stroke-dasharray="3 4"/>'
+               f'<path d="M 100 190 q -22 40 0 92" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="4" stroke-linecap="round"/>')
+    out.append('</g>')
+    # dispenser: a rounded capsule with a slot, hanging from a short strap and clip
+    out.append(f'<rect x="392" y="222" width="96" height="60" rx="26" fill="url(#{uid}-accent)"/><rect x="392" y="222" width="96" height="60" rx="26" fill="none" stroke="{shade(accent, -.3)}" stroke-width="1.5"/>')
+    out.append(f'<rect x="424" y="248" width="34" height="8" rx="4" fill="{shade(accent, -.55)}"/><path d="M 418 246 q 12 -10 24 0" fill="none" stroke="{bag}" stroke-width="5" stroke-linecap="round"/>')
+    out.append(f'<path d="M 440 222 l 0 -26 q 0 -18 18 -18 l 22 0" fill="none" stroke="{shade(accent, -.2)}" stroke-width="10" stroke-linecap="round"/>'
+               f'<path d="M 480 178 a 12 12 0 1 1 0.1 0" fill="none" stroke="url(#{uid}-metal)" stroke-width="6"/>')
+    out.append(f'<path d="M 404 244 q 10 -14 24 -10" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>')
+    # a tied bag on the floor for scale (knot on top)
+    out.append(f'<ellipse cx="520" cy="338" rx="26" ry="18" fill="{bag}"/><path d="M 512 322 q 8 -14 16 0 q -4 -8 8 -6" fill="none" stroke="{shade(bag, -.35)}" stroke-width="4" stroke-linecap="round"/>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

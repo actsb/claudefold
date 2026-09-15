@@ -1,0 +1,57 @@
+{
+  "category": "harness",
+  "cards": [
+    {
+      "id": "harness",
+      "category": "harness",
+      "name": "Rabbitgoo No-Pull Dog Harness",
+      "short": "Rabbitgoo No-Pull Harness",
+      "chip": "Front + back clip · reflective · 4 straps",
+      "art": {
+        "body": "#2F3A48",
+        "accent": "#F08A24"
+      },
+      "badge": "x",
+      "price": "x",
+      "buy_if": "x",
+      "skip_if": "x",
+      "owners": "x",
+      "cta": "https://www.amazon.com/s?k=rabbitgoo+no+pull+dog+harness&tag=verdictpicks-20"
+    },
+    {
+      "id": "kong",
+      "category": "kong",
+      "name": "KONG Classic",
+      "short": "KONG Classic",
+      "chip": "Natural rubber · stuffable · dishwasher-safe",
+      "art": {
+        "body": "#C8102E",
+        "accent": "#F4B942"
+      },
+      "badge": "x",
+      "price": "x",
+      "buy_if": "x",
+      "skip_if": "x",
+      "owners": "x",
+      "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy&tag=verdictpicks-20"
+    },
+    {
+      "id": "bags",
+      "category": "bags",
+      "name": "Earth Rated Dog Poop Bags",
+      "short": "Earth Rated Poop Bags",
+      "chip": "Leak-proof · 9 x 13 in · dispenser included",
+      "art": {
+        "body": "#2E8B57",
+        "accent": "#1B2A41",
+        "bag": "#7BC47F"
+      },
+      "badge": "x",
+      "price": "x",
+      "buy_if": "x",
+      "skip_if": "x",
+      "owners": "x",
+      "cta": "https://www.amazon.com/s?k=Earth+Rated+dog+poop+bags&tag=verdictpicks-20"
+    }
+  ]
+}

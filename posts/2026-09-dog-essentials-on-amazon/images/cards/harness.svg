@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Rabbitgoo No-Pull Dog Harness (product render)">
+<defs>
+<radialGradient id="charness-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="charness-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="charness-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="charness-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="charness-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#435367"/><stop offset="0.55" stop-color="#2F3A48"/><stop offset="1" stop-color="#1d242c"/></linearGradient>
+<linearGradient id="charness-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232b35"/><stop offset="1" stop-color="#07080a"/></linearGradient>
+<linearGradient id="charness-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f7692"/><stop offset="1" stop-color="#3b495b"/></linearGradient>
+<radialGradient id="charness-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5b718c"/><stop offset="0.6" stop-color="#2F3A48"/><stop offset="1" stop-color="#13171d"/></radialGradient>
+<linearGradient id="charness-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="charness-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="charness-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="charness-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f5b06c"/><stop offset="1" stop-color="#c96b0e"/></linearGradient>
+<linearGradient id="charness-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#charness-bg)"/><ellipse cx="300" cy="336" rx="210" ry="16" fill="#000" opacity="0.28" filter="url(#charness-blur)"/>
+<path d="M 214 118 Q 300 78 386 118 L 372 178 Q 300 150 228 178 Z" fill="url(#charness-front)" stroke="#000000" stroke-width="2"/>
+<path d="M 190 262 Q 300 226 410 262 L 392 318 Q 300 292 208 318 Z" fill="url(#charness-front)" stroke="#000000" stroke-width="2"/>
+<path d="M 228 178 Q 218.0 222 208 262" fill="none" stroke="#2F3A48" stroke-width="30" stroke-linecap="round"/><path d="M 228 178 Q 218.0 222 208 262" fill="none" stroke="#536780" stroke-width="3" stroke-dasharray="6 5" opacity="0.9"/>
+<path d="M 372 178 Q 382.0 222 392 262" fill="none" stroke="#2F3A48" stroke-width="30" stroke-linecap="round"/><path d="M 372 178 Q 382.0 222 392 262" fill="none" stroke="#536780" stroke-width="3" stroke-dasharray="6 5" opacity="0.9"/>
+<path d="M 208 290 L 120 290" stroke="#2F3A48" stroke-width="22" stroke-linecap="round"/><path d="M 208 290 L 120 290" stroke="#536780" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.9"/><rect x="100" y="276" width="32" height="28" rx="7" fill="#000000"/><rect x="106" y="282" width="20" height="16" rx="4" fill="#1b2129"/>
+<path d="M 392 290 L 480 290" stroke="#2F3A48" stroke-width="22" stroke-linecap="round"/><path d="M 392 290 L 480 290" stroke="#536780" stroke-width="2.5" stroke-dasharray="6 5" opacity="0.9"/><rect x="468" y="276" width="32" height="28" rx="7" fill="#000000"/><rect x="474" y="282" width="20" height="16" rx="4" fill="#1b2129"/>
+<path d="M 232 128 Q 300 96 368 128 M 240 168 Q 300 146 360 168" fill="none" stroke="#536780" stroke-width="2" stroke-dasharray="6 5" opacity="0.8"/><path d="M 210 270 Q 300 240 390 270 M 220 306 Q 300 282 380 306" fill="none" stroke="#536780" stroke-width="2" stroke-dasharray="6 5" opacity="0.8"/>
+<path d="M 268 108 Q 300 84 332 108" fill="none" stroke="#000000" stroke-width="12" stroke-linecap="round"/>
+<path d="M 282 128 a 18 18 0 1 0 36 0" fill="none" stroke="url(#charness-metal)" stroke-width="7"/><path d="M 282 128 H 318" stroke="#000000" stroke-width="9" stroke-linecap="round"/>
+<circle cx="300" cy="270" r="15" fill="none" stroke="url(#charness-metal)" stroke-width="7"/><circle cx="300" cy="270" r="15" fill="none" stroke="#B9BEC6" stroke-width="1" opacity="0.5"/>
+<rect x="318" y="236" width="44" height="14" rx="5" fill="#F08A24"/><rect x="322" y="239" width="24" height="4" rx="2" fill="#fff" opacity="0.5"/>
+<path d="M 300 118 l 0 -22 q 0 -16 16 -16 l 6 0" fill="none" stroke="url(#charness-metal)" stroke-width="8" stroke-linecap="round"/><circle cx="326" cy="80" r="6" fill="url(#charness-metal)"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="311" height="28" rx="14" fill="#1B2A41"/>
+<text x="173.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Front + back clip · reflective · 4 straps</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Rabbitgoo No-Pull Harness</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>
