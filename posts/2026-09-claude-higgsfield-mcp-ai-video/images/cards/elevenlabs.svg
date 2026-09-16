@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="ElevenLabs (the voice that turns a silent clip into an ad) (product render)">
+<defs>
+<radialGradient id="celevenlabs-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="celevenlabs-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="celevenlabs-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="celevenlabs-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="celevenlabs-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#435367"/><stop offset="0.55" stop-color="#2F3A48"/><stop offset="1" stop-color="#1d242c"/></linearGradient>
+<linearGradient id="celevenlabs-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232b35"/><stop offset="1" stop-color="#07080a"/></linearGradient>
+<linearGradient id="celevenlabs-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f7692"/><stop offset="1" stop-color="#3b495b"/></linearGradient>
+<radialGradient id="celevenlabs-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5b718c"/><stop offset="0.6" stop-color="#2F3A48"/><stop offset="1" stop-color="#13171d"/></radialGradient>
+<linearGradient id="celevenlabs-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="celevenlabs-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="celevenlabs-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="celevenlabs-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c6e9d6"/><stop offset="1" stop-color="#63c28e"/></linearGradient>
+<linearGradient id="celevenlabs-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#celevenlabs-bg)"/><ellipse cx="300" cy="336" rx="190" ry="16" fill="#000" opacity="0.28" filter="url(#celevenlabs-blur)"/>
+<rect x="120" y="70" width="360" height="236" rx="16" fill="#fff" stroke="#D9D6CF" stroke-width="2"/><rect x="120" y="70" width="360" height="30" rx="16" fill="#ECEAE4"/><rect x="120" y="86" width="360" height="14" fill="#ECEAE4"/><circle cx="142" cy="85" r="5" fill="#F26D5B"/><circle cx="160" cy="85" r="5" fill="#F4B942"/><circle cx="178" cy="85" r="5" fill="#5AC26A"/><rect x="150" y="122" width="150" height="10" rx="5" fill="#E8E6E0"/><rect x="150" y="142" width="220" height="10" rx="5" fill="#E8E6E0"/><rect x="150" y="162" width="110" height="10" rx="5" fill="#E8E6E0"/>
+<rect x="222" y="152" width="176" height="176" rx="40" fill="#000000" opacity="0.25" transform="translate(6 10)"/><rect x="222" y="152" width="176" height="176" rx="40" fill="url(#celevenlabs-front)"/><rect x="222" y="152" width="176" height="176" rx="40" fill="none" stroke="#617895" stroke-width="2" opacity="0.6"/>
+<rect x="256" y="229.0" width="12" height="22" rx="6" fill="#fff"/><rect x="274" y="218.0" width="12" height="44" rx="6" fill="#8FD3AE"/><rect x="292" y="205.0" width="12" height="70" rx="6" fill="#fff"/><rect x="310" y="192.0" width="12" height="96" rx="6" fill="#8FD3AE"/><rect x="328" y="205.0" width="12" height="70" rx="6" fill="#fff"/><rect x="346" y="218.0" width="12" height="44" rx="6" fill="#8FD3AE"/><rect x="364" y="229.0" width="12" height="22" rx="6" fill="#fff"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="275" height="28" rx="14" fill="#1B2A41"/>
+<text x="155.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Text to speech · 30+ languages · SFX</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">ElevenLabs</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

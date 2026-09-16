@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Phone tripod with a ball head and remote (product render)">
+<defs>
+<radialGradient id="ctripod-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="ctripod-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="ctripod-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="ctripod-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="ctripod-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#435367"/><stop offset="0.55" stop-color="#2F3A48"/><stop offset="1" stop-color="#1d242c"/></linearGradient>
+<linearGradient id="ctripod-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#232b35"/><stop offset="1" stop-color="#07080a"/></linearGradient>
+<linearGradient id="ctripod-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5f7692"/><stop offset="1" stop-color="#3b495b"/></linearGradient>
+<radialGradient id="ctripod-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#5b718c"/><stop offset="0.6" stop-color="#2F3A48"/><stop offset="1" stop-color="#13171d"/></radialGradient>
+<linearGradient id="ctripod-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ctripod-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="ctripod-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="ctripod-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bcd82"/><stop offset="1" stop-color="#135b3a"/></linearGradient>
+<linearGradient id="ctripod-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#ctripod-bg)"/><ellipse cx="300" cy="336" rx="170" ry="16" fill="#000" opacity="0.28" filter="url(#ctripod-blur)"/>
+<path d="M 300 236 L 195.0 332" stroke="#2F3A48" stroke-width="12" stroke-linecap="round"/><circle cx="195.0" cy="332" r="8" fill="#000000"/>
+<path d="M 300 236 L 300.0 332" stroke="#2F3A48" stroke-width="12" stroke-linecap="round"/><circle cx="300.0" cy="332" r="8" fill="#000000"/>
+<path d="M 300 236 L 405.0 332" stroke="#2F3A48" stroke-width="12" stroke-linecap="round"/><circle cx="405.0" cy="332" r="8" fill="#000000"/>
+<rect x="292" y="130" width="16" height="110" rx="6" fill="#000000"/><circle cx="300" cy="236" r="16" fill="#2F3A48"/>
+<circle cx="300" cy="126" r="12" fill="#1E8E5A"/><rect x="268" y="52" width="64" height="70" rx="6" fill="#000000"/><rect x="262" y="58" width="76" height="12" rx="4" fill="#2F3A48"/><rect x="262" y="104" width="76" height="12" rx="4" fill="#2F3A48"/><rect x="274" y="60" width="52" height="56" rx="4" fill="#3A4453"/><rect x="278" y="64" width="44" height="48" rx="3" fill="#8FD3AE"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="296" height="28" rx="14" fill="#1B2A41"/>
+<text x="166.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Ball head · Bluetooth remote · 50–60 in</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Phone tripod</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

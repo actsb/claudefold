@@ -506,7 +506,98 @@ def draw_bags(uid, a):
     out.append(f'<ellipse cx="520" cy="338" rx="26" ry="18" fill="{bag}"/><path d="M 512 322 q 8 -14 16 0 q -4 -8 8 -6" fill="none" stroke="{shade(bag, -.35)}" stroke-width="4" stroke-linecap="round"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags}
+def _tile(uid, a, glyph):
+    """A software 'product': a rounded app tile on the studio floor with a big white glyph and a small window frame behind it."""
+    body = a.get("body", "#1B2A41"); accent = a.get("accent", "#1E8E5A")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 190, 16)]
+    dark = shade(body, -.3); lite = shade(body, .25)
+    # window frame behind the tile (a browser/app window)
+    out.append(f'<rect x="120" y="70" width="360" height="236" rx="16" fill="#fff" stroke="#D9D6CF" stroke-width="2"/>'
+               f'<rect x="120" y="70" width="360" height="30" rx="16" fill="#ECEAE4"/><rect x="120" y="86" width="360" height="14" fill="#ECEAE4"/>'
+               f'<circle cx="142" cy="85" r="5" fill="#F26D5B"/><circle cx="160" cy="85" r="5" fill="#F4B942"/><circle cx="178" cy="85" r="5" fill="#5AC26A"/>'
+               f'<rect x="150" y="122" width="150" height="10" rx="5" fill="#E8E6E0"/><rect x="150" y="142" width="220" height="10" rx="5" fill="#E8E6E0"/><rect x="150" y="162" width="110" height="10" rx="5" fill="#E8E6E0"/>')
+    # the tile
+    out.append(f'<rect x="222" y="152" width="176" height="176" rx="40" fill="{dark}" opacity="0.25" transform="translate(6 10)"/>'
+               f'<rect x="222" y="152" width="176" height="176" rx="40" fill="url(#{uid}-front)"/>'
+               f'<rect x="222" y="152" width="176" height="176" rx="40" fill="none" stroke="{lite}" stroke-width="2" opacity="0.6"/>')
+    out.append(glyph(accent))
+    return "\n".join(out)
+
+def draw_chat(uid, a):
+    """Assistant / chat app: a speech bubble with a sparkle."""
+    def glyph(acc):
+        return (f'<path d="M 262 200 h 96 a 14 14 0 0 1 14 14 v 46 a 14 14 0 0 1 -14 14 h -52 l -26 22 v -22 h -18 a 14 14 0 0 1 -14 -14 v -46 a 14 14 0 0 1 14 -14 z" fill="#fff"/>'
+                f'<circle cx="286" cy="240" r="6" fill="{acc}"/><circle cx="310" cy="240" r="6" fill="{acc}"/><circle cx="334" cy="240" r="6" fill="{acc}"/>'
+                f'<path d="M 372 178 l 5 12 l 12 5 l -12 5 l -5 12 l -5 -12 l -12 -5 l 12 -5 z" fill="#FFD27A"/>')
+    return _tile(uid, a, glyph)
+
+def draw_film(uid, a):
+    """Video generator: a clapperboard with a play triangle."""
+    def glyph(acc):
+        return (f'<rect x="258" y="222" width="104" height="72" rx="10" fill="#fff"/>'
+                f'<path d="M 258 222 l 8 -22 h 96 l -8 22 z" fill="#fff"/><path d="M 274 200 l 12 22 M 298 200 l 12 22 M 322 200 l 12 22 M 346 200 l 12 22" stroke="{acc}" stroke-width="6"/>'
+                f'<path d="M 298 240 l 34 18 l -34 18 z" fill="{acc}"/>')
+    return _tile(uid, a, glyph)
+
+def draw_voice(uid, a):
+    """Voice / audio app: a waveform."""
+    def glyph(acc):
+        bars = [(262, 22), (280, 44), (298, 70), (316, 96), (334, 70), (352, 44), (370, 22)]
+        return "".join(f'<rect x="{x-6}" y="{240-h/2}" width="12" height="{h}" rx="6" fill="{"#fff" if i % 2 == 0 else acc}"/>' for i, (x, h) in enumerate(bars))
+    return _tile(uid, a, glyph)
+
+def draw_lightbox(uid, a):
+    """Portable photo light box: an open cube with a bright LED rim and a small product (a bottle) inside."""
+    body = a.get("body", "#F2F2F2"); accent = a.get("accent", "#1E8E5A")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 200, 16)]
+    # back and side walls (soft white), floor
+    out.append(f'<path d="M 150 100 L 450 100 L 450 300 L 150 300 Z" fill="#FAFAFA" stroke="#D5D5D5" stroke-width="2"/>'
+               f'<path d="M 150 100 L 110 150 L 110 330 L 150 300 Z" fill="#E9E9E9" stroke="#D5D5D5" stroke-width="2"/>'
+               f'<path d="M 450 100 L 490 150 L 490 330 L 450 300 Z" fill="#E9E9E9" stroke="#D5D5D5" stroke-width="2"/>'
+               f'<path d="M 110 330 L 150 300 L 450 300 L 490 330 Z" fill="#F4F4F4" stroke="#D5D5D5" stroke-width="2"/>')
+    # LED strips glowing along the top edge
+    out.append(f'<path d="M 150 100 L 450 100" stroke="#FFF3C4" stroke-width="10" stroke-linecap="round"/><path d="M 150 100 L 450 100" stroke="#FFD27A" stroke-width="3" stroke-linecap="round"/>'
+               f'<path d="M 110 150 L 150 100 M 450 100 L 490 150" stroke="#FFF3C4" stroke-width="8" stroke-linecap="round"/>')
+    # the product inside: a small bottle in the accent colour, with a soft shadow
+    out.append(f'<ellipse cx="300" cy="300" rx="42" ry="8" fill="#000" opacity="0.08"/>'
+               f'<rect x="276" y="188" width="48" height="108" rx="14" fill="{accent}"/><rect x="284" y="172" width="32" height="24" rx="8" fill="{shade(accent, -.3)}"/>'
+               f'<rect x="284" y="216" width="32" height="40" rx="4" fill="#fff" opacity="0.85"/>')
+    # a phone on a mini stand at the front, aimed at the product
+    out.append(f'<rect x="392" y="262" width="34" height="62" rx="6" fill="#1B2A41" transform="rotate(-12 409 293)"/><rect x="396" y="268" width="26" height="46" rx="3" fill="#3A4453" transform="rotate(-12 409 293)"/>')
+    return "\n".join(out)
+
+def draw_tripod(uid, a):
+    """Phone tripod: three legs, a centre column and a phone clamp holding a phone."""
+    body = a.get("body", "#2F3A48"); accent = a.get("accent", "#1E8E5A")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 170, 16)]
+    dark = shade(body, -.3)
+    for dx in (-70, 0, 70):
+        out.append(f'<path d="M 300 236 L {300 + dx * 1.5} 332" stroke="{body}" stroke-width="12" stroke-linecap="round"/>'
+                   f'<circle cx="{300 + dx * 1.5}" cy="332" r="8" fill="{dark}"/>')
+    out.append(f'<rect x="292" y="130" width="16" height="110" rx="6" fill="{dark}"/><circle cx="300" cy="236" r="16" fill="{body}"/>')
+    # ball head and clamp with a phone in portrait
+    out.append(f'<circle cx="300" cy="126" r="12" fill="{accent}"/>'
+               f'<rect x="268" y="52" width="64" height="70" rx="6" fill="{dark}"/><rect x="262" y="58" width="76" height="12" rx="4" fill="{body}"/><rect x="262" y="104" width="76" height="12" rx="4" fill="{body}"/>'
+               f'<rect x="274" y="60" width="52" height="56" rx="4" fill="#3A4453"/><rect x="278" y="64" width="44" height="48" rx="3" fill="#8FD3AE"/>')
+    return "\n".join(out)
+
+def draw_ssd(uid, a):
+    """Portable SSD: a small rounded slab with a USB-C cable."""
+    body = a.get("body", "#2F3A48"); accent = a.get("accent", "#1E8E5A")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 190, 16)]
+    dark = shade(body, -.3); lite = shade(body, .2)
+    out.append(f'<rect x="190" y="170" width="220" height="118" rx="22" fill="url(#{uid}-front)" transform="rotate(-6 300 229)"/>'
+               f'<rect x="190" y="170" width="220" height="118" rx="22" fill="none" stroke="{lite}" stroke-width="2" opacity="0.6" transform="rotate(-6 300 229)"/>'
+               f'<rect x="214" y="196" width="80" height="12" rx="6" fill="{lite}" opacity="0.7" transform="rotate(-6 300 229)"/>'
+               f'<rect x="214" y="218" width="120" height="8" rx="4" fill="{lite}" opacity="0.4" transform="rotate(-6 300 229)"/>'
+               f'<rect x="300" y="250" width="86" height="22" rx="8" fill="{accent}" transform="rotate(-6 300 229)"/>')
+    # USB-C port and cable
+    out.append(f'<rect x="404" y="214" width="14" height="22" rx="4" fill="{dark}" transform="rotate(-6 300 229)"/>'
+               f'<path d="M 418 226 q 60 10 80 60 q 10 30 -20 44" fill="none" stroke="{dark}" stroke-width="7" stroke-linecap="round"/>'
+               f'<rect x="466" y="322" width="22" height="12" rx="4" fill="{dark}" transform="rotate(-30 477 328)"/>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

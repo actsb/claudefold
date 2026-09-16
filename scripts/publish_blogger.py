@@ -87,6 +87,12 @@ POSTS = {
         "slug_title": "Best Value Dog Essentials on Amazon 2026",
         "labels": ["Dogs", "Dog Supplies", "Pets", "Pet Products", "Buying Guide", "Best Sellers", "For Pet Owners", "Dog Harness", "Dog Toys", "Poop Bags", "Under $30", "Amazon vs Chewy", "Amazon Finds"],
     },
+    "aivideo": {
+        "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+        "title": "Claude + Higgsfield MCP: From One Photo to an AI Product Video (2026 Setup, Credits, 13 Uses, US Rules)",
+        "slug_title": "Claude Higgsfield MCP Workflow 2026",
+        "labels": ["AI Tools", "AI Video", "Higgsfield", "Claude", "Workflow Guide", "Creator Tools", "YouTube", "Small Business", "Buying Guide", "For Creators", "ElevenLabs", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

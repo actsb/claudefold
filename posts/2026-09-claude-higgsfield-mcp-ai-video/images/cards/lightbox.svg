@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Foldable photo light box, 12–16 inch (with LED strips) (product render)">
+<defs>
+<radialGradient id="clightbox-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="clightbox-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="clightbox-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="clightbox-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="clightbox-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#F2F2F2"/><stop offset="1" stop-color="#dbdbdb"/></linearGradient>
+<linearGradient id="clightbox-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3e3e3"/><stop offset="1" stop-color="#bfbfbf"/></linearGradient>
+<linearGradient id="clightbox-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="clightbox-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#F2F2F2"/><stop offset="1" stop-color="#cecece"/></radialGradient>
+<linearGradient id="clightbox-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="clightbox-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="clightbox-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="clightbox-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bcd82"/><stop offset="1" stop-color="#135b3a"/></linearGradient>
+<linearGradient id="clightbox-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#clightbox-bg)"/><ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#clightbox-blur)"/>
+<path d="M 150 100 L 450 100 L 450 300 L 150 300 Z" fill="#FAFAFA" stroke="#D5D5D5" stroke-width="2"/><path d="M 150 100 L 110 150 L 110 330 L 150 300 Z" fill="#E9E9E9" stroke="#D5D5D5" stroke-width="2"/><path d="M 450 100 L 490 150 L 490 330 L 450 300 Z" fill="#E9E9E9" stroke="#D5D5D5" stroke-width="2"/><path d="M 110 330 L 150 300 L 450 300 L 490 330 Z" fill="#F4F4F4" stroke="#D5D5D5" stroke-width="2"/>
+<path d="M 150 100 L 450 100" stroke="#FFF3C4" stroke-width="10" stroke-linecap="round"/><path d="M 150 100 L 450 100" stroke="#FFD27A" stroke-width="3" stroke-linecap="round"/><path d="M 110 150 L 150 100 M 450 100 L 490 150" stroke="#FFF3C4" stroke-width="8" stroke-linecap="round"/>
+<ellipse cx="300" cy="300" rx="42" ry="8" fill="#000" opacity="0.08"/><rect x="276" y="188" width="48" height="108" rx="14" fill="#1E8E5A"/><rect x="284" y="172" width="32" height="24" rx="8" fill="#03100a"/><rect x="284" y="216" width="32" height="40" rx="4" fill="#fff" opacity="0.85"/>
+<rect x="392" y="262" width="34" height="62" rx="6" fill="#1B2A41" transform="rotate(-12 409 293)"/><rect x="396" y="268" width="26" height="46" rx="3" fill="#3A4453" transform="rotate(-12 409 293)"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="318" height="28" rx="14" fill="#1B2A41"/>
+<text x="177.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Foldable · LED · white and black backdrops</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Photo light box</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

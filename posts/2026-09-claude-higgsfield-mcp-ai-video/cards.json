@@ -1,0 +1,151 @@
+{
+  "category": "film",
+  "buy_title": "The stack, one tap each: the two subscriptions the workflow needs, the voice that finishes it, and three cheap things that make the input photo better",
+  "buy_total": "The software: about $30–$45 a month at the entry tiers seen in September 2026 (a paid Claude plan plus Higgsfield's smallest plan; both change often, so the plan pages show today's). The desk kit: three small Amazon purchases whose buttons show today's prices. The Amazon buttons are paid links: as an Amazon Associate I earn from qualifying purchases. The software buttons are ordinary links; we hold no affiliate relationship with Higgsfield, Anthropic or ElevenLabs at the time of writing.",
+  "cards": [
+    {
+      "id": "higgsfield",
+      "category": "film",
+      "name": "Higgsfield (the rendering half: images, video, the MCP connector)",
+      "short": "Higgsfield",
+      "badge": "Render · the one subscription that opens every video model",
+      "chip": "Kling · Veo · Seedance in one app · MCP",
+      "art": {
+        "body": "#1B2A41",
+        "accent": "#7C5CFF"
+      },
+      "price": "from $9 to $79 a month at September 2026 prices (plans renamed twice this year; treat any price as a snapshot)",
+      "buy_if": "you want one subscription that carries the current top video models, a filmmaking layer on top of them, and the official connector that lets Claude drive it.",
+      "skip_if": "you only ever need one model: Kling direct starts at $10 a month and Google's AI Pro plan includes Veo 3.1 for $19.99, both without a credit balance that expires.",
+      "owners": "Praise in 2026 reviews: model breadth, speed, the Cinema Studio camera controls, the one-URL MCP setup. Complaints: credits burned on failed generations, prices and plan names that keep changing, a refund policy that covers unused credits only.",
+      "cta": "https://higgsfield.ai/",
+      "rel": "nofollow noopener",
+      "buy": {
+        "tier": "Step 1 · the renderer",
+        "pick": "The smallest plan is enough to learn on; move up only when the plan step is producing shots you keep. Never buy annual before one month of real use.",
+        "check": "On the plan page: monthly credits, that unused credits do not roll over, and that MCP generations always spend credits even on plans sold as unlimited. Read the refund terms before paying.",
+        "label": "See Higgsfield plans"
+      },
+      "cta_label": "See Higgsfield plans"
+    },
+    {
+      "id": "claude",
+      "category": "chat",
+      "name": "Claude (the planning half: shot list, prompts, review)",
+      "short": "Claude",
+      "badge": "Plan · the director that never touches a credit",
+      "chip": "Desktop · web · Claude Code · connectors",
+      "art": {
+        "body": "#C9781B",
+        "accent": "#FFF3C4"
+      },
+      "price": "free tier for chat; Pro $20 a month; Max from $100 at the time of writing (custom connectors need a paid plan)",
+      "buy_if": "you want the planning, prompt-writing and review steps done in one conversation, with the connector that sends approved shots to Higgsfield when you say so.",
+      "skip_if": "you already write shot lists and prompts by hand and just want to paste them into Higgsfield's web app; the free tier is enough to try the planning method.",
+      "owners": "What the tutorials agree on: the value is the plan step, and a one-line idea sent straight to video wastes credits. Custom connectors work in the web and desktop apps, in Cowork and in Claude Code.",
+      "cta": "https://claude.ai/",
+      "rel": "nofollow noopener",
+      "buy": {
+        "tier": "Step 2 · the planner",
+        "pick": "Pro is the practical floor: long conversations, photo uploads, and custom connectors. Max only if you batch dozens of jobs a day.",
+        "check": "Settings → Connectors → Add custom connector; the Higgsfield connector then asks for a Higgsfield login. Set every generating tool to approval-required.",
+        "label": "See Claude plans"
+      },
+      "cta_label": "See Claude plans"
+    },
+    {
+      "id": "elevenlabs",
+      "category": "voice",
+      "name": "ElevenLabs (the voice that turns a silent clip into an ad)",
+      "short": "ElevenLabs",
+      "badge": "Voice · narration, dubbing, sound effects",
+      "chip": "Text to speech · 30+ languages · SFX",
+      "art": {
+        "body": "#2F3A48",
+        "accent": "#8FD3AE"
+      },
+      "price": "free tier (non-commercial, attribution required); Starter about $5–6; Creator about $22 a month at the time of writing",
+      "buy_if": "your clips need a narrator, a product name pronounced right, or a dubbed version for a second market; the paid tiers carry the commercial licence.",
+      "skip_if": "the video runs on music and captions only, or you record your own voice; the free tier's licence does not cover a paid ad.",
+      "owners": "The voice tool named most often in the tutorials we reviewed and in one creator's published pipeline; complaints are about credit maths on long scripts and voices drifting on long passages.",
+      "cta": "https://elevenlabs.io/",
+      "rel": "nofollow noopener",
+      "buy": {
+        "tier": "Step 3 · the voice",
+        "pick": "Starter for a few ads a month; Creator when you dub or run more than about ten minutes of speech a month.",
+        "check": "The commercial licence starts at the paid tiers; free-tier audio must credit elevenlabs.io and cannot be used in a monetised video.",
+        "label": "See ElevenLabs plans"
+      },
+      "cta_label": "See ElevenLabs plans"
+    },
+    {
+      "id": "lightbox",
+      "category": "lightbox",
+      "name": "Foldable photo light box, 12–16 inch (with LED strips)",
+      "short": "Photo light box",
+      "badge": "Input · the $30 that fixes half of all bad renders",
+      "chip": "Foldable · LED · white and black backdrops",
+      "art": {
+        "body": "#F2F2F2",
+        "accent": "#1E8E5A"
+      },
+      "price": "budget tier; the button shows today's price on Amazon",
+      "buy_if": "your product photos are shot on a kitchen counter; the models copy every shadow and colour cast they are given.",
+      "skip_if": "you shoot people or large items, or you already own a softbox.",
+      "owners": "Praise in owner reviews: even light and the fold-flat case. Complaints: flimsy backdrops on the cheapest boxes, and LEDs that run cool-white only.",
+      "cta": "https://www.amazon.com/s?k=photo+light+box+16+inch+foldable+LED&tag=verdictpicks-20",
+      "buy": {
+        "tier": "Desk kit · light",
+        "pick": "A 16-inch box fits a shoebox-sized product; 12-inch is enough for bottles and gadgets.",
+        "check": "Two LED strips, a white and a black backdrop, and a front shooting hole; \"dimmable\" if you shoot glossy things.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "tripod",
+      "category": "tripod",
+      "name": "Phone tripod with a ball head and remote",
+      "short": "Phone tripod",
+      "badge": "Input · the same angle for every shot",
+      "chip": "Ball head · Bluetooth remote · 50–60 in",
+      "art": {
+        "body": "#2F3A48",
+        "accent": "#1E8E5A"
+      },
+      "price": "budget tier; the button shows today's price on Amazon",
+      "buy_if": "you want the reference stills the models start from to share one angle and one height, so a series looks like a series.",
+      "skip_if": "you already own any tripod with a phone clamp.",
+      "owners": "Praise: the remote and the height. Complaints: wobble at full extension and clamps that won't hold a phone in a thick case.",
+      "cta": "https://www.amazon.com/s?k=phone+tripod+ball+head+bluetooth+remote&tag=verdictpicks-20",
+      "buy": {
+        "tier": "Desk kit · angle",
+        "pick": "Any 50–60 inch tripod with a ball head; the remote matters more than the brand.",
+        "check": "A clamp that holds a phone in a case, a ball head that locks, and a remote in the box.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "ssd",
+      "category": "ssd",
+      "name": "Portable SSD, 1–2 TB (USB-C)",
+      "short": "Portable SSD",
+      "badge": "Output · where the renders live",
+      "chip": "USB-C · 1,000 MB/s class · 1–2 TB",
+      "art": {
+        "body": "#2F3A48",
+        "accent": "#7C5CFF"
+      },
+      "price": "mid-range; the button shows today's price on Amazon",
+      "buy_if": "you keep the source stills, every generation and the final cuts; a month of this workflow is tens of gigabytes.",
+      "skip_if": "you already have a fast drive with room, or you delete generations as you go.",
+      "owners": "Praise: speed and size. Complaints: heat on long copies, short cables, and counterfeit listings promising impossible capacities for pocket money.",
+      "cta": "https://www.amazon.com/s?k=portable+SSD+2TB+USB-C&tag=verdictpicks-20",
+      "buy": {
+        "tier": "Desk kit · storage",
+        "pick": "2 TB if you keep everything; 1 TB if you cull.",
+        "check": "USB 3.2 Gen 2 or faster, a USB-C cable in the box, and a brand you have heard of; the counterfeits live in the \"4 TB for $30\" listings.",
+        "label": "See today's price"
+      }
+    }
+  ]
+}

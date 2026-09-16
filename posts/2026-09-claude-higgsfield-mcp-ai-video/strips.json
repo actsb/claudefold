@@ -1,0 +1,26 @@
+{
+ "strips": [
+  {
+   "id": "credit-burn",
+   "card": "higgsfield",
+   "title": "The same ad, two ways — why the plan step exists",
+   "panels": [
+    {"glyph": "phone", "head": "Monday, 9 a.m.: straight to video", "text": "One line, no plan, straight into the video model. Pretty clip, wrong colour, 25 credits gone.", "host": {"pose": "present"}},
+    {"glyph": "warning", "product": true, "head": "Tuesday: the plan first", "text": "Photo in, plan out: three shots, a lens, a light, the exact colour code. Zero credits spent."},
+    {"glyph": "camera", "head": "The stills round", "text": "Six frames for about the price of one clip. Two approved, one sent back for a wider frame."},
+    {"glyph": "check", "head": "Wednesday: the ad", "text": "Three clips, one retry, one voice line, one export. About 185 credits, every one of them on purpose.", "host": {"pose": "thumbsup"}}
+   ]
+  },
+  {
+   "id": "who-pays",
+   "card": "higgsfield",
+   "title": "Who pays for the video — the four routes, in real life",
+   "panels": [
+    {"glyph": "home", "head": "The bakery", "text": "A 15-second ad for the shop down the street. The client pays per video and signs off the plan first.", "host": {"pose": "point"}},
+    {"glyph": "check", "product": true, "head": "The seller", "text": "A listing video for a product she already sells, shown exactly as it is. Amazon's video rules still apply."},
+    {"glyph": "music", "head": "The channel", "text": "A Shorts channel: 1,000 subscribers and 4,000 watch hours before a cent, every synthetic clip labelled."},
+    {"glyph": "map", "head": "The reviewer", "text": "A guide like this one. If a reader subscribes through a paid link, the tool pays a share. Disclosed above the link, every time.", "host": {"pose": "present"}}
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" role="img" aria-label="The three-step rule: plan in Claude for free, approve stills, then spend credits on video"><rect width="1200" height="640" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start" >The three-step rule the creators keep repeating</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >Plan for free, lock the look on cheap stills, and only then pay for video</text>
+<rect x="40" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<rect x="40" y="110" width="360" height="70" rx="16" fill="#C9781B"/><rect x="40" y="150" width="360" height="30" fill="#C9781B"/>
+<text x="60" y="148" font-size="28" font-weight="800" fill="#fff" text-anchor="start" >1 · Plan</text>
+<text x="380" y="148" font-size="17" font-weight="400" fill="#fff" text-anchor="end" >in Claude</text>
+<text x="60" y="214" font-size="15" font-weight="700" fill="#555" text-anchor="start" >Credits:</text>
+<text x="136" y="214" font-size="17" font-weight="800" fill="#1E8E5A" text-anchor="start" >0 credits</text>
+<circle cx="360" cy="208" r="11" fill="#1E8E5A"/><path d="M 355 208 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="70" cy="254" r="9" fill="#C9781B"/><path d="M 65 254 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="259" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Product photo + one sentence of</text><text x="90" y="279" font-size="16" font-weight="400" fill="#333" text-anchor="start" >intent</text>
+<circle cx="70" cy="306" r="9" fill="#C9781B"/><path d="M 65 306 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="311" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Shot list: length, aspect ratio,</text><text x="90" y="331" font-size="16" font-weight="400" fill="#333" text-anchor="start" >camera move</text>
+<circle cx="70" cy="358" r="9" fill="#C9781B"/><path d="M 65 358 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="363" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Prompts written for the model you</text><text x="90" y="383" font-size="16" font-weight="400" fill="#333" text-anchor="start" >will use</text>
+<circle cx="70" cy="410" r="9" fill="#C9781B"/><path d="M 65 410 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="90" y="415" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Iterate as often as you like</text>
+<path d="M 402 300 l 14 0 M 408 292 l 8 8 l -8 8" fill="none" stroke="#1B2A41" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="420" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<rect x="420" y="110" width="360" height="70" rx="16" fill="#1B2A41"/><rect x="420" y="150" width="360" height="30" fill="#1B2A41"/>
+<text x="440" y="148" font-size="28" font-weight="800" fill="#fff" text-anchor="start" >2 · Stills</text>
+<text x="760" y="148" font-size="17" font-weight="400" fill="#fff" text-anchor="end" >in Higgsfield</text>
+<text x="440" y="214" font-size="15" font-weight="700" fill="#555" text-anchor="start" >Credits:</text>
+<text x="516" y="214" font-size="17" font-weight="800" fill="#C9781B" text-anchor="start" >a few credits each</text>
+<ellipse cx="740" cy="216" rx="16" ry="6" fill="#C9781B" stroke="#1B2A41" stroke-width="1.2"/>
+<circle cx="450" cy="254" r="9" fill="#1B2A41"/><path d="M 445 254 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="259" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Generate 3–6 test frames from the</text><text x="470" y="279" font-size="16" font-weight="400" fill="#333" text-anchor="start" >plan</text>
+<circle cx="450" cy="306" r="9" fill="#1B2A41"/><path d="M 445 306 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="311" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Check colour, product shape,</text><text x="470" y="331" font-size="16" font-weight="400" fill="#333" text-anchor="start" >framing</text>
+<circle cx="450" cy="358" r="9" fill="#1B2A41"/><path d="M 445 358 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="363" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Send back what's wrong; approve</text><text x="470" y="383" font-size="16" font-weight="400" fill="#333" text-anchor="start" >what's right</text>
+<circle cx="450" cy="410" r="9" fill="#1B2A41"/><path d="M 445 410 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="415" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Video only ever sees approved</text><text x="470" y="435" font-size="16" font-weight="400" fill="#333" text-anchor="start" >frames</text>
+<path d="M 782 300 l 14 0 M 788 292 l 8 8 l -8 8" fill="none" stroke="#1B2A41" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="800" y="110" width="360" height="400" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<rect x="800" y="110" width="360" height="70" rx="16" fill="#7C5CFF"/><rect x="800" y="150" width="360" height="30" fill="#7C5CFF"/>
+<text x="820" y="148" font-size="28" font-weight="800" fill="#fff" text-anchor="start" >3 · Video</text>
+<text x="1140" y="148" font-size="17" font-weight="400" fill="#fff" text-anchor="end" >in Higgsfield</text>
+<text x="820" y="214" font-size="15" font-weight="700" fill="#555" text-anchor="start" >Credits:</text>
+<text x="896" y="214" font-size="17" font-weight="800" fill="#C8102E" text-anchor="start" >the expensive step</text>
+<ellipse cx="1120" cy="216" rx="16" ry="6" fill="#C9781B" stroke="#1B2A41" stroke-width="1.2"/><ellipse cx="1120" cy="210" rx="16" ry="6" fill="#C9781B" stroke="#1B2A41" stroke-width="1.2"/><ellipse cx="1120" cy="204" rx="16" ry="6" fill="#C9781B" stroke="#1B2A41" stroke-width="1.2"/><ellipse cx="1120" cy="198" rx="16" ry="6" fill="#C9781B" stroke="#1B2A41" stroke-width="1.2"/>
+<circle cx="830" cy="254" r="9" fill="#7C5CFF"/><path d="M 825 254 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="850" y="259" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Image-to-video on the approved</text><text x="850" y="279" font-size="16" font-weight="400" fill="#333" text-anchor="start" >frames</text>
+<circle cx="830" cy="306" r="9" fill="#7C5CFF"/><path d="M 825 306 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="850" y="311" font-size="16" font-weight="400" fill="#333" text-anchor="start" >5–15 s per clip; retries cost the</text><text x="850" y="331" font-size="16" font-weight="400" fill="#333" text-anchor="start" >same again</text>
+<circle cx="830" cy="358" r="9" fill="#7C5CFF"/><path d="M 825 358 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="850" y="363" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Voice and music added after</text>
+<circle cx="830" cy="410" r="9" fill="#7C5CFF"/><path d="M 825 410 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="850" y="415" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Export, caption, label as AI-made</text>
+<rect x="40" y="532" width="1120" height="70" rx="16" fill="#FFF6E3" stroke="#F0D9A8"/>
+<path d="M 70 555 l 12 21 h -24 z" fill="#C9781B"/><rect x="68.7" y="562" width="2.6" height="8" rx="1.3" fill="#fff"/><circle cx="70" cy="573" r="1.6" fill="#fff"/>
+<text x="92" y="560" font-size="15" font-weight="400" fill="#333" text-anchor="start" >Two things the tutorials flag: generations sent through the MCP or CLI always deduct credits, even on an "unlimited"</text><text x="92" y="580" font-size="15" font-weight="400" fill="#333" text-anchor="start" >web plan; and in Claude's connector settings set every generating tool to "approval required" so nothing renders</text><text x="92" y="600" font-size="15" font-weight="400" fill="#333" text-anchor="start" >without a click.</text>
+<text x="40" y="618" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Process as taught in the Oppadu Excel lesson (July 2026) and Higgsfield's MCP help centre; credit costs vary by model and resolution.</text>
+</g></svg>

@@ -57,8 +57,8 @@ def responsive_grid(html_text):
         t = re.sub(r"<tr>.*?</tr>", fix_row, t, flags=re.S)
         t = t.replace("<table ", '<table class="vp-grid" ', 1)
         return t
-    html_text = re.sub(r'<table style="border-collapse:collapse;width:100%;[^"]*min-width:\d+px[^"]*">.*?</table>', fix_table, html_text, count=1, flags=re.S)
-    return html_text.replace('<div style="overflow-x:auto;margin:1em 0 1.4em;">', '<div class="vp-gridwrap" style="overflow-x:auto;margin:1em 0 1.4em;">', 1)
+    html_text = re.sub(r'<table style="border-collapse:collapse;width:100%;[^"]*min-width:\d+px[^"]*">.*?</table>', fix_table, html_text, count=0, flags=re.S)
+    return html_text.replace('<div style="overflow-x:auto;margin:1em 0 1.4em;">', '<div class="vp-gridwrap" style="overflow-x:auto;margin:1em 0 1.4em;">')
 
 
 def card_svg(d, cid):
@@ -66,8 +66,13 @@ def card_svg(d, cid):
     svg = f.read_text(encoding="utf-8").strip()
     return re.sub(r"^<\?xml[^>]*\?>\s*", "", svg)
 
+def is_paid(c):
+    return "amazon.com" in c.get("cta", "") or c.get("paid", False)
+
 def cta(c, label):
-    return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="nofollow sponsored noopener" target="_blank">{esc(label)} →</a>'
+    rel = c.get("rel", "nofollow sponsored noopener" if is_paid(c) else "nofollow noopener")
+    tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;">(paid link)</span>' if is_paid(c) else ""
+    return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank">{esc(c.get("cta_label", label))} →</a>' + tag
 
 def top_pick(d, c):
     return f'''<div class="vp-top" id="top-pick" style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;border:3px solid #1E8E5A;border-radius:16px;padding:20px;background:#fff;margin:1.2em 0 1.6em;">
@@ -89,7 +94,7 @@ WATCH = ('<div class="vp-watch" id="watch-{cid}" style="margin:18px -18px -18px;
          '<div style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px;">'
          '<span style="display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;background:#1E8E5A;color:#fff;font-size:12px;flex:0 0 auto;">&#9654;</span>'
          '<span style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Watch &middot; video {n} of {total}</span>'
-         '<span style="margin-left:auto;font-size:13px;color:#666;">{channel}</span></div>'
+         '<span style="margin-left:auto;font-size:13px;color:#666;">{channel} &middot; <a href="https://www.youtube.com/watch?v={vid}" rel="noopener" target="_blank" style="color:#1B2A41;font-weight:700;">Watch on YouTube</a></span></div>'
          '<div class="vp-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;background:#000;">'
          '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}" title="{title}" loading="lazy" '
          'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
@@ -142,9 +147,9 @@ def buy_box(d, cards):
             f'<div style="font-size:17px;font-weight:700;color:#1B2A41;line-height:1.3;">{esc(c["name"])}</div>'
             f'<div style="font-size:14px;color:#444;margin-top:2px;"><strong>Pick:</strong> {esc(b["pick"])}</div>'
             f'<div style="font-size:13px;color:#666;margin-top:2px;"><strong>Check:</strong> {esc(b["check"])}</div></div>'
-            f'<a href="{esc(c["cta"])}" rel="nofollow sponsored noopener" target="_blank" style="flex:0 0 auto;display:inline-flex;align-items:center;gap:8px;background:#1E8E5A;color:#fff;font-weight:700;font-size:16px;padding:12px 18px;border-radius:10px;text-decoration:none;white-space:nowrap;">'
+            f'<div style="flex:0 0 auto;text-align:center;"><a href="{esc(c["cta"])}" rel="{c.get("rel", "nofollow sponsored noopener" if is_paid(c) else "nofollow noopener")}" target="_blank" style="display:inline-flex;align-items:center;gap:8px;background:#1E8E5A;color:#fff;font-weight:700;font-size:16px;padding:12px 18px;border-radius:10px;text-decoration:none;white-space:nowrap;">'
             f'<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.8a2 2 0 0 0 2-1.5L21 8H7"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg>'
-            f'{esc(b.get("label", "See price on Amazon"))}</a></div>')
+            f'{esc(b.get("label", "See price on Amazon"))}</a>' + ('<div style="font-size:12px;color:#666;margin-top:4px;">paid link</div>' if is_paid(c) else '<div style="font-size:12px;color:#666;margin-top:4px;">plain link</div>') + '</div></div>')
     total = spec.get("buy_total", "")
     return (f'<div class="vp-buybox" id="buy-box" style="border:2px solid #1B2A41;border-radius:16px;overflow:hidden;background:#fff;margin:1.6em 0;">'
             f'<div style="display:flex;align-items:center;gap:12px;padding:14px 18px;background:#1B2A41;color:#fff;">'
