@@ -15,7 +15,7 @@ BADGE = ('display:inline-block;font-size:13px;font-weight:700;text-transform:upp
 BTN = ('display:inline-block;background:#1E8E5A;color:#fff;text-decoration:none;font-weight:700;'
        'font-size:18px;padding:12px 20px;border-radius:8px;')
 VIDEO = ('<div class="vp-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;background:#000;margin:14px 0 4px;">'
-         '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}" title="{title}" loading="lazy" '
+         '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}?rel=0" title="{title}" loading="lazy" '
          'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>')
 
 def esc(s): return html.escape(s, quote=True)
@@ -96,7 +96,7 @@ WATCH = ('<div class="vp-watch" id="watch-{cid}" style="margin:18px -18px -18px;
          '<span style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Watch &middot; video {n} of {total}</span>'
          '<span style="margin-left:auto;font-size:13px;color:#666;">{channel} &middot; <a href="https://www.youtube.com/watch?v={vid}" rel="noopener" target="_blank" style="color:#1B2A41;font-weight:700;">Watch on YouTube</a></span></div>'
          '<div class="vp-video" style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:10px;background:#000;">'
-         '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}" title="{title}" loading="lazy" '
+         '<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/{vid}?rel=0" title="{title}" loading="lazy" '
          'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
          '<p style="margin:10px 0 0;font-size:15px;line-height:1.5;color:#333;"><strong style="color:#1B2A41;">Why this one:</strong> {why}</p></div>')
 
