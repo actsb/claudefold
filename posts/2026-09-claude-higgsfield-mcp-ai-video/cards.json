@@ -1,7 +1,7 @@
 {
   "category": "film",
   "buy_title": "The stack, one tap each: the two subscriptions the workflow needs, the voice that finishes it, and three cheap things that make the input photo better",
-  "buy_total": "The software: about $30–$45 a month at the entry tiers seen in September 2026 (a paid Claude plan plus Higgsfield's smallest plan; both change often, so the plan pages show today's). The desk kit: three small Amazon purchases whose buttons show today's prices. The Amazon buttons are paid links: as an Amazon Associate I earn from qualifying purchases. The software buttons are ordinary links; we hold no affiliate relationship with Higgsfield, Anthropic or ElevenLabs at the time of writing.",
+  "buy_total": "The software: about $30–$45 a month at the entry tiers seen in September 2026 (a paid Claude plan plus Higgsfield's smallest plan; both change often, so the plan pages show today's). The desk kit: three small Amazon purchases whose buttons show today's prices. The Amazon buttons are paid links: as an Amazon Associate I earn from qualifying purchases. The ElevenLabs buttons are paid links: if you subscribe through one, we earn a commission at no extra cost to you. The Higgsfield and Claude buttons are ordinary links.",
   "cards": [
     {
       "id": "higgsfield",
@@ -68,15 +68,16 @@
       "buy_if": "your clips need a narrator, a product name pronounced right, or a dubbed version for a second market; the paid tiers carry the commercial licence.",
       "skip_if": "the video runs on music and captions only, or you record your own voice; the free tier's licence does not cover a paid ad.",
       "owners": "The voice tool named most often in the tutorials we reviewed and in one creator's published pipeline; complaints are about credit maths on long scripts and voices drifting on long passages.",
-      "cta": "https://elevenlabs.io/",
-      "rel": "nofollow noopener",
+      "cta": "https://try.elevenlabs.io/yjuf2xc4bkom",
+      "rel": "nofollow sponsored noopener",
       "buy": {
         "tier": "Step 3 · the voice",
         "pick": "Starter for a few ads a month; Creator when you dub or run more than about ten minutes of speech a month.",
         "check": "The commercial licence starts at the paid tiers; free-tier audio must credit elevenlabs.io and cannot be used in a monetised video.",
         "label": "See ElevenLabs plans"
       },
-      "cta_label": "See ElevenLabs plans"
+      "cta_label": "See ElevenLabs plans",
+      "paid": true
     },
     {
       "id": "lightbox",
