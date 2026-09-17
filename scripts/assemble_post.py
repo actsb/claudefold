@@ -160,6 +160,26 @@ def buy_box(d, cards):
             (f'<div style="padding:12px 18px 14px;border-top:1px solid #e6e6e6;background:#F7F5F0;font-size:14px;color:#444;line-height:1.5;">{total}</div>' if total else "") +
             '</div>')
 
+# Ways to follow the blog. "email" stays empty until the newsletter list exists; the button is then added everywhere on rebuild.
+FOLLOW = {"email": "", "blogger": "https://www.blogger.com/follow.g?blogID=9072207571822466986",
+          "rss": "https://acts39.blogspot.com/feeds/posts/default", "youtube": "https://www.youtube.com/@ubuntu29", "page": "/p/follow-verdict-picks.html"}
+
+def follow_block():
+    """The follow box that closes every post: email (when the list exists), Blogger's native follow, the feed, YouTube."""
+    btn = 'display:inline-block;text-decoration:none;font-weight:700;font-size:15px;padding:10px 16px;border-radius:9px;'
+    buttons = []
+    if FOLLOW["email"]:
+        buttons.append(f'<a href="{FOLLOW["email"]}" rel="noopener" target="_blank" style="{btn}background:#1E8E5A;color:#fff;">Email me new guides</a>')
+    buttons.append(f'<a href="{FOLLOW["blogger"]}" rel="noopener" target="_blank" style="{btn}background:#1B2A41;color:#fff;">Follow on Blogger</a>')
+    buttons.append(f'<a href="{FOLLOW["rss"]}" rel="noopener" target="_blank" style="{btn}background:#fff;color:#1B2A41;border:2px solid #1B2A41;">RSS feed</a>')
+    buttons.append(f'<a href="{FOLLOW["youtube"]}" rel="noopener" target="_blank" style="{btn}background:#fff;color:#1B2A41;border:2px solid #1B2A41;">YouTube</a>')
+    return ('<div class="vp-follow" id="follow" style="border:2px solid #1B2A41;border-radius:16px;padding:18px 20px;background:#F7F5F0;margin:1.6em 0;">'
+            '<div style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Follow Verdict Picks</div>'
+            '<h3 style="margin:.3em 0 .4em;color:#1B2A41;font-size:1.3em;">Get the next guide when it lands</h3>'
+            '<p style="margin:0 0 .9em;font-size:16px;color:#333;">One or two guides a week, tested picks only, no sale pitches. Pick the way you like to follow:</p>'
+            '<div style="display:flex;flex-wrap:wrap;gap:10px;">' + "".join(buttons) + '</div>'
+            f'<p style="margin:.8em 0 0;font-size:13px;color:#666;">Every option explained, and what we will never send: <a href="{FOLLOW["page"]}" style="color:#1B2A41;font-weight:700;">the follow page</a>.</p></div>\n')
+
 def main(post_dir):
     d = pathlib.Path(post_dir)
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
@@ -169,7 +189,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
     strip = ('<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> '
              '<a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · '
-             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a></p>\n')
+             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="/p/follow-verdict-picks.html" style="color:#1E8E5A;font-weight:700;">Follow</a></p>\n')
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
@@ -201,7 +221,7 @@ def main(post_dir):
                 f'<div style="flex:1 1 260px;min-width:0;"><h3 style="margin:0 0 .3em;color:#1B2A41;font-size:1.25em;">Save this guide for later</h3>'
                 f'<p style="margin:0 0 .8em;font-size:17px;">Pin it to your Pinterest board and it will be there when the sale hits.</p>'
                 f'<a href="{save}" rel="noopener nofollow" target="_blank" style="display:inline-block;background:#E60023;color:#fff;text-decoration:none;font-weight:700;font-size:17px;padding:11px 18px;border-radius:8px;">Save to Pinterest</a></div></div>')
-    easy = re.sub(r"<!--PIN-->", pin_block, easy)
+    easy = re.sub(r"<!--PIN-->", lambda m: pin_block(m) + follow_block(), easy)
     def strip_fig(m):
         sid, cap = m.group(1), m.group(2) or ""
         f = d / "images" / "strips" / f"{sid}.svg"
