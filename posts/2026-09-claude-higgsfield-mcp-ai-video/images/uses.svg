@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Thirteen jobs the Claude + Higgsfield workflow does: ads, content, brand assets"><rect width="1200" height="700" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start" >Thirteen jobs, one chat window</text>
-<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >The uses covered by Oppadu's five skills and Higgsfield's nine official skills</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >The uses covered by a five-skill community pack and Higgsfield's nine official skills</text>
 <rect x="40" y="110" width="360" height="540" rx="16" fill="#fff" stroke="#E3E1DB"/>
 <rect x="40" y="110" width="360" height="54" rx="16" fill="#C9781B"/><rect x="40" y="140" width="360" height="24" fill="#C9781B"/>
 <text x="60" y="146" font-size="22" font-weight="800" fill="#fff" text-anchor="start" >Ads and listings</text>
@@ -36,5 +36,5 @@
 <text x="862" y="385" font-size="16" font-weight="400" fill="#333" text-anchor="start" >Website hero visuals and</text><text x="862" y="406" font-size="16" font-weight="400" fill="#333" text-anchor="start" >scroll animation</text>
 <circle cx="834" cy="472" r="17" fill="#1B2A41"/><text x="834" y="478" font-size="16" font-weight="800" fill="#fff" text-anchor="middle" >13</text>
 <text x="862" y="477" font-size="16" font-weight="400" fill="#333" text-anchor="start" >A consistent character (Soul</text><text x="862" y="498" font-size="16" font-weight="400" fill="#333" text-anchor="start" >ID) reused across every job</text>
-<text x="40" y="678" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Jobs 1–3, 6–7 and 10 are Oppadu's higgs-* skills; 4–5, 8–9 and 11–13 are Higgsfield's official skills repo (github.com/higgsfield-ai/skills). Counted once each.</text>
+<text x="40" y="678" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Jobs 1–3, 6–7 and 10 are the community pack's skills; 4–5, 8–9 and 11–13 are Higgsfield's official skills repo (github.com/higgsfield-ai/skills). Counted once each.</text>
 </g></svg>

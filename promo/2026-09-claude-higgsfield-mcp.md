@@ -10,12 +10,12 @@ Disclosure to carry on every social post that links here: "Some links in the gui
 Boards: a new "AI tools for creators" board, plus Best of Amazon 2026. Pin 1: pin.png with the copy in pinterest/pins-2026-09.md (#11). Pin 2: workflow.png — "Plan for free, approve the stills, then pay for video: the rule every Claude + Higgsfield tutorial teaches". Pin 3: rules.png — "Twelve rules that keep an AI product ad legal in the US (FTC, YouTube labels, likeness laws, licences)".
 
 ## X / Threads (day 2)
-1. The Korean tutorial scene figured out the Claude + Higgsfield workflow months before the English one: plan in Claude for free, approve cheap stills, only then pay for video. We watched the 13-use guide, read the lesson behind it, and ran the planning half on a dog: [link]
+1. The Claude + Higgsfield workflow in one rule: plan in Claude for free, approve cheap stills, only then pay for video. We watched the tutorial wave, priced a 15-second ad in credits, and ran the planning half on a dog: [link]
 2. A 15-second AI product ad, planned first: six stills, three clips, one retry each, one voice line. About 185 credits, roughly $12 in prepaid credits this month. Skip the plan and the meter decides: [link]
 3. Twelve rules before you publish an AI ad in the US: disclose paid links before the click, no AI "customer" testimonials, label synthetic media, never a real face without consent, commercial rights only on paid tiers: [link]
 
 ## Facebook (day 3)
-"If you've seen the 'Claude + Higgsfield' videos and wondered what the workflow actually is: an assistant writes the shot list (free), a video app renders the stills and clips (credits), and the whole trick is never generating video until the stills are approved. We broke down the Korean 13-use guide and the English tutorials, priced a 15-second ad in credits, wrote a real plan for a harness ad starring Noeul the Jindo, and listed the twelve US rules (FTC disclosures, YouTube's AI labels, likeness laws, licences) that keep an AI ad legal. [link]"
+"If you've seen the 'Claude + Higgsfield' videos and wondered what the workflow actually is: an assistant writes the shot list (free), a video app renders the stills and clips (credits), and the whole trick is never generating video until the stills are approved. We broke down the tutorials, priced a 15-second ad in credits, wrote a real plan for a harness ad starring Noeul the Jindo, and listed the twelve US rules (FTC disclosures, YouTube's AI labels, likeness laws, licences) that keep an AI ad legal. [link]"
 Groups: small-business marketing groups (the client-work route), Amazon FBA and Etsy seller groups (jobs 4 and 5: photoshoot and marketplace cards), AI-tools groups (the setup and the credit catch).
 
 ## Reddit (day 4, comments only)

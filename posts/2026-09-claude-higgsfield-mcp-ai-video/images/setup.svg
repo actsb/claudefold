@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="Connecting Claude to Higgsfield in six steps: connector, sign-in, permissions, skills, first run"><rect width="1200" height="560" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start" >The ten-minute setup, no code</text>
-<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >What the Oppadu lesson and Higgsfield's help centre have you do, in order</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start" >What the tutorials and Higgsfield's help centre have you do, in order</text>
 <rect x="40" y="112" width="360" height="182" rx="16" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="74" cy="146" r="20" fill="#1B2A41"/><text x="74" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" >1</text>
 <text x="104" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start" >Open Claude's connector settings</text>
@@ -20,10 +20,10 @@
 <rect x="420" y="312" width="360" height="182" rx="16" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="454" cy="346" r="20" fill="#1B2A41"/><text x="454" y="353" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" >5</text>
 <text x="484" y="352" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start" >Add the skills</text>
-<text x="440" y="388" font-size="15" font-weight="400" fill="#333" text-anchor="start" >Oppadu's five higgs-* skills (Korean</text><text x="440" y="408" font-size="15" font-weight="400" fill="#333" text-anchor="start" >lesson) or Higgsfield's nine official</text><text x="440" y="428" font-size="15" font-weight="400" fill="#333" text-anchor="start" >skills: product photoshoot, brand kit,</text><text x="440" y="448" font-size="15" font-weight="400" fill="#333" text-anchor="start" >explainer, thumbnails, more.</text>
+<text x="440" y="388" font-size="15" font-weight="400" fill="#333" text-anchor="start" >The five-skill community pack or</text><text x="440" y="408" font-size="15" font-weight="400" fill="#333" text-anchor="start" >Higgsfield's nine official skills:</text><text x="440" y="428" font-size="15" font-weight="400" fill="#333" text-anchor="start" >product photoshoot, brand kit,</text><text x="440" y="448" font-size="15" font-weight="400" fill="#333" text-anchor="start" >explainer, thumbnails, more.</text>
 <rect x="800" y="312" width="360" height="182" rx="16" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="834" cy="346" r="20" fill="#1B2A41"/><text x="834" y="353" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" >6</text>
 <text x="864" y="352" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start" >First run: plan only</text>
 <text x="820" y="388" font-size="15" font-weight="400" fill="#333" text-anchor="start" >Upload one product photo, ask for a</text><text x="820" y="408" font-size="15" font-weight="400" fill="#333" text-anchor="start" >15-second plan, read it. Generate</text><text x="820" y="428" font-size="15" font-weight="400" fill="#333" text-anchor="start" >nothing until the shot list is right.</text><text x="820" y="448" font-size="15" font-weight="400" fill="#333" text-anchor="start" >That run costs zero credits.</text>
-<text x="40" y="538" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Sources: Higgsfield MCP page and help centre (April 2026 launch); Oppadu Excel lesson (July 2026). Menu names may move; the order does not.</text>
+<text x="40" y="538" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Sources: Higgsfield MCP page and help centre (April 2026 launch); the 2026 tutorials and lesson pages. Menu names may move; the order does not.</text>
 </g></svg>

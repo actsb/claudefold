@@ -51,5 +51,5 @@
 <rect x="40" y="532" width="1120" height="70" rx="16" fill="#FFF6E3" stroke="#F0D9A8"/>
 <path d="M 70 555 l 12 21 h -24 z" fill="#C9781B"/><rect x="68.7" y="562" width="2.6" height="8" rx="1.3" fill="#fff"/><circle cx="70" cy="573" r="1.6" fill="#fff"/>
 <text x="92" y="560" font-size="15" font-weight="400" fill="#333" text-anchor="start" >Two things the tutorials flag: generations sent through the MCP or CLI always deduct credits, even on an "unlimited"</text><text x="92" y="580" font-size="15" font-weight="400" fill="#333" text-anchor="start" >web plan; and in Claude's connector settings set every generating tool to "approval required" so nothing renders</text><text x="92" y="600" font-size="15" font-weight="400" fill="#333" text-anchor="start" >without a click.</text>
-<text x="40" y="618" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Process as taught in the Oppadu Excel lesson (July 2026) and Higgsfield's MCP help centre; credit costs vary by model and resolution.</text>
+<text x="40" y="618" font-size="13" font-weight="400" fill="#888" text-anchor="start" >Process as taught in the 2026 tutorials and Higgsfield's MCP help centre; credit costs vary by model and resolution.</text>
 </g></svg>

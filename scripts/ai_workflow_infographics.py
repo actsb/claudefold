@@ -62,19 +62,19 @@ def workflow():
     # the two warnings
     o.append(tile(40, 532, 1120, 70, "#FFF6E3", "#F0D9A8"))
     o.append(warn(70, 567)); o.append(para(92, 560, "Two things the tutorials flag: generations sent through the MCP or CLI always deduct credits, even on an \"unlimited\" web plan; and in Claude's connector settings set every generating tool to \"approval required\" so nothing renders without a click.", 118, 15, 20))
-    o += foot(W, H, "Process as taught in the Oppadu Excel lesson (July 2026) and Higgsfield's MCP help centre; credit costs vary by model and resolution.")
+    o += foot(W, H, "Process as taught in the 2026 tutorials and Higgsfield's MCP help centre; credit costs vary by model and resolution.")
     return "\n".join(o)
 
 # ---------------------------------------------------------------------------------------------------
 def setup():
     W, H = 1200, 560
     o = head(W, H, "Connecting Claude to Higgsfield in six steps: connector, sign-in, permissions, skills, first run",
-             "The ten-minute setup, no code", "What the Oppadu lesson and Higgsfield's help centre have you do, in order")
+             "The ten-minute setup, no code", "What the tutorials and Higgsfield's help centre have you do, in order")
     steps = [("Open Claude's connector settings", "Claude web or desktop: Settings → Connectors → Add custom connector. Claude Code and Cowork can add the same server."),
              ("Paste the Higgsfield MCP address", "Name it Higgsfield and paste the MCP URL from Higgsfield's MCP page (mcp.higgsfield.ai). No API key."),
              ("Connect and sign in", "Click Connect and log in with your Higgsfield account. One time; afterwards the tools appear inside the chat."),
              ("Set the permissions", "Block the billing tool (\"Cancel Auto-Renewal\"). Set the image, video, character and voice tools to \"approval required\"."),
-             ("Add the skills", "Oppadu's five higgs-* skills (Korean lesson) or Higgsfield's nine official skills: product photoshoot, brand kit, explainer, thumbnails, more."),
+             ("Add the skills", "The five-skill community pack or Higgsfield's nine official skills: product photoshoot, brand kit, explainer, thumbnails, more."),
              ("First run: plan only", "Upload one product photo, ask for a 15-second plan, read it. Generate nothing until the shot list is right. That run costs zero credits.")]
     for i, (t, body) in enumerate(steps):
         c, r = i % 3, i // 3; x = 40 + c * 380; y = 112 + r * 200
@@ -82,14 +82,14 @@ def setup():
         o.append(f'<circle cx="{x+34}" cy="{y+34}" r="20" fill="{NAVY}"/>' + text(x + 34, y + 41, str(i + 1), 20, 800, "#fff", "middle"))
         o.append(text(x + 64, y + 40, t, 19, 800))
         o.append(para(x + 20, y + 76, body, 40, 15, 20))
-    o += foot(W, H, "Sources: Higgsfield MCP page and help centre (April 2026 launch); Oppadu Excel lesson (July 2026). Menu names may move; the order does not.")
+    o += foot(W, H, "Sources: Higgsfield MCP page and help centre (April 2026 launch); the 2026 tutorials and lesson pages. Menu names may move; the order does not.")
     return "\n".join(o)
 
 # ---------------------------------------------------------------------------------------------------
 def uses():
     W, H = 1200, 700
     o = head(W, H, "Thirteen jobs the Claude + Higgsfield workflow does: ads, content, brand assets",
-             "Thirteen jobs, one chat window", "The uses covered by Oppadu's five skills and Higgsfield's nine official skills")
+             "Thirteen jobs, one chat window", "The uses covered by a five-skill community pack and Higgsfield's nine official skills")
     groups = [("Ads and listings", ORANGE, ["Ad plan from one product photo or a shop link", "Ad poster from the approved plan", "Short-form ad, 9:16, 5–15 seconds", "Product photoshoot: same item, many scenes", "Marketplace cards for Amazon or Etsy listings"]),
               ("Channels and content", PURPLE, ["3D-character Shorts from a character + topic", "Explainer video with narration", "Faceless edutainment clips, scripted scene by scene", "YouTube thumbnails that match the video"]),
               ("Brand and web", NAVY, ["A new logo, or a clean-up of the old one", "Brand kit: colours, type, icon set", "Website hero visuals and scroll animation", "A consistent character (Soul ID) reused across every job"])]
@@ -103,7 +103,7 @@ def uses():
             y = 196 + k * 92
             o.append(f'<circle cx="{x+34}" cy="{y}" r="17" fill="{col}"/>' + text(x + 34, y + 6, str(n), 16, 800, "#fff", "middle")); n += 1
             o.append(para(x + 62, y + 5, it, 30, 16, 21))
-    o += foot(W, H, "Jobs 1–3, 6–7 and 10 are Oppadu's higgs-* skills; 4–5, 8–9 and 11–13 are Higgsfield's official skills repo (github.com/higgsfield-ai/skills). Counted once each.")
+    o += foot(W, H, "Jobs 1–3, 6–7 and 10 are the community pack's skills; 4–5, 8–9 and 11–13 are Higgsfield's official skills repo (github.com/higgsfield-ai/skills). Counted once each.")
     return "\n".join(o)
 
 # ---------------------------------------------------------------------------------------------------
