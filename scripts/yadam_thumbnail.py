@@ -66,7 +66,7 @@ def main():
         tw = d.textlength(txt, font=f); d.rounded_rectangle([48, y + 14, 48 + tw + 44, y + 14 + 84], radius=16, fill=(200, 30, 30))
         d.text((70, y + 22), txt, font=f, fill=(255, 255, 255), stroke_width=4, stroke_fill=(90, 0, 0))
     # corner badge: runtime
-    f2 = ImageFont.truetype(FONT_B, 44); badge = "55분 몰입 야담"
+    f2 = ImageFont.truetype(FONT_B, 44); badge = "57분 몰입 야담"
     bw2 = d.textlength(badge, font=f2)
     d.rounded_rectangle([W - bw2 - 74, 28, W - 28, 28 + 70], radius=14, fill=(255, 232, 70))
     d.text((W - bw2 - 52, 38), badge, font=f2, fill=(30, 20, 10))
