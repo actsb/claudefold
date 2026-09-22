@@ -4,3 +4,4 @@ __pycache__/
 # video build outputs (large)
 video/*/build/
 video/*/*.mp4
+video/*/parts/
