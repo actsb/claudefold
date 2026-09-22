@@ -16,16 +16,22 @@ import argparse, json, math, os, pathlib, random, shutil, subprocess, sys
 from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 
-FF = os.environ.get("FFMPEG") or str(next(pathlib.Path("/tmp").glob("claude-0/*/*/scratchpad/ffm/node_modules/ffmpeg-static/ffmpeg"), "ffmpeg"))
-REPO = pathlib.Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import yadam_env
+FF = yadam_env.ffmpeg()
+REPO = yadam_env.REPO
 WW, WH = 2400, 1350            # world (composite) size
 GROUND = 1262                  # world y of the characters' feet
 CHAR_SCALE = 0.78              # stand sprite 1000 px -> 860 world px
-FONT_DIR = "/usr/share/fonts/truetype/nanum"
-FONT_SUB = "NanumSquareRound"
-FONT_TITLE = f"{FONT_DIR}/NanumMyeongjoBold.ttf"
-FONT_TITLE2 = f"{FONT_DIR}/NanumSquareRoundB.ttf"
+FONT_DIR = str(yadam_env.font_dir())
+FONT_SUB = yadam_env.sub_font_name()
+FONT_TITLE = yadam_env.font("title")
+FONT_TITLE2 = yadam_env.font("sub")
 BLINK_PERIOD, BLINK_LEN, MOUTH_PERIOD = 4.3, 0.16, 0.22
+
+
+def ffpath(p):
+    """A path inside an ffmpeg filter option: forward slashes, and the Windows drive colon escaped."""
+    return str(p).replace("\\", "/").replace(":", "\\:")
 
 
 def sh(cmd, **kw):
@@ -221,7 +227,7 @@ def build_scene(scene, idx, root, assets, man, out, fps, W, H):
         fx_im = Image.open(fxp).convert("RGBA"); fx_speed = 1500 if fx == "rain" else 140
     ass = work / f"scene{idx:03d}.ass"; write_ass(scene, t0, ass, W, H)
     n_frames = int(round(D * fps))
-    vf = f"fade=t=in:st=0:d=0.7,fade=t=out:st={max(0.0, D-0.7):.2f}:d=0.7,ass='{ass}':fontsdir={FONT_DIR},format=yuv420p"
+    vf = f"fade=t=in:st=0:d=0.7,fade=t=out:st={max(0.0, D-0.7):.2f}:d=0.7,ass='{ffpath(ass)}':fontsdir='{ffpath(FONT_DIR)}',format=yuv420p"
     cmd = [FF, "-y", "-loglevel", "error", "-threads", "2", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(fps), "-i", "-",
            "-vf", vf, "-frames:v", str(n_frames), "-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-tune", "animation", "-pix_fmt", "yuv420p", "-r", str(fps), "-an", str(out)]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stderr=subprocess.PIPE)

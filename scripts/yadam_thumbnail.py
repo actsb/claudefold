@@ -6,8 +6,9 @@ Usage: python3 scripts/yadam_thumbnail.py video/2026-09-yadam-manbok [--variant 
 import argparse, json, pathlib
 from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageEnhance
 
-FONT = "/usr/share/fonts/truetype/nanum/NanumSquareRoundB.ttf"       # very bold rounded gothic (readable when tiny)
-FONT_B = "/usr/share/fonts/truetype/nanum/NanumSquareB.ttf"
+import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import yadam_env
+FONT = yadam_env.font("sub")       # very bold rounded gothic (readable when tiny)
+FONT_B = yadam_env.font("ui")
 W, H = 1280, 720
 
 

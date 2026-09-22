@@ -25,7 +25,8 @@ if (statSync(arg).isDirectory()) {
   jobs = JSON.parse(readFileSync(arg, 'utf8'));
 }
 
-const exe = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find(existsSync);
+// cloud session's pre-installed Chromium first; on a PC Playwright's own browser (npx playwright install chromium)
+const exe = [process.env.YADAM_CHROME, '/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].filter(Boolean).find(existsSync);
 const browser = await chromium.launch(exe ? { executablePath: exe } : {});
 const page = await browser.newPage({ deviceScaleFactor: 1 });
 let done = 0;

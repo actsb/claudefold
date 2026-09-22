@@ -5,7 +5,8 @@ Also prints duration, resolution, fps and audio stream info from ffprobe.
 import argparse, json, os, pathlib, subprocess, tempfile
 from PIL import Image
 
-FF = os.environ.get("FFMPEG") or str(next(pathlib.Path("/tmp").glob("claude-0/*/*/scratchpad/ffm/node_modules/ffmpeg-static/ffmpeg"), "ffmpeg"))
+import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import yadam_env
+FF = yadam_env.ffmpeg()
 
 
 def main():

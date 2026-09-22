@@ -92,19 +92,19 @@ def pitch_shift(x, p):
 
 
 def find_st3():
-    if os.environ.get('YADAM_ST3_MODEL'):
-        return pathlib.Path(os.environ['YADAM_ST3_MODEL'])
-    for p in pathlib.Path('/tmp').glob('claude-0/*/*/scratchpad/tts/sherpa-onnx-supertonic-3-tts-int8-2026-05-11'):
-        return p
-    sys.exit('Supertonic 3 model not found; set YADAM_ST3_MODEL')
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import yadam_env
+    p = yadam_env.model_dir(yadam_env.ST3_NAME)
+    if not p:
+        sys.exit(f'Supertonic 3 model not found: download {yadam_env.ST3_URL} and extract into models/ (or set YADAM_ST3_MODEL)')
+    return p
 
 
 def find_model():
-    if os.environ.get('YADAM_TTS_MODEL'):
-        return pathlib.Path(os.environ['YADAM_TTS_MODEL'])
-    for p in pathlib.Path('/tmp').glob('claude-0/*/*/scratchpad/tts/vits-mimic3-ko_KO-kss_low'):
-        return p
-    sys.exit('TTS model not found; set YADAM_TTS_MODEL')
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent)); import yadam_env
+    p = yadam_env.model_dir(yadam_env.MIMIC_NAME)
+    if not p:
+        sys.exit(f'mimic3 model not found: download {yadam_env.MIMIC_URL} and extract into models/ (or set YADAM_TTS_MODEL)')
+    return p
 
 
 def clean_for_tts(text, engine="supertonic"):

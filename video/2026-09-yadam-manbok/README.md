@@ -11,7 +11,15 @@
 | `thumbnail.png` | 썸네일(1280×720) |
 | `build/` (git 제외) | 나레이션 wav, 타이밍 JSON, 음악/효과음, 장면 클립, 최종 `../yadam_manbok_1080p.mp4` |
 
-## 처음부터 다시 만들기
+## 한 줄로 만들기 (윈도우·리눅스 공통)
+
+```powershell
+python scripts\yadam_build.py video\2026-09-yadam-manbok --setup    # 처음 한 번: ffmpeg·한국어 음성 모델(Supertonic 3)·파이썬 패키지
+python scripts\yadam_build.py video\2026-09-yadam-manbok            # 그림→음악→대본→나레이션→렌더→썸네일→QA
+python scripts\yadam_build.py video\2026-09-yadam-manbok --from tts # 대본을 고친 뒤: 바뀐 문장만 다시 합성하고 다시 렌더
+```
+
+## 처음부터 다시 만들기 (단계별)
 
 ```bash
 # 0) 준비: Python 3.11, Node 22 + playwright(전역), ffmpeg(static), 나눔·Noto CJK 폰트,

@@ -5,3 +5,6 @@ __pycache__/
 video/*/build/
 video/*/*.mp4
 video/*/parts/
+tools/
+models/
+fonts/
