@@ -54,6 +54,7 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("video"); ap.add_argument("--meta", required=True); ap.add_argument("--thumb", default="")
     ap.add_argument("--privacy", default="private"); ap.add_argument("--title-index", type=int, default=1); ap.add_argument("--check", action="store_true")
     ap.add_argument("--category", default="24", help="24 = Entertainment"); ap.add_argument("--playlist", default="")
+    ap.add_argument("--srt", default="", help="caption file to attach as a Korean caption track (needs youtube.force-ssl scope)")
     a = ap.parse_args()
     token = os.environ.get("YOUTUBE_TOKEN")
     if not token: sys.exit("set YOUTUBE_TOKEN (see docstring)")
@@ -88,6 +89,15 @@ def main():
         st, _, body = req("POST", f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}", token, img,
                           headers={"Content-Type": "image/png", "Content-Length": str(len(img))}, raw=True)
         print("thumbnail:", "ok" if st == 200 else f"{st} {body[:200]}")
+    if a.srt:
+        srt = open(a.srt, "rb").read()
+        meta_c = json.dumps({"snippet": {"videoId": vid, "language": "ko", "name": "한국어 자막", "isDraft": False}}).encode()
+        boundary = b"yadam_caption_boundary"
+        body = (b"--" + boundary + b"\r\nContent-Type: application/json; charset=UTF-8\r\n\r\n" + meta_c + b"\r\n--" + boundary +
+                b"\r\nContent-Type: application/octet-stream\r\n\r\n" + srt + b"\r\n--" + boundary + b"--")
+        st, _, resp = req("POST", "https://www.googleapis.com/upload/youtube/v3/captions?part=snippet&uploadType=multipart", token, body,
+                          headers={"Content-Type": "multipart/related; boundary=" + boundary.decode(), "Content-Length": str(len(body))}, raw=True)
+        print("captions:", "ok" if st == 200 else f"{st} {resp[:200]}")
     if a.playlist:
         st, _, body = req("POST", f"{API}/playlistItems?part=snippet", token,
                           {"snippet": {"playlistId": a.playlist, "resourceId": {"kind": "youtube#video", "videoId": vid}}})
