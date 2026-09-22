@@ -23,6 +23,7 @@ minutes.
 | `posts/2026-09-best-robot-vacuums/post-meta.md` | Title, labels, search description, permalink, and the publishing checklist for that post |
 | `posts/2026-09-best-robot-vacuums/research-notes.md` | Data and sources the article is built from |
 | `posts/2026-09-best-robot-vacuums/images/` | The article graphics as `.svg` (inline in the post) and `.png` (for upload via the Blogger image tool) |
+| `video/2026-09-yadam-manbok/` | **1시간 야담 애니메이션 롱폼** (시니어용, 한국어): 대본, 생성된 그림, 유튜브 메타, 썸네일. 파이프라인은 `scripts/yadam_*.py` (`yadam_script` 파싱 → `yadam_tts` 오프라인 한국어 나레이션 → `yadam_art` SVG 그림 → `yadam_music` 합성 음악 → `yadam_render` 컷아웃 애니메이션·자막·믹스). 자세한 순서는 그 폴더의 README |
 | `scripts/` | `product_cards.py` (illustrated product cards from `cards.json`), `assemble_post.py` (easy shopping layer + deep-dive in `<details>`), `build_post.py` (inlines the SVG figures), `check_post.py` (word count / HTML / link / embed audit), `render_png.mjs` (SVG → PNG), `preview_post.mjs` (page screenshots for QA), `contact_sheet.mjs`, `publish_blogger.py` (Blogger API v3, all four posts + pages) |
 
 ## Publishing a post (short version)

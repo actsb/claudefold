@@ -1,0 +1,762 @@
+[
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/village_spring_day.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/village_spring_day.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/village_night.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/village_night.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/yangban_yard.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/yangban_yard.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/yangban_room.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/yangban_room.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/servant_room.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/servant_room.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/market.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/market.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/mountain_path.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/mountain_path.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/rice_field_summer.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/rice_field_summer.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/river_bank.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/river_bank.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/gwana_yard.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/gwana_yard.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/rain_road.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/rain_road.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/village_winter.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/village_winter.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/hanyang_street.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/hanyang_street.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/autumn_yard.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/autumn_yard.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/storehouse.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/storehouse.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/park_modern.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/park_modern.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/bg/title_card.svg",
+"png": "video/2026-09-yadam-manbok/assets/bg/title_card.png",
+"transparent": false
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_walk_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_walk_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_walk_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_walk_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_walk_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_walk_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/manbok_walk_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/manbok_walk_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_walk_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_walk_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_walk_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_walk_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_walk_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_walk_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/sunok_walk_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/sunok_walk_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/dolsoe_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/dolsoe_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/mother_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/mother_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/kim_jinsa_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/kim_jinsa_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/yongchil_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/yongchil_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_ragged_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_ragged_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/eosa_official_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/eosa_official_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/satto_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/satto_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_m_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_m_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/villager_f_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/villager_f_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/merchant_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/merchant_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/grandpa_modern_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/grandpa_modern_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_stand_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_stand_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_stand_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_stand_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_stand_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_stand_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_stand_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_stand_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_sit_closed_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_sit_closed_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_sit_open_open.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_sit_open_open.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_sit_closed_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_sit_closed_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/char/girl_modern_sit_open_closed.svg",
+"png": "video/2026-09-yadam-manbok/assets/char/girl_modern_sit_open_closed.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/ox.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/ox.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/jige.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/jige.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/rice_sack.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/rice_sack.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/coin_pouch.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/coin_pouch.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/nobi_document.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/nobi_document.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/torn_document.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/torn_document.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/herb_basket.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/herb_basket.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/medicine_pot.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/medicine_pot.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/candle.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/candle.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/boat.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/boat.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/paper_lantern.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/paper_lantern.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/book.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/book.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/hanji_sign.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/hanji_sign.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/magpie.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/magpie.png",
+"transparent": true
+},
+{
+"svg": "video/2026-09-yadam-manbok/assets/svg/prop/umbrella_straw.svg",
+"png": "video/2026-09-yadam-manbok/assets/prop/umbrella_straw.png",
+"transparent": true
+}
+]

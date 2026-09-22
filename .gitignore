@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+
+# video build outputs (large)
+video/*/build/
+video/*/*.mp4
