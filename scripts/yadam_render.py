@@ -258,10 +258,11 @@ def build_scene(scene, idx, root, assets, man, out, fps, W, H):
 def build_audio(timing, audio_dir, narration, out):
     import soundfile as sf
     SR = 44100
-    nar, sr = sf.read(narration, dtype="float32")
-    if sr != SR:
-        tmp = narration.with_name("narration44.wav")
-        sh([FF, "-y", "-loglevel", "error", "-i", str(narration), "-ar", str(SR), "-ac", "1", str(tmp)]); nar, sr = sf.read(tmp, dtype="float32")
+    # resample to 44.1 kHz and tame the synthetic voice: high-pass rumble, soften the top end, catch peaks
+    tmp = narration.with_name("narration44.wav")
+    sh([FF, "-y", "-loglevel", "error", "-i", str(narration), "-af",
+        "highpass=f=70,equalizer=f=7500:t=h:width=5000:g=-4,equalizer=f=3000:t=h:width=2000:g=1,alimiter=limit=0.9:attack=5:release=60",
+        "-ar", str(SR), "-ac", "1", str(tmp)]); nar, sr = sf.read(tmp, dtype="float32")
     total = timing["total"] + 3.0
     N = int(total * SR); mix = np.zeros((N, 2), np.float32)
     mix[:len(nar), 0] = nar[:N]; mix[:len(nar), 1] = nar[:N]
@@ -304,7 +305,7 @@ def build_audio(timing, audio_dir, narration, out):
     for k, a, b in runs(3):
         if k in beds: place(beds[k], a, b - a, 0.10 if k != "tense" else 0.11, fade=3.0)
     for k, a, b in runs(4):
-        if k in ambs: place(ambs[k], a, b - a, 0.16, fade=2.0)
+        if k in ambs: place(ambs[k], a, b - a, 0.11, fade=2.0)
     for ch in timing["chapters"]:
         if ch.get("card"): place(st_chap, ch["card"][0] + 0.3, 4.0, 0.5, fade=0.2, loop=False)
         for sc in ch["scenes"]:
@@ -361,7 +362,7 @@ def main():
         build_audio(timing, audio_dir, build / "narration.wav", mixwav)
     final = root / ("yadam_manbok_720p.mp4" if a.preview else "yadam_manbok_1080p.mp4")
     sh([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mixwav), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-        "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
+        "-af", "volume=1.0,alimiter=limit=0.95:attack=5:release=80", "-ar", "44100", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
     print("final:", final)
 
 

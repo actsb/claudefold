@@ -12,7 +12,8 @@ import argparse, hashlib, json, os, pathlib, re, sys
 import numpy as np, soundfile as sf
 
 SR = 22050
-PAUSE_SENT, PAUSE_PARA, PAUSE_SPEAKER, PAUSE_SCENE = 0.55, 0.85, 0.65, 1.4
+PAUSE_SENT, PAUSE_PARA, PAUSE_SPEAKER, PAUSE_SCENE = 0.38, 0.68, 0.55, 1.2
+FADE = 0.025   # raised-cosine fade at both ends of every clip (no clicks, no abrupt onsets)
 CARD_CHAPTER, CARD_TITLE, LEAD_IN = 5.0, 7.0, 0.8   # seconds of silence for chapter/title cards, and before the first line of a scene
 
 
@@ -35,7 +36,8 @@ def clean_for_tts(text):
 
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('root'); ap.add_argument('--speed', type=float, default=0.76)
+    ap = argparse.ArgumentParser(); ap.add_argument('root'); ap.add_argument('--speed', type=float, default=0.9)
+    ap.add_argument('--noise', type=float, default=0.55); ap.add_argument('--noise-w', type=float, default=0.65)
     ap.add_argument('--pause', type=float, default=PAUSE_SENT); a = ap.parse_args()
     root = pathlib.Path(a.root); build = root / 'build'; cache = build / 'tts'; cache.mkdir(parents=True, exist_ok=True)
     data = json.loads((build / 'script.json').read_text(encoding='utf-8'))
@@ -43,20 +45,25 @@ def main():
     d = find_model()
     cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
         vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(d / 'ko_KO-kss_low.onnx'), tokens=str(d / 'tokens.txt'), data_dir=str(d / 'espeak-ng-data'),
-                                                   noise_scale=0.667, noise_scale_w=0.8, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
+                                                   noise_scale=a.noise, noise_scale_w=a.noise_w, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
     tts = sherpa_onnx.OfflineTts(cfg)
 
     def synth(text):
-        key = hashlib.sha1(f"{a.speed}|{text}".encode()).hexdigest()[:16]
+        key = hashlib.sha1(f"{a.speed}|{a.noise}|{a.noise_w}|v2|{text}".encode()).hexdigest()[:16]
         f = cache / f'{key}.wav'
         if f.exists():
             x, _ = sf.read(f, dtype='float32'); return x
         g = tts.generate(clean_for_tts(text), sid=0, speed=a.speed)
         x = np.asarray(g.samples, dtype=np.float32)
-        # trim leading/trailing near-silence so pauses are ours, not the model's
-        nz = np.where(np.abs(x) > 0.01)[0]
+        # trim only real silence (low threshold, generous padding) so soft onsets and tails survive,
+        # then fade both ends so clips join the pauses without clicks
+        nz = np.where(np.abs(x) > 0.003)[0]
         if len(nz):
-            x = x[max(0, nz[0] - int(0.05 * SR)): min(len(x), nz[-1] + int(0.12 * SR))]
+            x = x[max(0, nz[0] - int(0.06 * SR)): min(len(x), nz[-1] + int(0.16 * SR))]
+        n = min(int(FADE * SR), len(x) // 4)
+        if n > 0:
+            w = 0.5 - 0.5 * np.cos(np.linspace(0, np.pi, n, dtype=np.float32))
+            x[:n] *= w; x[-n:] *= w[::-1]
         sf.write(f, x, SR); return x
 
     chunks, t, timing = [], 0.0, {"sr": SR, "chapters": []}
@@ -93,6 +100,8 @@ def main():
         cj['end'] = t; timing['chapters'].append(cj)
         print(f"chapter {ch['n']} {ch['title']}: ends at {t/60:.1f} min", flush=True)
     audio = np.concatenate(chunks)
+    rms = float(np.sqrt((audio[np.abs(audio) > 0.002] ** 2).mean()))   # speech-only RMS
+    audio = np.clip(audio * (10 ** (-18 / 20) / rms), -0.98, 0.98).astype(np.float32)
     sf.write(build / 'narration.wav', audio, SR)
     timing['total'] = t
     (build / 'timing.json').write_text(json.dumps(timing, ensure_ascii=False, indent=1), encoding='utf-8')
