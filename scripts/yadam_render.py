@@ -361,7 +361,7 @@ def main():
         build_audio(timing, audio_dir, build / "narration.wav", mixwav)
     final = root / ("yadam_manbok_720p.mp4" if a.preview else "yadam_manbok_1080p.mp4")
     sh([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mixwav), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-        "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
+        "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
     print("final:", final)
 
 

@@ -6,17 +6,18 @@ import argparse, json, os, pathlib, subprocess, tempfile
 from PIL import Image
 
 FF = os.environ.get("FFMPEG") or str(next(pathlib.Path("/tmp").glob("claude-0/*/*/scratchpad/ffm/node_modules/ffmpeg-static/ffmpeg"), "ffmpeg"))
-FP = FF.replace("ffmpeg", "ffprobe") if FF.endswith("ffmpeg") else "ffprobe"
 
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("video"); ap.add_argument("out"); ap.add_argument("--every", type=float, default=90); ap.add_argument("--cols", type=int, default=6)
     a = ap.parse_args()
-    info = json.loads(subprocess.run([FP, "-v", "error", "-show_format", "-show_streams", "-of", "json", a.video], capture_output=True, text=True).stdout)
-    dur = float(info["format"]["duration"])
-    for s in info["streams"]:
-        print(s["codec_type"], s.get("codec_name"), s.get("width"), s.get("height"), s.get("r_frame_rate"), s.get("sample_rate"), s.get("channels"))
-    print(f"duration {dur/60:.2f} min, size {int(info['format']['size'])/1e6:.0f} MB")
+    # this ffmpeg-static build ships no ffprobe: read Duration/Stream lines from `ffmpeg -i`
+    import re
+    err = subprocess.run([FF, "-hide_banner", "-i", a.video], capture_output=True, text=True).stderr
+    m = re.search(r"Duration: (\d+):(\d+):([\d.]+)", err); dur = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3))
+    for line in err.splitlines():
+        if "Stream #" in line: print(line.strip())
+    print(f"duration {dur/60:.2f} min, size {os.path.getsize(a.video)/1e6:.0f} MB")
     times = [t for t in [i * a.every for i in range(int(dur // a.every) + 1)] if t < dur]
     tw, th = 320, 180; rows = (len(times) + a.cols - 1) // a.cols
     sheet = Image.new("RGB", (a.cols * tw, rows * th), (0, 0, 0))
