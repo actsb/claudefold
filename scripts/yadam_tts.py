@@ -1,6 +1,10 @@
 """Synthesise the narration for the yadam video, one subtitle line at a time, with timing.
 
-Voice: sherpa-onnx running the mimic3 `ko_KO/kss_low` VITS model (offline, Korean).
+Voices: sherpa-onnx. Default engine `supertonic` = Supertonic 3 (int8, 31 languages incl. Korean, 10 built-in voices:
+sid 0-4 female, 5 young male, 6-9 male), cast per character below. Fallback engine `mimic3` = the single-voice
+`ko_KO/kss_low` VITS model bent into a cast by pitch shifting.
+Supertonic model: $YADAM_ST3_MODEL or sherpa-onnx-supertonic-3-tts-int8-2026-05-11 under /tmp/claude-0/*/scratchpad/tts, from
+  https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/sherpa-onnx-supertonic-3-tts-int8-2026-05-11.tar.bz2
 Model dir: $YADAM_TTS_MODEL or the first `vits-mimic3-ko_KO-kss_low` found under /tmp/claude-0/*/scratchpad/tts.
 Get it with:  curl -L -o m.tar.bz2 https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-mimic3-ko_KO-kss_low.tar.bz2 && tar xjf m.tar.bz2
 
@@ -37,14 +41,33 @@ PROFILES = {
     "grandpa_modern": dict(pitch=0.85, speed=0.85, gain=0.0, expr=True),
     "girl_modern":   dict(pitch=1.16, speed=1.00, gain=0.0, expr=True),
 }
+# Supertonic 3 cast: sid, pitch (resample factor), base speed, gain dB
+CAST = {
+    None:             dict(sid=8, pitch=1.00, speed=0.92, gain=0.0),   # narrator: mid-low male, calm
+    "manbok":         dict(sid=5, pitch=1.00, speed=0.97, gain=0.5),   # young, warm
+    "sunok":          dict(sid=0, pitch=1.00, speed=0.93, gain=0.0),
+    "dolsoe":         dict(sid=1, pitch=1.08, speed=1.02, gain=0.0),   # child: brightest female voice, raised
+    "mother":         dict(sid=4, pitch=0.97, speed=0.85, gain=-0.5),  # elderly: lowest female, slow
+    "kim_jinsa":      dict(sid=9, pitch=0.98, speed=0.88, gain=0.5),   # deep, stately
+    "yongchil":       dict(sid=7, pitch=1.03, speed=1.02, gain=1.0),   # sly, quick
+    "eosa_ragged":    dict(sid=6, pitch=1.00, speed=0.90, gain=0.0),
+    "eosa_official":  dict(sid=6, pitch=0.98, speed=0.88, gain=1.5),   # authority
+    "satto":          dict(sid=9, pitch=1.04, speed=0.96, gain=1.0),
+    "villager_m":     dict(sid=8, pitch=1.06, speed=1.00, gain=0.0),
+    "villager_f":     dict(sid=2, pitch=1.00, speed=1.00, gain=0.0),
+    "merchant":       dict(sid=7, pitch=0.97, speed=0.98, gain=0.0),
+    "grandpa_modern": dict(sid=6, pitch=1.00, speed=0.86, gain=0.0),
+    "girl_modern":    dict(sid=3, pitch=1.08, speed=1.02, gain=0.0),
+}
 SAD = ("울", "눈물", "떠났", "죽", "무릎", "죄송", "슬", "한숨", "차가", "얼음")
 HOOK_START = ("여러분", "과연", "그런데", "하지만")
 
 
-def delivery(text, speaker, is_chapter_end):
-    """-> (speed, pitch, gain_db, expressive, pause_after_extra)"""
-    pr = PROFILES.get(speaker, PROFILES[None])
-    speed, pitch, gain, expr, extra = pr["speed"], pr["pitch"], pr["gain"], pr["expr"], 0.0
+def delivery(text, speaker, is_chapter_end, engine="supertonic"):
+    """-> (speed, pitch, gain_db, expressive, pause_after_extra, sid)"""
+    table = CAST if engine == "supertonic" else PROFILES
+    pr = table.get(speaker, table[None])
+    speed, pitch, gain, expr, extra = pr["speed"], pr["pitch"], pr["gain"], pr.get("expr", True), 0.0
     if "!" in text:                       # shouts and exclamations: louder, livelier, a touch quicker
         gain += 2.0; speed *= 1.04; expr = True
     if "출두야" in text:                   # the big reveal
@@ -57,7 +80,7 @@ def delivery(text, speaker, is_chapter_end):
         speed *= 0.96
     if is_chapter_end:
         speed *= 0.94; extra += 0.6
-    return speed, pitch, gain, expr, extra
+    return speed, pitch, gain, expr, extra, pr.get("sid", 0)
 
 
 def pitch_shift(x, p):
@@ -68,6 +91,14 @@ def pitch_shift(x, p):
     return np.interp(pos, np.arange(len(x)), x).astype(np.float32)
 
 
+def find_st3():
+    if os.environ.get('YADAM_ST3_MODEL'):
+        return pathlib.Path(os.environ['YADAM_ST3_MODEL'])
+    for p in pathlib.Path('/tmp').glob('claude-0/*/*/scratchpad/tts/sherpa-onnx-supertonic-3-tts-int8-2026-05-11'):
+        return p
+    sys.exit('Supertonic 3 model not found; set YADAM_ST3_MODEL')
+
+
 def find_model():
     if os.environ.get('YADAM_TTS_MODEL'):
         return pathlib.Path(os.environ['YADAM_TTS_MODEL'])
@@ -76,9 +107,10 @@ def find_model():
     sys.exit('TTS model not found; set YADAM_TTS_MODEL')
 
 
-def clean_for_tts(text):
+def clean_for_tts(text, engine="supertonic"):
     t = text.replace('“', '').replace('”', '').replace('"', '').replace("'", '')
-    t = re.sub(r'[!?]', '.', t)
+    if engine != "supertonic":
+        t = re.sub(r'[!?]', '.', t)
     t = t.replace('…', '.').replace('...', '.')
     t = re.sub(r'\s+', ' ', t).strip()
     if not t.endswith('.'):
@@ -89,25 +121,36 @@ def clean_for_tts(text):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('root'); ap.add_argument('--speed', type=float, default=0.9)
     ap.add_argument('--noise', type=float, default=0.55); ap.add_argument('--noise-w', type=float, default=0.65)
+    ap.add_argument('--engine', default='supertonic', choices=['supertonic', 'mimic3'])
     ap.add_argument('--pause', type=float, default=PAUSE_SENT); a = ap.parse_args()
     root = pathlib.Path(a.root); build = root / 'build'; cache = build / 'tts'; cache.mkdir(parents=True, exist_ok=True)
     data = json.loads((build / 'script.json').read_text(encoding='utf-8'))
     import sherpa_onnx
-    d = find_model()
-    def make(noise, noise_w):
-        cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(d / 'ko_KO-kss_low.onnx'), tokens=str(d / 'tokens.txt'), data_dir=str(d / 'espeak-ng-data'),
-                                                       noise_scale=noise, noise_scale_w=noise_w, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
-        return sherpa_onnx.OfflineTts(cfg)
-    tts_calm, tts_expr = make(a.noise, a.noise_w), make(0.78, 0.72)
+    if a.engine == "supertonic":
+        d = find_st3()
+        cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(supertonic=sherpa_onnx.OfflineTtsSupertonicModelConfig(
+            duration_predictor=str(d / 'duration_predictor.int8.onnx'), text_encoder=str(d / 'text_encoder.int8.onnx'),
+            vector_estimator=str(d / 'vector_estimator.int8.onnx'), vocoder=str(d / 'vocoder.int8.onnx'), tts_json=str(d / 'tts.json'),
+            unicode_indexer=str(d / 'unicode_indexer.bin'), voice_style=str(d / 'voice.bin')), num_threads=4, provider='cpu'), max_num_sentences=1)
+        tts_calm = tts_expr = sherpa_onnx.OfflineTts(cfg)
+    else:
+        d = find_model()
+        def make(noise, noise_w):
+            cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+                vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(d / 'ko_KO-kss_low.onnx'), tokens=str(d / 'tokens.txt'), data_dir=str(d / 'espeak-ng-data'),
+                                                           noise_scale=noise, noise_scale_w=noise_w, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
+            return sherpa_onnx.OfflineTts(cfg)
+        tts_calm, tts_expr = make(a.noise, a.noise_w), make(0.78, 0.72)
+    global SR
+    SR = tts_calm.sample_rate
 
-    def synth(text, speed=None, pitch=1.0, gain=0.0, expr=False):
+    def synth(text, speed=None, pitch=1.0, gain=0.0, expr=False, sid=0):
         speed = (speed or a.speed) * a.speed / 0.9   # --speed scales every profile (0.9 = profiles as written)
-        key = hashlib.sha1(f"{speed:.3f}|{pitch:.3f}|{gain:.2f}|{int(expr)}|{a.noise}|{a.noise_w}|v3|{text}".encode()).hexdigest()[:16]
+        key = hashlib.sha1(f"{a.engine}|{sid}|{speed:.3f}|{pitch:.3f}|{gain:.2f}|{int(expr)}|{a.noise}|{a.noise_w}|v4|{text}".encode()).hexdigest()[:16]
         f = cache / f'{key}.wav'
         if f.exists():
             x, _ = sf.read(f, dtype='float32'); return x
-        g = (tts_expr if expr else tts_calm).generate(clean_for_tts(text), sid=0, speed=speed / pitch)
+        g = (tts_expr if expr else tts_calm).generate(clean_for_tts(text, a.engine), sid=sid, speed=speed / pitch)
         x = pitch_shift(np.asarray(g.samples, dtype=np.float32), pitch) * (10 ** (gain / 20))
         # trim only real silence (low threshold, generous padding) so soft onsets and tails survive,
         # then fade both ends so clips join the pauses without clicks
@@ -140,8 +183,8 @@ def main():
                 if i and ln['speaker'] != prev_speaker:
                     silence(PAUSE_SPEAKER)
                 chapter_end = last_scene and i >= len(sc['lines']) - 2
-                speed, pitch, gain, expr, extra = delivery(ln['text'], ln['speaker'], chapter_end)
-                x = synth(ln['text'], speed, pitch, gain, expr); s0 = t
+                speed, pitch, gain, expr, extra, sid = delivery(ln['text'], ln['speaker'], chapter_end, a.engine)
+                x = synth(ln['text'], speed, pitch, gain, expr, sid); s0 = t
                 chunks.append(x); t += len(x) / SR
                 # subtitle chunks share the sentence's time span proportionally to their length
                 subs, total, cur = [], sum(len(c) for c in ln['subs']), s0

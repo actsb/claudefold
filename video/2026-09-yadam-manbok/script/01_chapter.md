@@ -13,7 +13,9 @@
 ## SCENE bg=village_spring_day cam=static amb=day music=calm chars=villager_m:stand:0.30 manbok:stand:0.62:flip props=jige:0.80:0.80:0.9
 @villager_m 만복아, 그렇게 살다간 평생 머슴 신세다. 세상은 약아야 사는 거야.
 @manbok 그래도 어르신, 그 할머니 겨울에 추우실 텐데요.
-@villager_m 에이, 이 바보야. 네 어머니 약값이나 걱정해라.
+@villager_m 에이, 이 바보야. 그 할머니가 누군지 알아? 우리 장모님이다. 우리 장모님은 나보다 부자야!
+@manbok 예? 그럼 잘됐네요. 부자 할머니가 따뜻하게 지내시면 어르신도 좋으시잖아요.
+박 노인은 말문이 막혀서 입만 벙긋거렸습니다.
 사람들은 혀를 찼습니다. 하지만 만복이는 그저 웃었습니다.
 그 웃음 뒤에 무엇이 있는지, 마을 사람들은 아무도 몰랐습니다.
 
