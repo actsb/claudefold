@@ -361,8 +361,15 @@ def main():
     if not mixwav.exists():
         build_audio(timing, audio_dir, build / "narration.wav", mixwav)
     final = root / ("yadam_manbok_720p.mp4" if a.preview else "yadam_manbok_1080p.mp4")
+    # two-pass loudness to YouTube's -14 LUFS: measure, then apply a LINEAR gain (no pumping), true peak -1.5 dB
+    import re as _re
+    m = sh([FF, "-hide_banner", "-i", str(mixwav), "-af", "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"])
+    js = json.loads(_re.search(r"\{[^{}]*\}", m.stderr[m.stderr.rfind("{"):]).group(0) if "{" in m.stderr else "{}")
+    ln = (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={js['input_i']}:measured_TP={js['input_tp']}:measured_LRA={js['input_lra']}"
+          f":measured_thresh={js['input_thresh']}:offset={js['target_offset']}:linear=true") if js else "alimiter=limit=0.95"
+    print("loudness pass:", js.get("input_i"), "LUFS ->", "-14")
     sh([FF, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(mixwav), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-        "-af", "volume=1.0,alimiter=limit=0.95:attack=5:release=80", "-ar", "44100", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
+        "-af", ln, "-ar", "44100", "-c:a", "aac", "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(final)])
     print("final:", final)
 
 

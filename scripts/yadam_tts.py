@@ -17,6 +17,57 @@ FADE = 0.025   # raised-cosine fade at both ends of every clip (no clicks, no ab
 CARD_CHAPTER, CARD_TITLE, LEAD_IN = 5.0, 7.0, 0.8   # seconds of silence for chapter/title cards, and before the first line of a scene
 
 
+# ---- expressive delivery -------------------------------------------------------------------------------
+# One VITS voice is bent into a cast: pitch (resampling factor, <1 = lower and darker), base speed and gain.
+# The synth runs faster by 1/pitch so the resampled clip lands on the intended duration.
+PROFILES = {
+    None:            dict(pitch=1.00, speed=0.90, gain=0.0, expr=False),   # narrator: calm, unhurried
+    "manbok":        dict(pitch=0.90, speed=0.95, gain=0.5, expr=True),
+    "sunok":         dict(pitch=1.00, speed=0.90, gain=-0.5, expr=True),
+    "dolsoe":        dict(pitch=1.14, speed=1.00, gain=0.0, expr=True),
+    "mother":        dict(pitch=0.95, speed=0.82, gain=-1.0, expr=True),
+    "kim_jinsa":     dict(pitch=0.84, speed=0.88, gain=0.5, expr=True),
+    "yongchil":      dict(pitch=0.88, speed=1.00, gain=1.0, expr=True),
+    "eosa_ragged":   dict(pitch=0.83, speed=0.88, gain=0.0, expr=True),
+    "eosa_official": dict(pitch=0.82, speed=0.86, gain=1.5, expr=True),
+    "satto":         dict(pitch=0.86, speed=0.92, gain=1.0, expr=True),
+    "villager_m":    dict(pitch=0.90, speed=0.95, gain=0.0, expr=True),
+    "villager_f":    dict(pitch=1.02, speed=0.95, gain=0.0, expr=True),
+    "merchant":      dict(pitch=0.90, speed=0.95, gain=0.0, expr=True),
+    "grandpa_modern": dict(pitch=0.85, speed=0.85, gain=0.0, expr=True),
+    "girl_modern":   dict(pitch=1.16, speed=1.00, gain=0.0, expr=True),
+}
+SAD = ("울", "눈물", "떠났", "죽", "무릎", "죄송", "슬", "한숨", "차가", "얼음")
+HOOK_START = ("여러분", "과연", "그런데", "하지만")
+
+
+def delivery(text, speaker, is_chapter_end):
+    """-> (speed, pitch, gain_db, expressive, pause_after_extra)"""
+    pr = PROFILES.get(speaker, PROFILES[None])
+    speed, pitch, gain, expr, extra = pr["speed"], pr["pitch"], pr["gain"], pr["expr"], 0.0
+    if "!" in text:                       # shouts and exclamations: louder, livelier, a touch quicker
+        gain += 2.0; speed *= 1.04; expr = True
+    if "출두야" in text:                   # the big reveal
+        gain += 1.5; speed *= 0.9; extra += 0.8
+    if any(w in text for w in SAD):       # sorrow: slower, softer
+        speed *= 0.93; gain -= 1.0
+    if text.startswith(HOOK_START) or text.rstrip("?.!").endswith("까요") or "그때였습니다" in text:
+        speed *= 0.92; extra += 0.9      # hooks and cliffhangers: slow down, then hold the silence
+    if text.endswith("?"):
+        speed *= 0.96
+    if is_chapter_end:
+        speed *= 0.94; extra += 0.6
+    return speed, pitch, gain, expr, extra
+
+
+def pitch_shift(x, p):
+    """Resample by factor p (p<1 -> lower, longer). Linear interpolation is fine for +-16 %."""
+    if abs(p - 1.0) < 1e-3:
+        return x
+    pos = np.arange(0, len(x) - 1, p, dtype=np.float64)
+    return np.interp(pos, np.arange(len(x)), x).astype(np.float32)
+
+
 def find_model():
     if os.environ.get('YADAM_TTS_MODEL'):
         return pathlib.Path(os.environ['YADAM_TTS_MODEL'])
@@ -43,18 +94,21 @@ def main():
     data = json.loads((build / 'script.json').read_text(encoding='utf-8'))
     import sherpa_onnx
     d = find_model()
-    cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
-        vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(d / 'ko_KO-kss_low.onnx'), tokens=str(d / 'tokens.txt'), data_dir=str(d / 'espeak-ng-data'),
-                                                   noise_scale=a.noise, noise_scale_w=a.noise_w, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
-    tts = sherpa_onnx.OfflineTts(cfg)
+    def make(noise, noise_w):
+        cfg = sherpa_onnx.OfflineTtsConfig(model=sherpa_onnx.OfflineTtsModelConfig(
+            vits=sherpa_onnx.OfflineTtsVitsModelConfig(model=str(d / 'ko_KO-kss_low.onnx'), tokens=str(d / 'tokens.txt'), data_dir=str(d / 'espeak-ng-data'),
+                                                       noise_scale=noise, noise_scale_w=noise_w, length_scale=1.0), num_threads=4, provider='cpu'), max_num_sentences=1)
+        return sherpa_onnx.OfflineTts(cfg)
+    tts_calm, tts_expr = make(a.noise, a.noise_w), make(0.78, 0.72)
 
-    def synth(text):
-        key = hashlib.sha1(f"{a.speed}|{a.noise}|{a.noise_w}|v2|{text}".encode()).hexdigest()[:16]
+    def synth(text, speed=None, pitch=1.0, gain=0.0, expr=False):
+        speed = (speed or a.speed) * a.speed / 0.9   # --speed scales every profile (0.9 = profiles as written)
+        key = hashlib.sha1(f"{speed:.3f}|{pitch:.3f}|{gain:.2f}|{int(expr)}|{a.noise}|{a.noise_w}|v3|{text}".encode()).hexdigest()[:16]
         f = cache / f'{key}.wav'
         if f.exists():
             x, _ = sf.read(f, dtype='float32'); return x
-        g = tts.generate(clean_for_tts(text), sid=0, speed=a.speed)
-        x = np.asarray(g.samples, dtype=np.float32)
+        g = (tts_expr if expr else tts_calm).generate(clean_for_tts(text), sid=0, speed=speed / pitch)
+        x = pitch_shift(np.asarray(g.samples, dtype=np.float32), pitch) * (10 ** (gain / 20))
         # trim only real silence (low threshold, generous padding) so soft onsets and tails survive,
         # then fade both ends so clips join the pauses without clicks
         nz = np.where(np.abs(x) > 0.003)[0]
@@ -81,10 +135,13 @@ def main():
                 sj['card'] = [t, t + CARD_TITLE]; silence(CARD_TITLE)
             silence(LEAD_IN)
             prev_speaker = None
+            last_scene = sc is ch['scenes'][-1]
             for i, ln in enumerate(sc['lines']):
                 if i and ln['speaker'] != prev_speaker:
                     silence(PAUSE_SPEAKER)
-                x = synth(ln['text']); s0 = t
+                chapter_end = last_scene and i >= len(sc['lines']) - 2
+                speed, pitch, gain, expr, extra = delivery(ln['text'], ln['speaker'], chapter_end)
+                x = synth(ln['text'], speed, pitch, gain, expr); s0 = t
                 chunks.append(x); t += len(x) / SR
                 # subtitle chunks share the sentence's time span proportionally to their length
                 subs, total, cur = [], sum(len(c) for c in ln['subs']), s0
@@ -92,7 +149,7 @@ def main():
                     e = cur + (t - s0) * len(c) / total
                     subs.append({"text": c, "start": round(cur, 3), "end": round(e, 3)}); cur = e
                 sj['lines'].append({"text": ln['text'], "speaker": ln['speaker'], "start": round(s0, 3), "end": round(t, 3), "subs": subs})
-                silence(PAUSE_PARA if ln['para_end'] else a.pause)
+                silence((PAUSE_PARA if ln['para_end'] else a.pause) + extra)
                 prev_speaker = ln['speaker']
             silence(PAUSE_SCENE)
             sj['end'] = t; cj['scenes'].append(sj)
