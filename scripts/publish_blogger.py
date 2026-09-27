@@ -4,11 +4,14 @@
 Auth, in order of preference:
   1. Unattended (for the daily Routine): BLOGGER_CLIENT_ID, BLOGGER_CLIENT_SECRET and BLOGGER_REFRESH_TOKEN in the
      environment (stored as environment secrets, never in the repo). The script mints a fresh access token itself.
-     One-time setup by the blog owner: Google Cloud Console → new project → "OAuth consent screen" (External; publishing
-     status "In production", otherwise refresh tokens die after 7 days) → Credentials → OAuth client ID, type "Desktop app"
-     → copy client ID + secret → https://developers.google.com/oauthplayground → gear icon → "Use your own OAuth credentials"
-     → paste them → scope https://www.googleapis.com/auth/blogger → Authorize APIs (blog-owner account) → Exchange
-     authorization code for tokens → copy the Refresh token. Store the three values as environment secrets.
+     One-time setup by the blog owner: Google Cloud Console → new project → APIs & Services → Library → enable
+     "Blogger API v3" → OAuth consent screen / Google Auth Platform (External; publishing status "In production",
+     otherwise refresh tokens die after 7 days) → Credentials → OAuth client ID, type "Web application", with
+     https://developers.google.com/oauthplayground as an authorized redirect URI (a Desktop client is refused by the
+     Playground with redirect_uri_mismatch) → copy client ID + secret → https://developers.google.com/oauthplayground
+     → gear icon → "Use your own OAuth credentials" → paste them → scope https://www.googleapis.com/auth/blogger →
+     Authorize APIs (blog-owner account) → Exchange authorization code for tokens → copy the Refresh token.
+     Store the three values as environment secrets of the cloud environment, never in the repo.
   2. Attended: an access token in BLOGGER_TOKEN (or --token-env NAME), minted at https://developers.google.com/oauthplayground
      → scope https://www.googleapis.com/auth/blogger → Authorize APIs → Exchange → Access token (valid ~1 hour).
 
