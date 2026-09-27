@@ -213,7 +213,7 @@ def main(post_dir):
     easy = re.sub(r"<!--HOST:([a-z]+)\|(.*?)-->", host_fig, easy)
     def pin_block(m):
         cov = json.loads((d / "cover.json").read_text(encoding="utf-8")) if (d / "cover.json").exists() else {}
-        url = cov.get("url", ""); img = f"https://raw.githubusercontent.com/actsb/claudefold/claude/sharp-lovelace-n7vhzq/{d.as_posix()}/images/pin.png"
+        url = cov.get("url", ""); img = f"https://actsb.github.io/claudefold/{d.as_posix()}/images/pin.png"
         desc = cov.get("alt", " ".join(cov.get("title", [])))
         save = "https://pinterest.com/pin/create/button/?" + urllib.parse.urlencode({"url": url, "media": img, "description": desc})
         return (f'<div class="vp-pin" style="display:flex;flex-wrap:wrap;gap:20px;align-items:center;border:1px solid #ddd;border-radius:14px;padding:18px;background:#fff;margin:1.6em 0;">'

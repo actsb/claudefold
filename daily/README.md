@@ -51,7 +51,10 @@ Look at the first and last slices at both widths. Fix overlaps before publishing
 
 ## 6. Publish
 
+Images are served by GitHub Pages from this branch (`https://actsb.github.io/claudefold/<path>`; the repo root holds `.nojekyll`). Never hotlink `raw.githubusercontent.com`: browsers and Pinterest fail on it. So **push before you publish** — the post must not go live before its images are online:
+
 ```bash
+git add -A && git commit -m "Daily pick: <product> (built)" && git push -u origin claude/sharp-lovelace-n7vhzq
 python3 scripts/publish_blogger.py --check
 python3 scripts/publish_blogger.py --posts-only --only <key>
 python3 scripts/publish_blogger.py --hubs-only        # the Best Sellers hub carries the new line
