@@ -38,7 +38,7 @@ python3 scripts/daily_post.py new <key>          # creates posts/<date>-<slug>/ 
 
 Then edit `posts/<dir>/cards.json` (product card, optional accessory cards, `buy` dicts, `video` fields), `cover.json` (bright style; title lines, subtitle, pin bullets, url) and `strips.json` (one four-panel "in real life" strip). Write `src/00-easy.html` following `daily/template-00-easy.html` section by section; the template's `<!-- WRITE: ... -->` comments say what each part must contain. Target 1,800–2,600 words of body text. Question-form H2s. Ten Quick answers (they become the FAQ schema).
 
-Product art: `cards.json` `"category"` must be a renderer in `scripts/product_cards.py` (`generic` with an `"art": {"shape": "box|bottle|cylinder|flat|sphere|bag", ...}` works for anything).
+Product art: `cards.json` `"category"` must be a renderer in `scripts/product_cards.py` (`generic` with an `"art": {"shape": "box|bottle|cylinder|flat|sphere|bag", ...}` works for anything). Dedicated renderers exist for `purifier` (a Core 300-style tower), `robot`, `earbuds`, `glasses`, `power`, `tracker`, `bottle`, `cleaner`, `groomvac`, `roller`, `litterbot`, `harness`, `kong`, `bags`, `chat`, `film`, `voice`, `lightbox`, `tripod` and `ssd`; add one to `DRAW` when a product deserves its own silhouette. A second card for the consumable (filter, refill, bag) with its own `buy` dict puts the repeat purchase in the buy box.
 
 ## 5. Build, check, preview
 
@@ -57,6 +57,8 @@ python3 scripts/publish_blogger.py --posts-only --only <key>
 python3 scripts/publish_blogger.py --hubs-only        # the Best Sellers hub carries the new line
 ```
 Unattended auth uses BLOGGER_CLIENT_ID / BLOGGER_CLIENT_SECRET / BLOGGER_REFRESH_TOKEN from the environment. If they are absent, do everything else, commit, push, and end the run by telling the owner the post is built and needs a Blogger token (attended path in the publisher's docstring). Never ask for a token to be pasted into a repository file.
+
+Backlog rule: when credentials work, first publish every earlier queue entry whose `status` is still `writing` and whose folder holds a checked `post.html` with no WRITE markers (`--posts-only --only <key>` for each, then mark it `published` with its URL), then publish today's. A run without credentials leaves entries at `writing`; they are not lost.
 
 ## 7. After publishing
 
