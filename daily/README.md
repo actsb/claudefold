@@ -76,3 +76,9 @@ Research prompt: "Rank 20 single Amazon best-sellers with the best value for a U
 * One product, one verdict, one buy box: the conversion path is short and the disclosure sits above the only paid links.
 * Owner-reported problems, real expert citations and a retailer comparison are what Google's reviews system rewards and what the FTC's endorsement rules require.
 * The daily cadence is sustainable because the research is delegated, the art is generated, and the checklist is fixed.
+
+## 10. The Routine that runs this
+
+* Routine "Verdict Picks — product of the day (daily post)", id `trig_0199fgHgdp4CqDTQ4s7NnF8Q`, cron `0 10 * * *` (10:00 UTC = 6 a.m. Eastern = 7 p.m. Korea), a fresh cloud session per run, push + email notification when a run finishes. Its prompt is the text in `daily/routine-prompt.md`.
+* Pause or resume: the owner's Routines list on claude.ai, or `update_trigger` with `enabled` from a session that holds the claude-code-remote tools.
+* Unattended publishing needs three environment secrets on the cloud environment (Edit environment → secrets): `BLOGGER_CLIENT_ID`, `BLOGGER_CLIENT_SECRET`, `BLOGGER_REFRESH_TOKEN` (how to obtain them: the docstring of `scripts/publish_blogger.py`). Without them each run builds and commits the post and asks the owner for a one-hour access token.
