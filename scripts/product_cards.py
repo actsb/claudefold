@@ -597,7 +597,41 @@ def draw_ssd(uid, a):
                f'<rect x="466" y="322" width="22" height="12" rx="4" fill="{dark}" transform="rotate(-30 477 328)"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd}
+def draw_generic(uid, a):
+    """Any product without a dedicated renderer: a clean studio silhouette chosen by art["shape"]
+    (box, bottle, cylinder, flat, sphere, bag) in art["body"] with an art["accent"] band and a small brand tab."""
+    body = a.get("body", "#2F3A48"); accent = a.get("accent", "#1E8E5A"); shape = a.get("shape", "box")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 200, 16)]
+    dark, lite = shade(body, -.3), shade(body, .22)
+    if shape == "box":
+        out.append(box3d(uid, 170, 130, 240, 170, 60, body))
+        out.append(f'<rect x="196" y="196" width="150" height="26" rx="8" fill="{accent}"/><rect x="204" y="203" width="70" height="6" rx="3" fill="#fff" opacity="0.7"/><rect x="204" y="212" width="46" height="5" rx="2.5" fill="#fff" opacity="0.45"/>')
+    elif shape == "bottle":
+        out.append(f'<rect x="240" y="120" width="120" height="196" rx="34" fill="url(#{uid}-front)"/><rect x="266" y="88" width="68" height="46" rx="12" fill="{dark}"/>'
+                   f'<rect x="270" y="100" width="60" height="6" rx="3" fill="{lite}" opacity="0.6"/><rect x="254" y="190" width="92" height="52" rx="8" fill="{accent}"/>'
+                   f'<rect x="266" y="204" width="58" height="7" rx="3.5" fill="#fff" opacity="0.75"/><rect x="266" y="218" width="40" height="6" rx="3" fill="#fff" opacity="0.45"/>'
+                   f'<rect x="254" y="132" width="10" height="150" rx="5" fill="#fff" opacity="0.18"/>')
+    elif shape == "cylinder":
+        out.append(f'<ellipse cx="300" cy="316" rx="92" ry="20" fill="{dark}"/><rect x="208" y="112" width="184" height="204" fill="url(#{uid}-front)"/>'
+                   f'<ellipse cx="300" cy="112" rx="92" ry="20" fill="{lite}"/><ellipse cx="300" cy="316" rx="92" ry="20" fill="{body}" opacity="0.35"/>'
+                   f'<rect x="208" y="150" width="184" height="18" fill="{accent}"/><ellipse cx="300" cy="112" rx="56" ry="11" fill="{dark}"/>'
+                   f'<rect x="224" y="124" width="12" height="170" rx="6" fill="#fff" opacity="0.16"/>')
+    elif shape == "flat":
+        out.append(f'<ellipse cx="300" cy="250" rx="176" ry="70" fill="{dark}"/><ellipse cx="300" cy="238" rx="176" ry="70" fill="url(#{uid}-front)"/>'
+                   f'<ellipse cx="300" cy="238" rx="140" ry="52" fill="{lite}" opacity="0.55"/><ellipse cx="300" cy="238" rx="120" ry="42" fill="{body}"/>'
+                   f'<path d="M 470 236 l 74 -8 q 22 -2 22 12 q 0 12 -22 12 l -74 -4 z" fill="{dark}"/><rect x="250" y="292" width="100" height="14" rx="7" fill="{accent}"/>')
+    elif shape == "sphere":
+        out.append(f'<circle cx="300" cy="222" r="104" fill="url(#{uid}-front)"/><ellipse cx="262" cy="180" rx="34" ry="22" fill="#fff" opacity="0.28"/>'
+                   f'<path d="M 200 236 q 100 44 200 0" fill="none" stroke="{accent}" stroke-width="14" stroke-linecap="round"/>')
+    else:  # bag / pouch
+        out.append(f'<path d="M 190 140 q 0 -30 30 -30 h 160 q 30 0 30 30 v 150 q 0 34 -34 34 h -152 q -34 0 -34 -34 z" fill="url(#{uid}-front)"/>'
+                   f'<rect x="190" y="110" width="220" height="26" rx="12" fill="{dark}"/><rect x="214" y="196" width="172" height="58" rx="10" fill="{accent}"/>'
+                   f'<rect x="228" y="212" width="96" height="8" rx="4" fill="#fff" opacity="0.75"/><rect x="228" y="228" width="60" height="7" rx="3.5" fill="#fff" opacity="0.45"/>')
+    # brand tab bottom-right, common to every shape
+    out.append(f'<rect x="430" y="300" width="70" height="18" rx="6" fill="{accent}"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

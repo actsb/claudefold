@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 """Publish the Verdict Picks posts and the five static pages to Blogger through the Blogger API v3.
 
-Needs an OAuth2 access token with the scope https://www.googleapis.com/auth/blogger in the
-environment variable BLOGGER_TOKEN (or pass --token-env NAME to read another variable).
-The easiest way to mint one without a Cloud project: https://developers.google.com/oauthplayground
-→ select "Blogger API v3 → https://www.googleapis.com/auth/blogger" → Authorize APIs →
-Exchange authorization code for tokens → copy the Access token (valid ~1 hour).
+Auth, in order of preference:
+  1. Unattended (for the daily Routine): BLOGGER_CLIENT_ID, BLOGGER_CLIENT_SECRET and BLOGGER_REFRESH_TOKEN in the
+     environment (stored as environment secrets, never in the repo). The script mints a fresh access token itself.
+     One-time setup by the blog owner: Google Cloud Console → new project → "OAuth consent screen" (External; publishing
+     status "In production", otherwise refresh tokens die after 7 days) → Credentials → OAuth client ID, type "Desktop app"
+     → copy client ID + secret → https://developers.google.com/oauthplayground → gear icon → "Use your own OAuth credentials"
+     → paste them → scope https://www.googleapis.com/auth/blogger → Authorize APIs (blog-owner account) → Exchange
+     authorization code for tokens → copy the Refresh token. Store the three values as environment secrets.
+  2. Attended: an access token in BLOGGER_TOKEN (or --token-env NAME), minted at https://developers.google.com/oauthplayground
+     → scope https://www.googleapis.com/auth/blogger → Authorize APIs → Exchange → Access token (valid ~1 hour).
 
 Usage:
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py                 # publish all posts + pages
@@ -111,7 +116,26 @@ PAGES = [
 
 args = sys.argv[1:]
 token_env = args[args.index("--token-env") + 1] if "--token-env" in args else "BLOGGER_TOKEN"
-TOKEN = os.environ.get(token_env, "").strip()
+
+def mint_token():
+    """Access token from the environment, or minted from a stored refresh token (the unattended path)."""
+    t = os.environ.get(token_env, "").strip()
+    if t:
+        return t
+    cid, sec, rt = (os.environ.get(k, "").strip() for k in ("BLOGGER_CLIENT_ID", "BLOGGER_CLIENT_SECRET", "BLOGGER_REFRESH_TOKEN"))
+    if not (cid and sec and rt):
+        return ""
+    data = urllib.parse.urlencode({"client_id": cid, "client_secret": sec, "refresh_token": rt, "grant_type": "refresh_token"}).encode()
+    req = urllib.request.Request("https://oauth2.googleapis.com/token", data=data, method="POST")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            tok = json.loads(r.read()).get("access_token", "")
+            if tok: print("access token minted from the stored refresh token")
+            return tok
+    except urllib.error.HTTPError as e:
+        sys.exit(f"refresh-token exchange failed: HTTP {e.code} {e.read()[:200]!r} — re-issue BLOGGER_REFRESH_TOKEN (consent screen must be 'In production')")
+
+TOKEN = mint_token()
 DRAFT = "--draft" in args
 CHECK_ONLY = "--check" in args
 POSTS_ONLY = "--posts-only" in args
@@ -121,7 +145,7 @@ ONLY = args[args.index("--only") + 1] if "--only" in args else None
 if ONLY and ONLY not in POSTS:
     sys.exit(f"--only must be one of: {', '.join(POSTS)}")
 if not TOKEN:
-    sys.exit(f"no token in ${token_env} — see the docstring for how to mint one")
+    sys.exit(f"no credentials: set BLOGGER_CLIENT_ID/BLOGGER_CLIENT_SECRET/BLOGGER_REFRESH_TOKEN (unattended) or ${token_env} (attended) — see the docstring")
 
 def call(method, path, body=None, params=None):
     url = f"{API}{path}" + (("?" + urllib.parse.urlencode(params)) if params else "")
