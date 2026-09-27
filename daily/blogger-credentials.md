@@ -1,7 +1,7 @@
 # Blogger 자동 발행 자격 증명 발급 가이드 (한 번만 하면 됨)
 
 목표: 매일 도는 Routine이 사람 없이 Blogger에 글을 올리려면 클라우드 환경에 세 값이 있어야 합니다.
-`BLOGGER_CLIENT_ID`, `BLOGGER_CLIENT_SECRET`, `BLOGGER_REFRESH_TOKEN`. 이 값들은 **환경 설정에만** 저장하고, 저장소 파일이나 채팅에는 절대 넣지 않습니다.
+`BLOGGER_CLIENT_ID`, `BLOGGER_CLIENT_SECRET`, `BLOGGER_REFRESH_TOKEN`. 이 값들은 **클라우드 환경의 환경 변수에만** 저장하고, 저장소 파일이나 채팅에는 절대 넣지 않습니다.
 
 준비: 블로그 소유 계정(profhlab@gmail.com)으로만 로그인한 **크롬 시크릿 창**을 씁니다(다른 계정으로 승인하면 "블로그 없음"으로 실패). 전체 소요 시간 약 15분.
 
@@ -34,11 +34,15 @@
 
 ## 5단계 — Claude 클라우드 환경에 저장
 1. 세션 화면 위 제목줄의 **환경 이름(클라우드 환경)** 클릭 → **Edit(환경 수정)**. 또는 claude.ai/code → **Environments** → 해당 환경 → **Edit**.
-2. **API credentials** 섹션이 있으면 거기에, 없으면 **Environment variables**에 세 줄 추가(따옴표·공백 없이):
-   * `BLOGGER_CLIENT_ID` = 3단계 클라이언트 ID
-   * `BLOGGER_CLIENT_SECRET` = 3단계 보안 비밀
-   * `BLOGGER_REFRESH_TOKEN` = 4단계 Refresh token
-3. **저장**. 새로 시작하는 세션부터 적용됩니다(이미 열려 있는 세션은 못 읽음). 다음 Routine 실행(매일 09:53 UTC)이 `python3 scripts/publish_blogger.py --check`로 확인한 뒤 밀린 글부터 발행합니다.
+2. **환경 변수** 상자(.env 형식)에 세 줄을 추가합니다(따옴표·공백 없이, 한 줄에 하나):
+   ```
+   BLOGGER_CLIENT_ID=3단계의 클라이언트 ID
+   BLOGGER_CLIENT_SECRET=3단계의 보안 비밀
+   BLOGGER_REFRESH_TOKEN=4단계의 Refresh token
+   ```
+   * 아래쪽 **API 자격 증명** 상자는 쓰지 않습니다. 그 기능은 "특정 웹사이트로 나가는 요청에 HTTP 헤더를 끼워 넣는" 방식이라, Google 토큰 교환처럼 값을 요청 본문에 넣어야 하는 흐름에는 맞지 않습니다.
+   * 환경 변수 상자는 "이 환경을 쓰는 모든 사람에게 보인다"고 경고하지만, 이 환경은 소유자 한 명만 씁니다. 그래도 값이 새었다고 의심되면 https://myaccount.google.com/permissions 에서 앱 액세스를 삭제하면 즉시 무효가 됩니다.
+3. **변경사항 저장**. 새로 시작하는 세션부터 적용됩니다(이미 열려 있는 세션은 못 읽음). 다음 Routine 실행(매일 09:53 UTC)이 `python3 scripts/publish_blogger.py --check`로 확인한 뒤 밀린 글부터 발행합니다.
 
 ## 잘 안 될 때
 | 증상 | 원인 → 해결 |
