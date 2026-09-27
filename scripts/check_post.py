@@ -47,6 +47,8 @@ def main(path):
     min_words = int(sys.argv[sys.argv.index("--min-words") + 1]) if "--min-words" in sys.argv else 7000
     if len(words) < min_words: fails.append(f"word count {len(words)} < {min_words}")
     if re.search(r"<script(?![^>]*application/ld\+json)", raw, flags=re.I): fails.append("contains a non-JSON-LD <script> (Blogger may strip it)")
+    if re.search(r"raw\.githubusercontent\.com(/|%2F)", raw, flags=re.I): fails.append("hotlinks raw.githubusercontent.com (serve images from https://actsb.github.io/claudefold/ instead)")
+    if re.search(r"/home/user/|home%2Fuser", raw): fails.append("an absolute container path leaked into a URL")
     for f in fails: print("FAIL:", f)
     print("RESULT:", "FAIL" if fails else "PASS")
     sys.exit(1 if fails else 0)
