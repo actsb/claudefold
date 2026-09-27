@@ -98,6 +98,12 @@ POSTS = {
         "slug_title": "Claude Higgsfield MCP Workflow 2026",
         "labels": ["AI Tools", "AI Video", "Higgsfield", "Claude", "Workflow Guide", "Creator Tools", "YouTube", "Small Business", "Buying Guide", "For Creators", "ElevenLabs", "Amazon Finds"],
     },
+    "levoit300": {
+        "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+        "title": "Levoit Core 300-P Review 2026: The $79 Air Purifier That Makes the Dyson Pointless",
+        "slug_title": "Levoit Core 300P Review 2026",
+        "labels": ["Air Purifiers", "Home Comfort", "Best Sellers", "Review", "Under $100", "Allergies", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

@@ -1,0 +1,26 @@
+{
+  "hero": "levoit300",
+  "title_size": 66,
+  "title": [
+    "Levoit Core 300-P:",
+    "WRITE: line two",
+    "WRITE: line three"
+  ],
+  "subtitle": [
+    "WRITE: one sentence of what the guide answers,",
+    "wrapped at about fifty characters per line,",
+    "three lines at most."
+  ],
+  "footer": "Product of the day · Levoit Core 300-P Air Purifier · Verdict Picks",
+  "alt": "Levoit Core 300-P Air Purifier: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "pin": [
+    "WRITE: bullet one",
+    "WRITE: bullet two",
+    "WRITE: bullet three"
+  ],
+  "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
+  "style": "bright",
+  "products": [
+    "levoit300"
+  ]
+}

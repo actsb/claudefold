@@ -631,7 +631,38 @@ def draw_generic(uid, a):
     out.append(f'<rect x="430" y="300" width="70" height="18" rx="6" fill="{accent}"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic}
+def draw_purifier(uid, a):
+    """A compact tower air purifier (the Core 300 silhouette): a white cylinder with a 360-degree perforated
+    lower shell, a top outlet grille of concentric slats and a small touch panel with an accent ring light. No logos."""
+    body = a.get("body", "#F1F1EF"); accent = a.get("accent", "#1E8E5A")
+    dark, lite, mid = shade(body, -.32), shade(body, .18), shade(body, -.12)
+    out = [defs(uid, body, accent), studio(uid, 300, 330, 150, 16)]
+    out.append(f'<defs><pattern id="{uid}-holes" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="6.5" cy="6.5" r="2.2" fill="{shade(body, -.42)}" opacity="0.5"/></pattern>'
+               f'<linearGradient id="{uid}-shell" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{shade(body, -.16)}"/><stop offset="0.3" stop-color="{shade(body, .12)}"/>'
+               f'<stop offset="0.7" stop-color="{body}"/><stop offset="1" stop-color="{shade(body, -.22)}"/></linearGradient></defs>')
+    x, w, top, bot, rx, ry, seam = 216, 168, 102, 318, 84, 17, 158
+    out.append(f'<ellipse cx="300" cy="{bot}" rx="{rx}" ry="{ry}" fill="{dark}"/>')
+    out.append(f'<rect x="{x}" y="{top}" width="{w}" height="{bot - top}" fill="url(#{uid}-shell)"/>')
+    out.append(f'<rect x="{x}" y="{seam}" width="{w}" height="{bot - seam}" fill="url(#{uid}-holes)"/>')
+    out.append(f'<path d="M {x} {bot} A {rx} {ry} 0 0 0 {x + w} {bot}" fill="{mid}" opacity="0.55"/>')
+    out.append(f'<path d="M {x} {seam} A {rx} {ry} 0 0 0 {x + w} {seam}" fill="none" stroke="{shade(body, -.22)}" stroke-width="1.6" opacity="0.8"/>')
+    # top cap with the outlet grille (concentric slats) and a darker hub
+    out.append(f'<ellipse cx="300" cy="{top}" rx="{rx}" ry="{ry}" fill="{lite}"/>')
+    out.append(f'<ellipse cx="300" cy="{top}" rx="{rx - 12}" ry="{ry - 3}" fill="{shade(body, -.06)}"/>')
+    for r in (64, 52, 40, 28):
+        out.append(f'<ellipse cx="300" cy="{top}" rx="{r}" ry="{round(r * 0.18, 1)}" fill="none" stroke="{shade(body, -.36)}" stroke-width="2.2" opacity="0.7"/>')
+    out.append(f'<ellipse cx="300" cy="{top}" rx="14" ry="3" fill="{shade(body, -.4)}" opacity="0.7"/>')
+    # touch panel on the front of the cap: power glyph inside the accent ring light, two small dots for fan speed and timer
+    out.append(f'<rect x="262" y="{top + 9}" width="76" height="30" rx="15" fill="{shade(body, -.07)}"/>')
+    out.append(f'<circle cx="300" cy="{top + 24}" r="9" fill="none" stroke="{accent}" stroke-width="2.6"/>'
+               f'<line x1="300" y1="{top + 14}" x2="300" y2="{top + 24}" stroke="{accent}" stroke-width="2.6" stroke-linecap="round"/>')
+    out.append(f'<circle cx="277" cy="{top + 24}" r="3" fill="{shade(body, -.35)}"/><circle cx="323" cy="{top + 24}" r="3" fill="{shade(body, -.35)}"/>')
+    out.append(f'<rect x="{x + 14}" y="{top + 26}" width="14" height="{bot - top - 54}" rx="7" fill="#fff" opacity="0.26"/>')
+    # a faint clean-air curl above the grille
+    out.append(f'<path d="M 268 76 q 12 -18 30 -8 q 10 -18 30 -6 q 14 -8 24 8" fill="none" stroke="{accent}" stroke-width="3" stroke-linecap="round" opacity="0.45"/>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic, "purifier": draw_purifier}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""
