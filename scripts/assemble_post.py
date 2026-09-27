@@ -71,7 +71,7 @@ def is_paid(c):
 
 def cta(c, label):
     rel = c.get("rel", "nofollow sponsored noopener" if is_paid(c) else "nofollow noopener")
-    tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;">(paid link)</span>' if is_paid(c) else ""
+    tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;white-space:nowrap;display:inline-block;">(paid link)</span>' if is_paid(c) else ""
     return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank">{esc(c.get("cta_label", label))} →</a>' + tag
 
 def top_pick(d, c):

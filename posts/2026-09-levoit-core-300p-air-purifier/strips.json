@@ -7,8 +7,8 @@
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "7 a.m. — pollen count high",
+          "text": "Windows shut, allergy season on. Vera sets it to high in the bedroom and closes the door on her way out.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "12 minutes per air change",
+          "text": "On high it turns a 219 sq ft room over about 4.8 times an hour (Levoit's spec). One room, one unit."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Month seven: the red light",
+          "text": "It is a timer, not a sensor. Swap in a genuine Core 300-RF, hold Check Filter for 3 seconds, done."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "11 p.m. — Sleep mode",
+          "text": "Display off, fan at its quietest (24 dB by spec; 28–37 dB measured). Nobody hears it. Everybody breathes.",
           "host": {
             "pose": "thumbsup"
           }

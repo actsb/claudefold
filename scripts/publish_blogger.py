@@ -100,7 +100,7 @@ POSTS = {
     },
     "levoit300": {
         "dir": "posts/2026-09-levoit-core-300p-air-purifier",
-        "title": "Levoit Core 300-P Review 2026: The $79 Air Purifier That Makes the Dyson Pointless",
+        "title": "Levoit Core 300-P Review 2026: The Under-$100 Air Purifier That Makes the $500 Dyson Pointless",
         "slug_title": "Levoit Core 300P Review 2026",
         "labels": ["Air Purifiers", "Home Comfort", "Best Sellers", "Review", "Under $100", "Allergies", "Amazon Finds", "Product of the Day"],
     },

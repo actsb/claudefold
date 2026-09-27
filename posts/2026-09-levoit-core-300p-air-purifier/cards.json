@@ -1,33 +1,57 @@
 {
   "category": "purifier",
-  "buy_title": "The exact Levoit Core 300-P to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The exact Levoit Core 300-P to order, and the filter that keeps it honest",
+  "buy_total": "Two paid links, one purifier and one refill. The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices quoted in the guide were reported in September 2026 and move with sales.",
   "cards": [
     {
       "id": "levoit300",
       "category": "purifier",
       "name": "Levoit Core 300-P Air Purifier",
       "short": "Levoit Core 300-P",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Product of the day · the value pick in air purifiers",
+      "chip": "219 sq ft · 24 dB sleep · 3-in-1 filter",
       "art": {
         "body": "#F1F1EF",
         "accent": "#1E8E5A"
       },
-      "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
-      "cta": "https://www.amazon.com/s?k=Levoit+Core+300-P+air+purifier&tag=verdictpicks-20",
+      "price": "About $85–$100 at the time of writing ($84.98 on Amazon against a $99.99 list, as reported by Gizmodo on September 18, 2026)",
+      "buy_if": "you want one bedroom, nursery or home office (about 220 sq ft) cleaned quietly all night for the price of a month of allergy pills.",
+      "skip_if": "you want to clean an open-plan floor, will not budget for a filter every 6–8 months, or want a sensor, auto mode and an app (that is the Core 300S-P, about $25–45 more).",
+      "owners": "4.7 stars across more than 108,000 Amazon reviews (Gizmodo, September 2026); praised for the quiet sleep mode and for clearing smells, faulted for the filter bill and the reset light that stays on.",
+      "cta": "https://www.amazon.com/dp/B07VVK39F7?tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "Core 300-P in white (the black one does the same job); one Original 3-in-1 filter is already inside the base",
+        "check": "The buy box says Sold by Amazon.com or Levoit; the title reads Core300-P; skip marketplace offers at or above the $99.99 list",
         "label": "See today's price"
+      }
+    },
+    {
+      "id": "core300rf",
+      "category": "generic",
+      "name": "Levoit Core 300-RF Replacement Filter (genuine Original 3-in-1)",
+      "short": "Core 300-RF filter",
+      "badge": "The refill · every 6–8 months",
+      "chip": "Fits 300 · 300-P · 300S",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A3A3A",
+        "accent": "#1E8E5A"
+      },
+      "price": "About $17–$27 at the time of writing (about $27 on Amazon's listing in September 2026; $17–$19 in deal threads through 2025–2026)",
+      "buy_if": "you keep the purifier: one or two a year, on Subscribe & Save so the delivery lands about when the light comes on.",
+      "skip_if": "you are tempted by a no-name 'compatible' filter at half price that states no filter class; Levoit warns non-genuine filters may mean lower air quality and a damaged motor.",
+      "owners": "the most common support complaint is the reset light staying on after a change; the light is a timer, and a three-second hold on the Check Filter button clears it (HouseFresh's problem list; the manual).",
+      "cta": "https://www.amazon.com/dp/B07RSZSYNC?tag=verdictpicks-20",
+      "buy": {
+        "tier": "The refill",
+        "pick": "Genuine Core 300-RF Original 3-in-1 (newer boxes say Core 300-P-RF); Pet Allergy, Toxin Absorber and Smoke Remover versions fit the same slot",
+        "check": "Sold by Amazon.com or Levoit; Levoit's QR/hologram seal on the box; the 2-pack is usually the better price per filter",
+        "label": "See filter price"
       }
     }
   ]

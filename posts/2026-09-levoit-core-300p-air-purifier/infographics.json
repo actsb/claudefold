@@ -3,32 +3,32 @@
     "type": "steps",
     "name": "howto",
     "title": "The Levoit Core 300-P in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "From the box to clean air in six steps, taken from the manual and Levoit's own guides",
+    "footer": "Sources: Levoit Core 300 user manual; Levoit's filter, maintenance and room-size guides; EPA wildfire filtration factsheet (June 2026).",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Unwrap the filter first",
+        "body": "Twist off the base cover, pull the filter out, remove the plastic bag it ships in, and seat it back in. Running it wrapped is the number-one cause of a rattle."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Give it 15 inches of space",
+        "body": "The manual asks for 15 in (38 cm) of clearance on every side. It pulls air in around the bottom and blows it out the top, so not in a corner, not under a shelf."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "One room, door closed",
+        "body": "Sized for about 219 sq ft at 4.8 air changes an hour. Put it where you spend the most hours, usually the bedroom, and keep the door shut."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "High by day, Sleep at night",
+        "body": "Speed 3 cleans fastest; Sleep mode is the quiet setting (24 dB by Levoit's spec). Tap the display button so the panel light goes dark at night."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Vacuum the outside monthly",
+        "body": "The mesh pre-filter is the outer layer of the cylinder. A gentle pass with the vacuum brush every 1–3 months keeps airflow up. Never wash the filter."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "New filter at 6–8 months",
+        "body": "When the Check Filter light comes on, fit a genuine Core 300-RF, then hold the button 3 seconds until the light goes out. It is a timer, not a sensor."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "sub": "Prices as reported in September 2026; the buttons on this page show today's",
+    "footer": "Prices and policies as seen in the month of writing (Gizmodo, retailer listings, Levoit's site); the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$84.98 · Sept 18",
+        "ship": "Free with Prime",
+        "returns": "30 days",
+        "note": "Filters on Subscribe & Save; buy box: Amazon.com or Levoit",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$99.00 · Sept 27",
+        "ship": "Free over $35",
+        "returns": "In store or by mail",
+        "note": "List price at the time of writing; watch its October event",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not captured",
+        "ship": "Drive Up, Same Day",
+        "returns": "In store",
+        "note": "Circle Deal Days Oct 6–7; no Levoit offer confirmed",
         "verdict": "ok"
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Levoit.com",
+        "price": "$89.99 · Sept sale",
+        "ship": "Free standard (US)",
+        "returns": "30 days, RMA first",
+        "note": "10% newsletter code; order lands in Levoit's warranty system",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Filters from ~$12",
+        "ship": "Slow, from overseas",
+        "returns": "Weak",
+        "note": "No AHAM CADR, no stated filter class; Levoit warns against them",
         "verdict": "no"
       }
     ]
