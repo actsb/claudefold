@@ -85,6 +85,7 @@ Research prompt: "Rank 20 single Amazon best-sellers with the best value for a U
 
 ## 10. The Routine that runs this
 
+* Routine sessions start **without the repository attached** (Routines cannot carry a source repo), so the prompt's step 0 attaches it with the `add_repo` tool before any work; without that, a run can build a post but never push it.
 * Routine "Verdict Picks — product of the day (daily post)", id `trig_0199fgHgdp4CqDTQ4s7NnF8Q`, cron `53 9 * * *` (09:53 UTC = 5:53 a.m. Eastern = 6:53 p.m. Korea), a fresh cloud session per run, push + email notification when a run finishes. Its prompt is the text in `daily/routine-prompt.md`.
 * Pause or resume: the owner's Routines list on claude.ai, or `update_trigger` with `enabled` from a session that holds the claude-code-remote tools.
 * Unattended publishing needs three environment secrets on the cloud environment (Edit environment → secrets): `BLOGGER_CLIENT_ID`, `BLOGGER_CLIENT_SECRET`, `BLOGGER_REFRESH_TOKEN` (how to obtain them: the docstring of `scripts/publish_blogger.py`; the owner's step-by-step guide in Korean is `daily/blogger-credentials.md`). Without them each run builds and commits the post and asks the owner for a one-hour access token.
