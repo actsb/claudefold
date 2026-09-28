@@ -1,0 +1,88 @@
+# Pins every published Verdict Picks post to Pinterest through the API (scripts/pinterest_pins.py).
+# Runs on GitHub's servers, which can reach api.pinterest.com. Setup, in Korean: daily/pinterest-setup.md
+#
+# Secrets (Settings -> Secrets and variables -> Actions -> Secrets):
+#   PINTEREST_APP_ID, PINTEREST_APP_SECRET  the developer app
+#   GH_SECRETS_PAT                          fine-grained token with "Secrets: read and write" on this repository,
+#                                           used to store the rotated refresh token after every run
+#   PINTEREST_REFRESH_TOKEN                 created and kept current by this workflow (mode "connect", then every run)
+# Variables (same page, Variables tab):
+#   PINTEREST_LIVE = true                   switch on the automatic runs (after Pinterest grants Standard access)
+#   PINTEREST_API                           optional API base, e.g. https://api-sandbox.pinterest.com/v5
+name: Pinterest pins
+
+on:
+  push:
+    branches: [claude/sharp-lovelace-n7vhzq]
+    paths: [daily/queue.json, "pinterest/pins-*.md"]
+  schedule:
+    - cron: "23 11 * * *"   # 11:23 UTC daily, after the 09:53 UTC blog Routine: catches up on anything missed
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "connect (first time) · check · sync · fix · list"
+        type: choice
+        options: [sync, connect, check, fix, list]
+        default: sync
+      code:
+        description: "connect: the one-time code from the connect page"
+        required: false
+      target:
+        description: "fix: the post URL (or folder name) whose pin to correct"
+        required: false
+      limit:
+        description: "sync: most new pins in this run"
+        required: false
+        default: "2"
+
+# One run at a time: Pinterest spends the refresh token on every use, so two parallel runs would break the connection.
+concurrency:
+  group: pinterest-token
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  pins:
+    if: github.event_name == 'workflow_dispatch' || vars.PINTEREST_LIVE == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Pinterest (${{ inputs.mode || 'sync' }})
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_REFRESH_TOKEN: ${{ secrets.PINTEREST_REFRESH_TOKEN }}
+          PINTEREST_API: ${{ vars.PINTEREST_API || 'https://api.pinterest.com/v5' }}
+          PINTEREST_TOKEN_OUT: ${{ runner.temp }}/pinterest-refresh-token
+          MODE: ${{ inputs.mode || 'sync' }}
+          CODE: ${{ inputs.code }}
+          TARGET: ${{ inputs.target }}
+          LIMIT: ${{ inputs.limit || '2' }}
+        run: |
+          if [ -n "$CODE" ]; then echo "::add-mask::$CODE"; fi
+          case "$MODE" in
+            connect) python3 scripts/pinterest_pins.py connect --code "$CODE" ;;
+            check)   python3 scripts/pinterest_pins.py check ;;
+            list)    python3 scripts/pinterest_pins.py list ;;
+            fix)     python3 scripts/pinterest_pins.py fix "$TARGET" --replace ;;
+            *)       python3 scripts/pinterest_pins.py sync --limit "$LIMIT" ;;
+          esac
+
+      - name: Save the rotated refresh token
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
+          OUT: ${{ runner.temp }}/pinterest-refresh-token
+        run: |
+          if [ ! -s "$OUT" ]; then echo "no new refresh token in this run"; exit 0; fi
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::The refresh token rotated but GH_SECRETS_PAT is missing, so it could not be saved. Add the secret, then run mode 'connect' again."
+            exit 1
+          fi
+          gh secret set PINTEREST_REFRESH_TOKEN --repo "$GITHUB_REPOSITORY" < "$OUT"
+          rm -f "$OUT"
+          echo "saved the new refresh token as the PINTEREST_REFRESH_TOKEN secret"

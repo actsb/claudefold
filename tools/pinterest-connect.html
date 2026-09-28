@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<title>Pinterest 연결</title>
+<style>
+  :root { --ink:#1B2A41; --green:#1E8E5A; --paper:#F7F5F0; --line:#E3E1DB; --muted:#5b6472; --bg:#ffffff; --warn:#B45309; --err:#B91C1C; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#E8EDF5; --paper:#1d2330; --line:#2f3747; --muted:#a4adbb; --bg:#12161f; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 -apple-system, "Segoe UI", Roboto, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin: 0 0 18px; }
+  .card h2 { font-size: 1.1rem; margin: 0 0 10px; }
+  label { display:block; font-weight: 700; margin: 0 0 6px; }
+  input { width:100%; font: inherit; padding: 11px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+  button, .btn { display:inline-flex; align-items:center; gap:8px; font: inherit; font-weight: 700; border: 0; border-radius: 10px; padding: 11px 18px; cursor: pointer; text-decoration: none; }
+  .primary { background: var(--green); color: #fff; margin-top: 12px; }
+  .ghost { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  .code { font: 600 15px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; word-break: break-all; background: var(--bg); border: 1px dashed var(--green); border-radius: 10px; padding: 12px; margin: 8px 0 12px; }
+  ol { padding-left: 20px; margin: 8px 0 0; } li { margin: 0 0 6px; }
+  .note { font-size: 14px; color: var(--muted); }
+  .warn { border-color: var(--warn); } .warn h2 { color: var(--warn); }
+  .err { border-color: var(--err); } .err h2 { color: var(--err); }
+  .ok { border-color: var(--green); } .ok h2 { color: var(--green); }
+  a { color: var(--green); font-weight: 700; }
+  code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .92em; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pinterest 연결</h1>
+  <p class="sub">Verdict Picks 자동 핀을 내 Pinterest 계정에 연결하는 한 번짜리 페이지입니다. 코드와 비밀값은 어디로도 보내거나 저장하지 않습니다(앱 ID만 이 브라우저에 기억해 둡니다).</p>
+
+  <section class="card" id="start">
+    <h2>1. 앱 ID를 넣고 승인하기</h2>
+    <label for="appid">Pinterest 앱 ID (App ID)</label>
+    <input id="appid" inputmode="numeric" autocomplete="off" placeholder="developers.pinterest.com → My apps → 앱 → App ID">
+    <button class="primary" id="go" type="button">Pinterest에서 승인하기 →</button>
+    <p class="note">Pinterest 로그인 화면이 나오면 블로그 핀을 올릴 계정으로 로그인하고 <strong>허용(Give access)</strong>을 누르세요. 끝나면 이 페이지로 돌아옵니다.</p>
+  </section>
+
+  <section class="card ok" id="done" hidden>
+    <h2>✅ 승인 완료 — 일회용 코드</h2>
+    <div class="code" id="code"></div>
+    <button class="primary" id="copy" type="button">코드 복사</button>
+    <ol>
+      <li><a id="runlink" href="https://github.com/actsb/claudefold/actions/workflows/pinterest.yml" target="_blank" rel="noopener">GitHub → Actions → Pinterest pins</a> 열기</li>
+      <li>오른쪽 <strong>Run workflow</strong> → <strong>mode: connect</strong> 선택 → <strong>code</strong> 칸에 붙여넣기 → <strong>Run workflow</strong></li>
+      <li>1분 뒤 초록 체크가 뜨면 연결 완료입니다.</li>
+    </ol>
+    <p class="note">코드는 한 번만 쓸 수 있고 몇 분 뒤 만료됩니다. 바로 실행하세요. 코드는 앱 비밀키 없이는 쓸모가 없어서, 채팅이나 저장소에 남기지 않는 한 안전합니다.</p>
+  </section>
+
+  <section class="card warn" id="mismatch" hidden>
+    <h2>다시 시작해 주세요</h2>
+    <p>이 창에서 시작한 승인 요청이 아니어서 코드를 표시하지 않았습니다(다른 사이트가 보낸 요청을 막기 위한 확인입니다).</p>
+    <button class="ghost" type="button" onclick="location.href=location.pathname">처음부터 다시</button>
+  </section>
+
+  <section class="card err" id="denied" hidden>
+    <h2>승인이 되지 않았습니다</h2>
+    <p id="deniedmsg"></p>
+    <button class="ghost" type="button" onclick="location.href=location.pathname">처음부터 다시</button>
+  </section>
+
+  <section class="card">
+    <h2>앱 설정에 넣을 Redirect URI</h2>
+    <div class="code" id="redirect"></div>
+    <p class="note">Pinterest 개발자 앱의 Redirect URIs에 위 주소를 한 글자도 다르지 않게 등록해야 승인이 됩니다. 전체 설정 순서: 저장소의 <code>daily/pinterest-setup.md</code></p>
+  </section>
+</main>
+<script>
+(function () {
+  var REDIRECT = location.origin + location.pathname;
+  var SCOPES = "boards:read,boards:write,pins:read,pins:write,user_accounts:read";
+  var $ = function (id) { return document.getElementById(id); };
+  var store = {
+    get: function (k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+    set: function (k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+    del: function (k) { try { localStorage.removeItem(k); } catch (e) {} }
+  };
+  $("redirect").textContent = REDIRECT;
+  $("appid").value = store.get("vp-pinterest-app-id") || "";
+
+  var q = new URLSearchParams(location.search);
+  if (q.get("code") || q.get("error")) {
+    history.replaceState(null, "", location.pathname);
+    $("start").hidden = true;
+    var saved = store.get("vp-pinterest-state");
+    store.del("vp-pinterest-state");
+    if (q.get("error")) {
+      $("denied").hidden = false;
+      $("deniedmsg").textContent = "Pinterest 응답: " + (q.get("error_description") || q.get("error"));
+    } else if (!saved || saved !== q.get("state")) {
+      $("mismatch").hidden = false;
+    } else {
+      $("done").hidden = false;
+      $("code").textContent = q.get("code");
+    }
+  }
+
+  $("go").addEventListener("click", function () {
+    var id = $("appid").value.trim();
+    if (!/^\d{4,}$/.test(id)) { $("appid").focus(); $("appid").setCustomValidity("숫자로 된 App ID를 넣어 주세요"); $("appid").reportValidity(); return; }
+    $("appid").setCustomValidity("");
+    var bytes = new Uint8Array(16); crypto.getRandomValues(bytes);
+    var state = Array.prototype.map.call(bytes, function (b) { return ("0" + b.toString(16)).slice(-2); }).join("");
+    store.set("vp-pinterest-app-id", id);
+    store.set("vp-pinterest-state", state);
+    location.href = "https://www.pinterest.com/oauth/?" + new URLSearchParams({
+      client_id: id, redirect_uri: REDIRECT, response_type: "code", scope: SCOPES, state: state
+    }).toString();
+  });
+
+  $("copy").addEventListener("click", function () {
+    var text = $("code").textContent;
+    var done = function () { $("copy").textContent = "복사됨 ✓"; setTimeout(function () { $("copy").textContent = "코드 복사"; }, 2000); };
+    if (navigator.clipboard) { navigator.clipboard.writeText(text).then(done, function () { window.prompt("복사하세요", text); }); }
+    else { window.prompt("복사하세요", text); }
+  });
+})();
+</script>
+</body>
+</html>

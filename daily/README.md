@@ -68,6 +68,7 @@ Backlog rule: when credentials work, first publish every earlier queue entry who
 * `daily/queue.json`: set the entry's `"status": "published"` and `"url"`.
 * `brand/pages/hub-best-sellers.html`: add the one-line entry (done by `daily_post.py new` as a draft line; check it).
 * `pinterest/pins-2026-*.md` and `promo/<date>-<slug>.md`: the scaffolder writes drafts; complete them.
+* The Pinterest pin is created from that pin entry by `.github/workflows/pinterest.yml` (GitHub Actions, `scripts/pinterest_pins.py`) once the queue entry is `published` and the entry has no WRITE markers; the final push triggers it. Never call Pinterest from the Routine (the environment's network policy blocks it). Limits: title ≤100, description ≤500, alt text ≤500 characters; `python3 scripts/pinterest_pins.py list` shows which entries are ready. Owner setup: `daily/pinterest-setup.md`.
 * `posts/<dir>/post-meta.md`: title, slug, labels, search description (≤150 chars), status, timestamp.
 * Commit and push: `git add -A && git commit -m "Daily pick: <product>" && git push -u origin claude/sharp-lovelace-n7vhzq`.
 * Final report to the owner: URL, what was verified, what could not be (UNVERIFIED items), the search description to paste, and any embed to double-check.
