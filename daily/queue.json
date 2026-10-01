@@ -1,413 +1,413 @@
 {
- "queue": [
-  {
-   "key": "levoit300",
-   "slug": "levoit-core-300p-air-purifier",
-   "date": "2026-09-27",
-   "status": "published",
-   "name": "Levoit Core 300-P Air Purifier",
-   "short": "Levoit Core 300-P",
-   "category": "purifier",
-   "art": {
-    "body": "#F1F1EF",
-    "accent": "#1E8E5A"
-   },
-   "search": "Levoit Core 300-P air purifier",
-   "title": "Levoit Core 300-P Review 2026: The Under-$100 Air Purifier That Makes the $500 Dyson Pointless",
-   "slug_title": "Levoit Core 300P Review 2026",
-   "labels": [
-    "Air Purifiers",
-    "Home Comfort",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "Allergies",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6–7",
-   "beats": "Dyson Purifier Cool / Levoit Core 400S",
-   "source": "research/daily-candidates-2026-09-27.md",
-   "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
-   "dir": "posts/2026-09-levoit-core-300p-air-purifier"
-  },
-  {
-   "key": "bedsure-throw",
-   "slug": "bedsure-heated-blanket-throw",
-   "date": "2026-10-01",
-   "status": "writing",
-   "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
-   "short": "Bedsure heated throw",
-   "category": "generic",
-   "art": {
-    "shape": "flat",
-    "body": "#8A8F98",
-    "accent": "#C9781B"
-   },
-   "search": "Bedsure heated blanket electric throw 50x60",
-   "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket, Recall Check Included",
-   "slug_title": "Bedsure Heated Throw Review 2026",
-   "labels": [
-    "Home Comfort",
-    "Best Sellers",
-    "Review",
-    "Under $50",
-    "Gifts",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6–7",
-   "beats": "a space heater / a $150 designer throw",
-   "source": "research/daily-candidates-2026-09-27.md",
-   "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
-   "dir": "posts/2026-10-bedsure-heated-blanket-throw"
-  },
-  {
-   "key": "ocedar-mop",
-   "slug": "o-cedar-easywring-spin-mop",
-   "date": "2026-09-29",
-   "status": "queued",
-   "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
-   "short": "O-Cedar spin mop",
-   "category": "generic",
-   "art": {
-    "shape": "cylinder",
-    "body": "#C8102E",
-    "accent": "#2F3A48"
-   },
-   "search": "O-Cedar EasyWring microfiber spin mop bucket",
-   "title": "O-Cedar EasyWring Spin Mop Review 2026: 170,000 Reviews and No Refill Pads",
-   "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
-   "labels": [
-    "Home Cleaning",
-    "Best Sellers",
-    "Review",
-    "Under $50",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "fall deep-clean, wet-leaf season; cleaning is a Big Deal Days category",
-   "beats": "Swiffer WetJet / a $500 floor washer",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "noco-gb40",
-   "slug": "noco-boost-plus-gb40-jump-starter",
-   "date": "2026-09-30",
-   "status": "queued",
-   "name": "NOCO Boost Plus GB40 1000A Jump Starter",
-   "short": "NOCO GB40",
-   "category": "generic",
-   "art": {
-    "shape": "box",
-    "body": "#2F2F2F",
-    "accent": "#F08A24"
-   },
-   "search": "NOCO Boost Plus GB40 1000A jump starter",
-   "title": "NOCO GB40 Review 2026: The Jump Starter 128,000 Drivers Keep in the Glovebox",
-   "slug_title": "NOCO GB40 Jump Starter Review 2026",
-   "labels": [
-    "Car",
-    "Tools",
-    "Best Sellers",
-    "Review",
-    "Under $150",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "cold mornings kill marginal batteries; Thanksgiving drives",
-   "beats": "NOCO GB70 / no-name 2000A boxes",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "beckham-pillows",
-   "slug": "beckham-hotel-collection-pillows",
-   "date": "2026-10-01",
-   "status": "queued",
-   "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
-   "short": "Beckham pillows",
-   "category": "generic",
-   "art": {
-    "shape": "bag",
-    "body": "#F4F1EA",
-    "accent": "#1B2A41"
-   },
-   "search": "Beckham Hotel Collection bed pillows queen set of 2",
-   "title": "Beckham Hotel Collection Pillows Review 2026: Amazon's #1 Pillow, Honestly",
-   "slug_title": "Beckham Hotel Pillows Review 2026",
-   "labels": [
-    "Sleep",
-    "Bedding",
-    "Best Sellers",
-    "Review",
-    "Under $50",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "guest room before the holidays; 40–48% off at tentpole sales",
-   "beats": "Coop Home Goods Original",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "instant-pot-duo",
-   "slug": "instant-pot-duo-6-quart",
-   "date": "2026-10-02",
-   "status": "queued",
-   "name": "Instant Pot Duo 6-Quart 7-in-1",
-   "short": "Instant Pot Duo",
-   "category": "generic",
-   "art": {
-    "shape": "cylinder",
-    "body": "#3A4453",
-    "accent": "#C8102E"
-   },
-   "search": "Instant Pot Duo 6 quart 7-in-1 pressure cooker",
-   "title": "Instant Pot Duo 6-Quart Review 2026: The One 180,000 Cooks Still Buy",
-   "slug_title": "Instant Pot Duo 6 Quart Review 2026",
-   "labels": [
-    "Kitchen",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "soup and chili season; Thanksgiving sides; perennial doorbuster",
-   "beats": "Instant Pot Duo Crisp / Ninja Foodi",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "waterpik-wp660",
-   "slug": "waterpik-aquarius-wp-660",
-   "date": "2026-10-03",
-   "status": "queued",
-   "name": "Waterpik Aquarius WP-660 Water Flosser",
-   "short": "Waterpik Aquarius",
-   "category": "generic",
-   "art": {
-    "shape": "bottle",
-    "body": "#F2F2F2",
-    "accent": "#1E8E5A"
-   },
-   "search": "Waterpik Aquarius WP-660 water flosser",
-   "title": "Waterpik Aquarius WP-660 Review 2026: The Water Flosser Dentists and 120,000 Reviews Agree On",
-   "slug_title": "Waterpik Aquarius WP-660 Review 2026",
-   "labels": [
-    "Personal Care",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "FSA Eligible",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "FSA/HSA use-it-or-lose-it season; Big Deal Days discount history",
-   "beats": "Waterpik Sonic-Fusion / cordless Express",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "dreo-heater",
-   "slug": "dreo-space-heater",
-   "date": "2026-10-04",
-   "status": "queued",
-   "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
-   "short": "Dreo space heater",
-   "category": "generic",
-   "art": {
-    "shape": "cylinder",
-    "body": "#2F2F2F",
-    "accent": "#F08A24"
-   },
-   "search": "Dreo space heater 1500W oscillating thermostat remote",
-   "title": "Dreo Space Heater Review 2026: Amazon's #1 Heater vs Dyson and Vornado",
-   "slug_title": "Dreo Space Heater Review 2026",
-   "labels": [
-    "Home Comfort",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "first heating bill; zone heating; Dreo in current deal roundups",
-   "beats": "Dyson HP / Vornado VH200",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "rubbermaid-brilliance",
-   "slug": "rubbermaid-brilliance-food-storage",
-   "date": "2026-10-05",
-   "status": "queued",
-   "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
-   "short": "Rubbermaid Brilliance",
-   "category": "generic",
-   "art": {
-    "shape": "box",
-    "body": "#DCE7F5",
-    "accent": "#C8102E"
-   },
-   "search": "Rubbermaid Brilliance leak proof food storage containers 10 piece",
-   "title": "Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?",
-   "slug_title": "Rubbermaid Brilliance Review 2026",
-   "labels": [
-    "Kitchen",
-    "Storage",
-    "Best Sellers",
-    "Review",
-    "Under $50",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "meal-prep reset; Thanksgiving leftovers",
-   "beats": "Pyrex glass / OXO POP",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "furhaven-bed",
-   "slug": "furhaven-orthopedic-dog-bed",
-   "date": "2026-10-06",
-   "status": "queued",
-   "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
-   "short": "Furhaven dog bed",
-   "category": "generic",
-   "art": {
-    "shape": "bag",
-    "body": "#8B6B43",
-    "accent": "#1E8E5A"
-   },
-   "search": "Furhaven orthopedic sofa dog bed large",
-   "title": "Furhaven Orthopedic Dog Bed Review 2026: 90% of a Big Barker at 30% of the Price",
-   "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
-   "labels": [
-    "Pets",
-    "Dog Supplies",
-    "Best Sellers",
-    "Review",
-    "Under $60",
-    "For Pet Owners",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "cold floors and stiff joints; holiday gift for the dog",
-   "beats": "Big Barker / Casper dog bed",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "revlon-onestep",
-   "slug": "revlon-one-step-volumizer-plus",
-   "date": "2026-10-07",
-   "status": "queued",
-   "name": "Revlon One-Step Volumizer Plus 2.0",
-   "short": "Revlon One-Step Plus",
-   "category": "generic",
-   "art": {
-    "shape": "cylinder",
-    "body": "#1B1B1B",
-    "accent": "#C8102E"
-   },
-   "search": "Revlon One-Step Volumizer Plus 2.0 hair dryer brush",
-   "title": "Revlon One-Step Volumizer Plus 2.0 Review 2026: The $40 Answer to the Airwrap",
-   "slug_title": "Revlon One-Step Plus Review 2026",
-   "labels": [
-    "Personal Care",
-    "Beauty",
-    "Best Sellers",
-    "Review",
-    "Under $50",
-    "Gifts",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "holiday-party season; 40%+ markdowns at tentpole sales",
-   "beats": "Dyson Airwrap / Shark FlexStyle",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "redtiger-f7np",
-   "slug": "redtiger-f7np-dash-cam",
-   "date": "2026-10-08",
-   "status": "queued",
-   "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
-   "short": "REDTIGER F7NP",
-   "category": "generic",
-   "art": {
-    "shape": "box",
-    "body": "#1B1B1B",
-    "accent": "#C8102E"
-   },
-   "search": "REDTIGER F7NP 4K dash cam front rear",
-   "title": "REDTIGER F7NP Dash Cam Review 2026: Amazon's Best-Selling Dash Cam and Its One Fix",
-   "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
-   "labels": [
-    "Car",
-    "Tech",
-    "Best Sellers",
-    "Review",
-    "Under $150",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "clocks change, dark commutes, insurance disputes",
-   "beats": "BlackVue DR970X / Garmin 67W",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "mx-master-3s",
-   "slug": "logitech-mx-master-3s",
-   "date": "2026-10-09",
-   "status": "queued",
-   "name": "Logitech MX Master 3S",
-   "short": "MX Master 3S",
-   "category": "generic",
-   "art": {
-    "shape": "sphere",
-    "body": "#3A4453",
-    "accent": "#1E8E5A"
-   },
-   "search": "Logitech MX Master 3S wireless mouse",
-   "title": "Logitech MX Master 3S Review 2026: Better Value Than the MX Master 4",
-   "slug_title": "Logitech MX Master 3S Review 2026",
-   "labels": [
-    "Office",
-    "Tech",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "MX Master 4 launch pushed 3S to its 2026 low",
-   "beats": "Logitech MX Master 4",
-   "source": "research/daily-candidates-2026-09-27.md"
-  },
-  {
-   "key": "worx-wg520",
-   "slug": "worx-wg520-turbine-600-leaf-blower",
-   "date": "2026-10-10",
-   "status": "queued",
-   "name": "WORX WG520 Turbine 600 Corded Leaf Blower",
-   "short": "WORX Turbine 600",
-   "category": "generic",
-   "art": {
-    "shape": "cylinder",
-    "body": "#2F2F2F",
-    "accent": "#F08A24"
-   },
-   "search": "WORX WG520 Turbine 600 corded leaf blower",
-   "title": "WORX WG520 Turbine 600 Review 2026: Gas-Class Airflow for $70, No Gas",
-   "slug_title": "WORX WG520 Leaf Blower Review 2026",
-   "labels": [
-    "Outdoor",
-    "Tools",
-    "Best Sellers",
-    "Review",
-    "Under $100",
-    "Amazon Finds",
-    "Product of the Day"
-   ],
-   "hook": "peak leaf fall mid-to-late October; gutter kit bundle",
-   "beats": "Echo/Stihl gas / EGO 56V",
-   "source": "research/daily-candidates-2026-09-27.md"
-  }
- ]
+  "queue": [
+    {
+      "key": "levoit300",
+      "slug": "levoit-core-300p-air-purifier",
+      "date": "2026-09-27",
+      "status": "published",
+      "name": "Levoit Core 300-P Air Purifier",
+      "short": "Levoit Core 300-P",
+      "category": "purifier",
+      "art": {
+        "body": "#F1F1EF",
+        "accent": "#1E8E5A"
+      },
+      "search": "Levoit Core 300-P air purifier",
+      "title": "Levoit Core 300-P Review 2026: The Under-$100 Air Purifier That Makes the $500 Dyson Pointless",
+      "slug_title": "Levoit Core 300P Review 2026",
+      "labels": [
+        "Air Purifiers",
+        "Home Comfort",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "Allergies",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6–7",
+      "beats": "Dyson Purifier Cool / Levoit Core 400S",
+      "source": "research/daily-candidates-2026-09-27.md",
+      "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
+      "dir": "posts/2026-09-levoit-core-300p-air-purifier"
+    },
+    {
+      "key": "bedsure-throw",
+      "slug": "bedsure-heated-blanket-throw",
+      "date": "2026-10-01",
+      "status": "published",
+      "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+      "short": "Bedsure heated throw",
+      "category": "generic",
+      "art": {
+        "shape": "flat",
+        "body": "#8A8F98",
+        "accent": "#C9781B"
+      },
+      "search": "Bedsure heated blanket electric throw 50x60",
+      "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket, Recall Check Included",
+      "slug_title": "Bedsure Heated Throw Review 2026",
+      "labels": [
+        "Home Comfort",
+        "Best Sellers",
+        "Review",
+        "Under $50",
+        "Gifts",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6–7",
+      "beats": "a space heater / a $150 designer throw",
+      "source": "research/daily-candidates-2026-09-27.md",
+      "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
+      "dir": "posts/2026-10-bedsure-heated-blanket-throw"
+    },
+    {
+      "key": "ocedar-mop",
+      "slug": "o-cedar-easywring-spin-mop",
+      "date": "2026-09-29",
+      "status": "queued",
+      "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+      "short": "O-Cedar spin mop",
+      "category": "generic",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#2F3A48"
+      },
+      "search": "O-Cedar EasyWring microfiber spin mop bucket",
+      "title": "O-Cedar EasyWring Spin Mop Review 2026: 170,000 Reviews and No Refill Pads",
+      "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
+      "labels": [
+        "Home Cleaning",
+        "Best Sellers",
+        "Review",
+        "Under $50",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "fall deep-clean, wet-leaf season; cleaning is a Big Deal Days category",
+      "beats": "Swiffer WetJet / a $500 floor washer",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "noco-gb40",
+      "slug": "noco-boost-plus-gb40-jump-starter",
+      "date": "2026-09-30",
+      "status": "queued",
+      "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+      "short": "NOCO GB40",
+      "category": "generic",
+      "art": {
+        "shape": "box",
+        "body": "#2F2F2F",
+        "accent": "#F08A24"
+      },
+      "search": "NOCO Boost Plus GB40 1000A jump starter",
+      "title": "NOCO GB40 Review 2026: The Jump Starter 128,000 Drivers Keep in the Glovebox",
+      "slug_title": "NOCO GB40 Jump Starter Review 2026",
+      "labels": [
+        "Car",
+        "Tools",
+        "Best Sellers",
+        "Review",
+        "Under $150",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "cold mornings kill marginal batteries; Thanksgiving drives",
+      "beats": "NOCO GB70 / no-name 2000A boxes",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "beckham-pillows",
+      "slug": "beckham-hotel-collection-pillows",
+      "date": "2026-10-01",
+      "status": "queued",
+      "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+      "short": "Beckham pillows",
+      "category": "generic",
+      "art": {
+        "shape": "bag",
+        "body": "#F4F1EA",
+        "accent": "#1B2A41"
+      },
+      "search": "Beckham Hotel Collection bed pillows queen set of 2",
+      "title": "Beckham Hotel Collection Pillows Review 2026: Amazon's #1 Pillow, Honestly",
+      "slug_title": "Beckham Hotel Pillows Review 2026",
+      "labels": [
+        "Sleep",
+        "Bedding",
+        "Best Sellers",
+        "Review",
+        "Under $50",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "guest room before the holidays; 40–48% off at tentpole sales",
+      "beats": "Coop Home Goods Original",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "instant-pot-duo",
+      "slug": "instant-pot-duo-6-quart",
+      "date": "2026-10-02",
+      "status": "queued",
+      "name": "Instant Pot Duo 6-Quart 7-in-1",
+      "short": "Instant Pot Duo",
+      "category": "generic",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A4453",
+        "accent": "#C8102E"
+      },
+      "search": "Instant Pot Duo 6 quart 7-in-1 pressure cooker",
+      "title": "Instant Pot Duo 6-Quart Review 2026: The One 180,000 Cooks Still Buy",
+      "slug_title": "Instant Pot Duo 6 Quart Review 2026",
+      "labels": [
+        "Kitchen",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "soup and chili season; Thanksgiving sides; perennial doorbuster",
+      "beats": "Instant Pot Duo Crisp / Ninja Foodi",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "waterpik-wp660",
+      "slug": "waterpik-aquarius-wp-660",
+      "date": "2026-10-03",
+      "status": "queued",
+      "name": "Waterpik Aquarius WP-660 Water Flosser",
+      "short": "Waterpik Aquarius",
+      "category": "generic",
+      "art": {
+        "shape": "bottle",
+        "body": "#F2F2F2",
+        "accent": "#1E8E5A"
+      },
+      "search": "Waterpik Aquarius WP-660 water flosser",
+      "title": "Waterpik Aquarius WP-660 Review 2026: The Water Flosser Dentists and 120,000 Reviews Agree On",
+      "slug_title": "Waterpik Aquarius WP-660 Review 2026",
+      "labels": [
+        "Personal Care",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "FSA Eligible",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "FSA/HSA use-it-or-lose-it season; Big Deal Days discount history",
+      "beats": "Waterpik Sonic-Fusion / cordless Express",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "dreo-heater",
+      "slug": "dreo-space-heater",
+      "date": "2026-10-04",
+      "status": "queued",
+      "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+      "short": "Dreo space heater",
+      "category": "generic",
+      "art": {
+        "shape": "cylinder",
+        "body": "#2F2F2F",
+        "accent": "#F08A24"
+      },
+      "search": "Dreo space heater 1500W oscillating thermostat remote",
+      "title": "Dreo Space Heater Review 2026: Amazon's #1 Heater vs Dyson and Vornado",
+      "slug_title": "Dreo Space Heater Review 2026",
+      "labels": [
+        "Home Comfort",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "first heating bill; zone heating; Dreo in current deal roundups",
+      "beats": "Dyson HP / Vornado VH200",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "rubbermaid-brilliance",
+      "slug": "rubbermaid-brilliance-food-storage",
+      "date": "2026-10-05",
+      "status": "queued",
+      "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+      "short": "Rubbermaid Brilliance",
+      "category": "generic",
+      "art": {
+        "shape": "box",
+        "body": "#DCE7F5",
+        "accent": "#C8102E"
+      },
+      "search": "Rubbermaid Brilliance leak proof food storage containers 10 piece",
+      "title": "Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?",
+      "slug_title": "Rubbermaid Brilliance Review 2026",
+      "labels": [
+        "Kitchen",
+        "Storage",
+        "Best Sellers",
+        "Review",
+        "Under $50",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "meal-prep reset; Thanksgiving leftovers",
+      "beats": "Pyrex glass / OXO POP",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "furhaven-bed",
+      "slug": "furhaven-orthopedic-dog-bed",
+      "date": "2026-10-06",
+      "status": "queued",
+      "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+      "short": "Furhaven dog bed",
+      "category": "generic",
+      "art": {
+        "shape": "bag",
+        "body": "#8B6B43",
+        "accent": "#1E8E5A"
+      },
+      "search": "Furhaven orthopedic sofa dog bed large",
+      "title": "Furhaven Orthopedic Dog Bed Review 2026: 90% of a Big Barker at 30% of the Price",
+      "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
+      "labels": [
+        "Pets",
+        "Dog Supplies",
+        "Best Sellers",
+        "Review",
+        "Under $60",
+        "For Pet Owners",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "cold floors and stiff joints; holiday gift for the dog",
+      "beats": "Big Barker / Casper dog bed",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "revlon-onestep",
+      "slug": "revlon-one-step-volumizer-plus",
+      "date": "2026-10-07",
+      "status": "queued",
+      "name": "Revlon One-Step Volumizer Plus 2.0",
+      "short": "Revlon One-Step Plus",
+      "category": "generic",
+      "art": {
+        "shape": "cylinder",
+        "body": "#1B1B1B",
+        "accent": "#C8102E"
+      },
+      "search": "Revlon One-Step Volumizer Plus 2.0 hair dryer brush",
+      "title": "Revlon One-Step Volumizer Plus 2.0 Review 2026: The $40 Answer to the Airwrap",
+      "slug_title": "Revlon One-Step Plus Review 2026",
+      "labels": [
+        "Personal Care",
+        "Beauty",
+        "Best Sellers",
+        "Review",
+        "Under $50",
+        "Gifts",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "holiday-party season; 40%+ markdowns at tentpole sales",
+      "beats": "Dyson Airwrap / Shark FlexStyle",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "redtiger-f7np",
+      "slug": "redtiger-f7np-dash-cam",
+      "date": "2026-10-08",
+      "status": "queued",
+      "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+      "short": "REDTIGER F7NP",
+      "category": "generic",
+      "art": {
+        "shape": "box",
+        "body": "#1B1B1B",
+        "accent": "#C8102E"
+      },
+      "search": "REDTIGER F7NP 4K dash cam front rear",
+      "title": "REDTIGER F7NP Dash Cam Review 2026: Amazon's Best-Selling Dash Cam and Its One Fix",
+      "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
+      "labels": [
+        "Car",
+        "Tech",
+        "Best Sellers",
+        "Review",
+        "Under $150",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "clocks change, dark commutes, insurance disputes",
+      "beats": "BlackVue DR970X / Garmin 67W",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "mx-master-3s",
+      "slug": "logitech-mx-master-3s",
+      "date": "2026-10-09",
+      "status": "queued",
+      "name": "Logitech MX Master 3S",
+      "short": "MX Master 3S",
+      "category": "generic",
+      "art": {
+        "shape": "sphere",
+        "body": "#3A4453",
+        "accent": "#1E8E5A"
+      },
+      "search": "Logitech MX Master 3S wireless mouse",
+      "title": "Logitech MX Master 3S Review 2026: Better Value Than the MX Master 4",
+      "slug_title": "Logitech MX Master 3S Review 2026",
+      "labels": [
+        "Office",
+        "Tech",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "MX Master 4 launch pushed 3S to its 2026 low",
+      "beats": "Logitech MX Master 4",
+      "source": "research/daily-candidates-2026-09-27.md"
+    },
+    {
+      "key": "worx-wg520",
+      "slug": "worx-wg520-turbine-600-leaf-blower",
+      "date": "2026-10-10",
+      "status": "queued",
+      "name": "WORX WG520 Turbine 600 Corded Leaf Blower",
+      "short": "WORX Turbine 600",
+      "category": "generic",
+      "art": {
+        "shape": "cylinder",
+        "body": "#2F2F2F",
+        "accent": "#F08A24"
+      },
+      "search": "WORX WG520 Turbine 600 corded leaf blower",
+      "title": "WORX WG520 Turbine 600 Review 2026: Gas-Class Airflow for $70, No Gas",
+      "slug_title": "WORX WG520 Leaf Blower Review 2026",
+      "labels": [
+        "Outdoor",
+        "Tools",
+        "Best Sellers",
+        "Review",
+        "Under $100",
+        "Amazon Finds",
+        "Product of the Day"
+      ],
+      "hook": "peak leaf fall mid-to-late October; gutter kit bundle",
+      "beats": "Echo/Stihl gas / EGO 56V",
+      "source": "research/daily-candidates-2026-09-27.md"
+    }
+  ]
 }

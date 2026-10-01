@@ -8,4 +8,4 @@
 * **Research:** research/daily-2026-10-01-bedsure-heated-blanket-throw.md
 * **Embeds:** 4XPoDx2UPQU "Bedsure Heated Throw Blanket Review - Work From Home Must Have?" (title verbatim from a search-result URL; channel and upload date UNVERIFIED, video not watched)
 * **UNVERIFIED:** current listings' model number vs the 2023 CPSC recall (BS-HB5060); live Amazon price and Sold-by line; Amazon return window; 10-year warranty scope; Good Housekeeping and Wirecutter rankings (not cited); review text (no Amazon/Walmart/CPSC/YouTube page could be opened).
-* **Status:** built 2026-10-01, check PASS, 0 WRITE markers; NOT published (Blogger refresh token expired or revoked)
+* **Status:** built 2026-10-01, check PASS, 0 WRITE markers; published 2026-10-01 at https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html
