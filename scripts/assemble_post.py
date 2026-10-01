@@ -176,7 +176,7 @@ def follow_block():
     return ('<div class="vp-follow" id="follow" style="border:2px solid #1B2A41;border-radius:16px;padding:18px 20px;background:#F7F5F0;margin:1.6em 0;">'
             '<div style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Follow Verdict Picks</div>'
             '<h3 style="margin:.3em 0 .4em;color:#1B2A41;font-size:1.3em;">Get the next guide when it lands</h3>'
-            '<p style="margin:0 0 .9em;font-size:16px;color:#333;">One or two guides a week, tested picks only, no sale pitches. Pick the way you like to follow:</p>'
+            '<p style="margin:0 0 .9em;font-size:16px;color:#333;">One or two guides a week, researched picks only, no sale pitches. Pick the way you like to follow:</p>'
             '<div style="display:flex;flex-wrap:wrap;gap:10px;">' + "".join(buttons) + '</div>'
             f'<p style="margin:.8em 0 0;font-size:13px;color:#666;">Every option explained, and what we will never send: <a href="{FOLLOW["page"]}" style="color:#1B2A41;font-weight:700;">the follow page</a>.</p></div>\n')
 
@@ -193,7 +193,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
-              'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we tested, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
+              'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we researched, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
     if sorted((d / "src").glob("0[1-9]-*.html")):   # only guides with a deep-dive get the two-ways notice
         easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
     # Blogger jump break after the lead paragraph: index pages show only the lead, and
@@ -253,7 +253,7 @@ def main(post_dir):
         items.append(f'<li style="margin-bottom:.3em;"><a href="#{sid}" style="color:#1B2A41;font-weight:700;">{esc(title)}</a> <span style="color:#777;font-size:.9em;">· about {mins} min</span></li>')
     out = (easy
            + '\n<h2 id="deep" style="color:#1B2A41;font-size:1.6em;line-height:1.25;margin:1.6em 0 .5em;">Have more time? The full deep-dive, section by section</h2>\n'
-           + '<p>The quick guide above is enough to buy well. If you want to know <em>why</em> — how we tested, what every brand does well and badly, every pick in detail, what thousands of owners said, and when to buy — the complete analysis follows. Read it in one go, or one section at a time when you have a few minutes. Each section stands on its own.</p>\n'
+           + '<p>The quick guide above is enough to buy well. If you want to know <em>why</em> — how we researched, what every brand does well and badly, every pick in detail, what thousands of owners said, and when to buy — the complete analysis follows. Read it in one go, or one section at a time when you have a few minutes. Each section stands on its own.</p>\n'
            + '<div class="vp-roadmap" style="border:2px solid #1B2A41;border-radius:12px;padding:14px 20px;background:#F7F5F0;margin:1em 0 1.6em;">\n<strong style="color:#1B2A41;">Reading plan</strong>\n<ol style="margin:8px 0 0;padding-left:22px;">\n' + "\n".join(items) + '\n</ol>\n</div>\n'
            + '<div class="vp-deep" style="border-top:3px solid #1B2A41;margin-top:1.4em;padding-top:1.2em;font-size:0.94em;">\n' + deep + '\n</div>\n'
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'

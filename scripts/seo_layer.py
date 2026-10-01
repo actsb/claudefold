@@ -57,6 +57,19 @@ def main(post_dir, cfg_path):
     ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": cfg["list_name"], "url": url,
            "itemListOrder": "https://schema.org/ItemListOrderAscending", "numberOfItems": len(cards),
            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f'{c["name"]} — {c.get("badge", "")}'.strip(" —"), "url": f'{url}#card-{c["id"]}'} for i, c in enumerate(cards)]}]
+    # Article: author/publisher as the organisation (no fabricated person), dates from the byline, image = the real cover.jpg URL
+    import datetime
+    def iso(txt):
+        try: return datetime.datetime.strptime(txt, "%B %d, %Y").date().isoformat()
+        except ValueError: return None
+    pub = re.search(r"Published ([A-Z][a-z]+ \d{1,2}, \d{4})", t); pub = iso(pub.group(1)) if pub else None
+    upd = iso(cfg["updated"])
+    org = {"@type": "Organization", "name": "Verdict Picks", "url": "https://acts39.blogspot.com/"}
+    art = {"@context": "https://schema.org", "@type": "Article", "headline": cfg["list_name"][:110], "mainEntityOfPage": url, "author": org, "publisher": org}
+    if "images/cover.jpg" in t: art["image"] = [f"https://actsb.github.io/claudefold/posts/{d.name}/images/cover.jpg"]
+    if pub: art["datePublished"] = pub
+    if upd: art["dateModified"] = upd
+    ld.insert(0, art)
     if faq:
         ld.append({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": clean(q), "acceptedAnswer": {"@type": "Answer", "text": clean(a)}} for q, a in faq]})
     script = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False, separators=(",", ":")) + "</script>\n"

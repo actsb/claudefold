@@ -180,11 +180,11 @@ def strip_comments(html):
 
 
 PAGES_BASE = "https://actsb.github.io/claudefold/"
-EMBED_WIDTH = {"cover.png": 1200, "pin.png": 440}   # px of the embedded JPEG (pin.png is shown at 220 px wide, so 2x)
+EMBED_WIDTH = {"pin.png": 440}   # px of the embedded JPEG (shown at 220 px wide, so 2x). The cover is NOT embedded: it must stay a real URL (cover.jpg) so Google can crawl it, index it and use it as og:image.
 EMBED_LIMIT = 700_000                               # chars of post HTML; above this keep the GitHub Pages URLs instead
 
 def inline_images(html):
-    """Blogger has no image-upload API, so images that live on GitHub Pages are embedded in the post itself as
+    """Blogger has no image-upload API, so decorative .png images that live on GitHub Pages (the pin thumbnail) are embedded as
     compressed JPEG data: URIs (ImageMagick `convert`). The post then renders even if Pages is down. Anything that
     fails (no convert, missing file, post too large) keeps its Pages URL. Pinterest's media= parameter is left alone:
     Pinterest needs a public URL, which is what Pages still serves."""

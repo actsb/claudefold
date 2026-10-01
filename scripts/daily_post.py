@@ -120,6 +120,8 @@ def cmd_build(post_dir):
     print(r.stdout.strip().splitlines()[-4:] and "\n".join(r.stdout.strip().splitlines()[-4:]))
     for sub in ("images", "images/cards", "images/strips"):
         if (d / sub).exists(): run("node", ROOT / "scripts" / "render_png.mjs", d / sub)
+    if (d / "images" / "cover.png").exists():   # the post's <img> uses cover.jpg: small, crawlable, usable as og:image / image-search source
+        run("convert", d / "images" / "cover.png", "-resize", "1200x630", "-background", "white", "-flatten", "-strip", "-quality", "82", d / "images" / "cover.jpg")
     left = re.findall(r"WRITE[^<\"]{0,40}", (d / "post.html").read_text(encoding="utf-8"))
     print(f"PNGs rendered; unfilled WRITE markers in post.html: {len(left)}")
     if r.returncode: sys.exit(1)
