@@ -16,7 +16,14 @@
 3. 대상(Audience): **외부(External)**.
 4. 연락처 정보: `profhlab@gmail.com` → 정책 동의 → **만들기**.
 5. (구 화면에 "범위" 단계가 있으면) **범위 추가 또는 삭제** → 필터에 `blogger` → `https://www.googleapis.com/auth/blogger` 체크 → 업데이트 → 저장 후 계속. 테스트 사용자 단계는 건너뜁니다.
-6. **앱 게시(프로덕션)** — 가장 중요: **대상(Audience)** 페이지(또는 동의 화면 요약)에서 게시 상태 "테스트" 옆 **앱 게시** → 확인. 테스트 상태로 두면 리프레시 토큰이 7일 뒤 죽습니다. "확인이 필요할 수 있음" 안내가 떠도 게시는 됩니다. 우리만 쓰는 앱이라 Google 검증은 받지 않아도 되고, 승인할 때 "확인되지 않은 앱" 경고만 한 번 뜹니다.
+6. **Branding 페이지를 먼저 완성해야 앱 게시 버튼이 활성화됩니다**(2026-10-01 실제로 겪음: Audience에 "To publish your app, you must complete your configuration on the Branding page"가 뜨고 버튼이 회색). Branding에 다음을 입력하고 **Save**:
+   * App name `Verdict Picks Publisher`, User support email, Developer contact(맨 아래) `profhlab@gmail.com`
+   * Application home page `https://acts39.blogspot.com`
+   * Application privacy policy link `https://acts39.blogspot.com/p/privacy-policy.html` (블로그에서 실제로 열리는지 확인)
+   * Terms of service link는 비워 둠
+   * **Authorized domain 1: `acts39.blogspot.com`** (정확히 이 값. `blogspot.com`은 "must be a top private domain"으로 거부되고, 비우면 "Missing domain: acts39.blogspot.com" 오류가 남)
+   저장 후 Audience를 새로고침하면 버튼이 켜집니다.
+7. **앱 게시(프로덕션)** — 가장 중요: **대상(Audience)** 페이지(또는 동의 화면 요약)에서 게시 상태 "테스트" 옆 **앱 게시** → 확인. 테스트 상태로 두면 리프레시 토큰이 7일 뒤 죽습니다. "확인이 필요할 수 있음" 안내가 떠도 게시는 됩니다. 우리만 쓰는 앱이라 Google 검증은 받지 않아도 되고, 승인할 때 "확인되지 않은 앱" 경고만 한 번 뜹니다.
 
 ## 3단계 — OAuth 클라이언트 ID와 보안 비밀 발급
 1. ≡ → **API 및 서비스** → **사용자 인증 정보** → 위쪽 **+ 사용자 인증 정보 만들기** → **OAuth 클라이언트 ID**.
@@ -48,6 +55,7 @@
 | 증상 | 원인 → 해결 |
 |---|---|
 | `redirect_uri_mismatch` | 3단계 URI 오타이거나 데스크톱 유형으로 만듦 → 웹 애플리케이션으로 다시 만들고 URI 정확히 입력 |
+| Audience의 앱 게시 버튼이 회색 | 2단계 6번: Branding 완성(홈페이지·개인정보처리방침·Authorized domain `acts39.blogspot.com`) 후 저장, 새로고침 |
 | `access_denied`, "테스트 사용자만 접근 가능" | 2단계 앱 게시가 안 됨 → 앱 게시 후 4단계 반복 |
 | 며칠 뒤 `invalid_grant` | 테스트 상태에서 발급한 토큰(7일 만료) → 앱 게시 후 4단계 반복 |
 | 403 "Blogger API has not been used in project…" | 1단계 API 사용 설정 누락 → 켜고 몇 분 뒤 재시도 |
