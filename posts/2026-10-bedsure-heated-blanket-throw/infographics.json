@@ -1,0 +1,84 @@
+[
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "The Bedsure heated throw in five minutes",
+    "sub": "Six steps from the box to a warm sofa, with the safety habits the fire-safety groups ask for",
+    "footer": "Sources: Bedsure's guides and listing text (manual PDF not opened by us; check yours); ESFI electric-blanket safety pages.",
+    "items": [
+      {
+        "head": "Check the label first",
+        "body": "Find the model number on the back label or controller and compare it with the CPSC list from March 9, 2023 (it includes BS-HB5060). A match means stop and use the refund route."
+      },
+      {
+        "head": "Lay it flat, plug it in",
+        "body": "Spread it on the sofa or over your lap. Do not fold, tuck or pile anything on top while it is on (ESFI)."
+      },
+      {
+        "head": "Connect the controller",
+        "body": "Join the control cord to the blanket first, then the power cord to the wall. Bedsure's troubleshooting guide says the reverse order is a cause of the F2 error."
+      },
+      {
+        "head": "Press Preheat, then drop the level",
+        "body": "Preheat heats fast, then hold a comfortable level (3 or 4 is what one reviewer liked). Keep the controller uncovered."
+      },
+      {
+        "head": "Know your auto-off",
+        "body": "The listing for this throw says 8 hours; other Bedsure models stop at 3. Turn it off before you sleep anyway."
+      },
+      {
+        "head": "Washing: unplug and detach",
+        "body": "Unplug from the wall, detach the control cord, gentle cold wash, no wringing, no ironing. Check your own manual."
+      }
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where to buy it, and why Amazon usually wins",
+    "sub": "October 1, 2026: what search listings reported, and what we could not confirm",
+    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "rows": [
+      {
+        "store": "Amazon",
+        "price": "$40 · Sept 22 report",
+        "ship": "Free with Prime",
+        "returns": "About 30 days (unconfirmed)",
+        "note": "$40 from $69 per a deal write-up; $53 on a listing; check the model number",
+        "verdict": "win"
+      },
+      {
+        "store": "Walmart",
+        "price": "$32 · Oct 1 listing",
+        "ship": "Varies",
+        "returns": "Varies",
+        "note": "U by Bedsure line; may be a different build",
+        "verdict": "ok"
+      },
+      {
+        "store": "Target",
+        "price": "$30–$76 range",
+        "ship": "Varies",
+        "returns": "Varies",
+        "note": "Mixed sizes; the 50×60 price not confirmed",
+        "verdict": "ok"
+      },
+      {
+        "store": "Brand store",
+        "price": "$71–$82",
+        "ship": "Varies",
+        "returns": "30 days; $9.99 fee",
+        "note": "Reported by search snippets; rarely the cheapest",
+        "verdict": "ok"
+      },
+      {
+        "store": "Temu / look-alikes",
+        "price": "Not verified",
+        "ship": "Slow",
+        "returns": "Varies",
+        "note": "No Bedsure track record; check ETL claims",
+        "verdict": "no"
+      }
+    ]
+  }
+]

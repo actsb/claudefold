@@ -108,8 +108,8 @@ POSTS = {
         "labels": ["Air Purifiers", "Home Comfort", "Best Sellers", "Review", "Under $100", "Allergies", "Amazon Finds", "Product of the Day"],
     },
     "bedsure-throw": {
-        "dir": "posts/2026-09-bedsure-heated-blanket-throw",
-        "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket at $40",
+        "dir": "posts/2026-10-bedsure-heated-blanket-throw",
+        "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket, Recall Check Included",
         "slug_title": "Bedsure Heated Throw Review 2026",
         "labels": ["Home Comfort", "Best Sellers", "Review", "Under $50", "Gifts", "Amazon Finds", "Product of the Day"],
     },

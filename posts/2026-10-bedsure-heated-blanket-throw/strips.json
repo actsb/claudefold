@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "bedsure-throw",
+      "title": "A day with the Bedsure heated throw — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "6 p.m. — first cold snap",
+          "text": "The thermostat stays put. Vera drapes the throw over her knees on the sofa and presses Preheat.",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "About 30 minutes later",
+          "text": "One reviewer reports full warmth in about half an hour on preheat. Level 3 or 4 is plenty for a sofa."
+        },
+        {
+          "glyph": "warning",
+          "head": "The label check",
+          "text": "Before first use: find the model number on the back label or the controller and compare it with the 2023 recall list."
+        },
+        {
+          "glyph": "sun",
+          "head": "10 p.m. — unplugged",
+          "text": "Switched off and unplugged before bed. ESFI advises against leaving a heated blanket on unattended.",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}

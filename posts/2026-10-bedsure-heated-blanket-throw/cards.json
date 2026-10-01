@@ -1,0 +1,35 @@
+{
+  "category": "generic",
+  "buy_title": "The exact Bedsure heated throw to order, and what to check on the listing",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "cards": [
+    {
+      "id": "bedsure-throw",
+      "category": "generic",
+      "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+      "short": "Bedsure heated throw",
+      "badge": "Product of the day · the value pick in heated throws",
+      "chip": "50×60 in · 6 heat levels · machine washable",
+      "art": {
+        "shape": "box",
+        "body": "#8A8F98",
+        "accent": "#C9781B"
+      },
+      "price": "Reported at $40, down from $69 (42% off), on Amazon by a syndicated deal write-up dated September 22, 2026; other listings of the 50×60 throw were reported at $53 in a search listing on October 1, 2026",
+      "buy_if": "you want one person on a sofa or desk warm for about a cent or two an hour, and you will check the model number on the label before first use.",
+      "skip_if": "you want to cover a bed or share the blanket (50×60 in is too small; look at a queen or full-size electric blanket) or you want a product with no recall history to explain.",
+      "owners": "Walmart's page for the U by Bedsure 50×60 throw shows about 4.4 stars (search summary, date unknown); Amazon's listing was reported at nearly 10,000 ratings and 4.4 stars (September 22, 2026 deal write-up). Praised for quick heat; faulted for heating zones that quit after months and controller errors.",
+      "cta": "https://www.amazon.com/s?k=Bedsure+heated+blanket+electric+throw+50x60&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The 50×60 throw with Preheat and the 8-hour auto-off (the listing title says so); the 3-hour auto-off versions suit lounging only",
+        "check": "Sold by Bedsure or Amazon.com; ETL mark in the title; then read the model number on the label and compare it with the 2023 CPSC recall list (BS-HB5060 is on it) before you plug it in",
+        "label": "See today's price"
+      }
+    }
+  ]
+}
