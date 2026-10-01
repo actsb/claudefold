@@ -51,6 +51,8 @@ Look at the first and last slices at both widths. Fix overlaps before publishing
 
 ## 6. Publish
 
+**Image hosting (changed 2026-10-01).** Blogger's API has no image upload, so `publish_blogger.py` embeds the post's two hosted images (cover and the Pinterest thumbnail) into the post HTML as compressed JPEG `data:` URIs at publish time (ImageMagick `convert`; the `post.html` in the repo is unchanged). The post therefore renders without GitHub. Verified: Blogger stores a 91 KB data-URI image unchanged. Limits: Blogger cannot use a data URI as `og:image` or in image search, and Pinterest (the Save button's `media=` and the Pinterest workflow) still needs a public URL, so GitHub Pages stays up for pins. Everything else in the post (cards, strips, infographics, host art) is inline SVG already. If `convert` is missing or the post exceeds 700,000 characters, the Pages URLs are kept and a message says so.
+
 Images are served by GitHub Pages from this branch (`https://actsb.github.io/claudefold/<path>`; the repo root holds `.nojekyll`). Never hotlink `raw.githubusercontent.com`: browsers and Pinterest fail on it. So **push before you publish** — the post must not go live before its images are online:
 
 ```bash

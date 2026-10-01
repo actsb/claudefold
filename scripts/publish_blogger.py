@@ -25,7 +25,7 @@ Idempotent: a page or post whose title (or "slug title") already exists on the b
 New posts are created under the short slug title first (Blogger derives the URL from the title at first
 publish), then immediately renamed to the full title so the URL stays short.
 """
-import os, sys, json, re, pathlib, urllib.request, urllib.parse, urllib.error
+import os, sys, json, re, base64, subprocess, pathlib, urllib.request, urllib.parse, urllib.error
 
 BLOG_ID = "9072207571822466986"
 API = "https://www.googleapis.com/blogger/v3"
@@ -178,6 +178,35 @@ def strip_comments(html):
     html = re.sub(r"<!--.*?-->", "", html, flags=re.S)
     return html.replace("\x00MORE\x00", "<!--more-->").strip()
 
+
+PAGES_BASE = "https://actsb.github.io/claudefold/"
+EMBED_WIDTH = {"cover.png": 1200, "pin.png": 440}   # px of the embedded JPEG (pin.png is shown at 220 px wide, so 2x)
+EMBED_LIMIT = 700_000                               # chars of post HTML; above this keep the GitHub Pages URLs instead
+
+def inline_images(html):
+    """Blogger has no image-upload API, so images that live on GitHub Pages are embedded in the post itself as
+    compressed JPEG data: URIs (ImageMagick `convert`). The post then renders even if Pages is down. Anything that
+    fails (no convert, missing file, post too large) keeps its Pages URL. Pinterest's media= parameter is left alone:
+    Pinterest needs a public URL, which is what Pages still serves."""
+    def one(m):
+        rel = m.group(2)
+        f = pathlib.Path(__file__).resolve().parent.parent / rel
+        if not f.exists():
+            return m.group(0)
+        w = EMBED_WIDTH.get(f.name, 1200)
+        try:
+            jpg = subprocess.run(["convert", str(f), "-resize", f"{w}x>", "-background", "white", "-flatten", "-strip", "-quality", "82", "jpg:-"],
+                                 capture_output=True, check=True, timeout=60).stdout
+        except Exception as e:
+            print(f"  image kept as URL ({f.name}): {e}")
+            return m.group(0)
+        return f'{m.group(1)}data:image/jpeg;base64,{base64.b64encode(jpg).decode()}"'
+    out = re.sub(r'(<img\b[^>]*?\bsrc=")' + re.escape(PAGES_BASE) + r'([^"]+?\.png)"', one, html)
+    if len(out) > EMBED_LIMIT:
+        print(f"  post too large with embedded images ({len(out)} chars): keeping Pages URLs")
+        return html
+    return out
+
 # 1. token + blog access
 st, info = call("GET", "/users/self/blogs")
 if st != 200:
@@ -215,7 +244,7 @@ posts_by_title = {p["title"]: p for p in (live.get("items", []) + pdrafts.get("i
 for key, P in POSTS.items():
     if ONLY and key != ONLY:
         continue
-    content = strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8"))
+    content = inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8")))
     existing = posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"]) or next((posts_by_title[a] for a in P.get("aliases", []) if a in posts_by_title), None)
     if existing:
         pid = existing["id"]
