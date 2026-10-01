@@ -107,6 +107,12 @@ POSTS = {
         "slug_title": "Levoit Core 300P Review 2026",
         "labels": ["Air Purifiers", "Home Comfort", "Best Sellers", "Review", "Under $100", "Allergies", "Amazon Finds", "Product of the Day"],
     },
+    "bedsure-throw": {
+        "dir": "posts/2026-09-bedsure-heated-blanket-throw",
+        "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket at $40",
+        "slug_title": "Bedsure Heated Throw Review 2026",
+        "labels": ["Home Comfort", "Best Sellers", "Review", "Under $50", "Gifts", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
