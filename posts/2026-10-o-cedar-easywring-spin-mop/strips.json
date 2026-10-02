@@ -3,12 +3,12 @@
     {
       "id": "in-real-life",
       "card": "ocedar-mop",
-      "title": "A day with the O-Cedar spin mop — in real life",
+      "title": "A day with the O-Cedar spin mop \u2014 in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Saturday, 9 a.m.",
+          "text": "Vera fills the bucket, adds a squirt of floor cleaner and dunks the head. The foot pedal does the wringing.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "5 to 7 pumps",
+          "text": "O-Cedar's use-and-care page says to pump the pedal 5 to 7 times. More pumps, drier head, fewer streaks."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The weak spot",
+          "text": "Owners most often report the handle loosening or snapping. Tighten the connector and do not lean on it."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Afterwards",
+          "text": "Step on the head to pop it off, machine wash without bleach or softener, and let it dry flat.",
           "host": {
             "pose": "thumbsup"
           }

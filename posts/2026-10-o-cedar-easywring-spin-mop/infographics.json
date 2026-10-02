@@ -3,32 +3,32 @@
     "type": "steps",
     "name": "howto",
     "title": "The O-Cedar spin mop in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "Six steps from box to dry floor, from O-Cedar's use-and-care guidance and owner tips",
+    "footer": "Sources: O-Cedar use-and-care and washing pages (as seen in search snippets; read your own manual).",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Assemble and lock",
+        "body": "Twist the handle sections together and lock the length. Press the head onto the frame until it clicks."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Fill the bucket",
+        "body": "Water up to the line, plus any floor cleaner you like. Sealed floors only."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Dunk, then spin",
+        "body": "Put the head in the basket and pump the pedal 5 to 7 times (O-Cedar). More pumps for hardwood."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Mop in lines",
+        "body": "Work back toward the door. Rinse and re-wring when the head turns grey."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Pop the head off",
+        "body": "Step on it to detach, so your hands stay clean."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Wash and dry flat",
+        "body": "Machine or hand wash, no bleach or fabric softener, air dry. Replace about every 3 months."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
+    "sub": "October 2, 2026: what search snippets reported; most carried no date",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$35\u2013$37 \u00b7 Mar 2026 tracker",
+        "ship": "Free with Prime",
+        "returns": "About 30 days",
+        "note": "CamelCamelCamel: $34.96 on Mar 11, 2026",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$35\u2013$40 \u00b7 undated",
+        "ship": "Varies",
+        "returns": "About 90 days",
+        "note": "Rollback to $34.96 reported",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$34.99 \u00b7 undated",
+        "ship": "Free over $35",
+        "returns": "About 90 days",
+        "note": "Refills $9\u2013$15 per pack",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not confirmed",
+        "ship": "Not confirmed",
+        "returns": "Not confirmed",
+        "note": "Price not found in snippets",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not verified",
+        "ship": "Slow",
+        "returns": "Varies",
+        "note": "Generic heads only; no O-Cedar track record",
         "verdict": "no"
       }
     ]
