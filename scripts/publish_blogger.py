@@ -113,6 +113,12 @@ POSTS = {
         "slug_title": "Bedsure Heated Throw Review 2026",
         "labels": ["Home Comfort", "Best Sellers", "Review", "Under $50", "Gifts", "Amazon Finds", "Product of the Day"],
     },
+    "ocedar-mop": {
+        "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
+        "title": "O-Cedar EasyWring Spin Mop Review 2026: 170,000 Reviews and No Refill Pads",
+        "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
+        "labels": ["Home Cleaning", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

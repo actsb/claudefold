@@ -1,0 +1,35 @@
+{
+  "category": "generic",
+  "buy_title": "The exact O-Cedar spin mop to order, and what to check on the listing",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "cards": [
+    {
+      "id": "ocedar-mop",
+      "category": "generic",
+      "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+      "short": "O-Cedar spin mop",
+      "badge": "WRITE: category · why it is the value pick",
+      "chip": "WRITE: three spec words",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#2F3A48"
+      },
+      "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
+      "buy_if": "WRITE: who it is for",
+      "skip_if": "WRITE: who should skip it and what to buy instead",
+      "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
+      "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+microfiber+spin+mop+bucket&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "WRITE: exact variant/size/colour",
+        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "label": "See today's price"
+      }
+    }
+  ]
+}
