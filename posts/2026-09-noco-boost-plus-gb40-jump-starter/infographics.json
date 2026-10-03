@@ -3,32 +3,32 @@
     "type": "steps",
     "name": "howto",
     "title": "The NOCO GB40 in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "Four steps from dead battery to running engine, from NOCO's instructions as seen in search snippets",
+    "footer": "Source: NOCO GB40 user guide and support pages (not opened in full); read the manual that came in your box.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Switch everything off",
+        "body": "Headlights, radio and A/C off in the dead car. Park nose to nose only if you must; the NOCO needs no second car."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Clamp on",
+        "body": "Red clamp to the positive post, black clamp to the negative post or bare metal ground."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Press Power",
+        "body": "Check that the white Boost light is on. A solid red light means reversed clamps."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Start the car",
+        "body": "Most start at once; some need the boost connected up to 30 seconds. Wait 20\u201330 seconds before a retry."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Remove the clamps",
+        "body": "Disconnect and keep the unit. No more than 5 jumps in 15 minutes, then rest it."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Recharge it",
+        "body": "Charge by USB, about 3 hours at 2A. Top up every few months; do not leave it empty for a year."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
+    "sub": "October 3, 2026: what search snippets reported; most carried no date",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$80\u2013$100 \u00b7 see the button",
+        "ship": "Free with Prime",
+        "returns": "About 30 days",
+        "note": "Tracked low $59.99 (Aug 2025); $79.96 on Big Deal Days 2025",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$63.99\u2013$99.95 \u00b7 conflicting",
+        "ship": "Varies",
+        "returns": "Not checked",
+        "note": "Two snippets disagreed; Home Depot was reported at $91.21",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not confirmed",
+        "ship": "Not checked",
+        "returns": "Not checked",
+        "note": "No Target price found",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$99.95 list",
+        "ship": "Shipping extra",
+        "returns": "30 days, direct only",
+        "note": "NOCO's store, 1-year warranty",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$20\u2013$55 look-alikes",
+        "ship": "Slow",
+        "returns": "Varies",
+        "note": "Gooloo, NEXPOW etc.; reviewers say real output is far below the label",
         "verdict": "no"
       }
     ]

@@ -8,26 +8,26 @@
       "category": "generic",
       "name": "NOCO Boost Plus GB40 1000A Jump Starter",
       "short": "NOCO GB40",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Product of the day \u00b7 the value pick in jump starters",
+      "chip": "1000A \u00b7 lithium \u00b7 spark-proof",
       "art": {
         "shape": "box",
         "body": "#2F2F2F",
         "accent": "#F08A24"
       },
-      "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
+      "price": "List price $99.95 at NOCO's store; Amazon has been tracked between about $60 and $125 (camelcamelcamel, as reported in October 2026; Big Deal Days 2025 was reported at $79.96)",
+      "buy_if": "you drive a car, SUV or small truck with a gas engine up to 6.0L (or a diesel up to 3.0L) and want a jump starter that lives in the glovebox for emergencies.",
+      "skip_if": "you have a big diesel truck or a heavy V8 you park outside in deep cold (look at the NOCO GB70 or GB150), or you will never remember to recharge it twice a year.",
+      "owners": "Amazon US showed about 4.6 stars from roughly 112,000 ratings in an undated search snapshot. Owners praise the size, the spark-proof clamps and ease of use; the complaints are short clamp cables, capacity loss after a year or two and forgetting to recharge.",
       "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
+      "video": "ZhVpxYlyLto",
+      "video_title": "How to jump start using your NOCO Boost GB40",
+      "video_channel": "Channel not confirmed",
+      "video_why": "The three-step jump-start routine, shown on a real car; the title came from a search-result URL.",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The NOCO Boost Plus GB40 (1000A, model GB40) with the clamps and USB cable in the box; the bigger GB70 only if you own a large diesel",
+        "check": "Sold by Amazon.com or NOCO; the listing says GB40 and 1000A (not 2000A+ claims from no-name brands). There is no wall charger in the box, so you need a USB-A charger",
         "label": "See today's price"
       }
     }

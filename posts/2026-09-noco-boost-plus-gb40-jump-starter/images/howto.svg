@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="The NOCO GB40 in five minutes"><rect width="1200" height="540" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">The NOCO GB40 in five minutes</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Four steps from dead battery to running engine, from NOCO's instructions as seen in search snippets</text>
+<rect x="40.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="74.0" cy="146" r="20" fill="#1B2A41"/><text x="74.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="104.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Switch everything off</text>
+<text x="60.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Headlights, radio and A/C off in the dead</text><text x="60.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">car. Park nose to nose only if you must;</text><text x="60.0" y="228" font-size="15" font-weight="400" fill="#333" text-anchor="start">the NOCO needs no second car.</text>
+<rect x="420.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="454.0" cy="146" r="20" fill="#1B2A41"/><text x="454.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="484.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Clamp on</text>
+<text x="440.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Red clamp to the positive post, black</text><text x="440.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">clamp to the negative post or bare metal</text><text x="440.0" y="228" font-size="15" font-weight="400" fill="#333" text-anchor="start">ground.</text>
+<rect x="800.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="834.0" cy="146" r="20" fill="#1B2A41"/><text x="834.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="864.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Press Power</text>
+<text x="820.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Check that the white Boost light is on. A</text><text x="820.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">solid red light means reversed clamps.</text>
+<rect x="40.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="74.0" cy="340" r="20" fill="#1B2A41"/><text x="74.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="104.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Start the car</text>
+<text x="60.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Most start at once; some need the boost</text><text x="60.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">connected up to 30 seconds. Wait 20–30</text><text x="60.0" y="422" font-size="15" font-weight="400" fill="#333" text-anchor="start">seconds before a retry.</text>
+<rect x="420.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="454.0" cy="340" r="20" fill="#1B2A41"/><text x="454.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="484.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Remove the clamps</text>
+<text x="440.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Disconnect and keep the unit. No more</text><text x="440.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">than 5 jumps in 15 minutes, then rest it.</text>
+<rect x="800.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="834.0" cy="340" r="20" fill="#1B2A41"/><text x="834.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="864.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Recharge it</text>
+<text x="820.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Charge by USB, about 3 hours at 2A. Top</text><text x="820.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">up every few months; do not leave it</text><text x="820.0" y="422" font-size="15" font-weight="400" fill="#333" text-anchor="start">empty for a year.</text>
+<text x="40" y="518" font-size="13" font-weight="400" fill="#888" text-anchor="start">Source: NOCO GB40 user guide and support pages (not opened in full); read the manual that came in your box.</text>
+</g></svg>

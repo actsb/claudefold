@@ -3,12 +3,12 @@
     {
       "id": "in-real-life",
       "card": "noco-gb40",
-      "title": "A day with the NOCO GB40 — in real life",
+      "title": "A day with the NOCO GB40 \u2014 in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Monday, 7 a.m.",
+          "text": "The car clicks and the dash goes dim. Vera fetches the NOCO from the glovebox instead of a neighbour.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Two clamps, one button",
+          "text": "Red to positive, black to bare metal or negative, then press Power. The white Boost light means it is ready."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The catch",
+          "text": "A red light means the clamps are reversed; a blinking one means it is hot. Leave a pause between tries."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Afterwards",
+          "text": "The car starts, the clamps come off, and the NOCO goes on a USB charger so it is ready next winter.",
           "host": {
             "pose": "thumbsup"
           }
