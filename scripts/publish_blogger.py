@@ -119,6 +119,12 @@ POSTS = {
         "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
         "labels": ["Home Cleaning", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
     },
+    "noco-gb40": {
+        "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+        "title": "NOCO GB40 Review 2026: The Jump Starter 128,000 Drivers Keep in the Glovebox",
+        "slug_title": "NOCO GB40 Jump Starter Review 2026",
+        "labels": ["Car", "Tools", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

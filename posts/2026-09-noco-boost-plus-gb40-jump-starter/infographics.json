@@ -1,0 +1,84 @@
+[
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "The NOCO GB40 in five minutes",
+    "sub": "WRITE: what the steps get you",
+    "footer": "WRITE: source (the manual, the brand's page)",
+    "items": [
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      },
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      },
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      },
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      },
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      },
+      {
+        "head": "WRITE",
+        "body": "WRITE"
+      }
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where to buy it, and why Amazon usually wins",
+    "sub": "WRITE: month, what was compared",
+    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "rows": [
+      {
+        "store": "Amazon",
+        "price": "WRITE",
+        "ship": "WRITE",
+        "returns": "WRITE",
+        "note": "WRITE",
+        "verdict": "win"
+      },
+      {
+        "store": "Walmart",
+        "price": "WRITE",
+        "ship": "WRITE",
+        "returns": "WRITE",
+        "note": "WRITE",
+        "verdict": "ok"
+      },
+      {
+        "store": "Target",
+        "price": "WRITE",
+        "ship": "WRITE",
+        "returns": "WRITE",
+        "note": "WRITE",
+        "verdict": "ok"
+      },
+      {
+        "store": "Brand store",
+        "price": "WRITE",
+        "ship": "WRITE",
+        "returns": "WRITE",
+        "note": "WRITE",
+        "verdict": "ok"
+      },
+      {
+        "store": "Temu / look-alikes",
+        "price": "WRITE",
+        "ship": "WRITE",
+        "returns": "WRITE",
+        "note": "WRITE",
+        "verdict": "no"
+      }
+    ]
+  }
+]

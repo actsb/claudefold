@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "noco-gb40",
+      "title": "A day with the NOCO GB40 — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "WRITE",
+          "text": "WRITE",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "WRITE",
+          "text": "WRITE"
+        },
+        {
+          "glyph": "warning",
+          "head": "WRITE",
+          "text": "WRITE"
+        },
+        {
+          "glyph": "sun",
+          "head": "WRITE",
+          "text": "WRITE",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}

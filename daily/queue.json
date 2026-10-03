@@ -96,7 +96,7 @@
    "key": "noco-gb40",
    "slug": "noco-boost-plus-gb40-jump-starter",
    "date": "2026-09-30",
-   "status": "queued",
+   "status": "writing",
    "name": "NOCO Boost Plus GB40 1000A Jump Starter",
    "short": "NOCO GB40",
    "category": "generic",
@@ -119,7 +119,9 @@
    ],
    "hook": "cold mornings kill marginal batteries; Thanksgiving drives",
    "beats": "NOCO GB70 / no-name 2000A boxes",
-   "source": "research/daily-candidates-2026-09-27.md"
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/09/noco-gb40-jump-starter-review-2026.html",
+   "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter"
   },
   {
    "key": "beckham-pillows",
