@@ -127,7 +127,7 @@
    "key": "beckham-pillows",
    "slug": "beckham-hotel-collection-pillows",
    "date": "2026-10-01",
-   "status": "queued",
+   "status": "writing",
    "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
    "short": "Beckham pillows",
    "category": "generic",
@@ -150,7 +150,9 @@
    ],
    "hook": "guest room before the holidays; 40–48% off at tentpole sales",
    "beats": "Coop Home Goods Original",
-   "source": "research/daily-candidates-2026-09-27.md"
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html",
+   "dir": "posts/2026-10-beckham-hotel-collection-pillows"
   },
   {
    "key": "instant-pot-duo",

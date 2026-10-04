@@ -1,0 +1,35 @@
+{
+  "category": "generic",
+  "buy_title": "The exact Beckham pillows to order, and what to check on the listing",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "cards": [
+    {
+      "id": "beckham-pillows",
+      "category": "generic",
+      "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+      "short": "Beckham pillows",
+      "badge": "WRITE: category · why it is the value pick",
+      "chip": "WRITE: three spec words",
+      "art": {
+        "shape": "bag",
+        "body": "#F4F1EA",
+        "accent": "#1B2A41"
+      },
+      "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
+      "buy_if": "WRITE: who it is for",
+      "skip_if": "WRITE: who should skip it and what to buy instead",
+      "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
+      "cta": "https://www.amazon.com/s?k=Beckham+Hotel+Collection+bed+pillows+queen+set+of+2&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "WRITE: exact variant/size/colour",
+        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "label": "See today's price"
+      }
+    }
+  ]
+}

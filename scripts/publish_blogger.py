@@ -125,6 +125,12 @@ POSTS = {
         "slug_title": "NOCO GB40 Jump Starter Review 2026",
         "labels": ["Car", "Tools", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
     },
+    "beckham-pillows": {
+        "dir": "posts/2026-10-beckham-hotel-collection-pillows",
+        "title": "Beckham Hotel Collection Pillows Review 2026: Amazon's #1 Pillow, Honestly",
+        "slug_title": "Beckham Hotel Pillows Review 2026",
+        "labels": ["Sleep", "Bedding", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
