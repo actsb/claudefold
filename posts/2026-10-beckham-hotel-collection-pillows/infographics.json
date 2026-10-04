@@ -2,33 +2,33 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The Beckham pillows in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "Caring for the Beckham pillows in five minutes",
+    "sub": "Six steps from the vacuum pack to the fold test, from care guides we found for this pillow",
+    "footer": "Sources: care guides for this pillow (not confirmed as the maker's tag) and Cleveland Clinic's newsroom fold test. Read your own tag.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Let it loft",
+        "body": "Shake it out and wait a day, or 20 minutes on low heat."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Add a protector",
+        "body": "It keeps sweat and oils out of the fill."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Fluff daily",
+        "body": "A quick punch and shake delays the flat look."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Wash gently",
+        "body": "Cold, gentle, two pillows at once, extra rinse, no softener."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Dry low",
+        "body": "Low heat with dryer balls, then break up clumps."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Fold test",
+        "body": "If it stays folded, it is time to replace it."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
+    "sub": "October 4, 2026: what search snippets reported; most carried no date",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$42–$60 · see the button",
+        "ship": "Free with Prime",
+        "returns": "About 30 days",
+        "note": "Promo near $42 late Sep 2026; about $40 Prime Day 2026",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$45.99–$79.99 · varies",
+        "ship": "Varies",
+        "returns": "Not checked",
+        "note": "Seller often unknown; compare when Amazon is at list",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not confirmed",
+        "ship": "Not checked",
+        "returns": "Not checked",
+        "note": "Only a gel-pillow search page; no price found",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "No confirmed store",
+        "ship": "—",
+        "returns": "—",
+        "note": "Many unofficial Beckham-named sites; none confirmed as the brand",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not found",
+        "ship": "—",
+        "returns": "—",
+        "note": "Look-alike listings and reports of off-brand pillows (unverified)",
         "verdict": "no"
       }
     ]

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2) (product render)">
+<defs>
+<radialGradient id="cbeckhampillows-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cbeckhampillows-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cbeckhampillows-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cbeckhampillows-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cbeckhampillows-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#F4F1EA"/><stop offset="1" stop-color="#e4ddcc"/></linearGradient>
+<linearGradient id="cbeckhampillows-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9e4d6"/><stop offset="1" stop-color="#d1c4a7"/></linearGradient>
+<linearGradient id="cbeckhampillows-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fffefe"/></linearGradient>
+<radialGradient id="cbeckhampillows-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#F4F1EA"/><stop offset="1" stop-color="#dbd2bb"/></radialGradient>
+<linearGradient id="cbeckhampillows-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cbeckhampillows-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cbeckhampillows-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cbeckhampillows-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#314d77"/><stop offset="1" stop-color="#090e16"/></linearGradient>
+<linearGradient id="cbeckhampillows-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cbeckhampillows-bg)"/><ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#cbeckhampillows-blur)"/>
+<path d="M 190 140 q 0 -30 30 -30 h 160 q 30 0 30 30 v 150 q 0 34 -34 34 h -152 q -34 0 -34 -34 z" fill="url(#cbeckhampillows-front)"/><rect x="190" y="110" width="220" height="26" rx="12" fill="#bfae86"/><rect x="214" y="196" width="172" height="58" rx="10" fill="#1B2A41"/><rect x="228" y="212" width="96" height="8" rx="4" fill="#fff" opacity="0.75"/><rect x="228" y="228" width="60" height="7" rx="3.5" fill="#fff" opacity="0.45"/>
+<rect x="430" y="300" width="70" height="18" rx="6" fill="#1B2A41"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="203" height="28" rx="14" fill="#1B2A41"/>
+<text x="119.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Gel fiber · 2-pack · plush</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Beckham pillows</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

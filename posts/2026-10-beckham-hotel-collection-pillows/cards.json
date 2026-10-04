@@ -8,26 +8,26 @@
       "category": "generic",
       "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
       "short": "Beckham pillows",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Product of the day · the value pick in bed pillows",
+      "chip": "Gel fiber · 2-pack · plush",
       "art": {
         "shape": "bag",
         "body": "#F4F1EA",
         "accent": "#1B2A41"
       },
-      "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
+      "price": "List price about $59.99 on Amazon; reported near $42 in late September 2026 and about $40 on Prime Day 2026 (deal sites and camelcamelcamel, as reported October 2026)",
+      "buy_if": "you want a soft, hotel-style pillow pair for a bedroom or guest room, sleep on your back or lightly on your side, and accept replacing them in a year or two.",
+      "skip_if": "you are a heavy side sleeper who needs an adjustable loft (look at Coop Home Goods Original), you sleep hot, or you want a pillow that lasts for years.",
+      "owners": "Amazon US was reported at about 4.4 stars from roughly 223,000 to 260,000 ratings in undated snapshots. Owners praise the plush feel and price; complaints are flattening after months, modest cooling and suspected fakes from other sellers.",
       "cta": "https://www.amazon.com/s?k=Beckham+Hotel+Collection+bed+pillows+queen+set+of+2&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
+      "video": "f7SEOOiTpKo",
+      "video_title": "Beckham Hotel Collection Bed Pillows Review",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A first-look review that asks whether these suit side, back and stomach sleepers; the title came from a search-result URL.",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "Beckham Hotel Collection Bed Pillows, Standard/Queen, set of 2 (ASIN B01LYNW421), in the colour you prefer; the king is a separate listing",
+        "check": "Ships from and Sold by Amazon (or the Beckham storefront); the title says Standard/Queen, Set of 2, and the ASIN matches. Be wary of duplicate listings and look-alike sellers",
         "label": "See today's price"
       }
     }

@@ -7,8 +7,8 @@
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Saturday, 9 a.m.",
+          "text": "Two flat vacuum-packed rolls arrive. Vera shakes them out and gives them a day to puff up.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Plush, with a core",
+          "text": "On the bed they look full and soft. Back and light side sleepers get on well with them."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The catch",
+          "text": "Months later one pillow sits lower. Vera does the fold test: if it stays folded, it is done."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Afterwards",
+          "text": "A gentle wash, dryer balls, a fluff, and a spare pair for the guest room.",
           "host": {
             "pose": "thumbsup"
           }
