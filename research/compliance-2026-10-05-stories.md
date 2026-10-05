@@ -146,3 +146,7 @@ For the owner to apply to the shared files the sweep did not edit (`daily/search
 - **Generators:** the pet post's tiers.svg, voices.svg and cards/chomchom.svg were edited by hand. If scripts/pet_infographics.py or scripts/product_cards.py is re-run for that post, the old rating and price text comes back.
 - **Card label:** the assembler still labels the cards' owner-themes field "From the reviews:" (scripts/assemble_post.py). A neutral label such as "What owners mention:" would read better.
 - **Walmart figures from search snippets:** the proxy blocks walmart.com, so these were not opened: Bissell (4.4/5, about 1,650 ratings) and Owala 24 oz (4.7/5, about 29,700 ratings). The Prime Days post cites an earlier Owala Walmart figure from research/best-sellers-2026-09.md (4.8, 21,000+, September 2026). Check both on walmart.com.
+
+## Follow-up (same day): search descriptions fixed
+
+Six entries in daily/search-descriptions.md, the source of the "More guides" blocks, are rewritten. The Beckham and Levoit entries now match the descriptions in their own post-meta.md. Pets, Prime Days, Owala and AirTag use the replacements above. The bidet's "$50" is LUXE's own-store price ($49.99), so it stays. All built posts were refreshed with `site_index.py --inject`. More guides links show only the part of the title before the colon, so no Amazon rank wording from titles appears there.
