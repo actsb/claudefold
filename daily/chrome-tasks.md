@@ -24,7 +24,7 @@ The blog's own description texts still say the guides distill "thousands of Amaz
 ## 2. Navigation shows every trust page (now)
 blogger.com → **Layout** → the **Pages** gadget (top navigation) → **Edit** → tick: About Verdict Picks, How We Rank Products, Affiliate Disclosure, Privacy & Cookie Policy, Contact Us, and the category hubs (Robot Vacuums, Wireless Earbuds, Smart Glasses, Power Stations, Best Sellers) → **Save**.
 
-## 3. Search Console and sitemaps (now)
+## 3. Search Console and sitemaps (now; the Korean step-by-step with the request-indexing order is daily/search-console-bing.md)
 1. https://search.google.com/search-console → property **https://acts39.blogspot.com/** (add it as a URL-prefix property if it is missing; Blogger blogs owned by the same Google account usually verify automatically).
 2. **Sitemaps** → submit `sitemap.xml` and `sitemap-pages.xml`.
 3. **URL inspection** → request indexing for the five newest posts in the description list (the daily quota is small; do not repeat for the same URL).
@@ -36,7 +36,7 @@ https://www.bing.com/webmasters → sign in → **Import from Google Search Cons
 Only if the owner has a Pinterest business account: Pinterest **Settings → Bulk create Pins → Auto-publish** → RSS `https://acts39.blogspot.com/feeds/posts/default?alt=rss` → board **Best of Amazon 2026** → save. (Turn it off once the API automation in daily/pinterest-setup.md is live.)
 
 ## 6. Crawl settings check (check now; change only with the owner's OK)
-1. Open https://acts39.blogspot.com/robots.txt and confirm there is no `Disallow: /` line for `User-agent: *`.
+1. robots.txt answered 404 in the October 5 crawl check (daily/search-console-bing.md). In **Settings → Crawlers and indexing**, report whether **Enable custom robots.txt** is on. With the owner's OK: if it is on, turn it off (Blogger's default robots.txt comes back); if it is off and robots.txt still answers 404, turn it on and paste exactly the text in daily/search-console-bing.md section 3. Never type `Disallow: /`.
 2. blogger.com → **Settings**: **Privacy → Visible to search engines** is on; **Permissions → Reader access** is Public; **HTTPS → HTTPS redirect** is on; **Crawlers and indexing → Enable custom robots.txt** is off.
 3. Same section → **Enable custom robots header tags**. The recommended values: home page `all`; archive and search pages `noindex`; posts and pages `all`; never `nosnippet`. Report what is set now; change it only after the owner says yes.
 4. Open any post, View page source (Ctrl+U), search for `max-image-preview`. If it is missing, tell the owner; the line `<meta content='max-image-preview:large' name='robots'/>` goes right after `<head>` in Theme → Edit HTML, which the owner does (theme HTML is off-limits for this session).
