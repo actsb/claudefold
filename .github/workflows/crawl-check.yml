@@ -1,0 +1,80 @@
+# What search engines see when they crawl the blog: robots.txt, the sitemaps Blogger generates (and whether every
+# live post is in them), verification and robots meta tags. Read-only. The Claude environment's network policy blocks
+# blogspot.com, so this runs on GitHub's servers. Manual only: Actions → Crawl check → Run workflow.
+name: Crawl check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: robots.txt, sitemaps, meta tags
+        run: |
+          python3 - <<'EOF'
+          import ast, pathlib, re, time, urllib.error, urllib.request
+          UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          BASE = "https://acts39.blogspot.com"
+          def get(path):
+              url = path if path.startswith("http") else BASE + path
+              for wait in (0, 20, 45, 90):   # Blogger answers bursts from datacenter IPs with 429
+                  time.sleep(wait)
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.8"})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          return r.status, dict(r.headers), r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code != 429:
+                          return e.code, dict(e.headers), ""
+                      print(f"  (429 on {url}, waiting)")
+              return 429, {}, ""
+          def pause(): time.sleep(10)
+          def locs(xml): return re.findall(r"<loc>\s*(.*?)\s*</loc>", xml)
+          def robots_meta(html): return re.findall(r"<meta\b[^>]*name=['\"]robots['\"][^>]*>", html.split("</head>")[0])
+
+          src = pathlib.Path("scripts/publish_blogger.py").read_text(encoding="utf-8")
+          i = src.index("POSTS = {"); j = src.index("\n}\n", i)
+          ours = {P["url"] for P in ast.literal_eval(src[i + len("POSTS = "):j + 2]).values() if P.get("url")}
+
+          st, h, body = get("/robots.txt")
+          print(f"== robots.txt: HTTP {st}\n{body.strip()}")
+          pause()
+          st, h, sm = get("/sitemap.xml")
+          print(f"\n== sitemap.xml: HTTP {st}")
+          urls = [u for u in locs(sm) if "sitemap" not in u]
+          for child in [u for u in locs(sm) if "sitemap" in u]:
+              pause()
+              cst, _, x = get(child)
+              print(f"  {child}: HTTP {cst}")
+              urls += [u for u in locs(x) if "sitemap" not in u]
+          print(f"  post URLs in the sitemap: {len(urls)}")
+          missing = sorted(ours - set(urls))
+          print(f"  this repository's live posts missing from it: {len(missing)}")
+          for u in missing: print("    missing:", u)
+          for u in urls: print("   ", u)
+          pause()
+          st, h, sp = get("/sitemap-pages.xml")
+          pl = locs(sp)
+          print(f"\n== sitemap-pages.xml: HTTP {st}, {len(pl)} URLs")
+          for u in pl: print("   ", u)
+          pause()
+          st, h, home = get("/")
+          print(f"\n== home page: HTTP {st}, X-Robots-Tag: {h.get('X-Robots-Tag')}")
+          for tag in re.findall(r"<meta\b[^>]*>", home.split("</head>")[0]):
+              if re.search(r"google-site-verification|msvalidate\.01|p:domain_verify|name=['\"]robots['\"]", tag):
+                  print("  ", tag)
+          print("  robots meta:", robots_meta(home) or "none")
+          pause()
+          st, h, post = get("/2026/10/best-bidet-2026.html")
+          print(f"\n== a post: HTTP {st}, X-Robots-Tag: {h.get('X-Robots-Tag')}, robots meta: {robots_meta(post) or 'none'}")
+          pause()
+          st, h, lab = get("/search/label/Buying%20Guide")
+          print(f"== a label page: HTTP {st}, X-Robots-Tag: {h.get('X-Robots-Tag')}, robots meta: {robots_meta(lab) or 'none'}")
+          EOF
