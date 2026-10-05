@@ -58,6 +58,7 @@
 | Audience의 앱 게시 버튼이 회색 | 2단계 6번: Branding 완성(홈페이지·개인정보처리방침·Authorized domain `acts39.blogspot.com`) 후 저장, 새로고침 |
 | `access_denied`, "테스트 사용자만 접근 가능" | 2단계 앱 게시가 안 됨 → 앱 게시 후 4단계 반복 |
 | 며칠 뒤 `invalid_grant` | 테스트 상태에서 발급한 토큰(7일 만료) → 앱 게시 후 4단계 반복 |
+| 몇 시간 만에 `invalid_grant` ("Token has been expired or revoked") | 저장한 뒤에 그 토큰이 취소된 경우입니다. 흔한 원인은 두 가지입니다. ① https://myaccount.google.com/permissions 에서 앱 액세스를 삭제했다(삭제하면 이 앱의 **모든** 토큰이 즉시 무효). ② Playground에서 다시 승인해 새 토큰을 받았는데 환경 변수에는 이전 토큰이 남아 있다. → 4단계를 **한 번만** 하고, **마지막으로 받은** Refresh token을 5단계에 저장한 뒤 앱 액세스는 삭제하지 않습니다. 그다음 새 세션에서 `--check`로 확인합니다. |
 | 403 "Blogger API has not been used in project…" | 1단계 API 사용 설정 누락 → 켜고 몇 분 뒤 재시도 |
 | `--check`에 "no blogs" | 다른 구글 계정으로 승인 → 시크릿 창에서 profhlab@gmail.com으로 4단계 반복 |
 | Refresh token이 안 보임 | 위 4-5의 권한 삭제 후 재승인 |

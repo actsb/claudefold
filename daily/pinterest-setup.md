@@ -1,6 +1,6 @@
 # Pinterest 자동 핀 설정 가이드 (한 번만)
 
-**어떻게 돌아가나:** 매일 블로그 글이 발행되면 Claude가 `pinterest/pins-*.md`에 핀 문구(제목·설명·대체 텍스트·글 링크)를 준비해 둡니다. **핀은 주인님이 고른 것만 올라갑니다**(아래 규정, 8단계). 주인님이 고르면 GitHub가 `.github/workflows/pinterest.yml`을 실행하고, `scripts/pinterest_pins.py`가 Pinterest API로 세로형 핀을 만듭니다. 같은 보드에 같은 글 링크의 핀이 이미 있으면 건너뛰고, 자동 실행은 한 번에 최대 2개까지만 올려 스팸처럼 보이지 않게 합니다.
+**어떻게 돌아가나:** 매일 블로그 글이 발행되면 Claude가 `pinterest/pins-*.md`에 핀 문구(제목·설명·대체 텍스트·글 링크)를 준비해 둡니다. **핀은 운영자가 고른 것만 올라갑니다**(아래 규정, 8단계). 운영자가 고르면 GitHub가 `.github/workflows/pinterest.yml`을 실행하고, `scripts/pinterest_pins.py`가 Pinterest API로 세로형 핀을 만듭니다. 같은 보드에 같은 글 링크의 핀이 이미 있으면 건너뛰고, 자동 실행은 한 번에 최대 2개까지만 올려 스팸처럼 보이지 않게 합니다.
 
 **왜 GitHub에서 도나:** Claude 클라우드 환경은 네트워크 정책상 pinterest.com 접속이 막혀 있고, Pinterest는 리프레시 토큰을 **쓸 때마다 새것으로 바꾸고 옛것은 폐기**합니다. GitHub Actions는 Pinterest에 접속할 수 있고, 매 실행마다 새 토큰을 비밀값으로 다시 저장할 수 있습니다. 토큰은 GitHub 비밀값에만 있고 저장소 파일·채팅에는 절대 들어가지 않습니다.
 
@@ -8,7 +8,7 @@
 
 * API로 만든 핀이 **다른 사람에게 보이려면** 앱이 **Standard access** 승인을 받아야 합니다. 처음엔 **Trial access**로 시작하며, Trial 동안 만든 핀과 보드는 **본인에게만 보이는 테스트(샌드박스) 핀**입니다.
 * Standard 신청에는 **연결 과정을 녹화한 화면 영상**이 반드시 필요합니다(혼자 쓰는 앱이어도 동일). 심사는 보통 1~4주, 더 걸리기도 합니다.
-* **핀은 사용자가 하나씩 골라야 합니다.** Pinterest 개발자 가이드라인은 핀을 예약·자동 게시하는 앱에 대해 “the end user must choose each Pin to be published”라고 정합니다. 그래서 이 자동화는 주인님이 고르지 않은 핀은 절대 올리지 않습니다. Claude도 승인 표시를 스스로 넣지 않습니다.
+* **핀은 사용자가 하나씩 골라야 합니다.** Pinterest 개발자 가이드라인은 핀을 예약·자동 게시하는 앱에 대해 “the end user must choose each Pin to be published”라고 정합니다. 그래서 이 자동화는 운영자가 고르지 않은 핀은 절대 올리지 않습니다. Claude도 승인 표시를 스스로 넣지 않습니다.
 * 핀 **수정** API는 베타라 앱에 따라 막혀 있습니다. 그래서 `fix` 모드는 수정이 거부되면 **기존 핀을 지우고 완전한 새 핀으로 교체**합니다.
 * 승인 전에도 자동 핀을 원하면 Pinterest 자체 기능 **RSS 자동 게시**(API·승인 불필요)를 쓸 수 있습니다 → 맨 아래 부록.
 
@@ -58,7 +58,7 @@ Run workflow → mode **check** → 로그에 `connected as @계정이름`과 �
 2. 녹화 순서(3분 안팎). 핵심은 **핀이 사용자가 하나씩 고른 뒤에만 게시된다**는 것을 보여 주는 것입니다.
    ① 연결 페이지 → Pinterest 승인 화면 → 허용 → 코드 표시
    ② GitHub Actions에서 mode **connect** 실행 → 성공
-   ③ mode **list** 실행 → 로그(또는 실행 요약)에서 `your OK` 목록, 즉 주인님의 선택을 기다리는 핀들을 보여 주기
+   ③ mode **list** 실행 → 로그(또는 실행 요약)에서 `your OK` 목록, 즉 운영자의 선택을 기다리는 핀들을 보여 주기
    ④ mode **pin**, target에 그중 글 링크 하나를 붙여넣고 실행 → 로그의 `chosen by the owner: …`와 `pinned: … → https://www.pinterest.com/pin/…`
    ⑤ Pinterest에서 방금 만든 핀 열기
 3. developers.pinterest.com → My apps → 앱 → **Upgrade / Request Standard access** → 영상 업로드, 설명은 3단계 용도 설명(영어 문장)을 그대로.
@@ -97,5 +97,5 @@ Run workflow → mode **fix**, target `https://acts39.blogspot.com/2026/09/levoi
 Pinterest 설정 → **핀 일괄 만들기(Bulk create Pins)** → **자동 게시(Auto-publish)** → RSS 주소 `https://acts39.blogspot.com/feeds/posts/default?alt=rss` → 보드 **Best of Amazon 2026** → 저장. (2단계 소유 확인이 먼저 필요, 데스크톱에서만.)
 * 장점: 승인·토큰 없이 새 글마다 하루 안에 핀 생성.
 * 한계: 이미지는 Pinterest가 글에서 고르고(가로 표지일 가능성), 제목·설명은 글 제목·요약이 그대로 들어갑니다.
-* RSS 자동 게시는 주인님이 피드 연결을 직접 켜는 Pinterest 자체 기능이라 위 승인 단계와 무관합니다. 다만 새 글이 모두 자동으로 핀이 됩니다.
+* RSS 자동 게시는 운영자가 피드 연결을 직접 켜는 Pinterest 자체 기능이라 위 승인 단계와 무관합니다. 다만 새 글이 모두 자동으로 핀이 됩니다.
 * API 자동화가 켜지면 RSS 연결은 해제하세요. 같은 보드라면 스크립트가 이미 있는 링크의 핀을 건너뛰므로 중복은 생기지 않습니다.
