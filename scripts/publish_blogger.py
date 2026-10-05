@@ -21,7 +21,8 @@ Usage:
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --only earbuds  # one post (key from POSTS)
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --draft         # create everything as drafts
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --check         # only verify token + blog access
-Idempotent: a page or post whose title (or "slug title") already exists on the blog is updated, not duplicated.
+Idempotent: a page or post that already exists on the blog is updated, not duplicated. A post is found by its "url"
+(added to its POSTS entry once it is live), then by its title, "slug title" or an earlier title in "aliases".
 New posts are created under the short slug title first (Blogger derives the URL from the title at first
 publish), then immediately renamed to the full title so the URL stays short.
 """
@@ -32,18 +33,21 @@ API = "https://www.googleapis.com/blogger/v3"
 POSTS = {
     "robot-vacuums": {
         "dir": "posts/2026-09-best-robot-vacuums",
+        "url": "https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html",
         "title": "Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict",
         "slug_title": "Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict",   # already live under this title
         "labels": ["Robot Vacuums", "Buying Guide", "Home Cleaning", "For Pet Owners", "Carpet", "Hardwood Floors", "Under $1000", "Roborock", "Dreame", "Roomba", "Smart Home", "Amazon Finds"],
     },
     "earbuds": {
         "dir": "posts/2026-09-best-wireless-earbuds",
+        "url": "https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html",
         "title": "Best Wireless Earbuds of 2026: AirPods 5 & Pro 3 vs Sony, Bose, Galaxy Buds and Pixel Buds",
         "slug_title": "Best Wireless Earbuds 2026",
         "labels": ["Wireless Earbuds", "Buying Guide", "AirPods", "Sony", "Bose", "Noise Cancelling", "Under $300", "Under $100", "Tech Gifts", "Amazon Finds"],
     },
     "glasses": {
         "dir": "posts/2026-09-best-smart-glasses",
+        "url": "https://acts39.blogspot.com/2026/09/best-smart-glasses-2026.html",
         "title": "Best Smart Glasses of 2026: Ray-Ban Meta vs Meta Display, Rokid, Xreal, Even Realities",
         "aliases": ["Best Smart Glasses of 2026: Meta Ray-Ban Display vs Ray-Ban Meta Gen 2, Rokid, Xreal, Even Realities — and the AI-Glasses Exam Scandal"],   # title it was first published under
         "slug_title": "Best Smart Glasses 2026",
@@ -51,19 +55,23 @@ POSTS = {
     },
     "airtag": {
         "dir": "posts/2026-09-apple-airtag-2",
-        "title": "Apple AirTag 2: Why Amazon Can't Keep the 4-Pack in Stock (and Whether You Need It)",
+        "url": "https://acts39.blogspot.com/2026/09/apple-airtag-2-review-2026.html",
+        "title": "Apple AirTag 2 Review: Is the 4-Pack Worth It for Your iPhone?",
+        "aliases": ["Apple AirTag 2: Why Amazon Can't Keep the 4-Pack in Stock (and Whether You Need It)"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "Apple AirTag 2 Review 2026",
         "labels": ["Best Sellers", "Review", "Under $100", "Amazon Finds", "Trackers", "Travel", "Apple", "Tech Gifts", "Find My", "Smart Home"],
     },
     "owala": {
         "dir": "posts/2026-09-owala-freesip",
-        "title": "Owala FreeSip Review: How a Water Bottle Beat Stanley to #1 on Amazon",
-        "aliases": ["Owala FreeSip: How a $30 Water Bottle Beat Stanley to #1 on Amazon"],   # title it was first published under
+        "url": "https://acts39.blogspot.com/2026/09/owala-freesip-review-2026.html",
+        "title": "Owala FreeSip Review: Why One Lid Made It the Water Bottle to Beat",
+        "aliases": ["Owala FreeSip: How a $30 Water Bottle Beat Stanley to #1 on Amazon", "Owala FreeSip Review: How a Water Bottle Beat Stanley to #1 on Amazon"],   # earlier live titles
         "slug_title": "Owala FreeSip Review 2026",
         "labels": ["Best Sellers", "Review", "Under $100", "Amazon Finds", "Water Bottles", "Hydration", "Owala", "Stanley", "Fitness", "Gifts"],
     },
     "bissell": {
         "dir": "posts/2026-09-bissell-little-green",
+        "url": "https://acts39.blogspot.com/2026/09/bissell-little-green-review-2026.html",
         "title": "Bissell Little Green Review: Behind a Million Before-and-After Videos",
         "aliases": ["Bissell Little Green: The $95 Machine Behind a Million Before-and-After Videos"],   # title it was first published under
         "slug_title": "Bissell Little Green Review 2026",
@@ -71,6 +79,7 @@ POSTS = {
     },
     "power-stations": {
         "dir": "posts/2026-09-best-portable-power-stations",
+        "url": "https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html",
         "title": "Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti",
         "aliases": ["Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti — Sized for Outages, Camping, CPAP and Home Backup"],   # title it was first published under
         "slug_title": "Best Portable Power Stations 2026",
@@ -78,12 +87,14 @@ POSTS = {
     },
     "prime-days": {
         "dir": "posts/2026-09-prime-big-deal-days-2026",
+        "url": "https://acts39.blogspot.com/2026/09/prime-big-deal-days-2026.html",
         "title": "Prime Big Deal Days 2026: The 12 Deals Worth Waiting For (and the Price That Makes Each One Real)",
         "slug_title": "Prime Big Deal Days 2026",
         "labels": ["Deals", "Prime Day", "Buying Guide", "Best Sellers", "Robot Vacuums", "Wireless Earbuds", "Power Stations", "Smart Glasses", "Price Tracking", "Amazon Finds"],
     },
     "pets": {
         "dir": "posts/2026-09-best-pet-products-on-amazon",
+        "url": "https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html",
         "title": "Best Pet Products on Amazon 2026: Pet Hair Roller, Grooming Vacuum, Robot Litter Box (Good, Better, Best)",
         "slug_title": "Best Pet Products on Amazon 2026",
         "aliases": ["The 3 Best Pet Products on Amazon in 2026: a $25 Roller, an $85 Grooming Vacuum and the $699 Robot Litter Box (Good · Better · Best)"],
@@ -91,48 +102,61 @@ POSTS = {
     },
     "dogs": {
         "dir": "posts/2026-09-dog-essentials-on-amazon",
+        "url": "https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html",
         "title": "Best-Value Dog Essentials on Amazon 2026: No-Pull Harness, KONG Classic, Poop Bags",
         "slug_title": "Best Value Dog Essentials on Amazon 2026",
         "labels": ["Dogs", "Dog Supplies", "Pets", "Pet Products", "Buying Guide", "Best Sellers", "For Pet Owners", "Dog Harness", "Dog Toys", "Poop Bags", "Under $30", "Amazon vs Chewy", "Amazon Finds"],
     },
     "aivideo": {
         "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+        "url": "https://acts39.blogspot.com/2026/09/claude-higgsfield-mcp-workflow-2026.html",
         "title": "Claude + Higgsfield MCP: From One Photo to an AI Product Video (2026 Setup, Credits, 13 Uses, US Rules)",
         "slug_title": "Claude Higgsfield MCP Workflow 2026",
         "labels": ["AI Tools", "AI Video", "Higgsfield", "Claude", "Workflow Guide", "Creator Tools", "YouTube", "Small Business", "Buying Guide", "For Creators", "ElevenLabs", "Amazon Finds"],
     },
     "levoit300": {
         "dir": "posts/2026-09-levoit-core-300p-air-purifier",
-        "title": "Levoit Core 300-P Review 2026: The Under-$100 Air Purifier That Makes the $500 Dyson Pointless",
+        "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
+        "title": "Levoit Core 300-P Review 2026: Still Worth About $90? The Filter Is the Real Price",
+        "aliases": ["Levoit Core 300-P Review 2026: The Under-$100 Air Purifier That Makes the $500 Dyson Pointless"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "Levoit Core 300P Review 2026",
         "labels": ["Air Purifiers", "Home Comfort", "Best Sellers", "Review", "Under $100", "Allergies", "Amazon Finds", "Product of the Day"],
     },
     "bedsure-throw": {
         "dir": "posts/2026-10-bedsure-heated-blanket-throw",
-        "title": "Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket, Recall Check Included",
+        "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
+        "title": "Bedsure Heated Throw Review 2026: The Recall Check, Running Cost and Who It Suits",
+        "aliases": ["Bedsure Heated Throw Review 2026: Amazon's Best-Selling Electric Blanket, Recall Check Included"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "Bedsure Heated Throw Review 2026",
         "labels": ["Home Comfort", "Best Sellers", "Review", "Under $50", "Gifts", "Amazon Finds", "Product of the Day"],
     },
     "ocedar-mop": {
         "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
-        "title": "O-Cedar EasyWring Spin Mop Review 2026: 170,000 Reviews and No Refill Pads",
+        "url": "https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html",
+        "title": "O-Cedar EasyWring Spin Mop Review 2026: Still Worth About $35 With That Handle?",
+        "aliases": ["O-Cedar EasyWring Spin Mop Review 2026: 170,000 Reviews and No Refill Pads"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
         "labels": ["Home Cleaning", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
     },
     "noco-gb40": {
         "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter",
-        "title": "NOCO GB40 Review 2026: The Glovebox Jump Starter With 110,000+ Amazon Ratings",
+        "url": "https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html",
+        "title": "NOCO GB40 Review 2026: Is the Glovebox Jump Starter Still Worth About $90?",
+        "aliases": ["NOCO GB40 Review 2026: The Glovebox Jump Starter With 110,000+ Amazon Ratings"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "NOCO GB40 Jump Starter Review 2026",
         "labels": ["Car", "Tools", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
     },
     "beckham-pillows": {
         "dir": "posts/2026-10-beckham-hotel-collection-pillows",
-        "title": "Beckham Hotel Collection Pillows Review 2026: Amazon's #1 Pillow, Honestly",
+        "url": "https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html",
+        "title": "Beckham Hotel Collection Pillows Review 2026: Plush, Cheap, Not Forever",
+        "aliases": ["Beckham Hotel Collection Pillows Review 2026: Amazon's #1 Pillow, Honestly"],   # title it was live under before the Amazon-policy sweep
         "slug_title": "Beckham Hotel Pillows Review 2026",
         "labels": ["Sleep", "Bedding", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
     },
     "bidets2026": {
         "dir": "posts/2026-10-best-bidet-2026",
+        "url": "https://acts39.blogspot.com/2026/10/best-bidet-2026.html",
         "title": "Best Bidet of 2026: The $50 Attachment Owners Recommend (vs KOHLER PureWash, TUSHY, TOTO)",
         "slug_title": "Best Bidet 2026",
         "labels": ["Bathroom", "Bidets", "Buying Guide", "Best Sellers", "Under $50", "Amazon Finds"],
@@ -251,6 +275,8 @@ st2, drafts = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "draft", 
 by_title = {p["title"]: p for p in (existing.get("items", []) + drafts.get("items", []))}
 for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-5:] if HUBS_ONLY else PAGES)):
     body = {"title": title, "content": strip_comments(pathlib.Path(f).read_text(encoding="utf-8"))}
+    if re.search(r"\bWRITE\b", body["content"]):   # an unfinished line from daily_post.py must never go live
+        print(f"page skipped: {title} ({f}) still has a WRITE marker; finish it and publish again"); continue
     if title in by_title:
         st, res = call("PUT", f"/blogs/{BLOG_ID}/pages/{by_title[title]['id']}", body)
         verb = "updated"
@@ -265,11 +291,16 @@ if PAGES_ONLY or HUBS_ONLY:
 st, live = call("GET", f"/blogs/{BLOG_ID}/posts", params={"status": "live", "fetchBodies": "false", "maxResults": 100})
 st2, pdrafts = call("GET", f"/blogs/{BLOG_ID}/posts", params={"status": "draft", "fetchBodies": "false", "maxResults": 100})
 posts_by_title = {p["title"]: p for p in (live.get("items", []) + pdrafts.get("items", []))}
+posts_by_url = {p["url"]: p for p in live.get("items", []) if p.get("url")}
 for key, P in POSTS.items():
     if ONLY and key != ONLY:
         continue
     content = inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8")))
-    existing = posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"]) or next((posts_by_title[a] for a in P.get("aliases", []) if a in posts_by_title), None)
+    if re.search(r"\bWRITE\b", content):
+        print(f"post {key} skipped: {P['dir']}/post.html still has a WRITE marker"); continue
+    # a live post is found by its URL first, so a changed title never creates a duplicate post
+    existing = (posts_by_url.get(P.get("url")) or posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"])
+                or next((posts_by_title[a] for a in P.get("aliases", []) if a in posts_by_title), None))
     if existing:
         pid = existing["id"]
         # PATCH, not PUT: change only title, labels and content, and leave what the API cannot see untouched

@@ -1,25 +1,64 @@
-<!-- Category hub page: appears as the "Best Sellers" tab. Published via scripts/publish_blogger.py -->
+<!-- Category hub page: appears as the "Best Sellers" tab. Published via scripts/publish_blogger.py.
+     daily_post.py adds each new guide right after the CLUSTER marker named by its queue entry's "cluster" (newest first)
+     and opens a new section at the NEW-SECTIONS marker for a cluster that has none yet. Keep those markers. -->
 <div style="max-width:760px;margin:0 auto;font-size:18px;line-height:1.65;color:#222;">
 <p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> <a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · <a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a></p>
-<p style="font-size:21px;color:#1B2A41;"><strong>Amazon's best sellers, explained in five minutes each.</strong> Short, honest stories about the products everyone is buying right now — why, who they're for, and when the price drops.</p>
+<p style="font-size:21px;color:#1B2A41;"><strong>Everyday picks, one product at a time.</strong> Each guide takes a product people are buying now and answers what a shopper actually asks: who it suits, who should skip it, what owners complain about after months, what it costs to keep, and when the price is right.</p>
+<p>The guides are grouped by room, newest first. Every number in them carries its source and date, and we never quote Amazon's own ratings or prices: the buttons show today's price. <a href="/p/how-we-rank-products.html">How we choose</a>.</p>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Home cleaning</h3>
+<p>Floors, spills and the jobs nobody wants. Each guide sets what lab testers measured against what owners report after months of use, and says who should skip the pick.</p>
 <ul style="padding-left:22px;">
-<li style="margin-bottom:.6em;"><a href="/2026/09/apple-airtag-2-review-2026.html" style="color:#1B2A41;font-weight:700;">Apple AirTag 2: the 4-pack everyone buys</a> — louder, farther, Apple Watch finding, $79.99 for four at the record low.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/09/owala-freesip-review-2026.html" style="color:#1B2A41;font-weight:700;">Owala FreeSip: the bottle that beat Stanley</a> — Amazon's #1 in Kitchen &amp; Dining, because of a lid.</li>
-<li><a href="/2026/09/bissell-little-green-review-2026.html" style="color:#1B2A41;font-weight:700;">Bissell Little Green: a million sold</a> — the machine behind every before-and-after video.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/09/best-pet-products-on-amazon-2026.html" style="color:#1B2A41;font-weight:700;">Best pet products on Amazon 2026: good, better, best</a> — a pet hair roller, a grooming vacuum and the robot litter box, at about $25, $85 and $699, with what 200,000+ owners say and what buying on Amazon gets you. Starring Noeul the Jindo.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/09/best-value-dog-essentials-on-amazon-2026.html" style="color:#1B2A41;font-weight:700;">Best-value dog essentials: harness, KONG, poop bags</a> — the three things every dog owner buys, the version worth the money on Amazon, and where Chewy, Walmart and Temu really stand in 2026. Noeul at two months and at two years.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/09/claude-higgsfield-mcp-workflow-2026.html" style="color:#1B2A41;font-weight:700;">Claude + Higgsfield MCP: from one photo to an AI product video</a> — the plan-stills-video workflow the tutorials teach, the ten-minute setup, what a 15-second ad costs in credits, thirteen uses, who gets paid, and the twelve US rules that keep an AI ad legal. Noeul as the product model.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/09/levoit-core-300p-review-2026.html" style="color:#1B2A41;font-weight:700;">Levoit Core 300-P review: the under-$100 air purifier that outsells them all</a> — 4.7 stars across 108,000+ Amazon reviews (September 2026); one bedroom cleaned quietly for the price of a month of allergy pills, with the filter bill and the coverage claim explained honestly.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/10/bedsure-heated-throw-review-2026.html" style="color:#1B2A41;font-weight:700;">Bedsure Heated Blanket Electric Throw (50 x 60 in): product of the day</a> — a heated throw that costs a cent or two an hour to run, with the 2023 recall check you should do first.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/10/o-cedar-easywring-spin-mop-review-2026.html" style="color:#1B2A41;font-weight:700;">O-Cedar EasyWring Microfiber Spin Mop and Bucket: product of the day</a> — a foot-pedal wringer, a washable head and about $35: the value pick for sealed hard floors, with the handle as its known weak spot.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/10/noco-gb40-jump-starter-review-2026.html" style="color:#1B2A41;font-weight:700;">NOCO Boost Plus GB40 1000A Jump Starter: product of the day</a> — a 2.4-pound lithium jump starter for the glovebox: what owners report, how to use it, and when to buy on why it is the value pick.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/10/beckham-hotel-pillows-review-2026.html" style="color:#1B2A41;font-weight:700;">Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2): product of the day</a> — a plush two-pack reported near $40 to $60, with an honest look at how long it keeps its loft.</li>
-<li style="margin-bottom:.6em;"><a href="/2026/10/best-bidet-2026.html" style="color:#1B2A41;font-weight:700;">Best bidet of 2026: the $50 attachment owners recommend</a> — why the LUXE NEO 185 comes first, how the KOHLER PureWash M100 and M300 compare, what installation really costs, and what unhappy owners report.</li>
+<!--CLUSTER:cleaning-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/best-robot-vacuums-2026_0205504732.html" style="color:#1B2A41;font-weight:700;">Best robot vacuums of 2026</a> — one pick for every kind of home, from pets and thick carpet to small apartments, plus the first-week setup that prevents most complaints.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/10/o-cedar-easywring-spin-mop-review-2026.html" style="color:#1B2A41;font-weight:700;">O-Cedar EasyWring spin mop review</a> — the foot-pedal wringer for sealed hard floors, what replacement heads cost in a year, and the handle that is its known weak spot.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/09/bissell-little-green-review-2026.html" style="color:#1B2A41;font-weight:700;">Bissell Little Green review</a> — what the viral spot cleaner really lifts out of couches, car seats and pet stains, where it falls short, and Mini vs classic.</li>
 </ul>
-<h3 style="color:#1B2A41;font-size:1.25em;margin:1.2em 0 .4em;">Sale events</h3>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Sleep and home comfort</h3>
+<p>A better night and a more comfortable room, without paying for features you will not use.</p>
 <ul style="padding-left:22px;">
-<li><a href="/2026/09/prime-big-deal-days-2026.html" style="color:#1B2A41;font-weight:700;">Prime Big Deal Days 2026: the 12 deals worth waiting for</a> — October 6–7; the exact price that makes each deal real, from a $24 bottle to an $899 robot, and the five traps to skip.</li>
+<!--CLUSTER:comfort-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/levoit-core-300p-review-2026.html" style="color:#1B2A41;font-weight:700;">Levoit Core 300-P review</a> — a quiet purifier sized for one bedroom, and why the filter, not the machine, is the real price.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/10/bedsure-heated-throw-review-2026.html" style="color:#1B2A41;font-weight:700;">Bedsure heated throw review</a> — a cent or two an hour to run, who it suits, and the 2023 recall check to do before you use an older one.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/10/beckham-hotel-pillows-review-2026.html" style="color:#1B2A41;font-weight:700;">Beckham Hotel Collection pillows review</a> — plush and inexpensive for back and light side sleepers, and an honest look at how long they keep their loft.</li>
 </ul>
-<p><a href="/search/label/Best%20Sellers">All best-seller stories →</a> · <a href="/search/label/Deals">All deal guides →</a></p>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Car</h3>
+<p>The things that get you home on a cold morning.</p>
+<ul style="padding-left:22px;">
+<!--CLUSTER:car-->
+<li style="margin-bottom:.6em;"><a href="/2026/10/noco-gb40-jump-starter-review-2026.html" style="color:#1B2A41;font-weight:700;">NOCO GB40 jump starter review</a> — a 2.4-pound glovebox jump starter for gas engines up to 6.0 liters, and the one habit that keeps it ready when you need it.</li>
+</ul>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Pets</h3>
+<p>Fur on the couch, a dog that pulls, the litter box: one pick per problem, with photos of Noeul, our Jindo, in the pet guides.</p>
+<ul style="padding-left:22px;">
+<!--CLUSTER:pets-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/best-pet-products-on-amazon-2026.html" style="color:#1B2A41;font-weight:700;">Best pet products of 2026: good, better, best</a> — a hair roller, a grooming vacuum and a robot litter box at three budgets, what each costs to run, and how to spot fakes.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/09/best-value-dog-essentials-on-amazon-2026.html" style="color:#1B2A41;font-weight:700;">Best-value dog essentials</a> — the no-pull harness, KONG Classic and poop bags worth the money, and how Amazon compares with Chewy, Walmart and Temu.</li>
+</ul>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Bathroom</h3>
+<p>Upgrades you install once and use every day.</p>
+<ul style="padding-left:22px;">
+<!--CLUSTER:bathroom-->
+<li style="margin-bottom:.6em;"><a href="/2026/10/best-bidet-2026.html" style="color:#1B2A41;font-weight:700;">Best bidet of 2026</a> — why the LUXE NEO 185 comes first, how the KOHLER PureWash M100 and M300 compare, what installation really costs, and what unhappy owners report.</li>
+</ul>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Tech and travel</h3>
+<p>The gadgets we cover in depth have their own guides in the menu: robot vacuums, wireless earbuds, smart glasses and power stations. These are the smaller everyday ones.</p>
+<ul style="padding-left:22px;">
+<!--CLUSTER:tech-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/apple-airtag-2-review-2026.html" style="color:#1B2A41;font-weight:700;">Apple AirTag 2 review</a> — louder, finds things farther away and works with Apple Watch: who should buy the 4-pack and who should skip it.</li>
+<li style="margin-bottom:.6em;"><a href="/2026/09/owala-freesip-review-2026.html" style="color:#1B2A41;font-weight:700;">Owala FreeSip review</a> — why the sip-or-chug lid wins, which size fits a cup holder, and the two-minute habit that keeps the gasket clean.</li>
+</ul>
+<!--NEW-SECTIONS-->
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">Sales and deal guides</h3>
+<p>When a sale is worth waiting for, and the price that makes a deal real.</p>
+<ul style="padding-left:22px;">
+<!--CLUSTER:deals-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/prime-big-deal-days-2026.html" style="color:#1B2A41;font-weight:700;">Prime Big Deal Days 2026: the 12 deals worth waiting for</a> — October 6–7: the price band that makes each deal real, and the five traps to skip.</li>
+</ul>
+<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">More picks</h3>
+<ul style="padding-left:22px;">
+<!--CLUSTER:more-->
+<li style="margin-bottom:.6em;"><a href="/2026/09/claude-higgsfield-mcp-workflow-2026.html" style="color:#1B2A41;font-weight:700;">Claude + Higgsfield MCP: from one photo to an AI product video</a> — the plan-stills-video workflow, the ten-minute setup, what a 15-second clip costs in credits, and the US rules for AI ads.</li>
+</ul>
+<p><a href="/search/label/Best%20Sellers">All product reviews →</a> · <a href="/search/label/Deals">All deal guides →</a></p>
 <p style="font-size:14px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>
 </div>

@@ -107,6 +107,19 @@ def cta(c, label):
     tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;white-space:nowrap;display:inline-block;">(paid link)</span>' if is_paid(c) else ""
     return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank">{esc(c.get("cta_label", label))} →</a>' + tag
 
+OWN_LABEL = re.compile(r"([^:.;]{3,48}):\s+(.+)", re.S)
+
+
+def owners_line(text):
+    """A card's owner-themes line. A field that opens with its own label ("Our own analysis, not owner reviews: …",
+    "Praise in 2026 reviews: …") keeps it; any other is labelled "What owners and testers say". Never "From the reviews":
+    on a card with an Amazon button that reads as Amazon customer reviews, which the Associates rules keep off the page."""
+    m = OWN_LABEL.match(text)
+    if m:
+        return f"<strong>{esc(m.group(1))}:</strong> {esc(m.group(2))}"
+    return f"<strong>What owners and testers say:</strong> {esc(text)}"
+
+
 def top_pick(d, c):
     return f'''<div class="vp-top" id="top-pick" style="display:flex;flex-wrap:wrap;gap:22px;align-items:center;border:3px solid #1E8E5A;border-radius:16px;padding:20px;background:#fff;margin:1.2em 0 1.6em;">
 <div style="flex:1 1 280px;min-width:0;">{card_svg(d, c["id"])}</div>
@@ -117,7 +130,7 @@ def top_pick(d, c):
 <ul style="margin:0 0 1em;padding-left:20px;">
 <li style="margin-bottom:.4em;"><strong>Buy it if</strong> {esc(c["buy_if"])}</li>
 <li style="margin-bottom:.4em;"><strong>Skip it if</strong> {esc(c["skip_if"])}</li>
-<li><strong>From the reviews:</strong> {esc(c["owners"])}</li>
+<li>{owners_line(c["owners"])}</li>
 </ul>
 {cta(c, "See today's price on Amazon")}
 </div>
@@ -154,7 +167,7 @@ def pick_card(d, c, n, with_video=True):
 <ul style="margin:0 0 .9em;padding-left:20px;">
 <li style="margin-bottom:.35em;"><strong>Buy it if</strong> {esc(c["buy_if"])}</li>
 <li style="margin-bottom:.35em;"><strong>Skip it if</strong> {esc(c["skip_if"])}</li>
-<li><strong>From the reviews:</strong> {esc(c["owners"])}</li>
+<li>{owners_line(c["owners"])}</li>
 </ul>
 {cta(c, "Check the price on Amazon")}
 </div>

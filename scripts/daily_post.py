@@ -16,6 +16,9 @@ import datetime, json, pathlib, re, shutil, subprocess, sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "daily" / "queue.json"
 TAG = "verdictpicks-20"
+CLUSTER_TITLES = {"cleaning": "Home cleaning", "comfort": "Sleep and home comfort", "kitchen": "Kitchen", "car": "Car",
+                  "pets": "Pets", "bathroom": "Bathroom", "tech": "Tech and travel", "home": "Home and storage",
+                  "gifts": "Gift guides", "deals": "Sales and deal guides", "more": "More picks"}
 
 def slugify(s):
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -45,8 +48,10 @@ def cmd_new(key):
     q = json.loads(QUEUE.read_text(encoding="utf-8"))
     e = next((x for x in q["queue"] if x["key"] == key), None)
     if not e: sys.exit(f"{key} not in daily/queue.json")
-    date = e.get("date") or datetime.date.today().isoformat()
+    # a post is dated the day it is written: the queue date is only the plan
+    date = e["date"] = datetime.date.today().isoformat()
     y, m = date[:4], date[5:7]
+    roundup = e.get("format") == "roundup"
     d = ROOT / "posts" / f"{date[:7]}-{e['slug']}"
     if d.exists(): sys.exit(f"{d} exists")
     (d / "src").mkdir(parents=True); (d / "images").mkdir()
@@ -90,7 +95,9 @@ def cmd_new(key):
     for k, v in {"{{NAME}}": e["name"], "{{SHORT}}": e["short"], "{{DATE}}": long_date, "{{URL}}": url, "{{KEY}}": key, "{{DIR}}": d.name, "{{SEARCH}}": e["search"]}.items():
         tpl = tpl.replace(k, v)
     (d / "src" / "00-easy.html").write_text(tpl, encoding="utf-8")
-    (d / "post-meta.md").write_text(f"# Post metadata — {e['title']}\n\n* **Title:** {e['title']}\n* **Slug title (first publish):** {e['slug_title']} → {url}\n* **Labels:** {', '.join(e['labels'])}\n* **Search description (≤150 chars):** WRITE\n* **Format:** product of the day (daily/README.md)\n* **Research:** research/daily-{date}-{e['slug']}.md\n* **Status:** scaffolded {date}\n", encoding="utf-8")
+    model = e.get("model", "posts/2026-10-best-bidet-2026")
+    fmt = f"roundup (daily/README.md section 11; model: {model})" if roundup else "product of the day (daily/README.md)"
+    (d / "post-meta.md").write_text(f"# Post metadata — {e['title']}\n\n* **Title:** {e['title']}\n* **Slug title (first publish):** {e['slug_title']} → {url}\n* **Labels:** {', '.join(e['labels'])}\n* **Search description (≤150 chars):** WRITE\n* **Format:** {fmt}\n* **Research:** research/daily-{date}-{e['slug']}.md\n* **Status:** scaffolded {date}\n", encoding="utf-8")
     # publisher entry
     pb = ROOT / "scripts" / "publish_blogger.py"; t = pb.read_text(encoding="utf-8")
     entry = f'''    "{key}": {{
@@ -108,17 +115,34 @@ def cmd_new(key):
     c[d.name] = {"updated": long_date, "url": url, "list_name": e["name"], "takeaways": [], "korean": "", "h2": []}
     sc.write_text(json.dumps(c, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     # hub line (draft), promo and pin drafts
+    # the hub page groups guides by cluster: the line goes into the entry's cluster list, else under "More picks"
     hub = ROOT / "brand" / "pages" / "hub-best-sellers.html"; h = hub.read_text(encoding="utf-8")
-    line = f'<li style="margin-bottom:.6em;"><a href="{url.replace("https://acts39.blogspot.com", "")}" style="color:#1B2A41;font-weight:700;">{e["name"]}: product of the day</a> — WRITE: one line on why it is the value pick.</li>\n'
-    anchor = '</ul>\n<h3 style="color:#1B2A41;font-size:1.25em;margin:1.2em 0 .4em;">Sale events</h3>'
-    assert anchor in h, "hub anchor not found"; hub.write_text(h.replace(anchor, line + anchor, 1), encoding="utf-8")
+    text = e["name"] if roundup else f'{e["name"]} review'
+    line = f'<li style="margin-bottom:.6em;"><a href="{url.replace("https://acts39.blogspot.com", "")}" style="color:#1B2A41;font-weight:700;">{text}</a> — WRITE: one line on who it is for and the verdict (no Amazon ratings, counts or prices).</li>\n'
+    cluster = e.get("cluster") or "more"
+    anchor = f"<!--CLUSTER:{cluster}-->\n"
+    if anchor not in h:   # first guide of a new cluster: open its section
+        title = CLUSTER_TITLES.get(cluster, cluster.capitalize())
+        section = (f'<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">{title}</h3>\n'
+                   f'<p>WRITE: one or two sentences on what this section covers and how we choose.</p>\n'
+                   f'<ul style="padding-left:22px;">\n{anchor}</ul>\n')
+        assert "<!--NEW-SECTIONS-->" in h, "hub anchor not found"
+        h = h.replace("<!--NEW-SECTIONS-->", section + "<!--NEW-SECTIONS-->", 1)
+    hub.write_text(h.replace(anchor, anchor + line, 1), encoding="utf-8")
+    kind = "buying guide" if roundup else "product of the day"
     (ROOT / "promo").mkdir(exist_ok=True)
-    (ROOT / "promo" / f"{date}-{e['slug']}.md").write_text(f"# Promotion kit — {e['name']} (product of the day, {long_date})\n\nPost: {url}\nCover: `{d.relative_to(ROOT)}/images/cover.png` · Pin: `images/pin.png` · Share: `images/howto.png`, `images/stores.png`, `images/strips/in-real-life.png`\n\nDisclosure on every social post: \"Amazon links in the guide are paid links.\"\n\n## Pinterest (day 1)\nWRITE\n\n## X / Threads (day 1)\n1. WRITE\n2. WRITE\n\n## Facebook groups (day 2)\nWRITE\n\n## Reddit (comments only, day 3)\nWRITE\n\n## Search and indexing\nSearch Console → URL inspection → Request indexing; set the search description from post-meta.md.\n", encoding="utf-8")
+    (ROOT / "promo" / f"{date}-{e['slug']}.md").write_text(f"# Promotion kit — {e['name']} ({kind}, {long_date})\n\nPost: {url}\nCover: `{d.relative_to(ROOT)}/images/cover.png` · Pin: `images/pin.png` · Share: `images/howto.png`, `images/stores.png`, `images/strips/in-real-life.png`\n\nDisclosure on every social post: \"Amazon links in the guide are paid links.\"\n\n## Pinterest (day 1)\nWRITE\n\n## X / Threads (day 1)\n1. WRITE\n2. WRITE\n\n## Facebook groups (day 2)\nWRITE\n\n## Reddit (comments only, day 3)\nWRITE\n\n## Search and indexing\nSearch Console → URL inspection → Request indexing; set the search description from post-meta.md.\n", encoding="utf-8")
     pins = ROOT / "pinterest" / f"pins-{date[:7]}.md"
-    if not pins.exists(): pins.write_text(f"# Pinterest pins — {date[:7]}\n\nBoard: Best of Amazon 2026 (plus the category board named per pin).\n\n", encoding="utf-8")
+    if not pins.exists(): pins.write_text(f"# Pinterest pins — {date[:7]}\n\nBoard: Best of Amazon 2026 (plus the category board named per pin).\n\n"
+                                         "**Approval:** a pin goes live only after the owner chooses it (Pinterest's Developer Guidelines). The owner adds "
+                                         "`**Approved**` with `yes` on the next line under an entry's Alt text, or runs the Pinterest workflow in mode "
+                                         "`pin` with the post link (daily/pinterest-setup.md, step 8). Claude sessions never add the Approved field on their own.\n\n", encoding="utf-8")
     pins.write_text(pins.read_text(encoding="utf-8") + f"## {e['name']} — `{d.relative_to(ROOT)}/images/pin.png`\n\n**Title**\nWRITE\n\n**Description**\nWRITE #amazonfinds\n\n**Link**\n{url}\n\n**Alt text**\nWRITE\n\n---\n\n", encoding="utf-8")
     e["status"] = "writing"; QUEUE.write_text(json.dumps(q, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"scaffolded {d.relative_to(ROOT)} → {url}\nnext: edit cards.json, cover.json, strips.json, infographics.json, src/00-easy.html; then: python3 scripts/daily_post.py build {d.relative_to(ROOT)}")
+    if roundup:
+        print(f"roundup: write src/00-easy.html on the structure of {model}/src/00-easy.html "
+              f"(daily/README.md section 11); research candidates: {e.get('picks', 'see the queue entry')}")
 
 def cmd_build(post_dir):
     d = ROOT / post_dir

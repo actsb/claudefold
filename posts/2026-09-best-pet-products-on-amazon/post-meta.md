@@ -1,6 +1,6 @@
-# Post metadata — The 3 Best Pet Products on Amazon in 2026
+# Post metadata — Best Pet Products on Amazon 2026
 
-* **Title:** The 3 Best Pet Products on Amazon in 2026: Hair Roller, Grooming Vacuum, Robot Litter Box
+* **Title:** Best Pet Products on Amazon 2026: Pet Hair Roller, Grooming Vacuum, Robot Litter Box (Good, Better, Best) (live title, set in scripts/publish_blogger.py; no prices)
 * **Slug title (publish first, then rename):** Best Pet Products on Amazon 2026
 * **Labels:** Pets, Best Sellers, Buying Guide, For Pet Owners
 * **Search description (set in Blogger UI, ≤150 chars):** Our pet picks at three prices: ChomChom Roller, Neakasa P1 Pro grooming vacuum, Litter-Robot 4, with owner themes, returns and how to spot fakes.
