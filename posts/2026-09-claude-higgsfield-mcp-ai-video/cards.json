@@ -84,7 +84,7 @@
       "category": "lightbox",
       "name": "Foldable photo light box, 12–16 inch (with LED strips)",
       "short": "Photo light box",
-      "badge": "Input · the $30 that fixes half of all bad renders",
+      "badge": "Input · the cheap fix for half of all bad renders",
       "chip": "Foldable · LED · white and black backdrops",
       "art": {
         "body": "#F2F2F2",
@@ -93,7 +93,7 @@
       "price": "budget tier; the button shows today's price on Amazon",
       "buy_if": "your product photos are shot on a kitchen counter; the models copy every shadow and colour cast they are given.",
       "skip_if": "you shoot people or large items, or you already own a softbox.",
-      "owners": "Praise in owner reviews: even light and the fold-flat case. Complaints: flimsy backdrops on the cheapest boxes, and LEDs that run cool-white only.",
+      "owners": "Our own analysis, not owner reviews: the point of a box is even light and a case that folds flat. What to watch for in the category: thin backdrops on the cheapest boxes, and LED strips that only run cool-white.",
       "cta": "https://www.amazon.com/s?k=photo+light+box+16+inch+foldable+LED&tag=verdictpicks-20",
       "buy": {
         "tier": "Desk kit · light",
@@ -116,7 +116,7 @@
       "price": "budget tier; the button shows today's price on Amazon",
       "buy_if": "you want the reference stills the models start from to share one angle and one height, so a series looks like a series.",
       "skip_if": "you already own any tripod with a phone clamp.",
-      "owners": "Praise: the remote and the height. Complaints: wobble at full extension and clamps that won't hold a phone in a thick case.",
+      "owners": "Our own analysis, not owner reviews: the remote and the height are what you are paying for. What to watch for in the category: wobble at full extension, and clamps too narrow for a phone in a thick case.",
       "cta": "https://www.amazon.com/s?k=phone+tripod+ball+head+bluetooth+remote&tag=verdictpicks-20",
       "buy": {
         "tier": "Desk kit · angle",
@@ -139,12 +139,12 @@
       "price": "mid-range; the button shows today's price on Amazon",
       "buy_if": "you keep the source stills, every generation and the final cuts; a month of this workflow is tens of gigabytes.",
       "skip_if": "you already have a fast drive with room, or you delete generations as you go.",
-      "owners": "Praise: speed and size. Complaints: heat on long copies, short cables, and counterfeit listings promising impossible capacities for pocket money.",
+      "owners": "Our own analysis, not owner reviews: speed and size are the whole job. What to watch for in the category: heat on long copies, short cables, and counterfeit listings that promise impossible capacities for pocket money.",
       "cta": "https://www.amazon.com/s?k=portable+SSD+2TB+USB-C&tag=verdictpicks-20",
       "buy": {
         "tier": "Desk kit · storage",
         "pick": "2 TB if you keep everything; 1 TB if you cull.",
-        "check": "USB 3.2 Gen 2 or faster, a USB-C cable in the box, and a brand you have heard of; the counterfeits live in the \"4 TB for $30\" listings.",
+        "check": "USB 3.2 Gen 2 or faster, a USB-C cable in the box, and a brand you have heard of; the counterfeits live in the implausibly cheap, implausibly large listings.",
         "label": "See today's price"
       }
     }
