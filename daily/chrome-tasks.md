@@ -30,5 +30,17 @@ https://www.bing.com/webmasters → sign in → **Import from Google Search Cons
 ## 5. Pinterest without the API (ask first)
 Only if the owner has a Pinterest business account: Pinterest **Settings → Bulk create Pins → Auto-publish** → RSS `https://acts39.blogspot.com/feeds/posts/default?alt=rss` → board **Best of Amazon 2026** → save. (Turn it off once the API automation in daily/pinterest-setup.md is live.)
 
-## 6. Google AdSense application (ask first; see the timing in daily/strategy-2026-10.md)
-blogger.com → **Earnings** → **Sign up for AdSense** → follow the Google screens with the owner present (name, address and payment details are the owner's to enter).
+## 6. Crawl settings check (check now; change only with the owner's OK)
+1. Open https://acts39.blogspot.com/robots.txt and confirm there is no `Disallow: /` line for `User-agent: *`.
+2. blogger.com → **Settings**: **Privacy → Visible to search engines** is on; **Permissions → Reader access** is Public; **HTTPS → HTTPS redirect** is on; **Crawlers and indexing → Enable custom robots.txt** is off.
+3. Same section → **Enable custom robots header tags**. The recommended values: home page `all`; archive and search pages `noindex`; posts and pages `all`; never `nosnippet`. Report what is set now; change it only after the owner says yes.
+4. Open any post, View page source (Ctrl+U), search for `max-image-preview`. If it is missing, tell the owner; the line `<meta content='max-image-preview:large' name='robots'/>` goes right after `<head>` in Theme → Edit HTML, which the owner does (theme HTML is off-limits for this session).
+
+## 7. Amazon disclosure in the footer (now)
+blogger.com → **Layout** → in the footer (or the sidebar) **Add a Gadget** → **Text** → leave the title empty → content: `As an Amazon Associate I earn from qualifying purchases.` → **Save** → **Save arrangement** if shown. Skip if a gadget with this sentence already exists.
+
+## 8. Google AdSense application (ask first; apply between October 26 and November 2, 2026, see daily/strategy-2026-10.md section 3)
+blogger.com → **Earnings** → **Sign up for AdSense** → follow the Google screens with the owner present (name, address and payment details are the owner's to enter, exactly as on their ID, because the PIN letter goes to that address). Do not add the site at adsense.google.com, and do not turn on custom ads.txt.
+
+## 9. Amazon Associates account check (view only; ask before any change)
+https://affiliate-program.amazon.com → **Account Settings** → **Edit Your Website and Mobile App List**: report whether `https://acts39.blogspot.com` and the full Pinterest profile URL are listed. Adding a missing one is a change: ask first. Also report the account's sign-up date (for the 180-day, three-sale deadline) if the home page shows it. Do not open the tax or payment pages; the owner does those.

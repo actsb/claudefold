@@ -1,5 +1,7 @@
 # AdSense 심사 대비 점검표 (2026-10-01 조사·수정)
 
+> **2026-10-05 갱신:** 최신 전략과 일정은 [daily/strategy-2026-10.md](strategy-2026-10.md) 3장이 기준입니다. 아래 "직접 해야 할 일"의 2~4번은 새 조사(research/strategy-2026-10-adsense.md)로 바로잡았습니다.
+
 출처(검색으로 확인): Google 검색 센터 [리뷰 작성 가이드](https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews), [이미지 SEO](https://developers.google.com/search/docs/appearance/google-images), [AdSense 게시자 정책](https://support.google.com/adsense/answer/10502938), 여러 승인·거절 사례 글(내용은 2차 자료라 참고용).
 
 ## 심사에서 보는 것 → 현재 상태
@@ -9,7 +11,7 @@
 | 원본·유용한 콘텐츠(얇은 글, 제휴 링크만 있는 글 금지) | 일일 글은 1,800~4,000단어. 링크만 있는 글 없음 |
 | 허위·과장 표시(Misrepresentation) | **수정함**: "tested picks"·"how we tested" 표현 삭제, 소개 페이지에 "직접 실험하지 않고 조사한다 / 일러스트는 우리 것 / AI 보조 + 편집자 검토" 명시 |
 | 제휴 고지 | 글 첫 줄, 버튼, 별도 페이지에 있음 |
-| 이미지가 크롤러에 보이는가 | 표지는 실제 URL의 JPEG(68KB, alt·크기 지정). 나머지 그림은 글 안 SVG(aria-label 있음) |
+| 이미지가 크롤러에 보이는가 | 표지는 실제 URL의 JPEG(GitHub Pages의 cover.jpg, alt·크기 지정). 나머지 그림은 글 안 SVG(aria-label 있음) |
 | 구조화 데이터 | Article(작성자 = 조직, 날짜, 표지 이미지) + ItemList + FAQPage. 허위 별점 없음 |
 
 ## 이미지에 대해 (중요)
@@ -18,7 +20,7 @@
 
 ## 직접 해야 할 일 (자동화 불가)
 1. Google Cloud OAuth 동의 화면의 **개인정보처리방침 링크를 `https://acts39.blogspot.com/p/privacy-cookie-policy.html` 로 수정**(처음 넣은 /p/privacy-policy.html 은 존재하지 않는 주소).
-2. 가능하면 **사용자 지정 도메인** 연결(blogspot 하위 도메인도 가능하지만 승인 확률이 낮다는 경험담이 많음).
-3. 글이 충분히 쌓인 뒤 신청: 경험담상 20~25개 이상, 사이트 운영 기간 몇 달. 현재 글 약 13개(일일 글 2개).
-4. 승인 후 Blogger 설정 → 수익 창출에서 ads.txt 설정.
+2. ~~사용자 지정 도메인 연결~~ → **필요 없음.** 구글 문서에 도메인이 승인 확률을 높인다는 내용은 없습니다(blogspot 주소는 Blogger 수익 탭으로 정상 신청). 원하면 신청 전에 연결하거나 승인 후 한참 뒤에(심사 중 변경 금지).
+3. ~~글 20~25개, 몇 달 운영 후 신청~~ → **최소 기준 없음.** 신청 적기는 2026-10-26 ~ 11-02(약 6~8주 차, 글 35~45개). 관건은 글 수가 아니라 사람이 검토한 흔적·독자적 비교·주제 집중입니다.
+4. ~~승인 후 ads.txt 설정~~ → **하지 않음.** Blogger 수익 탭 연동이면 Blogger가 ads.txt를 처리합니다. "맞춤 ads.txt 사용"은 꺼 둡니다.
 5. 글 하단의 "editors" 표현이 실제 운영과 맞는지 확인(맞지 않으면 알려 주세요).
