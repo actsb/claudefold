@@ -6,4 +6,4 @@
 * **Search description (≤150 chars):** NOCO GB40 review: gas engines up to 6.0L, spark-proof clamps, and why owners say to recharge it. Reported prices and how to use it.
 * **Format:** product of the day (daily/README.md)
 * **Research:** research/daily-2026-10-03-noco-gb40-*.md
-* **Status:** built 2026-10-03; NOT yet published (Blogger refresh token expired)
+* **Status:** published 2026-10-05 → https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html

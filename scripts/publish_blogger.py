@@ -131,6 +131,12 @@ POSTS = {
         "slug_title": "Beckham Hotel Pillows Review 2026",
         "labels": ["Sleep", "Bedding", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
     },
+    "bidets2026": {
+        "dir": "posts/2026-10-best-bidet-2026",
+        "title": "Best Bidet of 2026: The $50 Attachment Owners Recommend (vs KOHLER PureWash, TUSHY, TOTO)",
+        "slug_title": "Best Bidet 2026",
+        "labels": ["Bathroom", "Bidets", "Buying Guide", "Best Sellers", "Under $50", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

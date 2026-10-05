@@ -1,14 +1,14 @@
 {
   "category": "bidet",
   "buy_title": "If you buy one bidet this year, make it this one",
-  "buy_total": "One paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices quoted in this guide were reported between November 2025 and October 2026 and move with sales; the button shows today's.",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide were reported between November 2025 and October 2026 (the NEO 185 was $45.99 on Amazon on December 2, 2025, per camelcamelcamel) and move with sales; the button shows today's.",
   "cards": [
     {
       "id": "neo185",
       "category": "bidet",
       "name": "LUXE Bidet NEO 185 (dual nozzle, non-electric)",
       "short": "LUXE NEO 185",
-      "badge": "Our first pick · the best value bidet on Amazon",
+      "badge": "Our first pick · the best value for most homes",
       "chip": "2 nozzles · no outlet · 15-minute install",
       "art": {
         "style": "attachment",
@@ -16,17 +16,58 @@
         "body": "#F4F4F2",
         "accent": "#2B6CB0"
       },
-      "price": "About $46–$50 at the time of writing ($49.99 list at LUXE; $45.99 on Amazon on December 2, 2025, per camelcamelcamel)",
+      "price": "About $46–$50 when we checked ($49.99 list at LUXE)",
       "buy_if": "you want the cleanest result per dollar: a rear nozzle and a separate feminine nozzle, self-cleaning, no electricity, on the seat you already own.",
       "skip_if": "the thought of cool water is a deal-breaker (get the NEO 320, which mixes in hot water from the sink), or your toilet's bolt spacing is outside about 5.5–7.5 inches.",
-      "owners": "4.7 stars across 30,850 Amazon ratings, the highest score of any bidet attachment with more than 10,000 ratings in our data (search snapshots, 2025–2026).",
+      "owners": "About 40,000 Amazon ratings, 79% of them five stars and 3% one or two stars (Amazon's review page, search snapshots, October 2026); 4.9 stars on about 8,200 Walmart reviews.",
       "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20",
       "buy": {
         "tier": "The pick",
-        "pick": "NEO 185 in white (the blue and white knobs are the same unit); it ships with the T-adapter and hose",
-        "check": "Sold by Luxe Shop or Amazon; count your hinge-bolt spacing (about 5.5 in is standard); register with LUXE for the 2-year warranty",
+        "pick": "The standard NEO 185 (the 185 Plus costs a few dollars more); knob colour is cosmetic. A T-adapter and supply hose come in the box.",
+        "check": "Sold by Luxe Shop or Amazon; measure your seat-bolt spacing (about 5.5 in is standard) and the room behind the bolts; register with LUXE for six extra months of warranty.",
         "label": "See today's price"
       }
+    },
+    {
+      "id": "m100",
+      "category": "bidet",
+      "name": "KOHLER PureWash M100 (dual-wand attachment)",
+      "short": "KOHLER PureWash M100",
+      "badge": "The KOHLER PureWash dual-nozzle attachment",
+      "chip": "2 self-cleaning wands",
+      "art": {
+        "style": "attachment",
+        "knobs": 1,
+        "body": "#F4F4F2",
+        "accent": "#9AA0A6"
+      },
+      "price": "About $59–$75 at the time of writing (Lowe's $59.98, Wayfair $65.88, Home Depot $74.96; $99.95 list)",
+      "buy_if": "you want a KOHLER part on a KOHLER toilet, with front and rear wands, and you catch it near $60.",
+      "skip_if": "you want the most evidence: it has about 50 reviews at Home Depot (4.0 stars) against the NEO 185's roughly 40,000 Amazon ratings.",
+      "owners": "4.0 stars across about 50 Home Depot reviews (79% would recommend) and 3.9 on about 540 Amazon.ca ratings; owners praise the pressure, and some report overspray and leaks at the handle.",
+      "cta": "https://www.amazon.com/dp/B0BZFKDCYT?tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the PureWash M100 on Amazon"
+    },
+    {
+      "id": "m300",
+      "category": "bidet",
+      "name": "KOHLER PureWash M300 (manual bidet seat)",
+      "short": "KOHLER PureWash M300",
+      "badge": "A whole new seat, still no outlet",
+      "chip": "built-in wand · quiet-close",
+      "art": {
+        "style": "seat",
+        "body": "#F4F4F2",
+        "accent": "#9AA0A6"
+      },
+      "price": "About $93–$110 at the time of writing (Costco $99.99 online; Wayfair $109.98)",
+      "buy_if": "your old seat is worn out anyway and you want the bidet hidden inside a quiet-close KOHLER seat.",
+      "skip_if": "your toilet is round: the US M300 is elongated only (the round M350 is sold in India).",
+      "owners": "4.3 stars on Kohler.com (91 reviews), Lowe's (132) and Wayfair (77); owners like the seat and the easy install, and some find the spray weak and the opening small.",
+      "cta": "https://www.amazon.com/dp/B08TBMHBVC?tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the PureWash M300 on Amazon"
     },
     {
       "id": "neo120",
@@ -44,7 +85,7 @@
       "price": "About $34–$40 at the time of writing ($39.99 list; $33.97 in a past Prime Day window)",
       "buy_if": "you want to try a bidet for the price of two months of toilet paper and only need a rear wash.",
       "skip_if": "anyone in the house wants a front wash: the NEO 185 adds that nozzle for about $10 more.",
-      "owners": "4.6 stars across about 84,000 Amazon ratings and the No. 1 spot in Amazon's Bidet Attachments best sellers (search snapshots, 2025–2026); Bob Vila calls it the best bang for the buck.",
+      "owners": "4.6 stars across about 84,000 Amazon ratings and the No. 1 spot in Amazon's Bidet Attachments best sellers; 4.7 stars on Best Buy, where 96% of 354 reviewers recommend it. Bob Vila calls it the best bang for the buck.",
       "cta": "https://www.amazon.com/dp/B07Q4RCLL1?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the NEO 120 on Amazon"
@@ -66,7 +107,7 @@
       "price": "About $60–$69 at the time of writing ($59.99 list; the NEO 320 Plus runs $65.99–$68.99)",
       "buy_if": "cool water is the one thing stopping you, and the sink is within about 9–10 feet of the toilet so a hot line can reach.",
       "skip_if": "you don't want a hose running from the vanity, or a hole drilled in it.",
-      "owners": "4.9 stars across about 16,500 reviews on LUXE's site and 4.9 on about 3,100 at Walmart; Consumer Reports names the NEO 320 Plus its top budget pick and Reviewed calls it the most comfortable attachment it tested.",
+      "owners": "4.9 stars on about 16,500 reviews at LUXE and about 3,100 at Walmart; Consumer Reports names the NEO 320 Plus its top budget pick and Reviewed calls it the most comfortable attachment it tried.",
       "cta": "https://www.amazon.com/dp/B00JG3NVG2?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the NEO 320 on Amazon"
@@ -85,53 +126,12 @@
         "accent": "#9AA0A6"
       },
       "price": "About $97–$129 at the time of writing ($129 at TUSHY; $114.95 at Walmart; $97 in a past Amazon deal)",
-      "buy_if": "comfort of the stream matters more than price: CNN Underscored, Forbes, Rolling Stone and Popular Science all pick it as the best attachment.",
+      "buy_if": "the feel of the stream matters more than price: it is the attachment professional testers pick most often.",
       "skip_if": "you want a separate front nozzle or a long, simple return window (TUSHY's policy is store credit on unopened returns within 30 days, per its help center).",
-      "owners": "4.5 stars across about 9,100 Amazon ratings (search snapshot); Good Housekeeping's testers said it lived up to its \"10 minutes or less\" install promise.",
+      "owners": "4.5 stars on more than 19,000 Walmart reviews (listings pool colours); CNN Underscored, Forbes, Rolling Stone and Popular Science each name it their best attachment.",
       "cta": "https://www.amazon.com/dp/B08VS11Z1N?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the TUSHY Classic 3.0 on Amazon"
-    },
-    {
-      "id": "m100",
-      "category": "bidet",
-      "name": "KOHLER PureWash M100 (dual-wand attachment)",
-      "short": "KOHLER PureWash M100",
-      "badge": "The PureWash dual-nozzle attachment",
-      "chip": "2 self-cleaning wands",
-      "art": {
-        "style": "attachment",
-        "knobs": 1,
-        "body": "#F4F4F2",
-        "accent": "#9AA0A6"
-      },
-      "price": "About $59–$75 at the time of writing (Lowe's $59.98, Wayfair $65.88, Home Depot $74.96; $99.95 list)",
-      "buy_if": "you want a KOHLER part on a KOHLER toilet, with front and rear wands, and you catch it near $60.",
-      "skip_if": "you want the most evidence: it has about 50 reviews at Home Depot (4.0 stars) against the NEO 185's 30,000-plus.",
-      "owners": "4.0 stars across about 50 Home Depot reviews, 79% would recommend; some owners report drips at the handle's chrome ring and overspray.",
-      "cta": "https://www.amazon.com/dp/B0BZFKDCYT?tag=verdictpicks-20",
-      "cta_style": "link",
-      "cta_label": "Check the PureWash M100 on Amazon"
-    },
-    {
-      "id": "m300",
-      "category": "bidet",
-      "name": "KOHLER PureWash M300 (manual bidet seat)",
-      "short": "KOHLER PureWash M300",
-      "badge": "A whole new seat, still no outlet",
-      "chip": "built-in wand · quiet-close",
-      "art": {
-        "style": "seat",
-        "body": "#F4F4F2",
-        "accent": "#9AA0A6"
-      },
-      "price": "About $93–$110 at the time of writing (Costco $99.99 online; Wayfair $109.98)",
-      "buy_if": "your old seat is worn out anyway and you want the bidet hidden inside a quiet-close KOHLER seat.",
-      "skip_if": "your toilet is round: the US M300 is elongated only (the round M350 is sold in India).",
-      "owners": "4.3 stars across 91 reviews on Kohler.com and 4.3 across 77 at Wayfair.",
-      "cta": "https://www.amazon.com/dp/B08TBMHBVC?tag=verdictpicks-20",
-      "cta_style": "link",
-      "cta_label": "Check the PureWash M300 on Amazon"
     },
     {
       "id": "ecoseat",
@@ -148,7 +148,7 @@
       "price": "About $90 at the time of writing ($89.98 in Amazon's best-seller list)",
       "buy_if": "you want a manual bidet seat from a bidet specialist with the biggest review base in its class.",
       "skip_if": "you would rather keep your current seat (an attachment does the same job for half the price).",
-      "owners": "No. 1 in Amazon's Bidet Seats best sellers; 4.3 stars across about 10,900 reviews per a third-party tracker (2025–2026).",
+      "owners": "No. 1 in Amazon's Bidet Seats best sellers, with 4.3 stars on about 10,900 ratings (search snapshot, 2026).",
       "cta": "https://www.amazon.com/dp/B0815CP9G5?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the Swash EcoSeat on Amazon"
@@ -169,7 +169,7 @@
       "price": "About $280 at the time of writing ($279.99 on Amazon on May 20, 2026, list $379.99)",
       "buy_if": "you want the full heated-seat experience for the least money and already have an outlet within about 4 feet of the toilet.",
       "skip_if": "there is no outlet near the toilet: adding a GFCI outlet typically costs $130–$300 (Angi, 2026).",
-      "owners": "4.7 stars across 428 reviews at Home Depot.",
+      "owners": "4.5 stars on about 3,000 Amazon ratings and 4.7 on 428 Home Depot reviews.",
       "cta": "https://www.amazon.com/dp/B0128T2HQK?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the SB-1000 on Amazon"
@@ -211,10 +211,11 @@
       "price": "About $390–$550 at the time of writing ($389.98 Amazon low on June 25, 2026; $549 list)",
       "buy_if": "you want a feature-rich electric seat with a full 3-year warranty and you can wait for a sale.",
       "skip_if": "you would pay full price: it has sold for $390–$450 on Amazon at past events.",
-      "owners": "No. 5 in Amazon's Bidet Seats best sellers; Forbes Vetted's best overall bidet for 2026.",
+      "owners": "4.7 stars on 770 Home Depot reviews (95% recommend); Forbes Vetted's best bidet overall for 2026. One owner reports ten years of use before the heater failed.",
       "cta": "https://www.amazon.com/dp/B00GRM11R6?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the BB-2000 on Amazon"
     }
-  ]
+  ],
+  "buy_kicker": "Our first pick, and our last word"
 }

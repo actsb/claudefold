@@ -194,7 +194,9 @@ def queue_by_dir():
     q = ROOT / "daily" / "queue.json"
     if not q.exists():
         return {}
-    return {f"posts/{e['date'][:7]}-{e['slug']}": e for e in json.loads(q.read_text(encoding="utf-8"))["queue"]}
+    # the folder the entry recorded when it was scaffolded; the date-slug path only for entries that have none
+    # (a post's folder month can differ from its date, e.g. posts/2026-09-noco-… dated 2026-10-03)
+    return {e.get("dir") or f"posts/{e['date'][:7]}-{e['slug']}": e for e in json.loads(q.read_text(encoding="utf-8"))["queue"]}
 
 
 def problems(e, queue):

@@ -11,7 +11,7 @@ Queue entry (daily/queue.json → "queue": [...]):
    "title": "Lodge Cast Iron Skillet Review 2026: ...", "slug_title": "Lodge Cast Iron Skillet Review 2026",
    "labels": ["Kitchen", "Best Sellers", "Review", "Under $50", "Amazon Finds"], "hook": "one-line seasonal hook", "beats": "the alternative it beats"}
 """
-import datetime, json, pathlib, re, subprocess, sys
+import datetime, json, pathlib, re, shutil, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 QUEUE = ROOT / "daily" / "queue.json"
@@ -26,6 +26,20 @@ def run(*cmd, check=True):
     if check and r.returncode:
         sys.exit(f"FAILED: {' '.join(str(c) for c in cmd)}\n{r.stdout[-600:]}\n{r.stderr[-600:]}")
     return r
+
+def cover_jpeg(src, dst):
+    """cover.png → JPEG that fits 1200×630, white background, no metadata, quality 82: ImageMagick when present, else Pillow
+    (installed on first use, since fresh containers may have neither)."""
+    if shutil.which("convert"):
+        run("convert", src, "-resize", "1200x630", "-background", "white", "-flatten", "-strip", "-quality", "82", dst); return
+    try:
+        from PIL import Image
+    except ImportError:
+        run(sys.executable, "-m", "pip", "install", "--quiet", "pillow")
+        from PIL import Image
+    im = Image.open(src).convert("RGBA"); im.thumbnail((1200, 630), Image.LANCZOS)
+    bg = Image.new("RGB", im.size, "white"); bg.paste(im, mask=im.getchannel("A"))
+    bg.save(dst, "JPEG", quality=82, optimize=True)
 
 def cmd_new(key):
     q = json.loads(QUEUE.read_text(encoding="utf-8"))
@@ -121,7 +135,7 @@ def cmd_build(post_dir):
     for sub in ("images", "images/cards", "images/strips"):
         if (d / sub).exists(): run("node", ROOT / "scripts" / "render_png.mjs", d / sub)
     if (d / "images" / "cover.png").exists():   # the post's <img> uses cover.jpg: small, crawlable, usable as og:image / image-search source
-        run("convert", d / "images" / "cover.png", "-resize", "1200x630", "-background", "white", "-flatten", "-strip", "-quality", "82", d / "images" / "cover.jpg")
+        cover_jpeg(d / "images" / "cover.png", d / "images" / "cover.jpg")
     left = re.findall(r"WRITE[^<\"]{0,40}", (d / "post.html").read_text(encoding="utf-8"))
     print(f"PNGs rendered; unfilled WRITE markers in post.html: {len(left)}")
     if r.returncode: sys.exit(1)

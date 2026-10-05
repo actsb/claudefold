@@ -17,17 +17,17 @@
           "glyph": "check",
           "product": true,
           "head": "Day 2 — start low",
-          "text": "The water is as cool as the supply line. Begin at the lowest pressure and turn up slowly."
+          "text": "The water is as cool as the supply line. Start at the lowest pressure and turn it up slowly."
         },
         {
           "glyph": "warning",
           "head": "Week 2 — the drip test",
-          "text": "A slow drip at the T-adapter means a seated washer, not more force. Hand-tight plus a quarter turn."
+          "text": "A slow drip at the T-adapter usually means a washer that is not seated flat. Re-seat it; don't crank it."
         },
         {
           "glyph": "sun",
           "head": "Month 1 — the paper drawer",
-          "text": "A few squares to pat dry. Owners say it is the purchase they wish they had made years ago.",
+          "text": "Most owners still pat dry with a few squares, but say they buy far less paper than before.",
           "host": {
             "pose": "thumbsup"
           }
