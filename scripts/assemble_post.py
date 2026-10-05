@@ -83,6 +83,13 @@ def teaser_first(html_text):
             out = out[:i] + out[i + len(block):]
     return out
 
+def with_more_guides(d, html_text):
+    """Links to the closest live guides (scripts/site_index.py), just above the Pinterest box."""
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+    import site_index
+    rel = d.resolve().relative_to(site_index.ROOT).as_posix()
+    return site_index.inject(html_text, site_index.block(rel, site_index.build_index()))
+
 def card_svg(d, cid):
     f = d / "images" / "cards" / f"{cid}.svg"
     svg = f.read_text(encoding="utf-8").strip()
@@ -264,7 +271,7 @@ def main(post_dir):
     if not parts:
         # short story post: no deep-dive, just close the wrapper
         out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
-        out = teaser_first(out)
+        out = with_more_guides(d, teaser_first(out))
         (d / "post.src.html").write_text(out, encoding="utf-8")
         print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
     deep = "\n".join(p.read_text(encoding="utf-8") for p in parts)
@@ -287,7 +294,7 @@ def main(post_dir):
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
            + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
-    out = teaser_first(out)
+    out = with_more_guides(d, teaser_first(out))
     (d / "post.src.html").write_text(out, encoding="utf-8")
     print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards)")
 
