@@ -71,6 +71,10 @@ def is_paid(c):
 
 def cta(c, label):
     rel = c.get("rel", "nofollow sponsored noopener" if is_paid(c) else "nofollow noopener")
+    if c.get("cta_style") == "link":   # a quiet text link instead of a button, for roundups where only the top pick gets a button
+        tag = ' <span style="font-size:13px;color:#555;white-space:nowrap;">(paid link)</span>' if is_paid(c) else ""
+        return (f'<p style="margin:.2em 0 0;font-size:16px;"><a href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank" '
+                f'style="color:#1E8E5A;font-weight:700;text-decoration:underline;">{esc(c.get("cta_label", label))}</a>{tag}</p>')
     tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;white-space:nowrap;display:inline-block;">(paid link)</span>' if is_paid(c) else ""
     return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank">{esc(c.get("cta_label", label))} →</a>' + tag
 

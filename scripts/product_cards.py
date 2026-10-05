@@ -662,7 +662,70 @@ def draw_purifier(uid, a):
     out.append(f'<path d="M 268 76 q 12 -18 30 -8 q 10 -18 30 -6 q 14 -8 24 8" fill="none" stroke="{accent}" stroke-width="3" stroke-linecap="round" opacity="0.45"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic, "purifier": draw_purifier}
+def draw_bidet(uid, a):
+    """Bidets, no logos. art["style"]: "attachment" (slim plate under the seat, side control arm, hose and T-valve),
+    "seat" (elongated bidet toilet seat with raised lid, back housing and side panel; art["electric"] adds the cord),
+    "handheld" (sprayer wand on a coiled hose), "travel" (squeeze bottle with a telescoping nozzle).
+    art["knobs"] = 1 or 2 control knobs; art["warm"] = True gives the knobs a hot/cold colour pair."""
+    body = a.get("body", "#F4F4F2"); accent = a.get("accent", "#1E8E5A"); style = a.get("style", "attachment")
+    dark, lite, mid = shade(body, -.30), shade(body, .16), shade(body, -.12)
+    out = [defs(uid, body, accent), studio(uid, 300, 330, 190, 16)]
+    def knob(x, y, r, col):
+        ticks = "".join(f'<line x1="{x + (r - 3) * __import__("math").cos(t)}" y1="{y + (r - 3) * __import__("math").sin(t)}" '
+                        f'x2="{x + (r + 1) * __import__("math").cos(t)}" y2="{y + (r + 1) * __import__("math").sin(t)}" stroke="{shade(col, -.25)}" stroke-width="2"/>'
+                        for t in [i * 0.5236 for i in range(12)])
+        return (f'<circle cx="{x}" cy="{y + 3}" r="{r}" fill="#000" opacity="0.12" filter="url(#{uid}-soft)"/>'
+                f'<circle cx="{x}" cy="{y}" r="{r}" fill="{col}"/>{ticks}'
+                f'<circle cx="{x - r * .3}" cy="{y - r * .3}" r="{r * .35}" fill="#fff" opacity="0.35"/>'
+                f'<rect x="{x - 2}" y="{y - r + 3}" width="4" height="{r - 2}" rx="2" fill="#fff" opacity="0.8"/>')
+    knobs = int(a.get("knobs", 1)); warm = a.get("warm", False)
+    cols = ["#C8102E", "#2B6CB0"] if warm else ([accent, "#C9CCD1"] if knobs > 1 else [accent])
+    if style == "attachment":
+        # the toilet rim it sits on, drawn faint so the attachment reads as the subject
+        out.append(f'<ellipse cx="290" cy="262" rx="190" ry="62" fill="#ffffff" stroke="#cfcfca" stroke-width="3"/>'
+                   f'<ellipse cx="290" cy="266" rx="128" ry="36" fill="#e9ebee"/>'
+                   f'<ellipse cx="290" cy="270" rx="96" ry="24" fill="#cfe4f2" opacity="0.7"/>')
+        out.append(box3d(uid, 150, 196, 300, 26, 34, body, rx=10))                       # the slim plate across the back of the rim
+        out.append(f'<rect x="270" y="222" width="40" height="12" rx="6" fill="{mid}"/>'   # nozzle gate
+                   f'<rect x="282" y="226" width="16" height="22" rx="7" fill="url(#{uid}-metal)"/><circle cx="290" cy="246" r="3.2" fill="{dark}"/>')
+        out.append(box3d(uid, 448, 150, 64, 92, 26, body, rx=14))                       # the control arm beside the seat
+        ky = 180 if knobs == 1 else 172
+        for i in range(knobs):
+            out.append(knob(480, ky + i * 44, 16 if knobs > 1 else 20, cols[i % len(cols)]))
+        out.append(f'<path d="M 470 242 C 470 300, 520 300, 528 330" fill="none" stroke="#b9bcc2" stroke-width="9" stroke-linecap="round"/>'
+                   f'<path d="M 470 242 C 470 300, 520 300, 528 330" fill="none" stroke="#e3e5e8" stroke-width="4" stroke-linecap="round"/>'
+                   f'<rect x="512" y="328" width="34" height="14" rx="4" fill="url(#{uid}-metal)"/><rect x="522" y="318" width="14" height="34" rx="4" fill="url(#{uid}-metal)"/>')
+    elif style == "seat":
+        out.append(f'<path d="M 190 168 Q 190 40 300 40 Q 410 40 410 168 Z" fill="{shade(body, -.07)}" stroke="{shade(body, -.26)}" stroke-width="2"/>'      # raised lid
+                   f'<path d="M 206 160 Q 206 58 300 58 Q 394 58 394 160" fill="none" stroke="#fff" stroke-width="4" opacity="0.8"/>'
+                   f'<path d="M 214 150 Q 214 70 300 70 Q 386 70 386 150" fill="none" stroke="{shade(body, -.16)}" stroke-width="2" opacity="0.6"/>')
+        out.append(box3d(uid, 168, 150, 264, 44, 20, body, rx=16))                                         # back housing
+        out.append(f'<ellipse cx="300" cy="262" rx="150" ry="74" fill="{mid}"/>'
+                   f'<ellipse cx="300" cy="254" rx="150" ry="74" fill="url(#{uid}-front)"/>'
+                   f'<ellipse cx="300" cy="258" rx="92" ry="42" fill="#dfe3e8"/><ellipse cx="300" cy="262" rx="70" ry="28" fill="#cfe4f2" opacity="0.75"/>'
+                   f'<ellipse cx="300" cy="254" rx="150" ry="74" fill="none" stroke="{shade(body, -.24)}" stroke-width="2"/>'
+                   f'<ellipse cx="300" cy="258" rx="92" ry="42" fill="none" stroke="{shade(body, -.22)}" stroke-width="2"/>'
+                   f'<ellipse cx="300" cy="250" rx="146" ry="70" fill="none" stroke="#fff" stroke-opacity="0.6" stroke-width="2"/>')
+        if a.get("electric"):
+            out.append(f'<rect x="436" y="176" width="40" height="70" rx="10" fill="url(#{uid}-side)"/>'
+                       + "".join(f'<circle cx="456" cy="{192 + i * 16}" r="5" fill="{accent if i == 0 else shade(body, -.35)}"/>' for i in range(4))
+                       + f'<path d="M 178 186 C 120 200, 110 280, 70 300" fill="none" stroke="#3a3d42" stroke-width="5" stroke-linecap="round"/>'
+                         f'<rect x="54" y="296" width="26" height="18" rx="4" fill="#3a3d42"/><rect x="58" y="314" width="5" height="9" fill="#9aa0a6"/><rect x="70" y="314" width="5" height="9" fill="#9aa0a6"/>')
+        else:
+            out.append(f'<rect x="436" y="170" width="46" height="66" rx="12" fill="url(#{uid}-side)"/>' + knob(459, 203, 15, cols[0]))
+    elif style == "handheld":
+        out.append(f'<path d="M 250 130 L 330 100 Q 352 92 360 112 L 372 150 Q 378 170 358 176 L 300 196 L 282 300 Q 278 318 260 314 L 252 312 Q 236 308 240 290 L 258 196 Q 238 170 250 130 Z" fill="url(#{uid}-front)"/>'
+                   f'<ellipse cx="350" cy="130" rx="14" ry="22" transform="rotate(-20 350 130)" fill="{dark}" opacity="0.5"/>'
+                   f'<rect x="270" y="210" width="20" height="40" rx="8" fill="{accent}"/>'
+                   f'<path d="M 262 314 C 250 360, 200 340, 210 300 C 220 260, 170 250, 160 290 C 150 330, 120 330, 112 300" fill="none" stroke="url(#{uid}-metal)" stroke-width="9" stroke-linecap="round"/>')
+    else:  # travel
+        out.append(f'<rect x="250" y="150" width="100" height="170" rx="30" fill="url(#{uid}-front)"/>'
+                   f'<rect x="272" y="118" width="56" height="40" rx="10" fill="{dark}"/>'
+                   f'<path d="M 300 120 L 312 50" stroke="{lite}" stroke-width="12" stroke-linecap="round"/><path d="M 300 120 L 312 50" stroke="{accent}" stroke-width="4" stroke-linecap="round" opacity="0.6"/>'
+                   f'<rect x="262" y="210" width="76" height="48" rx="8" fill="{accent}"/><rect x="274" y="224" width="44" height="6" rx="3" fill="#fff" opacity="0.75"/>')
+    return "\n".join(out)
+
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic, "purifier": draw_purifier, "bidet": draw_bidet}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""

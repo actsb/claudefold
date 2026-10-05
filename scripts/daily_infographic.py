@@ -57,10 +57,37 @@ def stores(spec):
         o.append(text(700, yy + 32, r.get("returns", ""), 15, 400, "#333")); o.append(para(880, yy + 24, r.get("note", ""), 34, 13, 15, "#444"))
     return "\n".join(o + close(W, H, spec))
 
+def matrix(spec):
+    """A comparison table: spec["columns"] = [{"head", "w"}...] (widths in px, first column is the row label),
+    spec["rows"] = [{"cells": [...], "verdict": "win|ok|no" (optional)}]. Cells wrap at the column width."""
+    cols = spec["columns"]; W = 1200; x0 = 40
+    widths = [c["w"] for c in cols]; scale = (W - 80) / sum(widths); widths = [w * scale for w in widths]
+    lines = lambda txt, w: wrap(txt, max(8, int(w / 8.4)))
+    row_h = [max(52, 22 + 19 * max(len(lines(c, widths[i] - 24)) for i, c in enumerate(r["cells"]))) for r in spec["rows"]]
+    H = 170 + sum(h + 10 for h in row_h) + 30
+    o = frame(W, H, spec)
+    y = 116; o.append(f'<rect x="40" y="{y}" width="1120" height="40" rx="10" fill="{NAVY}"/>')
+    x = x0
+    for i, c in enumerate(cols):
+        o.append(text(x + (34 if i == 0 else 12), y + 26, c["head"], 15, 700, "#fff")); x += widths[i]
+    yy = y + 52
+    for r, h in zip(spec["rows"], row_h):
+        o.append(f'<rect x="40" y="{yy}" width="1120" height="{h}" rx="10" fill="#fff" stroke="#E3E1DB"/>')
+        x = x0
+        for i, cell in enumerate(r["cells"]):
+            if i == 0:
+                if r.get("verdict"): o.append(mark(60, yy + h / 2, r["verdict"]))
+                o.append(para(x + (34 if r.get("verdict") else 12), yy + 30, cell, max(8, int((widths[0] - 46) / 8.4)), 16, 19, NAVY).replace('font-weight="400"', 'font-weight="700"'))
+            else:
+                o.append(para(x + 12, yy + 28, cell, max(8, int((widths[i] - 24) / 8.0)), 14.5, 19, "#333"))
+            x += widths[i]
+        yy += h + 10
+    return "\n".join(o + close(W, H, spec))
+
 def main(post_dir):
     d = pathlib.Path(post_dir); specs = json.loads((d / "infographics.json").read_text(encoding="utf-8"))
     for spec in specs:
-        svg = {"steps": steps, "stores": stores}[spec["type"]](spec)
+        svg = {"steps": steps, "stores": stores, "matrix": matrix}[spec["type"]](spec)
         (d / "images" / f"{spec['name']}.svg").write_text(svg, encoding="utf-8")
     print("wrote", ", ".join(s["name"] for s in specs), "->", d / "images")
 
