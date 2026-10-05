@@ -59,9 +59,9 @@ def cmd_new(key):
              "cards": [{"id": key, "category": e.get("category", "generic"), "name": e["name"], "short": e["short"],
                         "badge": "WRITE: category · why it is the value pick", "chip": "WRITE: three spec words",
                         "art": e.get("art", {"shape": "box", "body": "#2F3A48", "accent": "#1E8E5A"}),
-                        "price": "WRITE: about $X–$Y at the time of writing (reported by …)",
+                        "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
                         "buy_if": "WRITE: who it is for", "skip_if": "WRITE: who should skip it and what to buy instead",
-                        "owners": "WRITE: praise / complaints from owner reviews, with the reported count and rating",
+                        "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
                         "cta": cta, "video": "", "video_title": "", "video_channel": "", "video_why": "",
                         "buy": {"tier": "The pick", "pick": "WRITE: exact variant/size/colour", "check": "WRITE: sold-by line, model number, what marks a counterfeit", "label": "See today's price"}}]}
     (d / "cards.json").write_text(json.dumps(cards, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
