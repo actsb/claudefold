@@ -16,6 +16,11 @@ Blogger's API cannot change settings, layout or a post's search description, and
 For every post in https://github.com/actsb/claudefold/blob/claude/sharp-lovelace-n7vhzq/daily/search-descriptions.md:
 blogger.com → **Posts** → open the post (match the title) → right-hand panel **Post settings → Search description** → paste the text from the list exactly → **Update** (top right). Do not change anything else in the post. Skip a post whose field already holds the same text.
 
+## 1b. Blog-wide description texts (now)
+The blog's own description texts still say the guides distill "thousands of Amazon reviews", which the guides no longer use (Amazon's affiliate rules). The blog-wide search description is also what Blogger shows as the share text for pages without their own.
+1. blogger.com → **Settings** → **Meta tags** → **Search description** (the blog-wide one) → replace with: `Verdict Picks compares every brand, distills lab tests and owner reports, and tells you which product to buy for your home, budget and needs.` → **Save**.
+2. **Settings** → **Basic** → **Description** → replace with: `Deep-dive buying guides for the products Americans shop for most: every brand compared, lab tests and owner reports distilled, one clear verdict.` → **Save**.
+
 ## 2. Navigation shows every trust page (now)
 blogger.com → **Layout** → the **Pages** gadget (top navigation) → **Edit** → tick: About Verdict Picks, How We Rank Products, Affiliate Disclosure, Privacy & Cookie Policy, Contact Us, and the category hubs (Robot Vacuums, Wireless Earbuds, Smart Glasses, Power Stations, Best Sellers) → **Save**.
 
