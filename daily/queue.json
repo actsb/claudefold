@@ -183,7 +183,7 @@
    "key": "instant-pot-duo",
    "slug": "instant-pot-duo-6-quart",
    "date": "2026-10-05",
-   "status": "queued",
+   "status": "writing",
    "name": "Instant Pot Duo 6-Quart 7-in-1",
    "short": "Instant Pot Duo",
    "category": "generic",
@@ -206,7 +206,9 @@
    "hook": "soup and chili season; Thanksgiving sides; a Black Friday regular",
    "beats": "Instant Pot Duo Crisp / Ninja Foodi",
    "source": "research/daily-candidates-2026-09-27.md",
-   "cluster": "kitchen"
+   "cluster": "kitchen",
+   "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html",
+   "dir": "posts/2026-10-instant-pot-duo-6-quart"
   },
   {
    "key": "thanksgiving-hosting",

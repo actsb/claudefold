@@ -161,6 +161,12 @@ POSTS = {
         "slug_title": "Best Bidet 2026",
         "labels": ["Bathroom", "Bidets", "Buying Guide", "Best Sellers", "Under $50", "Amazon Finds"],
     },
+    "instant-pot-duo": {
+        "dir": "posts/2026-10-instant-pot-duo-6-quart",
+        "title": "Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?",
+        "slug_title": "Instant Pot Duo 6 Quart Review 2026",
+        "labels": ["Kitchen", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
