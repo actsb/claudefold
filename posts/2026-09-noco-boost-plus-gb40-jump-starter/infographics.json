@@ -35,16 +35,16 @@
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
+    "title": "Where to buy it, and when Amazon is not the best bet",
     "sub": "October 3, 2026: what search snippets reported; most carried no date",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "$80\u2013$100 \u00b7 see the button",
+        "price": "See the button",
         "ship": "Free with Prime",
         "returns": "About 30 days",
-        "note": "Tracked low $59.99 (Aug 2025); $79.96 on Big Deal Days 2025",
+        "note": "Often discounted during Prime events; buy sold by Amazon or NOCO",
         "verdict": "win"
       },
       {
@@ -52,7 +52,7 @@
         "price": "$63.99\u2013$99.95 \u00b7 conflicting",
         "ship": "Varies",
         "returns": "Not checked",
-        "note": "Two snippets disagreed; Home Depot was reported at $91.21",
+        "note": "Snippets disagreed; Home Depot seen at $91.21 (Oct 3)",
         "verdict": "ok"
       },
       {

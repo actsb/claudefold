@@ -35,17 +35,17 @@
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
+    "title": "Where to buy it, and when Amazon isn't the cheapest",
     "sub": "October 2, 2026: what search snippets reported; most carried no date",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "$35\u2013$37 \u00b7 Mar 2026 tracker",
+        "price": "See today's price",
         "ship": "Free with Prime",
         "returns": "About 30 days",
-        "note": "CamelCamelCamel: $34.96 on Mar 11, 2026",
-        "verdict": "win"
+        "note": "Bundles are separate listings; 5% S&S on refills",
+        "verdict": "ok"
       },
       {
         "store": "Walmart",
@@ -61,6 +61,14 @@
         "ship": "Free over $35",
         "returns": "About 90 days",
         "note": "Refills $9\u2013$15 per pack",
+        "verdict": "ok"
+      },
+      {
+        "store": "Lowe's",
+        "price": "$34.98 \u00b7 undated",
+        "ship": "Varies",
+        "returns": "Not checked",
+        "note": "$29.98 for Rewards members, Jul 10, 2025",
         "verdict": "ok"
       },
       {

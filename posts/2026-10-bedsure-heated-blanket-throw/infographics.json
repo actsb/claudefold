@@ -35,16 +35,16 @@
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
+    "title": "Where to buy it, and what to check at each store",
     "sub": "October 1, 2026: what search listings reported, and what we could not confirm",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "$40 · Sept 22 report",
+        "price": "See today's price",
         "ship": "Free with Prime",
-        "returns": "About 30 days (unconfirmed)",
-        "note": "$40 from $69 per a deal write-up; $53 on a listing; check the model number",
+        "returns": "Not confirmed",
+        "note": "Most 50×60 listings; check the model number",
         "verdict": "win"
       },
       {

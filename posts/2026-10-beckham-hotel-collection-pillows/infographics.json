@@ -36,23 +36,23 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "October 4, 2026: what search snippets reported; most carried no date",
+    "sub": "October 4, 2026: what search snippets showed; the Amazon row shows no price, use the button",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "$42–$60 · see the button",
+        "price": "See the button",
         "ship": "Free with Prime",
         "returns": "About 30 days",
-        "note": "Promo near $42 late Sep 2026; about $40 Prime Day 2026",
+        "note": "Brand storefront; frequent promos; check Sold by",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "$45.99–$79.99 · varies",
+        "price": "$45.99–$79.99 (Oct 4, 2026)",
         "ship": "Varies",
         "returns": "Not checked",
-        "note": "Seller often unknown; compare when Amazon is at list",
+        "note": "Seller often unknown; compare when no coupon runs",
         "verdict": "ok"
       },
       {

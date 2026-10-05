@@ -8,7 +8,7 @@
     "items": [
       {
         "head": "Unwrap the filter first",
-        "body": "Twist off the base cover, pull the filter out, remove the plastic bag it ships in, and seat it back in. Running it wrapped is the number-one cause of a rattle."
+        "body": "Twist off the base cover, pull the filter out, remove the plastic bag it ships in, and seat it back in. Running it wrapped is a common cause of a rattle."
       },
       {
         "head": "Give it 15 inches of space",
@@ -35,13 +35,13 @@
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "Prices as reported in September 2026; the buttons on this page show today's",
-    "footer": "Prices and policies as seen in the month of writing (Gizmodo, retailer listings, Levoit's site); the buttons show today's.",
+    "title": "Where to buy it, and what each store offers",
+    "sub": "Other stores as listed in September 2026; for Amazon, the buttons show today's price",
+    "footer": "Prices and policies as seen in the month of writing (retailer listings, Levoit's site); for Amazon, the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "$84.98 · Sept 18",
+        "price": "See today's price",
         "ship": "Free with Prime",
         "returns": "30 days",
         "note": "Filters on Subscribe & Save; buy box: Amazon.com or Levoit",

@@ -1,7 +1,7 @@
 {
   "category": "purifier",
   "buy_title": "The exact Levoit Core 300-P to order, and the filter that keeps it honest",
-  "buy_total": "Two paid links, one purifier and one refill. The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices quoted in the guide were reported in September 2026 and move with sales.",
+  "buy_total": "Two paid links, one purifier and one refill. The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Other stores' prices quoted in the guide were listed in September 2026 and move with sales.",
   "cards": [
     {
       "id": "levoit300",
@@ -14,10 +14,10 @@
         "body": "#F1F1EF",
         "accent": "#1E8E5A"
       },
-      "price": "About $85–$100 at the time of writing ($84.98 on Amazon against a $99.99 list, as reported by Gizmodo on September 18, 2026)",
+      "price": "About $85–$100 at major retailers at the time of writing (Home Depot $89.98, Levoit.com $89.99, Walmart $99.00, as listed in September 2026; $99.99 list)",
       "buy_if": "you want one bedroom, nursery or home office (about 220 sq ft) cleaned quietly all night for the price of a month of allergy pills.",
       "skip_if": "you want to clean an open-plan floor, will not budget for a filter every 6–8 months, or want a sensor, auto mode and an app (that is the Core 300S-P, about $25–45 more).",
-      "owners": "4.7 stars across more than 108,000 Amazon reviews (Gizmodo, September 2026); praised for the quiet sleep mode and for clearing smells, faulted for the filter bill and the reset light that stays on.",
+      "owners": "Target's listing showed a 4.61 out of 5 owner average (September 27, 2026); across retailer reviews, forums and long-term write-ups, owners praise the quiet sleep mode and how it clears smells, and fault the filter bill and the reset light that stays on.",
       "cta": "https://www.amazon.com/dp/B07VVK39F7?tag=verdictpicks-20",
       "video": "",
       "video_title": "",
@@ -42,7 +42,7 @@
         "body": "#3A3A3A",
         "accent": "#1E8E5A"
       },
-      "price": "About $17–$27 at the time of writing (about $27 on Amazon's listing in September 2026; $17–$19 in deal threads through 2025–2026)",
+      "price": "About $20–$30 for a genuine filter at the time of writing (Levoit.com lists it at $29.99, per levoitreview.com's 2026 filter guide); less in sale weeks",
       "buy_if": "you keep the purifier: one or two a year, on Subscribe & Save so the delivery lands about when the light comes on.",
       "skip_if": "you are tempted by a no-name 'compatible' filter at half price that states no filter class; Levoit warns non-genuine filters may mean lower air quality and a damaged motor.",
       "owners": "the most common support complaint is the reset light staying on after a change; the light is a timer, and a three-second hold on the Check Filter button clears it (HouseFresh's problem list; the manual).",

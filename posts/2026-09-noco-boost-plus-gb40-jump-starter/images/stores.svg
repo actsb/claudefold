@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Where to buy it, and why Amazon usually wins"><rect width="1200" height="520" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
-<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Where to buy it, and why Amazon usually wins</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Where to buy it, and when Amazon is not the best bet"><rect width="1200" height="520" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Where to buy it, and when Amazon is not the best bet</text>
 <text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">October 3, 2026: what search snippets reported; most carried no date</text>
 <rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
 <text x="60" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Store</text>
@@ -10,17 +10,17 @@
 <rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="66" cy="194" r="12" fill="#1E8E5A"/><path d="M 61 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
 <text x="88" y="200" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Amazon</text>
-<text x="300" y="200" font-size="16" font-weight="400" fill="#333" text-anchor="start">$80–$100 · see the button</text>
+<text x="300" y="200" font-size="16" font-weight="400" fill="#333" text-anchor="start">See the button</text>
 <text x="500" y="200" font-size="15" font-weight="400" fill="#333" text-anchor="start">Free with Prime</text>
 <text x="700" y="200" font-size="15" font-weight="400" fill="#333" text-anchor="start">About 30 days</text>
-<text x="880" y="192" font-size="13" font-weight="400" fill="#444" text-anchor="start">Tracked low $59.99 (Aug 2025);</text><text x="880" y="207" font-size="13" font-weight="400" fill="#444" text-anchor="start">$79.96 on Big Deal Days 2025</text>
+<text x="880" y="192" font-size="13" font-weight="400" fill="#444" text-anchor="start">Often discounted during Prime</text><text x="880" y="207" font-size="13" font-weight="400" fill="#444" text-anchor="start">events; buy sold by Amazon or NOCO</text>
 <rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="66" cy="256" r="12" fill="#C9781B"/><rect x="60" y="254.5" width="12" height="3" rx="1.5" fill="#fff"/>
 <text x="88" y="262" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Walmart</text>
 <text x="300" y="262" font-size="16" font-weight="400" fill="#333" text-anchor="start">$63.99–$99.95 · conflicting</text>
 <text x="500" y="262" font-size="15" font-weight="400" fill="#333" text-anchor="start">Varies</text>
 <text x="700" y="262" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
-<text x="880" y="254" font-size="13" font-weight="400" fill="#444" text-anchor="start">Two snippets disagreed; Home Depot</text><text x="880" y="269" font-size="13" font-weight="400" fill="#444" text-anchor="start">was reported at $91.21</text>
+<text x="880" y="254" font-size="13" font-weight="400" fill="#444" text-anchor="start">Snippets disagreed; Home Depot</text><text x="880" y="269" font-size="13" font-weight="400" fill="#444" text-anchor="start">seen at $91.21 (Oct 3)</text>
 <rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
 <circle cx="66" cy="318" r="12" fill="#C9781B"/><rect x="60" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
 <text x="88" y="324" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Target</text>
