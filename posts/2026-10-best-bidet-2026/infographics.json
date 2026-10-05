@@ -1,0 +1,197 @@
+[
+  {
+    "type": "matrix",
+    "name": "types",
+    "title": "Which kind of bidet fits your bathroom?",
+    "sub": "Five ways to add a bidet, from the cheapest to the most comfortable",
+    "footer": "Prices reported Nov 2025–Oct 2026 (brand sites, retailers, deal trackers); GFCI outlet cost from Angi (2026). The buttons in the guide show today's prices.",
+    "columns": [
+      {
+        "head": "Type",
+        "w": 230
+      },
+      {
+        "head": "Typical price",
+        "w": 160
+      },
+      {
+        "head": "Install",
+        "w": 250
+      },
+      {
+        "head": "Needs",
+        "w": 220
+      },
+      {
+        "head": "Best for",
+        "w": 260
+      }
+    ],
+    "rows": [
+      {
+        "verdict": "win",
+        "cells": [
+          "Cold attachment (LUXE NEO 120/185, KOHLER M100)",
+          "$34–$75",
+          "About 15 minutes, one wrench, under your own seat",
+          "Nothing: no outlet, no sink hookup",
+          "Almost everyone: the cheapest way to try it"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Warm attachment (LUXE NEO 320, TUSHY Spa 3.0)",
+          "$60–$149",
+          "30–45 minutes; hot hose from the sink, often a small hole in the vanity",
+          "A sink within about 9–10 feet",
+          "People who hate cool water but have no outlet"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Manual bidet seat (KOHLER PureWash M300, Brondell EcoSeat)",
+          "$90–$110",
+          "Replace the seat, about 20 minutes",
+          "Elongated bowl for the M300",
+          "A worn-out seat and a tidier look"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Electric seat (SmartBidet SB-1000, TOTO S2, Bio Bidet BB-2000)",
+          "$280–$550",
+          "30 minutes, plus an electrician if there is no outlet ($130–$300)",
+          "A GFCI outlet within about 4 feet",
+          "Warm water, heated seat and a dryer"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Handheld sprayer or travel bidet",
+          "$25–$80",
+          "Handheld: 15 minutes; travel: none",
+          "A free hand and steady aim",
+          "Renters on a tight budget, trips, cleaning"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "steps",
+    "name": "install",
+    "title": "Install a non-electric bidet in about 15 minutes",
+    "sub": "The six steps every attachment shares, and the one mistake that causes most leaks",
+    "footer": "Sources: LUXE and Bio Bidet installation guides; Mr. Rooter; Good Housekeeping and Wirecutter on install time. Always follow your model's manual.",
+    "items": [
+      {
+        "head": "Turn off and flush",
+        "body": "Close the valve behind the toilet (clockwise) and flush to empty the tank. Keep a towel under the fill valve."
+      },
+      {
+        "head": "Check the fit first",
+        "body": "Seat bolts about 5.5 in apart, at least 1.5 in of room behind them, and a tank that meets the bowl squarely."
+      },
+      {
+        "head": "Seat off, bidet on",
+        "body": "Unbolt the seat, lay the attachment over the bolt holes, refit the seat. Firm, not cranked: plastic cracks."
+      },
+      {
+        "head": "Fit the T-adapter",
+        "body": "T-adapter onto the fill valve, the supply hose onto the T, the bidet hose onto the branch. Washers seated flat."
+      },
+      {
+        "head": "Water on slowly",
+        "body": "Open the valve a little at a time and watch every joint for a minute. A drip means re-seat, not overtighten."
+      },
+      {
+        "head": "First wash: lowest setting",
+        "body": "Sit, then turn the knob slowly from the lowest pressure. Let the nozzle self-rinse before and after."
+      }
+    ]
+  },
+  {
+    "type": "matrix",
+    "name": "costs",
+    "title": "What a bidet really costs over three years",
+    "sub": "Purchase, water, electricity and parts, against the paper you no longer buy",
+    "footer": "Paper spend $182 a year (OnePoll survey via StudyFinds, 2020), cut by half; water + sewer $15.44 per 1,000 gal (2026); power 18¢/kWh (EIA 2026); GFCI outlet about $210 (Angi). Our arithmetic; your numbers will differ.",
+    "columns": [
+      {
+        "head": "Bidet",
+        "w": 300
+      },
+      {
+        "head": "Up front",
+        "w": 150
+      },
+      {
+        "head": "3-year cost",
+        "w": 170
+      },
+      {
+        "head": "Paper saved, 3 years",
+        "w": 220
+      },
+      {
+        "head": "Pays for itself in",
+        "w": 220
+      }
+    ],
+    "rows": [
+      {
+        "verdict": "win",
+        "cells": [
+          "Cold attachment (LUXE NEO 185)",
+          "$49.99",
+          "$75–$97",
+          "$273",
+          "About 7 months"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Warm attachment (LUXE NEO 320)",
+          "$59.99",
+          "$107–$139",
+          "$273",
+          "About 10 months"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Warm attachment (TUSHY Spa 3.0)",
+          "$149",
+          "$196–$228",
+          "$273",
+          "About 2 years"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Electric seat, outlet already there",
+          "$299",
+          "About $400",
+          "$273",
+          "About 5 years"
+        ]
+      },
+      {
+        "verdict": "no",
+        "cells": [
+          "Electric seat + new GFCI outlet",
+          "$509",
+          "About $642",
+          "$273",
+          "About 11 years"
+        ]
+      }
+    ]
+  }
+]

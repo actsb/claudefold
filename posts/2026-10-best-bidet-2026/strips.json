@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "neo185",
+      "title": "A first month with a bidet — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "Day 1 — one wrench",
+          "text": "Water off, seat off, T-adapter on. About 15 minutes, then check every joint for drips.",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "Day 2 — start low",
+          "text": "The water is as cool as the supply line. Begin at the lowest pressure and turn up slowly."
+        },
+        {
+          "glyph": "warning",
+          "head": "Week 2 — the drip test",
+          "text": "A slow drip at the T-adapter means a seated washer, not more force. Hand-tight plus a quarter turn."
+        },
+        {
+          "glyph": "sun",
+          "head": "Month 1 — the paper drawer",
+          "text": "A few squares to pat dry. Owners say it is the purchase they wish they had made years ago.",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}

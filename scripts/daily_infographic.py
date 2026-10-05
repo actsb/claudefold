@@ -58,31 +58,36 @@ def stores(spec):
     return "\n".join(o + close(W, H, spec))
 
 def matrix(spec):
-    """A comparison table: spec["columns"] = [{"head", "w"}...] (widths in px, first column is the row label),
-    spec["rows"] = [{"cells": [...], "verdict": "win|ok|no" (optional)}]. Cells wrap at the column width."""
-    cols = spec["columns"]; W = 1200; x0 = 40
+    """A comparison table: spec["columns"] = [{"head", "w"}...] (relative widths; the first column is the row label),
+    spec["rows"] = [{"cells": [...], "verdict": "win|ok|no" (optional)}]. Cells and the footer wrap to fit."""
+    cols = spec["columns"]; W = 1200
     widths = [c["w"] for c in cols]; scale = (W - 80) / sum(widths); widths = [w * scale for w in widths]
-    lines = lambda txt, w: wrap(txt, max(8, int(w / 8.4)))
-    row_h = [max(52, 22 + 19 * max(len(lines(c, widths[i] - 24)) for i, c in enumerate(r["cells"]))) for r in spec["rows"]]
-    H = 170 + sum(h + 10 for h in row_h) + 30
+    label_chars = max(8, int((widths[0] - 46) / 9.4))                     # bold 16 px label
+    cell_chars = [max(8, int((w - 24) / 7.9)) for w in widths]            # regular 14.5 px cells
+    def n_lines(i, txt): return len(wrap(txt, label_chars if i == 0 else cell_chars[i]))
+    row_h = [max(52, 24 + 19 * max(n_lines(i, c) for i, c in enumerate(r["cells"]))) for r in spec["rows"]]
+    foot = wrap(spec.get("footer", ""), 150)
+    H = 168 + sum(h + 10 for h in row_h) + 16 + 17 * len(foot) + 14
     o = frame(W, H, spec)
     y = 116; o.append(f'<rect x="40" y="{y}" width="1120" height="40" rx="10" fill="{NAVY}"/>')
-    x = x0
+    x = 40
     for i, c in enumerate(cols):
         o.append(text(x + (34 if i == 0 else 12), y + 26, c["head"], 15, 700, "#fff")); x += widths[i]
     yy = y + 52
     for r, h in zip(spec["rows"], row_h):
         o.append(f'<rect x="40" y="{yy}" width="1120" height="{h}" rx="10" fill="#fff" stroke="#E3E1DB"/>')
-        x = x0
+        x = 40
         for i, cell in enumerate(r["cells"]):
             if i == 0:
-                if r.get("verdict"): o.append(mark(60, yy + h / 2, r["verdict"]))
-                o.append(para(x + (34 if r.get("verdict") else 12), yy + 30, cell, max(8, int((widths[0] - 46) / 8.4)), 16, 19, NAVY).replace('font-weight="400"', 'font-weight="700"'))
+                if r.get("verdict"): o.append(mark(60, yy + 26, r["verdict"]))
+                o.append("".join(text(x + 34, yy + 30 + k * 19, ln, 16, 700, NAVY) for k, ln in enumerate(wrap(cell, label_chars))))
             else:
-                o.append(para(x + 12, yy + 28, cell, max(8, int((widths[i] - 24) / 8.0)), 14.5, 19, "#333"))
+                o.append(para(x + 12, yy + 28, cell, cell_chars[i], 14.5, 19, "#333"))
             x += widths[i]
         yy += h + 10
-    return "\n".join(o + close(W, H, spec))
+    o.append("".join(text(40, yy + 14 + k * 17, ln, 13, 400, "#888") for k, ln in enumerate(foot)))
+    o.append("</g></svg>")
+    return "\n".join(o)
 
 def main(post_dir):
     d = pathlib.Path(post_dir); specs = json.loads((d / "infographics.json").read_text(encoding="utf-8"))
