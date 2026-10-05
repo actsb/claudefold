@@ -7,7 +7,7 @@
 | **Labels** | `Smart Glasses, Buying Guide, Premium, Under $500` |
 | **Search Description** (≤150) | `Best smart glasses of 2026: Ray-Ban Meta for photos and AI, Rokid Glasses for a screen in the lens, Xreal One Pro for movies on a plane.` |
 | **Cover** | `images/cover.png` |
-| **Timing note** | Publish before Sept 23; add a "Meta Connect update" paragraph after Sept 24 (Gen 3 details, Gen 2 price cut). |
+| **Timing note** | Refreshed October 5, 2026 after Meta Connect (Gen 3 $449, Ray-Ban Meta Audio $349, Adventurer $249; Gen 2 still $379). Notes: research/refresh-2026-10-05-smart-glasses.md. Recheck Gen 2 price after Prime Big Deal Days (Oct 6–7) and Black Friday. |
 
 ## Content facts
 * 10,630 words (check_post.py); 10 ranked picks + 5 honorable mentions; 8 brand sections; 14-question FAQ; day-one privacy checklist; travel tips; 8-theme complaint analysis; 12-row decision table.
