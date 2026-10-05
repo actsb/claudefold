@@ -203,7 +203,7 @@ def follow_block():
     return ('<div class="vp-follow" id="follow" style="border:2px solid #1B2A41;border-radius:16px;padding:18px 20px;background:#F7F5F0;margin:1.6em 0;">'
             '<div style="font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#1E8E5A;">Follow Verdict Picks</div>'
             '<h3 style="margin:.3em 0 .4em;color:#1B2A41;font-size:1.3em;">Get the next guide when it lands</h3>'
-            '<p style="margin:0 0 .9em;font-size:16px;color:#333;">One or two guides a week, researched picks only, no sale pitches. Pick the way you like to follow:</p>'
+            '<p style="margin:0 0 .9em;font-size:16px;color:#333;">A new guide most days: researched picks only, no sale pitches. Pick the way you like to follow:</p>'
             '<div style="display:flex;flex-wrap:wrap;gap:10px;">' + "".join(buttons) + '</div>'
             f'<p style="margin:.8em 0 0;font-size:13px;color:#666;">Every option explained, and what we will never send: <a href="{FOLLOW["page"]}" style="color:#1B2A41;font-weight:700;">the follow page</a>.</p></div>\n')
 
