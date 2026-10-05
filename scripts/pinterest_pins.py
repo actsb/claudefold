@@ -20,14 +20,25 @@ Commands:
   check                                  who is connected, and the boards
   auth-url                               the one-time authorization link (tools/pinterest-connect.html builds the same)
   connect --code CODE                    exchange the one-time code for tokens; saves the refresh token to PINTEREST_TOKEN_OUT
-  list                                   every pin the sheets describe, and whether it is ready
-  sync [--limit N] [--board NAME]        pin the ready entries that are not on the board yet (matched by link), newest post first
-  pin SLUG|URL [--board NAME]            one entry
+  list                                   every pin the sheets describe, and whether it is ready or waits for the owner's OK
+  sync [--limit N] [--board NAME]        pin the ready entries the owner approved that are not on the board yet
+                                         (matched by link), newest post first
+  pin SLUG|URL [SLUG|URL ...] [--board NAME]
+                                         the entries the owner names in this run (naming them is the approval)
   fix SLUG|URL [--replace] [--board NAME]
                                          bring an existing pin's title, description, alt text and link in line with the sheet.
                                          Pinterest's update endpoint is in beta and not open to every app, so with --replace
                                          the pin is deleted and created again when the update is refused.
 Common flags: --dry-run (no writes), --no-online-check (skip the check that the post and image URLs answer 200).
+
+The owner chooses every pin. Pinterest's Developer Guidelines say an app that schedules Pins must let "the end user
+choose each Pin to be published", so nothing is pinned on the strength of a sheet entry alone:
+  * `sync` (the automatic run on every push and once a day) pins only entries that carry the field
+        **Approved**
+        yes
+    which only the owner adds (on GitHub, or by asking a Claude session to add it for a named pin). The daily
+    Routine writes new entries without it.
+  * `pin` pins the entries named on its command line; the owner starts that run (workflow mode "pin").
 """
 import argparse, base64, json, os, pathlib, re, secrets, sys, urllib.error, urllib.parse, urllib.request
 
@@ -168,8 +179,9 @@ def paged(path, params=None):
 # ---------------------------------------------------------------- the copy sheets
 
 ENTRY = re.compile(r"^## (?:\d+ · )?(?P<name>.+?) — `(?P<image>posts/[^`]+?/images/pin\.png)`[ \t]*$", re.M)
-FIELD = re.compile(r"^\*\*(Title|Description|Link|Alt text|Board)\*\*[ \t]*\n(.+?)(?=\n[ \t]*\n|\n\*\*|\Z)", re.M | re.S)
-KEYS = {"Title": "title", "Description": "description", "Link": "link", "Alt text": "alt", "Board": "board"}
+FIELD = re.compile(r"^\*\*(Title|Description|Link|Alt text|Board|Approved)\*\*[ \t]*\n(.+?)(?=\n[ \t]*\n|\n\*\*|\Z)", re.M | re.S)
+KEYS = {"Title": "title", "Description": "description", "Link": "link", "Alt text": "alt", "Board": "board",
+        "Approved": "approved"}
 
 
 def load_entries():
@@ -210,6 +222,11 @@ def problems(e, queue):
     if q and q.get("status") != "published":
         out.append(f"post not published yet (queue status {q.get('status')})")
     return out
+
+
+def approved(e):
+    """The owner chose this pin: its entry carries **Approved** yes (see the docstring)."""
+    return bool(re.match(r"\s*(yes|y|true|ok|approved)\b", e.get("approved", ""), re.I))
 
 
 def online(url):
@@ -320,15 +337,28 @@ def cmd_connect(a):
 
 
 def cmd_list(_):
-    queue = queue_by_dir()
+    queue, choose = queue_by_dir(), []
     for e in load_entries():
         issues = problems(e, queue)
-        print(f"{'ready  ' if not issues else 'waiting'}  {e['dir']}  {e.get('link', '(no link)')}" + (f"  [{'; '.join(issues)}]" if issues else ""))
+        if issues:
+            state = "waiting"
+        elif approved(e):
+            state = "ready  "
+        else:
+            state, issues = "your OK", ["the owner has not chosen it yet"]
+            choose.append(e)
+        print(f"{state}  {e['dir']}  {e.get('link', '(no link)')}" + (f"  [{'; '.join(issues)}]" if issues else ""))
+    if choose:
+        print(f"\n{len(choose)} pin(s) wait for the owner's OK. To publish one, run the workflow in mode \"pin\" with its link:")
+        for e in choose:
+            print(f"  {e['link']}")
+        summary(f"**{len(choose)} pin(s) wait for your OK.** Run this workflow again in mode **pin** with the link(s) "
+                "you choose (separate several with spaces):\n\n" + "\n".join(f"- {e['name']}: `{e['link']}`" for e in choose))
 
 
 def ordered_ready(a):
     queue = queue_by_dir()
-    entries = [e for e in load_entries() if not problems(e, queue)]
+    entries = [e for e in load_entries() if not problems(e, queue) and approved(e)]
     daily = sorted((e for e in entries if e["dir"] in queue), key=lambda e: queue[e["dir"]]["date"], reverse=True)
     return daily + [e for e in entries if e["dir"] not in queue]
 
@@ -372,13 +402,27 @@ def cmd_sync(a):
         sys.exit(1)
 
 
-def cmd_pin(a):
-    e = find_entry(a.target, load_entries())
-    issues = problems(e, queue_by_dir())
-    if issues:
-        die(f"{e['dir']} is not ready: {'; '.join(issues)}")
-    if pin_one(e, a.board, a.dry_run, not a.no_online_check, {}) == "failed":
+def pin_targets(targets, a):
+    """Pin the entries the owner named for this run; naming them is the owner's choice of each pin."""
+    entries, queue = load_entries(), queue_by_dir()
+    chosen = [find_entry(t, entries) for t in targets]
+    for e in chosen:
+        issues = problems(e, queue)
+        if issues:
+            die(f"{e['dir']} is not ready: {'; '.join(issues)}")
+    cache, failed = {}, 0
+    for e in chosen:
+        print(f"chosen by the owner: {e['name']}")
+        failed += pin_one(e, a.board, a.dry_run, not a.no_online_check, cache) == "failed"
+    if failed:
         sys.exit(1)
+
+
+def cmd_pin(a):
+    targets = [t for raw in a.targets for t in re.split(r"[\s,]+", raw) if t]
+    if not targets:
+        die("name at least one post link or folder to pin")
+    pin_targets(targets, a)
 
 
 def cmd_fix(a):
@@ -392,7 +436,7 @@ def cmd_fix(a):
     want = fields(e)
     if not pins:
         print(f"no pin for this link on {name!r}; creating one")
-        return cmd_pin(a)
+        return pin_targets([a.target], a)
     if a.dry_run:
         print(f"would update {len(pins)} pin(s) on {name!r} to: {want['title']}")
         return
@@ -432,7 +476,7 @@ def main():
     c = sub.add_parser("connect"); c.add_argument("--code", required=True)
     sub.add_parser("list")
     s = sub.add_parser("sync", parents=[common]); s.add_argument("--limit", type=int, default=2)
-    p = sub.add_parser("pin", parents=[common]); p.add_argument("target")
+    p = sub.add_parser("pin", parents=[common]); p.add_argument("targets", nargs="+")
     f = sub.add_parser("fix", parents=[common]); f.add_argument("target"); f.add_argument("--replace", action="store_true")
     a = ap.parse_args()
     {"check": cmd_check, "auth-url": cmd_auth_url, "connect": cmd_connect, "list": cmd_list,

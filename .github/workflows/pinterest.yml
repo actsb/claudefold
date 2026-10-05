@@ -1,4 +1,6 @@
-# Pins every published Verdict Picks post to Pinterest through the API (scripts/pinterest_pins.py).
+# Pins published Verdict Picks posts to Pinterest through the API (scripts/pinterest_pins.py), but only the pins the
+# owner chose: Pinterest's Developer Guidelines require the user to choose each Pin an app publishes. The automatic
+# runs (push, schedule) pin only sheet entries marked **Approved** yes; mode "pin" pins the links the owner enters.
 # Runs on GitHub's servers, which can reach api.pinterest.com. Setup, in Korean: daily/pinterest-setup.md
 #
 # Secrets (Settings -> Secrets and variables -> Actions -> Secrets):
@@ -20,15 +22,15 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "connect (first time) · check · sync · fix · list"
+        description: "list (what waits for your OK) · pin (the links you choose) · sync · connect (first time) · check · fix"
         type: choice
-        options: [sync, connect, check, fix, list]
+        options: [sync, list, pin, connect, check, fix]
         default: sync
       code:
         description: "connect: the one-time code from the connect page"
         required: false
       target:
-        description: "fix: the post URL (or folder name) whose pin to correct"
+        description: "pin: the post link(s) you choose, separated by spaces · fix: the post link whose pin to correct"
         required: false
       limit:
         description: "sync: most new pins in this run"
@@ -68,6 +70,7 @@ jobs:
             connect) python3 scripts/pinterest_pins.py connect --code "$CODE" ;;
             check)   python3 scripts/pinterest_pins.py check ;;
             list)    python3 scripts/pinterest_pins.py list ;;
+            pin)     python3 scripts/pinterest_pins.py pin "$TARGET" ;;
             fix)     python3 scripts/pinterest_pins.py fix "$TARGET" --replace ;;
             *)       python3 scripts/pinterest_pins.py sync --limit "$LIMIT" ;;
           esac
