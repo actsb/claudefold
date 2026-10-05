@@ -36,7 +36,7 @@ https://www.bing.com/webmasters → sign in → **Import from Google Search Cons
 Only if the owner has a Pinterest business account: Pinterest **Settings → Bulk create Pins → Auto-publish** → RSS `https://acts39.blogspot.com/feeds/posts/default?alt=rss` → board **Best of Amazon 2026** → save. (Turn it off once the API automation in daily/pinterest-setup.md is live.)
 
 ## 6. Crawl settings check (check now; change only with the owner's OK)
-1. robots.txt answered 404 in the October 5 crawl check (daily/search-console-bing.md). In **Settings → Crawlers and indexing**, report whether **Enable custom robots.txt** is on. With the owner's OK: if it is on, turn it off (Blogger's default robots.txt comes back); if it is off and robots.txt still answers 404, turn it on and paste exactly the text in daily/search-console-bing.md section 3. Never type `Disallow: /`.
+1. robots.txt: leave it as it is. Search Console reports it as valid (October 5), and a missing robots.txt means "no restrictions" to Google.
 2. blogger.com → **Settings**: **Privacy → Visible to search engines** is on; **Permissions → Reader access** is Public; **HTTPS → HTTPS redirect** is on; **Crawlers and indexing → Enable custom robots.txt** is off.
 3. Same section → **Enable custom robots header tags**. The recommended values: home page `all`; archive and search pages `noindex`; posts and pages `all`; never `nosnippet`. Report what is set now; change it only after the owner says yes.
 4. Open any post, View page source (Ctrl+U), search for `max-image-preview`. If it is missing, tell the owner; the line `<meta content='max-image-preview:large' name='robots'/>` goes right after `<head>` in Theme → Edit HTML, which the owner does (theme HTML is off-limits for this session).
