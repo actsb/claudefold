@@ -52,11 +52,20 @@ jobs:
           # the teaser text the theme shows for each post on index pages
           for m in re.findall(r"<div[^>]*class=['\"][^'\"]*snippet[^'\"]*['\"][^>]*>(.*?)</div>", page, re.S)[:6]:
               print("snippet:", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m)).strip()[:220])
+          # what the published body carries (a quick audit after a republish)
+          for label, needle in [("IMAGE SLOT boxes", "IMAGE SLOT"), ("(paid link) labels", "(paid link)"),
+                                ('"From the reviews:" labels', "From the reviews:"),
+                                ('"What owners and testers say:" labels', "What owners and testers say:"),
+                                ("More guides block", 'id="more-guides"'), ("Updated October 5, 2026", "Updated October 5, 2026")]:
+              print(f"{label}: {page.count(needle)}")
           for kind in ("default", "summary"):
               st, feed = get(f"https://acts39.blogspot.com/feeds/posts/{kind}?alt=json&max-results=25")
               entries = json.loads(feed)["feed"].get("entry", [])
               hit = [e for e in entries if any(l.get("rel") == "alternate" and l.get("href") == url for l in e.get("link", []))]
               print(f"\nfeeds/posts/{kind}: {len(entries)} entries, match: {bool(hit)}")
+              if kind == "default":
+                  for e in entries:
+                      print("  -", e.get("updated", {}).get("$t", "")[:16], "|", e.get("title", {}).get("$t", "")[:100])
               for e in hit:
                   print("  keys:", sorted(e))
                   if "summary" in e:
