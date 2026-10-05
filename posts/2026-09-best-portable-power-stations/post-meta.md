@@ -3,7 +3,7 @@
 * **Title:** Best Portable Power Stations of 2026: Anker SOLIX vs EcoFlow vs Jackery vs Bluetti
 * **Slug title (publish first, then rename):** Best Portable Power Stations 2026
 * **Labels:** Power Stations, Buying Guide, Home Backup, Under $500, Camping
-* **Search description (set in Blogger UI, ≤150 chars):** Which portable power station to buy in 2026: Anker C1000 Gen 2, EcoFlow DELTA 3 Plus, Jackery 2000 v2, DELTA Pro 3 and more, sized by what you need to run.
+* **Search description (set in Blogger UI, ≤150 chars):** Which portable power station to buy in 2026: Anker C1000 Gen 2, EcoFlow DELTA 3 Plus, Jackery 2000 v2 and more, sized by what you need to run.
 * **Cover:** images/cover.png (hosted on GitHub raw; Blogger picks it as the thumbnail)
 * **Graphics:** class-ladder, sizing-chart, brand-table, complaint-themes, decision-flowchart (inline SVG)
 * **Videos:** A1Opwrs1ef4, mPB3PMX3QiE, LwrtxJUdBHo, qe2BonqDN7s, sdGnhzqPjDM, 9p18dKAk274, 3Ran5022zyg, f8eP5gM9dbM

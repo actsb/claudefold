@@ -4,7 +4,7 @@
 |---|---|
 | **Title** | `Best Wireless Earbuds of 2026: AirPods 5 & Pro 3 vs Sony, Bose, Galaxy Buds and Pixel Buds` |
 | **Labels** | `Wireless Earbuds, Buying Guide, Under $300, Under $100, For Apartments` → use: `Wireless Earbuds, Buying Guide, Under $300, Under $100` |
-| **Search Description** (≤155) | `Sony XM6, AirPods Pro 3 & AirPods 5, Bose QC Ultra 2, Galaxy Buds4 Pro, Pixel Buds: lab tests and owner reviews distilled into one pick per phone and budget.` |
+| **Search Description** (≤150) | `Best wireless earbuds of 2026: AirPods Pro 3 for iPhone, Sony WF-1000XM6 for everyone else, and how Bose, Galaxy Buds and Pixel Buds compare.` |
 | **Permalink** | Publish under the short title `Best Wireless Earbuds 2026` first (URL becomes `/2026/09/best-wireless-earbuds-2026.html`), then rename — `scripts/publish_blogger.py` does this automatically with `--slug-title`. |
 | **Cover** | `images/cover.png` (hosted from the repo; also usable as the social image) |
 

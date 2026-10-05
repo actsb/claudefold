@@ -5,7 +5,7 @@
 | **Title** | `Best Smart Glasses of 2026: Ray-Ban Meta vs Meta Display, Rokid, Xreal, Even Realities` |
 | **Short title for the slug** | `Best Smart Glasses 2026` → `/2026/09/best-smart-glasses-2026.html` |
 | **Labels** | `Smart Glasses, Buying Guide, Premium, Under $500` |
-| **Search Description** (≤155) | `Camera AI glasses vs display glasses vs XR: Meta Ray-Ban Display, Ray-Ban Meta Gen 2, Rokid, Xreal, Viture, Even Realities compared, with the privacy settings to change.` |
+| **Search Description** (≤150) | `Best smart glasses of 2026: Ray-Ban Meta for photos and AI, Rokid Glasses for a screen in the lens, Xreal One Pro for movies on a plane.` |
 | **Cover** | `images/cover.png` |
 | **Timing note** | Publish before Sept 23; add a "Meta Connect update" paragraph after Sept 24 (Gen 3 details, Gen 2 price cut). |
 

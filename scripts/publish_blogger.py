@@ -272,8 +272,10 @@ for key, P in POSTS.items():
     existing = posts_by_title.get(P["title"]) or posts_by_title.get(P["slug_title"]) or next((posts_by_title[a] for a in P.get("aliases", []) if a in posts_by_title), None)
     if existing:
         pid = existing["id"]
-        body = {"kind": "blogger#post", "title": P["title"], "labels": P["labels"], "content": content}
-        st, res = call("PUT", f"/blogs/{BLOG_ID}/posts/{pid}", body)
+        # PATCH, not PUT: change only title, labels and content, and leave what the API cannot see untouched
+        # (above all the search description, which can be entered only in the Blogger editor)
+        body = {"title": P["title"], "labels": P["labels"], "content": content}
+        st, res = call("PATCH", f"/blogs/{BLOG_ID}/posts/{pid}", body)
         verb = "updated"
         if not DRAFT and st == 200 and res.get("status") == "DRAFT":
             st, res = call("POST", f"/blogs/{BLOG_ID}/posts/{pid}/publish"); verb = "updated + published"
@@ -287,5 +289,5 @@ for key, P in POSTS.items():
             st, res = call("PUT", f"/blogs/{BLOG_ID}/posts/{pid}", {"kind": "blogger#post", "title": P["title"], "labels": P["labels"], "content": content})
             verb = "created (short URL) + renamed to full title"
     print(f"post {key} {verb}: HTTP {st} status={res.get('status')} url={res.get('url', res.get('error', {}).get('message', ''))}")
-print("\nStill manual (the API cannot change blog settings or layout): Settings → Meta tags → search description per post"
-      " (see each post-meta.md); Layout → Pages gadget → tick the hub pages.")
+print("\nStill manual (the API cannot change these): each post's search description, entered in the Blogger editor"
+      " (the texts are in daily/search-descriptions.md); Layout → Pages gadget → tick the hub pages.")

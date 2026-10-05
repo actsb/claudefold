@@ -61,6 +61,28 @@ def responsive_grid(html_text):
     return html_text.replace('<div style="overflow-x:auto;margin:1em 0 1.4em;">', '<div class="vp-gridwrap" style="overflow-x:auto;margin:1em 0 1.4em;">')
 
 
+def teaser_first(html_text):
+    """Blogger builds the home-page teaser and the feed summary from the first text in a post, and this blog's theme
+    falls back to the blog-wide description for og:description, so the first words of the body are the only per-post
+    preview we control. Order the top as cover → lead → jump break → style block → guide links → byline instead of
+    style → guide links → byline → cover → lead. Idempotent: a post already in that order is returned unchanged."""
+    m = re.match(r"\s*(<style>.*?</style>\s*)", html_text, flags=re.S)
+    if not m:
+        return html_text
+    style, rest = m.group(1), html_text[m.end():]
+    nav = re.search(r'<p class="vp-nav".*?</p>\s*', rest, flags=re.S)
+    byline = re.search(r'<p style="font-size:15px;color:#555;"><em>(?:Published|Updated) .*?</em></p>\s*', rest, flags=re.S)
+    lead = re.search(r'<p style="font-size:1\.25em;[^"]*">.*?</p>\s*<!--more-->\s*', rest, flags=re.S)
+    if not (nav and byline and lead and nav.start() < lead.start() and byline.start() < lead.start()):
+        return html_text
+    moved = style + nav.group(0) + byline.group(0)
+    out = rest[:lead.end()] + moved + rest[lead.end():]
+    for block in (byline.group(0), nav.group(0)):          # drop the originals above the lead
+        i = out.index(block)
+        if i < out.index(moved):
+            out = out[:i] + out[i + len(block):]
+    return out
+
 def card_svg(d, cid):
     f = d / "images" / "cards" / f"{cid}.svg"
     svg = f.read_text(encoding="utf-8").strip()
@@ -242,6 +264,7 @@ def main(post_dir):
     if not parts:
         # short story post: no deep-dive, just close the wrapper
         out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
+        out = teaser_first(out)
         (d / "post.src.html").write_text(out, encoding="utf-8")
         print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
     deep = "\n".join(p.read_text(encoding="utf-8") for p in parts)
@@ -264,6 +287,7 @@ def main(post_dir):
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
            + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
+    out = teaser_first(out)
     (d / "post.src.html").write_text(out, encoding="utf-8")
     print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards)")
 
