@@ -13,14 +13,14 @@
 | `robots.txt` | **404(없음)**, 두 번 확인 | 검색이 막히지는 않습니다(404면 "제한 없음"으로 처리). 다만 블로거 기본 robots.txt에 있는 사이트맵 안내와 `/search` 제외가 빠져 있습니다. "맞춤 robots.txt"가 켜진 채 비어 있을 가능성이 큽니다 → 3단계 |
 | 구글 소유 확인 태그 | 없음 | 정상입니다. 블로거 블로그는 같은 구글 계정이면 자동으로 확인됩니다 |
 | 빙 소유 확인 태그 | 없음 | 빙은 "서치콘솔에서 가져오기"로 등록하면 태그가 필요 없습니다 |
-| 이전 기록 | 9월 14일: 서치콘솔에 `sitemap.xml` 제출함 | `sitemap-pages.xml` 제출과 빙 등록은 아직입니다 |
+| 서치콘솔 (운영자 확인, 10월 5일) | `sitemap.xml` 성공: 9/13 제출, 10/5 마지막으로 읽음, 발견 13개. `sitemap-pages.xml` 성공: 9/15 제출, 10/2 마지막으로 읽음, 발견 11개 | 서치콘솔 등록과 사이트맵 제출은 끝났습니다. 13개는 구글이 읽은 시점의 수이고, 10월 4일 글 4개(O-Cedar, NOCO, 베개, 비데)는 다음 번 읽을 때 잡힙니다. 남은 것은 빙 등록과 3장 설정입니다 |
 
 ## 1. 구글 서치콘솔 (10분)
 1. https://search.google.com/search-console 에 **블로그를 만든 구글 계정**으로 접속합니다.
 2. 왼쪽 위 속성 목록에서 `https://acts39.blogspot.com/`을 고릅니다.
    - 목록에 없으면: **속성 추가** → **URL 접두어** → `https://acts39.blogspot.com/` → **계속**. 블로거 블로그는 보통 바로 확인됩니다.
    - 확인 방법을 묻는다면 **HTML 태그**를 고르고, 그 한 줄을 블로거 **테마 → HTML 편집**의 `<head>` 바로 아래에 붙여 넣은 뒤 **확인**을 누릅니다.
-3. 왼쪽 메뉴 **Sitemaps** → "새 사이트맵 추가"에 `sitemap.xml`을 넣고 **제출**합니다. 같은 방법으로 `sitemap-pages.xml`도 **제출**합니다.
+3. 왼쪽 메뉴 **Sitemaps** → "새 사이트맵 추가"에 `sitemap.xml`을 넣고 **제출**합니다. 같은 방법으로 `sitemap-pages.xml`도 **제출**합니다. (이 블로그는 둘 다 이미 제출되어 "성공"입니다. 다시 제출할 필요 없습니다.)
    - 둘 다 상태가 **성공**이고, 발견된 URL이 각각 17개와 11개로 나오면 정상입니다(며칠 걸릴 수 있음).
 4. **페이지**(색인 생성) 보고서에서 "색인이 생성됨" 수와 "색인이 생성되지 않음"의 사유를 봅니다. "크롤링됨 - 현재 색인이 생성되지 않음"이 많으면 글 품질 신호이니 알려 주세요.
 5. **URL 검사**: 맨 위 검색창에 글 주소를 붙여 넣고 → **색인 생성 요청**을 누릅니다.
@@ -59,18 +59,18 @@
 3. 저장한 뒤 Claude에게 "크롤 점검 다시 해 줘"라고 하면 Crawl check로 결과를 확인합니다.
 
 ## 4. 색인 요청 순서 (서치콘솔 URL 검사, 하루 5개)
-- **1일차:**
+- **1일차** (구글이 아직 발견하지 못한 10월 4일 글 + 세일 글):
   - https://acts39.blogspot.com/2026/09/prime-big-deal-days-2026.html (세일이 10월 6~7일)
   - https://acts39.blogspot.com/2026/10/best-bidet-2026.html
-  - https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html
-  - https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html
-  - https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html
-- **2일차:**
-  - https://acts39.blogspot.com/2026/09/best-smart-glasses-2026.html
-  - https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html
   - https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html
   - https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html
   - https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html
+- **2일차:**
+  - https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html
+  - https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html
+  - https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html
+  - https://acts39.blogspot.com/2026/09/best-smart-glasses-2026.html
+  - https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html
 - **3일차:**
   - https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html
   - https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html

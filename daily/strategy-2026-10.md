@@ -182,7 +182,7 @@
 ### 6.1 검색 기반 설정 (한 번, 약 2시간)
 | 작업 | 방법 | 비고 |
 |---|---|---|
-| Google Search Console | URL 접두어 속성 `https://acts39.blogspot.com/` → 사이트맵 `sitemap.xml`, `sitemap-pages.xml` 제출 | Chrome 작업 3 |
+| Google Search Console | URL 접두어 속성 `https://acts39.blogspot.com/` → 사이트맵 `sitemap.xml`, `sitemap-pages.xml` 제출 | **완료**(10월 5일 확인: 둘 다 "성공"). 남은 것은 새 글 색인 요청 |
 | 색인 요청 | 새 글마다 **한 번**, 발행 당일, 깨끗한 주소로(`?m=1` 아님) | 하루 할당량이 작습니다(약 10개). 같은 주소 반복은 효과가 없습니다. |
 | Bing Webmaster Tools | "Search Console에서 가져오기"(사이트맵 포함) → 새 글은 URL 제출 | Bing은 Copilot과 ChatGPT 검색의 기반입니다. Chrome 작업 4 |
 | robots.txt | `https://acts39.blogspot.com/robots.txt`에 `Disallow: /`가 없는지 확인. 맞춤 robots.txt는 끈 채로 둡니다. | 오타 하나로 블로그 전체가 검색에서 빠질 수 있습니다. |
