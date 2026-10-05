@@ -79,6 +79,8 @@ def main(path):
         print(f"WARN: {label}: …{ctx}…")
     if re.search(r"raw\.githubusercontent\.com(/|%2F)", raw, flags=re.I): fails.append("hotlinks raw.githubusercontent.com (serve images from https://actsb.github.io/claudefold/ instead)")
     if re.search(r"/home/user/|home%2Fuser", raw): fails.append("an absolute container path leaked into a URL")
+    if re.search(r'class="vp-imgslot"|IMAGE SLOT', raw): fails.append("a visible placeholder box (vp-imgslot / IMAGE SLOT) would show on the live page")
+    if re.search(r"\bWRITE\b", re.sub(r"<!--.*?-->", " ", raw, flags=re.S)): fails.append("an unfinished WRITE marker would show on the live page")
     for f in fails: print("FAIL:", f)
     print("RESULT:", "FAIL" if fails else "PASS")
     sys.exit(1 if fails else 0)

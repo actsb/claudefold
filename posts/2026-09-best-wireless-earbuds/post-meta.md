@@ -28,7 +28,7 @@
 Spares: `zK4bc8zmk4g` (XM6 vs everything), `5-M8DAStkNo` (XM6 "Almost there"), `wRaDbRjVrc4` / `bAooNgqGCmc` (Buds4 Pro), `JeIKquUHjs0` / `KJF9NtkQXSY` (AirPods Pro 3 six months), `44zG1beMWfg` (ranked every earbud 2026), `PB9CVX5pjS8` (flagships worth buying), `a-nyLMVLoyQ` (Buds 4 Pro Short).
 
 ## Image slots
-12 SiteStripe slots (one per pick). Post reads fine with them deleted.
+Removed on October 5, 2026: the dashed placeholder boxes showed on the live page, SiteStripe no longer offers image links, and the blog uses only its own renders (daily/README.md section 0). `scripts/check_post.py` now fails any post that still has one.
 * **Live URL (published September 12, 2026 via the Blogger API):** https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html
 * **Format:** shopping-guide layer first (top pick card, picker grid, 30-second cards), full deep-dive below with a reading plan.
 * **Updated September 13, 2026:** studio-style renders, hero-render cover, Vera verdict banner and four-panel strip; republished in place.

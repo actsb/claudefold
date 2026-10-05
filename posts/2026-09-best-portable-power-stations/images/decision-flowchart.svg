@@ -23,7 +23,7 @@
 <g stroke="#1B2A41" stroke-width="2" fill="none" marker-end="url(#arr)"><path d="M450 286 L450 340"/><path d="M550 286 L550 340"/></g>
 <text x="435" y="322" text-anchor="end" fill="#1E8E5A" font-weight="700">NIGHT</text><text x="565" y="322" fill="#C9781B" font-weight="700">LONGER</text>
 <rect x="350" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
-<text x="425" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Anker C1000 Gen 2</text><text x="425" y="384" text-anchor="middle" font-size="11" fill="#555">1,024 Wh · ~$499</text>
+<text x="425" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Anker C1000 Gen 2</text><text x="425" y="384" text-anchor="middle" font-size="11" fill="#555">1,024 Wh · $499–$529</text>
 <text x="425" y="408" text-anchor="middle" font-size="11" fill="#555">or EcoFlow DELTA 3 Plus</text><text x="425" y="424" text-anchor="middle" font-size="11" fill="#555">(best UPS) or Jackery</text><text x="425" y="440" text-anchor="middle" font-size="11" fill="#555">1000 v2 (lightest)</text>
 <rect x="510" y="342" width="150" height="110" rx="8" fill="#E8F5EE" stroke="#1E8E5A"/>
 <text x="585" y="366" text-anchor="middle" font-weight="700" fill="#1B2A41">Jackery 2000 v2</text><text x="585" y="384" text-anchor="middle" font-size="11" fill="#555">2,042 Wh · $599–$899</text>
@@ -40,7 +40,7 @@
 <text x="36" y="514" font-weight="700" fill="#C9781B">Before you buy, whichever box you landed in</text>
 <text x="36" y="538" fill="#222">• <tspan font-weight="700">Check surge, not just watts:</tspan> a fridge needs 3–5× its running draw for a second; a sump pump more. 1,000 W-class units may trip.</text>
 <text x="36" y="560" fill="#222">• <tspan font-weight="700">LiFePO4 only</tspan> (LFP): 3,000–4,000 cycles vs 500–800 for older NMC. Every pick here is LFP; many sub-$150 units are not.</text>
-<text x="36" y="582" fill="#222">• <tspan font-weight="700">Wait for the sale:</tspan> list prices are fiction. Prime Big Deal Days (Oct 7–8) and Black Friday cut 30–55%; the 2000 v2 hit $599, the C1000 Gen 2 under $500.</text>
+<text x="36" y="582" fill="#222">• <tspan font-weight="700">Wait for the sale:</tspan> list prices are fiction. Prime Big Deal Days (Oct 6–7) and Black Friday cut 30–55% off list on most of these stations.</text>
 <text x="36" y="604" fill="#222">• <tspan font-weight="700">Skip</tspan> no-name "solar generators" under $150 and anything without a UL/ETL listing and a 5-year warranty.</text>
 <text x="36" y="626" fill="#222">• <tspan font-weight="700">Skip a gas generator</tspan> only if you can live without days of AC; a power station plus a 400 W panel covers essentials, not a whole house in August.</text>
 <text x="500" y="672" text-anchor="middle" font-size="12" fill="#777">Medical devices: size for the full outage plus a day, and buy the panel. Your CPAP's manual lists its draw; humidifier heat triples it.</text>

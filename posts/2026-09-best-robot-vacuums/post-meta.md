@@ -49,7 +49,7 @@ Shorts (9:16, in "60-second look" callouts):
 
 ## Product image slots
 
-Amazon's Associates agreement requires product images to come through its own tools. The post contains 14 clearly marked dashed boxes ("IMAGE SLOT"). For each: open the product on Amazon while logged into Associates → SiteStripe bar → **Image** → copy the code → replace the slot `<div>` in HTML view. Done in 10 minutes; the post reads fine with the slots removed if you'd rather publish without product photos.
+Removed on October 5, 2026: the dashed placeholder boxes showed on the live page, SiteStripe no longer offers image links, and the blog uses only its own renders (daily/README.md section 0). `scripts/check_post.py` now fails any post that still has one.
 
 ## Publishing checklist
 
@@ -58,7 +58,6 @@ Amazon's Associates agreement requires product images to come through its own to
 - [x] All Amazon links carry the live Associates ID `verdictpicks-20` (set September 13, 2026)
 - [ ] Posts → New post → HTML view → paste `post.html`
 - [ ] Set Title, Labels, Search Description, Permalink from the table above
-- [ ] Insert product images via SiteStripe (or delete the 14 slot boxes)
 - [ ] Preview on desktop and phone: verdict box, tables scroll sideways, SVG charts visible, every video plays
 - [ ] Publish → Search Console → Request indexing
 - [ ] Layout → Featured Post gadget → select this post

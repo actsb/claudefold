@@ -65,7 +65,7 @@
 <circle cx="405.5" cy="292" r="9" fill="#464d58" stroke="#000000" stroke-width="1.5"/><circle cx="405.5" cy="292" r="3" fill="#8A8F98"/></g>
 <g transform="translate(1106.0 76) scale(0.42)"><circle cx="70" cy="70" r="54" fill="#1E8E5A"/><path d="M 42 72 L 62 92 L 100 50" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>
 <text x="919.5" y="296.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#1B2A41">Day 3: the milk is still cold</text>
-<text x="919.5" y="322.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">The review owners write most:</text>
-<text x="919.5" y="343.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">&quot;I should have bought this</text>
-<text x="919.5" y="364.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">years ago.&quot;</text>
+<text x="919.5" y="322.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">Fridge in 20-minute cycles, a</text>
+<text x="919.5" y="343.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">top-up each time the grid</text>
+<text x="919.5" y="364.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">blinks back.</text>
 </svg>

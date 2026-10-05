@@ -15,7 +15,7 @@ Every description is 150 characters or fewer (Blogger's limit). Newest first; th
 https://acts39.blogspot.com/2026/10/best-bidet-2026.html
 
 ```text
-Best bidet of 2026: why owners recommend the $50 LUXE NEO 185, how KOHLER PureWash M100 and M300 compare, install costs and honest complaints.
+Best bidet of 2026: why owners recommend the LUXE NEO 185, how the KOHLER PureWash M100 and M300 compare, install costs and honest complaints.
 ```
 
 ## Beckham Hotel Collection Pillows Review 2026: Plush, Cheap, Not Forever

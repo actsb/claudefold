@@ -28,8 +28,8 @@
 <circle cx="122" cy="182" r="10" fill="#0b0b0b" stroke="#9a9a9a" stroke-width="2.5"/><circle cx="122" cy="182" r="5" fill="#1a2430"/><circle cx="119" cy="179" r="2" fill="#fff" opacity="0.9"/>
 <circle cx="490" cy="182" r="3.5" fill="#fff" opacity="0.7"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
-<rect x="18" y="18" width="217" height="28" rx="14" fill="#1B2A41"/>
-<text x="126.5" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Same AI · 4 h battery · $224</text>
+<rect x="18" y="18" width="268" height="28" rx="14" fill="#1B2A41"/>
+<text x="152.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Same AI · 4 h battery · 1080p video</text>
 <text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Ray-Ban Meta (Gen 1)</text>
 <text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
 </g>

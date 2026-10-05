@@ -28,7 +28,7 @@
 Spare: `e1Pv2-sK9zk` (10 Best Smart Glasses 2026 on Amazon). No dedicated Meta Ray-Ban Display / Xreal One Pro / Even G2 review videos were confirmed via search; the roundups cover them.
 
 ## Image slots
-9 SiteStripe slots.
+Removed on October 5, 2026: the dashed placeholder boxes showed on the live page, SiteStripe no longer offers image links, and the blog uses only its own renders (daily/README.md section 0). `scripts/check_post.py` now fails any post that still has one.
 * **Live URL (published September 12, 2026 via the Blogger API):** https://acts39.blogspot.com/2026/09/best-smart-glasses-2026.html
 * **Format:** shopping-guide layer first (top pick card, picker grid, 30-second cards), full deep-dive below with a reading plan.
 * **Updated September 13, 2026:** studio-style renders, hero-render cover, Vera verdict banner and four-panel strip; republished in place.

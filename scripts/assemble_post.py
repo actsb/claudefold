@@ -107,6 +107,36 @@ def cta(c, label):
     tag = ' <span style="font-size:13px;font-weight:600;color:#555;margin-left:6px;white-space:nowrap;display:inline-block;">(paid link)</span>' if is_paid(c) else ""
     return f'<a style="{BTN}" href="{esc(c["cta"]).replace("&amp;amp;","&amp;")}" rel="{rel}" target="_blank">{esc(c.get("cta_label", label))} →</a>' + tag
 
+PAID_TAG = ' <span class="vp-paid" style="font-size:13px;color:#555;white-space:nowrap;">(paid link)</span>'
+AMAZON_A = re.compile(r'<a\b[^>]*href="https://www\.amazon\.com/[^"]*"[^>]*>(.*?)</a>', re.S | re.I)
+
+
+def label_paid_links(html_text):
+    """Every Amazon link is marked "(paid link)" where the reader sees it (Amazon's link-disclosure rule and the FTC's
+    "clear and conspicuous" test): add the label after any Amazon link with none inside it or in the next 160 characters."""
+    out, last = [], 0
+    for m in AMAZON_A.finditer(html_text):
+        out.append(html_text[last:m.end()])
+        if "paid link" not in m.group(1).lower() and "paid link" not in html_text[m.end(): m.end() + 160].lower():
+            out.append(PAID_TAG)
+        last = m.end()
+    out.append(html_text[last:])
+    return "".join(out)
+
+
+def checked_month(d):
+    """The month the post's prices were last checked: its "prices_checked" month in brand/seo-configs.json when set (a post
+    can be updated without new price research), else the month of its "updated" date, else this month."""
+    import datetime
+    try:
+        cfg = json.loads((pathlib.Path(__file__).resolve().parent.parent / "brand" / "seo-configs.json").read_text(encoding="utf-8"))
+        if cfg[d.name].get("prices_checked"):
+            return cfg[d.name]["prices_checked"]
+        return datetime.datetime.strptime(cfg[d.name]["updated"], "%B %d, %Y").strftime("%B %Y")
+    except (OSError, KeyError, ValueError):
+        return datetime.date.today().strftime("%B %Y")
+
+
 OWN_LABEL = re.compile(r"([^:.;]{3,48}):\s+(.+)", re.S)
 
 
@@ -240,7 +270,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
-              'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we researched, every brand, every pick in detail, thousands of owner reviews, and when to buy.</p>\n')
+              'Have twenty minutes: the <a href="#deep" style="color:#1B2A41;font-weight:700;">complete deep-dive</a> follows on this same page — how we researched, every brand, every pick in detail, what long-term owners report, and when to buy.</p>\n')
     if sorted((d / "src").glob("0[1-9]-*.html")):   # only guides with a deep-dive get the two-ways notice
         easy = easy.replace("<h2 style=", notice + "<h2 style=", 1)
     # Blogger jump break after the lead paragraph: index pages show only the lead, and
@@ -283,8 +313,8 @@ def main(post_dir):
     parts = sorted(p for p in (d / "src").glob("0[1-9]-*.html"))
     if not parts:
         # short story post: no deep-dive, just close the wrapper
-        out = (easy + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
-        out = with_more_guides(d, teaser_first(out))
+        out = (easy + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
+        out = with_more_guides(d, teaser_first(label_paid_links(out)))
         (d / "post.src.html").write_text(out, encoding="utf-8")
         print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
     deep = "\n".join(p.read_text(encoding="utf-8") for p in parts)
@@ -301,13 +331,13 @@ def main(post_dir):
         items.append(f'<li style="margin-bottom:.3em;"><a href="#{sid}" style="color:#1B2A41;font-weight:700;">{esc(title)}</a> <span style="color:#777;font-size:.9em;">· about {mins} min</span></li>')
     out = (easy
            + '\n<h2 id="deep" style="color:#1B2A41;font-size:1.6em;line-height:1.25;margin:1.6em 0 .5em;">Have more time? The full deep-dive, section by section</h2>\n'
-           + '<p>The quick guide above is enough to buy well. If you want to know <em>why</em> — how we researched, what every brand does well and badly, every pick in detail, what thousands of owners said, and when to buy — the complete analysis follows. Read it in one go, or one section at a time when you have a few minutes. Each section stands on its own.</p>\n'
+           + '<p>The quick guide above is enough to buy well. If you want to know <em>why</em> — how we researched, what every brand does well and badly, every pick in detail, what owners report after months of use, and when to buy — the complete analysis follows. Read it in one go, or one section at a time when you have a few minutes. Each section stands on its own.</p>\n'
            + '<div class="vp-roadmap" style="border:2px solid #1B2A41;border-radius:12px;padding:14px 20px;background:#F7F5F0;margin:1em 0 1.6em;">\n<strong style="color:#1B2A41;">Reading plan</strong>\n<ol style="margin:8px 0 0;padding-left:22px;">\n' + "\n".join(items) + '\n</ol>\n</div>\n'
            + '<div class="vp-deep" style="border-top:3px solid #1B2A41;margin-top:1.4em;padding-top:1.2em;font-size:0.94em;">\n' + deep + '\n</div>\n'
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
-           + '<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing (October 2026), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
+           + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers. <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
-    out = with_more_guides(d, teaser_first(out))
+    out = with_more_guides(d, teaser_first(label_paid_links(out)))
     (d / "post.src.html").write_text(out, encoding="utf-8")
     print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards)")
 
