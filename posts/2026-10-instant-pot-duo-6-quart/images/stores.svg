@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Where to buy it, and why Amazon usually wins"><rect width="1200" height="520" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Where to buy it, and why Amazon usually wins</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">October 2026: search-snippet prices, mostly unconfirmed</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="60" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Store</text>
+<text x="300" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Price seen</text>
+<text x="500" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Delivery</text>
+<text x="700" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Returns</text>
+<text x="880" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Note</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="66" cy="194" r="12" fill="#1E8E5A"/><path d="M 61 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="88" y="200" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Amazon</text>
+<text x="300" y="200" font-size="16" font-weight="400" fill="#333" text-anchor="start">See today's price</text>
+<text x="500" y="200" font-size="15" font-weight="400" fill="#333" text-anchor="start">Free with Prime</text>
+<text x="700" y="200" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="880" y="192" font-size="13" font-weight="400" fill="#444" text-anchor="start">Deepest sales seen: 30%–40% off</text><text x="880" y="207" font-size="13" font-weight="400" fill="#444" text-anchor="start">list</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="66" cy="256" r="12" fill="#C9781B"/><rect x="60" y="254.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="88" y="262" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Walmart</text>
+<text x="300" y="262" font-size="16" font-weight="400" fill="#333" text-anchor="start">$106–$150 · listings vary</text>
+<text x="500" y="262" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="700" y="262" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="880" y="254" font-size="13" font-weight="400" fill="#444" text-anchor="start">Mixes Walmart- and</text><text x="880" y="269" font-size="13" font-weight="400" fill="#444" text-anchor="start">marketplace-sold</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="66" cy="318" r="12" fill="#C9781B"/><rect x="60" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="88" y="324" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Target</text>
+<text x="300" y="324" font-size="16" font-weight="400" fill="#333" text-anchor="start">$79.99 · snippet</text>
+<text x="500" y="324" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="700" y="324" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="880" y="316" font-size="13" font-weight="400" fill="#444" text-anchor="start">Lowest seen; confirm it is the</text><text x="880" y="331" font-size="13" font-weight="400" fill="#444" text-anchor="start">7-in-1</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="66" cy="380" r="12" fill="#C9781B"/><rect x="60" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="88" y="386" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Brand store</text>
+<text x="300" y="386" font-size="16" font-weight="400" fill="#333" text-anchor="start">$109.99 list</text>
+<text x="500" y="386" font-size="15" font-weight="400" fill="#333" text-anchor="start">Not checked</text>
+<text x="700" y="386" font-size="15" font-weight="400" fill="#333" text-anchor="start">30 days</text>
+<text x="880" y="378" font-size="13" font-weight="400" fill="#444" text-anchor="start">Warranty: authorized sellers only</text>
+<rect x="40" y="416" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="66" cy="442" r="12" fill="#C8102E"/><path d="M 61.5 437.5 l 9 9 M 70.5 437.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="88" y="448" font-size="17" font-weight="700" fill="#1B2A41" text-anchor="start">Temu / look-alikes</text>
+<text x="300" y="448" font-size="16" font-weight="400" fill="#333" text-anchor="start">Not verified</text>
+<text x="500" y="448" font-size="15" font-weight="400" fill="#333" text-anchor="start">Slow</text>
+<text x="700" y="448" font-size="15" font-weight="400" fill="#333" text-anchor="start">Varies</text>
+<text x="880" y="440" font-size="13" font-weight="400" fill="#444" text-anchor="start">No fake Duo found; parts only</text>
+<text x="40" y="498" font-size="13" font-weight="400" fill="#888" text-anchor="start">Prices and policies as seen in the month of writing; the buttons show today's.</text>
+</g></svg>

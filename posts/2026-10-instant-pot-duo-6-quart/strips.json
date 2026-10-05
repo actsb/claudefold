@@ -3,12 +3,12 @@
     {
       "id": "in-real-life",
       "card": "instant-pot-duo",
-      "title": "A day with the Instant Pot Duo — in real life",
+      "title": "A day with the Instant Pot Duo \u2014 in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Sunday, 4 p.m.",
+          "text": "Vera adds 1\u00bd cups of water and the chili ingredients. The v5 manual says that is the 6-quart minimum.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Seal and wait",
+          "text": "Lid arrow to lock, switch to Seal. The manual says reaching pressure can take up to 30 minutes."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The weak spot",
+          "text": "Owners find the sealing ring fiddly. Press it in with no puckering, or the lid will not seal."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Release time",
+          "text": "Chili and beans suit natural release; the float valve drops, then the lid turns off.",
           "host": {
             "pose": "thumbsup"
           }

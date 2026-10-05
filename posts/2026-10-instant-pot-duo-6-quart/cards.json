@@ -8,26 +8,26 @@
       "category": "generic",
       "name": "Instant Pot Duo 6-Quart 7-in-1",
       "short": "Instant Pot Duo",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Product of the day \u00b7 a proven pressure cooker, best on sale",
+      "chip": "6 quart \u00b7 1000 W \u00b7 7-in-1",
       "art": {
         "shape": "cylinder",
         "body": "#3A4453",
         "accent": "#C8102E"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
+      "price": "List $109.99 at Instant Pot's store; Target $79.99 and Home Depot $128.73 (search snippets, Oct 2026, unconfirmed); past sales about 30%\u201340% off list",
+      "buy_if": "you want a straightforward pressure cooker for rice, beans, stews and chili for 2 to 5 people, ideally at a sale price.",
+      "skip_if": "you mainly want a slow cooker or an air fryer: America's Test Kitchen found the Duo slow-cooks poorly; look at the Cosori 6-quart or the Duo Crisp.",
+      "owners": "A search summary of a Walmart listing showed 4.6 out of 5 (Oct 5, 2026; count not visible). Praised for speed and the easy-clean steel pot; the gasket is fiddly and a few units failed within 30\u201345 days.",
       "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
+      "video": "-1eGvX4LiMY",
+      "video_title": "Instant Pot DUO 6QT Full Review & First Look",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL.",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The 6-quart Duo 7-in-1 (IP-DUO60 or 112-0170-01); not the 9-in-1 Duo Plus, a Target bundle or the Duo Nova unless the price is clearly lower",
+        "check": "Sold by Amazon.com or Instant Pot (the warranty covers authorized sellers only); the title says 7-in-1 and 6 Qt; a model number of IP-DUO60 or 112-0170-01",
         "label": "See today's price"
       }
     }

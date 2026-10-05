@@ -3,32 +3,32 @@
     "type": "steps",
     "name": "howto",
     "title": "The Instant Pot Duo in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "Six steps from box to first meal, from the Instant Pot Duo v5 manual (Aug 2025)",
+    "footer": "Source: Instant Pot Duo v5 user manual, Aug 2025; read your own model's manual.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Run the test",
+        "body": "Steam with water, no food, 5 minutes; discard the water."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Seat the ring",
+        "body": "Press down, no puckering; replace every 12\u201318 months."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Add liquid",
+        "body": "1\u00bd cups minimum for 6 qt; stay below PC MAX."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Lock and seal",
+        "body": "Arrow to lock, switch to Seal; up to 30 min to pressure."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Pick a release",
+        "body": "Natural for stews and beans, quick for vegetables."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Open with care",
+        "body": "Wait for the float valve; hands away from steam."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
+    "sub": "October 2026: search-snippet prices, mostly unconfirmed",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "See today's price",
+        "ship": "Free with Prime",
+        "returns": "Not checked",
+        "note": "Deepest sales seen: 30%\u201340% off list",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$106\u2013$150 \u00b7 listings vary",
+        "ship": "Not checked",
+        "returns": "Not checked",
+        "note": "Mixes Walmart- and marketplace-sold",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$79.99 \u00b7 snippet",
+        "ship": "Not checked",
+        "returns": "Not checked",
+        "note": "Lowest seen; confirm it is the 7-in-1",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$109.99 list",
+        "ship": "Not checked",
+        "returns": "30 days",
+        "note": "Warranty: authorized sellers only",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not verified",
+        "ship": "Slow",
+        "returns": "Varies",
+        "note": "No fake Duo found; parts only",
         "verdict": "no"
       }
     ]
