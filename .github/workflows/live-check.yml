@@ -1,0 +1,52 @@
+# Read a published post from outside the Claude environment (whose network policy blocks blogspot.com):
+# the head tags search engines and social sites use, and what the public feeds carry for that post.
+# Manual only: Actions → Live page check → Run workflow, with the post URL.
+name: Live page check
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Published post URL on acts39.blogspot.com
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Head tags and feed entry
+        env:
+          URL: ${{ inputs.url }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, re, sys, urllib.request
+          url = os.environ["URL"].strip()
+          if not re.fullmatch(r"https://acts39\.blogspot\.com/[A-Za-z0-9/._-]+", url):
+              sys.exit(f"not a post URL on acts39.blogspot.com: {url!r}")
+          def get(u):
+              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (VerdictPicks live check)"})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.status, r.read().decode("utf-8", "replace")
+          st, page = get(url)
+          print(f"HTTP {st}  {url}")
+          head = page.split("</head>")[0]
+          t = re.search(r"<title>(.*?)</title>", head, re.S)
+          print("title:", t.group(1).strip() if t else None)
+          for tag in re.findall(r"<(?:meta|link)\b[^>]*>", head):
+              if re.search(r"""(name|property)=['"](description|robots|og:[a-z:_]+|twitter:[a-z:_]+)['"]|rel=['"]canonical['"]""", tag):
+                  print(" ", tag)
+          print("body text starts:", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page.split("<body", 1)[-1]))[:300])
+          for kind in ("default", "summary"):
+              st, feed = get(f"https://acts39.blogspot.com/feeds/posts/{kind}?alt=json&max-results=25")
+              entries = json.loads(feed)["feed"].get("entry", [])
+              hit = [e for e in entries if any(l.get("rel") == "alternate" and l.get("href") == url for l in e.get("link", []))]
+              print(f"\nfeeds/posts/{kind}: {len(entries)} entries, match: {bool(hit)}")
+              for e in hit:
+                  print("  keys:", sorted(e))
+                  if "summary" in e:
+                      print("  summary:", e["summary"].get("$t", "")[:400])
+          EOF
