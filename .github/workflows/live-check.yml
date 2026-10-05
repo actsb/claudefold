@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       url:
-        description: Published post URL on acts39.blogspot.com
+        description: A page on acts39.blogspot.com (a post, or the home page)
         required: true
 
 permissions:
@@ -25,8 +25,8 @@ jobs:
           python3 - <<'EOF'
           import json, os, re, sys, urllib.request
           url = os.environ["URL"].strip()
-          if not re.fullmatch(r"https://acts39\.blogspot\.com/[A-Za-z0-9/._-]+", url):
-              sys.exit(f"not a post URL on acts39.blogspot.com: {url!r}")
+          if not re.fullmatch(r"https://acts39\.blogspot\.com/[A-Za-z0-9/._-]*", url):
+              sys.exit(f"not a page on acts39.blogspot.com: {url!r}")
           def get(u):
               req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (VerdictPicks live check)"})
               with urllib.request.urlopen(req, timeout=30) as r:
@@ -40,6 +40,9 @@ jobs:
               if re.search(r"""(name|property)=['"](description|robots|og:[a-z:_]+|twitter:[a-z:_]+)['"]|rel=['"]canonical['"]""", tag):
                   print(" ", tag)
           print("body text starts:", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page.split("<body", 1)[-1]))[:300])
+          # the teaser text the theme shows for each post on index pages
+          for m in re.findall(r"<div[^>]*class=['\"][^'\"]*snippet[^'\"]*['\"][^>]*>(.*?)</div>", page, re.S)[:6]:
+              print("snippet:", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", m)).strip()[:220])
           for kind in ("default", "summary"):
               st, feed = get(f"https://acts39.blogspot.com/feeds/posts/{kind}?alt=json&max-results=25")
               entries = json.loads(feed)["feed"].get("entry", [])
