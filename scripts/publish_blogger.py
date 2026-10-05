@@ -163,6 +163,7 @@ POSTS = {
     },
     "instant-pot-duo": {
         "dir": "posts/2026-10-instant-pot-duo-6-quart",
+        "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html",
         "title": "Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?",
         "slug_title": "Instant Pot Duo 6 Quart Review 2026",
         "labels": ["Kitchen", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
