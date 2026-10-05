@@ -27,10 +27,19 @@ jobs:
           url = os.environ["URL"].strip()
           if not re.fullmatch(r"https://acts39\.blogspot\.com/[A-Za-z0-9/._-]*", url):
               sys.exit(f"not a page on acts39.blogspot.com: {url!r}")
+          import time, urllib.error
+          UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
           def get(u):
-              req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (VerdictPicks live check)"})
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  return r.status, r.read().decode("utf-8", "replace")
+              for wait in (0, 10, 30, 60):   # Blogger answers bursts from datacenter IPs with 429
+                  time.sleep(wait)
+                  try:
+                      req = urllib.request.Request(u, headers={"User-Agent": UA, "Accept-Language": "en-US,en;q=0.8"})
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          return r.status, r.read().decode("utf-8", "replace")
+                  except urllib.error.HTTPError as e:
+                      if e.code != 429: raise
+                      print(f"429 on {u}, retrying")
+              sys.exit("still rate-limited")
           st, page = get(url)
           print(f"HTTP {st}  {url}")
           head = page.split("</head>")[0]
