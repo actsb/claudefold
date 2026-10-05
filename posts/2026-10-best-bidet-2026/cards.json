@@ -1,7 +1,7 @@
 {
   "category": "bidet",
   "buy_title": "If you buy one bidet this year, make it this one",
-  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide were reported between November 2025 and October 2026 (the NEO 185 was $45.99 on Amazon on December 2, 2025, per camelcamelcamel) and move with sales; the button shows today's.",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from LUXE's own store and other US retailers in October 2026 and move with sales; the button shows today's price.",
   "cards": [
     {
       "id": "neo185",
@@ -16,10 +16,10 @@
         "body": "#F4F4F2",
         "accent": "#2B6CB0"
       },
-      "price": "About $46–$50 when we checked ($49.99 list at LUXE)",
+      "price": "About $50 ($49.99 at LUXE's store, October 2026)",
       "buy_if": "you want the cleanest result per dollar: a rear nozzle and a separate feminine nozzle, self-cleaning, no electricity, on the seat you already own.",
       "skip_if": "the thought of cool water is a deal-breaker (get the NEO 320, which mixes in hot water from the sink), or your toilet's bolt spacing is outside about 5.5–7.5 inches.",
-      "owners": "About 40,000 Amazon ratings, 79% of them five stars and 3% one or two stars (Amazon's review page, search snapshots, October 2026); 4.9 stars on about 8,200 Walmart reviews.",
+      "owners": "4.9 out of 5 across about 8,200 Walmart reviews (October 2026); CNN Underscored named the 185 Plus its runner-up attachment after trying 35 bidets.",
       "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20",
       "buy": {
         "tier": "The pick",
@@ -43,8 +43,8 @@
       },
       "price": "About $59–$75 at the time of writing (Lowe's $59.98, Wayfair $65.88, Home Depot $74.96; $99.95 list)",
       "buy_if": "you want a KOHLER part on a KOHLER toilet, with front and rear wands, and you catch it near $60.",
-      "skip_if": "you want the most evidence: it has about 50 reviews at Home Depot (4.0 stars) against the NEO 185's roughly 40,000 Amazon ratings.",
-      "owners": "4.0 stars across about 50 Home Depot reviews (79% would recommend) and 3.9 on about 540 Amazon.ca ratings; owners praise the pressure, and some report overspray and leaks at the handle.",
+      "skip_if": "you want the most evidence: it has about 50 Home Depot reviews (4.0 out of 5), against about 8,200 Walmart reviews for the NEO 185.",
+      "owners": "4.0 out of 5 across about 50 Home Depot reviews, 79% of whom would recommend it; owners praise the pressure, and some report overspray and leaks at the handle.",
       "cta": "https://www.amazon.com/dp/B0BZFKDCYT?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the PureWash M100 on Amazon"
@@ -74,7 +74,7 @@
       "category": "bidet",
       "name": "LUXE Bidet NEO 120 (single nozzle)",
       "short": "LUXE NEO 120",
-      "badge": "Cheapest good one · Amazon's No. 1 best-selling attachment",
+      "badge": "Cheapest good one · rear wash only",
       "chip": "1 nozzle · 84,000+ ratings",
       "art": {
         "style": "attachment",
@@ -82,10 +82,10 @@
         "body": "#F4F4F2",
         "accent": "#2B6CB0"
       },
-      "price": "About $34–$40 at the time of writing ($39.99 list; $33.97 in a past Prime Day window)",
+      "price": "About $40 ($39.99 at LUXE and Walmart, October 2026)",
       "buy_if": "you want to try a bidet for the price of two months of toilet paper and only need a rear wash.",
       "skip_if": "anyone in the house wants a front wash: the NEO 185 adds that nozzle for about $10 more.",
-      "owners": "4.6 stars across about 84,000 Amazon ratings and the No. 1 spot in Amazon's Bidet Attachments best sellers; 4.7 stars on Best Buy, where 96% of 354 reviewers recommend it. Bob Vila calls it the best bang for the buck.",
+      "owners": "4.7 out of 5 at Best Buy, where 96% of 354 reviewers recommend it; Bob Vila calls it the best bang for the buck.",
       "cta": "https://www.amazon.com/dp/B07Q4RCLL1?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the NEO 120 on Amazon"
@@ -104,10 +104,10 @@
         "body": "#F4F4F2",
         "accent": "#C8102E"
       },
-      "price": "About $60–$69 at the time of writing ($59.99 list; the NEO 320 Plus runs $65.99–$68.99)",
+      "price": "About $60–$69 ($59.99 at LUXE; the NEO 320 Plus $65.99–$68.99 at other retailers, October 2026)",
       "buy_if": "cool water is the one thing stopping you, and the sink is within about 9–10 feet of the toilet so a hot line can reach.",
       "skip_if": "you don't want a hose running from the vanity, or a hole drilled in it.",
-      "owners": "4.9 stars on about 16,500 reviews at LUXE and about 3,100 at Walmart; Consumer Reports names the NEO 320 Plus its top budget pick and Reviewed calls it the most comfortable attachment it tried.",
+      "owners": "4.9 out of 5 on about 16,500 reviews at LUXE's store and about 3,100 at Walmart; Consumer Reports names the NEO 320 Plus its top budget pick and Reviewed calls it the most comfortable attachment it tried.",
       "cta": "https://www.amazon.com/dp/B00JG3NVG2?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the NEO 320 on Amazon"
@@ -125,7 +125,7 @@
         "body": "#F6F5F2",
         "accent": "#9AA0A6"
       },
-      "price": "About $97–$129 at the time of writing ($129 at TUSHY; $114.95 at Walmart; $97 in a past Amazon deal)",
+      "price": "About $115–$129 ($129 at TUSHY, $114.95 at Walmart, October 2026)",
       "buy_if": "the feel of the stream matters more than price: it is the attachment professional testers pick most often.",
       "skip_if": "you want a separate front nozzle or a long, simple return window (TUSHY's policy is store credit on unopened returns within 30 days, per its help center).",
       "owners": "4.5 stars on more than 19,000 Walmart reviews (listings pool colours); CNN Underscored, Forbes, Rolling Stone and Popular Science each name it their best attachment.",
@@ -138,17 +138,17 @@
       "category": "bidet",
       "name": "Brondell Swash EcoSeat (manual bidet seat)",
       "short": "Brondell Swash EcoSeat",
-      "badge": "Amazon's No. 1 bidet seat",
+      "badge": "A two-nozzle manual seat",
       "chip": "2 nozzles · non-electric",
       "art": {
         "style": "seat",
         "body": "#F4F4F2",
         "accent": "#2B6CB0"
       },
-      "price": "About $90 at the time of writing ($89.98 in Amazon's best-seller list)",
+      "price": "Usually under $100 at major retailers",
       "buy_if": "you want a manual bidet seat from a bidet specialist with the biggest review base in its class.",
       "skip_if": "you would rather keep your current seat (an attachment does the same job for half the price).",
-      "owners": "No. 1 in Amazon's Bidet Seats best sellers, with 4.3 stars on about 10,900 ratings (search snapshot, 2026).",
+      "owners": "From Brondell, the company behind the Swash electric seats. We found no rating for it outside Amazon, so judge it on its features: two nozzles, no electricity, a full replacement seat.",
       "cta": "https://www.amazon.com/dp/B0815CP9G5?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the Swash EcoSeat on Amazon"
@@ -166,10 +166,10 @@
         "body": "#F4F4F2",
         "accent": "#1E8E5A"
       },
-      "price": "About $280 at the time of writing ($279.99 on Amazon on May 20, 2026, list $379.99)",
+      "price": "Usually $300–$400",
       "buy_if": "you want the full heated-seat experience for the least money and already have an outlet within about 4 feet of the toilet.",
       "skip_if": "there is no outlet near the toilet: adding a GFCI outlet typically costs $130–$300 (Angi, 2026).",
-      "owners": "4.5 stars on about 3,000 Amazon ratings and 4.7 on 428 Home Depot reviews.",
+      "owners": "4.7 out of 5 across 428 Home Depot reviews.",
       "cta": "https://www.amazon.com/dp/B0128T2HQK?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the SB-1000 on Amazon"
@@ -187,10 +187,10 @@
         "body": "#F7F7F5",
         "accent": "#1B2A41"
       },
-      "price": "About $420 at the time of writing (Amazon best-seller list and Home Depot)",
+      "price": "About $400–$450 at major retailers (2026)",
       "buy_if": "you want the most comfortable stream and dryer CNN Underscored tested, with endless warm water.",
       "skip_if": "you are on a budget or have no outlet nearby; the TOTO C2 and C5 it replaced in 2025 are discontinued, so check you are buying the S2.",
-      "owners": "No. 4 in Amazon's Bidet Seats best sellers; CNN Underscored's best bidet seat of 2026 after testing 35 bidets.",
+      "owners": "CNN Underscored's best bidet seat of 2026 after trying 35 bidets; 4.6–4.7 out of 5 on about 200 Home Depot reviews.",
       "cta": "https://www.amazon.com/dp/B0FCTR1Y75?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the Washlet S2 on Amazon"
@@ -208,10 +208,10 @@
         "body": "#F4F4F2",
         "accent": "#2B6CB0"
       },
-      "price": "About $390–$550 at the time of writing ($389.98 Amazon low on June 25, 2026; $549 list)",
+      "price": "About $490–$700 at dealers ($549 list, October 2026)",
       "buy_if": "you want a feature-rich electric seat with a full 3-year warranty and you can wait for a sale.",
-      "skip_if": "you would pay full price: it has sold for $390–$450 on Amazon at past events.",
-      "owners": "4.7 stars on 770 Home Depot reviews (95% recommend); Forbes Vetted's best bidet overall for 2026. One owner reports ten years of use before the heater failed.",
+      "skip_if": "you would pay full price: it often goes on sale at big retail events, and the TOTO S2 or SmartBidet SB-1000 cover most of the same ground.",
+      "owners": "4.7 out of 5 across 770 Home Depot reviews (95% recommend); Forbes Vetted's best bidet overall for 2026. One owner reports ten years of use before the heater failed.",
       "cta": "https://www.amazon.com/dp/B00GRM11R6?tag=verdictpicks-20",
       "cta_style": "link",
       "cta_label": "Check the BB-2000 on Amazon"
