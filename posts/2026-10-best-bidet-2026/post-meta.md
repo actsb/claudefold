@@ -7,4 +7,4 @@
 * **Format:** buying guide, one page (top pick first and last: the LUXE NEO 185 opens with the top-pick card and closes with the buy box; the other nine products get quiet text links)
 * **Research:** research/bidets-2026-10.md (market map, experts and health, prices and 3-year cost, owner reviews), research/bidets-2026-10-supplement.md (videos, environment figures, review counts)
 * **Videos:** H3CpLD93cVY (NEO 185 Plus install walkthrough), RLmNoqio8lQ (NEO 185 installation and review); channels not confirmed, labelled as third-party
-* **Status:** built 2026-10-05
+* **Status:** published 2026-10-05 → https://acts39.blogspot.com/2026/10/best-bidet-2026.html
