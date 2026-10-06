@@ -56,7 +56,9 @@ jobs:
           for label, needle in [("IMAGE SLOT boxes", "IMAGE SLOT"), ("(paid link) labels", "(paid link)"),
                                 ('"From the reviews:" labels', "From the reviews:"),
                                 ('"What owners and testers say:" labels', "What owners and testers say:"),
-                                ("More guides block", 'id="more-guides"'), ("Updated October 5, 2026", "Updated October 5, 2026")]:
+                                ("More guides block", 'id="more-guides"'), ("Updated October 5, 2026", "Updated October 5, 2026"),
+                                ("link cards", 'class="vp-lc"'), ("card grids", 'class="vp-cards'), ("pick cards", 'class="vp-card"'),
+                                ("phone card rules in the style block", ".vp-guides{grid-template-columns:1fr 1fr!important}")]:
               print(f"{label}: {page.count(needle)}")
           for kind in ("default", "summary"):
               st, feed = get(f"https://acts39.blogspot.com/feeds/posts/{kind}?alt=json&max-results=25")
