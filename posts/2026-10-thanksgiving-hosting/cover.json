@@ -1,26 +1,28 @@
 {
-  "hero": "thanksgiving-hosting",
-  "title_size": 66,
-  "title": [
-    "Thanksgiving kit:",
-    "WRITE: line two",
-    "WRITE: line three"
-  ],
-  "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
-  ],
-  "footer": "Product of the day · Thanksgiving hosting essentials: the kitchen tools worth buying before the big day · Verdict Picks",
-  "alt": "Thanksgiving hosting essentials: the kitchen tools worth buying before the big day: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
-  "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
-  ],
-  "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
-  "style": "bright",
-  "products": [
-    "thanksgiving-hosting"
-  ]
+ "hero": "thermopop",
+ "title_size": 64,
+ "title": [
+  "Thanksgiving kit:",
+  "7 tools worth it",
+  "and what to skip"
+ ],
+ "subtitle": [
+  "What America's Test Kitchen and the USDA say",
+  "you need to host Thanksgiving, with the",
+  "week-before timeline and leftovers deadline."
+ ],
+ "footer": "Buying guide · Thanksgiving hosting essentials 2026 · Verdict Picks",
+ "alt": "Thanksgiving hosting essentials 2026: seven kitchen tools worth buying, what to skip, and the thaw-to-leftovers timeline for November 26 (Verdict Picks)",
+ "pin": [
+  "The one tool that tells you the turkey is done",
+  "Start thawing by Saturday, Nov 21",
+  "Leftovers: eat or freeze by Sunday, Nov 29"
+ ],
+ "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
+ "style": "bright",
+ "products": [
+  "thermapen",
+  "roaster",
+  "knife"
+ ]
 }

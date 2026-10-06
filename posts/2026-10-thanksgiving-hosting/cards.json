@@ -1,35 +1,203 @@
 {
-  "category": "generic",
-  "buy_title": "The exact Thanksgiving kit to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "thanksgiving-hosting",
-      "category": "generic",
-      "name": "Thanksgiving hosting essentials: the kitchen tools worth buying before the big day",
-      "short": "Thanksgiving kit",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "flat",
-        "body": "#8A8F98",
-        "accent": "#C9781B"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=thanksgiving+hosting+kitchen+essentials&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The kit to order, in the order to buy it",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide are bands or non-Amazon figures with their source; the button shows today's price.",
+ "cards": [
+  {
+   "id": "thermopop",
+   "category": "generic",
+   "name": "ThermoWorks ThermoPop 2 (instant-read thermometer)",
+   "short": "ThermoPop 2",
+   "badge": "Our first pick · the tool that decides if the turkey is safe",
+   "chip": "about 3-second reads · backlit · under $50",
+   "art": {
+    "shape": "bottle",
+    "body": "#C0392B",
+    "accent": "#C9781B"
+   },
+   "price": "Under $50 (about $39 at ThermoWorks, per a search summary on October 6, 2026; we could not open the page)",
+   "buy_if": "you want the one tool America's Test Kitchen's testers named as the budget pick and the USDA says you need: a real temperature, not a pop-up timer.",
+   "skip_if": "you will carve and cook a lot all year and want the faster Thermapen ONE, or you already own a good instant-read.",
+   "owners": "We could not open owner pages this run. Forum posters we saw in search summaries praise the faster Thermapen ONE and report occasional erratic readings after about a year on some units.",
+   "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2+thermometer&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "ThermoPop 2 (the budget instant-read ATK's testers named).",
+    "check": "Sold by ThermoWorks or Amazon itself; a genuine unit carries the ThermoWorks name on the body; test it in ice water (32°F) before the big day.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "thermapen",
+   "category": "generic",
+   "name": "ThermoWorks Thermapen ONE",
+   "short": "Thermapen ONE",
+   "badge": "The splurge · the fastest reader ATK tested",
+   "chip": "about 1-second reads · backlit",
+   "art": {
+    "shape": "bottle",
+    "body": "#2C3E50",
+    "accent": "#C0392B"
+   },
+   "price": "About $100–$125 (list prices differ between sources we saw; check ThermoWorks's own page)",
+   "buy_if": "you roast, grill and bake all year and will use it weekly.",
+   "skip_if": "you only cook one big bird a year: the ThermoPop 2 does the same job a couple of seconds slower.",
+   "owners": "Forum posters in search summaries say the speed and the backlight are worth it; some report flickering screens or failure around a year.",
+   "cta": "https://www.amazon.com/s?k=ThermoWorks+Thermapen+ONE&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "Thermapen ONE.",
+    "check": "Buy from ThermoWorks or Amazon itself; check the warranty terms on ThermoWorks's page before you rely on a number.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "roaster",
+   "category": "generic",
+   "name": "Cuisinart MultiClad Pro Triple Ply 16-inch Roasting Pan with Rack",
+   "short": "Cuisinart 16-in roaster",
+   "badge": "America's Test Kitchen's pick · holds a 19-pound turkey",
+   "chip": "stainless · flat bottom · rack included",
+   "art": {
+    "shape": "flat",
+    "body": "#A9B0B8",
+    "accent": "#C9781B"
+   },
+   "price": "Roughly $100–$200 depending on the store and sale (non-Amazon sources we saw in October 2026; dates unverified)",
+   "buy_if": "you roast a big bird once a year and want a pan that also makes pan gravy on the stovetop.",
+   "skip_if": "you cook for four or fewer and a 12–14 inch pan will do, or a disposable pan at $5 is fine.",
+   "owners": "Retailer-page snippets we saw were positive; we found no owner failure data. Cook's Illustrated reportedly dropped All-Clad over warping.",
+   "cta": "https://www.amazon.com/s?k=Cuisinart+MultiClad+Pro+Triple+Ply+16+inch+roasting+pan+with+rack&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "16-inch with rack (the size ATK tested).",
+    "check": "Check the pan fits your oven (width, with the handles) before you order; measure the oven rack gap.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "knife",
+   "category": "generic",
+   "name": "Black+Decker ComfortGrip 9-inch Electric Knife",
+   "short": "Black+Decker electric knife",
+   "badge": "ATK's electric-knife winner · quiet and cheap",
+   "chip": "9-inch blade · rounded handle · button underneath",
+   "art": {
+    "shape": "flat",
+    "body": "#F4F4F2",
+    "accent": "#C0392B"
+   },
+   "price": "Under $50 (a band; the Walmart prices we saw for rival electric knives were $33–$40 in October 2026, dates unverified)",
+   "buy_if": "you carve for 8 or more and would rather slice skin-on turkey fast than fuss with a chef's knife.",
+   "skip_if": "you carve once a year for four people: a sharp chef's or slicing knife is enough.",
+   "owners": "We found no owner data for this model this run. ATK's testers liked it for being the quietest in their test.",
+   "cta": "https://www.amazon.com/s?k=Black+Decker+ComfortGrip+9+inch+electric+knife&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "ComfortGrip 9-inch.",
+    "check": "Check the model number against ATK's pick; the runner-up in the same test was a Hamilton Beach set with a fork and case.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "separator",
+   "category": "generic",
+   "name": "OXO Good Grips Good Gravy Fat Separator (4-cup)",
+   "short": "OXO fat separator",
+   "badge": "ATK's fat-separator winner · a $15–25 gravy fixer",
+   "chip": "4-cup · bottom-draining",
+   "art": {
+    "shape": "bottle",
+    "body": "#E8E8E3",
+    "accent": "#1E8E5A"
+   },
+   "price": "Under $30 (OXO's 2-cup was about $18 at Walmart per a search summary; dates unverified)",
+   "buy_if": "you make gravy from pan drippings and hate skimming with a spoon.",
+   "skip_if": "you make gravy from a packet or a jar.",
+   "owners": "We found no owner data for this model this run.",
+   "cta": "https://www.amazon.com/s?k=OXO+Good+Grips+Good+Gravy+fat+separator+4+cup&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "4-cup (the size ATK tested).",
+    "check": "Measure the drippings first; a 2-cup is small for a 16-pound turkey.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "slowcooker",
+   "category": "generic",
+   "name": "Hamilton Beach Temp Tracker 6-quart Slow Cooker",
+   "short": "Hamilton Beach Temp Tracker",
+   "badge": "ATK's slow-cooker pick · frees the oven for the turkey",
+   "chip": "6-quart · temperature probe · lockable lid",
+   "art": {
+    "shape": "cylinder",
+    "body": "#5E6A73",
+    "accent": "#C9781B"
+   },
+   "price": "Under $100 (a band; we did not verify current retail prices)",
+   "buy_if": "you need a side dish to stay hot without taking an oven rack: mashed potatoes, stuffing, green bean casserole.",
+   "skip_if": "you have a second oven, or you serve sides straight from the stove.",
+   "owners": "We found no owner data for this model this run.",
+   "cta": "https://www.amazon.com/s?k=Hamilton+Beach+Temp+Tracker+6+quart+slow+cooker&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "6-quart Temp Tracker.",
+    "check": "Hold hot food at 140°F or above (USDA's danger zone is 40–140°F).",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "containers",
+   "category": "generic",
+   "name": "Rubbermaid Brilliance Food Storage Containers (10-piece plastic set)",
+   "short": "Rubbermaid Brilliance",
+   "badge": "ATK's winner for plastic containers · leftovers sorted",
+   "chip": "10 pieces · leak-proof lids",
+   "art": {
+    "shape": "box",
+    "body": "#EDEFF2",
+    "accent": "#2B6CB0"
+   },
+   "price": "About $14–$18 at Target and Walmart for the 10-piece set per search summaries in October 2026 (dates unverified); Costco's 16-piece was reported at $29.99 in store",
+   "buy_if": "you host and send leftover plates home, or you want a stack of lids that match.",
+   "skip_if": "you want glass for the microwave and oven: ATK's glass winner is the Rubbermaid Brilliance Glass 9-piece.",
+   "owners": "Owner snippets we saw say the lids or glass can crack; our research could not open the pages to count how often.",
+   "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+food+storage+containers+10+piece&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Also worth it",
+    "pick": "10-piece plastic set.",
+    "check": "Check that the set includes the sizes you need; the lids are the part that wears out first.",
+    "label": "See today's price"
+   }
+  }
+ ]
 }

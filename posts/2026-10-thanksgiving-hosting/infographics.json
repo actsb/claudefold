@@ -1,84 +1,84 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The Thanksgiving kit in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
-    ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
-    ]
-  }
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Thanksgiving week, in order",
+  "sub": "From thaw to leftovers for a Thursday, November 26 dinner",
+  "footer": "Sources: USDA FSIS thaw and leftovers guidance; University of Illinois Extension on thermometer placement. Dates are our arithmetic for 2026.",
+  "items": [
+   {
+    "head": "Sat Nov 21: start thawing",
+    "body": "16–20 lb bird: 4–5 days in the fridge (FSIS)."
+   },
+   {
+    "head": "Mon Nov 23: shop",
+    "body": "Roaster, thermometer, containers in hand;."
+   },
+   {
+    "head": "Wed Nov 25: test and prep",
+    "body": "Ice-water check the thermometer; make gravy base."
+   },
+   {
+    "head": "Thu Nov 26: roast",
+    "body": "325°F oven; probe thigh, wing, breast to 165°F."
+   },
+   {
+    "head": "Thu Nov 26: serve",
+    "body": "Hot food at 140°F or above; put leftovers away within 2 hours."
+   },
+   {
+    "head": "Sun Nov 29: last day",
+    "body": "Eat or freeze leftovers by day 3–4 (FSIS: 3–4 days)."
+   }
+  ]
+ },
+ {
+  "type": "stores",
+  "name": "stores",
+  "title": "Where to buy, and when Amazon is not the cheapest",
+  "sub": "October 2026: what search summaries showed; the buttons show today's price",
+  "footer": "Return windows as reported in search summaries on October 6, 2026; check each store's policy before you buy.",
+  "rows": [
+   {
+    "store": "Amazon",
+    "price": "The button shows today's",
+    "ship": "Prime where eligible",
+    "returns": "Check the listing",
+    "note": "Easiest for the whole kit in one cart",
+    "verdict": "win"
+   },
+   {
+    "store": "Walmart",
+    "price": "Often lowest on knives, containers",
+    "ship": "Pickup",
+    "returns": "90 days reported",
+    "note": "Good for containers and chairs",
+    "verdict": "ok"
+   },
+   {
+    "store": "Target",
+    "price": "Close on containers",
+    "ship": "Pickup",
+    "returns": "90 days reported",
+    "note": "Circle Deal Days overlap Oct 6–7",
+    "verdict": "ok"
+   },
+   {
+    "store": "Costco",
+    "price": "Bulk container sets",
+    "ship": "In store",
+    "returns": "Wide window reported",
+    "note": "Members only",
+    "verdict": "ok"
+   },
+   {
+    "store": "ThermoWorks",
+    "price": "List price; sales through the year",
+    "ship": "Direct",
+    "returns": "30 days reported",
+    "note": "Where the thermometers come from",
+    "verdict": "ok"
+   }
+  ]
+ }
 ]

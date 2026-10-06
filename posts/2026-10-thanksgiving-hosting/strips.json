@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "thermopop",
+   "title": "Thanksgiving week — in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "thanksgiving-hosting",
-      "title": "A day with the Thanksgiving kit — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Sat Nov 21 — thaw",
+     "text": "A 16–20 lb turkey needs 4–5 days in the fridge. Put it in now, on a tray.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Wed Nov 25 — test",
+     "text": "Check the thermometer in ice water. It should read 32°F."
+    },
+    {
+     "glyph": "warning",
+     "head": "Thu Nov 26 — probe",
+     "text": "Thigh, wing and breast, 165°F. Pop-up timers pop late."
+    },
+    {
+     "glyph": "sun",
+     "head": "Fri Nov 27 — leftovers",
+     "text": "Out of the fridge within two hours at dinner, eaten or frozen by Sunday.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

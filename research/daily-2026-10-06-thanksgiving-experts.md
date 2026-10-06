@@ -67,7 +67,7 @@ Thanksgiving 2026 = Nov 26. Research limits: WebFetch was EGRESS_BLOCKED for fsi
 - Stuffing/casserole 165F; oven no lower than 325F.
 - Thaw (USDA): fridge about 24 h per 4-5 lb; cold water about 30 min per lb; thawed turkey 1-2 days in fridge.
 - Leftovers: out no more than 2 h (1 h above 90F); fridge 3-4 days; freezer 3-4 months for quality; reheat 165F.
-- Timeline for Nov 26, 2026 (compute): a 16-20 lb bird needs 4-5 days fridge thaw, so start by Sat Nov 21 (Mon Nov 21 is wrong; Nov 21, 2026 is a Saturday - verify with calendar before publishing). 3-4 day leftover limit from Thu Nov 26 dinner = through Mon Nov 30 (matches a YouTube news-clip claim, UNVERIFIED).
+- Timeline (computed; Nov 26, 2026 is a Thursday): a 16-20 lb bird needs 4-5 days fridge thaw, so start Saturday Nov 21 at the latest (Sunday Nov 22 for 12-16 lb). 3-4 day fridge limit from Thursday dinner = Sunday Nov 29 to Monday Nov 30 (a YouTube news clip claims Monday; UNVERIFIED).
 
 ## 2. YouTube (IDs copied from search-result URLs; channel UNVERIFIED unless stated; none were opened, so duration/date unknown; embed = candidate needs a manual check that embedding is enabled)
 
