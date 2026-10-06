@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="ThermoWorks ThermoPop 2 (instant-read thermometer) (product render)">
+<defs>
+<radialGradient id="cthermopop-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cthermopop-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cthermopop-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cthermopop-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cthermopop-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#d65548"/><stop offset="0.55" stop-color="#C0392B"/><stop offset="1" stop-color="#9a2e23"/></linearGradient>
+<linearGradient id="cthermopop-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a73225"/><stop offset="1" stop-color="#6d2018"/></linearGradient>
+<linearGradient id="cthermopop-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e38b82"/><stop offset="1" stop-color="#d24637"/></linearGradient>
+<radialGradient id="cthermopop-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#e1847a"/><stop offset="0.6" stop-color="#C0392B"/><stop offset="1" stop-color="#86281e"/></radialGradient>
+<linearGradient id="cthermopop-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cthermopop-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cthermopop-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cthermopop-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e79e4a"/><stop offset="1" stop-color="#935814"/></linearGradient>
+<linearGradient id="cthermopop-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cthermopop-bg)"/><ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#cthermopop-blur)"/>
+<rect x="240" y="120" width="120" height="196" rx="34" fill="url(#cthermopop-front)"/><rect x="266" y="88" width="68" height="46" rx="12" fill="#43140f"/><rect x="270" y="100" width="60" height="6" rx="3" fill="#e1847a" opacity="0.6"/><rect x="254" y="190" width="92" height="52" rx="8" fill="#C9781B"/><rect x="266" y="204" width="58" height="7" rx="3.5" fill="#fff" opacity="0.75"/><rect x="266" y="218" width="40" height="6" rx="3" fill="#fff" opacity="0.45"/><rect x="254" y="132" width="10" height="150" rx="5" fill="#fff" opacity="0.18"/>
+<rect x="430" y="300" width="70" height="18" rx="6" fill="#C9781B"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>
+</svg>

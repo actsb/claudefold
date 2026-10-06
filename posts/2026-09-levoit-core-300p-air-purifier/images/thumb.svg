@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Levoit Core 300-P Air Purifier (product render)">
+<defs>
+<radialGradient id="clevoit300-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="clevoit300-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="clevoit300-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="clevoit300-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="clevoit300-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#F1F1EF"/><stop offset="1" stop-color="#dcdcd7"/></linearGradient>
+<linearGradient id="clevoit300-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3e3df"/><stop offset="1" stop-color="#c1c1b9"/></linearGradient>
+<linearGradient id="clevoit300-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#ffffff"/></linearGradient>
+<radialGradient id="clevoit300-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.6" stop-color="#F1F1EF"/><stop offset="1" stop-color="#d0d0c9"/></radialGradient>
+<linearGradient id="clevoit300-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="clevoit300-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="clevoit300-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="clevoit300-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bcd82"/><stop offset="1" stop-color="#135b3a"/></linearGradient>
+<linearGradient id="clevoit300-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#clevoit300-bg)"/><ellipse cx="300" cy="330" rx="150" ry="16" fill="#000" opacity="0.28" filter="url(#clevoit300-blur)"/>
+<defs><pattern id="clevoit300-holes" width="13" height="13" patternUnits="userSpaceOnUse"><circle cx="6.5" cy="6.5" r="2.2" fill="#8d8d7d" opacity="0.5"/></pattern><linearGradient id="clevoit300-shell" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#cbcbc3"/><stop offset="0.3" stop-color="#ffffff"/><stop offset="0.7" stop-color="#F1F1EF"/><stop offset="1" stop-color="#bdbdb3"/></linearGradient></defs>
+<ellipse cx="300" cy="318" rx="84" ry="17" fill="#a5a598"/>
+<rect x="216" y="102" width="168" height="216" fill="url(#clevoit300-shell)"/>
+<rect x="216" y="158" width="168" height="160" fill="url(#clevoit300-holes)"/>
+<path d="M 216 318 A 84 17 0 0 0 384 318" fill="#d4d4ce" opacity="0.55"/>
+<path d="M 216 158 A 84 17 0 0 0 384 158" fill="none" stroke="#bdbdb3" stroke-width="1.6" opacity="0.8"/>
+<ellipse cx="300" cy="102" rx="84" ry="17" fill="#ffffff"/>
+<ellipse cx="300" cy="102" rx="72" ry="14" fill="#e3e3df"/>
+<ellipse cx="300" cy="102" rx="64" ry="11.5" fill="none" stroke="#9b9b8d" stroke-width="2.2" opacity="0.7"/>
+<ellipse cx="300" cy="102" rx="52" ry="9.4" fill="none" stroke="#9b9b8d" stroke-width="2.2" opacity="0.7"/>
+<ellipse cx="300" cy="102" rx="40" ry="7.2" fill="none" stroke="#9b9b8d" stroke-width="2.2" opacity="0.7"/>
+<ellipse cx="300" cy="102" rx="28" ry="5.0" fill="none" stroke="#9b9b8d" stroke-width="2.2" opacity="0.7"/>
+<ellipse cx="300" cy="102" rx="14" ry="3" fill="#929282" opacity="0.7"/>
+<rect x="262" y="111" width="76" height="30" rx="15" fill="#e0e0dc"/>
+<circle cx="300" cy="126" r="9" fill="none" stroke="#1E8E5A" stroke-width="2.6"/><line x1="300" y1="116" x2="300" y2="126" stroke="#1E8E5A" stroke-width="2.6" stroke-linecap="round"/>
+<circle cx="277" cy="126" r="3" fill="#9e9e90"/><circle cx="323" cy="126" r="3" fill="#9e9e90"/>
+<rect x="230" y="128" width="14" height="162" rx="7" fill="#fff" opacity="0.26"/>
+<path d="M 268 76 q 12 -18 30 -8 q 10 -18 30 -6 q 14 -8 24 8" fill="none" stroke="#1E8E5A" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+</svg>

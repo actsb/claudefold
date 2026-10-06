@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Scaffold and build a product-of-the-day post (see daily/README.md).
 
-  python3 scripts/daily_post.py new <key>          # daily/queue.json entry → posts/<date>-<slug>/ + publisher entry, SEO config, hub line, promo and pin drafts
+  python3 scripts/daily_post.py new <key>          # daily/queue.json entry → posts/<date>-<slug>/ + publisher entry, SEO config, hub card, promo and pin drafts
   python3 scripts/daily_post.py build posts/<dir>  # cards, strips, cover, pin, infographics, assemble, SEO layer, build, check, PNGs
 
 Queue entry (daily/queue.json → "queue": [...]):
@@ -114,18 +114,21 @@ def cmd_new(key):
     sc = ROOT / "brand" / "seo-configs.json"; c = json.loads(sc.read_text(encoding="utf-8"))
     c[d.name] = {"updated": long_date, "url": url, "list_name": e["name"], "takeaways": [], "korean": "", "h2": []}
     sc.write_text(json.dumps(c, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    # hub line (draft), promo and pin drafts
-    # the hub page groups guides by cluster: the line goes into the entry's cluster list, else under "More picks"
-    hub = ROOT / "brand" / "pages" / "hub-best-sellers.html"; h = hub.read_text(encoding="utf-8")
+    # hub card (draft), promo and pin drafts
+    # the hub page groups guides by cluster as cards, two or three to a row: the card goes first in the entry's cluster grid,
+    # else under "More picks"; its one line (the card's highlight) is a WRITE marker until the post is written
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import site_index
+    hub = site_index.HUB; h = hub.read_text(encoding="utf-8")
     text = e["name"] if roundup else f'{e["name"]} review'
-    line = f'<li style="margin-bottom:.6em;"><a href="{url.replace("https://acts39.blogspot.com", "")}" style="color:#1B2A41;font-weight:700;">{text}</a> — WRITE: one line on who it is for and the verdict (no Amazon ratings, counts or prices).</li>\n'
+    line = site_index.hub_card(key, text, "WRITE: one line on who it is for and the verdict (no Amazon ratings, counts or prices).") + "\n"
     cluster = e.get("cluster") or "more"
     anchor = f"<!--CLUSTER:{cluster}-->\n"
     if anchor not in h:   # first guide of a new cluster: open its section
         title = CLUSTER_TITLES.get(cluster, cluster.capitalize())
         section = (f'<h3 style="color:#1B2A41;font-size:1.25em;margin:1.3em 0 .3em;">{title}</h3>\n'
                    f'<p>WRITE: one or two sentences on what this section covers and how we choose.</p>\n'
-                   f'<ul style="padding-left:22px;">\n{anchor}</ul>\n')
+                   + site_index.grid_open() + f"\n{anchor}</div>\n")
         assert "<!--NEW-SECTIONS-->" in h, "hub anchor not found"
         h = h.replace("<!--NEW-SECTIONS-->", section + "<!--NEW-SECTIONS-->", 1)
     hub.write_text(h.replace(anchor, anchor + line, 1), encoding="utf-8")
@@ -148,6 +151,9 @@ def cmd_build(post_dir):
     d = ROOT / post_dir
     for s in ("product_cards.py", "story_strip.py", "make_cover.py", "make_pin.py", "daily_infographic.py"):
         run("python3", ROOT / "scripts" / s, d)
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import link_cards
+    link_cards.write_thumb(d)          # images/thumb.svg: this guide's picture on cards elsewhere (More guides, the hub)
     run("python3", ROOT / "scripts" / "assemble_post.py", d)
     cfg = json.loads((ROOT / "brand" / "seo-configs.json").read_text(encoding="utf-8"))
     if d.name in cfg:

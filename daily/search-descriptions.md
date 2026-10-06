@@ -11,6 +11,7 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
 ## Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)
+
 https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html
 
 ```text
@@ -18,6 +19,7 @@ Thanksgiving 2026 kit: the thermometer to buy first, 6 more tools the experts ba
 ```
 
 ## Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?
+
 https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html
 
 ```text

@@ -1,5 +1,38 @@
 [
  {
+  "key": "thanksgiving-hosting",
+  "title": "Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)",
+  "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
+  "description": "Thanksgiving 2026 kit: the thermometer to buy first, 6 more tools the experts back, when to start thawing (Nov 21) and when leftovers must go.",
+  "labels": [
+   "Kitchen",
+   "Thanksgiving",
+   "Hosting",
+   "Buying Guide",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "blurb": "Who it is for: anyone hosting Thanksgiving on November 26. The verdict: buy the thermometer first, then the pan, knife and gravy tools only if you host 8 or more.",
+  "updated": "October 6, 2026"
+ },
+ {
+  "key": "instant-pot-duo",
+  "title": "Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?",
+  "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html",
+  "description": "Instant Pot Duo 6-quart review: what owners and test kitchens say, the model-number trap, 1½-cup liquid rule and when a sale is worth it.",
+  "labels": [
+   "Kitchen",
+   "Best Sellers",
+   "Review",
+   "Under $100",
+   "Amazon Finds",
+   "Product of the Day"
+  ],
+  "dir": "posts/2026-10-instant-pot-duo-6-quart",
+  "blurb": "A proven pressure cooker for rice, beans and chili, best bought on a 30% to 40% off sale; check the model number so you do not get the Duo Plus by mistake.",
+  "updated": "October 5, 2026"
+ },
+ {
   "key": "bidets2026",
   "title": "Best Bidet of 2026: The $50 Attachment Owners Recommend (vs KOHLER PureWash, TUSHY, TOTO)",
   "url": "https://acts39.blogspot.com/2026/10/best-bidet-2026.html",
@@ -12,7 +45,9 @@
    "Under $50",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-10-best-bidet-2026"
+  "dir": "posts/2026-10-best-bidet-2026",
+  "blurb": "Why the LUXE NEO 185 comes first, how the KOHLER PureWash M100 and M300 compare, what installation really costs, and what unhappy owners report.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "beckham-pillows",
@@ -28,7 +63,9 @@
    "Amazon Finds",
    "Product of the Day"
   ],
-  "dir": "posts/2026-10-beckham-hotel-collection-pillows"
+  "dir": "posts/2026-10-beckham-hotel-collection-pillows",
+  "blurb": "Plush and inexpensive for back and light side sleepers, and an honest look at how long they keep their loft.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "noco-gb40",
@@ -44,7 +81,9 @@
    "Amazon Finds",
    "Product of the Day"
   ],
-  "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter"
+  "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+  "blurb": "A 2.4-pound glovebox jump starter for gas engines up to 6.0 liters, and the one habit that keeps it ready when you need it.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "ocedar-mop",
@@ -59,7 +98,9 @@
    "Amazon Finds",
    "Product of the Day"
   ],
-  "dir": "posts/2026-10-o-cedar-easywring-spin-mop"
+  "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
+  "blurb": "The foot-pedal wringer for sealed hard floors, what replacement heads cost in a year, and the handle that is its known weak spot.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "bedsure-throw",
@@ -75,7 +116,9 @@
    "Amazon Finds",
    "Product of the Day"
   ],
-  "dir": "posts/2026-10-bedsure-heated-blanket-throw"
+  "dir": "posts/2026-10-bedsure-heated-blanket-throw",
+  "blurb": "A cent or two an hour to run, who it suits, and the 2023 recall check to do before you use an older one.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "levoit300",
@@ -92,7 +135,9 @@
    "Amazon Finds",
    "Product of the Day"
   ],
-  "dir": "posts/2026-09-levoit-core-300p-air-purifier"
+  "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+  "blurb": "A quiet purifier sized for one bedroom, and why the filter, not the machine, is the real price.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "aivideo",
@@ -113,7 +158,9 @@
    "ElevenLabs",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video"
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "blurb": "The plan-stills-video workflow, the ten-minute setup, what a 15-second clip costs in credits, and the US rules for AI ads.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "dogs",
@@ -135,7 +182,9 @@
    "Amazon vs Chewy",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-dog-essentials-on-amazon"
+  "dir": "posts/2026-09-dog-essentials-on-amazon",
+  "blurb": "The no-pull harness, KONG Classic and poop bags worth the money, and how Amazon compares with Chewy, Walmart and Temu.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "pets",
@@ -157,7 +206,8 @@
    "Under $100",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-best-pet-products-on-amazon"
+  "dir": "posts/2026-09-best-pet-products-on-amazon",
+  "blurb": "A hair roller, a grooming vacuum and a robot litter box at three budgets, what each costs to run, and how to spot fakes."
  },
  {
   "key": "prime-days",
@@ -176,7 +226,9 @@
    "Price Tracking",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-prime-big-deal-days-2026"
+  "dir": "posts/2026-09-prime-big-deal-days-2026",
+  "blurb": "October 6–7: the price band that makes each deal real, and the five traps to skip.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "power-stations",
@@ -196,7 +248,8 @@
    "Solar",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-best-portable-power-stations"
+  "dir": "posts/2026-09-best-portable-power-stations",
+  "updated": "October 5, 2026"
  },
  {
   "key": "bissell",
@@ -215,7 +268,9 @@
    "Bissell",
    "Stain Removal"
   ],
-  "dir": "posts/2026-09-bissell-little-green"
+  "dir": "posts/2026-09-bissell-little-green",
+  "blurb": "What the viral spot cleaner really lifts out of couches, car seats and pet stains, where it falls short, and Mini vs classic.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "owala",
@@ -234,7 +289,9 @@
    "Fitness",
    "Gifts"
   ],
-  "dir": "posts/2026-09-owala-freesip"
+  "dir": "posts/2026-09-owala-freesip",
+  "blurb": "Why the sip-or-chug lid wins, which size fits a cup holder, and the two-minute habit that keeps the gasket clean.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "airtag",
@@ -253,7 +310,9 @@
    "Find My",
    "Smart Home"
   ],
-  "dir": "posts/2026-09-apple-airtag-2"
+  "dir": "posts/2026-09-apple-airtag-2",
+  "blurb": "Louder, finds things farther away and works with Apple Watch: who should buy the 4-pack and who should skip it.",
+  "updated": "October 5, 2026"
  },
  {
   "key": "glasses",
@@ -272,7 +331,8 @@
    "Privacy",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-best-smart-glasses"
+  "dir": "posts/2026-09-best-smart-glasses",
+  "updated": "October 5, 2026"
  },
  {
   "key": "earbuds",
@@ -291,7 +351,8 @@
    "Tech Gifts",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-best-wireless-earbuds"
+  "dir": "posts/2026-09-best-wireless-earbuds",
+  "updated": "October 5, 2026"
  },
  {
   "key": "robot-vacuums",
@@ -312,6 +373,8 @@
    "Smart Home",
    "Amazon Finds"
   ],
-  "dir": "posts/2026-09-best-robot-vacuums"
+  "dir": "posts/2026-09-best-robot-vacuums",
+  "blurb": "One pick for every kind of home, from pets and thick carpet to small apartments, plus the first-week setup that prevents most complaints.",
+  "updated": "October 5, 2026"
  }
 ]
