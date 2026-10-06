@@ -170,6 +170,7 @@ POSTS = {
     },
     "thanksgiving-hosting": {
         "dir": "posts/2026-10-thanksgiving-hosting",
+        "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
         "title": "Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)",
         "slug_title": "Thanksgiving Hosting Essentials",
         "labels": ["Kitchen", "Thanksgiving", "Hosting", "Buying Guide", "Amazon Finds"],
