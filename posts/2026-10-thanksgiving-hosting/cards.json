@@ -1,0 +1,35 @@
+{
+  "category": "generic",
+  "buy_title": "The exact Thanksgiving kit to order, and what to check on the listing",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "cards": [
+    {
+      "id": "thanksgiving-hosting",
+      "category": "generic",
+      "name": "Thanksgiving hosting essentials: the kitchen tools worth buying before the big day",
+      "short": "Thanksgiving kit",
+      "badge": "WRITE: category · why it is the value pick",
+      "chip": "WRITE: three spec words",
+      "art": {
+        "shape": "flat",
+        "body": "#8A8F98",
+        "accent": "#C9781B"
+      },
+      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
+      "buy_if": "WRITE: who it is for",
+      "skip_if": "WRITE: who should skip it and what to buy instead",
+      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
+      "cta": "https://www.amazon.com/s?k=thanksgiving+hosting+kitchen+essentials&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "WRITE: exact variant/size/colour",
+        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "label": "See today's price"
+      }
+    }
+  ]
+}

@@ -168,6 +168,12 @@ POSTS = {
         "slug_title": "Instant Pot Duo 6 Quart Review 2026",
         "labels": ["Kitchen", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
     },
+    "thanksgiving-hosting": {
+        "dir": "posts/2026-10-thanksgiving-hosting",
+        "title": "Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)",
+        "slug_title": "Thanksgiving Hosting Essentials",
+        "labels": ["Kitchen", "Thanksgiving", "Hosting", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
