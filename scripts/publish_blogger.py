@@ -175,6 +175,12 @@ POSTS = {
         "slug_title": "Thanksgiving Hosting Essentials",
         "labels": ["Kitchen", "Thanksgiving", "Hosting", "Buying Guide", "Amazon Finds"],
     },
+    "redtiger-f7np": {
+        "dir": "posts/2026-10-redtiger-f7np-dash-cam",
+        "title": "REDTIGER F7NP Dash Cam Review 2026: Is a 4K Front-and-Rear Cam Worth It?",
+        "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
+        "labels": ["Car", "Tech", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

@@ -1,972 +1,974 @@
 {
-  "queue": [
-    {
-      "key": "levoit300",
-      "slug": "levoit-core-300p-air-purifier",
-      "date": "2026-09-27",
-      "status": "published",
-      "name": "Levoit Core 300-P Air Purifier",
-      "short": "Levoit Core 300-P",
-      "category": "purifier",
-      "art": {
-        "body": "#F1F1EF",
-        "accent": "#1E8E5A"
-      },
-      "search": "Levoit Core 300-P air purifier",
-      "title": "Levoit Core 300-P Review 2026: Still Worth About $90? The Filter Is the Real Price",
-      "slug_title": "Levoit Core 300P Review 2026",
-      "labels": [
-        "Air Purifiers",
-        "Home Comfort",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "Allergies",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6–7",
-      "beats": "Dyson Purifier Cool / Levoit Core 400S",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
-      "dir": "posts/2026-09-levoit-core-300p-air-purifier"
-    },
-    {
-      "key": "bedsure-throw",
-      "slug": "bedsure-heated-blanket-throw",
-      "date": "2026-10-01",
-      "status": "published",
-      "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
-      "short": "Bedsure heated throw",
-      "category": "generic",
-      "art": {
-        "shape": "flat",
-        "body": "#8A8F98",
-        "accent": "#C9781B"
-      },
-      "search": "Bedsure heated blanket electric throw 50x60",
-      "title": "Bedsure Heated Throw Review 2026: The Recall Check, Running Cost and Who It Suits",
-      "slug_title": "Bedsure Heated Throw Review 2026",
-      "labels": [
-        "Home Comfort",
-        "Best Sellers",
-        "Review",
-        "Under $50",
-        "Gifts",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6–7",
-      "beats": "a space heater / a $150 designer throw",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
-      "dir": "posts/2026-10-bedsure-heated-blanket-throw"
-    },
-    {
-      "key": "ocedar-mop",
-      "slug": "o-cedar-easywring-spin-mop",
-      "date": "2026-10-02",
-      "status": "published",
-      "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
-      "short": "O-Cedar spin mop",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#C8102E",
-        "accent": "#2F3A48"
-      },
-      "search": "O-Cedar EasyWring microfiber spin mop bucket",
-      "title": "O-Cedar EasyWring Spin Mop Review 2026: Still Worth About $35 With That Handle?",
-      "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
-      "labels": [
-        "Home Cleaning",
-        "Best Sellers",
-        "Review",
-        "Under $50",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "fall deep-clean, wet-leaf season; cleaning is a Big Deal Days category",
-      "beats": "Swiffer WetJet / a $500 floor washer",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "url": "https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html",
-      "dir": "posts/2026-10-o-cedar-easywring-spin-mop"
-    },
-    {
-      "key": "noco-gb40",
-      "slug": "noco-boost-plus-gb40-jump-starter",
-      "date": "2026-09-30",
-      "status": "published",
-      "name": "NOCO Boost Plus GB40 1000A Jump Starter",
-      "short": "NOCO GB40",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
-      },
-      "search": "NOCO Boost Plus GB40 1000A jump starter",
-      "title": "NOCO GB40 Review 2026: Is the Glovebox Jump Starter Still Worth About $90?",
-      "slug_title": "NOCO GB40 Jump Starter Review 2026",
-      "labels": [
-        "Car",
-        "Tools",
-        "Best Sellers",
-        "Review",
-        "Under $150",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "cold mornings kill marginal batteries; Thanksgiving drives",
-      "beats": "NOCO GB70 / no-name 2000A boxes",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "url": "https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html",
-      "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter"
-    },
-    {
-      "key": "beckham-pillows",
-      "slug": "beckham-hotel-collection-pillows",
-      "date": "2026-10-01",
-      "status": "published",
-      "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
-      "short": "Beckham pillows",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#F4F1EA",
-        "accent": "#1B2A41"
-      },
-      "search": "Beckham Hotel Collection bed pillows queen set of 2",
-      "title": "Beckham Hotel Collection Pillows Review 2026: Plush, Cheap, Not Forever",
-      "slug_title": "Beckham Hotel Pillows Review 2026",
-      "labels": [
-        "Sleep",
-        "Bedding",
-        "Best Sellers",
-        "Review",
-        "Under $50",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "guest room before the holidays; 40–48% off at tentpole sales",
-      "beats": "Coop Home Goods Original",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "url": "https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html",
-      "dir": "posts/2026-10-beckham-hotel-collection-pillows"
-    },
-    {
-      "key": "bidets2026",
-      "slug": "best-bidet-2026",
-      "date": "2026-10-05",
-      "status": "published",
-      "name": "Best bidets of 2026 (LUXE NEO 185 first; KOHLER PureWash, TUSHY, TOTO compared)",
-      "short": "LUXE NEO 185",
-      "category": "bidet",
-      "search": "LUXE Bidet NEO 185",
-      "title": "Best Bidet of 2026: The $50 Attachment Owners Recommend (vs KOHLER PureWash, TUSHY, TOTO)",
-      "slug_title": "Best Bidet 2026",
-      "labels": [
-        "Bathroom",
-        "Bidets",
-        "Buying Guide",
-        "Best Sellers",
-        "Under $50",
-        "Amazon Finds"
-      ],
-      "hook": "owner-requested roundup: KOHLER PureWash M-series vs the value pick; Prime Big Deal Days Oct 6-7",
-      "beats": "KOHLER PureWash M100, TUSHY Classic 3.0",
-      "source": "research/bidets-2026-10.md",
-      "url": "https://acts39.blogspot.com/2026/10/best-bidet-2026.html",
-      "dir": "posts/2026-10-best-bidet-2026"
-    },
-    {
-      "key": "instant-pot-duo",
-      "slug": "instant-pot-duo-6-quart",
-      "date": "2026-10-05",
-      "status": "published",
-      "name": "Instant Pot Duo 6-Quart 7-in-1",
-      "short": "Instant Pot Duo",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#3A4453",
-        "accent": "#C8102E"
-      },
-      "search": "Instant Pot Duo 6 quart 7-in-1 pressure cooker",
-      "title": "Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?",
-      "slug_title": "Instant Pot Duo 6 Quart Review 2026",
-      "labels": [
-        "Kitchen",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "soup and chili season; Thanksgiving sides; a Black Friday regular",
-      "beats": "Instant Pot Duo Crisp / Ninja Foodi",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "cluster": "kitchen",
-      "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html",
-      "dir": "posts/2026-10-instant-pot-duo-6-quart"
-    },
-    {
-      "key": "thanksgiving-hosting",
-      "slug": "thanksgiving-hosting",
-      "date": "2026-10-06",
-      "status": "published",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Thanksgiving hosting essentials: the kitchen tools worth buying before the big day",
-      "short": "Thanksgiving kit",
-      "category": "generic",
-      "art": {
-        "shape": "flat",
-        "body": "#8A8F98",
-        "accent": "#C9781B"
-      },
-      "search": "thanksgiving hosting kitchen essentials",
-      "title": "Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)",
-      "slug_title": "Thanksgiving Hosting Essentials",
-      "labels": [
-        "Kitchen",
-        "Thanksgiving",
-        "Hosting",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "Thanksgiving is Nov 26; search needs 4-6 weeks, so publish by Oct 15",
-      "picks": "roasting pan with rack; instant-read meat thermometer; electric carving knife; fat separator; slow cooker or warming tray for sides; leftovers storage (link the Rubbermaid review once live); extra seating; the after-party clean-up (link the O-Cedar and Bissell reviews)",
-      "cluster": "kitchen",
-      "source": "daily/strategy-2026-10.md",
-      "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
-      "dir": "posts/2026-10-thanksgiving-hosting"
-    },
-    {
-      "key": "redtiger-f7np",
-      "slug": "redtiger-f7np-dash-cam",
-      "date": "2026-10-08",
-      "status": "queued",
-      "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
-      "short": "REDTIGER F7NP",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#1B1B1B",
-        "accent": "#C8102E"
-      },
-      "search": "REDTIGER F7NP 4K dash cam front rear",
-      "title": "REDTIGER F7NP Dash Cam Review 2026: Is a 4K Front-and-Rear Cam Worth It?",
-      "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
-      "labels": [
-        "Car",
-        "Tech",
-        "Best Sellers",
-        "Review",
-        "Under $150",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "clocks change Nov 1, dark commutes, insurance disputes",
-      "beats": "BlackVue DR970X / Garmin 67W",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "cluster": "car"
-    },
-    {
-      "key": "black-friday-home-kitchen",
-      "slug": "black-friday-home-kitchen",
-      "date": "2026-10-09",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-09-prime-big-deal-days-2026",
-      "name": "Black Friday home and kitchen deals: what is worth buying and the price to wait for",
-      "short": "Black Friday home",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#1B2A41",
-        "accent": "#F08A24"
-      },
-      "search": "black friday home kitchen deals",
-      "title": "Black Friday Home and Kitchen Deals 2026: What's Worth Buying and the Price to Wait For",
-      "slug_title": "Black Friday Home and Kitchen Deals",
-      "labels": [
-        "Deals",
-        "Black Friday",
-        "Kitchen",
-        "Home Cleaning",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "Amazon's Black Friday Week is expected about Nov 19-30 and Black Friday is Nov 27; Google advises one URL per event, published well before the sale and refreshed each year",
-      "picks": "our reviewed picks first, each with the price band that makes it a real deal (robot vacuums guide, Levoit Core 300-P, O-Cedar, Bissell Little Green, Beckham pillows, Bedsure throw, LUXE NEO 185, Instant Pot Duo), then 4-6 well-known kitchen and cleaning deals (air fryer, stand mixer, cordless stick vacuum, cookware set); no Amazon prices, bands and percent-off rules only",
-      "cluster": "deals",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "gifts-car-lovers",
-      "slug": "gifts-car-lovers",
-      "date": "2026-10-11",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts for car lovers: useful picks from under $25 to $150",
-      "short": "car gifts",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
-      },
-      "search": "car accessories gifts",
-      "title": "Gifts for Car Lovers 2026: Useful Picks From Under $25 to $150",
-      "slug_title": "Gifts for Car Lovers",
-      "labels": [
-        "Car",
-        "Gifts",
-        "Gift Guide",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift lists start in October; Automotive pays 4.5%",
-      "picks": "NOCO GB40 (link our review); REDTIGER F7NP (link our review once live); a cordless tire inflator; a cordless car vacuum; a trunk organizer; a phone mount; a snow brush and ice scraper; a seat-gap organizer; an LED work light; a roadside emergency kit",
-      "cluster": "car",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "rubbermaid-brilliance",
-      "slug": "rubbermaid-brilliance-food-storage",
-      "date": "2026-10-12",
-      "status": "queued",
-      "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
-      "short": "Rubbermaid Brilliance",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#DCE7F5",
-        "accent": "#C8102E"
-      },
-      "search": "Rubbermaid Brilliance leak proof food storage containers 10 piece",
-      "title": "Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?",
-      "slug_title": "Rubbermaid Brilliance Review 2026",
-      "labels": [
-        "Kitchen",
-        "Storage",
-        "Best Sellers",
-        "Review",
-        "Under $50",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "meal-prep reset; Thanksgiving leftovers",
-      "beats": "Pyrex glass / OXO POP",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "cluster": "kitchen"
-    },
-    {
-      "key": "black-friday-tech-car",
-      "slug": "black-friday-tech-car",
-      "date": "2026-10-13",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-09-prime-big-deal-days-2026",
-      "name": "Black Friday tech and car deals: the ones worth waiting for",
-      "short": "Black Friday tech",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#1B2A41",
-        "accent": "#1E8E5A"
-      },
-      "search": "black friday tech car deals",
-      "title": "Black Friday Tech and Car Deals 2026: The Ones Worth Waiting For",
-      "slug_title": "Black Friday Tech and Car Deals",
-      "labels": [
-        "Deals",
-        "Black Friday",
-        "Car",
-        "Wireless Earbuds",
-        "Power Stations",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "same event as the home and kitchen hub; publish by Oct 20",
-      "picks": "our guides' picks with price bands (wireless earbuds, robot vacuums, power stations, smart glasses, AirTag 2, NOCO GB40, REDTIGER F7NP), plus TVs and soundbars only if the research supports a real verdict; no Amazon prices",
-      "cluster": "deals",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "dreo-heater",
-      "slug": "dreo-space-heater",
-      "date": "2026-10-15",
-      "status": "queued",
-      "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
-      "short": "Dreo space heater",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
-      },
-      "search": "Dreo space heater 1500W oscillating thermostat remote",
-      "title": "Dreo Space Heater Review 2026: How It Compares With Dyson and Vornado",
-      "slug_title": "Dreo Space Heater Review 2026",
-      "labels": [
-        "Home Comfort",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "first heating bill; zone heating one room instead of the house",
-      "beats": "Dyson HP / Vornado VH200",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "cluster": "comfort"
-    },
-    {
-      "key": "gifts-under-50",
-      "slug": "gifts-under-50",
-      "date": "2026-10-16",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts under $50: useful picks people actually keep",
-      "short": "gifts under $50",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#C8102E",
-        "accent": "#1E8E5A"
-      },
-      "search": "gifts under 50 dollars useful",
-      "title": "Gifts Under $50 for 2026: Useful Picks People Actually Keep",
-      "slug_title": "Gifts Under 50",
-      "labels": [
-        "Gifts",
-        "Gift Guide",
-        "Under $50",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift guides should be live by Oct 25",
-      "picks": "our reviewed products under $50 first (Owala FreeSip, AirTag 2 single, ChomChom Roller, KONG Classic, O-Cedar spin mop, Bedsure throw, Beckham pillows, Rubbermaid Brilliance, LUXE NEO 185), then new picks in kitchen, car and home comfort",
-      "cluster": "gifts",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "furhaven-bed",
-      "slug": "furhaven-orthopedic-dog-bed",
-      "date": "2026-10-18",
-      "status": "queued",
-      "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
-      "short": "Furhaven dog bed",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#8B6B43",
-        "accent": "#1E8E5A"
-      },
-      "search": "Furhaven orthopedic sofa dog bed large",
-      "title": "Furhaven Orthopedic Dog Bed Review 2026: How Close Does It Come to a Big Barker?",
-      "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
-      "labels": [
-        "Pets",
-        "Dog Supplies",
-        "Best Sellers",
-        "Review",
-        "Under $60",
-        "For Pet Owners",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "cold floors and stiff joints; a holiday gift for the dog",
-      "beats": "Big Barker / Casper dog bed",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "cluster": "pets"
-    },
-    {
-      "key": "gifts-pet-owners",
-      "slug": "gifts-pet-owners",
-      "date": "2026-10-19",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts for dog and cat owners: picks pets and their people will use",
-      "short": "pet gifts",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#8B6B43",
-        "accent": "#1E8E5A"
-      },
-      "search": "gifts for dog owners cat owners",
-      "title": "Gifts for Dog and Cat Owners 2026: Picks Pets (and Their People) Will Use",
-      "slug_title": "Gifts for Dog and Cat Owners",
-      "labels": [
-        "Pets",
-        "Gifts",
-        "Gift Guide",
-        "For Pet Owners",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift guides should be live by Oct 25",
-      "picks": "link our pet guides first (ChomChom Roller, Neakasa P1 Pro, Litter-Robot 4, Rabbitgoo harness, KONG Classic, Earth Rated bags, Furhaven bed once live), then new picks: a pet camera, a lint-free throw, a car seat cover, a slow feeder, a self-warming bed",
-      "cluster": "pets",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "tire-inflator",
-      "slug": "tire-inflator",
-      "date": "2026-10-21",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Portable tire inflators: which cordless pump is worth it",
-      "short": "tire inflator",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#2F2F2F",
-        "accent": "#F2C230"
-      },
-      "search": "cordless portable tire inflator",
-      "title": "Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?",
-      "slug_title": "Best Portable Tire Inflator 2026",
-      "labels": [
-        "Car",
-        "Tools",
-        "Buying Guide",
-        "Under $100",
-        "Amazon Finds"
-      ],
-      "hook": "cold mornings set off tire-pressure lights; Automotive pays 4.5%",
-      "picks": "three to five cordless inflators chosen by the research (for example AstroAI, Fanttik, EPAuto, Ryobi, DeWalt): fill time from a published test, accuracy, auto-stop, battery; one winner first and last",
-      "cluster": "car",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "cozy-gifts",
-      "slug": "cozy-gifts",
-      "date": "2026-10-22",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Cozy gifts: heated throws, pillows and warm things people actually use",
-      "short": "cozy gifts",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#C9781B",
-        "accent": "#1B2A41"
-      },
-      "search": "cozy gifts heated throw",
-      "title": "Cozy Gifts 2026: Heated Throws, Pillows and Warm Things People Actually Use",
-      "slug_title": "Cozy Gifts",
-      "labels": [
-        "Home Comfort",
-        "Sleep",
-        "Gifts",
-        "Gift Guide",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift guides should be live by Oct 25",
-      "picks": "link our reviews first (Bedsure heated throw, Beckham pillows, Dreo heater once live, Levoit Core 300-P), then new picks: a weighted blanket, a sherpa throw, heated slippers, a mug warmer, a sunrise alarm clock",
-      "cluster": "comfort",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "stocking-stuffers",
-      "slug": "stocking-stuffers",
-      "date": "2026-10-24",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Stocking stuffers under $25: small things that get used",
-      "short": "stocking stuffers",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#1E8E5A",
-        "accent": "#C8102E"
-      },
-      "search": "stocking stuffers under 25",
-      "title": "Stocking Stuffers Under $25 for 2026: Small Things That Get Used",
-      "slug_title": "Stocking Stuffers Under 25",
-      "labels": [
-        "Gifts",
-        "Gift Guide",
-        "Under $25",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "publish by Oct 31; searches peak in December",
-      "picks": "home, car, kitchen and pet small items with a real use: AirTag single, a cable organizer, a jar opener, a microfiber cloth pack, a tire gauge, a lint roller, a silicone spatula set",
-      "cluster": "gifts",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "meat-thermometer",
-      "slug": "meat-thermometer",
-      "date": "2026-10-26",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Instant-read meat thermometers: which one is worth it for Thanksgiving",
-      "short": "meat thermometer",
-      "category": "generic",
-      "art": {
-        "shape": "flat",
-        "body": "#C8102E",
-        "accent": "#F2F2F2"
-      },
-      "search": "instant read meat thermometer",
-      "title": "Best Instant-Read Meat Thermometer 2026: Which One Is Worth It for Thanksgiving?",
-      "slug_title": "Best Instant Read Meat Thermometer 2026",
-      "labels": [
-        "Kitchen",
-        "Thanksgiving",
-        "Buying Guide",
-        "Under $100",
-        "Amazon Finds"
-      ],
-      "hook": "the turkey question; Kitchen pays 4.5%",
-      "picks": "three to five thermometers chosen by the research (for example ThermoPro, ThermoWorks ThermoPop 2 and Thermapen, Lavatools): read speed and accuracy from published tests, water resistance, backlight; one winner first and last",
-      "cluster": "kitchen",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "winter-car-kit",
-      "slug": "winter-car-kit",
-      "date": "2026-10-27",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Winter car emergency kit: what to keep in the trunk",
-      "short": "winter car kit",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#DCE7F5",
-        "accent": "#1B2A41"
-      },
-      "search": "winter car emergency kit",
-      "title": "Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)",
-      "slug_title": "Winter Car Emergency Kit",
-      "labels": [
-        "Car",
-        "Winter",
-        "Emergency Prep",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "publish by Nov 15, before the first storms; cite NHTSA or Ready.gov for the checklist",
-      "picks": "a jump starter (link the NOCO review), a tire inflator (link the inflator guide), a snow brush and ice scraper, a folding shovel, traction mats, a blanket, a flashlight or headlamp, a first-aid kit, a power bank",
-      "cluster": "car",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "gifts-that-arrive",
-      "slug": "gifts-that-arrive",
-      "date": "2026-10-29",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts that still arrive by Christmas: order-by dates and picks",
-      "short": "last-minute gifts",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#C8102E",
-        "accent": "#F2C230"
-      },
-      "search": "gifts that arrive before christmas",
-      "title": "Gifts That Still Arrive by Christmas 2026: Order-By Dates and Picks",
-      "slug_title": "Gifts That Still Arrive by Christmas",
-      "labels": [
-        "Gifts",
-        "Gift Guide",
-        "Christmas",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "carrier cutoffs: USPS Dec 17-19, FedEx Dec 21-23 (USPS release 2026-09-22); publish by Nov 15",
-      "picks": "an order-by box from the carriers' published dates, then picks from our reviews that ship fast, grouped by recipient",
-      "cluster": "gifts",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "gifts-for-dad",
-      "slug": "gifts-for-dad",
-      "date": "2026-10-31",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts for dad: useful picks for every budget",
-      "short": "gifts for dad",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#1B2A41",
-        "accent": "#F08A24"
-      },
-      "search": "gifts for dad useful",
-      "title": "Gifts for Dad 2026: Useful Picks for Every Budget",
-      "slug_title": "Gifts for Dad",
-      "labels": [
-        "Gifts",
-        "Gift Guide",
-        "Car",
-        "Tools",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift guides; link the car, tool and kitchen reviews",
-      "picks": "NOCO GB40, the dash cam, the tire inflator, the meat thermometer, the Instant Pot, AirTag 2, the earbuds guide's picks, plus new tool and grilling picks",
-      "cluster": "gifts",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "gifts-for-mom",
-      "slug": "gifts-for-mom",
-      "date": "2026-11-02",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Gifts for mom: useful picks for every budget",
-      "short": "gifts for mom",
-      "category": "generic",
-      "art": {
-        "shape": "bag",
-        "body": "#C9781B",
-        "accent": "#C8102E"
-      },
-      "search": "gifts for mom useful",
-      "title": "Gifts for Mom 2026: Useful Picks for Every Budget",
-      "slug_title": "Gifts for Mom",
-      "labels": [
-        "Gifts",
-        "Gift Guide",
-        "Home Comfort",
-        "Kitchen",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "gift guides; link the comfort, kitchen and cleaning reviews",
-      "picks": "Bedsure throw, Beckham pillows, Levoit Core 300-P, Owala FreeSip, the Instant Pot, the bidet, the Bissell Little Green, plus new comfort and kitchen picks",
-      "cluster": "gifts",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "meal-prep-tools",
-      "slug": "meal-prep-tools",
-      "date": "2026-11-05",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Meal prep for January: the containers and tools that save time",
-      "short": "meal prep",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#DCE7F5",
-        "accent": "#1E8E5A"
-      },
-      "search": "meal prep containers tools",
-      "title": "Meal Prep Tools 2026: The Containers and Gadgets That Actually Save Time",
-      "slug_title": "Meal Prep Tools",
-      "labels": [
-        "Kitchen",
-        "Meal Prep",
-        "Storage",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "New Year resolutions (eat healthier: 22%, YouGov Dec 2025); publish by Nov 20",
-      "picks": "glass and plastic containers (link the Rubbermaid review), a food scale, a rice cooker or the Instant Pot (link), sheet pans, a salad spinner, labels",
-      "cluster": "kitchen",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "pantry-closet-organizers",
-      "slug": "pantry-closet-organizers",
-      "date": "2026-11-07",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Pantry and closet organizers for Get Organized Month",
-      "short": "organizers",
-      "category": "generic",
-      "art": {
-        "shape": "box",
-        "body": "#F2F2F2",
-        "accent": "#1B2A41"
-      },
-      "search": "pantry closet organizers",
-      "title": "Pantry and Closet Organizers 2026: What Works for Get Organized Month",
-      "slug_title": "Pantry and Closet Organizers",
-      "labels": [
-        "Home",
-        "Storage",
-        "Organization",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "NAPO's Get Organized Month is January; publish by Nov 20",
-      "picks": "clear pantry bins, turntables, shelf risers, drawer dividers, velvet hangers, under-bed storage; what professional organizers recommend, with sources",
-      "cluster": "home",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "cleaning-reset",
-      "slug": "cleaning-reset",
-      "date": "2026-11-09",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "January cleaning reset: the tools that make a deep clean faster",
-      "short": "cleaning reset",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#1E8E5A",
-        "accent": "#F2F2F2"
-      },
-      "search": "deep cleaning tools",
-      "title": "January Cleaning Reset 2026: The Tools That Make a Deep Clean Faster",
-      "slug_title": "January Cleaning Reset",
-      "labels": [
-        "Home Cleaning",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "New Year deep clean; link the robot vacuum, O-Cedar and Bissell reviews; publish by Nov 20",
-      "picks": "a cordless stick vacuum, a steam mop or the O-Cedar (link), the Bissell Little Green (link), a grout brush set, microfiber cloths, a handheld vacuum; one winner per job",
-      "cluster": "cleaning",
-      "source": "daily/strategy-2026-10.md"
-    },
-    {
-      "key": "waterpik-wp660",
-      "slug": "waterpik-aquarius-wp-660",
-      "date": "2026-10-03",
-      "status": "parked",
-      "name": "Waterpik Aquarius WP-660 Water Flosser",
-      "short": "Waterpik Aquarius",
-      "category": "generic",
-      "art": {
-        "shape": "bottle",
-        "body": "#F2F2F2",
-        "accent": "#1E8E5A"
-      },
-      "search": "Waterpik Aquarius WP-660 water flosser",
-      "title": "Waterpik Aquarius WP-660 Review 2026: The Water Flosser Dentists and 120,000 Reviews Agree On",
-      "slug_title": "Waterpik Aquarius WP-660 Review 2026",
-      "labels": [
-        "Personal Care",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "FSA Eligible",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "FSA/HSA use-it-or-lose-it season; Big Deal Days discount history",
-      "beats": "Waterpik Sonic-Fusion / cordless Express",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "note": "parked 2026-10-05: Health & Personal Care pays 1% on Amazon's standard table; outside the clusters"
-    },
-    {
-      "key": "revlon-onestep",
-      "slug": "revlon-one-step-volumizer-plus",
-      "date": "2026-10-07",
-      "status": "parked",
-      "name": "Revlon One-Step Volumizer Plus 2.0",
-      "short": "Revlon One-Step Plus",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#1B1B1B",
-        "accent": "#C8102E"
-      },
-      "search": "Revlon One-Step Volumizer Plus 2.0 hair dryer brush",
-      "title": "Revlon One-Step Volumizer Plus 2.0 Review 2026: The $40 Answer to the Airwrap",
-      "slug_title": "Revlon One-Step Plus Review 2026",
-      "labels": [
-        "Personal Care",
-        "Beauty",
-        "Best Sellers",
-        "Review",
-        "Under $50",
-        "Gifts",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "holiday-party season; 40%+ markdowns at tentpole sales",
-      "beats": "Dyson Airwrap / Shark FlexStyle",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "note": "parked 2026-10-05: beauty/personal care, outside the blog's clusters"
-    },
-    {
-      "key": "mx-master-3s",
-      "slug": "logitech-mx-master-3s",
-      "date": "2026-10-09",
-      "status": "parked",
-      "name": "Logitech MX Master 3S",
-      "short": "MX Master 3S",
-      "category": "generic",
-      "art": {
-        "shape": "sphere",
-        "body": "#3A4453",
-        "accent": "#1E8E5A"
-      },
-      "search": "Logitech MX Master 3S wireless mouse",
-      "title": "Logitech MX Master 3S Review 2026: Better Value Than the MX Master 4",
-      "slug_title": "Logitech MX Master 3S Review 2026",
-      "labels": [
-        "Office",
-        "Tech",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "MX Master 4 launch pushed 3S to its 2026 low",
-      "beats": "Logitech MX Master 4",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "note": "parked 2026-10-05: office tech, outside the blog's clusters"
-    },
-    {
-      "key": "worx-wg520",
-      "slug": "worx-wg520-turbine-600-leaf-blower",
-      "date": "2026-10-10",
-      "status": "parked",
-      "name": "WORX WG520 Turbine 600 Corded Leaf Blower",
-      "short": "WORX Turbine 600",
-      "category": "generic",
-      "art": {
-        "shape": "cylinder",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
-      },
-      "search": "WORX WG520 Turbine 600 corded leaf blower",
-      "title": "WORX WG520 Turbine 600 Review 2026: Gas-Class Airflow for $70, No Gas",
-      "slug_title": "WORX WG520 Leaf Blower Review 2026",
-      "labels": [
-        "Outdoor",
-        "Tools",
-        "Best Sellers",
-        "Review",
-        "Under $100",
-        "Amazon Finds",
-        "Product of the Day"
-      ],
-      "hook": "peak leaf fall mid-to-late October; gutter kit bundle",
-      "beats": "Echo/Stihl gas / EGO 56V",
-      "source": "research/daily-candidates-2026-09-27.md",
-      "note": "parked 2026-10-05: lawn and garden, outside the blog's clusters; revisit for leaf season 2027 if a yard cluster is added"
-    }
-  ]
+ "queue": [
+  {
+   "key": "levoit300",
+   "slug": "levoit-core-300p-air-purifier",
+   "date": "2026-09-27",
+   "status": "published",
+   "name": "Levoit Core 300-P Air Purifier",
+   "short": "Levoit Core 300-P",
+   "category": "purifier",
+   "art": {
+    "body": "#F1F1EF",
+    "accent": "#1E8E5A"
+   },
+   "search": "Levoit Core 300-P air purifier",
+   "title": "Levoit Core 300-P Review 2026: Still Worth About $90? The Filter Is the Real Price",
+   "slug_title": "Levoit Core 300P Review 2026",
+   "labels": [
+    "Air Purifiers",
+    "Home Comfort",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "Allergies",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6–7",
+   "beats": "Dyson Purifier Cool / Levoit Core 400S",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
+   "dir": "posts/2026-09-levoit-core-300p-air-purifier"
+  },
+  {
+   "key": "bedsure-throw",
+   "slug": "bedsure-heated-blanket-throw",
+   "date": "2026-10-01",
+   "status": "published",
+   "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+   "short": "Bedsure heated throw",
+   "category": "generic",
+   "art": {
+    "shape": "flat",
+    "body": "#8A8F98",
+    "accent": "#C9781B"
+   },
+   "search": "Bedsure heated blanket electric throw 50x60",
+   "title": "Bedsure Heated Throw Review 2026: The Recall Check, Running Cost and Who It Suits",
+   "slug_title": "Bedsure Heated Throw Review 2026",
+   "labels": [
+    "Home Comfort",
+    "Best Sellers",
+    "Review",
+    "Under $50",
+    "Gifts",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6–7",
+   "beats": "a space heater / a $150 designer throw",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
+   "dir": "posts/2026-10-bedsure-heated-blanket-throw"
+  },
+  {
+   "key": "ocedar-mop",
+   "slug": "o-cedar-easywring-spin-mop",
+   "date": "2026-10-02",
+   "status": "published",
+   "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+   "short": "O-Cedar spin mop",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#C8102E",
+    "accent": "#2F3A48"
+   },
+   "search": "O-Cedar EasyWring microfiber spin mop bucket",
+   "title": "O-Cedar EasyWring Spin Mop Review 2026: Still Worth About $35 With That Handle?",
+   "slug_title": "O-Cedar EasyWring Spin Mop Review 2026",
+   "labels": [
+    "Home Cleaning",
+    "Best Sellers",
+    "Review",
+    "Under $50",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "fall deep-clean, wet-leaf season; cleaning is a Big Deal Days category",
+   "beats": "Swiffer WetJet / a $500 floor washer",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html",
+   "dir": "posts/2026-10-o-cedar-easywring-spin-mop"
+  },
+  {
+   "key": "noco-gb40",
+   "slug": "noco-boost-plus-gb40-jump-starter",
+   "date": "2026-09-30",
+   "status": "published",
+   "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+   "short": "NOCO GB40",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#2F2F2F",
+    "accent": "#F08A24"
+   },
+   "search": "NOCO Boost Plus GB40 1000A jump starter",
+   "title": "NOCO GB40 Review 2026: Is the Glovebox Jump Starter Still Worth About $90?",
+   "slug_title": "NOCO GB40 Jump Starter Review 2026",
+   "labels": [
+    "Car",
+    "Tools",
+    "Best Sellers",
+    "Review",
+    "Under $150",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "cold mornings kill marginal batteries; Thanksgiving drives",
+   "beats": "NOCO GB70 / no-name 2000A boxes",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html",
+   "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter"
+  },
+  {
+   "key": "beckham-pillows",
+   "slug": "beckham-hotel-collection-pillows",
+   "date": "2026-10-01",
+   "status": "published",
+   "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+   "short": "Beckham pillows",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#F4F1EA",
+    "accent": "#1B2A41"
+   },
+   "search": "Beckham Hotel Collection bed pillows queen set of 2",
+   "title": "Beckham Hotel Collection Pillows Review 2026: Plush, Cheap, Not Forever",
+   "slug_title": "Beckham Hotel Pillows Review 2026",
+   "labels": [
+    "Sleep",
+    "Bedding",
+    "Best Sellers",
+    "Review",
+    "Under $50",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "guest room before the holidays; 40–48% off at tentpole sales",
+   "beats": "Coop Home Goods Original",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "url": "https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html",
+   "dir": "posts/2026-10-beckham-hotel-collection-pillows"
+  },
+  {
+   "key": "bidets2026",
+   "slug": "best-bidet-2026",
+   "date": "2026-10-05",
+   "status": "published",
+   "name": "Best bidets of 2026 (LUXE NEO 185 first; KOHLER PureWash, TUSHY, TOTO compared)",
+   "short": "LUXE NEO 185",
+   "category": "bidet",
+   "search": "LUXE Bidet NEO 185",
+   "title": "Best Bidet of 2026: The $50 Attachment Owners Recommend (vs KOHLER PureWash, TUSHY, TOTO)",
+   "slug_title": "Best Bidet 2026",
+   "labels": [
+    "Bathroom",
+    "Bidets",
+    "Buying Guide",
+    "Best Sellers",
+    "Under $50",
+    "Amazon Finds"
+   ],
+   "hook": "owner-requested roundup: KOHLER PureWash M-series vs the value pick; Prime Big Deal Days Oct 6-7",
+   "beats": "KOHLER PureWash M100, TUSHY Classic 3.0",
+   "source": "research/bidets-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/best-bidet-2026.html",
+   "dir": "posts/2026-10-best-bidet-2026"
+  },
+  {
+   "key": "instant-pot-duo",
+   "slug": "instant-pot-duo-6-quart",
+   "date": "2026-10-05",
+   "status": "published",
+   "name": "Instant Pot Duo 6-Quart 7-in-1",
+   "short": "Instant Pot Duo",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#3A4453",
+    "accent": "#C8102E"
+   },
+   "search": "Instant Pot Duo 6 quart 7-in-1 pressure cooker",
+   "title": "Instant Pot Duo 6-Quart Review 2026: Is the Classic Pressure Cooker Still Worth It?",
+   "slug_title": "Instant Pot Duo 6 Quart Review 2026",
+   "labels": [
+    "Kitchen",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "soup and chili season; Thanksgiving sides; a Black Friday regular",
+   "beats": "Instant Pot Duo Crisp / Ninja Foodi",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "cluster": "kitchen",
+   "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html",
+   "dir": "posts/2026-10-instant-pot-duo-6-quart"
+  },
+  {
+   "key": "thanksgiving-hosting",
+   "slug": "thanksgiving-hosting",
+   "date": "2026-10-06",
+   "status": "published",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Thanksgiving hosting essentials: the kitchen tools worth buying before the big day",
+   "short": "Thanksgiving kit",
+   "category": "generic",
+   "art": {
+    "shape": "flat",
+    "body": "#8A8F98",
+    "accent": "#C9781B"
+   },
+   "search": "thanksgiving hosting kitchen essentials",
+   "title": "Thanksgiving Hosting Essentials 2026: The Kitchen Tools Worth Buying (and What to Skip)",
+   "slug_title": "Thanksgiving Hosting Essentials",
+   "labels": [
+    "Kitchen",
+    "Thanksgiving",
+    "Hosting",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "Thanksgiving is Nov 26; search needs 4-6 weeks, so publish by Oct 15",
+   "picks": "roasting pan with rack; instant-read meat thermometer; electric carving knife; fat separator; slow cooker or warming tray for sides; leftovers storage (link the Rubbermaid review once live); extra seating; the after-party clean-up (link the O-Cedar and Bissell reviews)",
+   "cluster": "kitchen",
+   "source": "daily/strategy-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/thanksgiving-hosting-essentials.html",
+   "dir": "posts/2026-10-thanksgiving-hosting"
+  },
+  {
+   "key": "redtiger-f7np",
+   "slug": "redtiger-f7np-dash-cam",
+   "date": "2026-10-07",
+   "status": "writing",
+   "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+   "short": "REDTIGER F7NP",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#1B1B1B",
+    "accent": "#C8102E"
+   },
+   "search": "REDTIGER F7NP 4K dash cam front rear",
+   "title": "REDTIGER F7NP Dash Cam Review 2026: Is a 4K Front-and-Rear Cam Worth It?",
+   "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
+   "labels": [
+    "Car",
+    "Tech",
+    "Best Sellers",
+    "Review",
+    "Under $150",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "clocks change Nov 1, dark commutes, insurance disputes",
+   "beats": "BlackVue DR970X / Garmin 67W",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "cluster": "car",
+   "url": "https://acts39.blogspot.com/2026/10/redtiger-f7np-dash-cam-review-2026.html",
+   "dir": "posts/2026-10-redtiger-f7np-dash-cam"
+  },
+  {
+   "key": "black-friday-home-kitchen",
+   "slug": "black-friday-home-kitchen",
+   "date": "2026-10-09",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-09-prime-big-deal-days-2026",
+   "name": "Black Friday home and kitchen deals: what is worth buying and the price to wait for",
+   "short": "Black Friday home",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#1B2A41",
+    "accent": "#F08A24"
+   },
+   "search": "black friday home kitchen deals",
+   "title": "Black Friday Home and Kitchen Deals 2026: What's Worth Buying and the Price to Wait For",
+   "slug_title": "Black Friday Home and Kitchen Deals",
+   "labels": [
+    "Deals",
+    "Black Friday",
+    "Kitchen",
+    "Home Cleaning",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "Amazon's Black Friday Week is expected about Nov 19-30 and Black Friday is Nov 27; Google advises one URL per event, published well before the sale and refreshed each year",
+   "picks": "our reviewed picks first, each with the price band that makes it a real deal (robot vacuums guide, Levoit Core 300-P, O-Cedar, Bissell Little Green, Beckham pillows, Bedsure throw, LUXE NEO 185, Instant Pot Duo), then 4-6 well-known kitchen and cleaning deals (air fryer, stand mixer, cordless stick vacuum, cookware set); no Amazon prices, bands and percent-off rules only",
+   "cluster": "deals",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "gifts-car-lovers",
+   "slug": "gifts-car-lovers",
+   "date": "2026-10-11",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts for car lovers: useful picks from under $25 to $150",
+   "short": "car gifts",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#2F2F2F",
+    "accent": "#F08A24"
+   },
+   "search": "car accessories gifts",
+   "title": "Gifts for Car Lovers 2026: Useful Picks From Under $25 to $150",
+   "slug_title": "Gifts for Car Lovers",
+   "labels": [
+    "Car",
+    "Gifts",
+    "Gift Guide",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift lists start in October; Automotive pays 4.5%",
+   "picks": "NOCO GB40 (link our review); REDTIGER F7NP (link our review once live); a cordless tire inflator; a cordless car vacuum; a trunk organizer; a phone mount; a snow brush and ice scraper; a seat-gap organizer; an LED work light; a roadside emergency kit",
+   "cluster": "car",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "rubbermaid-brilliance",
+   "slug": "rubbermaid-brilliance-food-storage",
+   "date": "2026-10-12",
+   "status": "queued",
+   "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+   "short": "Rubbermaid Brilliance",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#DCE7F5",
+    "accent": "#C8102E"
+   },
+   "search": "Rubbermaid Brilliance leak proof food storage containers 10 piece",
+   "title": "Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?",
+   "slug_title": "Rubbermaid Brilliance Review 2026",
+   "labels": [
+    "Kitchen",
+    "Storage",
+    "Best Sellers",
+    "Review",
+    "Under $50",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "meal-prep reset; Thanksgiving leftovers",
+   "beats": "Pyrex glass / OXO POP",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "cluster": "kitchen"
+  },
+  {
+   "key": "black-friday-tech-car",
+   "slug": "black-friday-tech-car",
+   "date": "2026-10-13",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-09-prime-big-deal-days-2026",
+   "name": "Black Friday tech and car deals: the ones worth waiting for",
+   "short": "Black Friday tech",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#1B2A41",
+    "accent": "#1E8E5A"
+   },
+   "search": "black friday tech car deals",
+   "title": "Black Friday Tech and Car Deals 2026: The Ones Worth Waiting For",
+   "slug_title": "Black Friday Tech and Car Deals",
+   "labels": [
+    "Deals",
+    "Black Friday",
+    "Car",
+    "Wireless Earbuds",
+    "Power Stations",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "same event as the home and kitchen hub; publish by Oct 20",
+   "picks": "our guides' picks with price bands (wireless earbuds, robot vacuums, power stations, smart glasses, AirTag 2, NOCO GB40, REDTIGER F7NP), plus TVs and soundbars only if the research supports a real verdict; no Amazon prices",
+   "cluster": "deals",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "dreo-heater",
+   "slug": "dreo-space-heater",
+   "date": "2026-10-15",
+   "status": "queued",
+   "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+   "short": "Dreo space heater",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#2F2F2F",
+    "accent": "#F08A24"
+   },
+   "search": "Dreo space heater 1500W oscillating thermostat remote",
+   "title": "Dreo Space Heater Review 2026: How It Compares With Dyson and Vornado",
+   "slug_title": "Dreo Space Heater Review 2026",
+   "labels": [
+    "Home Comfort",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "first heating bill; zone heating one room instead of the house",
+   "beats": "Dyson HP / Vornado VH200",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "cluster": "comfort"
+  },
+  {
+   "key": "gifts-under-50",
+   "slug": "gifts-under-50",
+   "date": "2026-10-16",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts under $50: useful picks people actually keep",
+   "short": "gifts under $50",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#C8102E",
+    "accent": "#1E8E5A"
+   },
+   "search": "gifts under 50 dollars useful",
+   "title": "Gifts Under $50 for 2026: Useful Picks People Actually Keep",
+   "slug_title": "Gifts Under 50",
+   "labels": [
+    "Gifts",
+    "Gift Guide",
+    "Under $50",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift guides should be live by Oct 25",
+   "picks": "our reviewed products under $50 first (Owala FreeSip, AirTag 2 single, ChomChom Roller, KONG Classic, O-Cedar spin mop, Bedsure throw, Beckham pillows, Rubbermaid Brilliance, LUXE NEO 185), then new picks in kitchen, car and home comfort",
+   "cluster": "gifts",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "furhaven-bed",
+   "slug": "furhaven-orthopedic-dog-bed",
+   "date": "2026-10-18",
+   "status": "queued",
+   "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+   "short": "Furhaven dog bed",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#8B6B43",
+    "accent": "#1E8E5A"
+   },
+   "search": "Furhaven orthopedic sofa dog bed large",
+   "title": "Furhaven Orthopedic Dog Bed Review 2026: How Close Does It Come to a Big Barker?",
+   "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
+   "labels": [
+    "Pets",
+    "Dog Supplies",
+    "Best Sellers",
+    "Review",
+    "Under $60",
+    "For Pet Owners",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "cold floors and stiff joints; a holiday gift for the dog",
+   "beats": "Big Barker / Casper dog bed",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "cluster": "pets"
+  },
+  {
+   "key": "gifts-pet-owners",
+   "slug": "gifts-pet-owners",
+   "date": "2026-10-19",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts for dog and cat owners: picks pets and their people will use",
+   "short": "pet gifts",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#8B6B43",
+    "accent": "#1E8E5A"
+   },
+   "search": "gifts for dog owners cat owners",
+   "title": "Gifts for Dog and Cat Owners 2026: Picks Pets (and Their People) Will Use",
+   "slug_title": "Gifts for Dog and Cat Owners",
+   "labels": [
+    "Pets",
+    "Gifts",
+    "Gift Guide",
+    "For Pet Owners",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift guides should be live by Oct 25",
+   "picks": "link our pet guides first (ChomChom Roller, Neakasa P1 Pro, Litter-Robot 4, Rabbitgoo harness, KONG Classic, Earth Rated bags, Furhaven bed once live), then new picks: a pet camera, a lint-free throw, a car seat cover, a slow feeder, a self-warming bed",
+   "cluster": "pets",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "tire-inflator",
+   "slug": "tire-inflator",
+   "date": "2026-10-21",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Portable tire inflators: which cordless pump is worth it",
+   "short": "tire inflator",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#2F2F2F",
+    "accent": "#F2C230"
+   },
+   "search": "cordless portable tire inflator",
+   "title": "Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?",
+   "slug_title": "Best Portable Tire Inflator 2026",
+   "labels": [
+    "Car",
+    "Tools",
+    "Buying Guide",
+    "Under $100",
+    "Amazon Finds"
+   ],
+   "hook": "cold mornings set off tire-pressure lights; Automotive pays 4.5%",
+   "picks": "three to five cordless inflators chosen by the research (for example AstroAI, Fanttik, EPAuto, Ryobi, DeWalt): fill time from a published test, accuracy, auto-stop, battery; one winner first and last",
+   "cluster": "car",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "cozy-gifts",
+   "slug": "cozy-gifts",
+   "date": "2026-10-22",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Cozy gifts: heated throws, pillows and warm things people actually use",
+   "short": "cozy gifts",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#C9781B",
+    "accent": "#1B2A41"
+   },
+   "search": "cozy gifts heated throw",
+   "title": "Cozy Gifts 2026: Heated Throws, Pillows and Warm Things People Actually Use",
+   "slug_title": "Cozy Gifts",
+   "labels": [
+    "Home Comfort",
+    "Sleep",
+    "Gifts",
+    "Gift Guide",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift guides should be live by Oct 25",
+   "picks": "link our reviews first (Bedsure heated throw, Beckham pillows, Dreo heater once live, Levoit Core 300-P), then new picks: a weighted blanket, a sherpa throw, heated slippers, a mug warmer, a sunrise alarm clock",
+   "cluster": "comfort",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "stocking-stuffers",
+   "slug": "stocking-stuffers",
+   "date": "2026-10-24",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Stocking stuffers under $25: small things that get used",
+   "short": "stocking stuffers",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#1E8E5A",
+    "accent": "#C8102E"
+   },
+   "search": "stocking stuffers under 25",
+   "title": "Stocking Stuffers Under $25 for 2026: Small Things That Get Used",
+   "slug_title": "Stocking Stuffers Under 25",
+   "labels": [
+    "Gifts",
+    "Gift Guide",
+    "Under $25",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "publish by Oct 31; searches peak in December",
+   "picks": "home, car, kitchen and pet small items with a real use: AirTag single, a cable organizer, a jar opener, a microfiber cloth pack, a tire gauge, a lint roller, a silicone spatula set",
+   "cluster": "gifts",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "meat-thermometer",
+   "slug": "meat-thermometer",
+   "date": "2026-10-26",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Instant-read meat thermometers: which one is worth it for Thanksgiving",
+   "short": "meat thermometer",
+   "category": "generic",
+   "art": {
+    "shape": "flat",
+    "body": "#C8102E",
+    "accent": "#F2F2F2"
+   },
+   "search": "instant read meat thermometer",
+   "title": "Best Instant-Read Meat Thermometer 2026: Which One Is Worth It for Thanksgiving?",
+   "slug_title": "Best Instant Read Meat Thermometer 2026",
+   "labels": [
+    "Kitchen",
+    "Thanksgiving",
+    "Buying Guide",
+    "Under $100",
+    "Amazon Finds"
+   ],
+   "hook": "the turkey question; Kitchen pays 4.5%",
+   "picks": "three to five thermometers chosen by the research (for example ThermoPro, ThermoWorks ThermoPop 2 and Thermapen, Lavatools): read speed and accuracy from published tests, water resistance, backlight; one winner first and last",
+   "cluster": "kitchen",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "winter-car-kit",
+   "slug": "winter-car-kit",
+   "date": "2026-10-27",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Winter car emergency kit: what to keep in the trunk",
+   "short": "winter car kit",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#DCE7F5",
+    "accent": "#1B2A41"
+   },
+   "search": "winter car emergency kit",
+   "title": "Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)",
+   "slug_title": "Winter Car Emergency Kit",
+   "labels": [
+    "Car",
+    "Winter",
+    "Emergency Prep",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "publish by Nov 15, before the first storms; cite NHTSA or Ready.gov for the checklist",
+   "picks": "a jump starter (link the NOCO review), a tire inflator (link the inflator guide), a snow brush and ice scraper, a folding shovel, traction mats, a blanket, a flashlight or headlamp, a first-aid kit, a power bank",
+   "cluster": "car",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "gifts-that-arrive",
+   "slug": "gifts-that-arrive",
+   "date": "2026-10-29",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts that still arrive by Christmas: order-by dates and picks",
+   "short": "last-minute gifts",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#C8102E",
+    "accent": "#F2C230"
+   },
+   "search": "gifts that arrive before christmas",
+   "title": "Gifts That Still Arrive by Christmas 2026: Order-By Dates and Picks",
+   "slug_title": "Gifts That Still Arrive by Christmas",
+   "labels": [
+    "Gifts",
+    "Gift Guide",
+    "Christmas",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "carrier cutoffs: USPS Dec 17-19, FedEx Dec 21-23 (USPS release 2026-09-22); publish by Nov 15",
+   "picks": "an order-by box from the carriers' published dates, then picks from our reviews that ship fast, grouped by recipient",
+   "cluster": "gifts",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "gifts-for-dad",
+   "slug": "gifts-for-dad",
+   "date": "2026-10-31",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts for dad: useful picks for every budget",
+   "short": "gifts for dad",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#1B2A41",
+    "accent": "#F08A24"
+   },
+   "search": "gifts for dad useful",
+   "title": "Gifts for Dad 2026: Useful Picks for Every Budget",
+   "slug_title": "Gifts for Dad",
+   "labels": [
+    "Gifts",
+    "Gift Guide",
+    "Car",
+    "Tools",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift guides; link the car, tool and kitchen reviews",
+   "picks": "NOCO GB40, the dash cam, the tire inflator, the meat thermometer, the Instant Pot, AirTag 2, the earbuds guide's picks, plus new tool and grilling picks",
+   "cluster": "gifts",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "gifts-for-mom",
+   "slug": "gifts-for-mom",
+   "date": "2026-11-02",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Gifts for mom: useful picks for every budget",
+   "short": "gifts for mom",
+   "category": "generic",
+   "art": {
+    "shape": "bag",
+    "body": "#C9781B",
+    "accent": "#C8102E"
+   },
+   "search": "gifts for mom useful",
+   "title": "Gifts for Mom 2026: Useful Picks for Every Budget",
+   "slug_title": "Gifts for Mom",
+   "labels": [
+    "Gifts",
+    "Gift Guide",
+    "Home Comfort",
+    "Kitchen",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "gift guides; link the comfort, kitchen and cleaning reviews",
+   "picks": "Bedsure throw, Beckham pillows, Levoit Core 300-P, Owala FreeSip, the Instant Pot, the bidet, the Bissell Little Green, plus new comfort and kitchen picks",
+   "cluster": "gifts",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "meal-prep-tools",
+   "slug": "meal-prep-tools",
+   "date": "2026-11-05",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Meal prep for January: the containers and tools that save time",
+   "short": "meal prep",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#DCE7F5",
+    "accent": "#1E8E5A"
+   },
+   "search": "meal prep containers tools",
+   "title": "Meal Prep Tools 2026: The Containers and Gadgets That Actually Save Time",
+   "slug_title": "Meal Prep Tools",
+   "labels": [
+    "Kitchen",
+    "Meal Prep",
+    "Storage",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "New Year resolutions (eat healthier: 22%, YouGov Dec 2025); publish by Nov 20",
+   "picks": "glass and plastic containers (link the Rubbermaid review), a food scale, a rice cooker or the Instant Pot (link), sheet pans, a salad spinner, labels",
+   "cluster": "kitchen",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "pantry-closet-organizers",
+   "slug": "pantry-closet-organizers",
+   "date": "2026-11-07",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Pantry and closet organizers for Get Organized Month",
+   "short": "organizers",
+   "category": "generic",
+   "art": {
+    "shape": "box",
+    "body": "#F2F2F2",
+    "accent": "#1B2A41"
+   },
+   "search": "pantry closet organizers",
+   "title": "Pantry and Closet Organizers 2026: What Works for Get Organized Month",
+   "slug_title": "Pantry and Closet Organizers",
+   "labels": [
+    "Home",
+    "Storage",
+    "Organization",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "NAPO's Get Organized Month is January; publish by Nov 20",
+   "picks": "clear pantry bins, turntables, shelf risers, drawer dividers, velvet hangers, under-bed storage; what professional organizers recommend, with sources",
+   "cluster": "home",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "cleaning-reset",
+   "slug": "cleaning-reset",
+   "date": "2026-11-09",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "January cleaning reset: the tools that make a deep clean faster",
+   "short": "cleaning reset",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#1E8E5A",
+    "accent": "#F2F2F2"
+   },
+   "search": "deep cleaning tools",
+   "title": "January Cleaning Reset 2026: The Tools That Make a Deep Clean Faster",
+   "slug_title": "January Cleaning Reset",
+   "labels": [
+    "Home Cleaning",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "New Year deep clean; link the robot vacuum, O-Cedar and Bissell reviews; publish by Nov 20",
+   "picks": "a cordless stick vacuum, a steam mop or the O-Cedar (link), the Bissell Little Green (link), a grout brush set, microfiber cloths, a handheld vacuum; one winner per job",
+   "cluster": "cleaning",
+   "source": "daily/strategy-2026-10.md"
+  },
+  {
+   "key": "waterpik-wp660",
+   "slug": "waterpik-aquarius-wp-660",
+   "date": "2026-10-03",
+   "status": "parked",
+   "name": "Waterpik Aquarius WP-660 Water Flosser",
+   "short": "Waterpik Aquarius",
+   "category": "generic",
+   "art": {
+    "shape": "bottle",
+    "body": "#F2F2F2",
+    "accent": "#1E8E5A"
+   },
+   "search": "Waterpik Aquarius WP-660 water flosser",
+   "title": "Waterpik Aquarius WP-660 Review 2026: The Water Flosser Dentists and 120,000 Reviews Agree On",
+   "slug_title": "Waterpik Aquarius WP-660 Review 2026",
+   "labels": [
+    "Personal Care",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "FSA Eligible",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "FSA/HSA use-it-or-lose-it season; Big Deal Days discount history",
+   "beats": "Waterpik Sonic-Fusion / cordless Express",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "note": "parked 2026-10-05: Health & Personal Care pays 1% on Amazon's standard table; outside the clusters"
+  },
+  {
+   "key": "revlon-onestep",
+   "slug": "revlon-one-step-volumizer-plus",
+   "date": "2026-10-07",
+   "status": "parked",
+   "name": "Revlon One-Step Volumizer Plus 2.0",
+   "short": "Revlon One-Step Plus",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#1B1B1B",
+    "accent": "#C8102E"
+   },
+   "search": "Revlon One-Step Volumizer Plus 2.0 hair dryer brush",
+   "title": "Revlon One-Step Volumizer Plus 2.0 Review 2026: The $40 Answer to the Airwrap",
+   "slug_title": "Revlon One-Step Plus Review 2026",
+   "labels": [
+    "Personal Care",
+    "Beauty",
+    "Best Sellers",
+    "Review",
+    "Under $50",
+    "Gifts",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "holiday-party season; 40%+ markdowns at tentpole sales",
+   "beats": "Dyson Airwrap / Shark FlexStyle",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "note": "parked 2026-10-05: beauty/personal care, outside the blog's clusters"
+  },
+  {
+   "key": "mx-master-3s",
+   "slug": "logitech-mx-master-3s",
+   "date": "2026-10-09",
+   "status": "parked",
+   "name": "Logitech MX Master 3S",
+   "short": "MX Master 3S",
+   "category": "generic",
+   "art": {
+    "shape": "sphere",
+    "body": "#3A4453",
+    "accent": "#1E8E5A"
+   },
+   "search": "Logitech MX Master 3S wireless mouse",
+   "title": "Logitech MX Master 3S Review 2026: Better Value Than the MX Master 4",
+   "slug_title": "Logitech MX Master 3S Review 2026",
+   "labels": [
+    "Office",
+    "Tech",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "MX Master 4 launch pushed 3S to its 2026 low",
+   "beats": "Logitech MX Master 4",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "note": "parked 2026-10-05: office tech, outside the blog's clusters"
+  },
+  {
+   "key": "worx-wg520",
+   "slug": "worx-wg520-turbine-600-leaf-blower",
+   "date": "2026-10-10",
+   "status": "parked",
+   "name": "WORX WG520 Turbine 600 Corded Leaf Blower",
+   "short": "WORX Turbine 600",
+   "category": "generic",
+   "art": {
+    "shape": "cylinder",
+    "body": "#2F2F2F",
+    "accent": "#F08A24"
+   },
+   "search": "WORX WG520 Turbine 600 corded leaf blower",
+   "title": "WORX WG520 Turbine 600 Review 2026: Gas-Class Airflow for $70, No Gas",
+   "slug_title": "WORX WG520 Leaf Blower Review 2026",
+   "labels": [
+    "Outdoor",
+    "Tools",
+    "Best Sellers",
+    "Review",
+    "Under $100",
+    "Amazon Finds",
+    "Product of the Day"
+   ],
+   "hook": "peak leaf fall mid-to-late October; gutter kit bundle",
+   "beats": "Echo/Stihl gas / EGO 56V",
+   "source": "research/daily-candidates-2026-09-27.md",
+   "note": "parked 2026-10-05: lawn and garden, outside the blog's clusters; revisit for leaf season 2027 if a yard cluster is added"
+  }
+ ]
 }
