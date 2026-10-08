@@ -177,6 +177,7 @@ POSTS = {
     },
     "redtiger-f7np": {
         "dir": "posts/2026-10-redtiger-f7np-dash-cam",
+        "url": "https://acts39.blogspot.com/2026/10/redtiger-f7np-dash-cam-review-2026.html",
         "title": "REDTIGER F7NP Dash Cam Review 2026: Is a 4K Front-and-Rear Cam Worth It?",
         "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
         "labels": ["Car", "Tech", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
