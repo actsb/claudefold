@@ -3,32 +3,32 @@
     "type": "steps",
     "name": "howto",
     "title": "The REDTIGER F7NP in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "Six steps from box to first clip, drawn from the F7NP guides and owner tips",
+    "footer": "Sources: REDTIGER F7NP manual and brand guides; owner tips on DashCamTalk. Read your own manual.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Mount",
+        "body": "Behind the rearview mirror, clear of the wipers."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Power",
+        "body": "Car charger first; hardwire kit later."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Add a card",
+        "body": "High-endurance microSD; format it in-camera."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Turn on Wi-Fi",
+        "body": "It is off by default; pair the phone app."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Set the clock",
+        "body": "Time zone, GPS stamp; check after Nov 1."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Test it",
+        "body": "Record, play back, then check the card monthly."
       }
     ]
   },
@@ -36,47 +36,47 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
+    "sub": "October 2026: search-snippet prices, mostly unconfirmed",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "See today's price",
+        "ship": "Free with Prime",
+        "returns": "Not checked",
+        "note": "Past sales 30%–43% off list",
         "verdict": "win"
       },
       {
         "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$111.99–$149.99 · listings vary",
+        "ship": "Not checked",
+        "returns": "Not checked",
+        "note": "Marketplace mix; check the seller",
         "verdict": "ok"
       },
       {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not found",
+        "ship": "—",
+        "returns": "—",
+        "note": "No F7NP listing seen",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$129.99–$149.98 list",
+        "ship": "Not checked",
+        "returns": "14–30 days (unconfirmed)",
+        "note": "18-month warranty; coupons in sales",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "$117–$133 new · eBay/AliExpress",
+        "ship": "Varies",
+        "returns": "Varies",
+        "note": "Gray-market warranty; refurb $65–$95",
         "verdict": "no"
       }
     ]

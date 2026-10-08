@@ -8,26 +8,26 @@
       "category": "generic",
       "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
       "short": "REDTIGER F7NP",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Product of the day · the cheapest 4K-front dual dash cam",
+      "chip": "4K front · 1080p rear · GPS",
       "art": {
         "shape": "box",
         "body": "#1B1B1B",
         "accent": "#C8102E"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
+      "price": "Brand list $149.98 with a 128GB card, $129.99 without (redtigercam.com, Oct 2026); street about $100–$130 new, $65–$95 refurbished (search snippets, Oct 2026, unconfirmed); past sales 30%–43% off list",
+      "buy_if": "you want a front-and-rear camera for a daily commute and the first claim-ready footage for about $100–$130, and you will spend 15 minutes on the app.",
+      "skip_if": "you want cloud upload, a plug-and-forget parking mode or a brand with a long track record: look at the Viofo A229 Pro (about $330 at Best Buy) or BlackVue (about $400+).",
+      "owners": "Walmart showed 4.3 out of 5 from 331 ratings (snapshot Oct 7, 2026). Praised for a clear picture, easy install and value; the common complaint is a fiddly phone Wi-Fi connection.",
       "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+4K+dash+cam+front+rear&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
+      "video": "zIEPnJMKCjQ",
+      "video_title": "REDTIGER F7NP Dual Dash Cam Review & Driving Video",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A driving test of the exact F7NP; the title came from a search-result URL.",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The F7NP 4K front + 1080p rear (GPS in the mount), with a 128GB card if the price gap is about $20 or less; not the F7N, F7N Pro or the Best Buy-only F7NP-EX unless clearly cheaper",
+        "check": "Title says F7NP and 4K front/1080p rear; sold or fulfilled by Amazon or REDTIGER; a card is included; the hardwire kit is a separate purchase (the USB-C kit) if you want parking mode",
         "label": "See today's price"
       }
     }

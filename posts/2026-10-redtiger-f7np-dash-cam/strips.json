@@ -7,8 +7,8 @@
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Dark commute",
+          "text": "Clocks go back Nov 1; the 5 p.m. drive is now after sunset.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Mount and go",
+          "text": "Mount behind the mirror, plug in, card in: it records on start."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Fender bender",
+          "text": "The G-sensor locks the clip; copy it off the card the same day."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Parking, sorted",
+          "text": "With a hardwire kit the camera keeps watch while you sleep.",
           "host": {
             "pose": "thumbsup"
           }
