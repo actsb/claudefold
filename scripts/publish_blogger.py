@@ -184,6 +184,7 @@ POSTS = {
     },
     "black-friday-home-kitchen": {
         "dir": "posts/2026-10-black-friday-home-kitchen",
+        "url": "https://acts39.blogspot.com/2026/10/black-friday-home-and-kitchen-deals.html",
         "title": "Black Friday Home and Kitchen Deals 2026: What's Worth Buying and the Price to Wait For",
         "slug_title": "Black Friday Home and Kitchen Deals",
         "labels": ["Deals", "Black Friday", "Kitchen", "Home Cleaning", "Buying Guide", "Amazon Finds"],

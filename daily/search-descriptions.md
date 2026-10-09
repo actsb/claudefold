@@ -10,6 +10,12 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Black Friday Home and Kitchen Deals 2026: What's Worth Buying and the Price to Wait For
+https://acts39.blogspot.com/2026/10/black-friday-home-and-kitchen-deals.html
+```text
+Black Friday is Nov 27, 2026. 11 home and kitchen picks, the price that makes each a real deal, which were cheaper in October, and store return rules.
+```
+
 ## REDTIGER F7NP Dash Cam Review 2026: Is a 4K Front-and-Rear Cam Worth It?
 
 https://acts39.blogspot.com/2026/10/redtiger-f7np-dash-cam-review-2026.html
