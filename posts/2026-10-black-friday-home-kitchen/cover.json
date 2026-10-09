@@ -1,26 +1,28 @@
 {
-  "hero": "black-friday-home-kitchen",
-  "title_size": 66,
+  "hero": "little-green",
+  "title_size": 64,
   "title": [
-    "Black Friday home:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Black Friday home",
+    "and kitchen 2026:",
+    "11 deals, ranked"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "The price that makes each one real, who should",
+    "skip it, and which are cheaper before",
+    "the sale. Black Friday is November 27."
   ],
   "footer": "Product of the day · Black Friday home and kitchen deals: what is worth buying and the price to wait for · Verdict Picks",
-  "alt": "Black Friday home and kitchen deals: what is worth buying and the price to wait for: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "alt": "Black Friday 2026 home and kitchen deals: 11 picks ranked, with the price that makes each one real and who should skip it (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "11 picks with a price to aim for",
+    "Some are cheapest before Black Friday",
+    "Return and price-match rules by store"
   ],
   "url": "https://acts39.blogspot.com/2026/10/black-friday-home-and-kitchen-deals.html",
   "style": "bright",
   "products": [
-    "black-friday-home-kitchen"
+    "instant-pot-duo",
+    "levoit300",
+    "kitchenaid-artisan"
   ]
 }

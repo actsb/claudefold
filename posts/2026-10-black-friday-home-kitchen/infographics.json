@@ -2,82 +2,114 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The Black Friday home in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "How to check a Black Friday price in five minutes",
+    "sub": "The same six steps work for every pick in this guide",
+    "footer": "Sources: Google Shopping price insights and tracking (Google blog), FTC consumer advice on inflated \"original\" prices, Consumer Reports deal coverage. Our synthesis.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Set the number",
+        "body": "Before the sale, write the price you would pay. Use our band for each pick, not the banner."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Match the model",
+        "body": "Compare the model number: 300-P vs 300S-P, Duo vs Duo Plus, 4-qt vs 6-qt. Deals often name a cousin."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Check the history",
+        "body": "Chrome's Google Shopping price insights show the last 90 days and label a price low, typical or high."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Compare three stores",
+        "body": "Open the brand's store, Walmart and Target or Home Depot. The listed \"was\" price is often a high list price."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Read the returns",
+        "body": "Holiday windows run to January at most big stores. Home Depot keeps its normal 90 days."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Pay by card, keep the proof",
+        "body": "A credit card adds dispute protection (FTC). Save the order number and receipt."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where the rules differ: returns and price match",
+    "sub": "What each big retailer did in the 2025 holiday season, and what we could not confirm for 2026",
+    "footer": "Sources: Amazon holiday return page (2025), Doctor of Credit and Priceva guides, Dealnews, 9to5Toys (Oct 20, 2025). 2026 terms were not published when we checked; confirm on the store's page before buying.",
+    "columns": [
+      {
+        "head": "Store",
+        "w": 170
+      },
+      {
+        "head": "Holiday returns (2025)",
+        "w": 300
+      },
+      {
+        "head": "Price match",
+        "w": 330
+      },
+      {
+        "head": "Watch for",
+        "w": 300
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
+        "verdict": "ok",
+        "cells": [
+          "Amazon",
+          "Bought Nov 1–Dec 31, returnable to Jan 31, 2026",
+          "Not covered by our sources",
+          "Third-party sellers follow their own rules"
+        ]
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "win",
+        "cells": [
+          "Walmart",
+          "Bought Oct 1–Dec 31, returns to Jan 31 (2026 terms unconfirmed)",
+          "Limited; Amazon-sold identical items per third-party guides",
+          "Dyson and major appliances excluded from the extension"
+        ]
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Target",
+          "30 days from Dec 26 for electronics (to Jan 24, 2026)",
+          "Amazon and Walmart (sold and shipped by them), plus Target's own price",
+          "Apple and Beats get 14 days"
+        ]
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Best Buy",
+          "Through Jan 15, 2026 for holiday purchases",
+          "Best Buy-sold items; Black Friday event prices excluded",
+          "Marketplace sellers and clearance excluded"
+        ]
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "verdict": "ok",
+        "cells": [
+          "Home Depot",
+          "No extension; 90 days standard with receipt",
+          "Identical item from the retailer, at purchase only",
+          "Third-party sellers do not count"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Costco",
+          "90 days for electronics; small appliances unconfirmed",
+          "No match, but a 30-day price adjustment on its own price drops",
+          "Promotions funded by the maker may be excluded"
+        ]
       }
     ]
   }

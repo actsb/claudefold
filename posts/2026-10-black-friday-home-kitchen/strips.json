@@ -1,14 +1,14 @@
 {
   "strips": [
     {
-      "id": "in-real-life",
-      "card": "black-friday-home-kitchen",
-      "title": "A day with the Black Friday home — in real life",
+      "id": "deal-plan",
+      "card": "little-green",
+      "title": "A calm Black Friday — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Now — the list",
+          "text": "Write down the eleven prices. A number you set in October beats a banner you see in November.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Nov 19 on — the check",
+          "text": "Open the brand store and Walmart beside the deal. Match the model number, then compare with your number."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The trap",
+          "text": "\"Was $399\" on something that has sold for $250 all year is not a saving. Walk away."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Nov 27 on — the buy",
+          "text": "At or under the number: buy, and keep the receipt for the holiday return window.",
           "host": {
             "pose": "thumbsup"
           }

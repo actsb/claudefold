@@ -1,35 +1,234 @@
 {
   "category": "generic",
-  "buy_title": "The exact Black Friday home to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The pick: the Bissell Little Green, and the price to wait for",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Our price bands come from US retailers and deal threads on the dates named.",
+  "buy_kicker": "Our top pick, and our last word",
   "cards": [
     {
-      "id": "black-friday-home-kitchen",
-      "category": "generic",
-      "name": "Black Friday home and kitchen deals: what is worth buying and the price to wait for",
-      "short": "Black Friday home",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "id": "little-green",
+      "name": "Bissell Little Green (1400B)",
+      "short": "Bissell Little Green 1400B",
+      "badge": "Spot cleaner · the best-documented fall in price",
+      "price": "Walmart listed it at $78.97 on Nov 3, 2025 (Slickdeals); a Walmart brand page showed $95.99, was $124.99 (snapshot, undated). Buy under $90; it has gone lower before.",
+      "chip": "Spray + suck · 48 oz tank · 9.7 lb",
+      "buy_if": "you have pets, kids, a couch or car seats, and you can wait for a sale: of everything here, this one has the clearest paper trail of a real cut in the Black Friday window.",
+      "skip_if": "you need whole-room carpet cleaning, or the sale price is above about $100 (it has been lower).",
+      "owners": "Reviewed.com found it easy to use and strong on tough stains but messy and poor on large areas. Walmart's page showed 4.4 out of 5 from about 1,600 reviews (snapshot, undated).",
+      "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=verdictpicks-20",
+      "video": "pHWrhVtkYLA",
+      "video_title": "6 years with the Bissell Little Green — a long-term review",
       "art": {
-        "shape": "box",
-        "body": "#1B2A41",
-        "accent": "#F08A24"
+        "style": "classic",
+        "body": "#3E8E5A",
+        "tank": "#9FD3FF",
+        "accent": "#1B2A41"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=black+friday+home+kitchen+deals&tag=verdictpicks-20",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The Little Green 1400B (the basic model), not the ProHeat or HydroSteam, which are different machines at different prices",
+        "check": "Sold by Bissell, Amazon.com or a big-box store; the model number reads 1400B; bundles with extra tools are fine if the price is lower than the plain unit plus solution",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "instant-pot-duo",
+      "category": "generic",
+      "name": "Instant Pot Duo 6-Quart 7-in-1",
+      "short": "Instant Pot Duo",
+      "badge": "Pressure cooker · buy on a doorbuster",
+      "chip": "6 quart · 1000 W · 7-in-1",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A4453",
+        "accent": "#C8102E"
+      },
+      "price": "List $109.99 at Instant Pot's store. Past Black Friday doorbusters were about $50–$80, roughly 25–40% off (Business Insider guide, 2019; Slickdeals commenter, Mar 2025); 2025 retailer prices not found.",
+      "buy_if": "you want a plain pressure cooker for rice, beans and stews, and the price is 30–40% below list.",
+      "skip_if": "you want a slow cooker or air fryer first: America's Test Kitchen found the Duo slow-cooks poorly.",
+      "owners": "Walmart's listing showed 4.6 out of 5 from about 3,300 reviews (snapshot, undated). Owners fault the sealing ring that keeps odours and a few units that failed after about two years (Slickdeals, July 2025).",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20",
+      "video": "-1eGvX4LiMY",
+      "video_title": "Instant Pot DUO 6QT Full Review & First Look",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL."
+    },
+    {
+      "id": "levoit300",
+      "category": "purifier",
+      "name": "Levoit Core 300-P Air Purifier",
+      "short": "Levoit Core 300-P",
+      "badge": "Air purifier · a bedroom buy, not a doorbuster",
+      "chip": "219 sq ft · 24 dB sleep · 3-in-1 filter",
+      "art": {
+        "body": "#F1F1EF",
+        "accent": "#1E8E5A"
+      },
+      "price": "Home Depot ran it near $49 (regional, $24–$99 by store) on Slickdeals threads dated Nov 6 and Nov 26, 2025; about $85–$100 at big retailers the rest of the time (Sept 2026).",
+      "buy_if": "you want one quiet bedroom purifier and can check a Home Depot store near you; $50–$60 is a fine price.",
+      "skip_if": "you want an open-plan room cleaned, or you will not budget for a filter every 6–8 months.",
+      "owners": "Owners praise the quiet sleep mode; iFixit users report a filter smell and a fan rattle. Levoit's warranty is two years.",
+      "cta": "https://www.amazon.com/dp/B07VVK39F7?tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
+      "video_why": ""
+    },
+    {
+      "id": "ocedar-mop",
+      "category": "generic",
+      "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+      "short": "O-Cedar spin mop",
+      "badge": "Spin mop · already cheap",
+      "chip": "Foot-pedal wringer · triangle head · washable",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#2F3A48"
+      },
+      "price": "Walmart $34.96, was $39.96 (Aug 20, 2026, Slickdeals); Costco has run a three-refill bundle near $26 (Slickdeals, July 2025).",
+      "buy_if": "you have sealed hard floors and want a pedal-wring mop; under $30 is a good price.",
+      "skip_if": "the pedal worries you: some Walmart reviewers report it breaking within a month, and the handle is a weak point.",
+      "owners": "Walmart reviewers praise dry floors and the easy wring; the pedal and handle are the repeated complaints. America's Test Kitchen named it its winning spin mop.",
+      "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+microfiber+spin+mop+bucket&tag=verdictpicks-20",
+      "video": "Ocg7n2BM1PA",
+      "video_title": "O-Cedar EasyWring Microfiber Spin Mop Review & Demo",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A demo of the pedal wringer and the triangle head in use; the title came from a search-result URL."
+    },
+    {
+      "id": "neo185",
+      "category": "bidet",
+      "name": "LUXE Bidet NEO 185 (dual nozzle, non-electric)",
+      "short": "LUXE NEO 185",
+      "badge": "Bidet attachment · stable price, small saving",
+      "chip": "2 nozzles · no outlet · 15-minute install",
+      "art": {
+        "style": "attachment",
+        "knobs": 2,
+        "body": "#F4F4F2",
+        "accent": "#2B6CB0"
+      },
+      "price": "Walmart listed it at $42.49, was $48.99 (snapshot, undated); LUXE's store showed $49.99 in Oct 2026. Past Slickdeals threads show $20–$36 in 2021–2023.",
+      "buy_if": "you want the cheapest good bidet and can accept a saving of a few dollars: this one is always near its floor.",
+      "skip_if": "you hate cool water (look at the NEO 320) or your seat bolts fall outside 5.5–7.5 inches.",
+      "owners": "Walmart's listing showed 4.9 out of 5 from about 8,200 reviews (Oct 2026). A Slickdeals owner's unit leaked after about five years; the warranty is 18 months.",
+      "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20"
+    },
+    {
+      "id": "beckham-pillows",
+      "category": "generic",
+      "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+      "short": "Beckham pillows",
+      "badge": "Pillows · discounts are the norm",
+      "chip": "Gel fiber · 2-pack · plush",
+      "art": {
+        "shape": "bag",
+        "body": "#F4F1EA",
+        "accent": "#1B2A41"
+      },
+      "price": "Walmart listed a King two-pack out of stock with a $70 reviewer price (snapshot); Woot sold a pair at $34.99, was $49.99, in March 2023. Expect 30–40% bands, which also appear outside Black Friday.",
+      "buy_if": "you want soft guest-room pillows and will replace them in a year or two.",
+      "skip_if": "you are a heavy side sleeper (Consumer Reports' April 2026 picks include adjustable-loft pillows) or you want pillows that last for years.",
+      "owners": "TechRadar's tester found the gel fiber held its shape; Tom's Guide could not feel any gel. Check the listing is the gel-fiber set, not the memory-foam version.",
+      "cta": "https://www.amazon.com/s?k=Beckham+Hotel+Collection+bed+pillows+queen+set+of+2&tag=verdictpicks-20",
+      "video": "f7SEOOiTpKo",
+      "video_title": "Beckham Hotel Collection Bed Pillows Review",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A first-look review that asks whether these suit side, back and stomach sleepers; the title came from a search-result URL."
+    },
+    {
+      "id": "bedsure-throw",
+      "category": "generic",
+      "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+      "short": "Bedsure heated throw",
+      "badge": "Heated throw · check the model number",
+      "chip": "50×60 in · 6 heat levels · machine washable",
+      "art": {
+        "shape": "box",
+        "body": "#8A8F98",
+        "accent": "#C9781B"
+      },
+      "price": "Heated throws run about $20–$80 at major retailers; Walmart listed the U by Bedsure 50×60 at about $32 (Oct 1, 2026). Expect 30–45% off in a sale.",
+      "buy_if": "one person on a sofa wants a cheap heated throw and you check the label against the March 2023 CPSC recall before first use.",
+      "skip_if": "you want to cover a bed (a 50×60 in throw is too small) or any product with a recall history to explain.",
+      "owners": "Consumer Reports called Bedsure's flannel blanket the budget pick, thin but with the lightest wires; non-Amazon owner reviews were thin, so we cannot say how units hold up.",
+      "cta": "https://www.amazon.com/s?k=Bedsure+heated+blanket+electric+throw+50x60&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": ""
+    },
+    {
+      "id": "ninja-af101",
+      "name": "Ninja AF101 4-Quart Air Fryer",
+      "short": "Ninja AF101",
+      "badge": "Air fryer · the $90 benchmark",
+      "chip": "4 qt · 1 basket · nonstick",
+      "art": {
+        "shape": "box",
+        "body": "#2B2B2B",
+        "accent": "#C8102E"
+      },
+      "category": "generic",
+      "price": "List $119.99; Best Buy, Target and Home Depot $89.99 (Slickdeals tracker, Apr 1, 2026). Home Depot showed 32% off Ninja kitchen appliances on Black Friday 2025 (NBC Select).",
+      "buy_if": "you want a small, simple air fryer for one or two people and it is at or under about $75.",
+      "skip_if": "you cook for a family (go to 6 quarts or more) or worry about nonstick wear: reports of peeling coatings on Ninja and Cosori baskets exist, though Ninja's are thin.",
+      "owners": "Walmart's listing showed 4.7 out of 5 from about 3,200 reviews for the Ninja 4-quart (snapshot, undated). America's Test Kitchen still ranks the Instant Vortex Plus 6-Quart first (Jan 2026).",
+      "cta": "https://www.amazon.com/s?k=Ninja+AF101+air+fryer&tag=verdictpicks-20"
+    },
+    {
+      "id": "kitchenaid-artisan",
+      "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+      "short": "KitchenAid Artisan",
+      "badge": "Stand mixer · the stingy brand",
+      "chip": "5 qt · tilt-head · 20+ colours",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#1B2A41"
+      },
+      "category": "generic",
+      "price": "List $499.99 (TechRadar). Target showed $349, Lowe's $242.29 on Oct 6, 2025 (Slickdeals), Walmart $379 (listing, undated). Expect 25–30% off; colours differ in price.",
+      "buy_if": "you bake often enough to use it weekly, and the price is near $250–$350.",
+      "skip_if": "you knead stiff dough often (owners report stalls on heavy dough and consumer testers favour the bowl-lift) or bake twice a year.",
+      "owners": "KitchenAid's own Best Buy Q&A answer says slight oil seepage can occur after sitting unused; heavy dough stalls the motor on Sam's Club reviews of the Artisan. America's Test Kitchen's mid-price pick is the Classic 4.5 qt.",
+      "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+5+quart+stand+mixer&tag=verdictpicks-20"
+    },
+    {
+      "id": "stick-vac",
+      "name": "Cordless stick vacuum (Shark Cordless Pro, Dyson V8)",
+      "short": "Stick vacuum",
+      "badge": "Stick vacuum · big cuts, battery risk",
+      "chip": "Removable battery vs fixed",
+      "art": {
+        "shape": "flat",
+        "body": "#5A6572",
+        "accent": "#F08A24"
+      },
+      "category": "generic",
+      "price": "Walmart showed Dyson V8 Absolute $349.99 and Shark Cordless Pro $198, was $399.99 (Black Friday roundups, 2025); Home Depot showed Shark 39% off (NBC Select, 2025).",
+      "buy_if": "you want a second vacuum for hard floors and quick jobs, and the price is a real 35–45% below list.",
+      "skip_if": "it is your only vacuum: Consumer Reports says it does not currently recommend cordless sticks for battery reliability (page date unconfirmed), and owners report dead batteries near two years.",
+      "owners": "Dyson Community and Slickdeals owners report batteries dying at about two years; Dyson lists a V6 battery at $129.99. Check the warranty, which is two years at Dyson.",
+      "cta": "https://www.amazon.com/s?k=Shark+cordless+stick+vacuum&tag=verdictpicks-20"
+    },
+    {
+      "id": "tramontina-12",
+      "name": "Tramontina 12-Piece Tri-Ply Clad Cookware Set",
+      "short": "Tramontina 12-piece",
+      "badge": "Cookware · good outside Black Friday",
+      "chip": "Tri-ply stainless · induction-ready",
+      "art": {
+        "shape": "bag",
+        "body": "#B8BEC6",
+        "accent": "#1B2A41"
+      },
+      "category": "generic",
+      "price": "Costco $189.99 in Oct 2025 (a $50 instant saving, about $240 normally; Slickdeals, Oct 23, 2025); Walmart $280 (Hunker, May 2026).",
+      "buy_if": "you want a full stainless set and can find it near $190–$200, which beat the Black Friday week in 2025.",
+      "skip_if": "you cook rarely: Cook's Illustrated's line is to skip sets and buy the pans you need, and owners report discolouration.",
+      "owners": "Walmart's listing showed 4.5 out of 5 from 439 reviews, with owners saying it stains easily; a Home Depot reviewer had food sticking on fry pans at six months. Nothing found on years-later condition.",
+      "cta": "https://www.amazon.com/s?k=Tramontina+12+piece+tri-ply+clad+cookware+set&tag=verdictpicks-20"
     }
   ]
 }
