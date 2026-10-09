@@ -278,7 +278,7 @@
    "key": "black-friday-home-kitchen",
    "slug": "black-friday-home-kitchen",
    "date": "2026-10-09",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-09-prime-big-deal-days-2026",
    "name": "Black Friday home and kitchen deals: what is worth buying and the price to wait for",
@@ -303,7 +303,9 @@
    "hook": "Amazon's Black Friday Week is expected about Nov 19-30 and Black Friday is Nov 27; Google advises one URL per event, published well before the sale and refreshed each year",
    "picks": "our reviewed picks first, each with the price band that makes it a real deal (robot vacuums guide, Levoit Core 300-P, O-Cedar, Bissell Little Green, Beckham pillows, Bedsure throw, LUXE NEO 185, Instant Pot Duo), then 4-6 well-known kitchen and cleaning deals (air fryer, stand mixer, cordless stick vacuum, cookware set); no Amazon prices, bands and percent-off rules only",
    "cluster": "deals",
-   "source": "daily/strategy-2026-10.md"
+   "source": "daily/strategy-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/black-friday-home-and-kitchen-deals.html",
+   "dir": "posts/2026-10-black-friday-home-kitchen"
   },
   {
    "key": "gifts-car-lovers",

@@ -182,6 +182,12 @@ POSTS = {
         "slug_title": "REDTIGER F7NP Dash Cam Review 2026",
         "labels": ["Car", "Tech", "Best Sellers", "Review", "Under $150", "Amazon Finds", "Product of the Day"],
     },
+    "black-friday-home-kitchen": {
+        "dir": "posts/2026-10-black-friday-home-kitchen",
+        "title": "Black Friday Home and Kitchen Deals 2026: What's Worth Buying and the Price to Wait For",
+        "slug_title": "Black Friday Home and Kitchen Deals",
+        "labels": ["Deals", "Black Friday", "Kitchen", "Home Cleaning", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

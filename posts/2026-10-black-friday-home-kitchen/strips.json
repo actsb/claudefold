@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "black-friday-home-kitchen",
+      "title": "A day with the Black Friday home — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "WRITE",
+          "text": "WRITE",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "WRITE",
+          "text": "WRITE"
+        },
+        {
+          "glyph": "warning",
+          "head": "WRITE",
+          "text": "WRITE"
+        },
+        {
+          "glyph": "sun",
+          "head": "WRITE",
+          "text": "WRITE",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}
