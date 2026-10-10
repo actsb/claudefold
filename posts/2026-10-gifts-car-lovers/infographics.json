@@ -1,84 +1,80 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The car gifts in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
-    ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
-    ]
-  }
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Fill a tire the right way",
+  "sub": "NHTSA and AAA, five steps for any inflator",
+  "footer": "Sources: NHTSA tire safety page; AAA \"How to check tire pressure\". Follow your inflator’s manual where it differs.",
+  "items": [
+   {
+    "head": "1. Find the number",
+    "body": "Door-jamb label or owner’s manual, not the tire sidewall."
+   },
+   {
+    "head": "2. Check cold",
+    "body": "Parked 3 hours or more; warm tires read 4–6 psi high."
+   },
+   {
+    "head": "3. Preset and fill",
+    "body": "Set the target psi, attach firmly, let it stop."
+   },
+   {
+    "head": "4. Recheck by gauge",
+    "body": "A stick gauge is the cross-check owners recommend."
+   },
+   {
+    "head": "5. Do it monthly",
+    "body": "AAA found warning lights come on at 20% low or worse."
+   }
+  ]
+ },
+ {
+  "type": "stores",
+  "name": "stores",
+  "title": "Where to buy, and when Amazon is not the cheapest",
+  "sub": "October 2026: what search summaries showed; the buttons show today’s price",
+  "footer": "Return windows as reported in search summaries on October 10, 2026; check each store’s policy before you buy.",
+  "rows": [
+   {
+    "store": "Amazon",
+    "price": "The button shows today's",
+    "ship": "Prime where eligible",
+    "returns": "Check the listing",
+    "note": "Deepest cuts come on deal days (33–40% on car items Oct 6–7).",
+    "verdict": "win"
+   },
+   {
+    "store": "Walmart",
+    "price": "GB40 about $100, F7NP about $130",
+    "ship": "Free over the store minimum",
+    "returns": "Holiday buys returnable to Jan 31, 2027",
+    "note": "Often matches Amazon on jump starters and inflators.",
+    "verdict": "ok"
+   },
+   {
+    "store": "Home Depot",
+    "price": "Ryobi P737D about $37",
+    "ship": "Free pickup",
+    "returns": "90 days in store",
+    "note": "Best for bare cordless-tool inflators and vacuums.",
+    "verdict": "ok"
+   },
+   {
+    "store": "Harbor Freight",
+    "price": "Work lights under $25",
+    "ship": "Free pickup",
+    "returns": "90 days with receipt",
+    "note": "Cheapest for the work light and tools.",
+    "verdict": "ok"
+   },
+   {
+    "store": "Temu / look-alikes",
+    "price": "Often lowest",
+    "ship": "Slow",
+    "returns": "Varies by seller",
+    "note": "Skip for a jump starter or inflator you will trust.",
+    "verdict": "no"
+   }
+  ]
+ }
 ]

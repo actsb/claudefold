@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "gb40",
+   "title": "A year with the car gifts — in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "gifts-car-lovers",
-      "title": "A day with the car gifts — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Dec 25 — unwrap",
+     "text": "The jump starter goes in the trunk with a calendar reminder: recharge every couple of months.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Jan — first cold snap",
+     "text": "The scraper and brush clear the roof as well as the glass."
+    },
+    {
+     "glyph": "warning",
+     "head": "Feb — dead battery",
+     "text": "The starter turns it over. Owners say a unit left uncharged for months may not."
+    },
+    {
+     "glyph": "sun",
+     "head": "Spring — tire check",
+     "text": "Pressure from the door-jamb label, cold, by gauge, not by the dashboard light.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

@@ -1,35 +1,231 @@
 {
-  "category": "generic",
-  "buy_title": "The exact car gifts to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "gifts-car-lovers",
-      "category": "generic",
-      "name": "Gifts for car lovers: useful picks from under $25 to $150",
-      "short": "car gifts",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "box",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=car+accessories+gifts&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The car gifts to order, in order of how much they matter",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide are bands or non-Amazon figures with their source; the button shows today's price.",
+ "cards": [
+  {
+   "id": "gb40",
+   "category": "generic",
+   "name": "NOCO Boost Plus GB40 jump starter",
+   "short": "NOCO GB40",
+   "badge": "Our top pick · the gift that rescues a dead battery",
+   "chip": "1,000 amps · 6L gas · USB power bank",
+   "art": {
+    "shape": "box",
+    "body": "#2F2F2F",
+    "accent": "#F08A24"
+   },
+   "price": "About $100 at Walmart (search snapshot, Oct 10, 2026); list price $124.95 per deal-site trackers. Black Friday 2025 deals ran 36–52% below list (The Drive, Slickdeals).",
+   "buy_if": "the driver who has never needed a jump and will one day, or anyone with a car that sits for days. Our full review: starts gas engines up to 6.0 L and diesels up to 3.0 L.",
+   "skip_if": "you will leave it untouched in a trunk for a year (it self-discharges), or you drive a big diesel or V8 truck. Buy a larger starter for those, and see the cold-weather note below.",
+   "owners": "Retailer owners at Home Depot, Walmart and AutoZone mostly report it starting dead batteries on the first try (AutoZone: 89% recommend in an Oct 2026 snapshot). Complaints: no printed manual, a unit that would not hold a charge, and a charge that fades over months in storage.",
+   "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+jump+starter&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "NOCO Boost Plus GB40 (1000A), the 12V lithium model.",
+    "check": "Sold by Amazon or NOCO; the box says GB40 and 1000 Amp; a genuine unit ships with clamps and a USB cable. Put a recharge reminder in the card.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "f7np",
+   "category": "generic",
+   "name": "REDTIGER F7NP 4K dash cam (front and rear)",
+   "short": "REDTIGER F7NP",
+   "badge": "The big-ticket gift · Consumer Reports gift-guide pick",
+   "chip": "4K front · 1080p rear · Wi-Fi · GPS",
+   "art": {
+    "shape": "box",
+    "body": "#1B1B1B",
+    "accent": "#C8102E"
+   },
+   "price": "About $130 at Walmart (search snapshot, Oct 10, 2026); list price $149.98 (Android Authority, Jul 28, 2026). Ignore the crossed-out \"was\" price on that listing.",
+   "buy_if": "the commuter or new driver who would want video after an accident. Consumer Reports’ gift guide for car lovers (updated Nov 2025) names the F7NP Basic as its dash-cam pick. Our full review covers the details.",
+   "skip_if": "you expect parking-mode recording out of the box (it needs a hardwire kit) or the recipient will never check the memory card. Dash-cam forums say the card fails more often than the camera.",
+   "owners": "We found few owner reviews at retailers other than Amazon, so we lean on Consumer Reports and our own review here. The wider forum pattern for every dash cam: use a high-endurance card and check footage now and then.",
+   "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+dash+cam&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "REDTIGER F7NP 4K front plus 1080p rear (the dual-camera set).",
+    "check": "Sold by REDTIGER or Amazon; confirm \"F7NP\" and the rear camera in the box; add a high-endurance microSD card.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "x8apex",
+   "category": "generic",
+   "name": "Fanttik X8 APEX cordless tire inflator",
+   "short": "Fanttik X8 APEX",
+   "badge": "Best self-contained inflator · no tool battery needed",
+   "chip": "built-in battery · preset PSI · power bank",
+   "art": {
+    "shape": "bottle",
+    "body": "#222831",
+    "accent": "#E8B004"
+   },
+   "price": "About $70 at Walmart (search snapshot, Oct 10, 2026). Ryobi’s P737D inflator is about $37 at Home Depot but sells without a battery.",
+   "buy_if": "the new driver or road-tripper who owns no cordless-tool batteries. It tops tires up from a glovebox, and Consumer Reports, Edmunds and NHTSA all say to check pressure monthly.",
+   "skip_if": "you already own a Ryobi, Milwaukee or DeWalt battery (buy that brand’s bare inflator instead), or the car sits in a hot trunk all summer (lithium).",
+   "owners": "Best Buy and Walmart owners (one week to two months in) praise the battery and one found it within 1 psi of a manual gauge. Complaints: noisy, heavier than expected, and no long-term data yet. A 2023 long-term review warns not to leave it in a hot car.",
+   "cta": "https://www.amazon.com/s?k=Fanttik+X8+APEX+tire+inflator&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Fanttik X8 APEX.",
+    "check": "Check the model name; match the kit to the valve types you have; keep a stick gauge as a cross-check.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "dustbuster",
+   "category": "generic",
+   "name": "Black+Decker Dustbuster AdvancedClean cordless hand vacuum (CHV1410L)",
+   "short": "Dustbuster CHV1410L",
+   "badge": "Best car vacuum for the money · top of Consumer Reports’ 2026 handheld test",
+   "chip": "cordless · 16V · crevice tool",
+   "art": {
+    "shape": "cylinder",
+    "body": "#6B2D8B",
+    "accent": "#F08A24"
+   },
+   "price": "About $60 at Walmart (search snapshot, Oct 10, 2026); smaller Dustbuster models run $23–$45.",
+   "buy_if": "the commuter whose back seat collects crumbs and sand. Consumer Reports’ 2026 lab ranking lists the CHV1410L first among nearly 30 handheld vacuums.",
+   "skip_if": "you want 30 minutes of runtime or deep cleaning. Owners of the Pivot sibling report runtimes as short as 8 minutes, and a shop vac cleans a muddy truck better.",
+   "owners": "The owner evidence is for the Dustbuster family, not this exact model: Walmart and Home Depot reviewers of the Pivot say suction is good but the non-replaceable battery stopped holding a charge after about a year for several of them.",
+   "cta": "https://www.amazon.com/s?k=Black+Decker+Dustbuster+AdvancedClean+CHV1410L&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Black+Decker Dustbuster AdvancedClean CHV1410L (check the model number).",
+    "check": "Sold by Amazon or Black+Decker; unplug it after charging, as owners advise.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "iottie",
+   "category": "generic",
+   "name": "iOttie dash and windshield phone mount",
+   "short": "iOttie phone mount",
+   "badge": "The everyday gift · $20–$30 mounts",
+   "chip": "suction · magnetic or clamp",
+   "art": {
+    "shape": "flat",
+    "body": "#2B2B2B",
+    "accent": "#2D7DD2"
+   },
+   "price": "About $20–$30 (Walmart listed an iOttie MagSafe-compatible mount at about $24.95; search snapshot, Oct 10, 2026).",
+   "buy_if": "any driver who still props the phone in a cup holder. Consumer Reports tested 15 mounts and its favourites were suction-cup types.",
+   "skip_if": "you have a thin or non-magnetic case on a magnetic mount, or you park in hot sun: owners report adhesive pads letting go in heat, and vent clips cracking.",
+   "owners": "Best Buy owners praise the stability of iOttie’s Easy One Touch 5; one Walmart reviewer’s adhesive pad failed right after installation, and iOttie says not to install on a hot dash.",
+   "cta": "https://www.amazon.com/s?k=iOttie+Easy+One+Touch+phone+mount&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "iOttie Easy One Touch (dash/windshield) or the iTap 3 MagSafe version.",
+    "check": "Match the mount to the recipient’s phone and case; fit it on a cool, clean dash.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "braun",
+   "category": "generic",
+   "name": "Braun 500-lumen rechargeable magnetic work light",
+   "short": "Braun work light",
+   "badge": "Best under-$25 stocking stuffer for DIYers",
+   "chip": "500 lumens · magnetic · USB rechargeable",
+   "art": {
+    "shape": "flat",
+    "body": "#C8102E",
+    "accent": "#F2C200"
+   },
+   "price": "About $20 at Harbor Freight (that price is from a 2023 deal, so check the store), under $25 either way.",
+   "buy_if": "the driver who changes a bulb, checks the oil or fixes a flat after dark. The magnet sticks it to the hood or fender.",
+   "skip_if": "it will live in an unheated winter trunk: owners say rechargeable lights run shorter in deep cold.",
+   "owners": "Harbor Freight’s own reviews (not independent) show 4.7 stars from about 3,500 buyers with a 94% recommend rate, praising the magnet; one first unit ran out of charge and was replaced.",
+   "cta": "https://www.amazon.com/s?k=Braun+500+lumen+rechargeable+magnetic+work+light&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Braun 500-lumen slim bar (Harbor Freight item 59536) or a similar 500–800 lumen magnetic light.",
+    "check": "Check that it has a magnet and USB-C or micro-USB charging; read the return window.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "dropstop",
+   "category": "generic",
+   "name": "Drop Stop car seat gap filler",
+   "short": "Drop Stop",
+   "badge": "Best under-$25 gift for commuters",
+   "chip": "2-pack · fits tightly · no tools",
+   "art": {
+    "shape": "flat",
+    "body": "#1B2A41",
+    "accent": "#1E8E5A"
+   },
+   "price": "About $25–$35 (Target listed $24.99 on sale and $34.99 regular; search snapshot, Oct 2026).",
+   "buy_if": "the commuter who keeps fishing keys and phones out of the seat gap. It stops things falling in.",
+   "skip_if": "your car has a wide or electronic seat/console gap with heated-seat controls, or you wanted a pocket-style organizer; it is a filler only.",
+   "owners": "Walmart owners (about 550 written reviews, spanning 2014 to 2026) say it fits tightly and installs quickly. Complaints: a strong smell out of the box, stiffness, price.",
+   "cta": "https://www.amazon.com/s?k=Drop+Stop+car+seat+gap+filler&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Drop Stop original 2-pack.",
+    "check": "Look for \"Drop Stop\" by name; many look-alikes are sized differently.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "subzero",
+   "category": "generic",
+   "name": "Hopkins SubZero snow brush and ice scraper (metal-joint telescoping model)",
+   "short": "Hopkins SubZero",
+   "badge": "Best winter-driver gift under $25",
+   "chip": "snow brush · scraper · telescoping",
+   "art": {
+    "shape": "flat",
+    "body": "#1B6CA8",
+    "accent": "#F2C200"
+   },
+   "price": "$7.52–$24.94 at Walmart depending on size (search snapshot, Oct 10, 2026).",
+   "buy_if": "the driver in snow country. Clearing the roof as well as the windows is what state DOTs ask for.",
+   "skip_if": "you face thick ice often. Owners at AutoZone and Lowe’s say the plastic joints crack in the cold and the foam grip spins; a solid fixed scraper is better for chipping.",
+   "owners": "AutoZone reviewers praise the sturdier metal extender and report plastic joints cracking; a Walmart reviewer whose broom lasted six years is the other side of the pattern.",
+   "cta": "https://www.amazon.com/s?k=Hopkins+SubZero+snow+brush+ice+scraper&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "A SubZero telescoping brush with a metal joint (about 26–48 in. for a car, longer for an SUV).",
+    "check": "Pick the length for the roof; check which joints are metal.",
+    "label": "See today's price"
+   }
+  }
+ ]
 }

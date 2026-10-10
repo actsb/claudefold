@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Drop Stop car seat gap filler (product render)">
+<defs>
+<radialGradient id="cdropstop-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cdropstop-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cdropstop-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cdropstop-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cdropstop-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#2a4165"/><stop offset="0.55" stop-color="#1B2A41"/><stop offset="1" stop-color="#0e1521"/></linearGradient>
+<linearGradient id="cdropstop-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121c2b"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="cdropstop-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3f6297"/><stop offset="1" stop-color="#243857"/></linearGradient>
+<radialGradient id="cdropstop-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#3c5d90"/><stop offset="0.6" stop-color="#1B2A41"/><stop offset="1" stop-color="#06090f"/></radialGradient>
+<linearGradient id="cdropstop-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cdropstop-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cdropstop-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cdropstop-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bcd82"/><stop offset="1" stop-color="#135b3a"/></linearGradient>
+<linearGradient id="cdropstop-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cdropstop-bg)"/><ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#cdropstop-blur)"/>
+<ellipse cx="300" cy="250" rx="176" ry="70" fill="#000000"/><ellipse cx="300" cy="238" rx="176" ry="70" fill="url(#cdropstop-front)"/><ellipse cx="300" cy="238" rx="140" ry="52" fill="#3c5d90" opacity="0.55"/><ellipse cx="300" cy="238" rx="120" ry="42" fill="#1B2A41"/><path d="M 470 236 l 74 -8 q 22 -2 22 12 q 0 12 -22 12 l -74 -4 z" fill="#000000"/><rect x="250" y="292" width="100" height="14" rx="7" fill="#1E8E5A"/>
+<rect x="430" y="300" width="70" height="18" rx="6" fill="#1E8E5A"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="246" height="28" rx="14" fill="#1B2A41"/>
+<text x="141.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2-pack · fits tightly · no tools</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Drop Stop</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>
