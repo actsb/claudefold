@@ -191,6 +191,7 @@ POSTS = {
     },
     "gifts-car-lovers": {
         "dir": "posts/2026-10-gifts-car-lovers",
+        "url": "https://acts39.blogspot.com/2026/10/gifts-for-car-lovers.html",
         "title": "Gifts for Car Lovers 2026: Useful Picks From Under $25 to $150",
         "slug_title": "Gifts for Car Lovers",
         "labels": ["Car", "Gifts", "Gift Guide", "Buying Guide", "Amazon Finds"],

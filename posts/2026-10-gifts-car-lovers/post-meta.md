@@ -6,4 +6,4 @@
 * **Search description (≤150 chars):** Eight car gifts for drivers, from a $8 scraper to a jump starter, with owner complaints, expert picks and Christmas order-by dates.
 * **Format:** roundup (daily/README.md section 11; model: posts/2026-10-best-bidet-2026)
 * **Research:** research/daily-2026-10-10-gifts-car-lovers.md
-* **Status:** scaffolded 2026-10-10
+* **Status:** published 2026-10-10
