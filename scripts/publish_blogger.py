@@ -189,6 +189,12 @@ POSTS = {
         "slug_title": "Black Friday Home and Kitchen Deals",
         "labels": ["Deals", "Black Friday", "Kitchen", "Home Cleaning", "Buying Guide", "Amazon Finds"],
     },
+    "gifts-car-lovers": {
+        "dir": "posts/2026-10-gifts-car-lovers",
+        "title": "Gifts for Car Lovers 2026: Useful Picks From Under $25 to $150",
+        "slug_title": "Gifts for Car Lovers",
+        "labels": ["Car", "Gifts", "Gift Guide", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
