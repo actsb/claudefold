@@ -342,8 +342,8 @@
   {
    "key": "rubbermaid-brilliance",
    "slug": "rubbermaid-brilliance-food-storage",
-   "date": "2026-10-12",
-   "status": "queued",
+   "date": "2026-10-11",
+   "status": "writing",
    "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
    "short": "Rubbermaid Brilliance",
    "category": "generic",
@@ -367,7 +367,9 @@
    "hook": "meal-prep reset; Thanksgiving leftovers",
    "beats": "Pyrex glass / OXO POP",
    "source": "research/daily-candidates-2026-09-27.md",
-   "cluster": "kitchen"
+   "cluster": "kitchen",
+   "url": "https://acts39.blogspot.com/2026/10/rubbermaid-brilliance-review-2026.html",
+   "dir": "posts/2026-10-rubbermaid-brilliance-food-storage"
   },
   {
    "key": "black-friday-tech-car",

@@ -196,6 +196,12 @@ POSTS = {
         "slug_title": "Gifts for Car Lovers",
         "labels": ["Car", "Gifts", "Gift Guide", "Buying Guide", "Amazon Finds"],
     },
+    "rubbermaid-brilliance": {
+        "dir": "posts/2026-10-rubbermaid-brilliance-food-storage",
+        "title": "Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?",
+        "slug_title": "Rubbermaid Brilliance Review 2026",
+        "labels": ["Kitchen", "Storage", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
