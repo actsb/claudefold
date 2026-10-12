@@ -65,3 +65,7 @@ No Amazon material was used. Nothing here is a verbatim quote.
 ## Next step
 Rerun where WebFetch can reach walmart.com, homedepot.com, target.com, bestbuy.com, costco.com, and reddit
 (or get a human to paste pages). Then replace the UNVERIFIED items with dated quotes.
+
+## Retry 2026-10-12
+WebFetch still fails (getaddrinfo ENOTFOUND for cookscountry.com and walmart.com), WebSearch returns only
+undated machine summaries, so no source could be opened. Entry stays at "writing"; no post built or published.
