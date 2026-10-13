@@ -69,3 +69,8 @@ Rerun where WebFetch can reach walmart.com, homedepot.com, target.com, bestbuy.c
 ## Retry 2026-10-12
 WebFetch still fails (getaddrinfo ENOTFOUND for cookscountry.com and walmart.com), WebSearch returns only
 undated machine summaries, so no source could be opened. Entry stays at "writing"; no post built or published.
+
+## Retry 2026-10-13
+WebFetch still fails (getaddrinfo ENOTFOUND www.cookscountry.com). One WebSearch returned only undated
+machine summaries of Canadian Tire, Walmart and Slickdeals comments (cracking after 4-8 months, lid cracks),
+the same UNVERIFIED material as above; no page could be opened. Third held run; no post built or published.
