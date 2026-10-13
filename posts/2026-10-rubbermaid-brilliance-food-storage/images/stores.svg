@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 525" role="img" aria-label="Where to buy it: what each store showed"><rect width="1200" height="525" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Where to buy it: what each store showed</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">October 2026, dated sale prices only</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Store</text>
+<text x="208.79999999999998" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Price seen</text>
+<text x="455.19999999999993" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Date</text>
+<text x="611.9999999999999" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Note</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Walmart</text>
+<text x="208.79999999999998" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$16.85 per 10-pc set</text>
+<text x="455.19999999999993" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Dec 24, 2025</text>
+<text x="611.9999999999999" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Priced from a 4-pack at $67.39 (deal post)</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#C9781B"/><rect x="54" y="254.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Target</text>
+<text x="208.79999999999998" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$19.99 for the 12-pc</text>
+<text x="455.19999999999993" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Feb 12, 2026</text>
+<text x="611.9999999999999" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">50% off; the glass 10-pc was $28.49 on Sep 9, 2026</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#C9781B"/><rect x="54" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Home Depot</text>
+<text x="208.79999999999998" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$50.65 for the 20-pc</text>
+<text x="455.19999999999993" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Oct 13, 2026</text>
+<text x="611.9999999999999" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$2.53 a piece; 90-day returns</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#C9781B"/><rect x="54" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Costco</text>
+<text x="208.79999999999998" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$29.97 for the 16-pc</text>
+<text x="455.19999999999993" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Oct 13, 2026</text>
+<text x="611.9999999999999" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Out of stock online that day; $1.87 a piece</text>
+<rect x="40" y="416" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="442" r="12" fill="#C9781B"/><rect x="54" y="440.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="446" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Amazon</text>
+<text x="208.79999999999998" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">See today's price</text>
+<text x="455.19999999999993" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Button</text>
+<text x="611.9999999999999" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Not quoted here by policy</text>
+<text x="40" y="492" font-size="13" font-weight="400" fill="#888" text-anchor="start">Dated observations from deal posts and store pages. Buttons show today's price.</text>
+</g></svg>

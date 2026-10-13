@@ -7,8 +7,8 @@
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Sunday prep",
+          "text": "Cook, then cool to room temperature. ATK says never seal hot food in plastic.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Latch both sides",
+          "text": "Two latches clip on over the attached gasket. Flat lids stack in the fridge."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Reheat with care",
+          "text": "Open the latches or vents for the microwave. ATK would rather you did not microwave plastic."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Wash by hand",
+          "text": "Top rack is allowed, but cracked sets in reviews often went through the dishwasher.",
           "host": {
             "pose": "thumbsup"
           }
