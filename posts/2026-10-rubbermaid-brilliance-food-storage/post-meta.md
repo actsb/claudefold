@@ -6,4 +6,4 @@
 * **Search description (≤150 chars):** Rubbermaid Brilliance 10-piece review: ATK top pick for sealing, but owners report cracks. Care tips, sale prices and when to buy glass.
 * **Format:** product of the day (daily/README.md)
 * **Research:** research/daily-2026-10-11-rubbermaid-brilliance-food-storage.md
-* **Status:** scaffolded 2026-10-11
+* **Status:** published 2026-10-13 https://acts39.blogspot.com/2026/10/rubbermaid-brilliance-review-2026.html
