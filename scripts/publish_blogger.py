@@ -203,6 +203,12 @@ POSTS = {
         "slug_title": "Rubbermaid Brilliance Review 2026",
         "labels": ["Kitchen", "Storage", "Best Sellers", "Review", "Under $50", "Amazon Finds", "Product of the Day"],
     },
+    "black-friday-tech-car": {
+        "dir": "posts/2026-10-black-friday-tech-car",
+        "title": "Black Friday Tech and Car Deals 2026: The Ones Worth Waiting For",
+        "slug_title": "Black Friday Tech and Car Deals",
+        "labels": ["Deals", "Black Friday", "Car", "Wireless Earbuds", "Power Stations", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

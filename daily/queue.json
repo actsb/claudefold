@@ -374,8 +374,8 @@
   {
    "key": "black-friday-tech-car",
    "slug": "black-friday-tech-car",
-   "date": "2026-10-13",
-   "status": "queued",
+   "date": "2026-10-14",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-09-prime-big-deal-days-2026",
    "name": "Black Friday tech and car deals: the ones worth waiting for",
@@ -401,7 +401,9 @@
    "hook": "same event as the home and kitchen hub; publish by Oct 20",
    "picks": "our guides' picks with price bands (wireless earbuds, robot vacuums, power stations, smart glasses, AirTag 2, NOCO GB40, REDTIGER F7NP), plus TVs and soundbars only if the research supports a real verdict; no Amazon prices",
    "cluster": "deals",
-   "source": "daily/strategy-2026-10.md"
+   "source": "daily/strategy-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/black-friday-tech-and-car-deals.html",
+   "dir": "posts/2026-10-black-friday-tech-car"
   },
   {
    "key": "dreo-heater",
