@@ -205,6 +205,7 @@ POSTS = {
     },
     "black-friday-tech-car": {
         "dir": "posts/2026-10-black-friday-tech-car",
+        "url": "https://acts39.blogspot.com/2026/10/black-friday-tech-and-car-deals.html",
         "title": "Black Friday Tech and Car Deals 2026: The Ones Worth Waiting For",
         "slug_title": "Black Friday Tech and Car Deals",
         "labels": ["Deals", "Black Friday", "Car", "Wireless Earbuds", "Power Stations", "Buying Guide", "Amazon Finds"],

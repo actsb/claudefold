@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Black Friday Tech and Car Deals 2026: The Ones Worth Waiting For
+https://acts39.blogspot.com/2026/10/black-friday-tech-and-car-deals.html
+
+```text
+Which Black Friday 2026 tech and car deals are worth waiting for, which were already cheaper in October, and the price to aim for on 12 picks.
+```
+
 ## Rubbermaid Brilliance Review 2026: Are the Leak-Proof Containers Really Leak-Proof?
 https://acts39.blogspot.com/2026/10/rubbermaid-brilliance-review-2026.html
 ```text
