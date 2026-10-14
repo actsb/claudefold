@@ -1,14 +1,14 @@
 {
   "strips": [
     {
-      "id": "in-real-life",
-      "card": "black-friday-tech-car",
-      "title": "A day with the Black Friday tech — in real life",
+      "id": "deal-plan",
+      "card": "2000v2",
+      "title": "A calm Black Friday for tech — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Now — the list",
+          "text": "Write down twelve prices. Several of them already hit their number in October.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Nov 19 on — the check",
+          "text": "Match the exact model, then open the brand store and Walmart beside the deal."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The trap",
+          "text": "\"Was $1,499\" on a power station that sells for $700 is not a saving. Walk away."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Nov 27 on — the buy",
+          "text": "At or under the number: buy, open the box that week and keep the receipt.",
           "host": {
             "pose": "thumbsup"
           }

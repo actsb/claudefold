@@ -2,82 +2,114 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The Black Friday tech in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "How to check a tech or car deal in five minutes",
+    "sub": "The same six steps work for every pick in this guide",
+    "footer": "Sources: FTC consumer alert (Nov 2025) and Guides Against Deceptive Pricing, Consumer Reports Black Friday tips (2025), a Wirecutter podcast transcript (Nov 2024). Our synthesis.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Set the number",
+        "body": "Before the sale, write the price you would pay. Use our target for each pick, not the banner."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Match the model",
+        "body": "Saros 10 vs 10R, Plus vs plain DELTA 3, AirTag 1st vs 2nd gen, C1000 vs C1000X Gen2. Deals often name a cousin."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Judge the street price",
+        "body": "Wirecutter compares a deal with what the item usually sells for, not the list price. A \"was\" price only counts if it was real recently (FTC)."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Open three stores",
+        "body": "The brand store, Walmart and Best Buy or Target. Power-station and robot brands run their own sales."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Read the returns",
+        "body": "Holiday windows ran to mid- or late January in 2025. Test the item that week; a jump starter fails at 3 a.m., not in the box."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Pay by card, keep proof",
+        "body": "A credit card adds dispute protection (FTC). Save the order number, and photograph a bundle's contents on arrival."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where the rules differ: returns and price match",
+    "sub": "What each retailer did in the 2025 holiday season, and what we could not confirm for 2026",
+    "footer": "Sources: Yahoo Finance retail roundup, Priceva, TechBuzz (Oct 28, 2025), read Oct 14, 2026. 2026 terms were not published when we checked; confirm on the store's page before buying.",
+    "columns": [
+      {
+        "head": "Store",
+        "w": 170
+      },
+      {
+        "head": "Holiday returns (2025)",
+        "w": 300
+      },
+      {
+        "head": "Price match",
+        "w": 330
+      },
+      {
+        "head": "Watch for",
+        "w": 300
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
+        "verdict": "ok",
+        "cells": [
+          "Amazon",
+          "Bought Nov 1–Dec 31, returnable to Jan 31, 2026 (Apple-branded items to Jan 15)",
+          "No price match",
+          "Third-party sellers follow their own rules"
+        ]
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Walmart",
+          "Bought Oct 1–Dec 31, returns to Jan 31, 2026",
+          "Not confirmed for 2026",
+          "Marketplace sellers can differ"
+        ]
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Target",
+          "Electronics bought Nov 1–Dec 24, returnable to Jan 24, 2026",
+          "Sources conflict; one says competitor matching ended in July 2025",
+          "Apple, Beats and phones get shorter windows"
+        ]
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "win",
+        "cells": [
+          "Best Buy",
+          "Holiday purchases returnable to about Jan 15, 2026",
+          "Own-price drops matched; no competitor matching from the Thursday before Thanksgiving to Cyber Monday",
+          "Restocking fee up to 15% on some opened electronics"
+        ]
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "verdict": "ok",
+        "cells": [
+          "Costco",
+          "Holiday window not found",
+          "No match, but credits the difference if its own price drops within 30 days",
+          "Check the current electronics return limit"
+        ]
+      },
+      {
+        "verdict": "no",
+        "cells": [
+          "Brand stores",
+          "Not retrieved for Jackery, Anker, EcoFlow, Roborock or Dreame",
+          "Not applicable",
+          "Read the return page before ordering from a brand site"
+        ]
       }
     ]
   }

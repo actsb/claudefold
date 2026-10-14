@@ -1,26 +1,28 @@
 {
-  "hero": "black-friday-tech-car",
-  "title_size": 66,
+  "hero": "2000v2",
+  "title_size": 64,
   "title": [
-    "Black Friday tech:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Black Friday tech",
+    "and car 2026:",
+    "12 picks, ranked"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Which are worth waiting for, which were already",
+    "cheaper in October, and the price to aim for.",
+    "Black Friday is November 27."
   ],
   "footer": "Product of the day · Black Friday tech and car deals: the ones worth waiting for · Verdict Picks",
-  "alt": "Black Friday tech and car deals: the ones worth waiting for: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "alt": "Black Friday 2026 tech and car deals: 12 picks ranked, which to wait for and which were already cheaper in October (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "12 picks with a price to aim for",
+    "Some were cheaper in October",
+    "Wait for the Jackery 2000 v2"
   ],
   "url": "https://acts39.blogspot.com/2026/10/black-friday-tech-and-car-deals.html",
   "style": "bright",
   "products": [
-    "black-friday-tech-car"
+    "2000v2",
+    "x50",
+    "pro3"
   ]
 }
