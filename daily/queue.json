@@ -409,7 +409,7 @@
    "key": "dreo-heater",
    "slug": "dreo-space-heater",
    "date": "2026-10-15",
-   "status": "queued",
+   "status": "writing",
    "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
    "short": "Dreo space heater",
    "category": "generic",
@@ -432,7 +432,9 @@
    "hook": "first heating bill; zone heating one room instead of the house",
    "beats": "Dyson HP / Vornado VH200",
    "source": "research/daily-candidates-2026-09-27.md",
-   "cluster": "comfort"
+   "cluster": "comfort",
+   "url": "https://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html",
+   "dir": "posts/2026-10-dreo-space-heater"
   },
   {
    "key": "gifts-under-50",

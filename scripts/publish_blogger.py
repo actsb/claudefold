@@ -210,6 +210,12 @@ POSTS = {
         "slug_title": "Black Friday Tech and Car Deals",
         "labels": ["Deals", "Black Friday", "Car", "Wireless Earbuds", "Power Stations", "Buying Guide", "Amazon Finds"],
     },
+    "dreo-heater": {
+        "dir": "posts/2026-10-dreo-space-heater",
+        "title": "Dreo Space Heater Review 2026: How It Compares With Dyson and Vornado",
+        "slug_title": "Dreo Space Heater Review 2026",
+        "labels": ["Home Comfort", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
