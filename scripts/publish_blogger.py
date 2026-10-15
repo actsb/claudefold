@@ -212,6 +212,7 @@ POSTS = {
     },
     "dreo-heater": {
         "dir": "posts/2026-10-dreo-space-heater",
+        "url": "https://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html",
         "title": "Dreo Space Heater Review 2026: How It Compares With Dyson and Vornado",
         "slug_title": "Dreo Space Heater Review 2026",
         "labels": ["Home Comfort", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
