@@ -3,80 +3,112 @@
     "type": "steps",
     "name": "howto",
     "title": "The Dreo space heater in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "From the Dreo support page for the DR-HSH004, in order",
+    "footer": "Sources: Dreo support page for DR-HSH004 (Oct 15, 2026); CPSC news release (Jan 23, 2026). The manual PDF itself could not be read.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Wall outlet only",
+        "body": "No extension cord or power strip; a shared outlet can trip."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Place it flat",
+        "body": "On a hard, level floor, 3 ft from anything that burns."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Set the thermostat",
+        "body": "41\u201395\u00b0F. Start at 68\u00b0F, then adjust."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Pick a mode",
+        "body": "ECO stops heating at the set temperature."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Aim the oscillation",
+        "body": "70\u00b0 sweep; it pauses in ECO once warm."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Clean each season",
+        "body": "Unplug, cool, dry cloth only: no detergents."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where to buy it: what each store showed",
+    "sub": "October 2026, dated prices only",
+    "footer": "Dated observations from deal posts and store pages (search snippets where a store blocked us). Buttons show today's price.",
+    "columns": [
+      {
+        "head": "Store",
+        "w": 16
+      },
+      {
+        "head": "Price seen",
+        "w": 22
+      },
+      {
+        "head": "Date",
+        "w": 16
+      },
+      {
+        "head": "Note",
+        "w": 46
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Walmart",
+          "$29.99\u2013$43.99",
+          "Nov 2025\u2013Jan 2026",
+          "Deal posts on Dreo 1500W models; a $49.99 Atom One class listing is undated"
+        ],
         "verdict": "win"
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Costco",
+          "$79.99 online",
+          "Feb 11, 2026",
+          "A different Dreo (DR-HSH015); $50 in store was a one-off find"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "dreo.com",
+          "$49.99 Atom One",
+          "Oct 15, 2026",
+          "Halloween Sale banner; 30-day returns, you pay shipping"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Target",
+          "$35.99 Atom 416",
+          "Undated",
+          "Search snippet; a different model"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Amazon",
+          "See today's price",
+          "Button",
+          "Not quoted here by policy; Cyber Monday 2025 coverage showed about 15% off Dreo"
+        ],
+        "verdict": "ok"
+      },
+      {
+        "cells": [
+          "Look-alikes",
+          "$23.99\u2013$74.99",
+          "Undated",
+          "Walmart marketplace brands; no Temu or AliExpress listings found"
+        ],
         "verdict": "no"
       }
     ]

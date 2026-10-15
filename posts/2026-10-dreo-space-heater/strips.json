@@ -3,12 +3,12 @@
     {
       "id": "in-real-life",
       "card": "dreo-heater",
-      "title": "A day with the Dreo space heater — in real life",
+      "title": "A day with the Dreo space heater \u2014 in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Cold desk, 6 a.m.",
+          "text": "Set the thermostat to 68\u00b0F and press the remote. Heat starts in seconds.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Wall outlet only",
+          "text": "Plug straight into the wall, not a power strip. CPSC says so, and Dreo's manual agrees."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Keep 3 feet clear",
+          "text": "Nothing within three feet: no curtains, bedding or laundry piles (CPSC, Jan 2026)."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Eco mode, then off",
+          "text": "Eco stops heating at the set temperature. Turn it off when you leave or sleep.",
           "host": {
             "pose": "thumbsup"
           }
