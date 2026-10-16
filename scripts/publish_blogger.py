@@ -217,6 +217,12 @@ POSTS = {
         "slug_title": "Dreo Space Heater Review 2026",
         "labels": ["Home Comfort", "Best Sellers", "Review", "Under $100", "Amazon Finds", "Product of the Day"],
     },
+    "gifts-under-50": {
+        "dir": "posts/2026-10-gifts-under-50",
+        "title": "Gifts Under $50 for 2026: Useful Picks People Actually Keep",
+        "slug_title": "Gifts Under 50",
+        "labels": ["Gifts", "Gift Guide", "Under $50", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
