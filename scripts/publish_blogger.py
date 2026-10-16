@@ -219,6 +219,7 @@ POSTS = {
     },
     "gifts-under-50": {
         "dir": "posts/2026-10-gifts-under-50",
+        "url": "https://acts39.blogspot.com/2026/10/gifts-under-50.html",
         "title": "Gifts Under $50 for 2026: Useful Picks People Actually Keep",
         "slug_title": "Gifts Under 50",
         "labels": ["Gifts", "Gift Guide", "Under $50", "Buying Guide", "Amazon Finds"],
