@@ -2,81 +2,85 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The gifts under $50 in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "How to give a gift that gets kept",
+    "sub": "Five checks before you order, from the owner reports in this guide",
+    "footer": "Sources: owner reports and expert pages named in this guide, October 2026. Return windows differ by store; check the one you use.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "1. Match the person",
+        "body": "Cooks, pet owners, iPhone users: pick by habit, not by price."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "2. Check the variant",
+        "body": "Dog weight for a KONG, iOS version for an AirTag, model for a throw."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "3. Buy from the brand",
+        "body": "Owners report fakes and wrong items from marketplace sellers."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "4. Add the care note",
+        "body": "Wash the Owala gasket weekly; hand-wash the Rubbermaid lids."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "5. Send the receipt",
+        "body": "Wrong size is the top reason gifts come back (Axios, Dec 2025)."
       }
     ]
   },
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where to buy, and when Amazon is not the cheapest",
+    "sub": "October 2026: what trackers and search summaries showed; the buttons show today's price",
+    "footer": "Prices and return windows as reported in trackers and search summaries on October 16, 2026; holiday windows are 2025 precedent, so check each store.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "The button shows today's",
+        "ship": "Prime where eligible",
+        "returns": "Check the listing",
+        "note": "Easiest for the whole list in one cart.",
         "verdict": "win"
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Owala $23.99–$25.49; KONG $11.99",
+        "ship": "Free over $35",
+        "returns": "90 days standard",
+        "note": "Best for Owala and Rubbermaid sales.",
         "verdict": "ok"
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Walmart / Best Buy",
+        "price": "AirTag 2 $24 (Oct 16)",
+        "ship": "Free over $35",
+        "returns": "Holiday extension: check store",
+        "note": "Beat Apple's $29 on the AirTag.",
+        "verdict": "ok"
+      },
+      {
+        "store": "Brand stores",
+        "price": "ThermoPop 2 $31 in July sale",
+        "ship": "Varies",
+        "returns": "30 days (ThermoWorks, Owala)",
+        "note": "Deepest sales on the thermometer.",
+        "verdict": "ok"
+      },
+      {
+        "store": "Costco / BJ's",
+        "price": "O-Cedar kit $25.97 (Jul 2025, in store)",
+        "ship": "Member",
+        "returns": "Generous",
+        "note": "Cheaper than shelf on bulky items.",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Often lowest",
+        "ship": "Slow",
+        "returns": "Varies",
+        "note": "Skip for fakes of ChomChom or Owala.",
         "verdict": "no"
       }
     ]

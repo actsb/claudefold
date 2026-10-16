@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "gifts-under-50",
-      "title": "A day with the gifts under $50 — in real life",
+      "card": "pop",
+      "title": "From unwrapping to still using it — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Dec 25 — unwrap",
+          "text": "A small gift that fits the person, with the receipt tucked in the box.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Jan — first use",
+          "text": "The thermometer reads in seconds; the bottle goes to work."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Spring — the care step",
+          "text": "Pull the bottle gasket and wash it. Owners say mold is the usual complaint."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Next year — still in use",
+          "text": "Useful gifts get used. Novelty ones get regifted.",
           "host": {
             "pose": "thumbsup"
           }

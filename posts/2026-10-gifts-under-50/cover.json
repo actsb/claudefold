@@ -1,26 +1,28 @@
 {
-  "hero": "gifts-under-50",
+  "hero": "pop",
   "title_size": 66,
   "title": [
     "gifts under $50:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "8 useful picks",
+    "people keep"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "What owners, America's Test Kitchen and",
+    "other experts say, with who should skip",
+    "each one and the order-by dates."
   ],
-  "footer": "Product of the day · Gifts under $50: useful picks people actually keep · Verdict Picks",
-  "alt": "Gifts under $50: useful picks people actually keep: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Buying guide · Gifts under $50 · Verdict Picks",
+  "alt": "Gifts under $50 for 2026: eight useful picks led by the ThermoWorks ThermoPop 2 thermometer, with who should skip each and order-by dates (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "A $39 thermometer is our top gift pick",
+    "Eight picks, each with who should skip it",
+    "Order by Dec 10 for standard shipping"
   ],
   "url": "https://acts39.blogspot.com/2026/10/gifts-under-50.html",
   "style": "bright",
   "products": [
-    "gifts-under-50"
+    "pop",
+    "owala",
+    "airtag"
   ]
 }

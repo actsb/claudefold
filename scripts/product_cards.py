@@ -479,6 +479,27 @@ def draw_kong(uid, a):
     out.append(f'<g fill="{shade(accent, -.35)}"><circle cx="404" cy="350" r="6"/><circle cx="420" cy="342" r="5"/><circle cx="392" cy="362" r="5"/><circle cx="184" cy="354" r="6"/></g>')
     return "\n".join(out)
 
+def draw_thermo(uid, a):
+    """Instant-read thermometer (ThermoPop style): tilted rounded body with a display, a button and a long steel probe."""
+    body = a.get("body", "#C8102E"); accent = a.get("accent", "#1B2A41")
+    out = [defs(uid, body, accent), studio(uid, 300, 336, 130, 14)]
+    out.append('<g transform="rotate(-28 300 215)">')
+    # probe (steel) from the body's bottom toward the lower-left of the tilted frame
+    out.append('<path d="M 292 262 L 308 262 L 303 372 L 297 372 Z" fill="url(#%s-metal)" stroke="#9a9a96" stroke-width="1"/>' % uid)
+    out.append('<rect x="288" y="250" width="24" height="16" rx="4" fill="#d9d9d6"/>')
+    # body
+    out.append('<rect x="262" y="86" width="76" height="172" rx="26" fill="url(#%s-front)"/>' % uid)
+    out.append('<rect x="262" y="86" width="76" height="172" rx="26" fill="none" stroke="%s" stroke-width="1.5" opacity="0.6"/>' % shade(body, -.28))
+    # display
+    out.append('<rect x="272" y="104" width="56" height="62" rx="10" fill="url(#%s-screen)"/>' % uid)
+    out.append('<text x="300" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#9BE7C0">165</text>')
+    out.append('<text x="318" y="124" font-family="Arial,sans-serif" font-size="10" fill="#9BE7C0">\u00b0F</text>')
+    # button and gloss
+    out.append('<circle cx="300" cy="206" r="14" fill="%s"/><circle cx="300" cy="206" r="14" fill="none" stroke="%s" stroke-width="1.5" opacity="0.5"/>' % (shade(body, -.14), shade(body, -.35)))
+    out.append('<path d="M 270 120 q -4 60 6 110" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="6" stroke-linecap="round"/>')
+    out.append('</g>')
+    return "\n".join(out)
+
 def draw_bags(uid, a):
     """Dog waste bags: a roll with one bag peeling off, next to a dispenser on a strap; leaf pattern on the roll."""
     body = a.get("body", "#2E8B57"); accent = a.get("accent", "#1B2A41"); bag = a.get("bag", "#7BC47F")
@@ -725,7 +746,7 @@ def draw_bidet(uid, a):
                    f'<rect x="262" y="210" width="76" height="48" rx="8" fill="{accent}"/><rect x="274" y="224" width="44" height="6" rx="3" fill="#fff" opacity="0.75"/>')
     return "\n".join(out)
 
-DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic, "purifier": draw_purifier, "bidet": draw_bidet}
+DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "power": draw_power, "tracker": draw_tracker, "bottle": draw_bottle, "cleaner": draw_cleaner, "groomvac": draw_groomvac, "roller": draw_roller, "litterbot": draw_litterbot, "harness": draw_harness, "kong": draw_kong, "bags": draw_bags, "chat": draw_chat, "film": draw_film, "voice": draw_voice, "lightbox": draw_lightbox, "tripod": draw_tripod, "ssd": draw_ssd, "generic": draw_generic, "purifier": draw_purifier, "bidet": draw_bidet, "thermo": draw_thermo}
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""
