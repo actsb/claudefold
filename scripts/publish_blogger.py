@@ -269,6 +269,7 @@ POSTS_ONLY = "--posts-only" in args
 PAGES_ONLY = "--pages-only" in args
 HUBS_ONLY = "--hubs-only" in args   # only the hub pages and Price Check (the last six in PAGES)
 ONLY = args[args.index("--only") + 1] if "--only" in args else None
+ONLY_PAGES = [a for i, a in enumerate(args) if i and args[i - 1] == "--page"]   # --page "Title" (repeatable): publish just these pages
 if ONLY and ONLY not in POSTS:
     sys.exit(f"--only must be one of: {', '.join(POSTS)}")
 if not TOKEN:
@@ -337,7 +338,7 @@ if POSTS_ONLY or ONLY:
 st, existing = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "live", "fetchBodies": "false", "maxResults": 50})
 st2, drafts = call("GET", f"/blogs/{BLOG_ID}/pages", params={"status": "draft", "fetchBodies": "false", "maxResults": 50})
 by_title = {p["title"]: p for p in (existing.get("items", []) + drafts.get("items", []))}
-for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-6:] if HUBS_ONLY else PAGES)):
+for title, f in ([] if (POSTS_ONLY or ONLY) else [(a, b) for a, b in PAGES if a in ONLY_PAGES] if ONLY_PAGES else (PAGES[-6:] if HUBS_ONLY else PAGES)):
     body = {"title": title, "content": strip_comments(pathlib.Path(f).read_text(encoding="utf-8"))}
     if re.search(r"\bWRITE\b", body["content"]):   # an unfinished line from daily_post.py must never go live
         print(f"page skipped: {title} ({f}) still has a WRITE marker; finish it and publish again"); continue
@@ -350,7 +351,7 @@ for title, f in ([] if (POSTS_ONLY or ONLY) else (PAGES[-6:] if HUBS_ONLY else P
     print(f"page {verb}: {title} → HTTP {st} {res.get('url', res.get('error', {}).get('message', ''))}")
 
 # 3. the posts (update if the full title or the slug title already exists)
-if PAGES_ONLY or HUBS_ONLY:
+if PAGES_ONLY or HUBS_ONLY or ONLY_PAGES:
     print("skipping posts"); sys.exit(0)
 st, live = call("GET", f"/blogs/{BLOG_ID}/posts", params={"status": "live", "fetchBodies": "false", "maxResults": 100})
 st2, pdrafts = call("GET", f"/blogs/{BLOG_ID}/posts", params={"status": "draft", "fetchBodies": "false", "maxResults": 100})

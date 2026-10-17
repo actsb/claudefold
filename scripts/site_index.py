@@ -20,6 +20,7 @@ HUB = ROOT / "brand" / "pages" / "hub-best-sellers.html"
 GENERIC = {"amazon finds", "best sellers", "review", "product of the day", "buying guide", "gifts", "premium",
            "for creators", "workflow guide", "small business"}
 GENERIC_RE = re.compile(r"^under \$\d", re.I)
+ENDED = {"prime-days"}   # guides whose sale is over: not offered as a related guide (they stay live and in the hubs)
 
 
 def publisher_posts():
@@ -79,7 +80,7 @@ def related(post_dir, index, n=4):
     if not me:   # a post that is not live yet: use its publisher labels
         P = next((P for P in publisher_posts().values() if P["dir"] == post_dir), None)
         mine = topics(P["labels"]) if P else set()
-    pool = [(len(mine & topics(p["labels"])), -i, p) for i, p in enumerate(index) if p["dir"] != post_dir]
+    pool = [(len(mine & topics(p["labels"])), -i, p) for i, p in enumerate(index) if p["dir"] != post_dir and p["key"] not in ENDED]
     pool.sort(key=lambda t: (t[0], t[1]), reverse=True)
     return [p for _, _, p in pool[:n]]
 
@@ -153,6 +154,55 @@ def render_hub(text):
     return text
 
 
+# Pages Google indexed first (October 2026: About and the category hubs) are the doors into the site, so each links into
+# the posts with guide cards: a category hub to the guides closest to its own, About to a "Start here" set.
+HUB_MAIN = {"hub-robot-vacuums.html": "posts/2026-09-best-robot-vacuums", "hub-wireless-earbuds.html": "posts/2026-09-best-wireless-earbuds",
+            "hub-smart-glasses.html": "posts/2026-09-best-smart-glasses", "hub-power-stations.html": "posts/2026-09-best-portable-power-stations"}
+START_HERE = ["bidets2026", "instant-pot-duo", "noco-gb40", "levoit300", "bissell", "robot-vacuums"]
+START_RE = re.compile(r'<div class="vp-related" id="start-here".*?<!--/start-here-->\n?', re.S)
+
+
+def start_here(index):
+    by_key = {p["key"]: p for p in index}
+    picks = [by_key[k] for k in START_HERE if k in by_key]
+    return ('<div class="vp-related" id="start-here" style="margin:1.6em 0;">'
+            '<h3 style="color:#1B2A41;margin:0 0 .3em;">Start here</h3>'
+            '<p style="margin:0 0 .5em;">Six guides that show how we work, plus <a href="/p/price-check.html">Price Check</a> (the price that makes each pick a good buy) '
+            'and <a href="/p/best-sellers.html">every guide by room</a>.</p>' + LC.guide_grid(picks) + '</div><!--/start-here-->\n')
+
+
+def inject_pages(index):
+    changed = []
+    for name, main_dir in HUB_MAIN.items():
+        f = ROOT / "brand" / "pages" / name
+        t = f.read_text(encoding="utf-8")
+        blk = block(main_dir, index, n=6)
+        if BLOCK_RE.search(t):
+            new = BLOCK_RE.sub(lambda m: blk, t, count=1)
+        else:
+            i = t.find('<p><a href="/search/label/')
+            new = t if i < 0 else t[:i] + blk + t[i:]
+        if new != t:
+            f.write_text(new, encoding="utf-8"); changed.append(name)
+    if "<style>" not in (ROOT / "brand/pages/hub-robot-vacuums.html").read_text(encoding="utf-8"):
+        for name in HUB_MAIN:   # the cards' phone layout
+            f = ROOT / "brand" / "pages" / name; t = f.read_text(encoding="utf-8")
+            i = t.index("-->") + 4
+            f.write_text(t[:i] + "<style>\n" + LC.CSS + "</style>\n" + t[i:], encoding="utf-8")
+    f = ROOT / "brand" / "pages" / "about.html"; t = f.read_text(encoding="utf-8")
+    blk = start_here(index)
+    if START_RE.search(t):
+        new = START_RE.sub(lambda m: blk, t, count=1)
+    else:
+        i = t.find('<h3 style="color:#1B2A41;">How we make money</h3>')
+        new = t if i < 0 else t[:i] + blk + t[i:]
+    if "<style>" not in new:
+        new = "<style>\n" + LC.CSS + "</style>\n" + new
+    if new != t:
+        f.write_text(new, encoding="utf-8"); changed.append("about.html")
+    return changed
+
+
 def main():
     index = build_index()
     INDEX.write_text(json.dumps(index, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
@@ -164,6 +214,7 @@ def main():
         new = render_hub(HUB.read_text(encoding="utf-8"))
         HUB.write_text(new, encoding="utf-8")
         print(f"{HUB.relative_to(ROOT)}: {len(HUB_CARD.findall(new))} guide cards")
+        print("pages with guide cards refreshed:", ", ".join(inject_pages(index)) or "none")
     if "--inject" in sys.argv:
         changed = []
         for P in publisher_posts().values():
