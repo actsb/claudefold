@@ -1,6 +1,6 @@
 # Daily product of the day — runbook
 
-One guide a day, inside the blog's clusters: either one popular product with the best value in its category ("product of the day"), or a roundup that compares several (section 11). Researched to the end, written for a US shopper who wants to buy today. This file is the complete procedure; a fresh session with no memory of earlier work can follow it top to bottom. The plan behind the queue (clusters, seasonal deadlines, commission rates) is in `daily/strategy-2026-10.md`.
+Three new guides a week and four improve days (section 2), inside the blog's clusters: either one popular product with the best value in its category ("product of the day"), or a roundup that compares several (section 11). Researched to the end, written for a US shopper who wants to buy today. This file is the complete procedure; a fresh session with no memory of earlier work can follow it top to bottom. The plan behind the queue (clusters, seasonal deadlines, commission rates) is in `daily/strategy-2026-10.md`; why the blog had no search traffic in October 2026 and what changed is in `daily/growth-plan-2026-10-17.md`.
 
 ## 0. Ground rules (never skip)
 
@@ -22,6 +22,20 @@ export FFMPEG=<printed path>
 ```
 
 ## 2. Pick today's product
+
+**Cadence (October 17, 2026 diagnosis: zero pages indexed, Google "not convinced" by a new site that adds an AI-assisted guide every day).** A new guide goes out at most **three days a week: Monday, Wednesday and Friday** (UTC date of the run). On the other four days the run is an **improve day** (section 2a) and publishes no new post. Quality per page, not page count, is what moves a new site out of "Discovered – currently not indexed".
+
+**What to write:** long-tail and comparison searches a new site can win (`"X vs Y"`, `"best X for <narrow need>"`, `"is X worth it"`, `"X alternatives"`, a problem a product solves). Not head terms owned by big publishers (`"gifts for dad"`, `"best robot vacuum"`), and no post whose value ends on a sale date (deal posts get an evergreen "how to tell a real deal" core and go to the bottom of the queue). Gift guides are written for Pinterest, not Google: at most one a week in November and December.
+
+### 2a. Improve day (Tuesday, Thursday, Saturday, Sunday)
+
+Pick one live post from `daily/improve-log.md`'s order (the oldest "last improved" first; core clusters before seasonal posts) and make it measurably better, then publish only that post (`--posts-only --only <key>`):
+* Put a 40–60 word answer under the title's question first; make every H2 a question with a one-sentence answer.
+* Add original synthesis a reader cannot get from one listing: a normalized spec/cost table with sources, owner-complaint patterns from non-Amazon retailers with counts and dates, what changed from the previous model, who should skip it.
+* Fix anything dated (an ended sale, "this week", an old price band) and cut padding.
+* Add two or three contextual links to and from newer related posts (descriptive anchors).
+* Change the post's `"updated"` date in `brand/seo-configs.json` only when the content really changed. **Never republish every post at once**: it moves every sitemap `lastmod` together, which Google reads as fake freshness.
+* Log the post, the date and what changed in `daily/improve-log.md`, and submit the URL to Bing (the Bing workflow picks up `daily/improve-log.md` entries from the last three days).
 
 `daily/queue.json` holds the queue, in the order to write it. **First finish unfinished work:** if an entry is at `"status": "writing"` and its folder has no checked `post.html` or still holds WRITE markers (a roundup can take two runs), today's job is to finish that entry. Otherwise take the first entry with `"status": "queued"`; the `"date"` field is only the plan, and `daily_post.py new` replaces it with the day the post is written. Entries at `"parked"` are skipped. If no queued entry is left, run the refill research (prompt in section 8) and append 14 new entries first. An entry with `"format": "roundup"` follows section 11.
 
@@ -86,7 +100,7 @@ Backlog rule: when credentials work, first publish every earlier queue entry who
 * `daily/queue.json`: set the entry's `"status": "published"` and `"url"`.
 * `scripts/publish_blogger.py`: add `"url": "<the live URL>",` under the post's `"dir"` line in `POSTS`. The publisher finds a live post by its URL first, so a later title change updates the post instead of creating a duplicate. When you change a live title, also keep the old title in the entry's `"aliases"` list and change the `## <title>` heading in `daily/search-descriptions.md` to match (the site index matches posts by title).
 * `brand/pages/hub-best-sellers.html`: `daily_post.py new` puts a draft card first in the entry's cluster grid (the queue entry's `"cluster"`; a new cluster opens its own section with a WRITE intro). The card is one line; replace the WRITE text in its highlight (`<div class="vp-lc-hl" …>WRITE: …</div>`) with one line on who it is for and the verdict, no Amazon ratings, counts or prices, and the WRITE intro of a new section. Do it while writing the post (section 4), not after publishing: the publisher refuses to publish a page or post that still holds a WRITE marker, so `--hubs-only` would skip the hub. `python3 scripts/site_index.py --hub` re-renders every card (after a design change; it keeps each card's title and line).
-* `pinterest/pins-2026-*.md` and `promo/<date>-<slug>.md`: the scaffolder writes drafts; complete them.
+* `pinterest/pins-2026-*.md` and `promo/<date>-<slug>.md`: the scaffolder writes drafts; complete them, then run `python3 scripts/quick_pins.py`. It rebuilds `pinterest/quick-pin.html` (https://actsb.github.io/claudefold/pinterest/quick-pin.html), the owner's one-tap pin page: until the Pinterest app has Standard access, this page is how pins actually go out.
 * The Pinterest pin is created from that pin entry by `.github/workflows/pinterest.yml` (GitHub Actions, `scripts/pinterest_pins.py`) once the queue entry is `published`, the entry has no WRITE markers **and the owner has chosen it**. Pinterest's Developer Guidelines require the user to choose each pin an app publishes, so the automatic runs only pin entries carrying `**Approved**` / `yes`, and the owner can also pin a link directly (workflow mode `pin`). Never add the Approved field yourself, not even for a pin you think is obviously fine; add it only when the owner names that pin in the conversation. Put the day's pin link in the Korean report so the owner can choose it. Never call Pinterest from the Routine (the environment's network policy blocks it). Limits: title ≤100, description ≤500, alt text ≤500 characters; `python3 scripts/pinterest_pins.py list` shows which entries are ready. Owner setup: `daily/pinterest-setup.md`.
 * `posts/<dir>/post-meta.md`: title, slug, labels, search description (≤150 chars), status, timestamp.
 * `daily/search-descriptions.md`: add the same search description at the top of the list (`## <post title>`, the URL, the text in a ```text block). Blogger has no API for this field (no v3 field; the GData write API was shut down 2024-09-30; see research/blogger-search-description-2026-10-05.md), so the owner enters it in the editor, or a Claude session running in the owner's own signed-in browser does it from this list. The publisher updates posts with PATCH, which leaves a description entered by hand untouched.
@@ -103,7 +117,7 @@ Read `daily/strategy-2026-10.md` first (clusters, the seasonal calendar, commiss
 
 * One product, one verdict, one buy box: the conversion path is short and the disclosure sits above the only paid links.
 * Owner-reported problems, real expert citations and a retailer comparison are what Google's reviews system rewards and what the FTC's endorsement rules require.
-* The daily cadence is sustainable because the research is delegated, the art is generated, and the checklist is fixed.
+* Three posts a week plus improve days, because a new site is judged by its weakest pages: depth per page beats page count.
 
 ## 10. The Routine that runs this
 

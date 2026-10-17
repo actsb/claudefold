@@ -1,0 +1,78 @@
+# Submit the blog's URLs to Bing (Bing Webmaster Tools URL Submission API). Bing's index feeds Copilot and ChatGPT search.
+# IndexNow cannot work on Blogger (the key file must sit at the blog's own root), so this uses the Webmaster API key instead.
+#
+# Owner setup, once (daily/search-console-bing.md section 2):
+#   1. bing.com/webmasters → import the site from Google Search Console.
+#   2. Settings (gear) → API access → API key → copy it.
+#   3. GitHub → this repository → Settings → Secrets and variables → Actions → New repository secret:
+#      name BING_WEBMASTER_API_KEY, value the key. Never paste it into a file or a chat.
+#
+# Runs: every day after the daily post (posts published or improved in the last 3 days), or by hand with mode "all" (every live post and
+# hub page, once, after setup). The quota for a new site is small (often about 100 a day); the run prints it first.
+name: Bing URL submission
+
+on:
+  schedule:
+    - cron: "40 11 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: '"recent" (posts from the last 3 days) or "all" (every live post and page)'
+        required: true
+        default: recent
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Submit URLs
+        env:
+          KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          MODE: ${{ inputs.mode || 'recent' }}
+        run: |
+          python3 - <<'EOF'
+          import ast, datetime, json, os, pathlib, re, sys, urllib.parse, urllib.request
+          key = os.environ.get("KEY", "").strip()
+          if not key:
+              print("BING_WEBMASTER_API_KEY is not set yet: nothing to do (see the setup notes at the top of this workflow).")
+              sys.exit(0)
+          SITE = "https://acts39.blogspot.com/"
+          API = "https://ssl.bing.com/webmaster/api.svc/json/"
+          def call(method, body=None, **params):
+              q = urllib.parse.urlencode({**params, "apikey": key})
+              req = urllib.request.Request(API + method + "?" + q, data=json.dumps(body).encode() if body else None,
+                                           headers={"Content-Type": "application/json; charset=utf-8"}, method="POST" if body else "GET")
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  out = json.loads(r.read() or b"{}")
+              if isinstance(out, dict) and out.get("ErrorCode"):      # Bing reports some failures with HTTP 200
+                  sys.exit(f"{method} failed: {out}")
+              return out
+          quota = call("GetUrlSubmissionQuota", siteUrl=SITE).get("d", {})
+          print("quota today / this month:", quota.get("DailyQuota"), "/", quota.get("MonthlyQuota"))
+          src = pathlib.Path("scripts/publish_blogger.py").read_text(encoding="utf-8")
+          i = src.index("POSTS = {"); j = src.index("\n}\n", i)
+          posts = ast.literal_eval(src[i + len("POSTS = "):j + 2])
+          live = [P["url"] for P in posts.values() if P.get("url")]
+          if os.environ["MODE"] == "all":
+              urls = [SITE] + live + [SITE + "p/" + p for p in ("best-sellers.html", "robot-vacuums.html", "wireless-earbuds.html",
+                                      "smart-glasses.html", "power-stations.html", "about-verdict-picks.html", "how-we-rank-products.html")]
+          else:
+              q = json.loads(pathlib.Path("daily/queue.json").read_text(encoding="utf-8"))["queue"]
+              since = (datetime.date.today() - datetime.timedelta(days=3)).isoformat()
+              urls = [e["url"] for e in q if e.get("status") == "published" and e.get("url") and e.get("date", "") >= since]
+              log = pathlib.Path("daily/improve-log.md")       # posts improved on an improve day (daily/README.md 2a)
+              for d, k in re.findall(r"^\* (\d{4}-\d{2}-\d{2}) · ([a-z0-9-]+) ·", log.read_text(encoding="utf-8") if log.exists() else "", re.M):
+                  if d >= since and posts.get(k, {}).get("url"):
+                      urls.append(posts[k]["url"])
+          urls = list(dict.fromkeys(urls))[: max(0, int(quota.get("DailyQuota") or 10))]
+          if not urls:
+              print("no new URLs to submit"); sys.exit(0)
+          for k in range(0, len(urls), 500):
+              call("SubmitUrlBatch", {"siteUrl": SITE, "urlList": urls[k:k + 500]})
+          print(f"submitted {len(urls)}:"); print("\n".join("  " + u for u in urls))
+          EOF

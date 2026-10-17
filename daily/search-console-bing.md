@@ -60,6 +60,7 @@
 3. **Sitemaps** 메뉴에 두 사이트맵이 있는지 봅니다. 없으면 **Submit sitemap**에 전체 주소를 넣습니다: `https://acts39.blogspot.com/sitemap.xml`, `https://acts39.blogspot.com/sitemap-pages.xml`.
 4. **URL Submission**에 글 주소를 넣어 제출합니다. 하루 한도는 화면에 나옵니다. 처음 한 번은 17개를 모두 넣어도 됩니다.
 5. 빙은 ChatGPT 검색과 Copilot이 쓰는 색인이라, 구글과 함께 등록할 가치가 있습니다.
+6. **자동 제출 켜기:** 빙 웹마스터 → 설정(톱니) → API 액세스 → API 키 → 복사 → GitHub 저장소 → Settings → Secrets and variables → Actions → New repository secret → 이름 `BING_WEBMASTER_API_KEY`, 값에 키. 그다음 Actions → **Bing URL submission** → Run workflow → mode `all` 한 번. 이후 매일 새 글과 개선한 글이 자동 제출됩니다. (IndexNow는 블로거에서 키 파일을 올릴 수 없어 쓰지 않습니다.)
 
 ## 3. 블로거 설정 (선택, 5분): 설정 → 크롤러 및 색인 생성
 - **맞춤 robots.txt:** 바꾸지 않습니다. 서치콘솔이 "유효"로 보고 있습니다.
