@@ -35,6 +35,7 @@ Pick one live post from `daily/improve-log.md`'s order (the oldest "last improve
 * Fix anything dated (an ended sale, "this week", an old price band) and cut padding.
 * Add two or three contextual links to and from newer related posts (descriptive anchors).
 * Change the post's `"updated"` date in `brand/seo-configs.json` only when the content really changed. **Never republish every post at once**: it moves every sitemap `lastmod` together, which Google reads as fake freshness.
+* Re-check the post's entries in `brand/price-check.json` (Price Check, `daily/price-check-plan.md`): prices seen at other stores with source and date, the good and great lines, the verdict; add an entry for each recommended product that has none; change `checked` only for entries you really re-checked; add a changelog line; run `python3 scripts/price_check.py`. Rebuilding the post adds its "Price check" section above the buy box; `--hubs-only` publishes the Price Check page.
 * Log the post, the date and what changed in `daily/improve-log.md`, and submit the URL to Bing (the Bing workflow picks up `daily/improve-log.md` entries from the last three days).
 
 `daily/queue.json` holds the queue, in the order to write it. **First finish unfinished work:** if an entry is at `"status": "writing"` and its folder has no checked `post.html` or still holds WRITE markers (a roundup can take two runs), today's job is to finish that entry. Otherwise take the first entry with `"status": "queued"`; the `"date"` field is only the plan, and `daily_post.py new` replaces it with the day the post is written. Entries at `"parked"` are skipped. If no queued entry is left, run the refill research (prompt in section 8) and append 14 new entries first. An entry with `"format": "roundup"` follows section 11.
@@ -54,6 +55,8 @@ python3 scripts/daily_post.py new <key>          # creates posts/<date>-<slug>/ 
 ```
 
 Then edit `posts/<dir>/cards.json` (product card, optional accessory cards, `buy` dicts, `video` fields), the new guide's card on `brand/pages/hub-best-sellers.html` (its one line, section 7), `cover.json` (bright style; title lines, subtitle, pin bullets, url) and `strips.json` (one four-panel "in real life" strip). Write `src/00-easy.html` following `daily/template-00-easy.html` section by section; the template's `<!-- WRITE: ... -->` comments say what each part must contain. Target 1,800–2,600 words of body text. Question-form H2s. Ten Quick answers (they become the FAQ schema).
+
+**Price Check (`daily/price-check-plan.md`).** Add one entry to `brand/price-check.json` for the top pick and each buy-box product: the exact model and its look-alikes, prices seen at other stores and list prices with source and date, a `good` and a `great` line, a verdict (`buy`, `ok`, `wait`) with the dated reason. Never an Amazon price, rating, rank or price history (Associates Program Policies 2(b), 6(t), 6(y)): `scripts/price_check.py` refuses to write the page if one slips in. The post gets the cards above its buy box when it is built.
 
 **Several links in one place are written as a link-card list** (section 0): alternatives, "also consider", "more of our guides". Write `<ul class="vp-linkcards">` with one `<li>` per product or guide, in one of these patterns, and the assembler turns the list into cards (a product that has a card in `cards.json` gets its render and price band; a guide gets its picture, title and date from the site index):
 
@@ -89,7 +92,7 @@ Images are served by GitHub Pages from this branch (`https://actsb.github.io/cla
 git add -A && git commit -m "Daily pick: <product> (built)" && git push -u origin claude/sharp-lovelace-n7vhzq
 python3 scripts/publish_blogger.py --check
 python3 scripts/publish_blogger.py --posts-only --only <key>
-python3 scripts/publish_blogger.py --hubs-only        # the Best Sellers hub carries the new line
+python3 scripts/price_check.py && python3 scripts/publish_blogger.py --hubs-only   # the Best Sellers hub card and the Price Check page
 ```
 Unattended auth uses BLOGGER_CLIENT_ID / BLOGGER_CLIENT_SECRET / BLOGGER_REFRESH_TOKEN from the environment. If they are absent, do everything else, commit, push, and end the run by telling the owner the post is built and needs a Blogger token (attended path in the publisher's docstring). Never ask for a token to be pasted into a repository file.
 

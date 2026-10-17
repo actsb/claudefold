@@ -377,7 +377,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
     strip = ('<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> '
              '<a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · '
-             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="/p/follow-verdict-picks.html" style="color:#1E8E5A;font-weight:700;">Follow</a></p>\n')
+             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="/p/price-check.html" style="color:#1B2A41;">Price Check</a> · <a href="/p/follow-verdict-picks.html" style="color:#1E8E5A;font-weight:700;">Follow</a></p>\n')
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
@@ -388,6 +388,12 @@ def main(post_dir):
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
+    # the post's price check (brand/price-check.json), just above the buy box, or above the Pinterest box when there is none
+    import price_check, site_index
+    key = next((k for k, P in site_index.publisher_posts().items() if pathlib.Path(P["dir"]).name == d.resolve().name), None)
+    pc = price_check.post_block(key) if key else ""
+    if pc:
+        easy = easy.replace("<!--BUYBOX-->", pc + "<!--BUYBOX-->", 1) if "<!--BUYBOX-->" in easy else easy.replace("<!--PIN-->", pc + "<!--PIN-->", 1)
     easy = easy.replace("<!--BUYBOX-->", buy_box(d, cards))
     def host_fig(m):
         pose, lines = m.group(1), [html.escape(x) for x in m.group(2).split("|") if x.strip()]
