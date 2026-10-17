@@ -225,7 +225,7 @@ def pick_grid(d, items):
     if len(items) == 1:
         c, n, v = items[0]
         return pick_card(d, c, n, with_video=v)
-    return LC.grid([pick_card(d, c, n, with_video=v, in_grid=True) for c, n, v in items], min_px=300, margin="1.2em 0 1.4em")
+    return LC.grid([pick_card(d, c, n, with_video=v, in_grid=True) for c, n, v in items], min_px=300, margin="1.2em 0 1.4em", picks=True)
 
 BAND = re.compile(r"(?:(?:about|under|roughly|usually|around|from|often|list(?: price)?)\s+)?\$[\d,.]+(?:\s*(?:–|-|to)\s*\$[\d,.]+)?"
                   r"(?:\s+(?:on sale|list|a month|for the pair|for four|for one))?", re.I)

@@ -2,8 +2,8 @@
 """Link cards: how a page shows a set of things to click through to (products to buy, guides to read).
 
 The rule (daily/README.md, section 0): several product or guide links are cards in a grid, two or three to a row,
-never a vertical stack of full-width boxes that each end in a text link. A phone too narrow for two product cards
-shows one per row; guide cards stay two per row there. Each card has:
+never a vertical stack of full-width boxes that each end in a text link. On a phone they stay two to a row with the
+picture on top. Each card has:
 
   a coloured bar on the left · a small pill · the picture on the left · the name in bold · one highlight sentence
   in colour · a grey detail line · a small "price · checked <month>" (or "Updated <date>") line · the call to action
@@ -35,14 +35,21 @@ CSS = """.vp-lc .vp-go{transition:transform .15s}
   .vp-lc-img{flex-basis:90px!important;width:90px!important;height:60px!important}
   .vp-lc-name{font-size:16px!important}
   .vp-lc-hl{font-size:14.5px!important}
-  .vp-guides{grid-template-columns:1fr 1fr!important}
-  .vp-guides .vp-lc-top{flex-direction:column!important}
-  .vp-guides .vp-lc-img{flex-basis:auto!important;width:100%!important;height:auto!important}
-  .vp-guides .vp-lc-name{font-size:15px!important}
-  .vp-guides .vp-lc-hl{font-size:13.5px!important;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .vp-two{grid-template-columns:1fr 1fr!important}
+  .vp-two .vp-lc{padding:10px 10px 10px 9px!important;gap:8px!important}
+  .vp-two .vp-lc-top{flex-direction:column!important;gap:8px!important}
+  .vp-two .vp-lc-img{flex-basis:auto!important;width:100%!important;height:auto!important;aspect-ratio:3/2}
+  .vp-two .vp-lc-name{font-size:14.5px!important;line-height:1.3!important}
+  .vp-two .vp-pill{font-size:11px!important;padding:1px 7px!important}
+  .vp-two .vp-lc-hl{font-size:13px!important;line-height:1.45!important}
+  .vp-two .vp-lc-detail{font-size:12.5px!important}
+  .vp-two .vp-lc-meta{font-size:12px!important}
+  .vp-two .vp-lc-cta{gap:2px 6px!important}
+  .vp-two .vp-lc-cta a{font-size:13px!important;gap:6px!important;width:100%;justify-content:space-between;line-height:1.2!important}
+  .vp-two .vp-go{width:32px!important;height:32px!important}
+  .vp-two .vp-paid{font-size:11.5px!important}
+  .vp-guides .vp-lc-hl{display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
   .vp-guides .vp-lc-meta{display:none}
-  .vp-guides .vp-lc-cta a{font-size:13.5px!important;gap:8px!important;white-space:nowrap}
-  .vp-guides .vp-go{width:34px!important;height:34px!important}
 }
 """
 
@@ -116,9 +123,10 @@ def card(name, href=None, *, img="", pill="", highlight="", detail="", meta="", 
             f'box-shadow:0 1px 3px rgba(16,24,40,.05);">{top}{action}</div>')
 
 
-def grid(cards, guides=False, min_px=300, margin="1em 0 1.4em"):
-    """Two or three to a row where they fit (min_px each); one to a row below that. Guide grids stay two to a row on phones."""
-    cls = "vp-cards vp-guides" if guides else "vp-cards"
+def grid(cards, guides=False, min_px=300, margin="1em 0 1.4em", picks=False):
+    """Two or three to a row where they fit (min_px each). On a phone, link cards (products and guides) stay two to a row
+    with the picture on top (class vp-two); pick cards with their long text and video go one to a row (picks=True)."""
+    cls = "vp-cards" + (" vp-guides" if guides else "") + ("" if picks or len(cards) < 2 else " vp-two")
     return (f'<div class="{cls}" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,{min_px}px),1fr));'
             f'gap:14px;margin:{margin};">' + "".join(cards) + '</div>')
 

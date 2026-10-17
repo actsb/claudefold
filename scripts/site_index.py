@@ -140,6 +140,10 @@ def render_hub(text):
         return grid_open() + "\n" + m.group(1) + "".join(l + "\n" for l in lines) + "</div>"
     text = re.sub(r'<ul style="padding-left:22px;">\n(<!--CLUSTER:[a-z]+-->\n)(.*?)</ul>', legacy_list, text, flags=re.S)
     text = HUB_CARD.sub(lambda m: hub_card(m.group(1), *card_line(m.group(0)), index), text)
+    def two_up(m):   # a cluster with two or more guides stays two to a row on a phone; a lone guide keeps the full width
+        cls = "vp-cards vp-guides" + (" vp-two" if len(HUB_CARD.findall(m.group(3))) > 1 else "")
+        return f'<div class="{cls}"{m.group(1)}>\n{m.group(2)}{m.group(3)}</div>'
+    text = re.sub(r'<div class="vp-cards vp-guides(?: vp-two)?"([^>]*)>\n(<!--CLUSTER:[a-z]+-->\n)((?:<div class="vp-lc" data-guide=.*\n)*)</div>', two_up, text)
     style = "<style>\n" + LC.CSS + "</style>\n"
     if "<style>" in text:
         text = re.sub(r"<style>\n.*?</style>\n", lambda m: style, text, count=1, flags=re.S)
