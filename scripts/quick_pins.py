@@ -7,13 +7,21 @@ pin drafted in pinterest/pins-*.md, newest first, with the image and two buttons
 with the image, link and description filled in (the owner picks the board and saves, so the owner chooses every pin), and
 "Copy title" puts the title on the clipboard for the title field. Pins whose text names a sale that has ended are flagged.
 
-  python3 scripts/quick_pins.py      # rebuild the page after adding pin entries
+  python3 scripts/quick_pins.py              # rebuild the page after adding pin entries
+  python3 scripts/quick_pins.py --release 3  # also release up to 3 more pins into the RSS feed (the daily workflow does this)
+
+The same entries feed pinterest/feed.xml (https://actsb.github.io/claudefold/pinterest/feed.xml), which Pinterest's own
+"Auto-publish from RSS feed" turns into pins once the owner connects it (daily/pinterest-setup.md, "RSS auto-publish").
+Pins are released a few a day, newest post first (pinterest/feed-state.json keeps each pin's release date), so a new
+account does not drop 26 pins at once. Pins that name an ended sale stay out of the feed.
 """
-import datetime, html, pathlib, re, urllib.parse
+import datetime, email.utils, html, json, pathlib, re, sys, urllib.parse
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 PAGES = "https://actsb.github.io/claudefold/"
 OUT = ROOT / "pinterest" / "quick-pin.html"
+FEED = ROOT / "pinterest" / "feed.xml"
+STATE = ROOT / "pinterest" / "feed-state.json"
 # sale dates already past: a pin that leans on them should be edited before it goes out
 ENDED = [(re.compile(r"Prime Big Deal Days|October 6(?:–| to |-)7|Oct(?:ober)? 6", re.I), datetime.date(2026, 10, 7))]
 
@@ -90,5 +98,42 @@ button{{border:1px solid #ccd;background:#fff;border-radius:999px;padding:7px 11
     print(f"{OUT.relative_to(ROOT)}: {len(es)} pins, {sum(e['stale'] for e in es)} flagged as naming an ended sale")
 
 
+def feed(es, release):
+    """RSS 2.0 for Pinterest auto-publish: one item per released pin, the tall pin image as the enclosure and media:content."""
+    state = json.loads(STATE.read_text(encoding="utf-8")) if STATE.exists() else {}
+    today = datetime.date.today().isoformat()
+    for e in [e for e in es if not e["stale"] and e["link"] not in state][:release]:
+        state[e["link"]] = today
+    STATE.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    items = []
+    for e in sorted([e for e in es if e["link"] in state and not e["stale"]], key=lambda e: state[e["link"]], reverse=True):
+        img = PAGES + e["img"]
+        f = ROOT / e["img"]
+        when = email.utils.format_datetime(datetime.datetime.fromisoformat(state[e["link"]] + "T12:00:00+00:00"))
+        items.append(f"""<item>
+<title>{html.escape(e["title"])}</title>
+<link>{html.escape(e["link"])}</link>
+<guid isPermaLink="false">{html.escape(e["link"])}#pin</guid>
+<pubDate>{when}</pubDate>
+<description>{html.escape(e["desc"])}</description>
+<enclosure url="{html.escape(img)}" type="image/png" length="{f.stat().st_size if f.exists() else 0}"/>
+<media:content url="{html.escape(img)}" medium="image" type="image/png" width="1000" height="1500"/>
+</item>""")
+    FEED.write_text(f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Verdict Picks: buying guides</title>
+<link>https://acts39.blogspot.com/</link>
+<atom:link href="{PAGES}pinterest/feed.xml" rel="self" type="application/rss+xml"/>
+<description>New Verdict Picks buying guides for Pinterest. Guides contain paid Amazon links.</description>
+<language>en-us</language>
+{chr(10).join(items)}
+</channel>
+</rss>
+""", encoding="utf-8")
+    print(f"{FEED.relative_to(ROOT)}: {len(items)} pins released, {sum(1 for e in es if e['link'] not in state and not e['stale'])} waiting")
+
+
 if __name__ == "__main__":
     main()
+    feed(entries(), int(sys.argv[sys.argv.index("--release") + 1]) if "--release" in sys.argv else 0)

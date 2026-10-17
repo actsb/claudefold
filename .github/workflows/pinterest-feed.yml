@@ -1,0 +1,33 @@
+# Releases up to three more drafted pins a day into pinterest/feed.xml (newest post first). Pinterest's own "Auto-publish
+# from RSS feed" (business account, claimed site) turns each released item into a pin, so pins go out every day without the
+# Pinterest developer app. The owner connects the feed once: daily/pinterest-setup.md, "RSS auto-publish".
+name: Pinterest feed
+
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pinterest-feed
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - name: Release pins and push
+        run: |
+          python3 scripts/quick_pins.py --release 3
+          if git diff --quiet -- pinterest/; then echo "nothing new to release"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pinterest/feed.xml pinterest/feed-state.json pinterest/quick-pin.html
+          git commit -m "Pinterest feed: release today's pins"
+          for i in 1 2 3 4; do git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME" && exit 0; sleep $((i * 5)); done
+          exit 1
