@@ -4,7 +4,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 | Post (publisher key) | URL | Seasonal | Last improved |
 |---|---|---|---|
-| robot-vacuums | https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html |  | |
+| robot-vacuums | https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html |  | 2026-10-17 |
 | earbuds | https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html |  | |
 | glasses | https://acts39.blogspot.com/2026/09/best-smart-glasses-2026.html |  | |
 | airtag | https://acts39.blogspot.com/2026/09/apple-airtag-2-review-2026.html |  | |
@@ -35,3 +35,4 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-10-17 · robot-vacuums · replaced the stale "wait for Prime Big Deal Days (Oct 6–7)" advice with a dated buy-now-or-wait section (Black Friday Nov 27, Cyber Monday Nov 30; dollars vs percent-off badge; Saros 10R buy / X50 Ultra wait with sources), added three contextual guide cards, refreshed the key takeaway and FAQ answer, Updated date October 17, 2026.
