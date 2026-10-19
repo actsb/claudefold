@@ -3,81 +3,104 @@
     "type": "steps",
     "name": "howto",
     "title": "The Furhaven dog bed in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "sub": "From Furhaven's FAQ and care page, in order",
+    "footer": "Sources: furhaven.com FAQ and care blog (Jan 26, 2024), read Oct 19, 2026; VCA Hospitals (Jun 2026). The skipped step is the three-day wait.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Measure your dog",
+        "body": "Lying in the usual sleep pose. Large is 36 x 27 in."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Unbox and wait",
+        "body": "It ships compressed. Give it a few days to expand."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Place it well",
+        "body": "Warm, draft-free spot, non-slip floor under it (VCA)."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Wash the cover",
+        "body": "Unzip, cold wash, gentle cycle, then air dry."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Spot-clean the foam",
+        "body": "Damp cloth and mild soap. Never machine wash it."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Check at six months",
+        "body": "If your dog bottoms out, size up or replace."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where to buy it: what each store showed",
+    "sub": "October 19, 2026, dated prices only",
+    "footer": "Dated observations from store pages we could load (Target, PetSmart); Chewy and Walmart blocked us. Buttons show today's price.",
+    "columns": [
+      {
+        "head": "Store",
+        "w": 16
+      },
+      {
+        "head": "Price seen",
+        "w": 22
+      },
+      {
+        "head": "Date",
+        "w": 16
+      },
+      {
+        "head": "Note",
+        "w": 46
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Target",
+          "$39.99–$56.99",
+          "Oct 19, 2026",
+          "Large, by style: Quilted $39.99; Plush & Suede $54.99–$56.99; 30-day returns"
+        ],
         "verdict": "win"
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "PetSmart",
+          "$54.99",
+          "Oct 19, 2026",
+          "Plush & Suede Large; strike-through list $65.99"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Chewy / Walmart",
+          "Mid-$30s to $50s",
+          "Undated",
+          "Search snippets only; check the exact style"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "cells": [
+          "Amazon",
+          "See today's price",
+          "Button",
+          "Not quoted here by policy; the biggest size and colour range on one listing"
+        ],
         "verdict": "ok"
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "cells": [
+          "Casper Large",
+          "$224.10",
+          "Oct 19, 2026",
+          "Target; the sturdier, pricier alternative (was $249)"
+        ],
+        "verdict": "ok"
       }
     ]
   }

@@ -8,26 +8,26 @@
       "category": "generic",
       "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
       "short": "Furhaven dog bed",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "badge": "Pets · the budget orthopedic bed",
+      "chip": "36×27 in · egg-crate base · washable cover",
       "art": {
         "shape": "bag",
         "body": "#8B6B43",
         "accent": "#1E8E5A"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
+      "price": "About $40–$57 for the Large at Target and PetSmart (Oct 19, 2026); Casper Large $224.10 at Target",
+      "buy_if": "Your dog is under about 55 lb, or older and mildly stiff, and you want a washable bed with a foam base for the price of a dinner out.",
+      "skip_if": "Your dog is over about 55 lb, a chewer, or a digger: the foam flattens and the cover tears. For big dogs, a Furhaven Jumbo Plus or a Big Barker (about $200–$400 depending on style, Pawleaks, Aug 2025).",
+      "owners": "Target, read Oct 19, 2026: 4.61 out of 5 from 387 ratings on the Large Quilted style; the 1-star reviews are about zippers that broke at the first wash and beds that arrived flat. A one-year blog test (Dec 2025) found the foam thinner under 65–70 lb dogs.",
       "cta": "https://www.amazon.com/s?k=Furhaven+orthopedic+sofa+dog+bed+large&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
+      "video": "KkBwNyb-igQ",
+      "video_title": "ANIMAL FOSTER REVIEWS Furhaven Orthopedic Dog Bed Large Dogs",
+      "video_channel": "YouTube review",
+      "video_why": "An owner-style video of a Furhaven orthopedic bed on a large dog, so you can see the real size and how the foam sits; it may not be the exact style we recommend.",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "Furhaven Plush & Suede Full Support Orthopedic Sofa, Large: 36 × 27 × 6.5 in, 3-inch egg-crate base, size guide up to 55 lb",
+        "check": "The listing says Large (36 x 27 x 6.5 in), not Medium or Jumbo, and shows “Full Support” or egg-crate foam. Sold by Furhaven Pet or an authorized store (Furhaven's warranty goes back to the original seller). Between sizes, or over 55 lb, go to Jumbo.",
         "label": "See today's price"
       }
     }

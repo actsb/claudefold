@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Furhaven Orthopedic Sofa Dog Bed (Large) (product render)">
+<defs>
+<radialGradient id="cfurhavenbed-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
+<filter id="cfurhavenbed-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+<filter id="cfurhavenbed-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
+<filter id="cfurhavenbed-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+<linearGradient id="cfurhavenbed-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ad8554"/><stop offset="0.55" stop-color="#8B6B43"/><stop offset="1" stop-color="#6c5334"/></linearGradient>
+<linearGradient id="cfurhavenbed-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#765b39"/><stop offset="1" stop-color="#463622"/></linearGradient>
+<linearGradient id="cfurhavenbed-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4a884"/><stop offset="1" stop-color="#a07b4d"/></linearGradient>
+<radialGradient id="cfurhavenbed-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#c1a37e"/><stop offset="0.6" stop-color="#8B6B43"/><stop offset="1" stop-color="#5b462c"/></radialGradient>
+<linearGradient id="cfurhavenbed-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="cfurhavenbed-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
+<linearGradient id="cfurhavenbed-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
+<linearGradient id="cfurhavenbed-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2bcd82"/><stop offset="1" stop-color="#135b3a"/></linearGradient>
+<linearGradient id="cfurhavenbed-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
+</defs>
+<rect width="600" height="400" rx="18" fill="url(#cfurhavenbed-bg)"/><ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#cfurhavenbed-blur)"/>
+<path d="M 190 140 q 0 -30 30 -30 h 160 q 30 0 30 30 v 150 q 0 34 -34 34 h -152 q -34 0 -34 -34 z" fill="url(#cfurhavenbed-front)"/><rect x="190" y="110" width="220" height="26" rx="12" fill="#241c11"/><rect x="214" y="196" width="172" height="58" rx="10" fill="#1E8E5A"/><rect x="228" y="212" width="96" height="8" rx="4" fill="#fff" opacity="0.75"/><rect x="228" y="228" width="60" height="7" rx="3.5" fill="#fff" opacity="0.45"/>
+<rect x="430" y="300" width="70" height="18" rx="6" fill="#1E8E5A"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/>
+<g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<rect x="18" y="18" width="318" height="28" rx="14" fill="#1B2A41"/>
+<text x="177.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">36×27 in · egg-crate base · washable cover</text>
+<text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">Furhaven dog bed</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+</g>
+</svg>

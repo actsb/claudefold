@@ -7,8 +7,8 @@
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Measure first",
+          "text": "Measure your dog lying down, nose to tail. Between sizes, go up (Furhaven FAQ).",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Let it expand",
+          "text": "It ships compressed. Some beds need days to puff up; give it three before you judge it."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Cold wash, air dry",
+          "text": "Unzip the cover, wash cold on gentle, air dry. Spot-clean the foam; never machine wash it."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Check the foam at six months",
+          "text": "If your dog bottoms out to the floor, it is time for a thicker bed or a Jumbo.",
           "host": {
             "pose": "thumbsup"
           }
