@@ -224,6 +224,12 @@ POSTS = {
         "slug_title": "Gifts Under 50",
         "labels": ["Gifts", "Gift Guide", "Under $50", "Buying Guide", "Amazon Finds"],
     },
+    "furhaven-bed": {
+        "dir": "posts/2026-10-furhaven-orthopedic-dog-bed",
+        "title": "Furhaven Orthopedic Dog Bed Review 2026: How Close Does It Come to a Big Barker?",
+        "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
+        "labels": ["Pets", "Dog Supplies", "Best Sellers", "Review", "Under $60", "For Pet Owners", "Amazon Finds", "Product of the Day"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

@@ -472,7 +472,7 @@
    "key": "furhaven-bed",
    "slug": "furhaven-orthopedic-dog-bed",
    "date": "2026-10-19",
-   "status": "queued",
+   "status": "writing",
    "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
    "short": "Furhaven dog bed",
    "category": "generic",
@@ -497,7 +497,9 @@
    "hook": "cold floors and stiff joints; a holiday gift for the dog",
    "beats": "Big Barker / Casper dog bed",
    "source": "research/daily-candidates-2026-09-27.md",
-   "cluster": "pets"
+   "cluster": "pets",
+   "url": "https://acts39.blogspot.com/2026/10/furhaven-orthopedic-dog-bed-review-2026.html",
+   "dir": "posts/2026-10-furhaven-orthopedic-dog-bed"
   },
   {
    "key": "instant-pot-models",
