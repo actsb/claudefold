@@ -226,6 +226,7 @@ POSTS = {
     },
     "furhaven-bed": {
         "dir": "posts/2026-10-furhaven-orthopedic-dog-bed",
+        "url": "https://acts39.blogspot.com/2026/10/furhaven-orthopedic-dog-bed-review-2026.html",
         "title": "Furhaven Orthopedic Dog Bed Review 2026: How Close Does It Come to a Big Barker?",
         "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
         "labels": ["Pets", "Dog Supplies", "Best Sellers", "Review", "Under $60", "For Pet Owners", "Amazon Finds", "Product of the Day"],
