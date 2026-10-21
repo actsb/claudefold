@@ -233,6 +233,7 @@ POSTS = {
     },
     "instant-pot-models": {
         "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+        "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-vs-duo-plus-vs-rio-2026.html",
         "title": "Instant Pot Duo vs Duo Plus vs Rio 2026: Which 6-Quart Model Should You Buy?",
         "slug_title": "Instant Pot Duo vs Duo Plus vs Rio 2026",
         "labels": ["Kitchen", "Instant Pot", "Comparison", "Buying Guide", "Under $150", "Amazon Finds"],
