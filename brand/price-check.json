@@ -24,7 +24,7 @@
    "good": "under $35",
    "great": "about $31",
    "verdict": "buy",
-   "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20\u201330% off happens, but not reliably before the holiday.",
+   "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
    "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
    "checked": "2026-10-17"
   },
@@ -38,13 +38,13 @@
     "instant-pot-duo"
    ],
    "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
-   "street": "List $109.99 at Instant Pot's store",
+   "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
    "good": "under $80",
    "great": "$60 or less",
    "verdict": "wait",
-   "why": "Past Black Friday doorbusters were about $50\u2013$80, roughly 25\u201340% off list. Black Friday is November 27.",
-   "sources": "Instant Pot store list price; Business Insider Black Friday guide (2019); Slickdeals comment (Mar 2025)",
-   "checked": "2026-10-17"
+   "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
+   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
+   "checked": "2026-10-21"
   },
   {
    "key": "ninja-af101",
@@ -78,7 +78,7 @@
    "good": "under $350",
    "great": "$260 or less",
    "verdict": "wait",
-   "why": "It sells 25\u201330% below list in most big sales, and Lowe's went near half off in October 2025.",
+   "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
    "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
    "checked": "2026-10-17"
   },
@@ -109,13 +109,13 @@
     "posts/2026-09-owala-freesip",
     "freesip"
    ],
-   "model": "FreeSip 24 oz stainless (the 32 oz lists at $35\u2013$40).",
+   "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
    "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
    "good": "under $25",
    "great": "about $24",
    "verdict": "ok",
    "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, so there is little to wait for.",
-   "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 \u2013 Dec 1, 2025",
+   "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025",
    "checked": "2026-10-17"
   },
   {
@@ -128,7 +128,7 @@
     "little-green"
    ],
    "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
-   "street": "About $95\u2013$130; Bissell list $123.59",
+   "street": "About $95–$130; Bissell list $123.59",
    "good": "under $90",
    "great": "about $79",
    "verdict": "wait",
@@ -146,7 +146,7 @@
     "ocedar-mop"
    ],
    "model": "EasyWring 1-tank system (mop, bucket, one head); the RinseClean 2-tank is a different, pricier set.",
-   "street": "About $35\u2013$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
+   "street": "About $35–$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
    "good": "under $35",
    "great": "under $30",
    "verdict": "ok",
@@ -200,9 +200,9 @@
     "levoit300"
    ],
    "model": "Core 300-P; its filter is the genuine Core 300-RF.",
-   "street": "About $85\u2013$100 at big retailers (Sept 2026)",
+   "street": "About $85–$100 at big retailers (Sept 2026)",
    "good": "under $70",
-   "great": "$50\u2013$60",
+   "great": "$50–$60",
    "verdict": "wait",
    "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
    "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
@@ -218,11 +218,11 @@
     "bedsure-throw"
    ],
    "model": "50 x 60 in throw with the 8-hour auto-off; check the label against the March 2023 CPSC recall before first use.",
-   "street": "Heated throws run about $20\u2013$80; Walmart about $32 (Oct 1, 2026)",
+   "street": "Heated throws run about $20–$80; Walmart about $32 (Oct 1, 2026)",
    "good": "under $35",
    "great": "under $28",
    "verdict": "ok",
-   "why": "Sales take 30\u201345% off, but the everyday price is already low; buy when it is cold, not for the deal.",
+   "why": "Sales take 30–45% off, but the everyday price is already low; buy when it is cold, not for the deal.",
    "sources": "Walmart listing, Oct 1, 2026",
    "checked": "2026-10-17"
   },
@@ -236,11 +236,11 @@
     "beckham-pillows"
    ],
    "model": "Standard/Queen set of 2 (King costs more).",
-   "street": "About $40\u2013$60 for the pair at major retailers",
+   "street": "About $40–$60 for the pair at major retailers",
    "good": "under $45",
    "great": "about $35",
    "verdict": "ok",
-   "why": "30\u201340% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
+   "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
    "sources": "Walmart listings (2026); Woot, March 2023",
    "checked": "2026-10-17"
   },
@@ -256,10 +256,10 @@
    "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
    "street": "$49.99 at dreo.com (Oct 15, 2026)",
    "good": "under $45",
-   "great": "$30\u2013$35",
+   "great": "$30–$35",
    "verdict": "ok",
-   "why": "Walmart ran $29.99\u2013$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
-   "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 \u2013 Jan 2026",
+   "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
+   "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
    "checked": "2026-10-17"
   },
   {
@@ -290,7 +290,7 @@
     "redtiger-f7np"
    ],
    "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
-   "street": "Brand list $149.98 with card, $129.99 without; street about $100\u2013$130",
+   "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
    "good": "under $110",
    "great": "$100 or less",
    "verdict": "wait",
@@ -312,7 +312,7 @@
    "good": "under $20",
    "great": "about $16",
    "verdict": "buy",
-   "why": "20\u201330% off is common and 40% off is rare; it is already near the usual low.",
+   "why": "20–30% off is common and 40% off is rare; it is already near the usual low.",
    "sources": "PetSmart, Oct 2026; Walmart, Sept 2026",
    "checked": "2026-10-17"
   },
@@ -325,7 +325,7 @@
     "posts/2026-09-dog-essentials-on-amazon",
     "kong"
    ],
-   "model": "Classic red KONG, Large for 30\u201365 lb dogs (black is the Extreme).",
+   "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
    "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
    "good": "under $12",
    "great": "under $10",
@@ -380,7 +380,7 @@
     "pro3"
    ],
    "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
-   "street": "List $249; Walmart and Target about $179\u2013$180 (Oct 5, 2026)",
+   "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
    "good": "under $190",
    "great": "$180 or less",
    "verdict": "buy",
@@ -477,10 +477,29 @@
    "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
    "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
    "checked": "2026-10-19"
+  },
+  {
+   "key": "instant-pot-duo-plus-6",
+   "category": "kitchen",
+   "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet)",
+   "guide": "instant-pot-models",
+   "card": [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duoplus"
+   ],
+   "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
+   "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
+   "good": "under $110",
+   "great": "$80 or less",
+   "verdict": "wait",
+   "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
+   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
+   "checked": "2026-10-21"
   }
  ],
  "changelog": [
-  "2026-10-17 \u00b7 Price Check launched with 25 models across seven categories.",
-  "2026-10-19 \u00b7 Added the Furhaven Large dog bed."
+  "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
+  "2026-10-17 · Price Check launched with 25 models across seven categories.",
+  "2026-10-19 · Added the Furhaven Large dog bed."
  ]
 }

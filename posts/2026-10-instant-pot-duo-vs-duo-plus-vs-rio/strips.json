@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "duo",
+      "title": "A first week with an Instant Pot — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "Day 1 — the water test",
+          "text": "Three cups of water, sealing, pressure cook for five minutes, quick release. It proves the lid and ring work before food is at stake.",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "Day 2 — first rice or beans",
+          "text": "Count on 5 to 15 minutes to come up to pressure before the timer starts. That is normal, not a fault."
+        },
+        {
+          "glyph": "warning",
+          "head": "Week 1 — the burn notice",
+          "text": "Browned bits on the bottom or too little thin liquid. Deglaze, add water, reseal."
+        },
+        {
+          "glyph": "sun",
+          "head": "Month 3 — the ring",
+          "text": "The silicone ring holds smells. Steam it with vinegar, and replace it every 12 to 18 months.",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -231,6 +231,12 @@ POSTS = {
         "slug_title": "Furhaven Orthopedic Dog Bed Review 2026",
         "labels": ["Pets", "Dog Supplies", "Best Sellers", "Review", "Under $60", "For Pet Owners", "Amazon Finds", "Product of the Day"],
     },
+    "instant-pot-models": {
+        "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+        "title": "Instant Pot Duo vs Duo Plus vs Rio 2026: Which 6-Quart Model Should You Buy?",
+        "slug_title": "Instant Pot Duo vs Duo Plus vs Rio 2026",
+        "labels": ["Kitchen", "Instant Pot", "Comparison", "Buying Guide", "Under $150", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

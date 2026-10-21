@@ -1,0 +1,155 @@
+[
+  {
+    "type": "matrix",
+    "name": "compare",
+    "title": "Duo, Duo Plus, Rio and Pro, side by side",
+    "sub": "The four 6-quart models on Instant Pot's own store, October 2026",
+    "footer": "List prices and specs from instantpot.com product pages, seen October 21, 2026; Rio pressure setting per Pressure Cooking Today (2023, updated 2024). Sale prices move; the buttons show today's.",
+    "columns": [
+      {
+        "head": "Model",
+        "w": 220
+      },
+      {
+        "head": "List price",
+        "w": 130
+      },
+      {
+        "head": "Power",
+        "w": 110
+      },
+      {
+        "head": "What it adds",
+        "w": 330
+      },
+      {
+        "head": "What it lacks",
+        "w": 320
+      }
+    ],
+    "rows": [
+      {
+        "verdict": "win",
+        "cells": [
+          "Duo 6-qt (112-0170-01)",
+          "$109.99",
+          "1000 W",
+          "13 programs, stainless pot, the most owners and recipes",
+          "Sous vide, quiet release, pot handles"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Duo Plus 6-qt (112-0169-01)",
+          "$139.99",
+          "1000 W",
+          "Sous vide, cake, Whisper Quiet release, big display, 2 spare rings",
+          "Same power and pot as the Duo; rice program weaker (Tom's Guide)"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Rio 6-qt (112-0312-01)",
+          "$109.99",
+          "1000 W",
+          "Slim body, time-only display, anti-spin pot",
+          "Low pressure, sous vide, pot handles; one ring only"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Pro 6-qt (112-0123-01)",
+          "$169.99",
+          "1200 W",
+          "28 programs, insulated handles, sous vide, bake",
+          "$60 more than the Duo; bulkier"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "Your first Instant Pot run, in six steps",
+    "sub": "The water test and release methods from Instant Pot's own guidance",
+    "footer": "Source: Instant Pot test-run and FAQ pages (summaries, October 2026); follow your model's manual where it differs.",
+    "items": [
+      {
+        "head": "Check the ring",
+        "body": "Silicone ring seated flat in the lid, rim clean, pot dry."
+      },
+      {
+        "head": "Add 3 cups of water",
+        "body": "Inner pot in the base, lid closed, valve on Sealing."
+      },
+      {
+        "head": "Pressure cook 5 minutes",
+        "body": "Manual or Pressure Cook. The timer starts after pressure builds."
+      },
+      {
+        "head": "Quick release",
+        "body": "Move the valve to Venting when it beeps. Wait for the float valve to drop."
+      },
+      {
+        "head": "Respect the fill lines",
+        "body": "Never past 2/3; only to 1/2 for rice, beans and foods that expand."
+      },
+      {
+        "head": "Add thin liquid",
+        "body": "At least 1 to 1½ cups for a 6-quart; thick sauces do not count."
+      }
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where to buy an Instant Pot, and who is cheapest",
+    "sub": "October 2026: list prices and the best dated deals we could source",
+    "footer": "Prices and policies as seen October 2026; Walmart and Costco pages were not directly readable, so those figures come from deal posts and are marked. The buttons show today's price.",
+    "rows": [
+      {
+        "store": "Amazon",
+        "price": "See today's price",
+        "ship": "Prime delivery",
+        "returns": "30-day window",
+        "note": "Check the seller is Amazon or Instant Pot",
+        "verdict": "win"
+      },
+      {
+        "store": "Walmart",
+        "price": "Rio Chef Series $89 (Oct 2026 deal post)",
+        "ship": "Free pickup",
+        "returns": "Not verified",
+        "note": "Chef Series has a coated pot",
+        "verdict": "ok"
+      },
+      {
+        "store": "Target",
+        "price": "6QT 9-in-1 bundle $139.99",
+        "ship": "Free over $35",
+        "returns": "Not verified for appliances",
+        "note": "Bundle is not the Duo Plus",
+        "verdict": "ok"
+      },
+      {
+        "store": "Brand store",
+        "price": "Duo $109.99, no sale",
+        "ship": "Standard",
+        "returns": "Not verified",
+        "note": "Best for parts and registration",
+        "verdict": "ok"
+      },
+      {
+        "store": "Look-alikes",
+        "price": "COSORI 6 qt $89.99",
+        "ship": "Standard",
+        "returns": "30 days at COSORI",
+        "note": "2-year warranty vs one year",
+        "verdict": "no"
+      }
+    ]
+  }
+]

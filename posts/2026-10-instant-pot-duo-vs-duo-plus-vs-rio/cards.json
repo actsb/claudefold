@@ -1,0 +1,104 @@
+{
+  "category": "generic",
+  "buy_title": "The exact Instant Pot models to order, and what to check on the listing",
+  "buy_total": "The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. List prices in this guide come from Instant Pot's own store, October 2026.",
+  "buy_kicker": "Our first pick, and our last word",
+  "cards": [
+    {
+      "id": "duo",
+      "category": "generic",
+      "name": "Instant Pot Duo 6-Quart 7-in-1 (model 112-0170-01)",
+      "short": "Instant Pot Duo 6-qt",
+      "badge": "Our first pick · the safe buy for most kitchens",
+      "chip": "1000 W · 13 programs · stainless pot",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A4453",
+        "accent": "#C8102E"
+      },
+      "price": "List $109.99 at Instant Pot's store (October 2026); past sales ran about 30%–40% off list",
+      "buy_if": "you want the plain, proven pressure cooker for rice, beans, stews and chili, with the most owners and the most recipes behind it.",
+      "skip_if": "you want sous vide or a quieter steam release (Duo Plus), or insulated pot handles and more power (Pro); America's Test Kitchen also found the Duo slow-cooks poorly.",
+      "owners": "About 4.6 out of 5 across roughly 3,100 to 3,400 Walmart ratings (search snippet, October 2026); Food Network named it best overall (February 2025).",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20",
+      "video": "tHiqAqA_nwk",
+      "video_title": "Instant Pot Duo Better Than Instant Pot Rio? Should You Upgrade?",
+      "video_channel": "Kitchen Gadgets Zone",
+      "video_why": "The only video we found that sets the Duo directly against the Rio, side by side; the title came from a search-result URL.",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The 6-quart Duo 7-in-1, model 112-0170-01 (also sold as IP-DUO60). Not the 8-quart, the Duo Nova or the Duo Crisp.",
+        "check": "Sold by Amazon.com or Instant Pot (the one-year warranty covers authorized retailers only); the title says Duo, 7-in-1 and 6 Qt; the model number matches.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "duoplus",
+      "category": "generic",
+      "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet, model 112-0169-01)",
+      "short": "Instant Pot Duo Plus 6-qt",
+      "badge": "The upgrade · worth it only on sale",
+      "chip": "sous vide · cake · quiet release",
+      "art": {
+        "shape": "cylinder",
+        "body": "#2F3A48",
+        "accent": "#2B6CB0"
+      },
+      "price": "List $139.99 at Instant Pot's store (October 2026); sale depth reported up to about 57% off in November 2025",
+      "buy_if": "you will really use sous vide or cake, you want a quieter steam release, or you want two spare sealing rings in the box.",
+      "skip_if": "you only pressure-cook rice, beans and soup: the pot and power match the Duo, and Tom's Guide found the rice program weaker.",
+      "owners": "4.7 out of 5 across 765 Best Buy reviews (October 2026); the Target bundle version is a different unit at 4.06 across 780 reviews.",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+Plus+6+quart+Whisper+Quiet+112-0169-01&tag=verdictpicks-20",
+      "video": "HtHQGKgCETg",
+      "video_title": "Instant Pot Duo Plus vs. Instant Pot Duo",
+      "video_channel": "Pressure Luck Cooking",
+      "video_why": "Shows what the Plus adds over the Duo; it appears to cover an older Plus generation, so check the buttons against the V4.",
+      "buy": {
+        "tier": "The upgrade",
+        "pick": "The Duo Plus 6-quart Whisper Quiet, model 112-0169-01, when it is within about $20 of the Duo.",
+        "check": "The model number 112-0169-01 in the listing; not the Target-exclusive 6QT bundle (112-2356-01), which is a different unit; two extra sealing rings in the box.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "rio",
+      "category": "generic",
+      "name": "Instant Pot Rio 6-Quart 7-in-1 (model 112-0312-01)",
+      "short": "Instant Pot Rio 6-qt",
+      "badge": "The one to check twice · same list price as the Duo",
+      "chip": "high pressure only · no pot handles",
+      "art": {
+        "shape": "cylinder",
+        "body": "#1F2937",
+        "accent": "#0F8B8D"
+      },
+      "price": "List $109.99 at Instant Pot's store (October 2026)",
+      "buy_if": "you find it clearly cheaper than the Duo and like the slimmer look and the time-only display.",
+      "skip_if": "you want a low-pressure setting for eggs or delicate foods, or a pot with handles; the Walmart Rio Chef Series is a different cooker with a coated aluminum pot.",
+      "owners": "3.9 out of 5 across 247 Target reviews, 20% of them one star (October 2026); Best Buy showed 4.5 across 47 (search snippet).",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Rio+6+quart+112-0312-01&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Rio 6-quart on Amazon"
+    },
+    {
+      "id": "pro",
+      "category": "generic",
+      "name": "Instant Pot Pro 6-Quart 10-in-1 (model 112-0123-01)",
+      "short": "Instant Pot Pro 6-qt",
+      "badge": "The step up · more power and handles",
+      "chip": "1200 W · 28 programs · pot handles",
+      "art": {
+        "shape": "cylinder",
+        "body": "#1B2A41",
+        "accent": "#B7791F"
+      },
+      "price": "List $169.99 at Instant Pot's store (October 2026)",
+      "buy_if": "you cook on it most days and want the insulated pot handles, more power and a flat pot for searing; America's Test Kitchen's winner was the 8-quart Pro.",
+      "skip_if": "you are buying your first pressure cooker; the Duo does the same core jobs for $60 less at list.",
+      "owners": "We found no reliable 6-quart Pro owner ratings at non-Amazon stores, so we do not rate it; Slickdeals posters (2025–2026) praise the handles.",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Pro+6+quart+112-0123-01&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Pro 6-quart on Amazon"
+    }
+  ]
+}

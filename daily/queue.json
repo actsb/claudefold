@@ -25,7 +25,7 @@
     "Amazon Finds",
     "Product of the Day"
    ],
-   "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6\u20137",
+   "hook": "CDC respiratory season opens in October; Prime Big Deal Days Oct 6–7",
    "beats": "Dyson Purifier Cool / Levoit Core 400S",
    "source": "research/daily-candidates-2026-09-27.md",
    "url": "https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html",
@@ -56,7 +56,7 @@
     "Amazon Finds",
     "Product of the Day"
    ],
-   "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6\u20137",
+   "hook": "first cold snap; dated 42% markdown; cozy-season deals Oct 6–7",
    "beats": "a space heater / a $150 designer throw",
    "source": "research/daily-candidates-2026-09-27.md",
    "url": "https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html",
@@ -148,7 +148,7 @@
     "Amazon Finds",
     "Product of the Day"
    ],
-   "hook": "guest room before the holidays; 40\u201348% off at tentpole sales",
+   "hook": "guest room before the holidays; 40–48% off at tentpole sales",
    "beats": "Coop Home Goods Original",
    "source": "research/daily-candidates-2026-09-27.md",
    "url": "https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html",
@@ -505,7 +505,7 @@
    "key": "instant-pot-models",
    "slug": "instant-pot-duo-vs-duo-plus-vs-rio",
    "date": "2026-10-21",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Instant Pot Duo vs Duo Plus vs Rio (6-quart)",
@@ -530,7 +530,9 @@
    "hook": "the model-number confusion owners ask about; links our Instant Pot Duo review",
    "picks": "Instant Pot Duo 6-qt, Duo Plus 6-qt, Rio 6-qt (and Pro if the research supports it): differences in programs, lid, inner pot, sealing ring, price bands from non-Amazon retailers; one winner first and last",
    "cluster": "kitchen",
-   "source": "daily/strategy-2026-10.md section 11 (October 17 retarget)"
+   "source": "daily/strategy-2026-10.md section 11 (October 17 retarget)",
+   "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-vs-duo-plus-vs-rio-2026.html",
+   "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio"
   },
   {
    "key": "meat-thermometer",
