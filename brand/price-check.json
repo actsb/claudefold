@@ -402,9 +402,9 @@
    "good": "under $90",
    "great": "$80 or less",
    "verdict": "wait",
-   "why": "It launched in January 2026, so there is no Black Friday record; $80 would be about 20% off.",
-   "sources": "MacRumors, Aug 24, 2026; The Points Guy, Oct 2026",
-   "checked": "2026-10-17"
+   "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
+   "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
+   "checked": "2026-10-22"
   },
   {
    "key": "sony-wf-1000xm6",
@@ -498,6 +498,7 @@
   }
  ],
  "changelog": [
+  "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
   "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
   "2026-10-17 · Price Check launched with 25 models across seven categories.",
   "2026-10-19 · Added the Furhaven Large dog bed."
