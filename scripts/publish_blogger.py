@@ -238,6 +238,12 @@ POSTS = {
         "slug_title": "Instant Pot Duo vs Duo Plus vs Rio 2026",
         "labels": ["Kitchen", "Instant Pot", "Comparison", "Buying Guide", "Under $150", "Amazon Finds"],
     },
+    "meat-thermometer": {
+        "dir": "posts/2026-10-meat-thermometer",
+        "title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026: Which Instant-Read Thermometer Is Worth It?",
+        "slug_title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026",
+        "labels": ["Kitchen", "Thanksgiving", "Buying Guide", "Under $100", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

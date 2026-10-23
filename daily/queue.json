@@ -538,7 +538,7 @@
    "key": "meat-thermometer",
    "slug": "meat-thermometer",
    "date": "2026-10-23",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Instant-read meat thermometers: which one is worth it for Thanksgiving",
@@ -562,7 +562,9 @@
    "hook": "the turkey question; Kitchen pays 4.5%",
    "picks": "three to five thermometers chosen by the research (for example ThermoPro, ThermoWorks ThermoPop 2 and Thermapen, Lavatools): read speed and accuracy from published tests, water resistance, backlight; one winner first and last",
    "cluster": "kitchen",
-   "source": "daily/strategy-2026-10.md"
+   "source": "daily/strategy-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/thermopop-2-vs-thermapen-one-vs-thermopro-2026.html",
+   "dir": "posts/2026-10-meat-thermometer"
   },
   {
    "key": "tire-inflator",

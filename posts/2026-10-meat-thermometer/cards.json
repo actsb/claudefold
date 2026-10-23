@@ -1,0 +1,104 @@
+{
+ "category": "generic",
+ "buy_title": "If you buy one instant-read thermometer this year, make it this one",
+ "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from ThermoWorks' store, Target and published tests in October 2026 and move with sales; the button shows today's price.",
+ "buy_kicker": "Our first pick, and our last word",
+ "cards": [
+  {
+   "id": "thermopop2",
+   "category": "generic",
+   "name": "ThermoWorks ThermoPop 2",
+   "short": "ThermoPop 2",
+   "badge": "Our first pick · the best value for most kitchens",
+   "chip": "2.6 s read · ±1 °F · 2-year warranty",
+   "art": {
+    "shape": "flat",
+    "body": "#C8102E",
+    "accent": "#F2F2F2"
+   },
+   "price": "$35 at launch (2022) and Serious Eats in May 2023; about $39 list at ThermoWorks in October 2026",
+   "buy_if": "you want one thermometer for turkey, steak, chicken and bread that a test kitchen trusts, without paying for a one-second read.",
+   "skip_if": "you cook several nights a week and want the fastest read and a 5-year warranty (look at the Thermapen ONE), or you want to dunk it in the sink (the maker says wipe it).",
+   "owners": "America's Test Kitchen's Best Buy in June 2025 (2.6 s, within 0.3 °F); TVWBB owners call it all most cooks need; complaints are a short start-up delay, a lost probe cover and the occasional coin-cell swap.",
+   "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2&tag=verdictpicks-20",
+   "buy": {
+    "tier": "The pick",
+    "pick": "The ThermoPop 2 (not the original ThermoPop); colour is cosmetic. Order the one with the standard probe unless you cook ribs, where the thinner probe is liked by owners.",
+    "check": "Sold by ThermoWorks or an authorized seller: ThermoWorks says its warranty and calibration certificate cover only units bought from it or an authorized dealer. A price far above or below list is a red flag.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "thermapen-one",
+   "category": "generic",
+   "name": "ThermoWorks Thermapen ONE",
+   "short": "Thermapen ONE",
+   "badge": "The fastest · in colour closeout",
+   "chip": "1.1 s read · waterproof · 5-year warranty",
+   "art": {
+    "shape": "flat",
+    "body": "#1B2A41",
+    "accent": "#F2B705"
+   },
+   "price": "$74 in colour closeout at ThermoWorks (October 23, 2026); $109 list since October 2023",
+   "buy_if": "you roast, grill or bake every week and want the one America's Test Kitchen and Serious Eats both named the best.",
+   "skip_if": "you cook a turkey twice a year: the ThermoPop 2 is about $35 less and within a second or two of it for that job.",
+   "owners": "TVWBB and Slickdeals owners report ten years and more from Thermapens; the known failure is debris or moisture in the hinge, repaired free in the 5-year warranty and for $40 after.",
+   "cta": "https://www.amazon.com/s?k=Thermapen+ONE+ThermoWorks&tag=verdictpicks-20"
+  },
+  {
+   "id": "javelin",
+   "category": "generic",
+   "name": "Lavatools Javelin PRO Duo",
+   "short": "Javelin PRO Duo",
+   "badge": "The middle price",
+   "chip": "3 s read · auto-rotating display · backlight",
+   "art": {
+    "shape": "flat",
+    "body": "#2E7D32",
+    "accent": "#E8F5E9"
+   },
+   "price": "About $55 when Serious Eats tested it (May 2023); price today not checked",
+   "buy_if": "you want something closer to a Thermapen's feel than a ThermoPop's, for less, and you do not mind email-only support.",
+   "skip_if": "you want a long, easy warranty process: owners on the EGGhead forum say support is by email or web form only.",
+   "owners": "ATK's Best Midprice (3 s, within 0.5 °F); EGGhead forum owners call it good value; some call it disposable.",
+   "cta": "https://www.amazon.com/s?k=Lavatools+Javelin+PRO+Duo&tag=verdictpicks-20"
+  },
+  {
+   "id": "tp19h",
+   "category": "generic",
+   "name": "TempPro (ThermoPro) TP19H",
+   "short": "TP19H",
+   "badge": "The cheapest that still works",
+   "chip": "Backlit · ambidextrous display · calibration button",
+   "art": {
+    "shape": "flat",
+    "body": "#E65100",
+    "accent": "#FFF3E0"
+   },
+   "price": "$17.99 for the TP19HW at Target, regular $24.99 (October 23, 2026)",
+   "buy_if": "you want a thermometer in the drawer for under $25 and will accept a slower read.",
+   "skip_if": "speed matters: Prudent Reviews timed it at 8 seconds in boiling water, the slowest of its group; or you want to rinse it under a tap (it is IP65, a splash rating).",
+   "owners": "4.7 stars from 74 Target reviews (October 23, 2026), with praise for the backlight and price and a few dead-on-arrival and water-under-screen reports; forum owners report anything from a failed display at 18 months to units lasting years.",
+   "cta": "https://www.amazon.com/s?k=ThermoPro+TP19H+instant+read+thermometer&tag=verdictpicks-20"
+  },
+  {
+   "id": "tp622",
+   "category": "generic",
+   "name": "TempPro (ThermoPro) Lightning TP622",
+   "short": "Lightning TP622",
+   "badge": "The faster cheap one",
+   "chip": "2.1 s read · within 0.3 °F · IP65",
+   "art": {
+    "shape": "flat",
+    "body": "#6A1B9A",
+    "accent": "#F3E5F5"
+   },
+   "price": "Owners cited a $14.99 sale (TVWBB, November 2023); price today not checked",
+   "buy_if": "you want ATK's recommended cheap thermometer: faster than the TP19H in its test.",
+   "skip_if": "you need to submerge it: it is rated IP65, which is splash-proof, not dunk-proof.",
+   "owners": "ATK recommended it (June 2025, 2.1 s); TVWBB owners say it survived drops and weather and is good enough next to a Thermapen; long-term data is thin.",
+   "cta": "https://www.amazon.com/s?k=ThermoPro+Lightning+TP622&tag=verdictpicks-20"
+  }
+ ]
+}

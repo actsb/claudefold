@@ -1,506 +1,543 @@
 {
- "_about": "Price Check data (daily/price-check-plan.md). One entry per exact model we recommend. All figures are prices seen at stores other than Amazon, or list prices, each with its source and date; never an Amazon price (Associates Program Policies 2(b), 6(y)). 'good' and 'great' are our own lines; 'verdict' is buy (buy now), ok (fair price, no reason to wait) or wait (a sale is likely soon). Change 'checked' only when the entry was really re-checked.",
- "categories": {
-  "kitchen": "Kitchen",
-  "cleaning": "Home cleaning",
-  "comfort": "Sleep and home comfort",
-  "car": "Car",
-  "pets": "Pets",
-  "bathroom": "Bathroom",
-  "tech": "Tech"
- },
- "items": [
-  {
-   "key": "thermopop-2",
-   "category": "kitchen",
-   "name": "ThermoWorks ThermoPop 2",
-   "guide": "thanksgiving-hosting",
-   "card": [
-    "posts/2026-10-thanksgiving-hosting",
-    "thermopop"
-   ],
-   "model": "ThermoPop 2 (not the original ThermoPop or the Thermapen ONE).",
-   "street": "About $39 list at ThermoWorks",
-   "good": "under $35",
-   "great": "about $31",
-   "verdict": "buy",
-   "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
-   "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
-   "checked": "2026-10-17"
+  "_about": "Price Check data (daily/price-check-plan.md). One entry per exact model we recommend. All figures are prices seen at stores other than Amazon, or list prices, each with its source and date; never an Amazon price (Associates Program Policies 2(b), 6(y)). 'good' and 'great' are our own lines; 'verdict' is buy (buy now), ok (fair price, no reason to wait) or wait (a sale is likely soon). Change 'checked' only when the entry was really re-checked.",
+  "categories": {
+    "kitchen": "Kitchen",
+    "cleaning": "Home cleaning",
+    "comfort": "Sleep and home comfort",
+    "car": "Car",
+    "pets": "Pets",
+    "bathroom": "Bathroom",
+    "tech": "Tech"
   },
-  {
-   "key": "instant-pot-duo-6",
-   "category": "kitchen",
-   "name": "Instant Pot Duo 6-Quart 7-in-1",
-   "guide": "instant-pot-duo",
-   "card": [
-    "posts/2026-10-instant-pot-duo-6-quart",
-    "instant-pot-duo"
-   ],
-   "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
-   "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
-   "good": "under $80",
-   "great": "$60 or less",
-   "verdict": "wait",
-   "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
-   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
-   "checked": "2026-10-21"
-  },
-  {
-   "key": "ninja-af101",
-   "category": "kitchen",
-   "name": "Ninja AF101 4-Quart Air Fryer",
-   "guide": "black-friday-home-kitchen",
-   "card": [
-    "posts/2026-10-black-friday-home-kitchen",
-    "ninja-af101"
-   ],
-   "model": "AF101, 4 quarts; check the model number, Ninja sells several similar baskets.",
-   "street": "List $119.99; $89.99 at Best Buy, Target and Home Depot (Apr 1, 2026)",
-   "good": "under $80",
-   "great": "$75 or less",
-   "verdict": "wait",
-   "why": "Home Depot took 32% off Ninja kitchen appliances on Black Friday 2025, which would put it near $82; a few dollars lower is our buy line.",
-   "sources": "Slickdeals price tracker, Apr 1, 2026; NBC Select Black Friday 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "kitchenaid-artisan",
-   "category": "kitchen",
-   "name": "KitchenAid Artisan 5-Quart Stand Mixer",
-   "guide": "black-friday-home-kitchen",
-   "card": [
-    "posts/2026-10-black-friday-home-kitchen",
-    "kitchenaid-artisan"
-   ],
-   "model": "Artisan KSM150, 5-quart tilt-head; colours differ in price, so compare the same colour.",
-   "street": "List $499.99; $349 at Target and $242.29 at Lowe's (Oct 6, 2025)",
-   "good": "under $350",
-   "great": "$260 or less",
-   "verdict": "wait",
-   "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
-   "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "rubbermaid-brilliance",
-   "category": "kitchen",
-   "name": "Rubbermaid Brilliance Leak-Proof Containers",
-   "guide": "rubbermaid-brilliance",
-   "card": [
-    "posts/2026-10-rubbermaid-brilliance-food-storage",
-    "rubbermaid-brilliance"
-   ],
-   "model": "Brilliance plastic sets; count the pieces, because set sizes differ by store.",
-   "street": "Mid-teens to about $20 on sale; Target $39.99 at list (July 5, 2026)",
-   "good": "about 40% below list",
-   "great": "Target's $23.99 (Nov 20, 2025) for the same set",
-   "verdict": "wait",
-   "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
-   "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "owala-freesip-24",
-   "category": "kitchen",
-   "name": "Owala FreeSip 24 oz",
-   "guide": "owala",
-   "card": [
-    "posts/2026-09-owala-freesip",
-    "freesip"
-   ],
-   "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
-   "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
-   "good": "under $25",
-   "great": "about $24",
-   "verdict": "ok",
-   "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, so there is little to wait for.",
-   "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "bissell-little-green",
-   "category": "cleaning",
-   "name": "Bissell Little Green 1400B",
-   "guide": "bissell",
-   "card": [
-    "posts/2026-09-bissell-little-green",
-    "little-green"
-   ],
-   "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
-   "street": "About $95–$130; Bissell list $123.59",
-   "good": "under $90",
-   "great": "about $79",
-   "verdict": "wait",
-   "why": "Walmart listed it at $78.97 on November 3, 2025. Of our cleaning picks, this one has the clearest record of a real cut around Black Friday.",
-   "sources": "Slickdeals, Nov 3, 2025; Bissell list price",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "ocedar-easywring",
-   "category": "cleaning",
-   "name": "O-Cedar EasyWring Spin Mop",
-   "guide": "ocedar-mop",
-   "card": [
-    "posts/2026-10-o-cedar-easywring-spin-mop",
-    "ocedar-mop"
-   ],
-   "model": "EasyWring 1-tank system (mop, bucket, one head); the RinseClean 2-tank is a different, pricier set.",
-   "street": "About $35–$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
-   "good": "under $35",
-   "great": "under $30",
-   "verdict": "ok",
-   "why": "It rarely moves much below $35; the better saving is a bundle with refill heads, which Costco has sold near $26.",
-   "sources": "Slickdeals, Aug 20, 2026; Costco bundle, July 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "roborock-saros-10r",
-   "category": "cleaning",
-   "name": "Roborock Saros 10R",
-   "guide": "robot-vacuums",
-   "card": [
-    "posts/2026-09-best-robot-vacuums",
-    "saros-10r"
-   ],
-   "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
-   "street": "List $1,599.99; Roborock's store $899.99 (Oct 14, 2026)",
-   "good": "$900 or less",
-   "great": "under $850",
-   "verdict": "buy",
-   "why": "October already beat last year's Black Friday price of $999.99, and as a replaced model it has less room to fall.",
-   "sources": "Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "dreame-x50-ultra",
-   "category": "cleaning",
-   "name": "Dreame X50 Ultra",
-   "guide": "black-friday-tech-car",
-   "card": [
-    "posts/2026-10-black-friday-tech-car",
-    "x50"
-   ],
-   "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
-   "street": "List $1,599.99",
-   "good": "under $850",
-   "great": "$800 or less",
-   "verdict": "wait",
-   "why": "Dreame's own store ran it at $799.99 (50% off) from November 20 to December 1, 2025; expect a clearance-style price again.",
-   "sources": "Dreame Black Friday 2025 post (search snippet)",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "levoit-core-300p",
-   "category": "comfort",
-   "name": "Levoit Core 300-P Air Purifier",
-   "guide": "levoit300",
-   "card": [
-    "posts/2026-09-levoit-core-300p-air-purifier",
-    "levoit300"
-   ],
-   "model": "Core 300-P; its filter is the genuine Core 300-RF.",
-   "street": "About $85–$100 at big retailers (Sept 2026)",
-   "good": "under $70",
-   "great": "$50–$60",
-   "verdict": "wait",
-   "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
-   "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "bedsure-throw-50x60",
-   "category": "comfort",
-   "name": "Bedsure Heated Throw 50 x 60",
-   "guide": "bedsure-throw",
-   "card": [
-    "posts/2026-10-bedsure-heated-blanket-throw",
-    "bedsure-throw"
-   ],
-   "model": "50 x 60 in throw with the 8-hour auto-off; check the label against the March 2023 CPSC recall before first use.",
-   "street": "Heated throws run about $20–$80; Walmart about $32 (Oct 1, 2026)",
-   "good": "under $35",
-   "great": "under $28",
-   "verdict": "ok",
-   "why": "Sales take 30–45% off, but the everyday price is already low; buy when it is cold, not for the deal.",
-   "sources": "Walmart listing, Oct 1, 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "beckham-pillows",
-   "category": "comfort",
-   "name": "Beckham Hotel Collection Pillows (pair)",
-   "guide": "beckham-pillows",
-   "card": [
-    "posts/2026-10-beckham-hotel-collection-pillows",
-    "beckham-pillows"
-   ],
-   "model": "Standard/Queen set of 2 (King costs more).",
-   "street": "About $40–$60 for the pair at major retailers",
-   "good": "under $45",
-   "great": "about $35",
-   "verdict": "ok",
-   "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
-   "sources": "Walmart listings (2026); Woot, March 2023",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "dreo-heater-1500",
-   "category": "comfort",
-   "name": "Dreo 1500W Ceramic Space Heater",
-   "guide": "dreo-heater",
-   "card": [
-    "posts/2026-10-dreo-space-heater",
-    "dreo-heater"
-   ],
-   "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
-   "street": "$49.99 at dreo.com (Oct 15, 2026)",
-   "good": "under $45",
-   "great": "$30–$35",
-   "verdict": "ok",
-   "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
-   "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "noco-gb40",
-   "category": "car",
-   "name": "NOCO Boost Plus GB40",
-   "guide": "noco-gb40",
-   "card": [
-    "posts/2026-09-noco-boost-plus-gb40-jump-starter",
-    "noco-gb40"
-   ],
-   "model": "GB40, 1000A, for gas engines up to 6.0 liters (the GB50 is the bigger one).",
-   "street": "List $99.95 at NOCO's store",
-   "good": "under $85",
-   "great": "about $80",
-   "verdict": "buy",
-   "why": "About $80 has been the usual deal price for two years (Woot, Aug 26, 2025); it does not usually go lower, so there is nothing to wait for before winter.",
-   "sources": "NOCO list price; Slickdeals, Aug 26, 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "redtiger-f7np",
-   "category": "car",
-   "name": "REDTIGER F7NP 4K Dash Cam",
-   "guide": "redtiger-f7np",
-   "card": [
-    "posts/2026-10-redtiger-f7np-dash-cam",
-    "redtiger-f7np"
-   ],
-   "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
-   "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
-   "good": "under $110",
-   "great": "$100 or less",
-   "verdict": "wait",
-   "why": "The crossed-out $149.98 is not the real street price; $100 or less is where it is a good buy.",
-   "sources": "Android Authority, Jul 28, 2026; redtigercam.com, Oct 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "chomchom-roller",
-   "category": "pets",
-   "name": "ChomChom Roller",
-   "guide": "pets",
-   "card": [
-    "posts/2026-09-best-pet-products-on-amazon",
-    "chomchom"
-   ],
-   "model": "The original ChomChom Roller (look-alikes copy the shape, not the comb).",
-   "street": "$19.99 at PetSmart (Oct 2026); $23.99 at Walmart (Sept 2026)",
-   "good": "under $20",
-   "great": "about $16",
-   "verdict": "buy",
-   "why": "20–30% off is common and 40% off is rare; it is already near the usual low.",
-   "sources": "PetSmart, Oct 2026; Walmart, Sept 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "kong-classic-large",
-   "category": "pets",
-   "name": "KONG Classic (Large)",
-   "guide": "dogs",
-   "card": [
-    "posts/2026-09-dog-essentials-on-amazon",
-    "kong"
-   ],
-   "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
-   "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
-   "good": "under $12",
-   "great": "under $10",
-   "verdict": "buy",
-   "why": "It is cheap all year; size matters more than price.",
-   "sources": "Chewy and Walmart, Sept 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "litter-robot-4",
-   "category": "pets",
-   "name": "Litter-Robot 4",
-   "guide": "pets",
-   "card": [
-    "posts/2026-09-best-pet-products-on-amazon",
-    "lr4"
-   ],
-   "model": "Litter-Robot 4 (the EVO is a cheaper, different machine).",
-   "street": "$699 direct at litter-robot.com all of 2026",
-   "good": "$699 new",
-   "great": "$599 reconditioned, direct",
-   "verdict": "ok",
-   "why": "The price held at $699 all year; Costco's $699.99 bundle adds extras. Reconditioned units save $100 with a shorter warranty.",
-   "sources": "litter-robot.com, 2026; Costco, July 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "luxe-neo-185",
-   "category": "bathroom",
-   "name": "LUXE Bidet NEO 185",
-   "guide": "bidets2026",
-   "card": [
-    "posts/2026-10-best-bidet-2026",
-    "neo185"
-   ],
-   "model": "NEO 185 dual nozzle (the 185 Plus costs a few dollars more; the NEO 120 has one nozzle).",
-   "street": "$49.99 at LUXE's store (Oct 2026); Walmart $42.49 (undated)",
-   "good": "under $45",
-   "great": "under $40",
-   "verdict": "buy",
-   "why": "It sits near its floor all year, so a wait saves only a few dollars.",
-   "sources": "LUXE store, Oct 2026; Walmart listing (undated)",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "airpods-pro-3",
-   "category": "tech",
-   "name": "Apple AirPods Pro 3",
-   "guide": "black-friday-tech-car",
-   "card": [
-    "posts/2026-10-black-friday-tech-car",
-    "pro3"
-   ],
-   "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
-   "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
-   "good": "under $190",
-   "great": "$180 or less",
-   "verdict": "buy",
-   "why": "About $180 is already below last year's Black Friday low of $219.99.",
-   "sources": "apple.com; TechBuzz, Nov 20, 2025; Slickdeals price table, Oct 5, 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "airtag-2-4pack",
-   "category": "tech",
-   "name": "Apple AirTag 2 (4-pack)",
-   "guide": "airtag",
-   "card": [
-    "posts/2026-09-apple-airtag-2",
-    "airtag2"
-   ],
-   "model": "AirTag 2nd generation, 4-pack (a single is $29 list).",
-   "street": "List $99; Target $89.99 (Oct 2026)",
-   "good": "under $90",
-   "great": "$80 or less",
-   "verdict": "wait",
-   "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
-   "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
-   "checked": "2026-10-22"
-  },
-  {
-   "key": "sony-wf-1000xm6",
-   "category": "tech",
-   "name": "Sony WF-1000XM6",
-   "guide": "earbuds",
-   "card": [
-    "posts/2026-09-best-wireless-earbuds",
-    "xm6"
-   ],
-   "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
-   "street": "List $329.99",
-   "good": "under $280",
-   "great": "$260 or less",
-   "verdict": "wait",
-   "why": "The best discount so far was about 22% off list (Oct 5, 2026); a first Black Friday usually matches or beats it.",
-   "sources": "SoundGuys, Oct 5, 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "anker-c1000-gen2",
-   "category": "tech",
-   "name": "Anker SOLIX C1000 Gen 2",
-   "guide": "power-stations",
-   "card": [
-    "posts/2026-09-best-portable-power-stations",
-    "c1000"
-   ],
-   "model": "C1000 Gen 2 (the first C1000 charges more slowly).",
-   "street": "List $799",
-   "good": "under $500",
-   "great": "$430 or less",
-   "verdict": "wait",
-   "why": "Anker's own store sold it for $429 with a code in April 2026, so it has room to fall.",
-   "sources": "Slickdeals, Apr 23, 2026",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "jackery-2000-v2",
-   "category": "tech",
-   "name": "Jackery Explorer 2000 v2",
-   "guide": "black-friday-tech-car",
-   "card": [
-    "posts/2026-10-black-friday-tech-car",
-    "2000v2"
-   ],
-   "model": "Explorer 2000 v2 (2,042 Wh); the 2000 Plus is a different, heavier unit.",
-   "street": "List $1,499",
-   "good": "under $750",
-   "great": "$650 or less",
-   "verdict": "wait",
-   "why": "Wellbots sold it for $599 with a code on November 14, 2025: the clearest Black Friday-window low of our picks.",
-   "sources": "Slickdeals, Nov 14, 2025",
-   "checked": "2026-10-17"
-  },
-  {
-   "key": "furhaven-sofa-large",
-   "category": "pets",
-   "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
-   "guide": "furhaven-bed",
-   "card": [
-    "posts/2026-10-furhaven-orthopedic-dog-bed",
-    "furhaven-bed"
-   ],
-   "model": "Large (36 x 27 x 6.5 in, size guide up to 55 lb); the Quilted style is thinner than the Plush & Suede Full Support.",
-   "street": "Quilted $39.99 (Target, Oct 19, 2026); Plush & Suede $54.99 (PetSmart, Oct 19, 2026), list $65.99",
-   "good": "under $45",
-   "great": "$40 or less",
-   "verdict": "ok",
-   "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
-   "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
-   "checked": "2026-10-19"
-  },
-  {
-   "key": "instant-pot-duo-plus-6",
-   "category": "kitchen",
-   "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet)",
-   "guide": "instant-pot-models",
-   "card": [
-    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
-    "duoplus"
-   ],
-   "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
-   "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
-   "good": "under $110",
-   "great": "$80 or less",
-   "verdict": "wait",
-   "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
-   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
-   "checked": "2026-10-21"
-  }
- ],
- "changelog": [
-  "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
-  "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
-  "2026-10-17 · Price Check launched with 25 models across seven categories.",
-  "2026-10-19 · Added the Furhaven Large dog bed."
- ]
+  "items": [
+    {
+      "key": "thermopop-2",
+      "category": "kitchen",
+      "name": "ThermoWorks ThermoPop 2",
+      "guide": "thanksgiving-hosting",
+      "card": [
+        "posts/2026-10-thanksgiving-hosting",
+        "thermopop"
+      ],
+      "model": "ThermoPop 2 (not the original ThermoPop or the Thermapen ONE).",
+      "street": "About $39 list at ThermoWorks",
+      "good": "under $35",
+      "great": "about $31",
+      "verdict": "buy",
+      "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
+      "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "instant-pot-duo-6",
+      "category": "kitchen",
+      "name": "Instant Pot Duo 6-Quart 7-in-1",
+      "guide": "instant-pot-duo",
+      "card": [
+        "posts/2026-10-instant-pot-duo-6-quart",
+        "instant-pot-duo"
+      ],
+      "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
+      "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
+      "good": "under $80",
+      "great": "$60 or less",
+      "verdict": "wait",
+      "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
+      "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
+      "checked": "2026-10-21"
+    },
+    {
+      "key": "ninja-af101",
+      "category": "kitchen",
+      "name": "Ninja AF101 4-Quart Air Fryer",
+      "guide": "black-friday-home-kitchen",
+      "card": [
+        "posts/2026-10-black-friday-home-kitchen",
+        "ninja-af101"
+      ],
+      "model": "AF101, 4 quarts; check the model number, Ninja sells several similar baskets.",
+      "street": "List $119.99; $89.99 at Best Buy, Target and Home Depot (Apr 1, 2026)",
+      "good": "under $80",
+      "great": "$75 or less",
+      "verdict": "wait",
+      "why": "Home Depot took 32% off Ninja kitchen appliances on Black Friday 2025, which would put it near $82; a few dollars lower is our buy line.",
+      "sources": "Slickdeals price tracker, Apr 1, 2026; NBC Select Black Friday 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "kitchenaid-artisan",
+      "category": "kitchen",
+      "name": "KitchenAid Artisan 5-Quart Stand Mixer",
+      "guide": "black-friday-home-kitchen",
+      "card": [
+        "posts/2026-10-black-friday-home-kitchen",
+        "kitchenaid-artisan"
+      ],
+      "model": "Artisan KSM150, 5-quart tilt-head; colours differ in price, so compare the same colour.",
+      "street": "List $499.99; $349 at Target and $242.29 at Lowe's (Oct 6, 2025)",
+      "good": "under $350",
+      "great": "$260 or less",
+      "verdict": "wait",
+      "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
+      "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "rubbermaid-brilliance",
+      "category": "kitchen",
+      "name": "Rubbermaid Brilliance Leak-Proof Containers",
+      "guide": "rubbermaid-brilliance",
+      "card": [
+        "posts/2026-10-rubbermaid-brilliance-food-storage",
+        "rubbermaid-brilliance"
+      ],
+      "model": "Brilliance plastic sets; count the pieces, because set sizes differ by store.",
+      "street": "Mid-teens to about $20 on sale; Target $39.99 at list (July 5, 2026)",
+      "good": "about 40% below list",
+      "great": "Target's $23.99 (Nov 20, 2025) for the same set",
+      "verdict": "wait",
+      "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
+      "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "owala-freesip-24",
+      "category": "kitchen",
+      "name": "Owala FreeSip 24 oz",
+      "guide": "owala",
+      "card": [
+        "posts/2026-09-owala-freesip",
+        "freesip"
+      ],
+      "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
+      "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
+      "good": "under $25",
+      "great": "about $24",
+      "verdict": "ok",
+      "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, so there is little to wait for.",
+      "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "bissell-little-green",
+      "category": "cleaning",
+      "name": "Bissell Little Green 1400B",
+      "guide": "bissell",
+      "card": [
+        "posts/2026-09-bissell-little-green",
+        "little-green"
+      ],
+      "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
+      "street": "About $95–$130; Bissell list $123.59",
+      "good": "under $90",
+      "great": "about $79",
+      "verdict": "wait",
+      "why": "Walmart listed it at $78.97 on November 3, 2025. Of our cleaning picks, this one has the clearest record of a real cut around Black Friday.",
+      "sources": "Slickdeals, Nov 3, 2025; Bissell list price",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "ocedar-easywring",
+      "category": "cleaning",
+      "name": "O-Cedar EasyWring Spin Mop",
+      "guide": "ocedar-mop",
+      "card": [
+        "posts/2026-10-o-cedar-easywring-spin-mop",
+        "ocedar-mop"
+      ],
+      "model": "EasyWring 1-tank system (mop, bucket, one head); the RinseClean 2-tank is a different, pricier set.",
+      "street": "About $35–$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
+      "good": "under $35",
+      "great": "under $30",
+      "verdict": "ok",
+      "why": "It rarely moves much below $35; the better saving is a bundle with refill heads, which Costco has sold near $26.",
+      "sources": "Slickdeals, Aug 20, 2026; Costco bundle, July 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "roborock-saros-10r",
+      "category": "cleaning",
+      "name": "Roborock Saros 10R",
+      "guide": "robot-vacuums",
+      "card": [
+        "posts/2026-09-best-robot-vacuums",
+        "saros-10r"
+      ],
+      "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
+      "street": "List $1,599.99; Roborock's store $899.99 (Oct 14, 2026)",
+      "good": "$900 or less",
+      "great": "under $850",
+      "verdict": "buy",
+      "why": "October already beat last year's Black Friday price of $999.99, and as a replaced model it has less room to fall.",
+      "sources": "Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "dreame-x50-ultra",
+      "category": "cleaning",
+      "name": "Dreame X50 Ultra",
+      "guide": "black-friday-tech-car",
+      "card": [
+        "posts/2026-10-black-friday-tech-car",
+        "x50"
+      ],
+      "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
+      "street": "List $1,599.99",
+      "good": "under $850",
+      "great": "$800 or less",
+      "verdict": "wait",
+      "why": "Dreame's own store ran it at $799.99 (50% off) from November 20 to December 1, 2025; expect a clearance-style price again.",
+      "sources": "Dreame Black Friday 2025 post (search snippet)",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "levoit-core-300p",
+      "category": "comfort",
+      "name": "Levoit Core 300-P Air Purifier",
+      "guide": "levoit300",
+      "card": [
+        "posts/2026-09-levoit-core-300p-air-purifier",
+        "levoit300"
+      ],
+      "model": "Core 300-P; its filter is the genuine Core 300-RF.",
+      "street": "About $85–$100 at big retailers (Sept 2026)",
+      "good": "under $70",
+      "great": "$50–$60",
+      "verdict": "wait",
+      "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
+      "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "bedsure-throw-50x60",
+      "category": "comfort",
+      "name": "Bedsure Heated Throw 50 x 60",
+      "guide": "bedsure-throw",
+      "card": [
+        "posts/2026-10-bedsure-heated-blanket-throw",
+        "bedsure-throw"
+      ],
+      "model": "50 x 60 in throw with the 8-hour auto-off; check the label against the March 2023 CPSC recall before first use.",
+      "street": "Heated throws run about $20–$80; Walmart about $32 (Oct 1, 2026)",
+      "good": "under $35",
+      "great": "under $28",
+      "verdict": "ok",
+      "why": "Sales take 30–45% off, but the everyday price is already low; buy when it is cold, not for the deal.",
+      "sources": "Walmart listing, Oct 1, 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "beckham-pillows",
+      "category": "comfort",
+      "name": "Beckham Hotel Collection Pillows (pair)",
+      "guide": "beckham-pillows",
+      "card": [
+        "posts/2026-10-beckham-hotel-collection-pillows",
+        "beckham-pillows"
+      ],
+      "model": "Standard/Queen set of 2 (King costs more).",
+      "street": "About $40–$60 for the pair at major retailers",
+      "good": "under $45",
+      "great": "about $35",
+      "verdict": "ok",
+      "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
+      "sources": "Walmart listings (2026); Woot, March 2023",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "dreo-heater-1500",
+      "category": "comfort",
+      "name": "Dreo 1500W Ceramic Space Heater",
+      "guide": "dreo-heater",
+      "card": [
+        "posts/2026-10-dreo-space-heater",
+        "dreo-heater"
+      ],
+      "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
+      "street": "$49.99 at dreo.com (Oct 15, 2026)",
+      "good": "under $45",
+      "great": "$30–$35",
+      "verdict": "ok",
+      "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
+      "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "noco-gb40",
+      "category": "car",
+      "name": "NOCO Boost Plus GB40",
+      "guide": "noco-gb40",
+      "card": [
+        "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+        "noco-gb40"
+      ],
+      "model": "GB40, 1000A, for gas engines up to 6.0 liters (the GB50 is the bigger one).",
+      "street": "List $99.95 at NOCO's store",
+      "good": "under $85",
+      "great": "about $80",
+      "verdict": "buy",
+      "why": "About $80 has been the usual deal price for two years (Woot, Aug 26, 2025); it does not usually go lower, so there is nothing to wait for before winter.",
+      "sources": "NOCO list price; Slickdeals, Aug 26, 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "redtiger-f7np",
+      "category": "car",
+      "name": "REDTIGER F7NP 4K Dash Cam",
+      "guide": "redtiger-f7np",
+      "card": [
+        "posts/2026-10-redtiger-f7np-dash-cam",
+        "redtiger-f7np"
+      ],
+      "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
+      "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
+      "good": "under $110",
+      "great": "$100 or less",
+      "verdict": "wait",
+      "why": "The crossed-out $149.98 is not the real street price; $100 or less is where it is a good buy.",
+      "sources": "Android Authority, Jul 28, 2026; redtigercam.com, Oct 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "chomchom-roller",
+      "category": "pets",
+      "name": "ChomChom Roller",
+      "guide": "pets",
+      "card": [
+        "posts/2026-09-best-pet-products-on-amazon",
+        "chomchom"
+      ],
+      "model": "The original ChomChom Roller (look-alikes copy the shape, not the comb).",
+      "street": "$19.99 at PetSmart (Oct 2026); $23.99 at Walmart (Sept 2026)",
+      "good": "under $20",
+      "great": "about $16",
+      "verdict": "buy",
+      "why": "20–30% off is common and 40% off is rare; it is already near the usual low.",
+      "sources": "PetSmart, Oct 2026; Walmart, Sept 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "kong-classic-large",
+      "category": "pets",
+      "name": "KONG Classic (Large)",
+      "guide": "dogs",
+      "card": [
+        "posts/2026-09-dog-essentials-on-amazon",
+        "kong"
+      ],
+      "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
+      "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
+      "good": "under $12",
+      "great": "under $10",
+      "verdict": "buy",
+      "why": "It is cheap all year; size matters more than price.",
+      "sources": "Chewy and Walmart, Sept 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "litter-robot-4",
+      "category": "pets",
+      "name": "Litter-Robot 4",
+      "guide": "pets",
+      "card": [
+        "posts/2026-09-best-pet-products-on-amazon",
+        "lr4"
+      ],
+      "model": "Litter-Robot 4 (the EVO is a cheaper, different machine).",
+      "street": "$699 direct at litter-robot.com all of 2026",
+      "good": "$699 new",
+      "great": "$599 reconditioned, direct",
+      "verdict": "ok",
+      "why": "The price held at $699 all year; Costco's $699.99 bundle adds extras. Reconditioned units save $100 with a shorter warranty.",
+      "sources": "litter-robot.com, 2026; Costco, July 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "luxe-neo-185",
+      "category": "bathroom",
+      "name": "LUXE Bidet NEO 185",
+      "guide": "bidets2026",
+      "card": [
+        "posts/2026-10-best-bidet-2026",
+        "neo185"
+      ],
+      "model": "NEO 185 dual nozzle (the 185 Plus costs a few dollars more; the NEO 120 has one nozzle).",
+      "street": "$49.99 at LUXE's store (Oct 2026); Walmart $42.49 (undated)",
+      "good": "under $45",
+      "great": "under $40",
+      "verdict": "buy",
+      "why": "It sits near its floor all year, so a wait saves only a few dollars.",
+      "sources": "LUXE store, Oct 2026; Walmart listing (undated)",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "airpods-pro-3",
+      "category": "tech",
+      "name": "Apple AirPods Pro 3",
+      "guide": "black-friday-tech-car",
+      "card": [
+        "posts/2026-10-black-friday-tech-car",
+        "pro3"
+      ],
+      "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
+      "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
+      "good": "under $190",
+      "great": "$180 or less",
+      "verdict": "buy",
+      "why": "About $180 is already below last year's Black Friday low of $219.99.",
+      "sources": "apple.com; TechBuzz, Nov 20, 2025; Slickdeals price table, Oct 5, 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "airtag-2-4pack",
+      "category": "tech",
+      "name": "Apple AirTag 2 (4-pack)",
+      "guide": "airtag",
+      "card": [
+        "posts/2026-09-apple-airtag-2",
+        "airtag2"
+      ],
+      "model": "AirTag 2nd generation, 4-pack (a single is $29 list).",
+      "street": "List $99; Target $89.99 (Oct 2026)",
+      "good": "under $90",
+      "great": "$80 or less",
+      "verdict": "wait",
+      "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
+      "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
+      "checked": "2026-10-22"
+    },
+    {
+      "key": "sony-wf-1000xm6",
+      "category": "tech",
+      "name": "Sony WF-1000XM6",
+      "guide": "earbuds",
+      "card": [
+        "posts/2026-09-best-wireless-earbuds",
+        "xm6"
+      ],
+      "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
+      "street": "List $329.99",
+      "good": "under $280",
+      "great": "$260 or less",
+      "verdict": "wait",
+      "why": "The best discount so far was about 22% off list (Oct 5, 2026); a first Black Friday usually matches or beats it.",
+      "sources": "SoundGuys, Oct 5, 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "anker-c1000-gen2",
+      "category": "tech",
+      "name": "Anker SOLIX C1000 Gen 2",
+      "guide": "power-stations",
+      "card": [
+        "posts/2026-09-best-portable-power-stations",
+        "c1000"
+      ],
+      "model": "C1000 Gen 2 (the first C1000 charges more slowly).",
+      "street": "List $799",
+      "good": "under $500",
+      "great": "$430 or less",
+      "verdict": "wait",
+      "why": "Anker's own store sold it for $429 with a code in April 2026, so it has room to fall.",
+      "sources": "Slickdeals, Apr 23, 2026",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "jackery-2000-v2",
+      "category": "tech",
+      "name": "Jackery Explorer 2000 v2",
+      "guide": "black-friday-tech-car",
+      "card": [
+        "posts/2026-10-black-friday-tech-car",
+        "2000v2"
+      ],
+      "model": "Explorer 2000 v2 (2,042 Wh); the 2000 Plus is a different, heavier unit.",
+      "street": "List $1,499",
+      "good": "under $750",
+      "great": "$650 or less",
+      "verdict": "wait",
+      "why": "Wellbots sold it for $599 with a code on November 14, 2025: the clearest Black Friday-window low of our picks.",
+      "sources": "Slickdeals, Nov 14, 2025",
+      "checked": "2026-10-17"
+    },
+    {
+      "key": "furhaven-sofa-large",
+      "category": "pets",
+      "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+      "guide": "furhaven-bed",
+      "card": [
+        "posts/2026-10-furhaven-orthopedic-dog-bed",
+        "furhaven-bed"
+      ],
+      "model": "Large (36 x 27 x 6.5 in, size guide up to 55 lb); the Quilted style is thinner than the Plush & Suede Full Support.",
+      "street": "Quilted $39.99 (Target, Oct 19, 2026); Plush & Suede $54.99 (PetSmart, Oct 19, 2026), list $65.99",
+      "good": "under $45",
+      "great": "$40 or less",
+      "verdict": "ok",
+      "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
+      "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
+      "checked": "2026-10-19"
+    },
+    {
+      "key": "instant-pot-duo-plus-6",
+      "category": "kitchen",
+      "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet)",
+      "guide": "instant-pot-models",
+      "card": [
+        "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+        "duoplus"
+      ],
+      "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
+      "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
+      "good": "under $110",
+      "great": "$80 or less",
+      "verdict": "wait",
+      "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
+      "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
+      "checked": "2026-10-21"
+    },
+    {
+      "key": "thermopop-2-thermometers",
+      "category": "kitchen",
+      "name": "ThermoWorks ThermoPop 2",
+      "guide": "meat-thermometer",
+      "card": [
+        "posts/2026-10-meat-thermometer",
+        "thermopop2"
+      ],
+      "model": "ThermoPop 2 (not the original ThermoPop).",
+      "street": "About $39 list at ThermoWorks, October 2026; $35 at launch (2022)",
+      "good": "under $35",
+      "great": "about $31",
+      "verdict": "buy",
+      "why": "Thanksgiving is November 26. ThermoWorks ran it at $31 (20% off) on July 1, 2026 and at $24.50 (30% off) on October 5, 2023, but not reliably before the holiday, and you want time for an ice-bath test.",
+      "sources": "ThermoWorks list price, October 2026; ThermoWorks via America's Test Kitchen, July 1, 2026; TVWBB, October 5, 2023",
+      "checked": "2026-10-23"
+    },
+    {
+      "key": "thermapen-one",
+      "category": "kitchen",
+      "name": "ThermoWorks Thermapen ONE",
+      "guide": "meat-thermometer",
+      "card": [
+        "posts/2026-10-meat-thermometer",
+        "thermapen-one"
+      ],
+      "model": "Thermapen ONE, any colour (the NANO is a different, newer model).",
+      "street": "$74 in colour closeout at ThermoWorks (Oct 23, 2026); $109 list",
+      "good": "under $75",
+      "great": "about $62",
+      "verdict": "buy",
+      "why": "It is being closed out, so colours are running out; ThermoWorks has sold it at $62 to $76 several times (Black Friday 2022, 2024, Nov 10, 2025), but this year's successor may change that.",
+      "sources": "thermoworks.com, Oct 23, 2026; Slickdeals, Nov 10, 2025 and Aug 21, 2026; TVWBB Black Friday 2022 thread",
+      "checked": "2026-10-23"
+    }
+  ],
+  "changelog": [
+    "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",
+    "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
+    "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
+    "2026-10-17 · Price Check launched with 25 models across seven categories.",
+    "2026-10-19 · Added the Furhaven Large dog bed."
+  ]
 }

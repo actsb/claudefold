@@ -1,0 +1,170 @@
+[
+  {
+    "type": "matrix",
+    "name": "compare",
+    "title": "Five instant-read thermometers, side by side",
+    "sub": "Read time and accuracy from two independent tests, plus what each costs at stores other than Amazon",
+    "footer": "Read time: America's Test Kitchen (June 2025) except the TP19H, timed by Prudent Reviews (October 2025) in boiling water. Methods differ, so compare within a column. Prices: ThermoWorks (Oct 23, 2026), Target (Oct 23, 2026), Serious Eats (May 2023). The buttons show today's price.",
+    "columns": [
+      {
+        "head": "Model",
+        "w": 250
+      },
+      {
+        "head": "Read time",
+        "w": 170
+      },
+      {
+        "head": "Accuracy",
+        "w": 210
+      },
+      {
+        "head": "Water",
+        "w": 210
+      },
+      {
+        "head": "Warranty",
+        "w": 150
+      },
+      {
+        "head": "Price seen",
+        "w": 260
+      }
+    ],
+    "rows": [
+      {
+        "verdict": "win",
+        "cells": [
+          "ThermoPop 2",
+          "2.6 s (ATK)",
+          "Within 0.3 °F (ATK)",
+          "Survived ATK's dunk; maker says wipe",
+          "2 years",
+          "$35–$39 list"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Thermapen ONE",
+          "1.1 s (ATK)",
+          "Within 0.07 °F (ATK)",
+          "Waterproof, 39 in for 30 min",
+          "5 years",
+          "$74 closeout, $109 list"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Javelin PRO Duo",
+          "3 s (ATK)",
+          "Within 0.52 °F (ATK)",
+          "IP65 splash-proof",
+          "Not checked",
+          "About $55 (SE, 2023)"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "TempPro Lightning TP622",
+          "2.1 s (ATK)",
+          "Within 0.3 °F (ATK)",
+          "IP65 splash-proof",
+          "Not checked",
+          "$14.99 sale (TVWBB, 2023)"
+        ]
+      },
+      {
+        "verdict": "no",
+        "cells": [
+          "TempPro TP19H",
+          "About 8 s boiling (Prudent)",
+          "±0.9 °F claimed",
+          "IP65 splash-proof",
+          "1 yr, 3 if registered",
+          "$17.99 at Target (TP19HW)"
+        ]
+      }
+    ]
+  },
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "Check a turkey in five steps",
+    "sub": "USDA's temperature, ThermoWorks' ice-bath check, and the step people skip",
+    "footer": "Sources: USDA FSIS safe temperature chart and turkey roasting guide (summaries read October 2026); ThermoWorks ice-bath guide. Follow your model's manual.",
+    "items": [
+      {
+        "head": "Ice-bath check first",
+        "body": "Fill a glass with crushed ice, add water, stir, probe in the middle. Expect about 32 °F."
+      },
+      {
+        "head": "Probe the thigh",
+        "body": "Push the tip into the innermost part of the thigh, not touching bone."
+      },
+      {
+        "head": "Probe the breast",
+        "body": "Go into the thickest part of the breast, then the wing. All three need 165 °F."
+      },
+      {
+        "head": "Wait for the number",
+        "body": "A one-second thermometer settles fast; a slower one needs 3–8 seconds. Do not read early."
+      },
+      {
+        "head": "Stuffing too",
+        "body": "Stuffing in the cavity needs 165 °F in its centre as well."
+      }
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where to buy, and who is cheapest",
+    "sub": "October 2026: dated prices we could verify",
+    "footer": "Prices and policies as seen on October 23, 2026 (ThermoWorks, Target); Walmart, Home Depot and Best Buy blocked direct reading, so no price is claimed. The buttons show today's price.",
+    "rows": [
+      {
+        "store": "ThermoWorks",
+        "price": "ONE $74; Pop 2 ~$39",
+        "ship": "$7.95 (Nov 2025)",
+        "returns": "30 days, direct",
+        "note": "Warranty: direct/authorized",
+        "verdict": "win"
+      },
+      {
+        "store": "Amazon",
+        "price": "See today's price",
+        "ship": "Varies by seller",
+        "returns": "Check the seller",
+        "note": "Check seller",
+        "verdict": "ok"
+      },
+      {
+        "store": "Target",
+        "price": "TP19HW $17.99",
+        "ship": "Standard",
+        "returns": "30 days",
+        "note": "TempPro only",
+        "verdict": "ok"
+      },
+      {
+        "store": "Walmart, HD, Best Buy",
+        "price": "Not verified",
+        "ship": "Varies",
+        "returns": "Varies",
+        "note": "Thermapen not found",
+        "verdict": "ok"
+      },
+      {
+        "store": "Look-alikes",
+        "price": "Far from list",
+        "ship": "Varies",
+        "returns": "No warranty",
+        "note": "Copycats exist",
+        "verdict": "no"
+      }
+    ]
+  }
+]

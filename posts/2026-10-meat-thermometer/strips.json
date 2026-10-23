@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "thermopop2",
+      "title": "Thanksgiving with a thermometer — in real life",
+      "panels": [
+        {
+          "glyph": "clock",
+          "head": "Day before — ice bath",
+          "text": "Crushed ice, a little water, stir, probe in the middle. It should read about 32 °F; a few degrees off means a fresh battery or a trim.",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "check",
+          "product": true,
+          "head": "Roasting — three spots",
+          "text": "Innermost thigh, thickest breast and the wing, away from bone. USDA says 165 °F in all of them."
+        },
+        {
+          "glyph": "warning",
+          "head": "Near done — move the probe",
+          "text": "One hot spot proves nothing. Re-check a second spot before you pull the bird."
+        },
+        {
+          "glyph": "sun",
+          "head": "Carving — wipe, don't soak",
+          "text": "Wipe the probe clean and store it closed. Most of these are splash-proof, not dishwasher-proof.",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}
