@@ -1,35 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="ThermoWorks ThermoPop 2 instant-read thermometer (product render)">
-<defs>
-<radialGradient id="cpop-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
-<filter id="cpop-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
-<filter id="cpop-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
-<filter id="cpop-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
-<linearGradient id="cpop-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#ed1e40"/><stop offset="0.55" stop-color="#C8102E"/><stop offset="1" stop-color="#9d0d24"/></linearGradient>
-<linearGradient id="cpop-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ac0e27"/><stop offset="1" stop-color="#6a0818"/></linearGradient>
-<linearGradient id="cpop-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f26078"/><stop offset="1" stop-color="#e41235"/></linearGradient>
-<radialGradient id="cpop-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#f25770"/><stop offset="0.6" stop-color="#C8102E"/><stop offset="1" stop-color="#860b1f"/></radialGradient>
-<linearGradient id="cpop-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<linearGradient id="cpop-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
-<linearGradient id="cpop-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
-<linearGradient id="cpop-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#314d77"/><stop offset="1" stop-color="#090e16"/></linearGradient>
-<linearGradient id="cpop-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
-</defs>
-<rect width="600" height="400" rx="18" fill="url(#cpop-bg)"/><ellipse cx="300" cy="336" rx="130" ry="14" fill="#000" opacity="0.28" filter="url(#cpop-blur)"/>
-<g transform="rotate(-28 300 215)">
-<path d="M 292 262 L 308 262 L 303 372 L 297 372 Z" fill="url(#cpop-metal)" stroke="#9a9a96" stroke-width="1"/>
-<rect x="288" y="250" width="24" height="16" rx="4" fill="#d9d9d6"/>
-<rect x="262" y="86" width="76" height="172" rx="26" fill="url(#cpop-front)"/>
-<rect x="262" y="86" width="76" height="172" rx="26" fill="none" stroke="#440510" stroke-width="1.5" opacity="0.6"/>
-<rect x="272" y="104" width="56" height="62" rx="10" fill="url(#cpop-screen)"/>
-<text x="300" y="148" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#9BE7C0">165</text>
-<text x="318" y="124" font-family="Arial,sans-serif" font-size="10" fill="#9BE7C0">°F</text>
-<circle cx="300" cy="206" r="14" fill="#860b1f"/><circle cx="300" cy="206" r="14" fill="none" stroke="#230308" stroke-width="1.5" opacity="0.5"/>
-<path d="M 270 120 q -4 60 6 110" fill="none" stroke="#fff" stroke-opacity="0.4" stroke-width="6" stroke-linecap="round"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="ThermoWorks ThermoPop 2 instant-read thermometer (photo: thermoworks press kit)">
+<rect width="600" height="400" rx="18" fill="#ffffff"/>
+<image href="https://actsb.github.io/claudefold/brand/photos/thermoworks-thermopop-2.jpg" x="40" y="54" width="520" height="300" preserveAspectRatio="xMidYMid meet"/>
 <g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
 <rect x="18" y="18" width="354" height="28" rx="14" fill="#1B2A41"/>
 <text x="195.0" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">2.6-second read · rotating display · waterproof</text>
 <text x="22" y="380" font-size="22" font-weight="700" fill="#1B2A41">ThermoPop 2</text>
-<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#8a8a8a">Photo: ThermoWorks press kit</text>
 </g>
 </svg>

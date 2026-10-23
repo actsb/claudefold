@@ -66,7 +66,18 @@
       "video": "2IHJJ6Jaz_o",
       "video_title": "Litter-Robot 4: still the best after three years? (One Man Five Cats)",
       "video_channel": "One Man Five Cats · long-term review",
-      "video_why": "Three years and five cats after buying it, a cat-tech channel asks whether the Litter-Robot 4 is still the one to buy — the long-term view most reviews can’t give, and the question to settle before spending $699."
+      "video_why": "Three years and five cats after buying it, a cat-tech channel asks whether the Litter-Robot 4 is still the one to buy — the long-term view most reviews can’t give, and the question to settle before spending $699.",
+      "photo": {
+        "file": "brand/photos/whisker-litter-robot-4.jpg",
+        "kind": "brand",
+        "credit": "Whisker press kit",
+        "source": "https://www.whisker.com/newsroom",
+        "terms": "https://www.whisker.com/newsroom",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      }
     }
   ]
 }

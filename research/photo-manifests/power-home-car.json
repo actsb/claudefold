@@ -1,0 +1,586 @@
+[
+ {
+  "product": "Owala FreeSip (24 oz)",
+  "cards": [
+   [
+    "posts/2026-09-owala-freesip",
+    "freesip"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "freesip"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Owala press kit page (https://owalalife.com/pages/press-kit) offers no downloadable images: \"Access our media press kit for images, logos, and influencer or affiliate info. Log in or email us...\" Images are by login/email request to pr@trovebrands.com. Product-page images are e-commerce, not press. Request assets from pr@trovebrands.com."
+ },
+ {
+  "product": "Stanley Quencher H2.0 FlowState (40 oz)",
+  "cards": [
+   [
+    "posts/2026-09-owala-freesip",
+    "stanley"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Stanley newsroom (https://www.stanley1913.com/pages/newsroom) has no media kit or image downloads; it directs press to press@stanley1913.com. FlowState images on that page are e-commerce carousel images, not press assets. No wire release with FlowState images found."
+ },
+ {
+  "product": "Yeti Rambler 26 oz Straw Bottle",
+  "cards": [
+   [
+    "posts/2026-09-owala-freesip",
+    "yeti"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No YETI press/media asset page found (yeti.com returns 403 to automated fetches; YETI releases list Media@yeti.com only). No wire release with Rambler 26 oz Straw Bottle images found."
+ },
+ {
+  "product": "Anker SOLIX C1000 Gen 2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "c1000"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "c1000"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "c1000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Anker/Anker SOLIX press room found (anker.com and ankersolix.com press/newsroom URLs 404) and no wire release for the C1000 Gen 2 with images. The 2023 Anker SOLIX press kit (Dropbox, linked from PR Newswire release 301914075) covers only the first-gen C1000, a different model."
+ },
+ {
+  "product": "EcoFlow DELTA 3 Plus",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "delta3plus"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "delta3plus"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "delta3plus"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/ecoflow-delta-3-plus.jpg",
+  "kind": "brand",
+  "credit": "EcoFlow press kit",
+  "source": "https://drive.google.com/drive/folders/10leqiZg3Q9VSO9aKNko91lKBKxYJ1a_k",
+  "image_url": "https://drive.google.com/uc?export=download&id=14GXPeVrtaLo3j-PSi47J9zLGeQYkxwbM",
+  "terms": "https://www.prnewswire.com/news-releases/ecoflow-unveils-next-gen-power-solutions-for-every-lifestyle--from-the-home-to-the-outdoors-to-life-on-the-go-302235965.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "File \"DELTA 3 Plus/Product Images/45° Front.png\" from EcoFlow's US launch media kit; 1000x1000 PNG cut-out with transparent background, US outlets, three-quarter front view. The EcoFlow release (PR Newswire, Sept 2024) says verbatim: \"Images and more information can be found in the media kit.\" and links the media kit, an EcoFlow Google Drive folder. No usage terms or credit line are stated in the release or the kit."
+ },
+ {
+  "product": "Jackery Explorer 2000 v2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "2000v2"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "2000v2"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "2000v2"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Only brand-issued image found is the PR Newswire photo in Jackery's German launch release (https://www.prnewswire.com/de/pressemitteilungen/leichteste-powerstation-ihrer-klasse-jackery-explorer-2000-v2-mit-2-kwh-cell-to-body-technologie-und-schnellladefunktion-302374972.html, image https://mma.prnewswire.com/media/2618762/Jackery.jpg): it shows the EU-socket version on a rock with a \"Compact yet Powerful\" headline overlay, so it is not a clean US-model shot. No Jackery press room or media kit found (jackery.com press URLs 404); press contact marketing@jackery.com."
+ },
+ {
+  "product": "EcoFlow DELTA Pro 3",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "pro3"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "EcoFlow's DELTA Pro 3 media kit (https://drive.google.com/drive/folders/1s5OEOtogK4zc7ry4EV1mUbZ8VyL-RgNE, linked from PR Newswire release 302179840 \"Images and more information can be found in the media kit.\") has clean cut-outs, but every one checked is 8000x8000 PNG at 19-124 MB, over the 15 MB limit, and resizing is not allowed. The PR Newswire release photos are lifestyle/exploded-view graphics. If the size limit can be waived, \"2 Product Images/1 Cut-out/30°Front.png\" (40 MB) would qualify."
+ },
+ {
+  "product": "Anker SOLIX F3800 / F3800 Plus",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "f3800"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Anker's 2023 press kit (Dropbox ZIP linked as \"Link For High-Res Product and Lifestyle Images\" in PR Newswire release https://www.prnewswire.com/news-releases/anker-solix-introduces-next-generation-of-camping-and-flex-series-power-stations-301914075.html) has F3800 US product cut-outs, but all are 15.8-17.1 MB PNGs, over the 15 MB limit. The smaller files are lifestyle images (kitchen and EV-charging scenes with people/cars) or one-pagers. If the limit can be waived, \"Anker SOLIX F3800/US/F3800 - US version - 3.png\" (15.8 MB) would qualify. No F3800 Plus image found."
+ },
+ {
+  "product": "Bluetti Elite 200 V2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "elite200"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Bluetti newsroom (https://www.bluettipower.com/pages/newsroom) only lists press coverage, with no image downloads. The PR Newswire launch release photo (https://mma.prnewswire.com/media/2555184/Bluetti_Elite_200_V2__Featured_Image.jpg) is a \"NEW ARRIVAL\" promo graphic with text and gift boxes, not a clean product shot."
+ },
+ {
+  "product": "Jackery Explorer 1000 v2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "1000v2"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Brand-issued PR Newswire images found are marketing composites: the AU launch photo shows a person carrying the unit with a \"Lighter, Faster Yet More Powerful\" overlay (mma.prnewswire.com/media/2660841) and a Climate Pledge lifestyle collage (media/2494907). No Jackery press room or media kit found."
+ },
+ {
+  "product": "Bluetti Elite 30 V2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "elite30"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "PR Newswire launch release photo (https://mma.prnewswire.com/media/2790420/BLUETTI_Elite_30_V2.jpg) is a beach lifestyle shot with two people. No clean product shot or Bluetti media kit found."
+ },
+ {
+  "product": "Anker SOLIX C300 DC",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "c300"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Anker press room or wire release with C300 DC images found. The launch release only appears reposted on anker-in.com (regional site) without press images."
+ },
+ {
+  "product": "EcoFlow RIVER 3",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "river3"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/ecoflow-river-3.jpg",
+  "kind": "brand",
+  "credit": "EcoFlow press kit",
+  "source": "https://drive.google.com/drive/folders/10leqiZg3Q9VSO9aKNko91lKBKxYJ1a_k",
+  "image_url": "https://drive.google.com/uc?export=download&id=1DDonXHoMSTOjWvQatTKVkaVIG2twKVZk",
+  "terms": "https://www.prnewswire.com/news-releases/ecoflow-unveils-next-gen-power-solutions-for-every-lifestyle--from-the-home-to-the-outdoors-to-life-on-the-go-302235965.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "File \"RIVER 3 Series/1 Visuals/RIVER 3/Product Images/Cut-out/45°Front.png\" from EcoFlow's US launch media kit; 5000x5000 PNG cut-out with transparent background (8.5 MB), base RIVER 3 (not Plus), three-quarter front view. The EcoFlow release (PR Newswire, Sept 2024) says verbatim: \"Images and more information can be found in the media kit.\" and links the media kit, an EcoFlow Google Drive folder. No usage terms or credit line are stated in the release or the kit."
+ },
+ {
+  "product": "Levoit Core 300-P Air Purifier",
+  "cards": [
+   [
+    "posts/2026-09-levoit-core-300p-air-purifier",
+    "levoit300"
+   ],
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "levoit300"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Levoit/VeSync press room found (levoit.com press URLs 404). The only Levoit media kit found (Dropbox linked from PR Newswire release 301353491) is for the Core 300S, a sibling model, so it was not used."
+ },
+ {
+  "product": "Levoit Core 300-RF Replacement Filter (genuine Original 3-in-1)",
+  "cards": [
+   [
+    "posts/2026-09-levoit-core-300p-air-purifier",
+    "core300rf"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Levoit press/media source with a Core 300-RF filter image found; filter images exist only on e-commerce/retail pages, which are not allowed."
+ },
+ {
+  "product": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+  "cards": [
+   [
+    "posts/2026-10-bedsure-heated-blanket-throw",
+    "bedsure-throw"
+   ],
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "bedsure-throw"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Bedsure issues PR Newswire releases (e.g. Heated Essentials 2024, GentleSoft 2025, heated bedding Oct 2026) but their images are promotional collages (e.g. \"UP TO 54% OFF\" banner, mma.prnewswire.com/media/2565193), not a clean shot of the 50 x 60 in throw. No Bedsure press/media page found."
+ },
+ {
+  "product": "NOCO Boost Plus GB40 1000A Jump Starter",
+  "cards": [
+   [
+    "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+    "noco-gb40"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "NOCO has a downloads page (https://no.co/downloads; per search snippet it offers logos, catalogs and product images) but no.co returns a Cloudflare challenge / HTTP 403 to automated fetches, so the page, its terms and the GB40 image could not be checked. No NOCO press release with GB40 images found on PR Newswire/Business Wire. A human could check no.co/downloads in a browser; note NOCO's reseller trademark policy restricts logo use."
+ },
+ {
+  "product": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+  "cards": [
+   [
+    "posts/2026-10-beckham-hotel-collection-pillows",
+    "beckham-pillows"
+   ],
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "beckham-pillows"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Beckham Hotel Collection / Beckham Luxury Linens press page or wire release found; images exist only on marketplace listings."
+ },
+ {
+  "product": "NOCO Boost Plus GB40 jump starter",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "gb40"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "NOCO has a downloads page (https://no.co/downloads; per search snippet it offers logos, catalogs and product images) but no.co returns a Cloudflare challenge / HTTP 403 to automated fetches, so the page, its terms and the GB40 image could not be checked. No NOCO press release with GB40 images found on PR Newswire/Business Wire. A human could check no.co/downloads in a browser; note NOCO's reseller trademark policy restricts logo use."
+ },
+ {
+  "product": "Fanttik X8 APEX cordless tire inflator",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "x8apex"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Fanttik's PR Newswire launch release (https://www.prnewswire.com/news-releases/fanttik-x8-apex-tire-inflator-enables-raging-inflation-speed-anytime-anywhere-301444907.html) has one photo (mma.prnewswire.com/media/1708273/X8_apex_pic.jpg): hands using the inflator on a truck tire, not a product-alone shot. Other releases are Aventon co-branded. No Fanttik press/media page found."
+ },
+ {
+  "product": "Braun 500-lumen rechargeable magnetic work light",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "braun"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "This Braun work light is a Harbor Freight item (59536); images exist only on retailer pages. No Braun/licensee press source found."
+ },
+ {
+  "product": "Drop Stop car seat gap filler",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "dropstop"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Drop Stop has a press-release page on buydropstop.com (https://buydropstop.com/info/howard-stern.html) with media contacts but no images or media kit. No other press source found."
+ },
+ {
+  "product": "NOCO Boost Plus GB40",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "noco-gb40"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "NOCO has a downloads page (https://no.co/downloads; per search snippet it offers logos, catalogs and product images) but no.co returns a Cloudflare challenge / HTTP 403 to automated fetches, so the page, its terms and the GB40 image could not be checked. No NOCO press release with GB40 images found on PR Newswire/Business Wire. A human could check no.co/downloads in a browser; note NOCO's reseller trademark policy restricts logo use."
+ },
+ {
+  "product": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+  "cards": [
+   [
+    "posts/2026-10-dreo-space-heater",
+    "dreo-heater"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The post covers the Dreo Atom One (DR-HSH004). Dreo PR Newswire releases cover newer heaters (Whole-Room 714/715/720, MC706), and no release or media kit with Atom One images was found. Using another model would be a substitution."
+ },
+ {
+  "product": "Owala FreeSip 24 oz insulated bottle",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "owala"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Owala press kit page (https://owalalife.com/pages/press-kit) offers no downloadable images: \"Access our media press kit for images, logos, and influencer or affiliate info. Log in or email us...\" Images are by login/email request to pr@trovebrands.com. Product-page images are e-commerce, not press. Request assets from pr@trovebrands.com."
+ },
+ {
+  "product": "Bedsure heated electric throw (50 x 60 in)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "bedsure"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Bedsure issues PR Newswire releases (e.g. Heated Essentials 2024, GentleSoft 2025, heated bedding Oct 2026) but their images are promotional collages (e.g. \"UP TO 54% OFF\" banner, mma.prnewswire.com/media/2565193), not a clean shot of the 50 x 60 in throw. No Bedsure press/media page found."
+ },
+ {
+  "product": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+  "cards": [
+   [
+    "posts/2026-10-furhaven-orthopedic-dog-bed",
+    "furhaven-bed"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Furhaven press/media page or wire release with images found; images exist only on retailer pages."
+ }
+]

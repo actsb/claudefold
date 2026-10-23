@@ -1,0 +1,678 @@
+[
+ {
+  "product": "Sony WF-1000XM6",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "xm6"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "xm6"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "xm6"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No usable press source found. Sony's press centres (sony.com, sony.eu/presscentre, sony.com.sg/presscentre) return HTTP 403 to automated access. The only official release reached was the Japanese release at https://www.sony.jp/CorporateCruise/Press/202602/26-0213/. Its photos are embedded in the page, not offered as downloads, and it says 本リリース上の画像は、権利の都合上予告なく公開を取り下げる場合があります (\"images may be withdrawn without notice for rights reasons\"), which is not a grant of permission. A person should get the image from Sony Electronics' US press centre in a browser, or by emailing Sony PR."
+ },
+ {
+  "product": "Apple AirPods Pro 3",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "pro3"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "pro3"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "pro3"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/apple-airpods-pro-3.jpg",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2025/09/introducing-airpods-pro-3-the-ultimate-audio-experience/",
+  "image_url": "https://www.apple.com/newsroom/images/2025/09/introducing-airpods-pro-3-the-ultimate-audio-experience/article/Apple-AirPods-Pro-3-hero-250909.zip",
+  "terms": "https://www.apple.com/newsroom/images/2025/09/introducing-airpods-pro-3-the-ultimate-audio-experience/article/Apple-AirPods-Pro-3-hero-250909.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Apple Newsroom terms: personal or editorial and non-commercial use only; an affiliate site is commercial. Ask Apple PR. | Hero image (2160x2160 JPEG, white background, earbuds above an open case) taken unaltered from Apple Newsroom's per-image ZIP. Apple does not name a credit line, so 'Apple' is the safe credit. TERMS WORRY: Apple's licence limits use to 'personal or editorial and non-commercial'; an affiliate-monetised review is arguably commercial, and deal-roundup posts (Prime Big Deal Days, Black Friday) even more so. Have someone decide, or ask Apple Media Helpline (media.help@apple.com), before publishing."
+ },
+ {
+  "product": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "bose"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/bose-quietcomfort-ultra-earbuds-2nd-gen.jpg",
+  "kind": "brand",
+  "credit": "Bose press kit",
+  "source": "https://www.bose.com/pressroom/bose-announces-the-quietcomfort-ultra-earbuds-2nd-gen",
+  "image_url": "https://assets.bosecreative.com/m/460275350889242/original/bose_announces_the_quietcomfort_ultra_earbuds_2nd_gen_US.zip",
+  "terms": "https://www.bose.com/pressroom/bose-announces-the-quietcomfort-ultra-earbuds-2nd-gen",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "File is images/Bose_QuietComfort_Ultra_Earbuds_2nd_Gen_Black_02.JPG (1920x1280; extension lower-cased, contents unchanged) from the 'Associated content' ZIP in the Downloads section of the Bose US pressroom release. Shows the black earbuds alone, three-quarter view, on white. The same image is also in the page's 'Photos' gallery. No usage terms appear on the pressroom page or in the ZIP."
+ },
+ {
+  "product": "Samsung Galaxy Buds4 Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "buds4pro"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Samsung's US Newsroom launch release (https://news.samsung.com/us/samsung-unveils-galaxy-buds4-series-best-hi-fi-sound-enhanced-comfort-fit/) has only two product-only images, Buds4_01_productimage_black-01/-06. On close inspection they show the open-fit Galaxy Buds4 (no silicone ear tip; hard shell with a top grille), not the canal-fit Buds4 Pro, so they are a sibling model. The other images are lifestyle or celebrity shots (SUGA). The Samsung Global Newsroom may have Pro-specific shots but returned 403/timeouts."
+ },
+ {
+  "product": "Google Pixel Buds Pro 2",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "pixel"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/google-pixel-buds-pro-2.jpg",
+  "kind": "brand",
+  "credit": "Google press kit",
+  "source": "https://made-by-google-2025.prezly.com/the-new-pixel-buds-pro-2",
+  "image_url": "https://cdn.assets.prezly.com/9e32aee0-f1cf-4f3f-9738-6cebe9ce1568/-/preview/-/format/auto/PixelBudsPro2_Moonstone_Front%20Facing%20Buds.jpg",
+  "terms": "https://made-by-google-2025.prezly.com/the-new-pixel-buds-pro-2",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Google's official 'Made by Google 2025' press site (Prezly; contact press@google.com), which has a 'Download assets' button. File is the original upload (https://cdn.assets.prezly.com/9e32aee0-f1cf-4f3f-9738-6cebe9ce1568/), PixelBudsPro2_Moonstone_Front Facing Buds.jpg: 800x800, two buds on white, Moonstone colour only. The resolution is modest. The 2024 Made by Google press site (now offline) said it was 'designed for members of the press only' and asked reporters not to link to it, so don't link to the Prezly page from the article."
+ },
+ {
+  "product": "Apple AirPods 5",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "airpods5"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/apple-airpods-5.jpg",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/",
+  "image_url": "https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/article/Apple-AirPods-5-hero-260909.zip",
+  "terms": "https://www.apple.com/newsroom/images/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/article/Apple-AirPods-5-hero-260909.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Apple Newsroom terms: personal or editorial and non-commercial use only; an affiliate site is commercial. Ask Apple PR. | Hero image (3840x2560 JPEG, white background, AirPods 5 in an open case), unaltered from Apple's ZIP. AirPods 5 comes in two versions (base, and one with a Wireless Charging Case for $149). The hero shows the standard case; Apple has a separate case-only image for the wireless model. TERMS WORRY: Apple's licence limits use to 'personal or editorial and non-commercial'; an affiliate-monetised review is arguably commercial, and deal-roundup posts (Prime Big Deal Days, Black Friday) even more so. Have someone decide, or ask Apple Media Helpline (media.help@apple.com), before publishing."
+ },
+ {
+  "product": "Anker Soundcore Liberty 4 NC",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "liberty"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No press kit or media download found. The Liberty 4 NC 'press release' at https://www.soundcore.com/press-release-introducing-liberty-4-nc is an e-commerce page with no downloadable images or terms, and Anker/soundcore has no press-asset page. Store product images are not allowed without press permission."
+ },
+ {
+  "product": "EarFun Air Pro 4+",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "earfun"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "EarFun's press page (https://myearfun.com/press-release) links to its Oct 27, 2025 PR Newswire release, but the only image there (https://mma.prnewswire.com/media/2805665/photo.jpg) is a marketing composite with a model wearing the buds plus text and badges, not a clean product shot. There is no other press kit; contact media@myearfun.com."
+ },
+ {
+  "product": "Nothing Ear (3)",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "nothing"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Nothing press kit or media-download page found: nothing.tech/pages/press and /pages/newsroom return 404, and the Nothing Community 'Newsroom' has no asset downloads. Official images were posted only on social media, which is not allowed."
+ },
+ {
+  "product": "Technics EAH-AZ100",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "technics"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The Technics press release (technics.com/uk/news/0028.html) returns HTTP 403 to automated access, and no Panasonic/Technics newsroom page with downloadable EAH-AZ100 images was found. A person should check technics.com news or Panasonic's press contacts in a browser."
+ },
+ {
+  "product": "Beats Powerbeats Pro 2",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "powerbeats"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The Beats Global Press Room (https://www.beatsbydre.com/company/press) currently lists only Beats 360 and Pokemon x Beats Pill releases, with nothing for Powerbeats Pro 2, and Apple Newsroom has no Powerbeats Pro 2 release. Beats posted launch images only on Instagram, which is not allowed. Contact press@beatsbydre.com."
+ },
+ {
+  "product": "Shokz OpenFit 2+",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "shokz"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Shokz press or media page found (shokz.com/pages/press, /pages/media and /pages/newsroom return 404) and no PR Newswire or Business Wire release with images. Only retailer images exist, which are not allowed."
+ },
+ {
+  "product": "Ray-Ban Meta (Gen 2)",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "gen2"
+   ],
+   [
+    "posts/2026-09-best-smart-glasses",
+    "gen1"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "gen2"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "gen2"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/meta-ray-ban-meta-gen-2.png",
+  "kind": "brand",
+  "credit": "Meta press kit",
+  "source": "https://about.fb.com/news/2026/05/ray-ban-meta-ai-glasses-launch-in-japan/",
+  "image_url": "https://about.fb.com/wp-content/uploads/2026/04/RBM-2_Scriber_Transparent_Shiny_Stone_Beige_Clear_-Charging-Case.png",
+  "terms": "Meta Newsroom 'DOWNLOAD ALL IMAGES' ZIPs carry Legal_Notice.txt (read in https://about.fb.com/wp-admin/admin-post.php?action=pmz_download&post_id=44350&pmz_nonce=dc6781798c, the Oakley Meta Vanguard post ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Meta.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Meta Newsroom terms: editorial, non-commercial use only. Ask Meta PR. | Meta Newsroom post with a 'DOWNLOAD ALL IMAGES' button; the image also appears in the Singapore and Korea launch posts. Meta's file name 'RBM-2' marks it as Ray-Ban Meta (Gen 2). It shows the Scriber frame in Transparent Shiny Stone Beige inside its charging case on a plain light background (3840x2160 PNG). Scriber was introduced for the Asia launches, so a US reader may expect a Wayfarer. A Wayfarer product-only studio shot is in the Gen 2 India post (https://about.fb.com/wp-content/uploads/2025/12/20250728_HO25CoreProductOnly_Lemon_Ray-Ban_Meta_WF_Matte_Black_Polar_Gradient_Graphite_Studio_Generic_7680x4320_16x9.jpg, 15.5 MB original), but it is a styled dark scene and its file name does not say Gen 2. This input row also covers the smart-glasses 'gen1' card, and a Gen 2 photo should not illustrate the Gen 1 card. The Legal_Notice quoted was read in the Vanguard post's ZIP; the per-post ZIP for this image was not opened. TERMS WORRY: 'personal or editorial and non-commercial' (same concern as Apple for affiliate and deal posts)."
+ },
+ {
+  "product": "Meta Ray-Ban Display",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "display"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/meta-ray-ban-display.jpg",
+  "kind": "brand",
+  "credit": "Meta press kit",
+  "source": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+  "image_url": "https://about.fb.com/wp-content/uploads/2025/09/Meta-Ray-Ban-Display_Social-Share.jpg",
+  "terms": "Meta Newsroom 'DOWNLOAD ALL IMAGES' ZIPs carry Legal_Notice.txt (read in https://about.fb.com/wp-admin/admin-post.php?action=pmz_download&post_id=44350&pmz_nonce=dc6781798c, the Oakley Meta Vanguard post ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Meta.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Meta Newsroom terms: editorial, non-commercial use only. Ask Meta PR. | The only still in Meta's launch post (the rest are video). It is product-only (glasses with the in-lens display UI, plus the Meta Neural Band) on a blue-grey gradient, but tightly cropped: part of the frame runs off the edge, so it is not a full front or three-quarter view. 1920x1080. This post's 'DOWNLOAD ALL IMAGES' link returned HTTP 500, so the Legal_Notice quoted was read in the Vanguard post's ZIP. TERMS WORRY: editorial, non-commercial only."
+ },
+ {
+  "product": "Rokid Glasses",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "rokid"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No clean product shot found from an allowed source. Rokid has no press or media page (global.rokid.com/pages/press returns 404). Its PR Newswire releases carry only event or lifestyle photos (ribbon cutting, store collage). The IFA 2025 Business Wire release returned 403. Contact the PR address in Rokid's Business Wire release."
+ },
+ {
+  "product": "Even Realities G2",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "even"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No press kit (evenrealities.com/pages/press redirects to a support ticket form). The only press image, in Even Realities' PR Newswire release (https://mma.prnewswire.com/media/2940778/Even_G2_Conversate_2_0_Prep_Notes.jpg), is a cropped close-up of one lens showing on-screen UI, not a clean product shot."
+ },
+ {
+  "product": "Xreal One Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "xreal"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "XREAL's One Pro general-availability release (PR Newswire, June 18, 2025; https://www.newswire.ca/news-releases/xreal-one-pro-begins-general-availability-as-company-expands-ar-glasses-capabilities-with-modular-camera-876835935.html) has only a generic 'XREAL One Series' image: cropped, with a text overlay, and it doesn't say whether it shows the One or the One Pro. It was not used because the exact model is unconfirmed. xreal.com has no press page (404); press contact xreal@lightspeedpr.com."
+ },
+ {
+  "product": "Viture Luma Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "viture"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No press kit or press release with Luma Pro images found. Viture's PR Newswire releases cover The Beast, the Cyberpunk edition and Best Buy retail, not the Luma Pro, and viture.com/press redirects to the home page."
+ },
+ {
+  "product": "Oakley Meta Vanguard",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "vanguard"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Meta's launch post ZIP (oakley-meta-vanguard-performance-ai-glasses-sports_media.zip) has only dramatic close-up detail crops (960x836), GIFs, and a social-share image with a model. Later Meta posts have only a lifestyle image. There is no clean full-product shot."
+ },
+ {
+  "product": "Rokid AI Glasses Style",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "rokid-style"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Rokid's PR Newswire release 'Rokid Ai Glasses Style Now Available Worldwide' has one image (https://mma.prnewswire.com/media/2874531/image_5031479_23910723.jpg), a lifestyle photo of a man wearing the glasses in a cafe. There is no product-only shot and no press kit."
+ },
+ {
+  "product": "Amazon Echo Frames (3rd Gen)",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "echo"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Amazon's press release (https://press.aboutamazon.com/2023/9/amazon-unveils-next-generation-echo-show-8-all-new-echo-hub-and-new-echo-frames) has no embedded product images, and the press center 'Images & Videos' gallery is script-rendered, so no Echo Frames asset could be located. Product images hosted on amazon.com are not allowed."
+ },
+ {
+  "product": "Apple AirTag 2 (4-pack)",
+  "cards": [
+   [
+    "posts/2026-09-apple-airtag-2",
+    "airtag2"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "airtag2"
+   ],
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "airtag2"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/apple-airtag-2nd-generation.jpg",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/",
+  "image_url": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip",
+  "terms": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Apple Newsroom terms: personal or editorial and non-commercial use only; an affiliate site is commercial. Ask Apple PR. | Apple's AirTag launch release has only one product photo: the 2nd-generation AirTag inside the FineWoven Key Ring (orange, sold separately). There is no bare-AirTag or 4-pack shot. Caption it so readers don't assume the key ring is included. Image is unaltered from Apple's ZIP. TERMS WORRY: Apple's licence limits use to 'personal or editorial and non-commercial'; an affiliate-monetised review is arguably commercial, and deal-roundup posts (Prime Big Deal Days, Black Friday) even more so. Have someone decide, or ask Apple Media Helpline (media.help@apple.com), before publishing. Shows a single AirTag, not a 4-pack."
+ },
+ {
+  "product": "Chipolo Pop",
+  "cards": [
+   [
+    "posts/2026-09-apple-airtag-2",
+    "chipolo"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/chipolo-pop.png",
+  "kind": "brand",
+  "credit": "Chipolo press kit",
+  "source": "https://chipolo.net/en-us/pages/press",
+  "image_url": "https://www.dropbox.com/scl/fo/82xk539112567mltlmgu5/AEBLWtlhfQBe4UZH55xMEz8?rlkey=abss26avr274aquvzqtcbnvs3&dl=0 (Chipolo PRESS KIT 2025.zip > 02_Chipolo_POP/02_Photos/02_Product_Photos/Chipolo_POP-Blue.png)",
+  "terms": "https://chipolo.net/en-us/pages/press",
+  "terms_quote": "Download Press Kit Logotypes, photos and video files, brochures and more information about Chipolo.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Chipolo kit guidelines ask that materials be approved by design@chipolo.net first. | The 'Download now' link on Chipolo's own press page goes to a Dropbox folder (whole kit about 695 MB). Product render: blue POP, 3000x3000 PNG with transparent background. Other colours (Black, Red, Green, White, Yellow) are in the same folder. The kit's Marketing_Materials_Guidelines.pdf (aimed at resellers and partners) says 'Do not alter the image color', 'Do not manipulate the render', 'Do not place renders over photos' and 'Any materials you create should be approved by the Chipolo design team' (design@chipolo.net). It does list 'Promote Chipolo on your company social media' as allowed, but that applies to partners, so social use is not marked."
+ },
+ {
+  "product": "Samsung Galaxy SmartTag2",
+  "cards": [
+   [
+    "posts/2026-09-apple-airtag-2",
+    "smarttag2"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/samsung-galaxy-smarttag2.jpg",
+  "kind": "brand",
+  "credit": "Samsung press kit",
+  "source": "https://news.samsung.com/us/introducing-new-samsung-galaxy-smarttag2-a-smart-way-to-keep-track-of-important-things-in-your-life/",
+  "image_url": "https://snr-2019-presskits-production.s3.amazonaws.com/introducing_new_samsung_galaxy_smarttag2_a_smart_way_to_keep_track_of_important_things_in_your_life/images/SmartTag2-black-white.jpg",
+  "terms": "https://news.samsung.com/us/introducing-new-samsung-galaxy-smarttag2-a-smart-way-to-keep-track-of-important-things-in-your-life/",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Samsung US Newsroom release with a press-kit image list and a 'Download all' link. Black and white SmartTag2, front view, on white (1200x800). Samsung serves its newsroom press-kit files from its own AWS S3 bucket (snr-2019-presskits-production.s3.amazonaws.com). That is Samsung's file hosting, not Amazon retail, but it is flagged because the brief bans 'anything hosted by Amazon'. The img.us.news.samsung.com mirror failed TLS verification through the proxy. No usage terms are stated on the Samsung US Newsroom."
+ },
+ {
+  "product": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+  "cards": [
+   [
+    "posts/2026-10-redtiger-f7np-dash-cam",
+    "redtiger-f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No REDTIGER press kit or press-download page exists (redtigercam.com/pages/press and /pages/media return 404). REDTIGER's PR Newswire releases cover the F17/F17 Plus, F4, F77 and F7NA (a sibling of the F7NP), but none covers the F7NP. Retailer and Amazon images are not allowed."
+ },
+ {
+  "product": "REDTIGER F7NP 4K dash cam (front and rear)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No REDTIGER press kit or press-download page exists (redtigercam.com/pages/press and /pages/media return 404). REDTIGER's PR Newswire releases cover the F17/F17 Plus, F4, F77 and F7NA (a sibling of the F7NP), but none covers the F7NP. Retailer and Amazon images are not allowed."
+ },
+ {
+  "product": "iOttie dash and windshield phone mount",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "iottie"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "iOttie's press kit (https://www.iottie.com/press-kit/) is behind a form that asks for name, email and media outlet, which wasn't submitted on the user's behalf. The card also doesn't name a specific model (e.g. Easy One Touch 5 or 6 Dash & Windshield). To fix: fill in the press-kit form and pick the exact model."
+ },
+ {
+  "product": "Hopkins SubZero snow brush and ice scraper (metal-joint telescoping model)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "subzero"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Hopkins/SubZero press kit or media page found (hopkins-global.com/press, /media and /news return 404; only old corporate PDF releases exist). The exact model is also not named. Only retailer images exist, which are not allowed."
+ },
+ {
+  "product": "LG C6 OLED (65-inch)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "lg-c6"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No LG press image for the C6 located within budget. LG's US press-release index has no C6 release page (the C6 rollout is only a PDF, lg.com/us/press-release/lg-announces-rollout-of-2026-oled-tv-line-up-3-4.pdf, not checked for images). The LG global newsroom (lgnewsroom.com) archives and search are script-rendered and its API needs a login. A person should check LG Newsroom's 2026 OLED evo release image gallery in a browser."
+ },
+ {
+  "product": "REDTIGER F7NP dash cam",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "redtiger-f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No REDTIGER press kit or press-download page exists (redtigercam.com/pages/press and /pages/media return 404). REDTIGER's PR Newswire releases cover the F17/F17 Plus, F4, F77 and F7NA (a sibling of the F7NP), but none covers the F7NP. Retailer and Amazon images are not allowed."
+ },
+ {
+  "product": "Apple AirTag (2nd generation), single",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "airtag"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/apple-airtag-2nd-generation.jpg",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/",
+  "image_url": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip",
+  "terms": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Apple Newsroom terms: personal or editorial and non-commercial use only; an affiliate site is commercial. Ask Apple PR. | Apple's AirTag launch release has only one product photo: the 2nd-generation AirTag inside the FineWoven Key Ring (orange, sold separately). There is no bare-AirTag or 4-pack shot. Caption it so readers don't assume the key ring is included. Image is unaltered from Apple's ZIP. TERMS WORRY: Apple's licence limits use to 'personal or editorial and non-commercial'; an affiliate-monetised review is arguably commercial, and deal-roundup posts (Prime Big Deal Days, Black Friday) even more so. Have someone decide, or ask Apple Media Helpline (media.help@apple.com), before publishing. Same file as the AirTag 2 (4-pack) entry."
+ }
+]

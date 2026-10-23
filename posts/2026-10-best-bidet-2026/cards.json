@@ -26,6 +26,17 @@
         "pick": "The standard NEO 185 (the 185 Plus costs a few dollars more); knob colour is cosmetic. A T-adapter and supply hose come in the box.",
         "check": "Sold by Luxe Shop or Amazon; measure your seat-bolt spacing (about 5.5 in is standard) and the room behind the bolts; register with LUXE for six extra months of warranty.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/luxe-bidet-neo-185.jpg",
+        "kind": "brand",
+        "credit": "LUXE Bidet press kit",
+        "source": "https://luxebidet.com/pages/press",
+        "terms": "https://luxebidet.com/pages/press",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
       }
     },
     {
@@ -88,7 +99,18 @@
       "owners": "4.7 out of 5 at Best Buy, where 96% of 354 reviewers recommend it; Bob Vila calls it the best bang for the buck.",
       "cta": "https://www.amazon.com/dp/B07Q4RCLL1?tag=verdictpicks-20",
       "cta_style": "link",
-      "cta_label": "Check the NEO 120 on Amazon"
+      "cta_label": "Check the NEO 120 on Amazon",
+      "photo": {
+        "file": "brand/photos/luxe-bidet-neo-120.jpg",
+        "kind": "brand",
+        "credit": "LUXE Bidet press kit",
+        "source": "https://luxebidet.com/pages/press",
+        "terms": "https://luxebidet.com/pages/press",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "neo320",
@@ -110,7 +132,18 @@
       "owners": "4.9 out of 5 on about 16,500 reviews at LUXE's store and about 3,100 at Walmart; Consumer Reports names the NEO 320 Plus its top budget pick and Reviewed calls it the most comfortable attachment it tried.",
       "cta": "https://www.amazon.com/dp/B00JG3NVG2?tag=verdictpicks-20",
       "cta_style": "link",
-      "cta_label": "Check the NEO 320 on Amazon"
+      "cta_label": "Check the NEO 320 on Amazon",
+      "photo": {
+        "file": "brand/photos/luxe-bidet-neo-320.jpg",
+        "kind": "brand",
+        "credit": "LUXE Bidet press kit",
+        "source": "https://luxebidet.com/pages/press",
+        "terms": "https://luxebidet.com/pages/press",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "tushy3",

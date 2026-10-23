@@ -1,5 +1,57 @@
 [
  {
+  "key": "meat-thermometer",
+  "title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026: Which Instant-Read Thermometer Is Worth It?",
+  "url": "https://acts39.blogspot.com/2026/10/thermopop-2-vs-thermapen-one-vs.html",
+  "description": "Five instant-read thermometers for Thanksgiving compared on read time, accuracy, owner reports and prices: ThermoPop 2 vs Thermapen ONE vs TempPro.",
+  "labels": [
+   "Kitchen",
+   "Thanksgiving",
+   "Buying Guide",
+   "Under $100",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-meat-thermometer",
+  "blurb": "Five instant-reads compared for Thanksgiving: the ThermoPop 2 for most cooks, the Thermapen ONE if you cook weekly.",
+  "updated": "October 23, 2026"
+ },
+ {
+  "key": "instant-pot-models",
+  "title": "Instant Pot Duo vs Duo Plus vs Rio 2026: Which 6-Quart Model Should You Buy?",
+  "url": "https://acts39.blogspot.com/2026/10/instant-pot-duo-vs-duo-plus-vs-rio-2026.html",
+  "description": "Instant Pot Duo vs Duo Plus vs Rio 6-quart: what each adds, owner reports, expert tests, model-number traps and what to pay (Oct 2026).",
+  "labels": [
+   "Kitchen",
+   "Instant Pot",
+   "Comparison",
+   "Buying Guide",
+   "Under $150",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+  "blurb": "Choosing a 6-quart Instant Pot: buy the Duo for most kitchens, the Duo Plus only on sale, and check the Rio and its model numbers twice.",
+  "updated": "October 21, 2026"
+ },
+ {
+  "key": "furhaven-bed",
+  "title": "Furhaven Orthopedic Dog Bed Review 2026: How Close Does It Come to a Big Barker?",
+  "url": "https://acts39.blogspot.com/2026/10/furhaven-orthopedic-dog-bed-review-2026.html",
+  "description": "Furhaven orthopedic dog bed vs Big Barker and Casper: sizing, foam flattening, zippers, cost per year and Target and PetSmart prices (Oct 2026).",
+  "labels": [
+   "Pets",
+   "Dog Supplies",
+   "Best Sellers",
+   "Review",
+   "Under $60",
+   "For Pet Owners",
+   "Amazon Finds",
+   "Product of the Day"
+  ],
+  "dir": "posts/2026-10-furhaven-orthopedic-dog-bed",
+  "blurb": "The budget orthopedic bed for dogs under about 55 lb; heavier dogs flatten the foam, so they need a Jumbo or a Big Barker.",
+  "updated": "October 19, 2026"
+ },
+ {
   "key": "gifts-under-50",
   "title": "Gifts Under $50 for 2026: Useful Picks People Actually Keep",
   "url": "https://acts39.blogspot.com/2026/10/gifts-under-50.html",
@@ -432,7 +484,7 @@
   ],
   "dir": "posts/2026-09-apple-airtag-2",
   "blurb": "Louder, finds things farther away and works with Apple Watch: who should buy the 4-pack and who should skip it.",
-  "updated": "October 5, 2026"
+  "updated": "October 22, 2026"
  },
  {
   "key": "glasses",
@@ -452,7 +504,7 @@
    "Amazon Finds"
   ],
   "dir": "posts/2026-09-best-smart-glasses",
-  "updated": "October 5, 2026"
+  "updated": "October 20, 2026"
  },
  {
   "key": "earbuds",
@@ -472,7 +524,7 @@
    "Amazon Finds"
   ],
   "dir": "posts/2026-09-best-wireless-earbuds",
-  "updated": "October 5, 2026"
+  "updated": "October 18, 2026"
  },
  {
   "key": "robot-vacuums",
@@ -495,6 +547,6 @@
   ],
   "dir": "posts/2026-09-best-robot-vacuums",
   "blurb": "One pick for every kind of home, from pets and thick carpet to small apartments, plus the first-week setup that prevents most complaints.",
-  "updated": "October 5, 2026"
+  "updated": "October 17, 2026"
  }
 ]

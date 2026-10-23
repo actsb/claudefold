@@ -1,0 +1,740 @@
+[
+ {
+  "product": "ChomChom Roller (Original)",
+  "cards": [
+   [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "chomchom"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No press/media page found: chomchomroller.com refused connections from this environment and searches turned up no press kit. Only retailer and Amazon images exist, which are not allowed."
+ },
+ {
+  "product": "Whisker Litter-Robot 4",
+  "cards": [
+   [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "lr4"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/whisker-litter-robot-4.jpg",
+  "kind": "brand",
+  "credit": "Whisker press kit",
+  "source": "https://www.whisker.com/newsroom",
+  "image_url": "https://cdn.brandfolder.io/F55FXCVZ/as/c69wh45pcx8pvhhjtcrxwx/LR4_white_with_and_without_app_and_large_fence.png",
+  "terms": "https://www.whisker.com/newsroom",
+  "terms_quote": "Download official Whisker logos, images, videos, and more. All Whisker trademarks, logos, or other brand elements are subject to the Whisker EULA.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "From Whisker's official media kit (Brandfolder collection https://brandfolder.com/litter-robot/media-kit, 'Product Photography' section, asset 'LR4 white (with and without app and large fence)', attachment 'white LR4.png'), linked from the newsroom's 'Media resources' section. White Litter-Robot 4 with an orange cat sitting in the globe entry; transparent PNG background (no people). The newsroom references a 'Whisker EULA' but does not link it; the site's /legal page is the closest match. No credit line requested."
+ },
+ {
+  "product": "Rabbitgoo No-Pull Dog Harness",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "harness"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "rabbitgoo.com/pages/press lists press coverage and a press-inquiry email only, with no downloadable images or media kit. Ask the brand's press contact for images."
+ },
+ {
+  "product": "KONG Classic (natural rubber, made in the USA)",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "kong"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No KONG Company press room or media kit found: /press, /media, /pressroom and /news on kongcompany.com all return 404, and the homepage has no press link. Its only PR Newswire release (pets-need-to-play campaign) has no KONG Classic product image."
+ },
+ {
+  "product": "Earth Rated Dog Poop Bags (270, unscented, refill rolls)",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "bags"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Earth Rated press page found (earthrated.com /pages/press and /pages/media return 404). Its PR Newswire releases include only a small 583x340 composite of lavender-scented products (2023 'new look' release), not the 270-count unscented refill rolls."
+ },
+ {
+  "product": "LUXE Bidet NEO 185 (dual nozzle, non-electric)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "neo185"
+   ],
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "neo185"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/luxe-bidet-neo-185.jpg",
+  "kind": "brand",
+  "credit": "LUXE Bidet press kit",
+  "source": "https://luxebidet.com/pages/press",
+  "image_url": "https://drive.google.com/file/d/1yYeFiYkgazPvRD33uxMwJjryY9uKFOsj/view",
+  "terms": "https://luxebidet.com/pages/press",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Product-only photo of the NEO 185 on a light grey/white background, taken from 'LUXE Bidet Media Kit 2025.pdf' (page 7, the NEO Series page, where it is labelled NEO 185). The PDF is the 'Download our Media Kit' link on the brand's press page (Google Drive folder https://drive.google.com/drive/folders/1xHQzRlh8YMXF2rfBvAlJaV72pgkgQsOy). The embedded JPEG was extracted byte-for-byte with pdfimages -j (no re-encode, crop or edit). No usage terms or credit line are stated; the kit also promotes the brand's affiliate program."
+ },
+ {
+  "product": "KOHLER PureWash M100 (dual-wand attachment)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "m100"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Kohler's product press room (kohler.com/en/press-room) blocks automated access (403 Access Denied / 503). The corporate press room (kohlercompany.com/press-room) offers releases and a PR email only, with no image downloads. No PureWash M100 press image was found."
+ },
+ {
+  "product": "KOHLER PureWash M300 (manual bidet seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "m300"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "Kohler's product press room (kohler.com/en/press-room) blocks automated access (403/503). The corporate press room offers no image downloads. No PureWash M300 press image was found. Only retailer and kohler.com e-commerce images exist."
+ },
+ {
+  "product": "LUXE Bidet NEO 120 (single nozzle)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "neo120"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/luxe-bidet-neo-120.jpg",
+  "kind": "brand",
+  "credit": "LUXE Bidet press kit",
+  "source": "https://luxebidet.com/pages/press",
+  "image_url": "https://drive.google.com/file/d/1yYeFiYkgazPvRD33uxMwJjryY9uKFOsj/view",
+  "terms": "https://luxebidet.com/pages/press",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Product-only photo of the NEO 120 on a pale blue background, taken from 'LUXE Bidet Media Kit 2025.pdf' (page 7, the NEO Series page, where it is labelled NEO 120). The PDF is the 'Download our Media Kit' link on the brand's press page (Google Drive folder https://drive.google.com/drive/folders/1xHQzRlh8YMXF2rfBvAlJaV72pgkgQsOy). The embedded JPEG was extracted byte-for-byte with pdfimages -j (no re-encode, crop or edit). No usage terms or credit line are stated; the kit also promotes the brand's affiliate program."
+ },
+ {
+  "product": "LUXE Bidet NEO 320 (warm water, non-electric)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "neo320"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/luxe-bidet-neo-320.jpg",
+  "kind": "brand",
+  "credit": "LUXE Bidet press kit",
+  "source": "https://luxebidet.com/pages/press",
+  "image_url": "https://drive.google.com/file/d/1yYeFiYkgazPvRD33uxMwJjryY9uKFOsj/view",
+  "terms": "https://luxebidet.com/pages/press",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Product-only photo of the NEO 320 on a dusty pink background, taken from 'LUXE Bidet Media Kit 2025.pdf' (page 7, the NEO Series page, where it is labelled NEO 320). The PDF is the 'Download our Media Kit' link on the brand's press page (Google Drive folder https://drive.google.com/drive/folders/1xHQzRlh8YMXF2rfBvAlJaV72pgkgQsOy). The embedded JPEG was extracted byte-for-byte with pdfimages -j (no re-encode, crop or edit). No usage terms or credit line are stated; the kit also promotes the brand's affiliate program."
+ },
+ {
+  "product": "TUSHY Classic 3.0",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "tushy3"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "hellotushy.com/pages/press shows only press logos and quotes, with no press kit, image downloads or media-use terms."
+ },
+ {
+  "product": "Brondell Swash EcoSeat (manual bidet seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "ecoseat"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Brondell press page (brondell.com /press, /media, /press-room return 404). Brondell's PR Newswire releases cover other models (Swash 1400, a Costco-exclusive seat, CES 2023), not the EcoSeat."
+ },
+ {
+  "product": "SmartBidet SB-1000 (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "sb1000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No SmartBidet press/media page found (smartbidet.com refused connections from this environment), and no wire release with SB-1000 images turned up."
+ },
+ {
+  "product": "TOTO Washlet S2 (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "totos2"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The TOTO USA press room (totousa.com/about-toto/press) only provides images after registering or logging in (totousa.photoshelter.com/login), so they are not publicly downloadable. Its public press-release PDFs do not cover the Washlet S2. Registering as press would be needed."
+ },
+ {
+  "product": "Bio Bidet BB-2000 Bliss (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "bb2000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Bio Bidet press/media page found (biobidet.com /press and /pages/press return 404) and no wire release with BB-2000 images turned up."
+ },
+ {
+  "product": "Instant Pot Duo 6-Quart 7-in-1",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-6-quart",
+    "instant-pot-duo"
+   ],
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "instant-pot-duo"
+   ],
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duo"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Instant Pot Brands press room or media kit found: corporate.instantbrands.com now redirects to Corelle Brands, which has no image library, and instantpot.com press/media pages return 404. Its PR Newswire releases (instant-brands / instant-pot-brands) do not cover the Duo."
+ },
+ {
+  "product": "ThermoWorks ThermoPop 2 (instant-read thermometer)",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "thermopop"
+   ],
+   [
+    "posts/2026-10-meat-thermometer",
+    "thermopop2"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/thermoworks-thermopop-2.jpg",
+  "kind": "brand",
+  "credit": "ThermoWorks press kit",
+  "source": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+  "image_url": "https://ml.globenewswire.com/Resource/Download/72a56d5a-cae6-4e7a-82c0-a61144bab02b",
+  "terms": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Photo attached to ThermoWorks' own GlobeNewswire launch release for the ThermoPop 2 (Sept 30, 2022). Filename 'thermopop-2-auto-rotating-display.jpg', caption 'Motion-Sensing Auto-Rotating 1 1/4-Inch Backlit Display'. It shows four ThermoPop 2 units (black, blue, yellow, green) on white with no people. It is one composed studio shot, not a collage. GlobeNewswire blocks automated access to the release page itself (403), so the attachment link was read from a syndicated copy of the same release (markets.financialcontent.com). The image file comes from GlobeNewswire's own media host. No usage terms or credit line were visible."
+ },
+ {
+  "product": "ThermoWorks Thermapen ONE",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "thermapen"
+   ],
+   [
+    "posts/2026-10-meat-thermometer",
+    "thermapen-one"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/thermoworks-thermapen-one.jpg",
+  "kind": "brand",
+  "credit": "ThermoWorks press kit",
+  "source": "https://www.globenewswire.com/en/news-release/2022/11/17/2558452/0/en/WORLD-S-FIRST-ONE-SECOND-INSTANT-READ-THERMOMETER-THERMAPEN-ONE-IS-A-MUST-FOR-EVERY-FOOD-LOVER-S-GIFT-GUIDE.html",
+  "image_url": "https://ml.globenewswire.com/Resource/Download/9ae2d18f-d34c-42b3-a9b4-670c04e2856d",
+  "terms": "https://www.globenewswire.com/en/news-release/2022/11/17/2558452/0/en/WORLD-S-FIRST-ONE-SECOND-INSTANT-READ-THERMOMETER-THERMAPEN-ONE-IS-A-MUST-FOR-EVERY-FOOD-LOVER-S-GIFT-GUIDE.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Photo attached to ThermoWorks' own GlobeNewswire release about the Thermapen ONE (Nov 17, 2022), filename '115-turkey-2022-holiday-marketing-0383-compressed.jpg'. NOT a clean product-only shot: a hand holds a black Thermapen ONE reading 165.0 in a roast turkey on a holiday table. No product-only Thermapen ONE press image was found. Swap in a cleaner shot if ThermoWorks press supplies one. The attachment link was read from a syndicated copy of the release, because GlobeNewswire returns 403 to automated access. No usage terms or credit line were visible."
+ },
+ {
+  "product": "Cuisinart MultiClad Pro Triple Ply 16-inch Roasting Pan with Rack",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "roaster"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Cuisinart press/media page (cuisinart.com/press returns 404). Cuisinart's PR Newswire releases cover appliances (air fryers, espresso, ice cream makers), not this roasting pan."
+ },
+ {
+  "product": "OXO Good Grips Good Gravy Fat Separator (4-cup)",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "separator"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "oxo.com (including /press and /media) is behind a Cloudflare bot challenge (403), so no press page could be checked. OXO's 4 PR Newswire releases are unrelated (coffee maker, OXO Outdoor, 1% for the Planet, kitchen electrics)."
+ },
+ {
+  "product": "Hamilton Beach Temp Tracker 6-quart Slow Cooker",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "slowcooker"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The Hamilton Beach press room (hamiltonbeach.com/press-room) has only a media-inquiry button and PR email, with no image library or downloads. The holding company's PR Newswire releases are financial."
+ },
+ {
+  "product": "Rubbermaid Brilliance Food Storage Containers (10-piece plastic set)",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "containers"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The only clean Newell-issued press photo found is 'Rubbermaid BRILLIANCE(TM) perfect stack' (PR Newswire release 300354139, 2016, https://photos.prnewswire.com/prnfull/20161031/434235). It shows 7 containers, i.e. a 14-piece set, not the 10-piece set, so per the no-sibling rule it was not used. The 2026 Tritan Renew release (co-issued by Eastman and Rubbermaid) shows a 2-pack in packaging."
+ },
+ {
+  "product": "Ninja AF101 4-Quart Air Fryer",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "ninja-af101"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "SharkNinja's newsroom and press pages are behind a Cloudflare bot challenge (403). Ninja/SharkNinja PR Newswire releases cover other products (Foodi Grill, Air Fry Oven, etc.), not the AF101."
+ },
+ {
+  "product": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "kitchenaid-artisan"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "kitchenaid.com press room is Access Denied (403). KitchenAid's PR Newswire releases offer only lifestyle kitchen scenes: the 2026 Color of the Year image (mma.prnewswire.com/media/2902364) shows a small Spearmint KSM195PS mixer in a styled kitchen, and the Porcelain White image shows a countertop of many appliances. Neither is a clean product shot of the Artisan 5-qt."
+ },
+ {
+  "product": "Tramontina 12-Piece Tri-Ply Clad Cookware Set",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "tramontina-12"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "tramontina.com/us/press redirects to the homepage, with no press/media page. Tramontina USA's PR Newswire releases do not cover this cookware set."
+ },
+ {
+  "product": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+  "cards": [
+   [
+    "posts/2026-10-rubbermaid-brilliance-food-storage",
+    "rubbermaid-brilliance"
+   ],
+   [
+    "posts/2026-10-gifts-under-50",
+    "rubbermaid"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "The only clean Newell-issued press photo found is 'Rubbermaid BRILLIANCE(TM) perfect stack' (PR Newswire release 300354139, 2016, https://photos.prnewswire.com/prnfull/20161031/434235). It shows 7 containers, i.e. a 14-piece set, not the 10-piece set, so per the no-sibling rule it was not used. The 2026 Tritan Renew release (co-issued by Eastman and Rubbermaid) shows a 2-pack in packaging."
+ },
+ {
+  "product": "ThermoWorks ThermoPop 2 instant-read thermometer",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "pop"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/thermoworks-thermopop-2.jpg",
+  "kind": "brand",
+  "credit": "ThermoWorks press kit",
+  "source": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+  "image_url": "https://ml.globenewswire.com/Resource/Download/72a56d5a-cae6-4e7a-82c0-a61144bab02b",
+  "terms": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-10-23",
+  "notes": "Photo attached to ThermoWorks' own GlobeNewswire launch release for the ThermoPop 2 (Sept 30, 2022). Filename 'thermopop-2-auto-rotating-display.jpg', caption 'Motion-Sensing Auto-Rotating 1 1/4-Inch Backlit Display'. It shows four ThermoPop 2 units (black, blue, yellow, green) on white with no people. It is one composed studio shot, not a collage. GlobeNewswire blocks automated access to the release page itself (403), so the attachment link was read from a syndicated copy of the same release (markets.financialcontent.com). The image file comes from GlobeNewswire's own media host. No usage terms or credit line were visible."
+ },
+ {
+  "product": "KONG Classic dog toy (medium)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "kong"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No KONG Company press room or media kit found: /press, /media, /pressroom and /news on kongcompany.com all return 404, and the homepage has no press link. Its only PR Newswire release (pets-need-to-play campaign) has no KONG Classic product image."
+ },
+ {
+  "product": "ChomChom Roller pet hair remover",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "chomchom"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No press/media page found: chomchomroller.com refused connections from this environment and searches turned up no press kit. Only retailer and Amazon images exist, which are not allowed."
+ },
+ {
+  "product": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet, model 112-0169-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duoplus"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Instant Pot Brands press room or media kit found (see Duo entry). No wire release with Duo Plus images found."
+ },
+ {
+  "product": "Instant Pot Rio 6-Quart 7-in-1 (model 112-0312-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "rio"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Instant Pot Brands press room or media kit found (see Duo entry). No wire release with Rio images found among Instant Brands / Instant Pot Brands PR Newswire releases."
+ },
+ {
+  "product": "Instant Pot Pro 6-Quart 10-in-1 (model 112-0123-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "pro"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Instant Pot Brands press room or media kit found (see Duo entry). No wire release with Pro images found."
+ },
+ {
+  "product": "Lavatools Javelin PRO Duo",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "javelin"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No Lavatools press/media page (lavatools.co /pages/press and /pages/media return 404) and no press release or kit found."
+ },
+ {
+  "product": "TempPro (ThermoPro) TP19H",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "tp19h"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No ThermoPro/TempPro press or media page (buythermopro.com/press and /media redirect to temppro.com and return 404). Only retailer and marketplace images exist."
+ },
+ {
+  "product": "TempPro (ThermoPro) Lightning TP622",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "tp622"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-10-23",
+  "notes": "No ThermoPro/TempPro press or media page (temppro.com /press and /media return 404). Only retailer and marketplace images exist."
+ }
+]

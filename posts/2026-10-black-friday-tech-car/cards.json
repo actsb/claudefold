@@ -59,6 +59,17 @@
         "dock": "omni",
         "accent": "#7FB3D5",
         "mop": "pads"
+      },
+      "photo": {
+        "file": "brand/photos/dreame-x50-ultra.jpg",
+        "kind": "brand",
+        "credit": "Dreame press kit",
+        "source": "https://www.prnewswire.com/news-releases/dreame-technologys-x50-ultra-robot-vacuum-named-to-times-list-of-the-best-inventions-of-2025-302580023.html",
+        "terms": "https://www.prnewswire.com/news-releases/dreame-technologys-x50-ultra-robot-vacuum-named-to-times-list-of-the-best-inventions-of-2025-302580023.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
       }
     },
     {
@@ -85,6 +96,17 @@
         "dock": "omni",
         "accent": "#1B2A41",
         "mop": "pads"
+      },
+      "photo": {
+        "file": "brand/photos/roborock-saros-10r.jpg",
+        "kind": "brand",
+        "credit": "PRNewsfoto/Roborock",
+        "source": "https://www.prnewswire.com/apac/news-releases/ultra-slim-and-highly-intelligent-roborock-brings-the-saros-10r-to-australia-302461332.html",
+        "terms": "https://www.prnewswire.com/apac/news-releases/ultra-slim-and-highly-intelligent-roborock-brings-the-saros-10r-to-australia-302461332.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
       }
     },
     {
@@ -157,6 +179,17 @@
         "accent": "#5C6470",
         "screen_text": "1,024 Wh",
         "handle": "bar"
+      },
+      "photo": {
+        "file": "brand/photos/ecoflow-delta-3-plus.jpg",
+        "kind": "brand",
+        "credit": "EcoFlow press kit",
+        "source": "https://drive.google.com/drive/folders/10leqiZg3Q9VSO9aKNko91lKBKxYJ1a_k",
+        "terms": "https://www.prnewswire.com/news-releases/ecoflow-unveils-next-gen-power-solutions-for-every-lifestyle--from-the-home-to-the-outdoors-to-life-on-the-go-302235965.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
       }
     },
     {

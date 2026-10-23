@@ -12,7 +12,7 @@ ask the brand (daily/image-plan-2026-10-23.md has the email).
 import json, pathlib, re, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-BANNED = re.compile(r"amazon\.|media-amazon|images-amazon|walmart\.|bestbuy\.|target\.com|homedepot\.|lowes\.|costco\.|chewy\.|petsmart\.|pinterest\.|reddit\.|google\.com/imgres", re.I)
+BANNED = re.compile(r"amazon\.com|media-amazon|images-amazon|walmart\.|bestbuy\.|target\.com|homedepot\.|lowes\.|costco\.|chewy\.|petsmart\.|pinterest\.|reddit\.|google\.com/imgres", re.I)
 
 
 def main():

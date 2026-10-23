@@ -1,230 +1,241 @@
 {
- "category": "generic",
- "buy_title": "The gifts to order, in ranking order, and what to check on the listing",
- "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide are bands or non-Amazon figures with their source; the button shows today's price.",
- "cards": [
-  {
-   "id": "pop",
-   "category": "thermo",
-   "name": "ThermoWorks ThermoPop 2 instant-read thermometer",
-   "short": "ThermoPop 2",
-   "badge": "Our top pick · the useful gift for anyone who cooks",
-   "chip": "2.6-second read · rotating display · waterproof",
-   "art": {
-    "body": "#C8102E",
-    "accent": "#1B2A41"
-   },
-   "price": "About $39 list; ThermoWorks ran it at $31 (20% off) on July 1, 2026, as America's Test Kitchen reported. Sales of 20–30% are normal.",
-   "buy_if": "the cook who guesses at chicken and steak, a new host, or anyone with a grill. America's Test Kitchen (June 24, 2025) named it its Best Buy instant-read: about 0.2–0.3°F error in its test and a 2.6-second average read.",
-   "skip_if": "the recipient wants a probe to leave in the roast with an alarm (it has none, and auto-off comes at about 10 minutes), or already owns a Thermapen.",
-   "owners": "Reviews sit on ThermoWorks' own site (about 4.6 stars, ~637 reviews; a seller's page, so read lightly). Complaints there: a stiff power button, a battery door that needs a small screwdriver, and the 10-minute auto-off. We found no independent multi-year accuracy data.",
-   "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "ThermoWorks ThermoPop 2 (any colour).",
-    "check": "Sold by ThermoWorks or Amazon; the box says ThermoPop 2, not the original ThermoPop; ThermoWorks gives a 2-year warranty and a calibration certificate.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "owala",
-   "category": "bottle",
-   "name": "Owala FreeSip 24 oz insulated bottle",
-   "short": "Owala FreeSip 24 oz",
-   "badge": "Best all-round gift · the one people use every day",
-   "chip": "built-in straw · sip or swig · insulated",
-   "art": {
-    "style": "freesip",
-    "body": "#3D6FA8",
-    "lid": "#1B2A41",
-    "accent": "#8FD3AE"
-   },
-   "price": "$29.99 list; Target sold it at $23.99 on September 6, 2026 and $25.49 on October 1, 2026 (Slickdeals trackers). Owala.com ran 20% off sitewide November 26–December 1, 2025.",
-   "buy_if": "the student, commuter or gym-goer who already carries a bottle. Our full review covers the details; CleverHiker (Marion Tucker, April 2025) called it the best budget insulated bottle.",
-   "skip_if": "they want hot drinks or soda in it (not designed for either), they won't wash the lid gasket weekly, or the car cup holder is narrow.",
-   "owners": "Walmart and Dick's reviewers (dates not shown) report mold on the lid gasket if it isn't pulled out and washed, and some lids that leak or pop apart. Walmart reviewers also report dented bottles and one fake from marketplace sellers. Buy from Owala, Target or Dick's.",
-   "cta": "https://www.amazon.com/s?k=Owala+FreeSip+24+oz&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "Owala FreeSip 24 oz, the colour the recipient likes.",
-    "check": "Sold by Owala or Amazon; avoid unfamiliar third-party sellers; keep the gift receipt, because Owala's own returns window is 30 days.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "airtag",
-   "category": "tracker",
-   "name": "Apple AirTag (2nd generation), single",
-   "short": "AirTag 2 (single)",
-   "badge": "The gift for iPhone owners who lose keys",
-   "chip": "Precision Finding · louder speaker · replaceable battery",
-   "art": {
-    "style": "coin",
-    "pack": 1,
-    "body": "#F7F7F5",
-    "back": "#C9CACB"
-   },
-   "price": "$29 at Apple; $24 at Walmart and Best Buy on October 16, 2026 (iClarified tracker). The 4-pack ($89–$99) is over budget for one gift.",
-   "buy_if": "an iPhone owner (iOS 26.2.1 or later) who loses keys, bags or luggage. Macworld (Simon Jary, February 4, 2026) gave it an Editors' Choice. See our AirTag 2 review.",
-   "skip_if": "the recipient uses Android, has an older iPhone, or already owns the first-generation tag (reviewers call the upgrade modest). It has no keyring hole, so budget for a holder.",
-   "owners": "Best Buy and Walmart reviewers praise Precision Finding and the louder speaker. Complaints: no keyring hole and a modest step up from gen 1. The tag launched in early 2026, so we have no long-term owner reports.",
-   "cta": "https://www.amazon.com/s?k=Apple+AirTag+2nd+generation+1+pack&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "Apple AirTag (2nd generation), 1-pack.",
-    "check": "Sold by Apple or Amazon; check it says 2nd generation, because the first-generation tag is still sold; add a keyring holder.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "kong",
-   "category": "kong",
-   "name": "KONG Classic dog toy (medium)",
-   "short": "KONG Classic",
-   "badge": "Best gift for a dog owner · under $15",
-   "chip": "natural rubber · stuffable · 15–35 lb dogs",
-   "art": {
-    "body": "#C8102E",
-    "accent": "#F4B942"
-   },
-   "price": "About $11.99 at Target (October 2026 page); Walmart showed $11.96 in an undated search snippet.",
-   "buy_if": "any dog owner whose dog needs something to do. KONG's own guide says to stuff it, seal the opening and freeze it for a longer puzzle. Medium suits dogs of about 15–35 lb.",
-   "skip_if": "the dog is a power chewer (owners at Tractor Supply and Chewy say one was destroyed in days: size up or look at KONG Extreme) or a very small or very large dog. Wrong size is the most common return.",
-   "owners": "Walmart, Chewy and Petco owners praise it filled and frozen. Complaints: aggressive chewers destroy it, sizes seem to run small, peanut butter is hard to clean out, and a few Chewy reviewers report a chemical smell. KONG says supervised use only.",
-   "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+medium&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "KONG Classic, red, sized to the dog's weight.",
-    "check": "Sold by KONG, Chewy or Amazon; check the weight range on the box; KONG offers a 60-day satisfaction guarantee through authorised sellers.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "ocedar",
-   "category": "generic",
-   "name": "O-Cedar EasyWring spin mop and bucket",
-   "short": "O-Cedar EasyWring",
-   "badge": "Best practical gift for a first home",
-   "chip": "foot-pedal wringer · microfiber · washable head",
-   "art": {
-    "shape": "cylinder",
-    "body": "#1E8E5A",
-    "accent": "#F08A24"
-   },
-   "price": "About $35–$40 at Walmart ($34.96 rollback, $39.96 shelf, undated snippets) and $34.99 at Target (August 2025). Costco sold a four-head kit for $25.97 in store on July 20, 2025.",
-   "buy_if": "someone moving into a first apartment or a household with hard floors. America's Test Kitchen (Chase Brightwell, June 24, 2025) named it its best mop and bucket set. See our full review.",
-   "skip_if": "they stomp the pedal hard, are tall (the handle is short), or have a mostly carpeted home. Pedal housings and the handle thread are the weak points.",
-   "owners": "Home Depot, Walmart and Sam's Club owners report a pedal or housing that broke (one after about 14 uses in a March 2025 Walmart review), and a handle that snapped at the thread joint about six months in. Others report 2.5 to 6 years of use.",
-   "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+spin+mop+bucket&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "The classic EasyWring round-bucket system with one mop head.",
-    "check": "Sold by O-Cedar or Amazon; check it's the EasyWring (not RinseClean); marketplace multi-packs have arrived with fewer heads.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "rubbermaid",
-   "category": "generic",
-   "name": "Rubbermaid Brilliance leak-proof food storage set",
-   "short": "Rubbermaid Brilliance",
-   "badge": "Best gift for the cook who meal-preps",
-   "chip": "airtight lids · stackable · clear Tritan",
-   "art": {
-    "shape": "box",
-    "body": "#9BD0E8",
-    "accent": "#1B2A41"
-   },
-   "price": "Target: $39.99 on July 5, 2026 and $23.99 on November 20, 2025 (about 40% off), per Slickdeals posts. BJ's was $24.99 plus shipping in July 2026.",
-   "buy_if": "someone who packs lunches or batch-cooks. America's Test Kitchen (Valerie Sizhe Li, December 10, 2025) named the 10-piece plastic set a winner for its seal and durability. See our full review.",
-   "skip_if": "they put everything in the microwave and dishwasher (ATK says not to for the plastic), or want replaceable lids; Rubbermaid sells none.",
-   "owners": "Walmart, Home Depot and Lowe's reviewers praise the leak resistance. Several report lids cracking at the latches after about 4 to 8 months, often after dishwasher or microwave use. Staining reports are mixed.",
-   "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+food+storage+set&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "The clear plastic (Tritan) Brilliance set, 10 pieces or more.",
-    "check": "Sold by Rubbermaid or Amazon; check Brilliance and the piece count; plastic and glass sets are different products.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "chomchom",
-   "category": "roller",
-   "name": "ChomChom Roller pet hair remover",
-   "short": "ChomChom Roller",
-   "badge": "Best stocking stuffer for a pet owner",
-   "chip": "no refills · reusable · catches hair on fabric",
-   "art": {
-    "body": "#F4F4F1",
-    "accent": "#1B2A41"
-   },
-   "price": "$19.99 at PetSmart (was $24.99; page seen October 2026, date not shown); Walmart snippets showed $13–$20, undated.",
-   "buy_if": "a dog or cat owner with a couch, a duvet or small rugs. Whole Dog Journal (Kim Campbell Thornton, December 16, 2025) names it best for small rugs and furniture.",
-   "skip_if": "the hair is wiry or short on woven fabric, or the plan is clothes and hard floors (Whole Dog Journal says it does poorly on hard floors and on clothing unless the fabric is taut).",
-   "owners": "Chewy owners report that it works well on upholstery; the release button can pop open mid-use and dump the hair, and one reviewer replaces theirs about every six months. Walmart reviewers describe unbranded knock-offs. We found no multi-year evidence.",
-   "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "ChomChom Roller, the original (not a limited edition).",
-    "check": "Sold by ChomChom or Amazon; check for the brand name on the roller, because knock-offs are common.",
-    "label": "See today's price"
-   }
-  },
-  {
-   "id": "bedsure",
-   "category": "generic",
-   "name": "Bedsure heated electric throw (50 x 60 in)",
-   "short": "Bedsure heated throw",
-   "badge": "The cozy gift · check the label first",
-   "chip": "6 heat levels · timer · machine washable",
-   "art": {
-    "shape": "bag",
-    "body": "#8A8D91",
-    "accent": "#C8102E"
-   },
-   "price": "Heated throws run about $20–$80 at major retailers; Walmart listed the U by Bedsure 50×60 at about $32 on October 1, 2026 (our earlier review). We could not verify a current price.",
-   "buy_if": "someone who sits cold at a desk or sofa. Expert Reviews (Jo Plumridge, February 24, 2026) found it heats fast but thin. See our Bedsure review.",
-   "skip_if": "the recipient is a young child or can't operate a controller, or sleeps with it on all night. UL advises pre-warming and switching off.",
-   "owners": "Walmart reviewers praise the soft fabric and quick heat; complaints are uneven heat, a unit that only warmed in one corner after a few weeks, and some arriving dead. CPSC recalled about 350,000 Bedsure blankets sold in 2022 (model BS-HB5060 among them), so check the label.",
-   "cta": "https://www.amazon.com/s?k=Bedsure+heated+electric+throw+blanket+50x60&tag=verdictpicks-20",
-   "video": "",
-   "video_title": "",
-   "video_channel": "",
-   "video_why": "",
-   "buy": {
-    "tier": "The pick",
-    "pick": "Bedsure heated throw, 50 x 60 in.",
-    "check": "Sold by Bedsure or Amazon; the model number must not be one in CPSC recall 23-735; keep the receipt.",
-    "label": "See today's price"
-   }
-  }
- ]
+  "category": "generic",
+  "buy_title": "The gifts to order, in ranking order, and what to check on the listing",
+  "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide are bands or non-Amazon figures with their source; the button shows today's price.",
+  "cards": [
+    {
+      "id": "pop",
+      "category": "thermo",
+      "name": "ThermoWorks ThermoPop 2 instant-read thermometer",
+      "short": "ThermoPop 2",
+      "badge": "Our top pick · the useful gift for anyone who cooks",
+      "chip": "2.6-second read · rotating display · waterproof",
+      "art": {
+        "body": "#C8102E",
+        "accent": "#1B2A41"
+      },
+      "price": "About $39 list; ThermoWorks ran it at $31 (20% off) on July 1, 2026, as America's Test Kitchen reported. Sales of 20–30% are normal.",
+      "buy_if": "the cook who guesses at chicken and steak, a new host, or anyone with a grill. America's Test Kitchen (June 24, 2025) named it its Best Buy instant-read: about 0.2–0.3°F error in its test and a 2.6-second average read.",
+      "skip_if": "the recipient wants a probe to leave in the roast with an alarm (it has none, and auto-off comes at about 10 minutes), or already owns a Thermapen.",
+      "owners": "Reviews sit on ThermoWorks' own site (about 4.6 stars, ~637 reviews; a seller's page, so read lightly). Complaints there: a stiff power button, a battery door that needs a small screwdriver, and the 10-minute auto-off. We found no independent multi-year accuracy data.",
+      "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "ThermoWorks ThermoPop 2 (any colour).",
+        "check": "Sold by ThermoWorks or Amazon; the box says ThermoPop 2, not the original ThermoPop; ThermoWorks gives a 2-year warranty and a calibration certificate.",
+        "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/thermoworks-thermopop-2.jpg",
+        "kind": "brand",
+        "credit": "ThermoWorks press kit",
+        "source": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+        "terms": "https://www.globenewswire.com/news-release/2022/09/30/2526160/0/en/THERMOWORKS-LAUNCHES-THERMOPOP-2-DELIVERING-2-3-SECOND-TEMPERATURE-READINGS-AND-A-BIG-PATENTED-AUTO-ROTATING-DISPLAY-IMPROVING-ON-THE-AWARD-WINNING-THERMOPOP-JUST-IN-TIME-FOR-THE-H.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      }
+    },
+    {
+      "id": "owala",
+      "category": "bottle",
+      "name": "Owala FreeSip 24 oz insulated bottle",
+      "short": "Owala FreeSip 24 oz",
+      "badge": "Best all-round gift · the one people use every day",
+      "chip": "built-in straw · sip or swig · insulated",
+      "art": {
+        "style": "freesip",
+        "body": "#3D6FA8",
+        "lid": "#1B2A41",
+        "accent": "#8FD3AE"
+      },
+      "price": "$29.99 list; Target sold it at $23.99 on September 6, 2026 and $25.49 on October 1, 2026 (Slickdeals trackers). Owala.com ran 20% off sitewide November 26–December 1, 2025.",
+      "buy_if": "the student, commuter or gym-goer who already carries a bottle. Our full review covers the details; CleverHiker (Marion Tucker, April 2025) called it the best budget insulated bottle.",
+      "skip_if": "they want hot drinks or soda in it (not designed for either), they won't wash the lid gasket weekly, or the car cup holder is narrow.",
+      "owners": "Walmart and Dick's reviewers (dates not shown) report mold on the lid gasket if it isn't pulled out and washed, and some lids that leak or pop apart. Walmart reviewers also report dented bottles and one fake from marketplace sellers. Buy from Owala, Target or Dick's.",
+      "cta": "https://www.amazon.com/s?k=Owala+FreeSip+24+oz&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "Owala FreeSip 24 oz, the colour the recipient likes.",
+        "check": "Sold by Owala or Amazon; avoid unfamiliar third-party sellers; keep the gift receipt, because Owala's own returns window is 30 days.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "airtag",
+      "category": "tracker",
+      "name": "Apple AirTag (2nd generation), single",
+      "short": "AirTag 2 (single)",
+      "badge": "The gift for iPhone owners who lose keys",
+      "chip": "Precision Finding · louder speaker · replaceable battery",
+      "art": {
+        "style": "coin",
+        "pack": 1,
+        "body": "#F7F7F5",
+        "back": "#C9CACB"
+      },
+      "price": "$29 at Apple; $24 at Walmart and Best Buy on October 16, 2026 (iClarified tracker). The 4-pack ($89–$99) is over budget for one gift.",
+      "buy_if": "an iPhone owner (iOS 26.2.1 or later) who loses keys, bags or luggage. Macworld (Simon Jary, February 4, 2026) gave it an Editors' Choice. See our AirTag 2 review.",
+      "skip_if": "the recipient uses Android, has an older iPhone, or already owns the first-generation tag (reviewers call the upgrade modest). It has no keyring hole, so budget for a holder.",
+      "owners": "Best Buy and Walmart reviewers praise Precision Finding and the louder speaker. Complaints: no keyring hole and a modest step up from gen 1. The tag launched in early 2026, so we have no long-term owner reports.",
+      "cta": "https://www.amazon.com/s?k=Apple+AirTag+2nd+generation+1+pack&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "Apple AirTag (2nd generation), 1-pack.",
+        "check": "Sold by Apple or Amazon; check it says 2nd generation, because the first-generation tag is still sold; add a keyring holder.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "kong",
+      "category": "kong",
+      "name": "KONG Classic dog toy (medium)",
+      "short": "KONG Classic",
+      "badge": "Best gift for a dog owner · under $15",
+      "chip": "natural rubber · stuffable · 15–35 lb dogs",
+      "art": {
+        "body": "#C8102E",
+        "accent": "#F4B942"
+      },
+      "price": "About $11.99 at Target (October 2026 page); Walmart showed $11.96 in an undated search snippet.",
+      "buy_if": "any dog owner whose dog needs something to do. KONG's own guide says to stuff it, seal the opening and freeze it for a longer puzzle. Medium suits dogs of about 15–35 lb.",
+      "skip_if": "the dog is a power chewer (owners at Tractor Supply and Chewy say one was destroyed in days: size up or look at KONG Extreme) or a very small or very large dog. Wrong size is the most common return.",
+      "owners": "Walmart, Chewy and Petco owners praise it filled and frozen. Complaints: aggressive chewers destroy it, sizes seem to run small, peanut butter is hard to clean out, and a few Chewy reviewers report a chemical smell. KONG says supervised use only.",
+      "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+medium&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "KONG Classic, red, sized to the dog's weight.",
+        "check": "Sold by KONG, Chewy or Amazon; check the weight range on the box; KONG offers a 60-day satisfaction guarantee through authorised sellers.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "ocedar",
+      "category": "generic",
+      "name": "O-Cedar EasyWring spin mop and bucket",
+      "short": "O-Cedar EasyWring",
+      "badge": "Best practical gift for a first home",
+      "chip": "foot-pedal wringer · microfiber · washable head",
+      "art": {
+        "shape": "cylinder",
+        "body": "#1E8E5A",
+        "accent": "#F08A24"
+      },
+      "price": "About $35–$40 at Walmart ($34.96 rollback, $39.96 shelf, undated snippets) and $34.99 at Target (August 2025). Costco sold a four-head kit for $25.97 in store on July 20, 2025.",
+      "buy_if": "someone moving into a first apartment or a household with hard floors. America's Test Kitchen (Chase Brightwell, June 24, 2025) named it its best mop and bucket set. See our full review.",
+      "skip_if": "they stomp the pedal hard, are tall (the handle is short), or have a mostly carpeted home. Pedal housings and the handle thread are the weak points.",
+      "owners": "Home Depot, Walmart and Sam's Club owners report a pedal or housing that broke (one after about 14 uses in a March 2025 Walmart review), and a handle that snapped at the thread joint about six months in. Others report 2.5 to 6 years of use.",
+      "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+spin+mop+bucket&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The classic EasyWring round-bucket system with one mop head.",
+        "check": "Sold by O-Cedar or Amazon; check it's the EasyWring (not RinseClean); marketplace multi-packs have arrived with fewer heads.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "rubbermaid",
+      "category": "generic",
+      "name": "Rubbermaid Brilliance leak-proof food storage set",
+      "short": "Rubbermaid Brilliance",
+      "badge": "Best gift for the cook who meal-preps",
+      "chip": "airtight lids · stackable · clear Tritan",
+      "art": {
+        "shape": "box",
+        "body": "#9BD0E8",
+        "accent": "#1B2A41"
+      },
+      "price": "Target: $39.99 on July 5, 2026 and $23.99 on November 20, 2025 (about 40% off), per Slickdeals posts. BJ's was $24.99 plus shipping in July 2026.",
+      "buy_if": "someone who packs lunches or batch-cooks. America's Test Kitchen (Valerie Sizhe Li, December 10, 2025) named the 10-piece plastic set a winner for its seal and durability. See our full review.",
+      "skip_if": "they put everything in the microwave and dishwasher (ATK says not to for the plastic), or want replaceable lids; Rubbermaid sells none.",
+      "owners": "Walmart, Home Depot and Lowe's reviewers praise the leak resistance. Several report lids cracking at the latches after about 4 to 8 months, often after dishwasher or microwave use. Staining reports are mixed.",
+      "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+food+storage+set&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The clear plastic (Tritan) Brilliance set, 10 pieces or more.",
+        "check": "Sold by Rubbermaid or Amazon; check Brilliance and the piece count; plastic and glass sets are different products.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "chomchom",
+      "category": "roller",
+      "name": "ChomChom Roller pet hair remover",
+      "short": "ChomChom Roller",
+      "badge": "Best stocking stuffer for a pet owner",
+      "chip": "no refills · reusable · catches hair on fabric",
+      "art": {
+        "body": "#F4F4F1",
+        "accent": "#1B2A41"
+      },
+      "price": "$19.99 at PetSmart (was $24.99; page seen October 2026, date not shown); Walmart snippets showed $13–$20, undated.",
+      "buy_if": "a dog or cat owner with a couch, a duvet or small rugs. Whole Dog Journal (Kim Campbell Thornton, December 16, 2025) names it best for small rugs and furniture.",
+      "skip_if": "the hair is wiry or short on woven fabric, or the plan is clothes and hard floors (Whole Dog Journal says it does poorly on hard floors and on clothing unless the fabric is taut).",
+      "owners": "Chewy owners report that it works well on upholstery; the release button can pop open mid-use and dump the hair, and one reviewer replaces theirs about every six months. Walmart reviewers describe unbranded knock-offs. We found no multi-year evidence.",
+      "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "ChomChom Roller, the original (not a limited edition).",
+        "check": "Sold by ChomChom or Amazon; check for the brand name on the roller, because knock-offs are common.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "bedsure",
+      "category": "generic",
+      "name": "Bedsure heated electric throw (50 x 60 in)",
+      "short": "Bedsure heated throw",
+      "badge": "The cozy gift · check the label first",
+      "chip": "6 heat levels · timer · machine washable",
+      "art": {
+        "shape": "bag",
+        "body": "#8A8D91",
+        "accent": "#C8102E"
+      },
+      "price": "Heated throws run about $20–$80 at major retailers; Walmart listed the U by Bedsure 50×60 at about $32 on October 1, 2026 (our earlier review). We could not verify a current price.",
+      "buy_if": "someone who sits cold at a desk or sofa. Expert Reviews (Jo Plumridge, February 24, 2026) found it heats fast but thin. See our Bedsure review.",
+      "skip_if": "the recipient is a young child or can't operate a controller, or sleeps with it on all night. UL advises pre-warming and switching off.",
+      "owners": "Walmart reviewers praise the soft fabric and quick heat; complaints are uneven heat, a unit that only warmed in one corner after a few weeks, and some arriving dead. CPSC recalled about 350,000 Bedsure blankets sold in 2022 (model BS-HB5060 among them), so check the label.",
+      "cta": "https://www.amazon.com/s?k=Bedsure+heated+electric+throw+blanket+50x60&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "Bedsure heated throw, 50 x 60 in.",
+        "check": "Sold by Bedsure or Amazon; the model number must not be one in CPSC recall 23-735; keep the receipt.",
+        "label": "See today's price"
+      }
+    }
+  ]
 }

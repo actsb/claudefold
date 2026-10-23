@@ -84,7 +84,7 @@ def tile(uid, label):
     text = "".join(f'<text x="300" y="{y0 + i * 52}" text-anchor="middle" font-size="40" font-weight="800" fill="{NAVY}">{esc(l)}</text>' for i, l in enumerate(lines))
     return (f'<rect x="60" y="60" width="480" height="280" rx="28" fill="#F4F2EC"/>'
             f'<rect x="60" y="60" width="480" height="280" rx="28" fill="none" stroke="#E3E1DB" stroke-width="2"/>'
-            f'<g font-family="{FONT}">{text}<text x="300" y="322" text-anchor="middle" font-size="15" fill="#8a8a8a">Photo coming: we show real photos only</text></g>')
+            f'<g font-family="{FONT}">{text}</g>')
 
 
 def image_credits(d, cards):

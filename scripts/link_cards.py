@@ -76,15 +76,15 @@ def write_thumb(d):
     cov = json.loads((d / "cover.json").read_text(encoding="utf-8")) if (d / "cover.json").exists() else {}
     cards = json.loads((d / "cards.json").read_text(encoding="utf-8"))["cards"] if (d / "cards.json").exists() else []
     import product_photos
-    for c in [next((c for c in cards if c["id"] == cov.get("hero")), None)] + cards:   # a real photo wins: images/thumb.jpg
+    for c in [next((c for c in cards if c["id"] == cov.get("hero")), None)]:   # the hero's real photo wins: images/thumb.jpg
         p = product_photos.photo(d, c) if c else None
         if p:
             from PIL import Image
             im = Image.open(product_photos.path(d, p)).convert("RGB"); im.thumbnail((560, 360))
             bg = Image.new("RGB", (600, 400), "white"); bg.paste(im, ((600 - im.width) // 2, (400 - im.height) // 2))
             out = d / "images" / "thumb.jpg"; bg.save(out, "JPEG", quality=82, optimize=True)
-            (d / "images" / "thumb.svg").unlink(missing_ok=True)
             return out
+    (d / "images" / "thumb.jpg").unlink(missing_ok=True)   # older posts still link thumb.svg, so it is never removed
     for cid in [cov.get("hero")] + [c["id"] for c in cards]:
         f = d / "images" / "cards" / f"{cid}.svg"
         if cid and f.exists():

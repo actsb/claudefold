@@ -112,7 +112,18 @@
       "buy_if": "you want the cheapest good bidet and can accept a saving of a few dollars: this one is always near its floor.",
       "skip_if": "you hate cool water (look at the NEO 320) or your seat bolts fall outside 5.5–7.5 inches.",
       "owners": "Walmart's listing showed 4.9 out of 5 from about 8,200 reviews (Oct 2026). A Slickdeals owner's unit leaked after about five years; the warranty is 18 months.",
-      "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20"
+      "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20",
+      "photo": {
+        "file": "brand/photos/luxe-bidet-neo-185.jpg",
+        "kind": "brand",
+        "credit": "LUXE Bidet press kit",
+        "source": "https://luxebidet.com/pages/press",
+        "terms": "https://luxebidet.com/pages/press",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      }
     },
     {
       "id": "beckham-pillows",
