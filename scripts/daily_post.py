@@ -63,7 +63,7 @@ def cmd_new(key):
              "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
              "cards": [{"id": key, "category": e.get("category", "generic"), "name": e["name"], "short": e["short"],
                         "badge": "WRITE: category · why it is the value pick", "chip": "WRITE: three spec words",
-                        "art": e.get("art", {"shape": "box", "body": "#2F3A48", "accent": "#1E8E5A"}),
+                        "art": {"shape": "tile", "label": e["short"]},   # until the card gets a licensed photo (README section 0, Images)
                         "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
                         "buy_if": "WRITE: who it is for", "skip_if": "WRITE: who should skip it and what to buy instead",
                         "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
