@@ -16,7 +16,7 @@ Auth, in order of preference:
      → scope https://www.googleapis.com/auth/blogger → Authorize APIs → Exchange → Access token (valid ~1 hour).
 
 Usage:
-  BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py                 # publish all posts + pages
+  BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --all           # publish all posts + pages (rarely right: it bumps every date)
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --posts-only    # skip the pages
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --only earbuds  # one post (key from POSTS)
   BLOGGER_TOKEN=ya29... python3 scripts/publish_blogger.py --draft         # create everything as drafts
@@ -263,6 +263,13 @@ PAGES = [
 ]
 
 args = sys.argv[1:]
+FLAGS, VALUED = {"--all", "--check", "--draft", "--hubs-only", "--pages-only", "--posts-only"}, {"--only", "--page", "--token-env"}
+if "-h" in args or "--help" in args:
+    print(__doc__); sys.exit(0)
+_bad = [a for i, a in enumerate(args) if a not in FLAGS | VALUED and not (i and args[i - 1] in VALUED)]
+if _bad or not args:
+    # a typo or a bare run must never fall through to a full publish: re-sending every post bumps every post's date
+    sys.exit(f"unknown option(s) {_bad}" if _bad else "say what to publish: --only <key>, --page <title>, --hubs-only, --posts-only, --pages-only, --check or --all")
 token_env = args[args.index("--token-env") + 1] if "--token-env" in args else "BLOGGER_TOKEN"
 
 def mint_token():
