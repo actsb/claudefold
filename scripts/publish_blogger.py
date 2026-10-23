@@ -240,6 +240,7 @@ POSTS = {
     },
     "meat-thermometer": {
         "dir": "posts/2026-10-meat-thermometer",
+        "url": "https://acts39.blogspot.com/2026/10/thermopop-2-vs-thermapen-one-vs.html",
         "title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026: Which Instant-Read Thermometer Is Worth It?",
         "slug_title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026",
         "labels": ["Kitchen", "Thanksgiving", "Buying Guide", "Under $100", "Amazon Finds"],
