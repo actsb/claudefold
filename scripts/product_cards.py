@@ -750,23 +750,31 @@ DRAW = {"robot": draw_robot, "earbuds": draw_earbuds, "glasses": draw_glasses, "
 
 def render_product(category, art, uid, scale=1.0, tx=0, ty=0, with_studio=True):
     """Return SVG fragment (a <g>) with the product drawn at 600x400 coordinates, transformed."""
+    if art.get("shape") == "tile":   # no allowed photo yet: a name tile, never a drawing of the product
+        import product_photos
+        return f'<g transform="translate({tx} {ty}) scale({scale})">{product_photos.tile(uid, art.get("label", ""))}</g>'
     svg = DRAW[category](uid, art)
     if not with_studio:
         # drop the studio background rect but keep the soft shadow
         svg = svg.replace(f'<rect width="{W}" height="{H}" rx="18" fill="url(#{uid}-bg)"/>', '', 1)
     return f'<g transform="translate({tx} {ty}) scale({scale})">{svg}</g>'
 
-def card_svg(category, c):
+def card_svg(category, c, d=None):
     uid = "c" + "".join(ch for ch in c["id"] if ch.isalnum())
-    inner = DRAW[category](uid, c.get("art", {}))
     chip = c.get("chip", ""); chip_w = 16 + int(len(chip) * 7.2)
+    import product_photos
+    if d is not None and product_photos.photo(d, c):   # a real photo we may publish replaces the drawing
+        return product_photos.card_svg(d, c, chip_w, chip, c.get("short", c["name"]))
+    art = c.get("art", {})
+    inner = (product_photos.tile(uid, art.get("label") or c.get("short", c["name"])) if art.get("shape") == "tile"
+             else DRAW[category](uid, art))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" role="img" aria-label="{esc(c["name"])} (product render)">
 {inner}
 <g font-family="{FONT}">
 <rect x="18" y="18" width="{chip_w}" height="28" rx="14" fill="{NAVY}"/>
 <text x="{18 + chip_w/2}" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">{esc(chip)}</text>
 <text x="22" y="380" font-size="22" font-weight="700" fill="{NAVY}">{esc(c.get("short", c["name"]))}</text>
-<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">Render, not a photo</text>
+<text x="578" y="382" text-anchor="end" font-size="11" fill="#9a9a9a">{"" if art.get("shape") == "tile" else "Render, not a photo"}</text>
 </g>
 </svg>
 '''
@@ -776,7 +784,7 @@ def main(post_dir):
     spec = json.loads((d / "cards.json").read_text(encoding="utf-8"))
     outdir = d / "images" / "cards"; outdir.mkdir(parents=True, exist_ok=True)
     for c in spec["cards"]:
-        (outdir / f"{c['id']}.svg").write_text(card_svg(c.get("category", spec["category"]), c), encoding="utf-8")
+        (outdir / f"{c['id']}.svg").write_text(card_svg(c.get("category", spec["category"]), c, d), encoding="utf-8")
     print(f"wrote {len(spec['cards'])} cards to {outdir}")
 
 if __name__ == "__main__":

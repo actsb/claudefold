@@ -75,6 +75,16 @@ def write_thumb(d):
     d = pathlib.Path(d)
     cov = json.loads((d / "cover.json").read_text(encoding="utf-8")) if (d / "cover.json").exists() else {}
     cards = json.loads((d / "cards.json").read_text(encoding="utf-8"))["cards"] if (d / "cards.json").exists() else []
+    import product_photos
+    for c in [next((c for c in cards if c["id"] == cov.get("hero")), None)] + cards:   # a real photo wins: images/thumb.jpg
+        p = product_photos.photo(d, c) if c else None
+        if p:
+            from PIL import Image
+            im = Image.open(product_photos.path(d, p)).convert("RGB"); im.thumbnail((560, 360))
+            bg = Image.new("RGB", (600, 400), "white"); bg.paste(im, ((600 - im.width) // 2, (400 - im.height) // 2))
+            out = d / "images" / "thumb.jpg"; bg.save(out, "JPEG", quality=82, optimize=True)
+            (d / "images" / "thumb.svg").unlink(missing_ok=True)
+            return out
     for cid in [cov.get("hero")] + [c["id"] for c in cards]:
         f = d / "images" / "cards" / f"{cid}.svg"
         if cid and f.exists():
@@ -157,7 +167,8 @@ def sentence(s):
 def guide_card(p, highlight=None, title=None, attrs=""):
     """A card for one live guide from brand/site-index.json (key, title, url, description, labels, dir, blurb, updated)."""
     href = p["url"].replace(SITE, "") or "/"
-    img = (f'<img src="{PAGES}/{p["dir"]}/images/thumb.svg" alt="" width="600" height="400" loading="lazy" '
+    thumb = "thumb.jpg" if (pathlib.Path(__file__).resolve().parent.parent / p["dir"] / "images" / "thumb.jpg").exists() else "thumb.svg"
+    img = (f'<img src="{PAGES}/{p["dir"]}/images/{thumb}" alt="" width="600" height="400" loading="lazy" '
            'style="display:block;width:100%;height:100%;object-fit:cover;border:0;margin:0;padding:0;box-shadow:none;border-radius:0;background:none;">')
     hl = highlight if highlight is not None else esc(sentence(p.get("blurb") or p["description"]))
     return card(esc(title or short_title(p["title"])), href, img=img, pill=guide_kind(p.get("labels", [])), highlight=hl,

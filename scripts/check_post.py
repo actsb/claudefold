@@ -77,6 +77,12 @@ def main(path):
     warns = sorted({(label, text[max(0, m.start()-40):m.end()+25].strip()) for label, pat in AMAZON_WARN for m in re.finditer(pat, text, flags=re.I)})
     for label, ctx in warns[:12]:
         print(f"WARN: {label}: …{ctx}…")
+    # images: Amazon's product images may never be downloaded, cropped, stored or hosted (IP License 2(h), Participation
+    # Requirement 6(a)); until the Creators API is in use none may appear at all. Brand press photos need their credit line.
+    if re.search(r"(?:src|href)=\"[^\"]*(?:media-amazon\.com|images-amazon\.com|ssl-images-amazon\.com|amazon\.com/images)", raw, flags=re.I):
+        fails.append("an Amazon-hosted product image (only live Creators API image links are allowed, and only in phase 2: daily/image-plan-2026-10-23.md)")
+    if re.search(r"/images/photos/", raw) and "Our photo" not in raw and "Image credits:" not in raw:
+        fails.append("product photos without a credit (cards.json photo.credit, product_photos.py)")
     if re.search(r"raw\.githubusercontent\.com(/|%2F)", raw, flags=re.I): fails.append("hotlinks raw.githubusercontent.com (serve images from https://actsb.github.io/claudefold/ instead)")
     if re.search(r"/home/user/|home%2Fuser", raw): fails.append("an absolute container path leaked into a URL")
     if re.search(r'class="vp-imgslot"|IMAGE SLOT', raw): fails.append("a visible placeholder box (vp-imgslot / IMAGE SLOT) would show on the live page")

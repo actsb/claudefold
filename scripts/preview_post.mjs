@@ -17,7 +17,7 @@ html = html.replace(/<iframe[^>]*youtube\.com\/embed\/([A-Za-z0-9_\-]+)[^>]*><\/
 html = html.replace(/class="vp-short" style="/g, 'class="vp-short" style="position:relative;');
 html = html.replace(/(src|poster)="https:\/\/raw\.githubusercontent\.com\/actsb\/claudefold\/[^"]*\/(posts\/[^"]+\.(png|jpe?g))"/g, (m, attr, rel, ext) => { try { return `${attr}="data:image/${ext === 'png' ? 'png' : 'jpeg'};base64,` + readFileSync(rel).toString('base64') + '"'; } catch { return m; } });
 // images on GitHub Pages (cover.jpg, guide-card thumb.svg) come from the local checkout, so a preview shows them before they are pushed
-html = html.replace(/(src)="https:\/\/actsb\.github\.io\/claudefold\/(posts\/[^"]+\.(png|jpe?g|svg))"/g, (m, attr, rel, ext) => { try { const type = ext === 'svg' ? 'svg+xml' : ext === 'png' ? 'png' : 'jpeg'; return `${attr}="data:image/${type};base64,` + readFileSync(rel).toString('base64') + '"'; } catch { return m; } });
+html = html.replace(/(src|href)="https:\/\/actsb\.github\.io\/claudefold\/(posts\/[^"]+\.(png|jpe?g|svg))"/g, (m, attr, rel, ext) => { try { const type = ext === 'svg' ? 'svg+xml' : ext === 'png' ? 'png' : 'jpeg'; return `${attr}="data:image/${type};base64,` + readFileSync(rel).toString('base64') + '"'; } catch { return m; } });
 const page_html = `<body style="margin:0;background:#eee"><div style="width:${width}px;margin:0 auto;background:#fff;padding:24px 28px;font-family:Roboto,Helvetica,Arial,sans-serif;">${html}</div></body>`;
 const browser = await chromium.launch();
 const page = await browser.newPage({ viewport: { width: width + 56, height: 1200 }, deviceScaleFactor: 1 });
