@@ -114,9 +114,9 @@
       "good": "under $25",
       "great": "about $24",
       "verdict": "ok",
-      "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, so there is little to wait for.",
-      "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025",
-      "checked": "2026-10-17"
+      "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, and no 2026 Black Friday Owala deal was announced as of October 24, so there is little to wait for.",
+      "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025; NBC News Select, Nov 2025",
+      "checked": "2026-10-24"
     },
     {
       "key": "bissell-little-green",
@@ -534,6 +534,7 @@
     }
   ],
   "changelog": [
+    "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",
     "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",
     "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
     "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
