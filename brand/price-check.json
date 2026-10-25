@@ -128,13 +128,13 @@
         "little-green"
       ],
       "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
-      "street": "About $95–$130; Bissell list $123.59",
+      "street": "About $95–$130; Walmart $74.62 (Oct 7, 2026), Bissell list $123.59",
       "good": "under $90",
-      "great": "about $79",
-      "verdict": "wait",
-      "why": "Walmart listed it at $78.97 on November 3, 2025. Of our cleaning picks, this one has the clearest record of a real cut around Black Friday.",
-      "sources": "Slickdeals, Nov 3, 2025; Bissell list price",
-      "checked": "2026-10-17"
+      "great": "about $75",
+      "verdict": "buy",
+      "why": "Walmart listed it at $74.62 on October 7, 2026, about what last year's Black Friday cut (around 31% off list) reached, so there is little to wait for. No 2026 Black Friday price was announced as of October 25.",
+      "sources": "Slickdeals, Oct 7, 2026 (Walmart); CNN Underscored, Nov 19, 2025; Bissell list price",
+      "checked": "2026-10-25"
     },
     {
       "key": "ocedar-easywring",
@@ -534,6 +534,7 @@
     }
   ],
   "changelog": [
+    "2026-10-25 · Re-checked the Bissell Little Green 1400B: Walmart $74.62 on Oct 7, 2026; no announced 2026 Black Friday price.",
     "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",
     "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",
     "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
