@@ -1,0 +1,84 @@
+[
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "Fill a tire with a cordless inflator in five minutes",
+    "sub": "The number to use is on the door placard, not on the tire",
+    "footer": "Sources: NHTSA tire-safety guidance (via search summaries, October 2026); Milwaukee and DeWalt manuals. Always follow your pump's manual.",
+    "items": [
+      {
+        "head": "Check tires cold",
+        "body": "Before driving, or after the car has sat for three hours. Warm tires read 4\u20136 psi high."
+      },
+      {
+        "head": "Find the placard number",
+        "body": "Door-edge label or owner's manual. The sidewall figure is the tire's maximum, not your target."
+      },
+      {
+        "head": "Charge or fit the battery",
+        "body": "Built-in batteries: charge first. Tool-only pumps need a charged 18V/20V or 12V pack."
+      },
+      {
+        "head": "Screw on the chuck",
+        "body": "Thread the hose onto the valve fast and fully; a hiss means it is not seated."
+      },
+      {
+        "head": "Set the target and start",
+        "body": "Dial in the placard psi. Auto-stop shuts the motor off at that number."
+      },
+      {
+        "head": "Verify and rest the pump",
+        "body": "Confirm with a handheld gauge, then let the pump cool: Milwaukee asks for 40 minutes after 20 of use."
+      }
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where to buy a cordless inflator, and when Amazon is not the only answer",
+    "sub": "October 2026, from brand stores and deal posts",
+    "footer": "Prices and policies as seen in October 2026; the buttons show today's price. Return windows vary: check the page before you pay.",
+    "rows": [
+      {
+        "store": "Amazon",
+        "price": "Button shows today's",
+        "ship": "Prime shipping where eligible",
+        "returns": "Easy for most sellers",
+        "note": "Check the seller is the brand or Amazon.",
+        "verdict": "win"
+      },
+      {
+        "store": "Walmart",
+        "price": "X8 Apex from about $70 (search result)",
+        "ship": "Shipping varies",
+        "returns": "Varies by seller",
+        "note": "Cheapest Fanttik we saw; confirm 'sold by Walmart'.",
+        "verdict": "ok"
+      },
+      {
+        "store": "Home Depot / Lowe's",
+        "price": "DeWalt $109\u2013$169, tool only",
+        "ship": "Store pickup",
+        "returns": "Store policy",
+        "note": "Best for bare tools if you own the batteries.",
+        "verdict": "ok"
+      },
+      {
+        "store": "fanttik.com",
+        "price": "$89.99 (list $99.99)",
+        "ship": "Free from a US warehouse",
+        "returns": "30 days, unopened",
+        "note": "12-month warranty; price-drop refund within 15 days.",
+        "verdict": "ok"
+      },
+      {
+        "store": "Temu / no-name clones",
+        "price": "$13\u2013$30",
+        "ship": "Slow",
+        "returns": "Uncertain",
+        "note": "Gauge and battery quality unknown.",
+        "verdict": "no"
+      }
+    ]
+  }
+]

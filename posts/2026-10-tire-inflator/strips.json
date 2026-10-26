@@ -1,0 +1,38 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "x8apex",
+      "title": "A cold morning with a tire-pressure light \u2014 in real life",
+      "panels": [
+        {
+          "glyph": "warning",
+          "head": "7 a.m. \u2014 the light",
+          "text": "The TPMS light comes on after the first cold night. It means a tire is about 25% under the door-jamb number.",
+          "host": {
+            "pose": "present"
+          }
+        },
+        {
+          "glyph": "clock",
+          "product": true,
+          "head": "7:05 \u2014 set the number",
+          "text": "Read the placard on the door edge, set that psi on the pump, press go. It stops by itself."
+        },
+        {
+          "glyph": "check",
+          "head": "7:10 \u2014 check with a gauge",
+          "text": "Tests found no gauge perfectly accurate. A $10 handheld gauge settles it."
+        },
+        {
+          "glyph": "sun",
+          "head": "Next month \u2014 top up",
+          "text": "Check tires cold, once a month. A few psi is a one-minute job instead of a gas-station stop.",
+          "host": {
+            "pose": "thumbsup"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -531,9 +531,82 @@
       "why": "It is being closed out, so colours are running out; ThermoWorks has sold it at $62 to $76 several times (Black Friday 2022, 2024, Nov 10, 2025), but this year's successor may change that.",
       "sources": "thermoworks.com, Oct 23, 2026; Slickdeals, Nov 10, 2025 and Aug 21, 2026; TVWBB Black Friday 2022 thread",
       "checked": "2026-10-23"
+    },
+    {
+      "key": "fanttik-x8-apex",
+      "category": "car",
+      "name": "Fanttik X8 Apex",
+      "guide": "tire-inflator",
+      "card": [
+        "posts/2026-10-tire-inflator",
+        "x8apex"
+      ],
+      "model": "X8 Apex (150 psi, built-in battery); the Deluxe package adds a case and a car adapter.",
+      "street": "$89.99 at fanttik.com (list $99.99, Oct 26, 2026); Walmart search results showed it from about $70 (not confirmed live)",
+      "good": "under $75",
+      "great": "about $70",
+      "verdict": "ok",
+      "why": "Seen at $70 at Best Buy in March 2025 and from about $70 at Walmart; the brand store is $20 higher, and no Black Friday terms were announced yet.",
+      "sources": "fanttik.com, Oct 26, 2026; Slickdeals (Best Buy), Mar 22, 2025; Walmart search result, undated",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "milwaukee-m18-inflator",
+      "category": "car",
+      "name": "Milwaukee M18 inflator 2848-20",
+      "guide": "tire-inflator",
+      "card": [
+        "posts/2026-10-tire-inflator",
+        "m18"
+      ],
+      "model": "2848-20, tool only (no battery or charger).",
+      "street": "$199 at Home Depot (Dec 2024); $149 at Walmart (search result, undated)",
+      "good": "under $150",
+      "great": "about $119 (free with a battery kit)",
+      "verdict": "wait",
+      "why": "Home Depot ran it as a free gift with an M18 starter kit in July 2026 and in the 2025 Black Friday promotions; the Oct 29 holiday sales may repeat that.",
+      "sources": "ShopSavvy, Dec 3, 2024; Slickdeals (Home Depot), Jul 15, 2026; ToolGuyd, Dec 2025",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "dewalt-dcc020ib",
+      "category": "car",
+      "name": "DeWalt 20V MAX inflator DCC020IB",
+      "guide": "tire-inflator",
+      "card": [
+        "posts/2026-10-tire-inflator",
+        "dcc020"
+      ],
+      "model": "DCC020IB, tool only (battery, charger and AC adapter sold separately).",
+      "street": "$169 at Home Depot (Apr 2026); $109 at Lowe's (Nov 7, 2025)",
+      "good": "under $110",
+      "great": "about $100",
+      "verdict": "wait",
+      "why": "It has dropped 35% at Lowe's before and Lowe's said Black Friday pricing starts Oct 29, 2026.",
+      "sources": "Slickdeals price tracker, Apr 2026; Slickdeals (Lowe's), Nov 7, 2025; ToolGuyd, Oct 2026",
+      "checked": "2026-10-26"
+    },
+    {
+      "key": "astroai-l7",
+      "category": "car",
+      "name": "AstroAI L7 cordless inflator",
+      "guide": "tire-inflator",
+      "card": [
+        "posts/2026-10-tire-inflator",
+        "l7"
+      ],
+      "model": "L7 pocket inflator (built-in battery); other AstroAI models differ.",
+      "street": "AstroAI cordless inflators were $14.99–$44.99 in Walmart listings and deal posts in 2026",
+      "good": "under $30",
+      "great": "about $15",
+      "verdict": "ok",
+      "why": "Cheap enough that waiting saves little; deal posts show frequent coupon prices.",
+      "sources": "Slickdeals (Walmart), Aug 28, 2026; Walmart search results, 2026",
+      "checked": "2026-10-26"
     }
   ],
   "changelog": [
+    "2026-10-26 · Added the Fanttik X8 Apex, Milwaukee M18 inflator, DeWalt DCC020IB and AstroAI L7 for the cordless tire inflator roundup.",
     "2026-10-25 · Re-checked the Bissell Little Green 1400B: Walmart $74.62 on Oct 7, 2026; no announced 2026 Black Friday price.",
     "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",
     "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",

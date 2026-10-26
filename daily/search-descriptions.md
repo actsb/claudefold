@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?
+https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html
+
+```text
+Cordless tire inflators compared: Fanttik X8 Apex vs Milwaukee M18, DeWalt, AstroAI. Fill times, owner reports and the bare-tool battery trap.
+```
+
 ## ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026: Which Instant-Read Thermometer Is Worth It?
 https://acts39.blogspot.com/2026/10/thermopop-2-vs-thermapen-one-vs.html
 

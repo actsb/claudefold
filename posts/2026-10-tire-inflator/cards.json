@@ -1,0 +1,87 @@
+{
+  "category": "generic",
+  "buy_title": "If you buy one cordless tire inflator, make it this one",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from brand stores and other US retailers in October 2026; the button shows today's price.",
+  "cards": [
+    {
+      "id": "x8apex",
+      "category": "generic",
+      "name": "Fanttik X8 Apex (built-in battery, 150 psi)",
+      "short": "Fanttik X8 Apex",
+      "badge": "Our first pick \u00b7 no battery platform needed",
+      "chip": "150 psi \u00b7 auto-stop \u00b7 built-in battery",
+      "art": {
+        "shape": "tile",
+        "label": "Fanttik X8 Apex"
+      },
+      "price": "About $70\u2013$90 ($89.99 at fanttik.com, list $99.99, October 26, 2026; Walmart search results showed it from about $70, not confirmed live)",
+      "buy_if": "you own no cordless-tool batteries and want one pump that lives in the trunk for top-offs on cars, bikes and motorcycles.",
+      "skip_if": "you air down and up for off-roading or have big truck tires: in Outdoor Life's December 2025 test it stalled at 40 psi on an LT truck tire when its battery ran out.",
+      "owners": "Owners at Slickdeals (March 2026) praise its accuracy and battery life against cheap clones; a 4Runner6G owner (April 2025) saw it overheat and drain after two tires and returned it.",
+      "cta": "https://www.amazon.com/s?k=fanttik+x8+apex+tire+inflator&tag=verdictpicks-20",
+      "buy": {
+        "tier": "The pick",
+        "pick": "The Fanttik X8 Apex (150 psi, built-in 28.8 Wh battery). The Deluxe package adds a case and a car charger adapter; the base unit is enough.",
+        "check": "Buy from fanttik.com or a big-box store if returns matter: Fanttik's own 30-day return covers unopened units only, and units bought at retail get one replacement under the 12-month warranty. Check the listing says X8 Apex, not an unbranded clone.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "m18",
+      "category": "generic",
+      "name": "Milwaukee M18 inflator 2848-20 (tool only)",
+      "short": "Milwaukee M18 2848-20",
+      "badge": "Fastest tested \u00b7 for M18 battery owners",
+      "chip": "150 psi \u00b7 auto-stop \u00b7 needs M18 battery",
+      "art": {
+        "shape": "tile",
+        "label": "Milwaukee M18 2848-20"
+      },
+      "price": "About $120\u2013$200 tool only ($199 at Home Depot in December 2024; $149 at Walmart in a search snippet, undated; effectively $119.48 as a free gift with a battery kit, July 2026, expired)",
+      "buy_if": "you already own M18 batteries and fill truck, SUV or trailer tires, where it beat every compact in Outdoor Life's December 2025 test.",
+      "skip_if": "you have no M18 battery: the tool ships without battery or charger, and it is big, loud and poor at bike tires.",
+      "owners": "Slickdeals owners (May 2025) call it extremely fast but hard on batteries; an RV forum owner (November 2025) reports trailer tires to 123 psi without strain.",
+      "cta": "https://www.amazon.com/s?k=milwaukee+m18+inflator+2848-20&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the M18 inflator"
+    },
+    {
+      "id": "dcc020",
+      "category": "generic",
+      "name": "DeWalt 20V MAX inflator DCC020IB (tool only)",
+      "short": "DeWalt DCC020IB",
+      "badge": "The all-rounder for DeWalt 20V owners",
+      "chip": "20V, 12V car plug or wall power",
+      "art": {
+        "shape": "tile",
+        "label": "DeWalt DCC020IB"
+      },
+      "price": "About $109\u2013$170 tool only ($169 at Home Depot, April 2026; $109 at Lowe's, November 7, 2025)",
+      "buy_if": "you own DeWalt 20V batteries and want one pump that also runs from a car outlet or the wall, and handles bikes and balls as well as car tires.",
+      "skip_if": "you want a grab-and-go kit: battery, charger and AC adapter are all sold separately, and we found no independent fill-time test.",
+      "owners": "A four-year owner (Slickdeals, May 2025) says it works on bikes, cars and inflatables; a TacomaWorld poster (August 2020) says a friend's unit failed on large off-road tires.",
+      "cta": "https://www.amazon.com/s?k=dewalt+dcc020ib+inflator&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the DeWalt inflator"
+    },
+    {
+      "id": "l7",
+      "category": "generic",
+      "name": "AstroAI L7 pocket inflator (built-in battery)",
+      "short": "AstroAI L7",
+      "badge": "Cheapest \u00b7 for bikes and quick top-offs",
+      "chip": "pocket size \u00b7 built-in battery",
+      "art": {
+        "shape": "tile",
+        "label": "AstroAI L7"
+      },
+      "price": "About $15\u2013$45 (AstroAI cordless inflators ran $14.99\u2013$44.99 in Walmart listings and deal posts, 2026)",
+      "buy_if": "you mostly need a pump for bicycles, motorcycles and the occasional few psi on a car tire.",
+      "skip_if": "you need to fill four car tires in a row: a Slickdeals buyer (November 2025) could not finish four tires on a charge and returned the L7S.",
+      "owners": "Slickdeals owners (November 2024) say it suits dirt bikes and small tires and is slow on cars.",
+      "cta": "https://www.amazon.com/s?k=astroai+l7+tire+inflator&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the AstroAI L7"
+    }
+  ]
+}

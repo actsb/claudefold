@@ -245,6 +245,12 @@ POSTS = {
         "slug_title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026",
         "labels": ["Kitchen", "Thanksgiving", "Buying Guide", "Under $100", "Amazon Finds"],
     },
+    "tire-inflator": {
+        "dir": "posts/2026-10-tire-inflator",
+        "title": "Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?",
+        "slug_title": "Best Portable Tire Inflator 2026",
+        "labels": ["Car", "Tools", "Buying Guide", "Under $100", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
