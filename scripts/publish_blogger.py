@@ -247,6 +247,7 @@ POSTS = {
     },
     "tire-inflator": {
         "dir": "posts/2026-10-tire-inflator",
+        "url": "https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html",
         "title": "Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?",
         "slug_title": "Best Portable Tire Inflator 2026",
         "labels": ["Car", "Tools", "Buying Guide", "Under $100", "Amazon Finds"],
