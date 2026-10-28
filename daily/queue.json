@@ -570,7 +570,7 @@
    "key": "tire-inflator",
    "slug": "tire-inflator",
    "date": "2026-10-26",
-   "status": "writing",
+   "status": "published",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Portable tire inflators: which cordless pump is worth it",
@@ -603,7 +603,7 @@
    "slug": "stocking-stuffers",
    "date": "2026-10-28",
    "status": "published",
-      "url": "https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html",
+   "url": "https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Stocking stuffers under $25: small things that get used",
@@ -632,8 +632,8 @@
   {
    "key": "winter-car-kit",
    "slug": "winter-car-kit",
-   "date": "2026-10-30",
-   "status": "queued",
+   "date": "2026-10-28",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Winter car emergency kit: what to keep in the trunk",
@@ -657,7 +657,9 @@
    "hook": "publish by Nov 15, before the first storms; cite NHTSA or Ready.gov for the checklist",
    "picks": "a jump starter (link the NOCO review), a tire inflator (link the inflator guide), a snow brush and ice scraper, a folding shovel, traction mats, a blanket, a flashlight or headlamp, a first-aid kit, a power bank",
    "cluster": "car",
-   "source": "daily/strategy-2026-10.md"
+   "source": "daily/strategy-2026-10.md",
+   "url": "https://acts39.blogspot.com/2026/10/winter-car-emergency-kit.html",
+   "dir": "posts/2026-10-winter-car-kit"
   },
   {
    "key": "jump-starter-sizes",

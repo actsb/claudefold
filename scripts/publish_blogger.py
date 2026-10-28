@@ -252,6 +252,12 @@ POSTS = {
         "slug_title": "Best Portable Tire Inflator 2026",
         "labels": ["Car", "Tools", "Buying Guide", "Under $100", "Amazon Finds"],
     },
+    "winter-car-kit": {
+        "dir": "posts/2026-10-winter-car-kit",
+        "title": "Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)",
+        "slug_title": "Winter Car Emergency Kit",
+        "labels": ["Car", "Winter", "Emergency Prep", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
