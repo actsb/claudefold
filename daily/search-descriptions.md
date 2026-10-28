@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)
+https://acts39.blogspot.com/2026/10/winter-car-emergency-kit.html
+
+```text
+Winter car kit guide: what to pack, what is overkill. Official lists, owner reports, dated prices and why a jump starter comes first.
+```
+
 ## Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?
 https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html
 

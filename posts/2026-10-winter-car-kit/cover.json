@@ -1,26 +1,28 @@
 {
-  "hero": "winter-car-kit",
-  "title_size": 66,
+  "hero": "gb40",
+  "title_size": 62,
   "title": [
-    "winter car kit:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Winter car kit:",
+    "what to pack,",
+    "what is overkill"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Official lists from CR, CDC and Ready.gov,",
+    "owner reports and dated prices,",
+    "one jump starter worth buying first."
   ],
-  "footer": "Product of the day · Winter car emergency kit: what to keep in the trunk · Verdict Picks",
-  "alt": "Winter car emergency kit: what to keep in the trunk: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Buying guide · Winter car emergency kit 2026 · Verdict Picks",
+  "alt": "Winter car emergency kit 2026: what to keep in the trunk and what is overkill, built from Consumer Reports, CDC and Ready.gov lists, owner reports and dated prices (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "Start with the jump starter",
+    "Sand can beat $130 traction mats",
+    "Wool beats foil for warmth"
   ],
   "url": "https://acts39.blogspot.com/2026/10/winter-car-emergency-kit.html",
   "style": "bright",
   "products": [
-    "winter-car-kit"
+    "subzero",
+    "shovel",
+    "astro300"
   ]
 }

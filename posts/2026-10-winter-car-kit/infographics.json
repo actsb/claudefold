@@ -2,81 +2,81 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The winter car kit in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "Stuck in snow: what the official guidance says",
+    "sub": "Dig out first; if that fails, stay with the car",
+    "footer": "Sources: National Weather Service 'During a Storm', CDC tailpipe page (updated August 2026), Minnesota State Patrol column (February 2026). Check your owner's manual before rocking the car.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Stop spinning",
+        "body": "Spinning digs you deeper and can overheat the transmission."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Clear the tailpipe",
+        "body": "A blocked exhaust lets carbon monoxide build up inside, says the CDC."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Dig out the drive wheels",
+        "body": "Clear snow in front of and behind them with the shovel."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Put traction under the tires",
+        "body": "Sand, mats or even floor mats go in the path of the drive wheels."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Still stuck? Stay in the car",
+        "body": "NWS: leaving gets you disoriented fast. Call for help."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Heat in short runs",
+        "body": "NWS: run the motor about 10 minutes an hour, window cracked, exhaust clear."
       }
     ]
   },
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where to buy the kit, and when Amazon is not the only answer",
+    "sub": "October 28, 2026, from retailer pages and dated posts",
+    "footer": "Prices as seen on the dates shown; some are search snippets. The buttons show today's price.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Button shows today's",
+        "ship": "Prime where eligible",
+        "returns": "Easy for most sellers",
+        "note": "Buy lithium jump starters from the brand or a known seller.",
         "verdict": "win"
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Harbor Freight",
+        "price": "Cables $9.99–$16.99; headlamp $12.99",
+        "ship": "Store or ship",
+        "returns": "90 days",
+        "note": "Cheapest basics on 10-28.",
         "verdict": "ok"
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Lowe's / Walmart",
+        "price": "AAA 66-pc kit $55.64 / $64.95 (NBC, Sept 24)",
+        "ship": "Pickup or ship",
+        "returns": "Walmart 90 days; Lowe's unconfirmed",
+        "note": "Beat AAA's own $74.99 shop.",
         "verdict": "ok"
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Costco",
+        "price": "Bridgestone 50-pc $49.99 (Dec 2024)",
+        "ship": "Warehouse",
+        "returns": "Electronics 90 days",
+        "note": "Stock varies.",
         "verdict": "ok"
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "store": "Unknown-brand lithium packs",
+        "price": "Cheap, 'peak amp' claims",
+        "ship": "Varies",
+        "returns": "Uncertain",
+        "note": "CPSC warned of fires, Sept 2026.",
         "verdict": "no"
       }
     ]

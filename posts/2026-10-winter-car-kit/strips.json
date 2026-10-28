@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "winter-car-kit",
-      "title": "A day with the winter car kit — in real life",
+      "card": "gb40",
+      "title": "A dead battery at 6 a.m. in January — in real life",
       "panels": [
         {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "glyph": "warning",
+          "head": "6:00 — click, click",
+          "text": "The cold cut the battery's output. No dome light, no start.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "6:03 — clamps on",
+          "text": "Red to positive, black to bare metal, press power. Most engines start at once, per the maker's manual."
         },
         {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "glyph": "clock",
+          "head": "6:10 — let it run",
+          "text": "Drive to recharge the car battery. Then charge the pack at home."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Next month — top up",
+          "text": "Cold drains a jump pack too. Check its charge every month or two.",
           "host": {
             "pose": "thumbsup"
           }

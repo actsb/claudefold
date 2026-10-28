@@ -603,9 +603,100 @@
       "why": "Cheap enough that waiting saves little; deal posts show frequent coupon prices.",
       "sources": "Slickdeals (Walmart), Aug 28, 2026; Walmart search results, 2026",
       "checked": "2026-10-26"
+    },
+    {
+      "key": "subzero-26",
+      "category": "car",
+      "name": "Hopkins SubZero 26 in snow brush and scraper",
+      "guide": "winter-car-kit",
+      "card": [
+        "posts/2026-10-winter-car-kit",
+        "subzero"
+      ],
+      "model": "SubZero 26 in brush with integrated scraper (the Quick Lock pivoting broom is a related model).",
+      "street": "$27.99 at Tractor Supply for the Quick Lock broom (Bob Vila, Jan 6, 2026); $24.94 at Walmart for a 26 in SubZero (snippet, maker unconfirmed)",
+      "good": "under $25",
+      "great": "about $15",
+      "verdict": "ok",
+      "why": "Cheap and rarely discounted; no sourced Black Friday percent for scrapers, so buy when you need it.",
+      "sources": "Bob Vila best ice scrapers, Jan 2026; Walmart listing snippet, Oct 2026",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "suncast-auto-shovel",
+      "category": "car",
+      "name": "Suncast Telescoping Auto Shovel SCS4506PK",
+      "guide": "winter-car-kit",
+      "card": [
+        "posts/2026-10-winter-car-kit",
+        "shovel"
+      ],
+      "model": "SCS4506PK telescoping car shovel.",
+      "street": "No confirmed US price found; folding car shovels ran about $15–$30 (Harbor Freight utility shovel $14.99, Oct 28, 2026; Walmart Garant about $25, snippet)",
+      "good": "under $25",
+      "great": "about $15",
+      "verdict": "ok",
+      "why": "We could not confirm this model's price; compare with a metal-bladed folding shovel at about $15 at Harbor Freight.",
+      "sources": "Harbor Freight page, Oct 28, 2026; Walmart snippet",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "maxsa-20333",
+      "category": "car",
+      "name": "MAXSA Escaper Buddy traction mats 20333",
+      "guide": "winter-car-kit",
+      "card": [
+        "posts/2026-10-winter-car-kit",
+        "mats"
+      ],
+      "model": "2-pack, 48 in mats, model 20333.",
+      "street": "$129.99 at Home Depot (snippet); $249.99 at Tractor Supply online (snippet)",
+      "good": "under $130",
+      "great": "about $100",
+      "verdict": "wait",
+      "why": "A $120 spread on one SKU means checking the seller; coarse sand at about $8 does most of the job, so skip unless your driveway needs it.",
+      "sources": "Home Depot and Tractor Supply listing snippets, Oct 2026; Sakrete sand $7.98 at Home Depot (NBC Select, Sept 24, 2026)",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "bd-astro-300",
+      "category": "car",
+      "name": "Black Diamond Astro 300 headlamp",
+      "guide": "winter-car-kit",
+      "card": [
+        "posts/2026-10-winter-car-kit",
+        "astro300"
+      ],
+      "model": "Astro 300 (3 AAA), not the rechargeable 300-R.",
+      "street": "No confirmed price found; Black Diamond Spot 400 about $49.95 at REI (snippet); Harbor Freight Braun 500 lumen $12.99 (Oct 28, 2026)",
+      "good": "under $30",
+      "great": "about $20",
+      "verdict": "ok",
+      "why": "Price not confirmed; a $13 Harbor Freight headlamp is a fair budget alternative for one winter job.",
+      "sources": "REI snippet; Harbor Freight page, Oct 28, 2026",
+      "checked": "2026-10-28"
+    },
+    {
+      "key": "wool-blanket",
+      "category": "car",
+      "name": "Wool-blend blanket (Rothco) plus foil emergency blanket",
+      "guide": "winter-car-kit",
+      "card": [
+        "posts/2026-10-winter-car-kit",
+        "warmth"
+      ],
+      "model": "Rothco European surplus style wool blanket; Coleman foil emergency blanket.",
+      "street": "$53.99 at Rothco (snippet); $23.99 on eBay (snippet); Coleman foil blanket $9.12 at Walmart (snippet, undated)",
+      "good": "under $35",
+      "great": "about $25",
+      "verdict": "ok",
+      "why": "Wool is the warmth; foil is a light add-on. Prices are snippets, so check the live page.",
+      "sources": "Rothco, eBay and Walmart snippets, Oct 2026",
+      "checked": "2026-10-28"
     }
   ],
   "changelog": [
+    "2026-10-28 · Added the Hopkins SubZero 26 in, Suncast auto shovel, MAXSA Escaper Buddy, Black Diamond Astro 300 and a wool blanket for the winter car kit roundup; NOCO GB40 entry unchanged (NOCO list $99.95 still matches).",
     "2026-10-26 · Added the Fanttik X8 Apex, Milwaukee M18 inflator, DeWalt DCC020IB and AstroAI L7 for the cordless tire inflator roundup.",
     "2026-10-25 · Re-checked the Bissell Little Green 1400B: Walmart $74.62 on Oct 7, 2026; no announced 2026 Black Friday price.",
     "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",

@@ -254,6 +254,7 @@ POSTS = {
     },
     "winter-car-kit": {
         "dir": "posts/2026-10-winter-car-kit",
+        "url": "https://acts39.blogspot.com/2026/10/winter-car-emergency-kit.html",
         "title": "Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)",
         "slug_title": "Winter Car Emergency Kit",
         "labels": ["Car", "Winter", "Emergency Prep", "Buying Guide", "Amazon Finds"],

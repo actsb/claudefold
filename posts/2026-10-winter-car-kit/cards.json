@@ -1,34 +1,129 @@
 {
   "category": "generic",
-  "buy_title": "The exact winter car kit to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "If you buy one thing for your winter trunk, buy this",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from other US retailers and review sites, with dates; the button shows today's price.",
   "cards": [
     {
-      "id": "winter-car-kit",
+      "id": "gb40",
       "category": "generic",
-      "name": "Winter car emergency kit: what to keep in the trunk",
-      "short": "winter car kit",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "NOCO Boost Plus GB40 jump starter (1000 A, lithium)",
+      "short": "NOCO GB40",
+      "badge": "Our first pick · the one item that changes your day",
+      "chip": "1000 A · 2.4 lb · -4°F to 122°F",
       "art": {
         "shape": "tile",
-        "label": "winter car kit"
+        "label": "NOCO GB40"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=winter+car+emergency+kit&tag=verdictpicks-20",
+      "price": "About $100 (a review-site page listed $99.95 against a $124.95 list price, June 2026; not confirmed on noco.com)",
+      "buy_if": "you drive a gas car, crossover or V6 SUV and want to start it yourself when the battery dies in the cold, without waiting for another car.",
+      "skip_if": "you drive a big V8 truck or a diesel: The Drive (February 2025) rates it to 6.0L gas and 3.0L diesel, and forum owners of larger engines lean on the heavier Clore Jump-N-Carry JNC660.",
+      "owners": "Forum owners (Tahoe Yukon Forum, 2020) report a GB40 kept in a console that worked; a Garage Journal thread (September 2023) tells of one that swelled after a jump and others that lost capacity. Both agree: charge it on arrival and keep it in the cabin.",
+      "cta": "https://www.amazon.com/s?k=noco+boost+plus+gb40&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The NOCO Boost Plus GB40 (1000 A). Charge it fully the day it arrives, then top it up every month or two.",
+        "check": "Buy from noco.com or a big-box store so the 1-year limited warranty and returns are clean, and check the listing says NOCO GB40, not an unbranded 'peak amp' look-alike. The US Consumer Product Safety Commission warned about another brand of lithium jump starters in September 2026 after 16 fire reports.",
         "label": "See today's price"
       }
+    },
+    {
+      "id": "subzero",
+      "category": "generic",
+      "name": "Hopkins SubZero 26 in snow brush and ice scraper",
+      "short": "SubZero 26 in",
+      "badge": "Essential · cheapest fix on the list",
+      "chip": "26 in · brush + scraper",
+      "art": {
+        "shape": "tile",
+        "label": "SubZero 26 in"
+      },
+      "price": "About $25–$28 (SubZero Quick Lock broom, $27.99 at Tractor Supply per Bob Vila, January 2026; a Walmart listing of a 26 in SubZero showed $24.94, snippet, undated)",
+      "buy_if": "you park outside. Family Handyman named a SubZero 26 in combo its top pick in a Minnesota test (updated November 2024).",
+      "skip_if": "you drive a tall SUV or truck and need 48 in or more of reach; owners say large brooms with a foam grip can spin loose in the cold.",
+      "owners": "A S2000 forum owner says a Hopkins SubZero lasted fifteen winters before snapping; buyers at other stores report shedding bristles and cracked scrapers on cheap telescoping models.",
+      "cta": "https://www.amazon.com/s?k=hopkins+subzero+26+snow+brush+ice+scraper&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the SubZero 26 in"
+    },
+    {
+      "id": "shovel",
+      "category": "generic",
+      "name": "Suncast Telescoping Auto Shovel (SCS4506PK)",
+      "short": "Suncast auto shovel",
+      "badge": "The folding shovel · check the lock",
+      "chip": "telescoping · plastic · light",
+      "art": {
+        "shape": "tile",
+        "label": "Suncast auto shovel"
+      },
+      "price": "We found no confirmed US price for this model; folding car shovels ran about $15–$30 (Harbor Freight utility shovel $14.99, October 28, 2026; a Walmart Garant car shovel about $25, snippet)",
+      "buy_if": "you need to dig out a tire or clear the tailpipe, not clear a driveway. Every official list names a shovel; Consumer Reports says a collapsible one will do.",
+      "skip_if": "you want a tool that survives hard ice: owners say the failures are plastic joints, lock sleeves and single-screw heads, not the blade. Buy a metal blade if you can.",
+      "owners": "A Home Depot reviewer says the blade flew off within seconds because one screw holds the thin head; another says it works about as well as a metal shovel (snippets, undated). Walmart reviewers of folding shovels most often complain about the lock.",
+      "cta": "https://www.amazon.com/s?k=suncast+telescoping+auto+shovel&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Suncast shovel"
+    },
+    {
+      "id": "mats",
+      "category": "generic",
+      "name": "MAXSA Escaper Buddy traction mats (2-pack, 20333)",
+      "short": "MAXSA Escaper Buddy",
+      "badge": "Optional · for icy driveways and hills",
+      "chip": "48 in · 2 mats · reusable",
+      "art": {
+        "shape": "tile",
+        "label": "MAXSA Escaper Buddy"
+      },
+      "price": "About $130–$250 for the same 2-pack (Home Depot $129.99, snippet; Tractor Supply $249.99 online, snippet). Check the model number and seller before you pay.",
+      "buy_if": "you park on a sloped driveway or in an unplowed lot and want a reusable aid that works under a front tire.",
+      "skip_if": "you stay on plowed roads: coarse sand in a small bag costs about $8 and does most of the job. Skip mats for a heavy truck, or in deep powder, where owners say they shoot out from under the tire.",
+      "owners": "Reports we read (Home Depot reviewer, undated snippet) include a mat that shot out from under the tire; critics of the brand note a 90-day warranty. The Drive (2023) and AutoGuide (2022) named it but did not test in snow.",
+      "cta": "https://www.amazon.com/s?k=maxsa+escaper+buddy+20333+traction+mats&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the MAXSA mats"
+    },
+    {
+      "id": "astro300",
+      "category": "generic",
+      "name": "Black Diamond Astro 300 headlamp (AAA)",
+      "short": "Astro 300",
+      "badge": "Keep in the cabin · uses cold-proof batteries",
+      "chip": "300 lumens · 3 AAA",
+      "art": {
+        "shape": "tile",
+        "label": "Astro 300"
+      },
+      "price": "We found no confirmed price for the Astro 300; Black Diamond's Spot 400 was about $50 at REI and Harbor Freight's Braun 500-lumen headlamp $12.99 (October 28, 2026)",
+      "buy_if": "you may change a tire or dig in the dark. Two free hands matter more than lumens.",
+      "skip_if": "you want a rechargeable: owners report a few durability complaints on the Astro 300-R, and lithium cells fade in the cold. A $13 budget headlamp is fine for a once-a-winter job.",
+      "owners": "REI shoppers rate the Astro 300 highly (retailer snapshot, undated). ToolGuyd explains that alkaline AAAs sag in the cold and Energizer Ultimate Lithium AAAs are rated to -40°F.",
+      "cta": "https://www.amazon.com/s?k=black+diamond+astro+300+headlamp&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Astro 300"
+    },
+    {
+      "id": "warmth",
+      "category": "generic",
+      "name": "Wool blanket plus a SOL Escape Lite bivy",
+      "short": "wool blanket + bivy",
+      "badge": "Warmth · wool does the work",
+      "chip": "wool + wind layer",
+      "art": {
+        "shape": "tile",
+        "label": "wool blanket + bivy"
+      },
+      "price": "About $25–$55 for a wool-blend blanket (Rothco wool blankets, $23.99 on eBay to $53.99 at Rothco's own store, snippets); a foil emergency blanket about $9 (Coleman at Walmart, snippet)",
+      "buy_if": "you want to stay warm for hours in a stopped car. Field & Stream and Outdoor Life both say wool keeps warming and a foil sheet is for weight and price.",
+      "skip_if": "you plan to rely on foil alone: Trailspace and REI reviewers describe condensation and a cold, heat-sink feel, and survival writers say it tears.",
+      "owners": "Blade Forums posters carry both: a space blanket as a ground cloth or wind layer, and wool for warmth. REI shoppers like the SOL bivy but some say it is not truly water resistant.",
+      "cta": "https://www.amazon.com/s?k=wool+blanket+emergency+car&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check wool blankets"
     }
   ]
 }
