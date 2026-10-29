@@ -68,3 +68,42 @@
 - **수정 (profhlab의 "제휴 링크 0건" 원칙 반영):**
   - 3장 3번(profhlab에 아마존 링크 넣기)은 하지 않습니다. 제휴 링크가 없는 설명 사이트라는 점이 profhlab의 신뢰 자산입니다. 구매 의도는 Verdict Picks로 넘깁니다.
   - 3장 4번(브랜드 제휴를 profhlab으로 신청)도 바꿉니다. 링크가 실제로 들어가는 곳은 Verdict Picks이므로 Verdict Picks를 사이트로 신청합니다. 신청서의 저자 소개에는 Prof. H 경력과 profhlab About 링크를 씁니다. 자기 도메인을 쓰면 더 유리합니다.
+
+## 7. 상생 수익 구조 (2026-10-29)
+
+### 7.1 역할 나누기
+| | Prof H Lab (profhlab.com) | Verdict Picks |
+|---|---|---|
+| 역할 | 설명·데이터 연구소: AI 도구, AI 일자리, AI 끄기, 홈 로봇의 원리 | 구매 결정: 무엇을 언제 얼마에 살지 |
+| 원칙 | 글에 제휴 링크 0건 (신뢰 자산, 유지) | 제휴 링크와 공개 문구 |
+| 수익 | 광고(애드센스 → Mediavine Journey), 뉴스레터 광고, 채용·연구실 모집 유료 노출, Prof. H의 책·강의 | 아마존, 브랜드 직영(Impact), 다른 매장(Sovrn), 광고 |
+| 독자 흐름 | 구매하려는 독자 → Verdict Picks | 원리가 궁금한 독자 → Prof H Lab |
+| 공유 | 저자 Prof. H, 애드센스 계정 하나, beehiiv 뉴스레터 하나, 핀터레스트 계정 하나, 서치콘솔 계정 하나 | |
+
+### 7.2 연결 다리: "AI 끄기" 연재 → "AI 없는 제품 고르기"
+- profhlab Beginners 14편 중 10편이 "AI 끄는 법"입니다. 이 독자의 다음 질문은 "AI 없는 걸 사려면 뭘 사야 하나"이고, 이것은 구매 결정입니다.
+- Verdict Picks 대기열에 Prof. H의 전문 분야이기도 한 두 편을 넣었습니다.
+  - **11/11 Robot Vacuums Without a Camera 2026**: 카메라 대신 LiDAR만 쓰는 로봇청소기.
+  - **11/23 TVs With the Fewest AI Features 2026**: 블랙프라이데이 직전, TV별 AI·시청 데이터 기능과 끄는 곳.
+- 발행 후 profhlab의 해당 "AI 끄기" 글(삼성 TV 등)에 "바꿀 제품을 찾는다면" 한 줄 링크를 넣습니다.
+- 이후 후보: 스마트 스피커(Alexa+, Gemini), 전자책 단말기(Kindle의 AI), 스마트 디스플레이.
+
+### 7.3 사이트별 수익원과 시점
+| 수익원 | 조건 | 시점 |
+|---|---|---|
+| 애드센스 (두 사이트 공통) | **한 사람당 계정 하나**. profhlab이 쓰는 pub-2877545320607107에 블로거 수익 탭으로 Verdict Picks를 연결합니다. 새 계정 신청은 금지 | Verdict Picks: 아래 블로거 보강 A·B를 마친 뒤 (11월 중) |
+| Mediavine Journey | 월 1,000세션 (2026년 1월부터). profhlab은 자기 도메인 워드프레스라 형식상 유리 | 트래픽 도달 시 |
+| beehiiv 광고 네트워크 | 활성 구독자 1,000명 이상 (beehiiv 공식 블로그). Boosts는 2026-04-10에 일부 종료 | 구독자 1,000명 |
+| 채용·연구실 모집 유료 노출 | 기본 게재는 무료로 두고, "Featured" 상단 노출을 유료로. 시장가: AI 전문 게시판 $49~$99(30일), 학회 게시판 $250~$325(공급자 자료, 확인 필요). 결제 수단(Stripe 등)과 사업자 처리가 필요 | 게시판 방문이 생긴 뒤 |
+| 브랜드 직영 제휴 (Impact) | Verdict Picks로 신청하고 저자 소개에 Prof. H 경력 기재 | 맞춤 도메인 결정 뒤 |
+| Prof. H 책·강의 | AI 입문서·교재 저자. profhlab "AI for Beginners" 독자가 1차 고객 | 운영자님 결정 |
+
+### 7.4 profhlab 세션에 붙여 넣을 지시문
+```
+Prof H Lab과 Verdict Picks(acts39.blogspot.com)의 상생 계획(github actsb/claudefold의 daily/profhlab-link-plan-2026-10-29.md 7장)에 따라:
+1. profhlab 글에는 계속 제휴 링크를 넣지 않는다.
+2. Verdict Picks가 "Robot Vacuums Without a Camera 2026"(11/11 예정), "TVs With the Fewest AI Features 2026"(11/23 예정)을 발행하면, 관련 "AI 끄기" 글(삼성 TV, 로봇청소기 관련 글)의 결론 근처에 한 문장으로 링크한다. 문구 예: "If you would rather buy one with less AI, our sister blog compares the options in <제목>. Its product links are Amazon affiliate links; this page has none." 글마다 1개, 사이트 전체 링크 목록은 만들지 않는다.
+3. 발행 속도를 하루 약 2편에서 주 3~4편으로 줄이고, 남는 날은 기존 글 개선(날짜·숫자 갱신, 중복 정리)에 쓴다. 새 사이트의 대량 발행은 구글의 대량 생성 콘텐츠 판단 위험이 크다.
+4. beehiiv 뉴스레터에 주 1회 짧은 "Gear verdict" 칸(Verdict Picks의 Recall Check 새 리콜 1건, Price Check 판정 변경 1건, 링크는 Verdict Picks 페이지로, 아마존 링크는 넣지 않음)을 시험하고, 구독 해지율을 기록한다.
+5. Jobs Board와 Labs Recruiting에 유료 "Featured" 노출을 도입할지 검토만 하고(결제·세금 처리 포함), 결정은 운영자에게 묻는다.
+```

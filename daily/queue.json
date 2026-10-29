@@ -813,9 +813,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "robot-vacuums-no-camera",
+      "slug": "robot-vacuums-without-a-camera",
+      "date": "2026-11-11",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Robot vacuums without a camera",
+      "short": "no-camera robot vacuums",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "no-camera robot vacuums"
+      },
+      "search": "robot vacuum lidar no camera",
+      "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
+      "slug_title": "Robot Vacuums Without a Camera 2026",
+      "labels": [
+        "Robot Vacuums",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Buying Guide",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
+      "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores",
+      "cluster": "cleaning",
+      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+    },
+    {
       "key": "bidet-attachment-vs-seat",
       "slug": "bidet-attachment-vs-bidet-seat",
-      "date": "2026-11-11",
+      "date": "2026-11-13",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -845,7 +875,7 @@
     {
       "key": "enzyme-cleaner-vs",
       "slug": "natures-miracle-vs-rocco-roxie-vs-angry-orange",
-      "date": "2026-11-13",
+      "date": "2026-11-16",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -875,7 +905,7 @@
     {
       "key": "black-friday-vs-cyber-monday",
       "slug": "black-friday-vs-cyber-monday-2026-which-day",
-      "date": "2026-11-16",
+      "date": "2026-11-18",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -905,7 +935,7 @@
     {
       "key": "fake-deal-check",
       "slug": "how-to-tell-if-a-black-friday-deal-is-real",
-      "date": "2026-11-18",
+      "date": "2026-11-20",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -933,9 +963,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "tvs-fewest-ai",
+      "slug": "tvs-with-the-fewest-ai-features",
+      "date": "2026-11-23",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "TVs with the fewest AI features",
+      "short": "TVs with less AI",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "TVs with less AI"
+      },
+      "search": "TV with Google TV privacy settings",
+      "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and the Settings That Turn Them Off",
+      "slug_title": "TVs With the Fewest AI Features 2026",
+      "labels": [
+        "TVs",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Black Friday",
+        "Amazon Finds"
+      ],
+      "hook": "Black Friday is the biggest TV week; Prof H Lab's how-to-turn-off-AI-on-a-Samsung-TV readers ask which TV to buy instead; ACR (viewing data) and voice assistants are documented in each maker's privacy notices",
+      "picks": "for each platform (Tizen, webOS, Google TV, Roku, Fire TV): the AI and data features (ACR, voice assistant, AI picture/sound), which can be switched off and where (maker support pages, dated), one 55-inch model per brand at a good Black Friday price line, and the option of a dumb display plus a streaming stick. Stores: Best Buy, Walmart, Target, Costco, maker stores",
+      "cluster": "tech",
+      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+    },
+    {
       "key": "kitchenaid-mixers",
       "slug": "kitchenaid-classic-vs-artisan-vs-artisan-mini",
-      "date": "2026-11-20",
+      "date": "2026-11-25",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -965,7 +1025,7 @@
     {
       "key": "ninja-creami-models",
       "slug": "ninja-creami-vs-deluxe-vs-swirl",
-      "date": "2026-11-23",
+      "date": "2026-11-27",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -995,7 +1055,7 @@
     {
       "key": "litter-box-3-year-cost",
       "slug": "litter-robot-4-vs-petkit-puramax-2-cost",
-      "date": "2026-11-25",
+      "date": "2026-11-30",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1025,7 +1085,7 @@
     {
       "key": "car-battery-costco-walmart",
       "slug": "car-battery-costco-vs-walmart-vs-sams-club",
-      "date": "2026-11-27",
+      "date": "2026-12-02",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1055,7 +1115,7 @@
     {
       "key": "store-brand-vs-name-brand",
       "slug": "store-brand-vs-name-brand-cleaning",
-      "date": "2026-11-30",
+      "date": "2026-12-04",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1085,7 +1145,7 @@
     {
       "key": "robot-mop-types",
       "slug": "roller-mop-vs-spinning-mop-pads-robot-vacuum",
-      "date": "2026-12-02",
+      "date": "2026-12-07",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1115,7 +1175,7 @@
     {
       "key": "dog-gps-tracker-cost",
       "slug": "fi-vs-tractive-vs-halo-vs-airtag-dog-cost",
-      "date": "2026-12-04",
+      "date": "2026-12-09",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1145,7 +1205,7 @@
     {
       "key": "kettle-that-lasts",
       "slug": "electric-kettle-that-lasts",
-      "date": "2026-12-07",
+      "date": "2026-12-11",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1175,7 +1235,7 @@
     {
       "key": "pillow-cost-per-year",
       "slug": "when-to-replace-pillows-cost-per-year",
-      "date": "2026-12-09",
+      "date": "2026-12-14",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1205,7 +1265,7 @@
     {
       "key": "cleaning-reset",
       "slug": "cleaning-reset",
-      "date": "2026-12-11",
+      "date": "2026-12-16",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1233,7 +1293,7 @@
     {
       "key": "shower-filter-hard-water",
       "slug": "do-shower-filters-work-hard-water",
-      "date": "2026-12-14",
+      "date": "2026-12-18",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1263,7 +1323,7 @@
     {
       "key": "shower-caulk-mold",
       "slug": "mold-in-shower-caulk-remove-or-recaulk",
-      "date": "2026-12-16",
+      "date": "2026-12-21",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1293,7 +1353,7 @@
     {
       "key": "dehumidifier-that-lasts",
       "slug": "dehumidifier-that-lasts",
-      "date": "2026-12-18",
+      "date": "2026-12-23",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
