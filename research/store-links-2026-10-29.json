@@ -1,0 +1,677 @@
+[
+  {
+    "key": "thermopop-2",
+    "stores": [
+      {
+        "name": "ThermoWorks",
+        "url": "https://www.thermoworks.com/products/thermopop-2",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$39 list at ThermoWorks, Oct 2026"
+      }
+    ],
+    "notes": "$39 list is the 4.5 in probe (TX-3120); the 8 in version (TX-3130) lists at $49. Page showed $31.20 sale on all colours. ThermoWorks sells mainly direct; the Walmart ThermoPop 2 listing found is a third-party seller, so it is left out."
+  },
+  {
+    "key": "instant-pot-duo-6",
+    "stores": [
+      {
+        "name": "Instant Pot",
+        "url": "https://instantpot.com/products/instant-pot-duo-6qt-multi-use-pressure-cooker",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$109.99 list at Instant Pot, Oct 2026"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Instant-Pot-DUO60-V4-6-Quart-Duo-Electric-Pressure-Cooker-Slow-Cooker/45918917",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Maker page SKU is 112-0170-01. Walmart listing names IP-DUO60 (slug says V4); seller not checked (Walmart blocks fetches). Home Depot 112-0170-01 page now 404, Target A-50608360 404, Best Buy says no longer available new."
+  },
+  {
+    "key": "ninja-af101",
+    "stores": [
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/NINJA-Basket-Electric-Air-Fryer-4-qt-Black-And-Gray-Digital-Temperature-Controls-to-Dehydrate-Roast-and-Reheat-AF101/307348719",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/ninja-air-fryer-black-gray/JXJVXGK9G5",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "No maker link: ninjakitchen.com blocks fetches (403) and search found only AF101 support/manual pages and parts, not a current AF101 product page. Walmart also lists AF101 (ip/516008834) but was not added."
+  },
+  {
+    "key": "kitchenaid-artisan",
+    "stores": [
+      {
+        "name": "KitchenAid",
+        "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.ksm150ps.KSM150PSWH.html",
+        "kind": "maker",
+        "verified": "search result URL names model (direct fetch blocked by the site, 403)"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/KitchenAid-Artisan-Series-5-Quart-Tilt-Head-Stand-Mixer-White-KSM150PS/15173450",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Both links are the White colour (KSM150PSWH) so prices compare like for like; other colours have their own URLs. kitchenaid.com returned Access Denied to fetch, so no list price recorded."
+  },
+  {
+    "key": "rubbermaid-brilliance",
+    "stores": [
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/rubbermaid-10pc-brilliance-leak-proof-food-storage-containers-with-airtight-lids/-/A-51097873",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Rubbermaid-Brilliance-Leak-Proof-Food-Storage-Containers-10-Piece-Set/54297078",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Both are the 10-piece (5 containers + 5 lids) plastic set that the Rubbermaid guide covers; container sizes in the set differ between listings, so check the piece list. rubbermaid.com blocks fetches (403 bot challenge); no maker store page confirmed."
+  },
+  {
+    "key": "owala-freesip-24",
+    "stores": [
+      {
+        "name": "Owala",
+        "url": "https://owalalife.com/products/freesip",
+        "kind": "maker",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/owala-freesip-24oz-stainless-steel-water-bottle-alpine-sport/-/A-86722059",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Owala-FreeSip-Stainless-Steel-Water-Bottle-24oz-Black/785624932",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Owala page covers all FreeSip sizes and opens on 32 oz ($39.99 shown); pick 24 oz Stainless Steel. The 24 oz price was not captured, so no 'seen'. Target link is colour Alpine Sport, Walmart is Very Very Black; Walmart seller not checked."
+  },
+  {
+    "key": "bissell-little-green",
+    "stores": [
+      {
+        "name": "BISSELL",
+        "url": "https://www.bissell.com/en-us/product/little-green-portable-carpet-upholstery-cleaner-1400B.html",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$129.99 list at BISSELL, Oct 2026"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Bissell-Multi-Purpose-Portable-Carpet-and-Upholstery-Cleaner-1400B-Green/436861322",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "BISSELL shows $129.99 with no original/strike price (price-check has $123.59 list; update). Target's 'Little Green Portable Carpet Cleaner, Blue' did not name 1400B, and Costco's is the MultiClean, so both are left out."
+  },
+  {
+    "key": "ocedar-easywring",
+    "stores": [
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/o-cedar-easywring-spin-mop-and-bucket-system/-/A-50335649",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/O-Cedar-EasyWring-Spin-Mop-Bucket-System/44187544",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Both are the single EasyWring system (mop, bucket, one head), not the RinseClean 2-tank or refill bundles. ocedar.com blocks fetches (Access Denied); no maker store page confirmed. Costco sells a 2-head + scrubber bundle (different set)."
+  },
+  {
+    "key": "roborock-saros-10r",
+    "stores": [
+      {
+        "name": "Roborock",
+        "url": "https://us.roborock.com/products/roborock-saros-10r",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$1,599.99 list at Roborock, Oct 2026"
+      }
+    ],
+    "notes": "Roborock US store shows it SOLD OUT (unavailable) at $1,099.99 against $1,599.99 list. No US retailer page for the 10R was found; Best Buy, Home Depot and Lowe's results are the Saros 10 (different robot)."
+  },
+  {
+    "key": "dreame-x50-ultra",
+    "stores": [
+      {
+        "name": "Dreame",
+        "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$1,599.99 list at Dreame, Oct 2026"
+      }
+    ],
+    "notes": "Page has two versions: X50 Ultra ($1,599.99 list, $999.99 shown) and X50 Ultra Complete ($1,699.99 list). Best Buy carries only the 'Complete' and 'C Kit' bundles, and the Walmart listings look like marketplace sellers, so no retailer added."
+  },
+  {
+    "key": "levoit-core-300p",
+    "stores": [
+      {
+        "name": "Levoit",
+        "url": "https://levoit.com/products/core300-p-air-purifier",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$99.99 list at Levoit, Oct 2026"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/LEVOIT-Core-300-P-Coverage-220-sq-ft-Activated-Carbon-Filter-Large-Room-Air-Purifer-in-White-EAPAPLVNUS0132Y/317951088",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/levoit-core-300-p-air-purifier-white/J3Y7X9S5S4",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "$99.99 list is the White unit (shown at $84.99); the Black variant showed $104.99 against a $99.99 compare-at, which looks like a data error. Retailers use different SKU codes (EAPAPLVNUS0132Y at Home Depot, HEAPAPLVNUS0036 at Best Buy) for the same Core 300-P."
+  },
+  {
+    "key": "bedsure-throw-50x60",
+    "stores": [],
+    "notes": "Not linked: Bedsure's store (bedsurehome.com) sells several Throw-size (50x60) heated blankets with an 8-hour auto-off (Plaid Flannel, Ribbed, HeatX, Bubble Faux Fur), while its Solid Flannel throw has a 3-hour auto-off. Which one matches our pick is not clear, and Walmart's 'U by Bedsure' line may be a different build. Needs the exact model number (and the CPSC recall check) first."
+  },
+  {
+    "key": "beckham-pillows",
+    "stores": [
+      {
+        "name": "Beckham Hotel Collection",
+        "url": "https://beckhamhotelcollection.com/products/original-down-alternative-pillow-set",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$89.99 list at Beckham Hotel Collection, Oct 2026"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Beckham-Hotel-Collection-Bed-Pillows-Standard-Queen-Size-Set-2-Original-Alternative-Pillow-Sleeping-Bedding-Back-Stomach-Side-Sleepers/17379866839",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "$89.99 list is the Standard/Queen set of 2 (shown at $69.99); King is $119.99 list. Walmart's Beckham listings are probably marketplace sellers (could not check), and one Walmart review says non-Beckham pillows were shipped on another listing."
+  },
+  {
+    "key": "dreo-heater-1500",
+    "stores": [
+      {
+        "name": "Dreo",
+        "url": "https://www.dreo.com/products/dreo-atom-one-space-heater",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$49.99 list at Dreo, Oct 2026"
+      }
+    ],
+    "notes": "Matched to the Heater Atom One (DR-HSH004: 1500W PTC, 70 deg oscillation, thermostat, remote) from the research note and the $49.99 dreo.com price. The price-check model line does not give a model number; confirm the Amazon pick is DR-HSH004. No compare-at price on the page; Black colour showed out of stock. No retailer page for Atom One found (Target/Walmart/Home Depot list other Dreo models)."
+  },
+  {
+    "key": "noco-gb40",
+    "stores": [
+      {
+        "name": "NOCO",
+        "url": "https://no.co/gb40",
+        "kind": "maker",
+        "verified": "search result URL names model (direct fetch blocked by the site, 403)"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/noco-boost-gb40-1000a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-6-0l-gas-3-0l-diesel/J7GRLJ2QJ7",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "no.co returns a bot challenge (403), so the $99.95 maker price was not seen on the page and is not recorded."
+  },
+  {
+    "key": "redtiger-f7np",
+    "stores": [
+      {
+        "name": "REDTIGER",
+        "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$129.99 list at REDTIGER, Oct 2026"
+      }
+    ],
+    "notes": "$129.99 list is the 'F7NP (without SD card)' option (shown at $109.99). The 128GB-card option shows $169.99 against a $149.98 compare-at price, so that 'list' is not meaningful. Store also has a sold-out refurbished F7NP page and a second duplicate F7NP page. Walmart and Best Buy listings are older F7NP bundles (32GB/64GB cards, 'F7NP-EX'), so none added."
+  },
+  {
+    "key": "chomchom-roller",
+    "stores": [
+      {
+        "name": "PetSmart",
+        "url": "https://www.petsmart.com/cat/grooming-supplies/brushes-combs-and-blowdryers/angry-orange-chomchom-roller-pet-hair-remover-92837.html",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Chewy",
+        "url": "https://www.chewy.com/chomchom-roller-pet-hair-remover/dp/3998782",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "No maker store: ChomChom points buyers to its Amazon store. PetSmart now titles it 'Angry Orange ChomChom Roller' (the brand's current owner). Chewy's is the Black colourway. Avoid Walmart: several listings there are 2-packs/white versions that reviewers call knockoffs."
+  },
+  {
+    "key": "kong-classic-large",
+    "stores": [
+      {
+        "name": "Chewy",
+        "url": "https://www.chewy.com/kong-classic-dog-toy/dp/38485",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Kong-Classic-Dog-Toy-Large-Red/19629270",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Both name the Large (30-65 lb) red Classic. Chewy rate-limits fetches (429), so it is search-verified only. KONG's own site does not sell direct; PetSmart has a multi-size page (kong-classic-stuffable-treat-dispensing-dog-toy-9814) if a third link is needed."
+  },
+  {
+    "key": "litter-robot-4",
+    "stores": [
+      {
+        "name": "Whisker (Litter-Robot)",
+        "url": "https://www.litter-robot.com/litter-robot-4.html",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$699 list at Litter-Robot, Oct 2026"
+      },
+      {
+        "name": "PetSmart",
+        "url": "https://www.petsmart.com/cat/litter-and-waste-disposal/litter-boxes/litter-robot-4-automatic-self-cleaning-cat-litter-box-by-whisker-80271.html",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Chewy",
+        "url": "https://www.chewy.com/litter-robot-4-automatic-self/dp/617582",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Base unit only; Costco sells LR4 only in bundles. Chewy link is the Black unit and was search-verified (Chewy rate-limits fetches)."
+  },
+  {
+    "key": "luxe-neo-185",
+    "stores": [
+      {
+        "name": "LUXE Bidet",
+        "url": "https://luxebidet.com/products/neo-185",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$49.99 list at LUXE Bidet, Oct 2026"
+      },
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/neo-185-mechanical-bidet-attachment-blue-luxe-bidet/-/A-80202389",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/LUXE-Bidet-NEO-185-Dual-Nozzle-Self-Cleaning-Non-Electric-Attachable-Bidet-System-Bidet-Attachment-for-Toilet-Seat-Rose-Gold-BidetNeo185rg/341822228",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      }
+    ],
+    "notes": "All are the NEO 185, not the 185 Plus. Target link is Blue, Home Depot link is Rose Gold (BidetNeo185rg); LUXE price is the same for all colours."
+  },
+  {
+    "key": "airpods-pro-3",
+    "stores": [
+      {
+        "name": "Apple",
+        "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$249.00 list at Apple, Oct 2026"
+      },
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Target's URL slug is odd ('ap2022-...') but the page title is Apple AirPods Pro 3; Target also has a separate refurbished listing (A-95063377), not used. Walmart has refurbished/open-box/pre-owned AirPods Pro 3 listings too; the linked one is new."
+  },
+  {
+    "key": "airtag-2-4pack",
+    "stores": [
+      {
+        "name": "Apple",
+        "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$99.00 list at Apple, Oct 2026"
+      },
+      {
+        "name": "Target",
+        "url": "https://www.target.com/p/apple-airtag-4-pack-2nd-generation/-/A-85990990",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Apple page names AirTag (2nd generation) 4-pack, MFEA4LL/A. Costco sells a 4-pack plus a bonus single (5 total), a different bundle."
+  },
+  {
+    "key": "sony-wf-1000xm6",
+    "stores": [
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/J7XSRH5W6P",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "No maker link: electronics.sony.com blocks fetches (Access Denied) and search did not return its WF-1000XM6 product URL. Best Buy link is Black; Best Buy also has Platinum Silver (J7XSRH5WRC). Walmart listing found bundles a third-party device-care plan, so it is left out."
+  },
+  {
+    "key": "anker-c1000-gen2",
+    "stores": [
+      {
+        "name": "Anker",
+        "url": "https://www.anker.com/products/c1000-gen2",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$699.99 at Anker (only price shown, no list price struck through), Oct 2026"
+      }
+    ],
+    "notes": "Anker page (SKU A17631A1) shows $699.99 with no crossed-out price, not the $799 list in price-check. Retailers (Home Depot, Best Buy, Lowe's, Costco) sell the 'C1000X Gen 2', a retail variant with a different name/bundles, so none added as an exact match. ankersolix.com/products/c1000-gen2 is a second Anker storefront for the same unit."
+  },
+  {
+    "key": "jackery-2000-v2",
+    "stores": [
+      {
+        "name": "Jackery",
+        "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$999 at Jackery (only price shown, no list price struck through), Oct 2026"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/Jackery-2200W-Rated-4400W-Peak-Portable-Power-Station-Explorer-2000-v2-Push-Button-Start-Battery-Generator-for-Outdoors-and-Home-Explorer-2000-v2/332459572",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      }
+    ],
+    "notes": "Jackery shows the unit alone at $999 with no compare-at price (price-check has $1,499 list). The same page offers bundles (Extreme Kit, with solar panels); pick 'Explorer 2000 v2 Portable Power Station'. Jackery also sells a refurbished 2000 v2 on a separate page. Best Buy's JE-2000D page says no longer available new."
+  },
+  {
+    "key": "furhaven-sofa-large",
+    "stores": [
+      {
+        "name": "Furhaven",
+        "url": "https://furhaven.com/products/shop-pet-beds-sofa-bed-plush-suede",
+        "kind": "maker",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "PetSmart",
+        "url": "https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/furhaven-plush-and-suede-full-support-orthopedic-sofa-pet-bed-for-dogs-and-cats---gray-5361465.html",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Chewy",
+        "url": "https://www.chewy.com/furhaven-plush-suede-full-support/dp/768638",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Linked style is Plush & Suede Full Support. On Furhaven's page choose Size Large and the solid orthopedic ('Full Support') foam; price depends on size and foam, so none recorded. PetSmart page covers sizes (Gray). Chewy link is Almondine, Large. Target's Large listings are sold by 'Furhaven Pet' through Target's marketplace, so they are left out."
+  },
+  {
+    "key": "instant-pot-duo-plus-6",
+    "stores": [
+      {
+        "name": "Instant Pot",
+        "url": "https://instantpot.com/products/instant-pot-duo-plus-6qt-multi-use-pressure-cooker-whisper-quiet",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$139.99 list at Instant Pot, Oct 2026"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/Instant-Pot-6-qt-Duo-Plus-Stainless-Steel-Electric-Pressure-Cooker-with-Whisper-Quiet-Steam-Release-V4-112-0169-01/324263727",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Walmart",
+        "url": "https://www.walmart.com/ip/Instant-Pot-112-0169-01-Duo-Plus-Digital-Pressure-Cooker-Stainless-Steel/1413891263",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "All three name 112-0169-01. Home Depot page text included 'Out of Stock', so check stock. Target's 'Duo Plus with Whisper Quiet' page (A-94612737) does not show a model number in its HTML and may be the 112-2356-01 bundle, so it is left out; Best Buy says no longer available new."
+  },
+  {
+    "key": "thermopop-2-thermometers",
+    "stores": [
+      {
+        "name": "ThermoWorks",
+        "url": "https://www.thermoworks.com/products/thermopop-2",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$39 list at ThermoWorks, Oct 2026"
+      }
+    ],
+    "notes": "Same product and page as 'thermopop-2'. $39 is the 4.5 in probe; 8 in is $49 list."
+  },
+  {
+    "key": "thermapen-one",
+    "stores": [
+      {
+        "name": "ThermoWorks",
+        "url": "https://www.thermoworks.com/products/thermapen-one",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$115 list at ThermoWorks, Oct 2026"
+      }
+    ],
+    "notes": "List is now $115 (price-check says $109). Red and Blue showed $74 (closeout); limited-edition colours $115. ThermoWorks sells it direct; no big-box retailer page found."
+  },
+  {
+    "key": "fanttik-x8-apex",
+    "stores": [
+      {
+        "name": "Fanttik",
+        "url": "https://www.fanttik.com/products/x8-apex-tire-inflator",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$99.99 list at Fanttik, Oct 2026"
+      },
+      {
+        "name": "Lowe's",
+        "url": "https://www.lowes.com/pd/Fanttik-Fanttik-X8-APEX-Tire-Inflator-11-1-volt-5V-3A-Lithium-Ion-li-ion-Air-Inflator-Power-Source-Battery/5015108147",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/fanttik-x8-apex-portable-air-compressor-tire-inflator-with-power-bank-for-mpv-car-e-bike-motorcycle-black/J3R8KP8F4S",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "Maker link is the standard X8 APEX (not Deluxe, not the X8 APEX EV). Best Buy's model code (USAKKRDN1029934) differs from Fanttik's web SKU; a deal-forum comment suggests retail SKUs may be channel versions (unconfirmed). Costco's 'X8 APEX ... with Power Bank' is a Costco SKU and was left out."
+  },
+  {
+    "key": "milwaukee-m18-inflator",
+    "stores": [
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-Electric-Portable-Inflator-Tool-Only-2848-20/320022879",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      }
+    ],
+    "notes": "Milwaukee has no consumer web store. Home Depot page is the tool-only 2848-20. A Walmart 2848-20 listing exists (ip/1294253670) but its seller could not be checked, so it is left out."
+  },
+  {
+    "key": "dewalt-dcc020ib",
+    "stores": [
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/DEWALT-20V-MAX-Cordless-Electric-Portable-Inflator-Tool-Only-DCC020IB/305709688",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Lowe's",
+        "url": "https://www.lowes.com/pd/DEWALT-110-Volt-Lithium-Ion-Li-Ion-Air-Inflator-Power-Source-Battery-Car-Electric/1000632717",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "DeWalt does not sell direct online. Both are the tool-only DCC020IB (Lowe's item 1137907). Lowe's blocks fetches (403)."
+  },
+  {
+    "key": "astroai-l7",
+    "stores": [
+      {
+        "name": "AstroAI",
+        "url": "https://www.astroai.com/l7-tire-inflator/ap/1000347761",
+        "kind": "maker",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/AstroAI-L7-12-Volts-150-PSI-Tire-Inflator-Portable-Air-Compressor-Cordless-Bike-Pump-with-Digital-Dual-Values-Display-ACACL7BK-US/334246585",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      },
+      {
+        "name": "Best Buy",
+        "url": "https://www.bestbuy.com/product/astroai-tire-inflator-l7-portable-air-compressor-150-psi-cordless-bike-pump-with-digital-dual-values-display-car-tires-black/J3GWJHV7G2",
+        "kind": "retailer",
+        "verified": "search result URL names model"
+      }
+    ],
+    "notes": "All are the plain L7 (ACACL7BK-US), not the L7S, L7 Pro, L7 Mini or L7 NANO. The AstroAI page loaded but its prices sit in a multi-model comparison table, so none recorded. Kohl's L7 listing is sold by a third-party seller (HiCOZY), left out."
+  },
+  {
+    "key": "subzero-26",
+    "stores": [],
+    "notes": "Not linked: 'SubZero 26 in brush with integrated scraper' is not a unique model. Hopkins sells several 26 in SubZero brushes (e.g. Power Series 26 in, item 18520), and Lowe's lists a 'Hopkins 26-in Plastic Ice Scraper' without the line name. Needs the Hopkins item number."
+  },
+  {
+    "key": "suncast-auto-shovel",
+    "stores": [
+      {
+        "name": "Suncast",
+        "url": "https://suncast.com/11-telescoping-car-shovel.html",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$14.99 list at Suncast, Oct 2026"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/Suncast-Telescoping-Auto-Shovel-SCS4506PK/302369673",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      }
+    ],
+    "notes": "Suncast's page is titled '11\" Telescoping Car Shovel' with SKU SCS450; it links the SCS4506PK dimensions sheet, so it is the same shovel (SCS4506PK looks like the case-pack SKU). Home Depot's SCS4506PK page loads but showed no online price, so it may be in-store only."
+  },
+  {
+    "key": "maxsa-20333",
+    "stores": [
+      {
+        "name": "MAXSA Innovations",
+        "url": "https://www.maxsainnovations.com/escaper-buddy-traction-mat-set-of-2-pieces/",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$129.95 list at MAXSA Innovations, Oct 2026"
+      },
+      {
+        "name": "The Home Depot",
+        "url": "https://www.homedepot.com/p/MAXSA-Escaper-Buddy-Traction-Mats-Set-of-2-20333/309649258",
+        "kind": "retailer",
+        "verified": "fetched 200, names model"
+      }
+    ],
+    "notes": "Maker page SKU/MPN 20333, set of 2. The product price in the page data is $129.95; the markup also holds a 'Was: $119.95' element that may be hidden, so treat the list figure with care. Home Depot has a separate Olive Drab 20333-OD page (314947054)."
+  },
+  {
+    "key": "bd-astro-300",
+    "stores": [
+      {
+        "name": "Black Diamond",
+        "url": "https://www.blackdiamondequipment.com/products/astro-300-headlamp",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "$24.95 list at Black Diamond, Oct 2026"
+      }
+    ],
+    "notes": "Astro 300 (AAA), not the Astro 300-R (separate page, $44.95). Walmart's Astro 300 listings showed out of stock and their seller could not be checked; none of the listed big-box retailers had a confirmed page."
+  },
+  {
+    "key": "wool-blanket",
+    "stores": [
+      {
+        "name": "Rothco",
+        "url": "https://www.rothco.com/product/rothco-european-surplus-style-blanket",
+        "kind": "maker",
+        "verified": "fetched 200, names model",
+        "seen": "from $54.99 at Rothco (no list/sale split shown), Oct 2026"
+      }
+    ],
+    "notes": "Rothco page is item 10244 (62x80 and 66x90 in); 'from $54.99' only, and the page has dealer links, so confirm it sells direct to consumers before linking it. Some resellers use item 10230 (marked discontinued at some). The Coleman foil emergency blanket half of this entry was not researched."
+  }
+]
