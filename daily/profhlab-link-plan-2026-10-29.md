@@ -107,3 +107,43 @@ Prof H Lab과 Verdict Picks(acts39.blogspot.com)의 상생 계획(github actsb/c
 4. beehiiv 뉴스레터에 주 1회 짧은 "Gear verdict" 칸(Verdict Picks의 Recall Check 새 리콜 1건, Price Check 판정 변경 1건, 링크는 Verdict Picks 페이지로, 아마존 링크는 넣지 않음)을 시험하고, 구독 해지율을 기록한다.
 5. Jobs Board와 Labs Recruiting에 유료 "Featured" 노출을 도입할지 검토만 하고(결제·세금 처리 포함), 결정은 운영자에게 묻는다.
 ```
+
+## 8. 검색 데이터로 다시 짠 연결 (2026-10-29, profhlab 세션의 서치콘솔 데이터)
+
+### 8.1 데이터
+| profhlab 글 (최근 28일) | 노출 / 클릭 |
+|---|---|
+| 로봇청소기 6편 합계 | 82 / 0 |
+| Samsung TV AI 끄기 | 2,061 / 16 |
+| Alexa+ 끄기 | 531 / 3 |
+| Ring 도어벨 | 317 / 1 |
+| Kindle | 117 / 1 |
+
+사람이 몰리는 곳은 기기의 "AI 끄기" 글입니다. Verdict Picks에는 이 기기들의 구매 가이드가 없었습니다.
+
+### 8.2 Verdict Picks 대기열 반영
+- 이전 계획의 "AI 기능이 가장 적은 TV"(11/23)는 아래 11/2 TV 글로 합쳤습니다.
+- 다른 주제는 날짜만 뒤로 밀었습니다.
+
+| 날짜 | 글 | profhlab 연결 글 |
+|---|---|---|
+| 11/2 | Smart TVs With the Least Tracking and AI 2026 | Samsung TV AI 끄기 |
+| 11/6 | Echo vs HomePod vs Nest vs Sonos 2026 (Alexa+ 비용 포함) | Alexa+ 끄기 |
+| 11/11 | Video Doorbells Without a Subscription 2026 | Ring |
+| 11/13 | Kindle vs Paperwhite vs Colorsoft vs Kobo 2026 | Kindle |
+| 11/18 | Pixel vs Galaxy Black Friday AI Bundles 2026 | profhlab 주간 AI 혜택 추적 |
+
+### 8.3 원칙
+- **근거 인용:** Verdict Picks 가이드는 profhlab이 직접 확인한 자료(메뉴 경로, 끌 수 없는 기능, 소송)를 근거로 인용하고 링크합니다.
+- **한 줄씩만:** profhlab의 해당 글에는 가이드 발행 뒤 한 줄씩만 연결합니다.
+- **경고 글에는 연결하지 않음:** 예를 들어 Meta 글래스 녹화 판별 글은 연결하지 않습니다(profhlab 세션의 판단).
+- **Higgsfield 글(9/16)은 교차 링크에서 제외:** profhlab이 다루지 않기로 한 주제입니다.
+
+### 8.4 기대치 바로잡기
+- profhlab ↔ Verdict Picks 링크는 같은 운영자의 사이트끼리 거는 링크라, 구글은 독립적인 "외부 추천"으로 세지 않습니다.
+- 그래도 독자가 실제로 넘어가는 길이고, 구글이 새 글을 더 빨리 발견하는 데 도움이 됩니다.
+- 진짜 외부 링크는 다른 사이트(레딧 답변, 기자, 다른 블로그)가 Recall Check나 profhlab 데이터를 인용할 때 생깁니다.
+
+### 8.5 측정
+- profhlab GA4의 외부 링크 클릭(도메인별)을 profhlab 주간 측정 루틴이 매주 기록합니다.
+- Verdict Picks 쪽은 블로거 통계의 유입 경로에서 profhlab.com을 봅니다.

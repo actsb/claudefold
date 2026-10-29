@@ -693,9 +693,39 @@
       "source": "daily/strategy-2026-10.md section 11 (October 17 retarget)"
     },
     {
+      "key": "smart-tv-privacy",
+      "slug": "smart-tvs-easiest-to-turn-off-tracking-and-ai",
+      "date": "2026-11-02",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Smart TVs where tracking and AI are easiest to turn off",
+      "short": "TVs with less tracking",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "TVs with less tracking"
+      },
+      "search": "55 inch TV",
+      "title": "Smart TVs With the Least Tracking and AI 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Switch Is",
+      "slug_title": "Smart TVs With the Least Tracking and AI 2026",
+      "labels": [
+        "TVs",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Black Friday",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab's how-to-turn-off-AI-on-a-Samsung-TV post drew 2,061 search impressions in 28 days; Black Friday (Nov 27) is the biggest TV week",
+      "picks": "per platform (Tizen, webOS, Google TV, Roku, Fire TV): viewing-data tracking (ACR), voice assistant, AI picture/sound, which switches exist and where (maker support pages and Prof H Lab's menu paths, dated), what cannot be turned off; one 55-inch model per brand with a Black Friday price line; the dumb-display-plus-streaming-stick option. Stores: Walmart, Target, Costco, maker stores (Best Buy link only) Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "cluster": "tech",
+      "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
+    },
+    {
       "key": "heated-blanket-recalls",
       "slug": "heated-blanket-recalls-2026",
-      "date": "2026-11-02",
+      "date": "2026-11-04",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -723,9 +753,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "smart-speakers-alexa-plus",
+      "slug": "smart-speakers-alexa-plus-cost-and-alternatives",
+      "date": "2026-11-06",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Smart speakers and the cost of Alexa+",
+      "short": "smart speakers & Alexa+",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "smart speakers & Alexa+"
+      },
+      "search": "smart speaker",
+      "title": "Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy",
+      "slug_title": "Echo vs HomePod vs Nest vs Sonos 2026",
+      "labels": [
+        "Smart Speakers",
+        "Alexa",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab's turn-off-Alexa+ post: 531 impressions in 28 days; gift season for speakers",
+      "picks": "Echo (with Alexa+ price and what Prime includes, from Amazon's own announcement pages), Apple HomePod mini, Google Nest Audio/Mini (Gemini), Sonos Era 100 (voice off or local voice): voice-recording settings and retention per maker's privacy pages, what works with the assistant off, sound and price lines Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "cluster": "tech",
+      "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
+    },
+    {
       "key": "heating-cost-per-night",
       "slug": "heated-pad-vs-electric-blanket-vs-space-heater-cost",
-      "date": "2026-11-04",
+      "date": "2026-11-09",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -753,159 +813,69 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
-      "key": "spot-cleaner-vs",
-      "slug": "bissell-little-green-vs-hoover-cleanslate-vs-spotclean-pro",
-      "date": "2026-11-06",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro",
-      "short": "spot cleaner showdown",
-      "category": "generic",
-      "art": {
-        "shape": "tile",
-        "label": "spot cleaner showdown"
-      },
-      "search": "Hoover CleanSlate",
-      "title": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro 2026: Which Spot Cleaner for Pet Accidents?",
-      "slug_title": "Little Green vs CleanSlate vs SpotClean Pro 2026",
-      "labels": [
-        "Cleaning",
-        "Carpet Cleaners",
-        "Pets",
-        "Comparison",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "r/CleaningTips: couch and carpet stains are top topics; builds on our Little Green review; floor care is cheapest on Black Friday (Adobe)",
-      "picks": "Little Green, Hoover CleanSlate, SpotClean Pro (and the Little Green Pet Pro variant): tank size, suction, hose tools, formula cost per ounce, parts, warranty, owner complaints from Target/Walmart/Best Buy reviews. Stores: Target, Walmart, Kohl's, bissell.com, hoover.com",
-      "cluster": "cleaning",
-      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
-    },
-    {
-      "key": "dog-food-price-per-pound",
-      "slug": "dog-food-price-per-pound-chewy-walmart-target-costco",
-      "date": "2026-11-09",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Dog food price per pound across stores",
-      "short": "dog food price per pound",
-      "category": "generic",
-      "art": {
-        "shape": "tile",
-        "label": "dog food price per pound"
-      },
-      "search": "Purina Pro Plan large breed",
-      "title": "Chewy vs Walmart vs Target vs Costco 2026: Dog Food Price per Pound (Purina Pro Plan, Blue Buffalo, Kirkland)",
-      "slug_title": "Dog Food Price per Pound 2026",
-      "labels": [
-        "Pets",
-        "Dog Food",
-        "Price Check",
-        "Comparison",
-        "Save Money",
-        "Amazon Finds"
-      ],
-      "hook": "pet products +93% in Cyber Week (Adobe); current results are undated affiliate pages; a monthly refresh gives readers a reason to come back",
-      "picks": "Purina Pro Plan (one formula), Blue Buffalo Life Protection (one formula), Kirkland Signature (Costco): bag sizes, price per pound at Chewy (with and without Autoship), Walmart, Target, Costco, Petco, each dated; Amazon gets a link only, never a price",
-      "cluster": "pets",
-      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
-    },
-    {
-      "key": "robot-vacuums-no-camera",
-      "slug": "robot-vacuums-without-a-camera",
+      "key": "doorbell-no-subscription",
+      "slug": "video-doorbells-without-a-subscription",
       "date": "2026-11-11",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
-      "name": "Robot vacuums without a camera",
-      "short": "no-camera robot vacuums",
+      "name": "Video doorbells without a subscription",
+      "short": "doorbells, no subscription",
       "category": "generic",
       "art": {
         "shape": "tile",
-        "label": "no-camera robot vacuums"
+        "label": "doorbells, no subscription"
       },
-      "search": "robot vacuum lidar no camera",
-      "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
-      "slug_title": "Robot Vacuums Without a Camera 2026",
+      "search": "video doorbell local storage",
+      "title": "Video Doorbells Without a Subscription 2026: Ring vs eufy vs Aqara vs Reolink, and the 3-Year Cost",
+      "slug_title": "Video Doorbells Without a Subscription 2026",
       "labels": [
-        "Robot Vacuums",
-        "Privacy",
+        "Video Doorbells",
         "Smart Home",
+        "Privacy",
+        "Running Cost",
         "Comparison",
-        "Buying Guide",
         "Amazon Finds"
       ],
-      "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
-      "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores",
-      "cluster": "cleaning",
-      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+      "hook": "Prof H Lab's Ring post: 317 impressions in 28 days; subscription prices are public and change, so a dated 3-year table is new",
+      "picks": "Ring (with and without Ring Home plan), eufy (local storage), Aqara G4, Reolink: what works without a plan, local storage, police/video-sharing settings documented by each maker, 3-year total cost table, wired vs battery; check Recall Check for each brand Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "cluster": "tech",
+      "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
     },
     {
-      "key": "bidet-attachment-vs-seat",
-      "slug": "bidet-attachment-vs-bidet-seat",
+      "key": "kindle-models",
+      "slug": "kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
       "date": "2026-11-13",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
-      "name": "Bidet attachment vs bidet seat",
-      "short": "bidet attachment vs seat",
-      "category": "generic",
-      "art": {
-        "shape": "flat",
-        "body": "#F2F2F2",
-        "accent": "#3A7BD5"
-      },
-      "search": "bidet attachment vs bidet seat",
-      "title": "Bidet Attachment vs Bidet Seat 2026: Which One Fits Your Toilet and Budget?",
-      "slug_title": "Bidet Attachment vs Bidet Seat 2026",
-      "labels": [
-        "Bathroom",
-        "Bidets",
-        "Comparison",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "the question every first-time buyer asks; links our best bidet guide",
-      "picks": "one attachment (LUXE NEO 185), one manual seat (KOHLER PureWash M300), one electric seat (TOTO Washlet S2 or SmartBidet SB-1000): fit (round vs elongated), outlet, install, warm water, cost over five years",
-      "cluster": "bathroom",
-      "source": "daily/strategy-2026-10.md section 11 (October 17 retarget)"
-    },
-    {
-      "key": "enzyme-cleaner-vs",
-      "slug": "natures-miracle-vs-rocco-roxie-vs-angry-orange",
-      "date": "2026-11-16",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Nature's Miracle vs Rocco & Roxie vs Angry Orange",
-      "short": "pet stain cleaners",
+      "name": "Kindle models compared (and Kobo)",
+      "short": "Kindle models",
       "category": "generic",
       "art": {
         "shape": "tile",
-        "label": "pet stain cleaners"
+        "label": "Kindle models"
       },
-      "search": "enzyme cleaner pet urine",
-      "title": "Nature's Miracle vs Rocco & Roxie vs Angry Orange 2026: Which Pet Stain Cleaner Is Worth It per Ounce?",
-      "slug_title": "Nature's Miracle vs Rocco & Roxie vs Angry Orange 2026",
+      "search": "Kindle Paperwhite",
+      "title": "Kindle vs Paperwhite vs Colorsoft vs Kobo 2026: Which E-Reader, and What the AI Features Do",
+      "slug_title": "Kindle vs Paperwhite vs Colorsoft vs Kobo 2026",
       "labels": [
-        "Pets",
-        "Cleaning",
+        "E-Readers",
+        "Kindle",
+        "Gift Ideas",
         "Comparison",
-        "Under $25",
-        "Buying Guide",
+        "Black Friday",
         "Amazon Finds"
       ],
-      "hook": "r/CleaningTips: smell and odor are the top topic, pet urine close behind; unit-price math and published ingredients nobody lines up",
-      "picks": "the three plus one store brand: enzyme vs citrus vs oxidizer, published ingredients (SDS / CA SB 258 disclosures), cost per ounce at Chewy, Petco, Walmart, Target, Home Depot, how to use on carpet vs mattress, what fails",
-      "cluster": "pets",
-      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+      "hook": "Prof H Lab's turn-off-AI-on-Kindle post: 117 impressions in 28 days; e-readers are a top gift and Black Friday item",
+      "picks": "basic Kindle, Paperwhite, Colorsoft, Scribe (if research supports) and Kobo Clara/Libra: screen, storage, ads (lockscreen offers) and the cost to remove them, the AI features and whether they can be turned off (Prof H Lab's findings), library borrowing, Price Check lines from non-Amazon stores for Kobo; Amazon devices get Amazon links only Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "cluster": "tech",
+      "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
     },
     {
       "key": "black-friday-vs-cyber-monday",
       "slug": "black-friday-vs-cyber-monday-2026-which-day",
-      "date": "2026-11-18",
+      "date": "2026-11-16",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -931,6 +901,36 @@
       "picks": "by category (robot vacuums, floor care, kitchen appliances, pet supplies, car gear, earbuds): the best day per Adobe with date, the typical percent off at non-Amazon stores, our Price Check good/great lines for 1-2 products each, and what never goes on sale. Stores: Target, Walmart, Best Buy, Kohl's, Costco, maker stores",
       "cluster": "deals",
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+    },
+    {
+      "key": "phone-ai-bundle-deals",
+      "slug": "pixel-galaxy-black-friday-ai-subscription-bundles",
+      "date": "2026-11-18",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Black Friday phones with AI subscriptions included",
+      "short": "phone + AI bundles",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "phone + AI bundles"
+      },
+      "search": "Google Pixel 10",
+      "title": "Pixel vs Galaxy Black Friday 2026: What the Included Google AI Pro Is Really Worth (and When to Skip It)",
+      "slug_title": "Pixel vs Galaxy Black Friday AI Bundles 2026",
+      "labels": [
+        "Phones",
+        "Black Friday",
+        "AI",
+        "Price Check",
+        "Comparison",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab tracks the Pixel and Galaxy AI Pro perks every week; Black Friday phone deals bundle months of AI subscriptions that buyers cannot price",
+      "picks": "Pixel 10/10 Pro and Galaxy S26/Z models: the AI subscription months included (Google, Samsung offer pages, dated, via Prof H Lab's weekly tracker), what that subscription costs alone, the device price lines at Best Buy (link only), Target, Walmart, carrier and maker stores, when the bundle is worth it and when to skip Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "cluster": "tech",
+      "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
     },
     {
       "key": "fake-deal-check",
@@ -963,34 +963,34 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
-      "key": "tvs-fewest-ai",
-      "slug": "tvs-with-the-fewest-ai-features",
+      "key": "spot-cleaner-vs",
+      "slug": "bissell-little-green-vs-hoover-cleanslate-vs-spotclean-pro",
       "date": "2026-11-23",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
-      "name": "TVs with the fewest AI features",
-      "short": "TVs with less AI",
+      "name": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro",
+      "short": "spot cleaner showdown",
       "category": "generic",
       "art": {
         "shape": "tile",
-        "label": "TVs with less AI"
+        "label": "spot cleaner showdown"
       },
-      "search": "TV with Google TV privacy settings",
-      "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and the Settings That Turn Them Off",
-      "slug_title": "TVs With the Fewest AI Features 2026",
+      "search": "Hoover CleanSlate",
+      "title": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro 2026: Which Spot Cleaner for Pet Accidents?",
+      "slug_title": "Little Green vs CleanSlate vs SpotClean Pro 2026",
       "labels": [
-        "TVs",
-        "Privacy",
-        "Smart Home",
+        "Cleaning",
+        "Carpet Cleaners",
+        "Pets",
         "Comparison",
-        "Black Friday",
+        "Buying Guide",
         "Amazon Finds"
       ],
-      "hook": "Black Friday is the biggest TV week; Prof H Lab's how-to-turn-off-AI-on-a-Samsung-TV readers ask which TV to buy instead; ACR (viewing data) and voice assistants are documented in each maker's privacy notices",
-      "picks": "for each platform (Tizen, webOS, Google TV, Roku, Fire TV): the AI and data features (ACR, voice assistant, AI picture/sound), which can be switched off and where (maker support pages, dated), one 55-inch model per brand at a good Black Friday price line, and the option of a dumb display plus a streaming stick. Stores: Best Buy, Walmart, Target, Costco, maker stores",
-      "cluster": "tech",
-      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+      "hook": "r/CleaningTips: couch and carpet stains are top topics; builds on our Little Green review; floor care is cheapest on Black Friday (Adobe)",
+      "picks": "Little Green, Hoover CleanSlate, SpotClean Pro (and the Little Green Pet Pro variant): tank size, suction, hose tools, formula cost per ounce, parts, warranty, owner complaints from Target/Walmart/Best Buy reviews. Stores: Target, Walmart, Kohl's, bissell.com, hoover.com",
+      "cluster": "cleaning",
+      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
       "key": "kitchenaid-mixers",
@@ -1053,9 +1053,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "dog-food-price-per-pound",
+      "slug": "dog-food-price-per-pound-chewy-walmart-target-costco",
+      "date": "2026-11-30",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Dog food price per pound across stores",
+      "short": "dog food price per pound",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "dog food price per pound"
+      },
+      "search": "Purina Pro Plan large breed",
+      "title": "Chewy vs Walmart vs Target vs Costco 2026: Dog Food Price per Pound (Purina Pro Plan, Blue Buffalo, Kirkland)",
+      "slug_title": "Dog Food Price per Pound 2026",
+      "labels": [
+        "Pets",
+        "Dog Food",
+        "Price Check",
+        "Comparison",
+        "Save Money",
+        "Amazon Finds"
+      ],
+      "hook": "pet products +93% in Cyber Week (Adobe); current results are undated affiliate pages; a monthly refresh gives readers a reason to come back",
+      "picks": "Purina Pro Plan (one formula), Blue Buffalo Life Protection (one formula), Kirkland Signature (Costco): bag sizes, price per pound at Chewy (with and without Autoship), Walmart, Target, Costco, Petco, each dated; Amazon gets a link only, never a price",
+      "cluster": "pets",
+      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+    },
+    {
       "key": "litter-box-3-year-cost",
       "slug": "litter-robot-4-vs-petkit-puramax-2-cost",
-      "date": "2026-11-30",
+      "date": "2026-12-02",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1083,9 +1113,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "enzyme-cleaner-vs",
+      "slug": "natures-miracle-vs-rocco-roxie-vs-angry-orange",
+      "date": "2026-12-04",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Nature's Miracle vs Rocco & Roxie vs Angry Orange",
+      "short": "pet stain cleaners",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "pet stain cleaners"
+      },
+      "search": "enzyme cleaner pet urine",
+      "title": "Nature's Miracle vs Rocco & Roxie vs Angry Orange 2026: Which Pet Stain Cleaner Is Worth It per Ounce?",
+      "slug_title": "Nature's Miracle vs Rocco & Roxie vs Angry Orange 2026",
+      "labels": [
+        "Pets",
+        "Cleaning",
+        "Comparison",
+        "Under $25",
+        "Buying Guide",
+        "Amazon Finds"
+      ],
+      "hook": "r/CleaningTips: smell and odor are the top topic, pet urine close behind; unit-price math and published ingredients nobody lines up",
+      "picks": "the three plus one store brand: enzyme vs citrus vs oxidizer, published ingredients (SDS / CA SB 258 disclosures), cost per ounce at Chewy, Petco, Walmart, Target, Home Depot, how to use on carpet vs mattress, what fails",
+      "cluster": "pets",
+      "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+    },
+    {
       "key": "car-battery-costco-walmart",
       "slug": "car-battery-costco-vs-walmart-vs-sams-club",
-      "date": "2026-12-02",
+      "date": "2026-12-07",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1113,9 +1173,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "robot-vacuums-no-camera",
+      "slug": "robot-vacuums-without-a-camera",
+      "date": "2026-12-09",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Robot vacuums without a camera",
+      "short": "no-camera robot vacuums",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "no-camera robot vacuums"
+      },
+      "search": "robot vacuum lidar no camera",
+      "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
+      "slug_title": "Robot Vacuums Without a Camera 2026",
+      "labels": [
+        "Robot Vacuums",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Buying Guide",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
+      "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores",
+      "cluster": "cleaning",
+      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+    },
+    {
       "key": "store-brand-vs-name-brand",
       "slug": "store-brand-vs-name-brand-cleaning",
-      "date": "2026-12-04",
+      "date": "2026-12-11",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1143,9 +1233,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "bidet-attachment-vs-seat",
+      "slug": "bidet-attachment-vs-bidet-seat",
+      "date": "2026-12-14",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Bidet attachment vs bidet seat",
+      "short": "bidet attachment vs seat",
+      "category": "generic",
+      "art": {
+        "shape": "flat",
+        "body": "#F2F2F2",
+        "accent": "#3A7BD5"
+      },
+      "search": "bidet attachment vs bidet seat",
+      "title": "Bidet Attachment vs Bidet Seat 2026: Which One Fits Your Toilet and Budget?",
+      "slug_title": "Bidet Attachment vs Bidet Seat 2026",
+      "labels": [
+        "Bathroom",
+        "Bidets",
+        "Comparison",
+        "Buying Guide",
+        "Amazon Finds"
+      ],
+      "hook": "the question every first-time buyer asks; links our best bidet guide",
+      "picks": "one attachment (LUXE NEO 185), one manual seat (KOHLER PureWash M300), one electric seat (TOTO Washlet S2 or SmartBidet SB-1000): fit (round vs elongated), outlet, install, warm water, cost over five years",
+      "cluster": "bathroom",
+      "source": "daily/strategy-2026-10.md section 11 (October 17 retarget)"
+    },
+    {
       "key": "robot-mop-types",
       "slug": "roller-mop-vs-spinning-mop-pads-robot-vacuum",
-      "date": "2026-12-07",
+      "date": "2026-12-16",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1175,7 +1295,7 @@
     {
       "key": "dog-gps-tracker-cost",
       "slug": "fi-vs-tractive-vs-halo-vs-airtag-dog-cost",
-      "date": "2026-12-09",
+      "date": "2026-12-18",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1205,7 +1325,7 @@
     {
       "key": "kettle-that-lasts",
       "slug": "electric-kettle-that-lasts",
-      "date": "2026-12-11",
+      "date": "2026-12-21",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1235,7 +1355,7 @@
     {
       "key": "pillow-cost-per-year",
       "slug": "when-to-replace-pillows-cost-per-year",
-      "date": "2026-12-14",
+      "date": "2026-12-23",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1265,7 +1385,7 @@
     {
       "key": "cleaning-reset",
       "slug": "cleaning-reset",
-      "date": "2026-12-16",
+      "date": "2026-12-25",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1293,7 +1413,7 @@
     {
       "key": "shower-filter-hard-water",
       "slug": "do-shower-filters-work-hard-water",
-      "date": "2026-12-18",
+      "date": "2026-12-28",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1323,7 +1443,7 @@
     {
       "key": "shower-caulk-mold",
       "slug": "mold-in-shower-caulk-remove-or-recaulk",
-      "date": "2026-12-21",
+      "date": "2026-12-30",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1353,7 +1473,7 @@
     {
       "key": "dehumidifier-that-lasts",
       "slug": "dehumidifier-that-lasts",
-      "date": "2026-12-23",
+      "date": "2027-01-01",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
