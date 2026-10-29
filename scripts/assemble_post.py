@@ -280,6 +280,14 @@ def product_link_card(d, c, *, pill="", highlight="", detail="", label=None, siz
                    cta=esc(label or "See today's price"), paid=is_paid(c),
                    rel=c.get("rel", "nofollow sponsored noopener" if is_paid(c) else "nofollow noopener"), thumb=size)
 
+def other_paid(d):
+    """The extra disclosure sentence once a store in the post's Price Check row pays us (brand/stores.json)."""
+    import price_check, site_index
+    if not price_check.paid_stores():
+        return ""
+    key = next((k for k, P in site_index.publisher_posts().items() if pathlib.Path(P["dir"]).name == d.resolve().name), None)
+    return price_check.OTHER_PAID if key and "(paid link)" in price_check.post_block(key) else ""
+
 def buy_box(d, cards):
     """<!--BUYBOX--> : the exact version to order of every card that carries a `buy` dict
     ({"pick": "which variant/size", "check": "what to confirm on the listing", "tier": "Good", "label": "button text"}), as link
@@ -384,7 +392,7 @@ def main(post_dir):
     easy = easy.replace('<div class="vp-post"', STYLE + '<div class="vp-post"', 1)
     strip = ('<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> '
              '<a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · '
-             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="/p/price-check.html" style="color:#1B2A41;">Price Check</a> · <a href="/p/follow-verdict-picks.html" style="color:#1E8E5A;font-weight:700;">Follow</a></p>\n')
+             '<a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="/p/price-check.html" style="color:#1B2A41;">Price Check</a> · <a href="/p/recall-check.html" style="color:#1B2A41;">Recall Check</a> · <a href="/p/follow-verdict-picks.html" style="color:#1E8E5A;font-weight:700;">Follow</a></p>\n')
     easy = easy.replace('<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">', '<div class="vp-post" style="font-size:19px;line-height:1.6;color:#222;">\n' + strip, 1)
     notice = ('<p class="vp-notice" style="font-size:16px;background:#F7F5F0;border-left:5px solid #1B2A41;padding:10px 14px;margin:0 0 1.2em;">'
               '<strong>Two ways to read this.</strong> In a hurry: the quick guide starts right here — one pick, a 10-second picker, every product in 30 seconds. '
@@ -439,7 +447,7 @@ def main(post_dir):
     parts = sorted(p for p in (d / "src").glob("0[1-9]-*.html"))
     if not parts:
         # short story post: no deep-dive, just close the wrapper
-        out = (easy + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers.{credits(d, cards)} <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
+        out = (easy + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases.{other_paid(d)} Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers.{credits(d, cards)} <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n</div>\n')
         out = with_more_guides(d, teaser_first(label_paid_links(out)))
         (d / "post.src.html").write_text(out, encoding="utf-8")
         print(f"assembled {d/'post.src.html'} ({len(out):,} bytes, {len(cards)} cards, no deep-dive)"); return
@@ -462,7 +470,7 @@ def main(post_dir):
            + '<div class="vp-roadmap" style="border:2px solid #1B2A41;border-radius:12px;padding:14px 20px;background:#F7F5F0;margin:1em 0 1.6em;">\n<strong style="color:#1B2A41;">Reading plan</strong>\n<ol style="margin:8px 0 0;padding-left:22px;">\n' + "\n".join(items) + '\n</ol>\n</div>\n'
            + '<div class="vp-deep" style="border-top:3px solid #1B2A41;margin-top:1.4em;padding-top:1.2em;font-size:0.94em;">\n' + deep + '\n</div>\n'
            + '<p style="margin:1.6em 0 1em;"><a href="#top-pick" style="display:inline-block;background:#1B2A41;color:#fff;text-decoration:none;font-weight:700;padding:10px 16px;border-radius:8px;">↑ Back to the quick guide and the top pick</a></p>\n'
-           + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers.{credits(d, cards)} <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
+           + f'<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases.{other_paid(d)} Prices and availability are those seen at US retailers at the time of writing ({checked_month(d)}), are subject to change, and the price shown on Amazon at checkout is the one that applies. We do not accept products or payment from manufacturers.{credits(d, cards)} <a href="/p/how-we-rank-products.html">How we rank</a> · <a href="/p/affiliate-disclosure.html">Disclosure</a></em></p>\n'
            + '</div>\n')
     out = with_more_guides(d, teaser_first(label_paid_links(out)))
     (d / "post.src.html").write_text(out, encoding="utf-8")

@@ -1,0 +1,148 @@
+{
+  "_about": "Stores other than Amazon that our Price Check links to, matched to a link by its domain; a link to a store not listed here stays a plain link (daily/strategy-2026-10-29.md, section 3). A store's links are plain links until we join its program: set \"wrap\" to the network's deep-link template ({url} is the product page, URL-encoded) or \"auto\": true when an auto-affiliate script (Sovrn Commerce) is installed on the blog; either makes the links paid links (rel sponsored, \"(paid link)\" beside them). \"status\" records where the application stands. Never join Walmart or Target directly (their terms are for US residents and US-based sites); never wrap an Amazon link here.",
+  "stores": {
+    "walmart": {
+      "name": "Walmart",
+      "domains": [
+        "walmart.com"
+      ],
+      "program": "only through Sovrn Commerce or Skimlinks",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "target": {
+      "name": "Target",
+      "domains": [
+        "target.com"
+      ],
+      "program": "only through Sovrn Commerce or Skimlinks",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "bestbuy": {
+      "name": "Best Buy",
+      "domains": [
+        "bestbuy.com"
+      ],
+      "program": "skip (0% baseline, no price display)",
+      "status": "skip",
+      "wrap": "",
+      "auto": false
+    },
+    "homedepot": {
+      "name": "Home Depot",
+      "domains": [
+        "homedepot.com"
+      ],
+      "program": "Impact, later",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "lowes": {
+      "name": "Lowe's",
+      "domains": [
+        "lowes.com"
+      ],
+      "program": "Impact, later",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "chewy": {
+      "name": "Chewy",
+      "domains": [
+        "chewy.com"
+      ],
+      "program": "Impact",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "costco": {
+      "name": "Costco",
+      "domains": [
+        "costco.com"
+      ],
+      "program": "none for products",
+      "status": "skip",
+      "wrap": "",
+      "auto": false
+    },
+    "roborock": {
+      "name": "Roborock store",
+      "domains": [
+        "roborock.com"
+      ],
+      "program": "Impact (4-7%, 35-day cookie)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "dreame": {
+      "name": "Dreame store",
+      "domains": [
+        "dreametech.com",
+        "dreame.tech"
+      ],
+      "program": "Impact (6%+)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "anker": {
+      "name": "Anker store",
+      "domains": [
+        "anker.com"
+      ],
+      "program": "Impact (8%, 30-day cookie)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "soundcore": {
+      "name": "Soundcore store",
+      "domains": [
+        "soundcore.com"
+      ],
+      "program": "Impact (Anker)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "ecoflow": {
+      "name": "EcoFlow store",
+      "domains": [
+        "ecoflow.com"
+      ],
+      "program": "Impact (5%+, 7-day cookie)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "sharkninja": {
+      "name": "SharkNinja store",
+      "domains": [
+        "sharkninja.com",
+        "ninjakitchen.com",
+        "sharkclean.com"
+      ],
+      "program": "Impact (up to 20%)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    },
+    "levoit": {
+      "name": "Levoit store",
+      "domains": [
+        "levoit.com"
+      ],
+      "program": "Impact (up to 10%)",
+      "status": "not applied",
+      "wrap": "",
+      "auto": false
+    }
+  }
+}

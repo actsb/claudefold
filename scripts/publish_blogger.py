@@ -267,6 +267,7 @@ PAGES = [
     ("Privacy & Cookie Policy", "brand/pages/privacy-policy.html"),
     ("Contact Us", "brand/pages/contact.html"),
     ("Follow Verdict Picks", "brand/pages/follow.html"),
+    ("Recall Check", "brand/pages/recall-check.html"),   # generated weekly by scripts/recall_check.py; publish with --page "Recall Check"
     # category hub pages — short titles so they read as nav tabs in the Pages gadget
     ("Robot Vacuums", "brand/pages/hub-robot-vacuums.html"),
     ("Wireless Earbuds", "brand/pages/hub-wireless-earbuds.html"),

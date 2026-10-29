@@ -60,7 +60,8 @@ jobs:
           live = [P["url"] for P in posts.values() if P.get("url")]
           if os.environ["MODE"] == "all":
               urls = [SITE] + live + [SITE + "p/" + p for p in ("best-sellers.html", "robot-vacuums.html", "wireless-earbuds.html",
-                                      "smart-glasses.html", "power-stations.html", "about-verdict-picks.html", "how-we-rank-products.html")]
+                                      "smart-glasses.html", "power-stations.html", "about-verdict-picks.html", "how-we-rank-products.html",
+                                      "price-check.html", "recall-check.html")]
           else:
               q = json.loads(pathlib.Path("daily/queue.json").read_text(encoding="utf-8"))["queue"]
               since = (datetime.date.today() - datetime.timedelta(days=3)).isoformat()

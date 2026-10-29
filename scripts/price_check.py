@@ -8,16 +8,22 @@ price" and compares Amazon's checkout price with the lines.
 
   python3 scripts/price_check.py    # rebuild brand/pages/price-check.html (the "Price Check" page)
 
+An entry may list other places to buy: "stores": [{"name": "ThermoWorks", "url": "https://…", "seen": "$39 list, Oct 2026"}].
+They render as a separate line under the cards, never inside a card with the Amazon button (the Associates IP License lets
+links to other sites sit only in parts of the page not closely associated with Amazon's content). brand/stores.json says
+which stores are paid links (an affiliate deep-link "wrap" or an auto-affiliate script); the rest stay plain links.
+
 assemble_post.py calls post_block() to add the same cards to a post's "Price check" section (before the buy box) when
 the post is rebuilt, so posts gain the section one at a time (improve days), never in one mass republish.
 """
-import datetime, html, json, pathlib, re, sys
+import datetime, html, json, pathlib, re, sys, urllib.parse
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import link_cards as LC
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "brand" / "price-check.json"
+STORES = ROOT / "brand" / "stores.json"
 PAGE = ROOT / "brand" / "pages" / "price-check.html"
 PAGE_URL = "/p/price-check.html"
 VERDICT = {"buy": ("Buy now", LC.PRODUCT), "ok": ("Fair price", LC.GUIDE), "wait": ("Wait for a sale", LC.WARN)}
@@ -57,6 +63,46 @@ def card(e, link_guide=True):
                    attrs=f' id="pc-{esc(e["key"])}"')
 
 
+def store_link(s, registry=None):
+    """One other place to buy: the link (wrapped in the store's affiliate deep link once we have one) and its "seen" note."""
+    registry = registry if registry is not None else json.loads(STORES.read_text(encoding="utf-8"))["stores"]
+    url = s["url"]
+    if "amazon." in urllib.parse.urlsplit(url).netloc:
+        sys.exit(f"price check: an Amazon link in 'stores' ({url}); the Amazon button is the card's own")
+    host = urllib.parse.urlsplit(url).netloc.lower()
+    reg = next((r for r in registry.values() if any(host == d or host.endswith("." + d) for d in r.get("domains", []))), {})
+    paid = bool(reg.get("wrap") or reg.get("auto"))
+    href = reg["wrap"].replace("{url}", urllib.parse.quote(url, safe="")) if reg.get("wrap") else url
+    rel = "nofollow sponsored noopener" if paid else "nofollow noopener"
+    seen = f'<span style="font-weight:400;color:#666;"> · {esc(s["seen"])}</span>' if s.get("seen") else ""
+    return (f'<span style="display:inline-flex;align-items:center;gap:6px;margin:3px 6px 3px 0;">'
+            f'<a href="{esc(href)}" rel="{rel}" target="_blank" style="display:inline-block;padding:5px 12px;border:1.5px solid #1B2A41;'
+            f'border-radius:999px;color:#1B2A41;font-weight:700;font-size:14px;line-height:1.3;text-decoration:none;background:#fff;">{esc(s["name"])}{seen} ↗</a>'
+            + ('<span style="font-size:12px;color:#8A8F98;">(paid link)</span>' if paid else "") + '</span>')
+
+
+def paid_stores():
+    """True once any store in brand/stores.json pays us (a deep-link wrap or an auto-affiliate script)."""
+    return any(r.get("wrap") or r.get("auto") for r in json.loads(STORES.read_text(encoding="utf-8"))["stores"].values())
+
+
+OTHER_PAID = " We also earn from links to other stores marked (paid link); the price you pay is the same."
+
+
+def stores_line(items):
+    """The "Other places to buy" line for a group of entries, or "" when none lists a store."""
+    registry = json.loads(STORES.read_text(encoding="utf-8"))["stores"]
+    rows = [f'<div style="margin:.5em 0 0;"><div style="font-weight:700;color:#1B2A41;margin-bottom:2px;">{esc(e["name"])}</div>'
+            + "".join(store_link(s, registry) for s in e["stores"]) + "</div>"
+            for e in items if e.get("stores")]
+    if not rows:
+        return ""
+    return ('<div class="vp-stores" style="margin:.4em 0 1em;padding:10px 14px;border:1px dashed #C9CFD6;border-radius:12px;background:#FAFAF7;font-size:15px;line-height:1.5;">'
+            '<p style="margin:0 0 .3em;"><strong>Other places to buy</strong> <span style="color:#666;">(the maker\'s own store and other US stores; '
+            'a price seen there is dated and can change)</span></p>'
+            + "".join(rows) + '</div>')
+
+
 HOW = ('<p style="margin:0 0 .5em;"><strong>How to use it:</strong> tap <em>See today\'s price</em>, then compare the price at '
        'checkout with our lines. At or under <strong>Good</strong> is a good buy; at or under <strong>Great</strong> is as low as we have '
        'seen it go at major US stores. The button opens the product on Amazon with today\'s price; the numbers here are prices seen at other '
@@ -71,7 +117,7 @@ def post_block(post_key, data=None):
         return ""
     return ('<div class="vp-pricecheck" id="price-check" style="margin:1.6em 0;">'
             '<h2 style="color:#1B2A41;font-size:1.6em;line-height:1.25;margin:0 0 .4em;">Price check: is today\'s price a good one?</h2>'
-            + HOW + LC.grid([card(e, link_guide=False) for e in items], margin=".6em 0 .6em")
+            + HOW + LC.grid([card(e, link_guide=False) for e in items], margin=".6em 0 .6em") + stores_line(items)
             + f'<p style="font-size:15px;margin:.4em 0 0;"><a href="{PAGE_URL}" style="color:#1B2A41;font-weight:700;">Every price check, by category →</a></p></div>\n')
 
 
@@ -91,16 +137,16 @@ def page(data):
         group = [e for e in items if e["category"] == k]
         if group:
             sections += (f'<h2 id="cat-{k}" style="color:#1B2A41;font-size:1.35em;margin:1.4em 0 .3em;">{esc(title)}</h2>'
-                         + LC.grid([card(e) for e in group], margin=".4em 0 1em") + "\n")
+                         + LC.grid([card(e) for e in group], margin=".4em 0 1em") + stores_line(group) + "\n")
     jump = " · ".join(f'<a href="#cat-{k}" style="color:#1B2A41;">{esc(v)}</a>' for k, v in cats.items() if any(e["category"] == k for e in items))
     log = "".join(f"<li>{esc(x)}</li>" for x in data.get("changelog", [])[:12])
     return f'''<!-- Price Check page: generated by scripts/price_check.py from brand/price-check.json. Edit the JSON, not this file. -->
 <style>
 {LC.CSS}</style>
 <div style="max-width:760px;margin:0 auto;font-size:18px;line-height:1.65;color:#222;">
-<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> <a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · <a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="{PAGE_URL}" style="color:#1E8E5A;font-weight:700;">Price Check</a></p>
+<p class="vp-nav" style="font-size:15px;margin:0 0 .8em;color:#555;"><strong style="color:#1B2A41;">Guides:</strong> <a href="/p/robot-vacuums.html" style="color:#1B2A41;">Robot Vacuums</a> · <a href="/p/wireless-earbuds.html" style="color:#1B2A41;">Wireless Earbuds</a> · <a href="/p/smart-glasses.html" style="color:#1B2A41;">Smart Glasses</a> · <a href="/p/power-stations.html" style="color:#1B2A41;">Power Stations</a> · <a href="/p/best-sellers.html" style="color:#1B2A41;">Best Sellers</a> · <a href="{PAGE_URL}" style="color:#1E8E5A;font-weight:700;">Price Check</a> · <a href="/p/recall-check.html" style="color:#1B2A41;">Recall Check</a></p>
 <p style="font-size:21px;color:#1B2A41;"><strong>Is today's price a good one?</strong> For every product we recommend: the exact model to buy, the price that makes it a good buy, the price that is as low as it goes, and whether to buy now or wait for the next sale.</p>
-<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. The <strong>See today's price</strong> buttons are paid links. Last checked: {day(latest)}.</em></p>
+<p style="font-size:15px;color:#555;"><em>As an Amazon Associate I earn from qualifying purchases. The <strong>See today's price</strong> buttons are paid links.{OTHER_PAID if paid_stores() else ""} Last checked: {day(latest)}.</em></p>
 {HOW}
 <p style="font-size:16px;"><strong>Jump to:</strong> {jump}</p>
 <h2 style="color:#1B2A41;font-size:1.35em;margin:1.2em 0 .3em;">All price lines at a glance</h2>
