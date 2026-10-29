@@ -55,3 +55,16 @@
 1. profhlab About의 Prof. H 경력이 운영자님 본인의 실제 경력인지. 저자 통일(방안 1)이 여기에 달려 있습니다.
 2. profhlab은 어디서, 어떤 방식으로 발행되는지. 이 계정의 자동 작업 목록에는 없습니다.
 3. beehiiv 구독자 수, profhlab 서치콘솔의 색인 수와 최근 3개월 클릭 수. beehiiv는 자동 접속을 막아 구독자 수를 확인하지 못했습니다.
+
+## 6. 진행 기록
+- **2026-10-29 Verdict Picks 쪽:**
+  - 저자를 Prof. H로 통일했습니다(바이라인, Person 스키마, About 페이지).
+  - 로봇청소기 가이드에 profhlab 설명 글 4개를 연결했습니다.
+  - 나머지 글은 개선의 날에 하나씩 바뀝니다.
+- **2026-10-29 profhlab 쪽 (운영자님의 다른 세션):**
+  - robot-vacuum-suction-numbers, robot-vacuum-repair-costs, robot-vacuum-rent-or-buy 글에 Verdict Picks 가이드와 Price Check 링크를 넣었습니다.
+  - 각 문단에 "그쪽 상품 링크는 아마존 제휴 링크이고, 이 페이지에는 없다"고 밝혔습니다.
+  - 실제 페이지에서 확인했습니다.
+- **수정 (profhlab의 "제휴 링크 0건" 원칙 반영):**
+  - 3장 3번(profhlab에 아마존 링크 넣기)은 하지 않습니다. 제휴 링크가 없는 설명 사이트라는 점이 profhlab의 신뢰 자산입니다. 구매 의도는 Verdict Picks로 넘깁니다.
+  - 3장 4번(브랜드 제휴를 profhlab으로 신청)도 바꿉니다. 링크가 실제로 들어가는 곳은 Verdict Picks이므로 Verdict Picks를 사이트로 신청합니다. 신청서의 저자 소개에는 Prof. H 경력과 profhlab About 링크를 씁니다. 자기 도메인을 쓰면 더 유리합니다.
