@@ -7,6 +7,8 @@ Usage: python3 scripts/seo_layer.py posts/<slug> brand/seo-configs.json
 import html as H, json, pathlib, re, sys
 
 H2 = '<h2 style="color:#1B2A41;font-size:1.6em;line-height:1.25;margin:1.4em 0 .5em;">'
+import author
+
 def esc(s): return H.escape(s, quote=False)
 
 def main(post_dir, cfg_path):
@@ -15,7 +17,7 @@ def main(post_dir, cfg_path):
     # 1. byline
     m = re.search(r'<p style="font-size:15px;color:#555;"><em>(Published|Updated) ([A-Z][a-z]+ \d{1,2}, \d{4}) · By Verdict Picks staff ·', t)
     if m:
-        t = t.replace(m.group(0), f'<p style="font-size:15px;color:#555;"><em>Published {m.group(2)} · Updated {cfg["updated"]} · By the <a href="/p/about-verdict-picks.html">Verdict Picks editors</a> (Vera, our host, is an illustrated persona) ·', 1)
+        t = t.replace(m.group(0), f'<p style="font-size:15px;color:#555;"><em>Published {m.group(2)} · Updated {cfg["updated"]} · {author.BYLINE} (Vera, our host, is an illustrated persona) ·', 1)
     else:
         t = re.sub(r'· Updated [A-Z][a-z]+ \d{1,2}, \d{4} ·', f'· Updated {cfg["updated"]} ·', t, count=1)
     # 2. no manual jump break (the assembler adds one after the lead)
@@ -57,7 +59,7 @@ def main(post_dir, cfg_path):
     ld = [{"@context": "https://schema.org", "@type": "ItemList", "name": cfg["list_name"], "url": url,
            "itemListOrder": "https://schema.org/ItemListOrderAscending", "numberOfItems": len(cards),
            "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": f'{c["name"]} — {c.get("badge", "")}'.strip(" —"), "url": f'{url}#card-{c["id"]}'} for i, c in enumerate(cards)]}]
-    # Article: author/publisher as the organisation (no fabricated person), dates from the byline, image = the real cover.jpg URL
+    # Article: author = Prof. H, the real person behind the site (scripts/author.py), publisher = the site, dates from the byline, image = the real cover.jpg URL
     import datetime
     def iso(txt):
         try: return datetime.datetime.strptime(txt, "%B %d, %Y").date().isoformat()
@@ -65,7 +67,7 @@ def main(post_dir, cfg_path):
     pub = re.search(r"Published ([A-Z][a-z]+ \d{1,2}, \d{4})", t); pub = iso(pub.group(1)) if pub else None
     upd = iso(cfg["updated"])
     org = {"@type": "Organization", "name": "Verdict Picks", "url": "https://acts39.blogspot.com/"}
-    art = {"@context": "https://schema.org", "@type": "Article", "headline": cfg["list_name"][:110], "mainEntityOfPage": url, "author": org, "publisher": org}
+    art = {"@context": "https://schema.org", "@type": "Article", "headline": cfg["list_name"][:110], "mainEntityOfPage": url, "author": author.PERSON, "publisher": org}
     if "images/cover.jpg" in t: art["image"] = [f"https://actsb.github.io/claudefold/posts/{d.name}/images/cover.jpg"]
     if pub: art["datePublished"] = pub
     if upd: art["dateModified"] = upd

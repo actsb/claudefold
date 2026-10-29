@@ -402,6 +402,8 @@ def main(post_dir):
     # Blogger jump break after the lead paragraph: index pages show only the lead, and
     # auto-pagination stops hiding posts because of the page size
     easy = re.sub(r'(<p style="font-size:1\.25em;[^"]*">.*?</p>)', r'\1\n<!--more-->', easy, count=1, flags=re.S)
+    import author
+    easy = easy.replace(author.OLD_BYLINE, author.BYLINE)   # one named author (scripts/author.py)
     easy = easy.replace("<!--TOPPICK-->", top_pick(d, cards[0]))
     # the post's price check (brand/price-check.json), just above the buy box, or above the Pinterest box when there is none
     import price_check, site_index
