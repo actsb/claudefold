@@ -11,7 +11,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 | owala | https://acts39.blogspot.com/2026/09/owala-freesip-review-2026.html |  | 2026-10-24 |
 | bissell | https://acts39.blogspot.com/2026/09/bissell-little-green-review-2026.html |  | 2026-10-25 |
 | power-stations | https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html |  | 2026-10-27 |
-| pets | https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html |  | |
+| pets | https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html |  | 2026-10-29 |
 | dogs | https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html |  | |
 | levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | |
 | bedsure-throw | https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html |  | |
@@ -35,6 +35,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-10-29 · pets · replaced the expired Prime Big Deal Days (Oct 6–7) advice with a dated buy-now-or-wait verdict (ChomChom buy now, Neakasa P1 Pro wait for Black Friday Nov 27 / Cyber Monday Nov 30, Litter-Robot 4 wait for November bundles; past ChomChom cuts about 20–50%, BuzzFeed and Krazy Coupon Lady Nov 2024; PetSmart $19.99 Oct 2026), noted the law-firm sensor investigation of the Litter-Robot 4 (no CPSC recall found), linked the Black Friday home and kitchen guide, added a Neakasa P1 Pro Price Check entry ($99.99 sale at neakasa.com), Updated date October 29, 2026.
 * 2026-10-29 · pages · new Recall Check page (CPSC data, 222 recalls in our categories); Price Check gained "Other places to buy" (70 links to maker and US stores in 36 entries) and five corrected maker-store prices; Recall Check added to the hub and Price Check menus; Follow page no longer promises an email date (daily/strategy-2026-10-29.md).
 * 2026-10-27 · power-stations · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the key takeaways, buy-timing section, comparison note, FAQ and schema with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (last year's up-to-65% Jackery and Anker sales, MacRumors Dec 4, 2025; Sept 28, 2026 early-deal headlines; Bob Vila Oct 2026 up to 46%; no 2026 dates announced), removed the stale "hurricane peak this week" line, linked the Black Friday tech and car guide, Updated date October 27, 2026.
 * 2026-10-25 · bissell · replaced the expired Prime Big Deal Days (Oct 6–7) advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (Walmart $74.62 on Oct 7, 2026 and QVC Mini Cordless $71.98 on Oct 1, 2026, both Slickdeals; last year's cut about 31% off, CNN Underscored; Mini $94.99 to $74.99, Bob Vila), removed an Amazon-derived sales estimate, added a 40–60 word answer under a question H2, two guide cards (O-Cedar mop, Black Friday home and kitchen), re-checked the Price Check entry (now buy), Updated date October 25, 2026.

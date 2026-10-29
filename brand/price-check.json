@@ -459,9 +459,9 @@
       "good": "under $20",
       "great": "about $16",
       "verdict": "buy",
-      "why": "20–30% off is common and 40% off is rare; it is already near the usual low.",
-      "sources": "PetSmart, Oct 2026; Walmart, Sept 2026",
-      "checked": "2026-10-17",
+      "why": "20–50% off has been reported at past big sales (BuzzFeed, Nov 2024; Krazy Coupon Lady, Nov 2024); it is already near the usual low, so waiting saves a few dollars.",
+      "sources": "PetSmart, Oct 2026; Walmart, Sept 2026; BuzzFeed and The Krazy Coupon Lady, Nov 2024",
+      "checked": "2026-10-29",
       "stores": [
         {
           "name": "PetSmart",
@@ -498,6 +498,31 @@
         {
           "name": "Walmart",
           "url": "https://www.walmart.com/ip/Kong-Classic-Dog-Toy-Large-Red/19629270"
+        }
+      ]
+    },
+    {
+      "key": "neakasa-p1-pro",
+      "category": "pets",
+      "name": "Neakasa P1 Pro grooming vacuum kit",
+      "guide": "pets",
+      "card": [
+        "posts/2026-09-best-pet-products-on-amazon",
+        "p1pro"
+      ],
+      "model": "Neakasa P1 Pro (5 tools, 1 L cup); the P2 Pro has a 2 L cup and costs more.",
+      "street": "$99.99 sale vs $129.99 regular at neakasa.com (search snippet, Oct 29, 2026); $83–$85 in Aug 2026 (9to5Toys, DealNews)",
+      "good": "under $90",
+      "great": "about $70",
+      "verdict": "wait",
+      "why": "The maker's own store shows $99.99 against $129.99, but Aug 2026 deals reached $83–$85 and the June 2025 low was $69.99; Black Friday (Nov 27) is the next chance.",
+      "sources": "neakasa.com, Oct 2026; 9to5Toys and DealNews, Aug 2026",
+      "checked": "2026-10-29",
+      "stores": [
+        {
+          "name": "Neakasa",
+          "url": "https://neakasa.com/products/neakasa-p1-pro-pet-grooming-vacuum-kits",
+          "seen": "$99.99 sale, $129.99 regular, Oct 2026"
         }
       ]
     },
@@ -1071,6 +1096,7 @@
     }
   ],
   "changelog": [
+    "Oct 29, 2026: pet guide re-checked: ChomChom Roller unchanged (buy); new Neakasa P1 Pro entry (wait: $99.99 sale at the maker's store, $83–$85 reached in Aug 2026); Litter-Robot 4 unchanged at $699 list.",
     "Oct 29, 2026: added other places to buy (maker stores and US stores) to 36 entries; corrected the maker-store prices of Thermapen ONE ($115 list), Bissell Little Green ($129.99), Anker C1000 Gen 2 ($699.99), Jackery 2000 v2 ($999) and noted the Saros 10R sold out at Roborock.",
     "2026-10-28 · Added the Hopkins SubZero 26 in, Suncast auto shovel, MAXSA Escaper Buddy, Black Diamond Astro 300 and a wool blanket for the winter car kit roundup; NOCO GB40 entry unchanged (NOCO list $99.95 still matches).",
     "2026-10-26 · Added the Fanttik X8 Apex, Milwaukee M18 inflator, DeWalt DCC020IB and AstroAI L7 for the cordless tire inflator roundup.",
