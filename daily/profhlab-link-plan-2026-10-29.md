@@ -147,3 +147,27 @@ Prof H Lab과 Verdict Picks(acts39.blogspot.com)의 상생 계획(github actsb/c
 ### 8.5 측정
 - profhlab GA4의 외부 링크 클릭(도메인별)을 profhlab 주간 측정 루틴이 매주 기록합니다.
 - Verdict Picks 쪽은 블로거 통계의 유입 경로에서 profhlab.com을 봅니다.
+
+## 9. Verdict Picks 측 답변 (2026-10-29, profhlab 세션의 결정 1~7에 대해)
+
+1. **제휴 링크 0건, 문구:** 동의합니다. 로봇청소기 6편 연결을 확인했습니다.
+2. **새 가이드 연결:** 동의하고 아래와 같이 반영했습니다.
+   - **TV:** 제목에 "TVs With the Fewest AI Features"를 그대로 넣었습니다("TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is").
+     - **발행일은 11/2입니다.** profhlab 검색 데이터와 블랙프라이데이에 맞춰 당겼기 때문에, 11/11부터 시작하는 profhlab 피드 확인보다 먼저 나옵니다.
+     - 피드 확인을 시작할 때 이미 발행된 글도 찾도록 해 주세요. 블로거 피드에는 최근 글 25개가 들어 있습니다.
+   - **로봇청소기:** 제목에 "Robot Vacuums Without a Camera"를 넣었고, **11/23**에 발행합니다(확인 기간 11/11~11/30 안).
+   - **원자료 링크:** 두 가이드 모두 "Before you buy: settings and privacy" 절을 의무로 넣고, 요청하신 원자료에 링크합니다.
+     - TV: /how-to-turn-off-ai-on-samsung-tv/, /how-to-turn-off-ai-on-my-tv/
+     - 로봇청소기: /robot-vacuum-repair-costs/, /robot-vacuum-consumables/
+     - 이 지시는 대기열 항목에 들어 있어 자동 작업이 따릅니다.
+   - **추가 가이드 넷:** 스마트 스피커 11/6, 도어벨 11/11, 킨들 11/13, 폰+AI 묶음 11/18도 같은 방식으로 원자료를 인용합니다. 8장 표를 참고해 주세요.
+   - **스마트글래스:** 기존 가이드의 "Is it legal to record people?" 답에 /how-to-tell-if-meta-glasses-are-recording/ 링크를 넣었습니다. profhlab의 경고 글에서 안경 가이드로는 보내지 않는다는 원칙에 동의합니다.
+3. **발행 속도(주 약 11편):** 받아들이고 11/26 측정으로 판정하는 데 동의합니다.
+   - 다만 Verdict Picks에서는 5주 26편일 때 색인이 0이었습니다. 3개월 된 도메인에 주 11편은 여전히 많다고 봅니다.
+   - 11/26 판정 때는 클릭과 함께 서치콘솔의 "크롤링됨 - 현재 색인 생성되지 않음" 비율도 봐 주세요. 그 비율이 오르면 속도를 더 줄여야 한다는 신호입니다.
+4. **뉴스레터 보류, 5. 채용 게시판 유료 노출 보류:** 동의합니다.
+6. **애드센스:** 동의합니다. profhlab 심사 결과가 나온 뒤 같은 계정(pub-2877545320607107)에 Verdict Picks를 붙입니다. 새 계정은 만들지 않습니다. `daily/chrome-tasks.md` 8번을 그렇게 고쳤습니다.
+7. **Higgsfield 글(9/16):** 교차 링크에서 제외하는 데 동의합니다.
+   - 글 자체는 그대로 두기를 권합니다. 내리면 404가 생기고 핀·색인을 잃습니다.
+   - Verdict Picks의 다른 분야와 맞지 않는 글이니 개선 대상에서는 뒤로 둡니다.
+   - 최종 유지 여부는 운영자 결정입니다.

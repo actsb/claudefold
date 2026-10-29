@@ -694,7 +694,7 @@
     },
     {
       "key": "smart-tv-privacy",
-      "slug": "smart-tvs-easiest-to-turn-off-tracking-and-ai",
+      "slug": "tvs-with-the-fewest-ai-features",
       "date": "2026-11-02",
       "status": "queued",
       "format": "roundup",
@@ -707,8 +707,8 @@
         "label": "TVs with less tracking"
       },
       "search": "55 inch TV",
-      "title": "Smart TVs With the Least Tracking and AI 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Switch Is",
-      "slug_title": "Smart TVs With the Least Tracking and AI 2026",
+      "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is",
+      "slug_title": "TVs With the Fewest AI Features 2026",
       "labels": [
         "TVs",
         "Privacy",
@@ -718,7 +718,7 @@
         "Amazon Finds"
       ],
       "hook": "Prof H Lab's how-to-turn-off-AI-on-a-Samsung-TV post drew 2,061 search impressions in 28 days; Black Friday (Nov 27) is the biggest TV week",
-      "picks": "per platform (Tizen, webOS, Google TV, Roku, Fire TV): viewing-data tracking (ACR), voice assistant, AI picture/sound, which switches exist and where (maker support pages and Prof H Lab's menu paths, dated), what cannot be turned off; one 55-inch model per brand with a Black Friday price line; the dumb-display-plus-streaming-stick option. Stores: Walmart, Target, Costco, maker stores (Best Buy link only) Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab.",
+      "picks": "per platform (Tizen, webOS, Google TV, Roku, Fire TV): viewing-data tracking (ACR), voice assistant, AI picture/sound, which switches exist and where (maker support pages and Prof H Lab's menu paths, dated), what cannot be turned off; one 55-inch model per brand with a Black Friday price line; the dumb-display-plus-streaming-stick option. Stores: Walmart, Target, Costco, maker stores (Best Buy link only) Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab. Required section 'Before you buy: settings and privacy' linking Prof H Lab's sources https://profhlab.com/how-to-turn-off-ai-on-samsung-tv/ and https://profhlab.com/how-to-turn-off-ai-on-my-tv/ (keep the title phrase 'TVs With the Fewest AI Features': Prof H Lab's feed check looks for it).",
       "cluster": "tech",
       "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8"
     },
@@ -963,9 +963,39 @@
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
     },
     {
+      "key": "robot-vacuums-no-camera",
+      "slug": "robot-vacuums-without-a-camera",
+      "date": "2026-11-23",
+      "status": "queued",
+      "format": "roundup",
+      "model": "posts/2026-10-best-bidet-2026",
+      "name": "Robot vacuums without a camera",
+      "short": "no-camera robot vacuums",
+      "category": "generic",
+      "art": {
+        "shape": "tile",
+        "label": "no-camera robot vacuums"
+      },
+      "search": "robot vacuum lidar no camera",
+      "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
+      "slug_title": "Robot Vacuums Without a Camera 2026",
+      "labels": [
+        "Robot Vacuums",
+        "Privacy",
+        "Smart Home",
+        "Comparison",
+        "Buying Guide",
+        "Amazon Finds"
+      ],
+      "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
+      "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores Required section 'Before you buy: settings and privacy' linking https://profhlab.com/robot-vacuum-repair-costs/ and https://profhlab.com/robot-vacuum-consumables/ (keep the title phrase 'Robot Vacuums Without a Camera': Prof H Lab's feed check looks for it, Nov 11-30).",
+      "cluster": "cleaning",
+      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+    },
+    {
       "key": "spot-cleaner-vs",
       "slug": "bissell-little-green-vs-hoover-cleanslate-vs-spotclean-pro",
-      "date": "2026-11-23",
+      "date": "2026-11-25",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -995,7 +1025,7 @@
     {
       "key": "kitchenaid-mixers",
       "slug": "kitchenaid-classic-vs-artisan-vs-artisan-mini",
-      "date": "2026-11-25",
+      "date": "2026-11-27",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1025,7 +1055,7 @@
     {
       "key": "ninja-creami-models",
       "slug": "ninja-creami-vs-deluxe-vs-swirl",
-      "date": "2026-11-27",
+      "date": "2026-11-30",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1055,7 +1085,7 @@
     {
       "key": "dog-food-price-per-pound",
       "slug": "dog-food-price-per-pound-chewy-walmart-target-costco",
-      "date": "2026-11-30",
+      "date": "2026-12-02",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1085,7 +1115,7 @@
     {
       "key": "litter-box-3-year-cost",
       "slug": "litter-robot-4-vs-petkit-puramax-2-cost",
-      "date": "2026-12-02",
+      "date": "2026-12-04",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1115,7 +1145,7 @@
     {
       "key": "enzyme-cleaner-vs",
       "slug": "natures-miracle-vs-rocco-roxie-vs-angry-orange",
-      "date": "2026-12-04",
+      "date": "2026-12-07",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1145,7 +1175,7 @@
     {
       "key": "car-battery-costco-walmart",
       "slug": "car-battery-costco-vs-walmart-vs-sams-club",
-      "date": "2026-12-07",
+      "date": "2026-12-09",
       "status": "queued",
       "format": "roundup",
       "model": "posts/2026-10-best-bidet-2026",
@@ -1171,36 +1201,6 @@
       "picks": "Interstate (Costco), EverStart (Walmart), Duralast (AutoZone), Sam's Club (Energizer/Duracell): group sizes, CCA, free-replacement period, install and core charge, dated prices; products to link on Amazon: a battery tester and a jump starter (no battery prices from Amazon)",
       "cluster": "car",
       "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
-    },
-    {
-      "key": "robot-vacuums-no-camera",
-      "slug": "robot-vacuums-without-a-camera",
-      "date": "2026-12-09",
-      "status": "queued",
-      "format": "roundup",
-      "model": "posts/2026-10-best-bidet-2026",
-      "name": "Robot vacuums without a camera",
-      "short": "no-camera robot vacuums",
-      "category": "generic",
-      "art": {
-        "shape": "tile",
-        "label": "no-camera robot vacuums"
-      },
-      "search": "robot vacuum lidar no camera",
-      "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
-      "slug_title": "Robot Vacuums Without a Camera 2026",
-      "labels": [
-        "Robot Vacuums",
-        "Privacy",
-        "Smart Home",
-        "Comparison",
-        "Buying Guide",
-        "Amazon Finds"
-      ],
-      "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
-      "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores",
-      "cluster": "cleaning",
-      "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
     },
     {
       "key": "store-brand-vs-name-brand",

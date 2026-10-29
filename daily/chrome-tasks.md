@@ -12,6 +12,17 @@ Blogger's API cannot change settings, layout or a post's search description, and
 
 ---
 
+## 0. Archive and search pages out of Google (now, 2 minutes; added 2026-10-29)
+Blogger's monthly and yearly archive pages (/2026/10/, /2026/) are open to Google with no noindex: thin pages that only repeat post openings.
+blogger.com → **Settings** → **Crawlers and indexing** → turn on **Enable custom robots header tags** →
+- **Home page tags**: `all` only.
+- **Archive and search page tags**: `noindex` (and `noodp` if offered); untick `all`.
+- **Post and page tags**: `all` only.
+→ **Save**. Do not turn on "Enable custom robots.txt".
+
+## 0b. Turn on search descriptions (now, before task 1)
+blogger.com → **Settings** → **Meta tags** → **Enable search description** on. Without it the post editor shows no Search description box.
+
 ## 1. Search descriptions (now)
 For every post in https://github.com/actsb/claudefold/blob/claude/sharp-lovelace-n7vhzq/daily/search-descriptions.md:
 blogger.com → **Posts** → open the post (match the title) → right-hand panel **Post settings → Search description** → paste the text from the list exactly → **Update** (top right). Do not change anything else in the post. Skip a post whose field already holds the same text.
@@ -23,6 +34,7 @@ The blog's own description texts still say the guides distill "thousands of Amaz
 
 ## 2. Navigation shows every trust page (now)
 blogger.com → **Layout** → the **Pages** gadget (top navigation) → **Edit** → tick: About Verdict Picks, How We Rank Products, Affiliate Disclosure, Privacy & Cookie Policy, Contact Us, and the category hubs (Robot Vacuums, Wireless Earbuds, Smart Glasses, Power Stations, Best Sellers) → **Save**.
+Also tick **Price Check** and **Recall Check** (added 2026-10-29).
 
 ## 3. Search Console and sitemaps (now; the Korean step-by-step with the request-indexing order is daily/search-console-bing.md)
 1. https://search.google.com/search-console → property **https://acts39.blogspot.com/** (add it as a URL-prefix property if it is missing; Blogger blogs owned by the same Google account usually verify automatically).
@@ -44,8 +56,8 @@ Only if the owner has a Pinterest business account: Pinterest **Settings → Bul
 ## 7. Amazon disclosure in the footer (now)
 blogger.com → **Layout** → in the footer (or the sidebar) **Add a Gadget** → **Text** → leave the title empty → content: `As an Amazon Associate I earn from qualifying purchases.` → **Save** → **Save arrangement** if shown. Skip if a gadget with this sentence already exists.
 
-## 8. Google AdSense application (ask first; apply between October 26 and November 2, 2026, see daily/strategy-2026-10.md section 3)
-blogger.com → **Earnings** → **Sign up for AdSense** → follow the Google screens with the owner present (name, address and payment details are the owner's to enter, exactly as on their ID, because the PIN letter goes to that address). Do not add the site at adsense.google.com, and do not turn on custom ads.txt.
+## 8. Google AdSense: connect the existing account (ask first; after tasks 0-2, mid-November 2026)
+The owner already has an AdSense account (publisher pub-2877545320607107, used by profhlab.com). AdSense allows one account per person, so **never open a second account**. blogger.com → **Earnings** → connect AdSense with the same Google account that owns that publisher ID (if Blogger offers only "Sign up", stop and ask: the owner may need to add the site at adsense.google.com → Sites instead). Do not turn on custom ads.txt. Name, address, tax and payment screens are the owner's to fill in.
 
 ## 9. Amazon Associates account check (view only; ask before any change)
 https://affiliate-program.amazon.com → **Account Settings** → **Edit Your Website and Mobile App List**: report whether `https://acts39.blogspot.com` and the full Pinterest profile URL are listed. Adding a missing one is a change: ask first. Also report the account's sign-up date (for the 180-day, three-sale deadline) if the home page shows it. Do not open the tax or payment pages; the owner does those.
