@@ -1,26 +1,27 @@
 {
-  "hero": "jump-starter-sizes",
-  "title_size": 66,
+  "hero": "gb40",
+  "title_size": 62,
   "title": [
-    "jump starter sizes:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Jump starter sizes:",
+    "GB40 vs GB50",
+    "vs GB70"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Engine ratings, list prices and warranties,",
+    "compared with GOOLOO's 4,000A claim.",
+    "",
+    "Published data, not our tests."
   ],
   "footer": "Product of the day · NOCO GB40 vs GB50 vs GOOLOO jump starters · Verdict Picks",
-  "alt": "NOCO GB40 vs GB50 vs GOOLOO jump starters: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "alt": "NOCO GB40 vs GB50 vs GB70 vs GOOLOO GP4000: which jump starter size your engine needs (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "GB40 for most four- and six-cylinders",
+    "GB50 for V8s, GB70 for big diesels",
+    "Check the charge every 2-3 months"
   ],
   "url": "https://acts39.blogspot.com/2026/10/noco-gb40-vs-gb50-2026.html",
   "style": "bright",
   "products": [
-    "jump-starter-sizes"
+    "gb40"
   ]
 }

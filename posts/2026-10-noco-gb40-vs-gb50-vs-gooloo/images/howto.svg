@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-label="Jump-start a car in six steps"><rect width="1200" height="540" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Jump-start a car in six steps</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">From the NOCO GB40 guide and the GOOLOO GP4000 manual; check your own pack's manual where it differs</text>
+<rect x="40.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="74.0" cy="146" r="20" fill="#1B2A41"/><text x="74.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+<text x="104.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Read the car manual</text>
+<text x="60.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Some hybrids and EVs have a jump point;</text><text x="60.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">the 12-volt battery is what you jump.</text>
+<rect x="420.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="454.0" cy="146" r="20" fill="#1B2A41"/><text x="454.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+<text x="484.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Red to +, black to metal</text>
+<text x="440.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Red clamp to positive, black to negative</text><text x="440.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">or a bare metal ground.</text>
+<rect x="800.0" y="112" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="834.0" cy="146" r="20" fill="#1B2A41"/><text x="834.0" y="153" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+<text x="864.0" y="152" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Plug in, lights off</text>
+<text x="820.0" y="188" font-size="15" font-weight="400" fill="#333" text-anchor="start">Connect the clamps to the pack, turn off</text><text x="820.0" y="208" font-size="15" font-weight="400" fill="#333" text-anchor="start">lights and radio.</text>
+<rect x="40.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="74.0" cy="340" r="20" fill="#1B2A41"/><text x="74.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+<text x="104.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Check the light</text>
+<text x="60.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Ready light on, no red error light. A red</text><text x="60.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">light means the clamps are reversed.</text>
+<rect x="420.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="454.0" cy="340" r="20" fill="#1B2A41"/><text x="454.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+<text x="484.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Crank briefly</text>
+<text x="440.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Rest 20 to 30 seconds between tries; NOCO</text><text x="440.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">allows five tries in 15 minutes.</text>
+<rect x="800.0" y="306" width="360.0" height="176" rx="16" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="834.0" cy="340" r="20" fill="#1B2A41"/><text x="834.0" y="347" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+<text x="864.0" y="346" font-size="19" font-weight="800" fill="#1B2A41" text-anchor="start">Remove, recharge, test</text>
+<text x="820.0" y="382" font-size="15" font-weight="400" fill="#333" text-anchor="start">Unplug the pack once the engine runs,</text><text x="820.0" y="402" font-size="15" font-weight="400" fill="#333" text-anchor="start">recharge it, and get the car battery</text><text x="820.0" y="422" font-size="15" font-weight="400" fill="#333" text-anchor="start">tested.</text>
+<text x="40" y="518" font-size="13" font-weight="400" fill="#888" text-anchor="start">Sources: NOCO GB40 user guide (2021 copy); GOOLOO GP4000 manual; AAA. The step people skip is the light check.</text>
+</g></svg>

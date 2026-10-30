@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "jump-starter-sizes",
-      "title": "A day with the jump starter sizes — in real life",
+      "card": "gb40",
+      "title": "A first winter with a jump starter — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "October",
+          "text": "Pack goes into a drawer, half charged.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "November check",
+          "text": "A light tap shows two bars. Plug it in for the night."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "January freeze",
+          "text": "Car won't start. Pack spent the night indoors."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Started",
+          "text": "Clamps on, light green, engine runs.",
           "host": {
             "pose": "thumbsup"
           }

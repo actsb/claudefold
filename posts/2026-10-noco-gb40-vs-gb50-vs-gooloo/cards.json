@@ -1,34 +1,91 @@
 {
   "category": "generic",
-  "buy_title": "The exact jump starter sizes to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The size to order, and what to check on the listing",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide are list prices at NOCO's store and other US retailers seen in October 2026; the button shows today's price.",
   "cards": [
     {
-      "id": "jump-starter-sizes",
+      "id": "gb40",
       "category": "generic",
-      "name": "NOCO GB40 vs GB50 vs GOOLOO jump starters",
-      "short": "jump starter sizes",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "NOCO Boost Plus GB40 (1000A)",
+      "short": "NOCO GB40",
+      "badge": "Our first pick · enough for most cars and small SUVs",
+      "chip": "1,000A · 6.0L gas / 3.0L diesel · 1-year warranty",
       "art": {
         "shape": "tile",
-        "label": "jump starter sizes"
+        "label": "NOCO GB40"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=NOCO+GB40+vs+GB50&tag=verdictpicks-20",
+      "price": "About $100 ($99.95 list at NOCO's store; $99.99 at O'Reilly and Bass Pro Shops, search results, October 2026)",
+      "buy_if": "you drive a four- or six-cylinder car, crossover or small SUV, keep it in the glovebox, and want the cheapest NOCO that still has the safety circuitry.",
+      "skip_if": "you drive a V8 truck, any diesel over 3L, or park outside where it gets well below freezing: step up to the GB50 or GB70.",
+      "owners": "The Drive named it Best Overall (updated February 2025); a Garage Journal poster reported a GB40 that could not turn a 4.7L Tundra at about 10°F in 2018, and another reported a swollen battery in 2023.",
+      "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The NOCO Boost Plus GB40 (model GB40, 1,000 amps). The GB50 is the next size up if you drive a V8 or live somewhere cold.",
+        "check": "Sold by NOCO or an authorized seller; the box says GB40 and 1000A; register it at no.co/support the day it arrives to activate the one-year warranty, and keep the receipt.",
         "label": "See today's price"
       }
+    },
+    {
+      "id": "gb50",
+      "category": "generic",
+      "name": "NOCO Boost XL GB50 (1500A)",
+      "short": "NOCO GB50",
+      "badge": "The middle size · V8s and small diesels",
+      "chip": "1,500A · 7.0L gas / 4.5L diesel",
+      "art": {
+        "shape": "tile",
+        "label": "NOCO GB50"
+      },
+      "price": "About $150 ($149.95 list at NOCO's store and at Best Buy, search results, October 2026)",
+      "buy_if": "you have a V8 truck or SUV, a diesel up to 4.5L, or you want margin for cold mornings.",
+      "skip_if": "you drive a compact car: the GB40 does the job for about $50 less. It also has the thinnest store distribution of the three NOCOs we checked.",
+      "owners": "A GB50 owner on Reddit's r/VEDC (May 2024, seen through a mirror) said it started a 4.0L V6 at about 5°F (-15°C) and four other vehicles that day; one anecdote, not a test.",
+      "cta": "https://www.amazon.com/s?k=NOCO+Boost+XL+GB50+1500A+jump+starter&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the GB50 on Amazon"
+    },
+    {
+      "id": "gb70",
+      "category": "generic",
+      "name": "NOCO Boost HD GB70 (2000A)",
+      "short": "NOCO GB70",
+      "badge": "The big one · 8L gas, 6L diesel",
+      "chip": "2,000A · 8.0L gas / 6.0L diesel",
+      "art": {
+        "shape": "tile",
+        "label": "NOCO GB70"
+      },
+      "price": "About $200 ($199.95 list at Home Depot and Walmart, $199.99 at O'Reilly, search results, October 2026)",
+      "buy_if": "you own a heavy-duty diesel pickup or a large V8 and need one pack that can start it cold.",
+      "skip_if": "your engine is under 5L: you are paying twice the GB40's price for headroom you will not use.",
+      "owners": "Home Depot's GB70 page shows roughly 4.7 stars from about 190 owners in a search snapshot (October 2026); one reviewer there reported a battery that swelled after about three years.",
+      "cta": "https://www.amazon.com/s?k=NOCO+Boost+HD+GB70+2000A+jump+starter&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the GB70 on Amazon"
+    },
+    {
+      "id": "gp4000",
+      "category": "generic",
+      "name": "GOOLOO GP4000 (4000A peak)",
+      "short": "GOOLOO GP4000",
+      "badge": "The big number · lower price, thinner evidence",
+      "chip": "4,000A peak · gas / 10L diesel · up to 30 months",
+      "art": {
+        "shape": "tile",
+        "label": "GOOLOO GP4000"
+      },
+      "price": "About $120–$150 (Best Buy marketplace listing $119.99, date unclear; GOOLOO's store bundle with an inflator $149.99, October 2026)",
+      "buy_if": "you want the highest rating on paper for the least money and will buy from GOOLOO's own store or its official Best Buy store.",
+      "skip_if": "you want proven support or independent cold tests: we found few dated owner reports and no swelling reports, which is an absence of evidence, not a clean record.",
+      "owners": "GOOLOO's own site shows owner reviews without dates; reviews on non-US sites we could only see in summaries mention units that stopped holding a charge.",
+      "cta": "https://www.amazon.com/s?k=GOOLOO+GP4000+jump+starter&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the GP4000 on Amazon"
     }
   ]
 }

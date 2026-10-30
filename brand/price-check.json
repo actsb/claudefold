@@ -1093,9 +1093,110 @@
           "seen": "from $54.99, Oct 2026"
         }
       ]
+    },
+    {
+      "key": "noco-gb50",
+      "category": "car",
+      "name": "NOCO Boost XL GB50",
+      "guide": "jump-starter-sizes",
+      "card": [
+        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+        "gb50"
+      ],
+      "model": "GB50, 1500A, gas up to 7.0 liters and diesel up to 4.5 liters.",
+      "street": "List $149.95 at NOCO's store and Best Buy",
+      "good": "under $130",
+      "great": "about $120",
+      "verdict": "ok",
+      "why": "Every store we saw charged the $149.95 list; our lines are 15% and 20% off list, the size of the GB40's usual deal cut. We found no dated GB50 sale history, so there is no reason to wait if you need it this month.",
+      "sources": "NOCO and Best Buy listings in search results, Oct 30, 2026",
+      "checked": "2026-10-30",
+      "stores": [
+        {
+          "name": "NOCO",
+          "url": "https://no.co/gb50",
+          "seen": "$149.95 list, Oct 2026"
+        },
+        {
+          "name": "Best Buy",
+          "url": "https://www.bestbuy.com/product/noco-boost-gb50-1500a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-7-0l-gas-4-5l-diesel/J7GRLJ36GJ",
+          "seen": "$149.95, Oct 2026"
+        },
+        {
+          "name": "Walmart",
+          "url": "https://www.walmart.com/ip/NOCO-Boost-XL-GB50-1500A-12V-UltraSafe-Portable-Lithium-Jump-Starter/871769636",
+          "seen": "$149.95 on one listing, Oct 2026"
+        }
+      ]
+    },
+    {
+      "key": "noco-gb70",
+      "category": "car",
+      "name": "NOCO Boost HD GB70",
+      "guide": "jump-starter-sizes",
+      "card": [
+        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+        "gb70"
+      ],
+      "model": "GB70, 2000A, gas up to 8.0 liters and diesel up to 6.0 liters.",
+      "street": "About $199.95 at Home Depot and Walmart, $199.99 at O'Reilly",
+      "good": "under $170",
+      "great": "about $160",
+      "verdict": "ok",
+      "why": "Three stores showed $199.95 to $199.99 in October 2026; our lines are 15% and 20% off that. Buy it for a big diesel when you need it; there is no sourced sale history to wait for.",
+      "sources": "Home Depot, Walmart and O'Reilly listings in search results, Oct 30, 2026",
+      "checked": "2026-10-30",
+      "stores": [
+        {
+          "name": "The Home Depot",
+          "url": "https://www.homedepot.com/p/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044",
+          "seen": "$199.95, Oct 2026"
+        },
+        {
+          "name": "O'Reilly Auto Parts",
+          "url": "https://www.oreillyauto.com/detail/c/the-noco-company/the-noco-company-2000-amp-jump-starter/noc0/gb70",
+          "seen": "$199.99, Oct 2026"
+        },
+        {
+          "name": "NOCO",
+          "url": "https://no.co/gb70",
+          "seen": "price not confirmed, Oct 2026"
+        }
+      ]
+    },
+    {
+      "key": "gooloo-gp4000",
+      "category": "car",
+      "name": "GOOLOO GP4000",
+      "guide": "jump-starter-sizes",
+      "card": [
+        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+        "gp4000"
+      ],
+      "model": "GP4000, 4000A peak, the base unit (not the Pro, Plus or inflator bundle).",
+      "street": "Best Buy official-store listing $119.99 (date unclear); GOOLOO store bundle with inflator $149.99",
+      "good": "about $120",
+      "great": "$100 or less",
+      "verdict": "wait",
+      "why": "Prices ranged from $119.99 to $149.99 and listings carry crossed-out reference prices that are not real; buy from GOOLOO's own store or Best Buy's official-store listing, and wait for $120 or less on the bare unit.",
+      "sources": "GOOLOO store and Best Buy listing in search results, Oct 2026; 9to5Toys, Aug 6, 2026 (warranty)",
+      "checked": "2026-10-30",
+      "stores": [
+        {
+          "name": "GOOLOO",
+          "url": "https://us.gooloo.com/products/gooloo-gp4000-jump-starter-with-gt160-dual-tire-inflator",
+          "seen": "$149.99 for the GP4000 with inflator, Oct 2026"
+        },
+        {
+          "name": "Best Buy",
+          "url": "https://www.bestbuy.com/product/gooloo-gp4000-4000a-peak-car-jump-starter-portable-12v-lithium-battery-booster-for-all-gas-up-to-10l-diesel-engines/JX59F7XXTX",
+          "seen": "$119.99, date unclear, official-store listing"
+        }
+      ]
     }
   ],
   "changelog": [
+    "Oct 30, 2026: jump starters: new entries for NOCO GB50, GB70 and GOOLOO GP4000 (list prices at NOCO, Best Buy, Home Depot, O'Reilly and Walmart from search results; none confirmed live), and the NOCO GB40 entry is unchanged ($99.95 list, buy).",
     "Oct 29, 2026: pet guide re-checked: ChomChom Roller unchanged (buy); new Neakasa P1 Pro entry (wait: $99.99 sale at the maker's store, $83–$85 reached in Aug 2026); Litter-Robot 4 unchanged at $699 list.",
     "Oct 29, 2026: added other places to buy (maker stores and US stores) to 36 entries; corrected the maker-store prices of Thermapen ONE ($115 list), Bissell Little Green ($129.99), Anker C1000 Gen 2 ($699.99), Jackery 2000 v2 ($999) and noted the Saros 10R sold out at Roborock.",
     "2026-10-28 · Added the Hopkins SubZero 26 in, Suncast auto shovel, MAXSA Escaper Buddy, Black Diamond Astro 300 and a wool blanket for the winter car kit roundup; NOCO GB40 entry unchanged (NOCO list $99.95 still matches).",

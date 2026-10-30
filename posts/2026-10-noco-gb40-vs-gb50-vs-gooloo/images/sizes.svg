@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 490" role="img" aria-label="Which jump starter fits which engine?"><rect width="1200" height="490" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Which jump starter fits which engine?</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Maker engine ratings and list prices, October 2026</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Pack</text>
+<text x="309.4712643678161" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Gas engines</text>
+<text x="502.57471264367814" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Diesel</text>
+<text x="695.6781609195402" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Peak amps</text>
+<text x="914.528735632184" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">List price</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">NOCO GB40</text>
+<text x="309.4712643678161" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 6.0L</text>
+<text x="502.57471264367814" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 3.0L</text>
+<text x="695.6781609195402" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">1,000A</text>
+<text x="914.528735632184" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$99.95</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#C9781B"/><rect x="54" y="254.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">NOCO GB50</text>
+<text x="309.4712643678161" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 7.0L</text>
+<text x="502.57471264367814" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 4.5L</text>
+<text x="695.6781609195402" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">1,500A</text>
+<text x="914.528735632184" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$149.95</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#C9781B"/><rect x="54" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">NOCO GB70</text>
+<text x="309.4712643678161" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 8.0L</text>
+<text x="502.57471264367814" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">up to 6.0L</text>
+<text x="695.6781609195402" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">2,000A</text>
+<text x="914.528735632184" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $199.95</text>
+<rect x="40" y="354" width="1120" height="62" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#C9781B"/><rect x="54" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">GOOLOO GP4000</text>
+<text x="309.4712643678161" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">claims all gas</text>
+<text x="502.57471264367814" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">claims up to 10L</text>
+<text x="695.6781609195402" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">4,000A peak (800A</text><text x="695.6781609195402" y="401" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">cranking)</text>
+<text x="914.528735632184" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$119.99–$149.99</text>
+<text x="40" y="440" font-size="13" font-weight="400" fill="#888" text-anchor="start">NOCO ratings from its published specs as summarized in search results (NOCO's site blocked our reader); GOOLOO from its manual. List prices seen in</text><text x="40" y="457" font-size="13" font-weight="400" fill="#888" text-anchor="start">search results, Oct 2026; the buttons show today's price.</text>
+</g></svg>
