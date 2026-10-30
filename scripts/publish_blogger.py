@@ -259,6 +259,12 @@ POSTS = {
         "slug_title": "Winter Car Emergency Kit",
         "labels": ["Car", "Winter", "Emergency Prep", "Buying Guide", "Amazon Finds"],
     },
+    "jump-starter-sizes": {
+        "dir": "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+        "title": "NOCO GB40 vs GB50 vs GOOLOO 2026: Which Jump Starter Size Does Your Engine Need?",
+        "slug_title": "NOCO GB40 vs GB50 2026",
+        "labels": ["Car", "Jump Starters", "Comparison", "Buying Guide", "Under $150", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
