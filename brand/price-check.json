@@ -26,7 +26,7 @@
       "verdict": "buy",
       "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
       "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
-      "checked": "2026-10-17",
+      "checked": "2026-10-31",
       "stores": [
         {
           "name": "ThermoWorks",
@@ -80,7 +80,7 @@
       "verdict": "wait",
       "why": "Home Depot took 32% off Ninja kitchen appliances on Black Friday 2025, which would put it near $82; a few dollars lower is our buy line.",
       "sources": "Slickdeals price tracker, Apr 1, 2026; NBC Select Black Friday 2025",
-      "checked": "2026-10-17",
+      "checked": "2026-10-31",
       "stores": [
         {
           "name": "The Home Depot",
@@ -108,7 +108,7 @@
       "verdict": "wait",
       "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
       "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
-      "checked": "2026-10-17",
+      "checked": "2026-10-31",
       "stores": [
         {
           "name": "KitchenAid",
@@ -136,7 +136,7 @@
       "verdict": "wait",
       "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
       "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
-      "checked": "2026-10-17",
+      "checked": "2026-10-31",
       "stores": [
         {
           "name": "Target",
@@ -225,7 +225,7 @@
       "verdict": "ok",
       "why": "It rarely moves much below $35; the better saving is a bundle with refill heads, which Costco has sold near $26.",
       "sources": "Slickdeals, Aug 20, 2026; Costco bundle, July 2025",
-      "checked": "2026-10-17",
+      "checked": "2026-10-31",
       "stores": [
         {
           "name": "Target",
@@ -1196,6 +1196,7 @@
     }
   ],
   "changelog": [
+    "Week of Oct 31, 2026: re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan KSM150, Rubbermaid Brilliance 10-piece and O-Cedar EasyWring. No dated October 2026 price or Black Friday 2026 deal turned up for any of them (Black Friday is Nov 27), so lines and verdicts are unchanged: ThermoPop 2 buy, the others wait or ok. Newest figures seen: Target Brilliance $21.99 (Slickdeals, Apr 2, 2026), Walmart EasyWring $34.96 Rollback (Jun 4, 2026), KitchenAid Artisan about $349 at Best Buy and Slickdeals (undated).",
     "Oct 30, 2026: jump starters: new entries for NOCO GB50, GB70 and GOOLOO GP4000 (list prices at NOCO, Best Buy, Home Depot, O'Reilly and Walmart from search results; none confirmed live), and the NOCO GB40 entry is unchanged ($99.95 list, buy).",
     "Oct 29, 2026: pet guide re-checked: ChomChom Roller unchanged (buy); new Neakasa P1 Pro entry (wait: $99.99 sale at the maker's store, $83–$85 reached in Aug 2026); Litter-Robot 4 unchanged at $699 list.",
     "Oct 29, 2026: added other places to buy (maker stores and US stores) to 36 entries; corrected the maker-store prices of Thermapen ONE ($115 list), Bissell Little Green ($129.99), Anker C1000 Gen 2 ($699.99), Jackery 2000 v2 ($999) and noted the Saros 10R sold out at Roborock.",
