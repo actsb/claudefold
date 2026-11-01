@@ -1,5 +1,54 @@
 [
  {
+  "key": "jump-starter-sizes",
+  "title": "NOCO GB40 vs GB50 vs GOOLOO 2026: Which Jump Starter Size Does Your Engine Need?",
+  "url": "https://acts39.blogspot.com/2026/10/noco-gb40-vs-gb50-2026.html",
+  "description": "NOCO GB40 vs GB50 vs GB70 vs GOOLOO GP4000: engine ratings, list prices and warranty, so you buy the right jump starter size for your engine.",
+  "labels": [
+   "Car",
+   "Jump Starters",
+   "Comparison",
+   "Buying Guide",
+   "Under $150",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+  "blurb": "Pick by engine, not by amps: the GB40 for most cars, the GB50 for V8s, the GB70 for big diesels.",
+  "updated": "October 30, 2026"
+ },
+ {
+  "key": "winter-car-kit",
+  "title": "Winter Car Emergency Kit 2026: What to Keep in the Trunk (and What's Overkill)",
+  "url": "https://acts39.blogspot.com/2026/10/winter-car-emergency-kit.html",
+  "description": "Winter car kit guide: what to pack, what is overkill. Official lists, owner reports, dated prices and why a jump starter comes first.",
+  "labels": [
+   "Car",
+   "Winter",
+   "Emergency Prep",
+   "Buying Guide",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-winter-car-kit",
+  "blurb": "For anyone who parks outside: buy the jump starter first, and skip the $130 traction mats if you stay on plowed roads.",
+  "updated": "October 28, 2026"
+ },
+ {
+  "key": "tire-inflator",
+  "title": "Best Portable Tire Inflator 2026: Which Cordless Pump Is Worth It?",
+  "url": "https://acts39.blogspot.com/2026/10/best-portable-tire-inflator-2026.html",
+  "description": "Cordless tire inflators compared: Fanttik X8 Apex vs Milwaukee M18, DeWalt, AstroAI. Fill times, owner reports and the bare-tool battery trap.",
+  "labels": [
+   "Car",
+   "Tools",
+   "Buying Guide",
+   "Under $100",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-10-tire-inflator",
+  "blurb": "No cordless tools? The Fanttik X8 Apex has its battery built in; M18 and DeWalt owners should buy the bare tool.",
+  "updated": "October 26, 2026"
+ },
+ {
   "key": "meat-thermometer",
   "title": "ThermoPop 2 vs Thermapen ONE vs ThermoPro 2026: Which Instant-Read Thermometer Is Worth It?",
   "url": "https://acts39.blogspot.com/2026/10/thermopop-2-vs-thermapen-one-vs.html",
@@ -356,7 +405,7 @@
   ],
   "dir": "posts/2026-09-dog-essentials-on-amazon",
   "blurb": "The no-pull harness, KONG Classic and poop bags worth the money, and how Amazon compares with Chewy, Walmart and Temu.",
-  "updated": "October 5, 2026"
+  "updated": "November 1, 2026"
  },
  {
   "key": "pets",
@@ -421,7 +470,7 @@
    "Amazon Finds"
   ],
   "dir": "posts/2026-09-best-portable-power-stations",
-  "updated": "October 5, 2026"
+  "updated": "October 27, 2026"
  },
  {
   "key": "bissell",
@@ -442,7 +491,7 @@
   ],
   "dir": "posts/2026-09-bissell-little-green",
   "blurb": "What the viral spot cleaner really lifts out of couches, car seats and pet stains, where it falls short, and Mini vs classic.",
-  "updated": "October 5, 2026"
+  "updated": "October 25, 2026"
  },
  {
   "key": "owala",
@@ -463,7 +512,7 @@
   ],
   "dir": "posts/2026-09-owala-freesip",
   "blurb": "Why the sip-or-chug lid wins, which size fits a cup holder, and the two-minute habit that keeps the gasket clean.",
-  "updated": "October 5, 2026"
+  "updated": "October 24, 2026"
  },
  {
   "key": "airtag",
@@ -547,6 +596,6 @@
   ],
   "dir": "posts/2026-09-best-robot-vacuums",
   "blurb": "One pick for every kind of home, from pets and thick carpet to small apartments, plus the first-week setup that prevents most complaints.",
-  "updated": "October 17, 2026"
+  "updated": "October 29, 2026"
  }
 ]
