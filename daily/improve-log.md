@@ -12,7 +12,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 | bissell | https://acts39.blogspot.com/2026/09/bissell-little-green-review-2026.html |  | 2026-10-25 |
 | power-stations | https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html |  | 2026-10-27 |
 | pets | https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html |  | 2026-10-29 |
-| dogs | https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html |  | |
+| dogs | https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html |  | 2026-11-01 |
 | levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | |
 | bedsure-throw | https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html |  | |
 | ocedar-mop | https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html |  | |
@@ -35,6 +35,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-11-01 · dogs · replaced the expired Prime Big Deal Days (Oct 6–7) advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (KONG Large $13 vs $17 list in a past season, Yahoo roundup; Earth Rated bags 25–47% off in Whole Dog Journal's 2025 roundup; no 2026 deals announced; no dated October 2026 harness price found), added links to the Black Friday home and kitchen guide and the Furhaven dog bed review, Updated date November 1, 2026.
 * 2026-10-31 · weekly-refresh · Recall Check re-run (228 recalls in our categories); Price Check re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan, Rubbermaid Brilliance and O-Cedar EasyWring: no dated October 2026 prices or Black Friday 2026 deals found, lines and verdicts unchanged; changelog line added.
 * 2026-10-29 · glasses · Prof. H byline; the recording-legality answer links Prof H Lab's how-to-tell-if-Meta-glasses-are-recording guide (agreed with the Prof H Lab session).
 * 2026-10-29 · robot-vacuums · author is now Prof. H (byline and Person schema, scripts/author.py); four links to Prof H Lab explainers (suction numbers, drain height for plumbed docks, repair costs, renting vs buying) in the glossary and the cost section; Updated date October 29, 2026. About page: who writes Verdict Picks, owner reviews no longer said to come from Amazon, product pictures described as real photos.
