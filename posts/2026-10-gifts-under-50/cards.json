@@ -68,6 +68,18 @@
         "pick": "Owala FreeSip 24 oz, the colour the recipient likes.",
         "check": "Sold by Owala or Amazon; avoid unfamiliar third-party sellers; keep the gift receipt, because Owala's own returns window is 30 days.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/owala-freesip.jpg",
+        "kind": "brand",
+        "credit": "Photo: Dirt Smurf, CC0, Wikimedia Commons (32 oz shown)",
+        "source": "https://commons.wikimedia.org/wiki/File:Owala_Water_Bottle.jpg",
+        "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -78,10 +90,8 @@
       "badge": "The gift for iPhone owners who lose keys",
       "chip": "Precision Finding · louder speaker · replaceable battery",
       "art": {
-        "style": "coin",
-        "pack": 1,
-        "body": "#F7F7F5",
-        "back": "#C9CACB"
+        "shape": "tile",
+        "label": "AirTag 2 (single)"
       },
       "price": "$29 at Apple; $24 at Walmart and Best Buy on October 16, 2026 (iClarified tracker). The 4-pack ($89–$99) is over budget for one gift.",
       "buy_if": "an iPhone owner (iOS 26.2.1 or later) who loses keys, bags or luggage. Macworld (Simon Jary, February 4, 2026) gave it an Editors' Choice. See our AirTag 2 review.",
@@ -124,6 +134,18 @@
         "pick": "KONG Classic, red, sized to the dog's weight.",
         "check": "Sold by KONG, Chewy or Amazon; check the weight range on the box; KONG offers a 60-day satisfaction guarantee through authorised sellers.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/kong-classic.jpg",
+        "kind": "brand",
+        "credit": "Photo: Olgierd, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:KONG_-_the_perfect_toy_for_a_dog_(50751011862).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -134,9 +156,8 @@
       "badge": "Best practical gift for a first home",
       "chip": "foot-pedal wringer · microfiber · washable head",
       "art": {
-        "shape": "cylinder",
-        "body": "#1E8E5A",
-        "accent": "#F08A24"
+        "shape": "tile",
+        "label": "O-Cedar EasyWring"
       },
       "price": "About $35–$40 at Walmart ($34.96 rollback, $39.96 shelf, undated snippets) and $34.99 at Target (August 2025). Costco sold a four-head kit for $25.97 in store on July 20, 2025.",
       "buy_if": "someone moving into a first apartment or a household with hard floors. America's Test Kitchen (Chase Brightwell, June 24, 2025) named it its best mop and bucket set. See our full review.",
@@ -162,9 +183,8 @@
       "badge": "Best gift for the cook who meal-preps",
       "chip": "airtight lids · stackable · clear Tritan",
       "art": {
-        "shape": "box",
-        "body": "#9BD0E8",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Rubbermaid Brilliance"
       },
       "price": "Target: $39.99 on July 5, 2026 and $23.99 on November 20, 2025 (about 40% off), per Slickdeals posts. BJ's was $24.99 plus shipping in July 2026.",
       "buy_if": "someone who packs lunches or batch-cooks. America's Test Kitchen (Valerie Sizhe Li, December 10, 2025) named the 10-piece plastic set a winner for its seal and durability. See our full review.",
@@ -190,8 +210,8 @@
       "badge": "Best stocking stuffer for a pet owner",
       "chip": "no refills · reusable · catches hair on fabric",
       "art": {
-        "body": "#F4F4F1",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "ChomChom Roller"
       },
       "price": "$19.99 at PetSmart (was $24.99; page seen October 2026, date not shown); Walmart snippets showed $13–$20, undated.",
       "buy_if": "a dog or cat owner with a couch, a duvet or small rugs. Whole Dog Journal (Kim Campbell Thornton, December 16, 2025) names it best for small rugs and furniture.",
@@ -217,9 +237,8 @@
       "badge": "The cozy gift · check the label first",
       "chip": "6 heat levels · timer · machine washable",
       "art": {
-        "shape": "bag",
-        "body": "#8A8D91",
-        "accent": "#C8102E"
+        "shape": "tile",
+        "label": "Bedsure heated throw"
       },
       "price": "Heated throws run about $20–$80 at major retailers; Walmart listed the U by Bedsure 50×60 at about $32 on October 1, 2026 (our earlier review). We could not verify a current price.",
       "buy_if": "someone who sits cold at a desk or sofa. Expert Reviews (Jo Plumridge, February 24, 2026) found it heats fast but thin. See our Bedsure review.",

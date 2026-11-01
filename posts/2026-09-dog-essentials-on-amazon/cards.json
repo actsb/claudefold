@@ -11,8 +11,8 @@
       "badge": "Walk · the harness in every dog-park photo",
       "chip": "Front + back clip · reflective · 4 adjusters",
       "art": {
-        "body": "#2F3A48",
-        "accent": "#F08A24"
+        "shape": "tile",
+        "label": "Rabbitgoo No-Pull Harness"
       },
       "price": "under $30 by size and colour · deal days have taken roughly a quarter off",
       "buy_if": "your dog pulls, slips collars, or you want a handle for curbs and vet scales; it is the four-adjuster harness that fits most dogs on the first try.",
@@ -55,6 +55,18 @@
         "pick": "Large for 30–65 lb dogs (Noeul's size). Between sizes, go up, never down; power chewers get the black Extreme.",
         "check": "\"Ships from and sold by Amazon.com\" or the KONG store; red \"Classic\" for normal chewers, black \"Extreme\" for destroyers; the 2-pack is the cheaper per-toy route.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/kong-classic.jpg",
+        "kind": "brand",
+        "credit": "Photo: Olgierd, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:KONG_-_the_perfect_toy_for_a_dog_(50751011862).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -65,9 +77,8 @@
       "badge": "Consumable · three walks a day, 365 days",
       "chip": "Leak-proof · 9 x 13 in · 15 per roll",
       "art": {
-        "body": "#2E8B57",
-        "accent": "#1B2A41",
-        "bag": "#7BC47F"
+        "shape": "tile",
+        "label": "Earth Rated Poop Bags"
       },
       "price": "under $15 for 270 · $14.99 at Chewy (September 2026) · less with Subscribe & Save",
       "buy_if": "you walk a dog: this is the one thing you'll buy every four months for the rest of the dog's life, and the one that must not fail.",

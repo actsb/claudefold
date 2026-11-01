@@ -1,0 +1,760 @@
+[
+ {
+  "product": "Oakley Meta Vanguard",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "vanguard"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Oakley / EssilorLuxottica press image",
+  "source": "https://oakley-media-hub.prezly.com/essilorluxottica-and-meta-build-on-their-successful-partnershipwith-new-ai-glasses-that-offer-a-glimpse-into-the-future",
+  "image_url": "https://cdn.assets.prezly.com/71449d4d-b886-4b15-9ba9-61cf648a8c89/-/preview/-/format/auto/6.%20OAKLEY%20META%20VANGUARD%20BLACK%2024K%20PRIZM.png",
+  "terms": "https://oakley-media-hub.prezly.com/",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Held: no usage terms stated. Oakley's official media hub (Prezly, run by Oakley/EssilorLuxottica) has clean white-background studio shots under 'Download assets': 'OAKLEY META VANGUARD BLACK W/ PRIZM 24K' (linked above, 1638x2048 PNG preview), 'MATTE WHITE W/ PRIZM BLACK', 'MATTE WHITE W/ PRIZM SAPPHIRE' and 'MATTE BLACK W/ PRIZM ROAD', plus a 60 MB ZIP (https://cdn.assets.prezly.com/c58cedd4-ff3f-4b61-9b04-1eff6b482392/-/inline/no/OAKLEY%20META%20VANGUARD%20IMAGES.zip). But neither the release page nor the hub homepage states any usage terms or credit line, and Meta's version of the same launch is editorial/non-commercial only (see tech.json). Not saved to brand/photos. Card names no colour. To clear: email Oakley Global PR (Claire.Barry@luxottica.com, Linda.Andreoli@luxottica.com) or media@essilorluxottica.com and ask for written OK to use the studio shots on a monetized affiliate blog."
+ },
+ {
+  "product": "Owala FreeSip (24 oz)",
+  "cards": [
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "freesip"
+   ],
+   [
+    "posts/2026-09-owala-freesip",
+    "freesip"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/owala-freesip.jpg",
+  "kind": "brand",
+  "credit": "Photo: Dirt Smurf, CC0, Wikimedia Commons (32 oz shown)",
+  "source": "https://commons.wikimedia.org/wiki/File:Owala_Water_Bottle.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Owala_Water_Bottle.jpg",
+  "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "terms_quote": "CC0 1.0 Universal Public Domain Dedication (uploader's own work)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "VARIANT MISMATCH, same model line: the photo shows a 32 oz Owala FreeSip (FreeSip flip-spout lid with carry loop confirmed on close inspection), pink/rose colourway, with an aftermarket silicone bottle boot on the base. The card is the 24 oz FreeSip; the 24 oz looks the same but shorter. Product alone on a table against a plain wall, no people. Taken from Commons' 1920px thumbnail, resized, not cropped. If an exact 24 oz shot is wanted, Owala's press kit is login/email only: pr@trovebrands.com (https://owalalife.com/pages/press-kit)."
+ },
+ {
+  "product": "Owala FreeSip 24 oz insulated bottle",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "owala"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/owala-freesip.jpg",
+  "kind": "brand",
+  "credit": "Photo: Dirt Smurf, CC0, Wikimedia Commons (32 oz shown)",
+  "source": "https://commons.wikimedia.org/wiki/File:Owala_Water_Bottle.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Owala_Water_Bottle.jpg",
+  "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "terms_quote": "CC0 1.0 Universal Public Domain Dedication (uploader's own work)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "VARIANT MISMATCH, same model line: the photo shows a 32 oz Owala FreeSip (FreeSip flip-spout lid with carry loop confirmed on close inspection), pink/rose colourway, with an aftermarket silicone bottle boot on the base. The card is the 24 oz FreeSip; the 24 oz looks the same but shorter. Product alone on a table against a plain wall, no people. Taken from Commons' 1920px thumbnail, resized, not cropped. If an exact 24 oz shot is wanted, Owala's press kit is login/email only: pr@trovebrands.com (https://owalalife.com/pages/press-kit)."
+ },
+ {
+  "product": "Phone tripod with a ball head and remote",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "tripod"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Generic category card (no brand or model; CTA is an Amazon search for 'phone tripod ball head bluetooth remote'). A branded maker photo would misrepresent it, and no single product to source. Options: photograph an own tripod, or pick one model for the card and request its press image."
+ },
+ {
+  "product": "Portable SSD, 1–2 TB (USB-C)",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "ssd"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Generic category card (no brand or model; CTA is an Amazon search for 'portable SSD 2TB USB-C'). A branded maker photo would misrepresent it. Options: photograph an own drive, or pick one model (e.g. a specific Samsung T-series or SanDisk Extreme) for the card and use that maker's press image."
+ },
+ {
+  "product": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+  "cards": [
+   [
+    "posts/2026-10-redtiger-f7np-dash-cam",
+    "redtiger-f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: REDTIGER F7NP 4K front + rear dash cam (STARVIS 2 sensor, 3.18-inch IPS screen, GPS, Wi-Fi). Card names no colour/bundle. Pass 3: rechecked worldwide; no F7NP release on PR Newswire/PRNAsia (REDTIGER's newswire releases cover F17, F4, F77, F7NA), no press kit (redtigercam.com /pages/press and /pages/media 404), nothing on Wikimedia Commons or Flickr CC. No PR email found; contact via redtigercam.com support, or photograph the unit."
+ },
+ {
+  "product": "REDTIGER F7NP 4K dash cam (front and rear)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: REDTIGER F7NP 4K front + rear dash cam (STARVIS 2 sensor, 3.18-inch IPS screen, GPS, Wi-Fi). Card names no colour/bundle. Pass 3: rechecked worldwide; no F7NP release on PR Newswire/PRNAsia (REDTIGER's newswire releases cover F17, F4, F77, F7NA), no press kit (redtigercam.com /pages/press and /pages/media 404), nothing on Wikimedia Commons or Flickr CC. No PR email found; contact via redtigercam.com support, or photograph the unit."
+ },
+ {
+  "product": "REDTIGER F7NP dash cam",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "redtiger-f7np"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: REDTIGER F7NP 4K front + rear dash cam (STARVIS 2 sensor, 3.18-inch IPS screen, GPS, Wi-Fi). Card names no colour/bundle. Pass 3: rechecked worldwide; no F7NP release on PR Newswire/PRNAsia (REDTIGER's newswire releases cover F17, F4, F77, F7NA), no press kit (redtigercam.com /pages/press and /pages/media 404), nothing on Wikimedia Commons or Flickr CC. No PR email found; contact via redtigercam.com support, or photograph the unit."
+ },
+ {
+  "product": "Rabbitgoo No-Pull Dog Harness",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "harness"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: rabbitgoo No-Pull Dog Harness (adjustable, two leash clips, front and back). Card names no colour/size. rabbitgoo.com/pages/press has press coverage and a press-inquiry email only, no images or kit. Nothing on Wikimedia Commons or Flickr CC (searched 'Rabbitgoo'). Ask via the press-inquiry email on https://rabbitgoo.com/pages/press, or photograph it."
+ },
+ {
+  "product": "Ray-Ban Meta (Gen 1)",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "gen1"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/meta-ray-ban-meta-gen-1.jpg",
+  "kind": "brand",
+  "credit": "Photo: CCadio, CC BY 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Ray-Ban_Meta_Gen_1_smart_glasses_with_charging_case.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Ray-Ban_Meta_Gen_1_smart_glasses_with_charging_case.jpg",
+  "terms": "https://creativecommons.org/licenses/by/4.0/",
+  "terms_quote": "Creative Commons Attribution 4.0 International (CC BY 4.0), uploader's own work",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Uploader's caption: 'A pair of shiny black Ray-Ban Meta Gen 1 smart glasses positioned in front of their brown leather charging case.' Wayfarer frame, shiny black, plain light background, no people. Gen 1 vs Gen 2 can't be told apart visually; the Gen 1 label is the uploader's. Original 1502x1127, resized to 1400 px, not cropped. Attribution required: show the credit line."
+ },
+ {
+  "product": "Ray-Ban Meta (Gen 2)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "gen2"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "gen2"
+   ],
+   [
+    "posts/2026-09-best-smart-glasses",
+    "gen2"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/meta-ray-ban-meta-gen-2.jpg",
+  "kind": "brand",
+  "credit": "Photo: ItzANormalFioko, CC BY-SA 3.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Rayban_x_Meta_glasses_Generazione_2_con_lenti_Polaroid,_wayfarer.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Rayban_x_Meta_glasses_Generazione_2_con_lenti_Polaroid%2C_wayfarer.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "terms_quote": "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0), uploader's own work",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Replaces the earlier 'held' Meta Newsroom image (tech.json; Meta's terms are editorial/non-commercial). The uploader's caption (Italian) says this is Ray-Ban Meta second generation ('generazione secondaria'), Wayfarer, with polarized lenses ('Rayban P' on the lens). Matte black Wayfarer with the camera visible, on a plain light surface, no people. Taken from Commons' 1920px thumbnail, resized, not cropped. The same uploader has a photo of the matching Gen 2 case (File:Custodia dei Rayban Meta Gen2 (Wayfarer).png). Share-alike: the credit must name CC BY-SA 3.0 and link the licence."
+ },
+ {
+  "product": "Roborock Q7 M5+",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "q7m5"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Roborock Q7 M5+ robot vacuum with auto-empty dock (also sold as Q7 TF+ in some markets; 10,000 Pa, LiDAR). Card names no colour. Pass 3: no Roborock release or media-kit image found worldwide (PR Newswire, Roborock newsroom, EU press). Only retailer and review images. Nothing on Wikimedia Commons or Flickr CC (Commons has only Q8 Max+ and an unidentified Roborock). Roborock newsroom (https://newsroom.roborock.com/us) lists no press email; ask Roborock US PR through it."
+ },
+ {
+  "product": "Roborock Qrevo Curv 2 Flow",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "curv2flow"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Roborock Qrevo Curv 2 Flow (roller-mop robot vacuum + multifunction dock, 20,000 Pa, CES 2026; e.g. AU SKU QC2F02-03 white). Card names no colour. Pass 3: still no Roborock-issued image with stated terms. The CES 2026 PR Newswire release has no Curv 2 Flow photo, and the Japan Digital PR Platform release (digitalpr.jp/r/134022) has inline images only, with no terms. global.roborock.com/pages/roborock-qrevo-curv-2-flow is a product page, not press. Nothing on Commons or Flickr CC. Ask Roborock PR via https://newsroom.roborock.com/us."
+ },
+ {
+  "product": "Rokid AI Glasses Style",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "rokid-style"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Rokid AI Glasses Style (camera AI glasses without display). Card names no colour. Pass 3: Rokid's PR Newswire release ('Rokid Ai Glasses Style Now Available Worldwide') has only a lifestyle photo with a person. No press kit (global.rokid.com/pages/press 404). Commons' only Rokid photo (File:COP30 - Rokid 01.jpg, WAIC 2025) shows people's faces and an unidentified model, so rejected. Ask Rokid PR via the media contact in its PR Newswire/Business Wire releases."
+ },
+ {
+  "product": "Rokid Glasses",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "rokid"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Rokid Glasses (AI + AR display glasses). Card names no colour. Pass 3: no product-only image from an allowed source. Rokid's PR Newswire releases have only event/lifestyle photos, the IFA 2025 Business Wire release blocks automated access (403), and there's no press page (404). Commons' File:COP30 - Rokid 01.jpg (WAIC 2025 booth) shows people's faces and doesn't identify the model, so rejected. Ask Rokid PR via the contact in its Business Wire release."
+ },
+ {
+  "product": "Rubbermaid Brilliance Food Storage Containers (10-piece plastic set)",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "containers"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Rubbermaid Brilliance Leak-Proof Food Storage Containers, 10-piece set (5 containers + 5 lids, clear Tritan, latching lids). Card names no SKU. Pass 3: no Newell-issued image of the 10-piece set. The only clean Newell press photo is the 2016 'BRILLIANCE perfect stack' (PR Newswire 300354139), which shows 7 containers (14-piece), a sibling, so not used. Wikimedia Commons has Rubbermaid photos but none of Brilliance (Rubbermaid's own Flickr uploads there are older lines). Ask Newell Brands media relations (newellbrands.com newsroom) for a 10-piece Brilliance image, or photograph the set."
+ },
+ {
+  "product": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+  "cards": [
+   [
+    "posts/2026-10-rubbermaid-brilliance-food-storage",
+    "rubbermaid-brilliance"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Rubbermaid Brilliance Leak-Proof Food Storage Containers, 10-piece set (5 containers + 5 lids, clear Tritan, latching lids). Card names no SKU. Pass 3: no Newell-issued image of the 10-piece set. The only clean Newell press photo is the 2016 'BRILLIANCE perfect stack' (PR Newswire 300354139), which shows 7 containers (14-piece), a sibling, so not used. Wikimedia Commons has Rubbermaid photos but none of Brilliance (Rubbermaid's own Flickr uploads there are older lines). Ask Newell Brands media relations (newellbrands.com newsroom) for a 10-piece Brilliance image, or photograph the set."
+ },
+ {
+  "product": "Rubbermaid Brilliance leak-proof food storage set",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "rubbermaid"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Rubbermaid Brilliance Leak-Proof Food Storage Containers, 10-piece set (5 containers + 5 lids, clear Tritan, latching lids). Card names no SKU. Pass 3: no Newell-issued image of the 10-piece set. The only clean Newell press photo is the 2016 'BRILLIANCE perfect stack' (PR Newswire 300354139), which shows 7 containers (14-piece), a sibling, so not used. Wikimedia Commons has Rubbermaid photos but none of Brilliance (Rubbermaid's own Flickr uploads there are older lines). Ask Newell Brands media relations (newellbrands.com newsroom) for a 10-piece Brilliance image, or photograph the set."
+ },
+ {
+  "product": "Samsung Galaxy Buds4 Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "buds4pro"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/samsung-galaxy-buds4-pro.jpg",
+  "kind": "brand",
+  "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, Wikimedia Commons (cropped)",
+  "source": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), uploader's own work",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Store-display photo by the uploader. The placard in the full image reads 'Galaxy Buds4 Pro'. Cropped from the 3840px Commons thumbnail to the black Buds4 Pro (SM-R640) in its open charging case (crop box x 62-97%, y 36-82% of the frame), which removes the Galaxy S26 Ultra and the placards; then resized. Product alone, no people. The crop is an adaptation: the credit must say 'cropped', name CC BY-SA 4.0 and link the licence; this JPEG is shared under CC BY-SA 4.0. NOT USED: Samsung Newsroom Austria has a clean three-colour Buds4 Pro family shot (https://img.global.news.samsung.com/at/wp-content/uploads/2026/02/cSamsung_Galaxy-Buds4-Pro_Family_v1.jpg), but Samsung Newsroom's terms of use (https://news.samsung.com/fr/condition) allow copying content 'uniquement pour votre usage personnel ... à l'exclusion de tout usage commercial' (only for personal use, excluding any commercial use). Ask Samsung PR (Austria: presse.samsung@heroes-heroines.com) if a studio shot is wanted. The same terms likely apply to the SmartTag2 image accepted in tech.json, which should be rechecked."
+ },
+ {
+  "product": "Shark PowerDetect Self-Empty",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "shark"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Shark PowerDetect Self-Empty robot vacuum (vacuum-only, RV2820-series self-empty base). Card names no colour. Pass 3: SharkNinja's Business Wire/IR releases (Sept 5 2024 IFA release https://www.businesswire.com/news/home/20240905110596/en; PDF on s202.q4cdn.com) cover the PowerDetect NeverTouch Pro robot and cordless sticks, not this vacuum-only self-empty model. newsroom.sharkninja.com has no image downloads. Commons has only a Shark IQ robot (sibling, not used). Ask SharkNinja PR via https://newsroom.sharkninja.com."
+ },
+ {
+  "product": "Shokz OpenFit 2+",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "shokz"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/shokz-openfit-2.jpg",
+  "kind": "brand",
+  "credit": "Photo: TaurusEmerald, CC BY-SA 4.0, Wikimedia Commons (OpenFit 2 shown, same design)",
+  "source": "https://commons.wikimedia.org/wiki/File:Shokz_OpenFit_2.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Shokz_OpenFit_2.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0), uploader's own work",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "SAME-DESIGN SIBLING: the photo shows the Shokz OpenFit 2 (black), not the 2+. Shokz's own comparison (https://uk.shokz.com/blogs/guides/openfit2-vs-openfit2-plus-comparison) says both have the same design, comfort, battery and water resistance; the 2+ adds Dolby Audio and a wirelessly charged case. So the earbuds and case look identical in this photo. Earbuds on a store demo stand with the closed case above, no people. Taken from Commons' 1920px thumbnail, resized, not cropped. Drop it if a strict exact-model rule is preferred. Shokz has no press page (shokz.com /pages/press, /media, /newsroom 404)."
+ },
+ {
+  "product": "SmartBidet SB-1000 (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "sb1000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: SmartBidet SB-1000 electric bidet seat (card links ASIN B0128T2HQK; round/elongated not specified on card). Pass 3: no press or media page and no wire release found worldwide, and smartbidet.com refused connections from this environment. Commons has unrelated bidet seats only (e.g. 'BB-1000 Supreme' is Bio Bidet, a different brand). No PR email found; contact via smartbidet.com, or photograph it."
+ },
+ {
+  "product": "Sony WF-1000XM6",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "xm6"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "xm6"
+   ],
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "xm6"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Sony WF-1000XM6 true-wireless earbuds (launched 13 Feb 2026; colours Black and Platinum Silver; card names no colour). Pass 3: the official releases found are the Sony Hong Kong PDF (https://www.sony.com.hk/press/pdf/20260213_e.pdf) and the Sony Japan release (https://www.sony.jp/CorporateCruise/Press/202602/26-0213/). Neither offers image downloads with usage terms, and the Japan page says images may be withdrawn for rights reasons. Sony's US/EU press centres return 403 to automated access. Nothing on Wikimedia Commons or Flickr CC for 'WF-1000XM6'. Ask Sony Electronics US PR through the Sony press centre in a browser."
+ },
+ {
+  "product": "Stanley Quencher H2.0 FlowState (40 oz)",
+  "cards": [
+   [
+    "posts/2026-09-owala-freesip",
+    "stanley"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Stanley Quencher H2.0 FlowState Tumbler, 40 oz. Card names no colour. Pass 3: no Stanley press images (newsroom https://www.stanley1913.com/pages/newsroom has no kit; press@stanley1913.com). Commons has only store-shelf photos: File:Stanley_Quencher_in_a_shop.jpg (CC BY 2.0, ishmael daro, 768x1024, Whole Foods shelf of 'Quencher H2.0 Tumbler' units, size not legible) and File:Stanley Quencher H2.0 Tumbler —Limit 2 per customer.png (CC BY 4.0, PK-WIKI, REI display). Both are crowded shelves, not product shots, so not used; the first is a possible low-res fallback. Ask press@stanley1913.com, or photograph one."
+ },
+ {
+  "product": "TOTO Washlet S2 (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "totos2"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: TOTO WASHLET S2 electric bidet seat (card links ASIN B0FCTR1Y75; card names no shape/colour; TOTO SKU not confirmed here). Pass 3: TOTO USA press images sit behind a PhotoShelter login (totousa.photoshelter.com/login, linked from https://www.totousa.com/about-toto/press). The public release PDFs don't cover the S2. Commons has TOTO Washlet photos but of other models (e.g. Japanese TCF8WW88, 2013 Flickr set), so not used. Register on TOTO USA's press PhotoShelter or email TOTO USA PR from the press page."
+ },
+ {
+  "product": "TUSHY Classic 3.0",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "tushy3"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: TUSHY Classic 3.0 non-electric bidet attachment (card links ASIN B08VS11Z1N; card names no colour). Pass 3: https://hellotushy.com/pages/press shows only press logos/quotes, with no kit or terms. No wire release with images, and nothing on Commons or Flickr CC ('Tushy bidet'). Ask TUSHY PR via the press page, or photograph it."
+ },
+ {
+  "product": "Technics EAH-AZ100",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "technics"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Technics EAH-AZ100 true-wireless earbuds (Panasonic; colours Black, Silver, Champagne Gold, plus Midnight Blue in Japan; card names no colour). Pass 3: Technics regional news pages (technics.com/uk/news/0028.html, technics.com/se/news/0034.html) return 403 to automated access, and no Panasonic Newsroom page with AZ100 downloads was found. Commons has CC BY 4.0 photos of the EAH-AZ60M2 only (sibling with a different design, not used). Check technics.com news in a browser or ask Panasonic/Technics PR."
+ },
+ {
+  "product": "TempPro (ThermoPro) Lightning TP622",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "tp622"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: ThermoPro (TempPro) Lightning TP622 instant-read thermometer. Card names no colour. Pass 3: no ThermoPro/TempPro press or media page (temppro.com /press and /media 404) and no newswire release with images. Nothing on Wikimedia Commons or Flickr CC ('ThermoPro'). Ask ThermoPro marketing via temppro.com/contact, or photograph it."
+ },
+ {
+  "product": "TempPro (ThermoPro) TP19H",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "tp19h"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: ThermoPro (TempPro) TP19H digital instant-read meat thermometer (backlit, rotating display). Card names no colour. Pass 3: no ThermoPro/TempPro press or media page (temppro.com /press and /media 404) and no newswire release with images. Nothing on Wikimedia Commons or Flickr CC ('ThermoPro'). Ask ThermoPro marketing via temppro.com/contact, or photograph it."
+ },
+ {
+  "product": "Tramontina 12-Piece Tri-Ply Clad Cookware Set",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "tramontina-12"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: Tramontina 12-Piece Tri-Ply Clad Stainless Steel Cookware Set (card names no SKU; check the exact item number on the card's listing). Pass 3: no Tramontina USA press/media page (tramontina.com/us/press redirects home), and no Tramontina USA wire release covers this set. Commons has Tramontina photos (knives, tools, a microwave) but no tri-ply cookware. Ask Tramontina USA marketing, or photograph it."
+ },
+ {
+  "product": "Viture Luma Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "viture"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: VITURE Luma Pro XR display glasses (2025 Luma line; $499 MSRP at launch). Card names no colour/size. Pass 3: no Luma Pro press kit or release with images. VITURE's PR Newswire releases cover funding (Feb 2026), The Beast and Cyberpunk editions; a PR TIMES Japan release (July 2026) covers the Luma/Luma Ultra (siblings, and PR TIMES terms bar for-profit use). Nothing on Commons or Flickr CC. viture.com/press redirects home. Ask VITURE PR via the media contact in its PR Newswire releases."
+ },
+ {
+  "product": "Xreal One Pro",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "xreal"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: XREAL One Pro AR glasses. Card names no colour/size. Pass 3: the One Pro general-availability release (PR Newswire/Newswire.ca, 18 Jun 2025) has only a cropped 'XREAL One Series' image with text, model not confirmed. Commons XREAL photos are Tokyo Game Show 2024 booth shots (XREAL Beam Pro; One Pro wasn't out then), and Nreal Air/Light are older siblings. Press contact: xreal@lightspeedpr.com."
+ },
+ {
+  "product": "Yeti Rambler 26 oz Straw Bottle",
+  "cards": [
+   [
+    "posts/2026-09-owala-freesip",
+    "yeti"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: YETI Rambler 26 oz (760 ml) Bottle with Straw Cap. Card names no colour. Pass 3: no YETI press/media asset page (yeti.com 403 to automated access; releases list Media@yeti.com) and no wire release with this bottle. Commons has only a YETI Rambler mug (File:Yeti Mug (49164413238).jpg; sibling, not used). Ask Media@yeti.com, or photograph it."
+ },
+ {
+  "product": "eufy 11S MAX",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "11s"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product: eufy by Anker RoboVac 11S MAX (T2128; 2019 slim robot vacuum). Card names no colour. Pass 3: no Anker/eufy press release or kit image found worldwide, and nothing on Commons ('RoboVac', 'eufy': only logos and other Anker products) or Flickr CC. Ask eufy US PR (Anker), or photograph it."
+ },
+ {
+  "product": "eufy Omni S2",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "s2"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Anker Japan (eufy) press image via PR TIMES",
+  "source": "https://prtimes.jp/main/html/rd/p/000000647.000016775.html",
+  "image_url": "",
+  "terms": "https://prtimes.jp/",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Unchanged from cleaning.json (held): the only press image with an issuer download is the Anker Japan PR TIMES release (ZIP, white-background studio shot sub6.png). PR TIMES terms limit use to news reporting by media and bar for-profit use outside partner media. Note: brand/photos/eufy-omni-s2.png named in cleaning.json is not in brand/photos now. Pass 3: no US/EU eufy release with images on PR Newswire or Business Wire. Coverage points to CES 2026 and the US listing (release.eufy.com, $1,599.99) only. Nothing on Commons or Flickr CC. Product: eufy Robot Vacuum Omni S2 (UK SKU T2081G11; 30,000 Pa, HydroJet 2.0 roller mop). Card names no colour. Ask eufy US PR (Anker) for a US press image or written OK."
+ },
+ {
+  "product": "iOttie dash and windshield phone mount",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "iottie"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Product as carded: 'iOttie dash and windshield phone mount'; the CTA searches 'iOttie Easy One Touch phone mount', but no model (e.g. Easy One Touch 5 or 6 Dash & Windshield) is named. Pass 3: iOttie's press kit (https://www.iottie.com/press-kit/) is behind a name/email/outlet form, not submitted for the owner. Commons has one iOttie upload (File:51bDoXGj9eL.jpg, 'Easy One Touch Qi Wireless Charging Car Mount') but its file name is an Amazon image ID, so likely a copied Amazon listing image; rejected. Fix: pick the exact model, then fill in the press-kit form."
+ }
+]

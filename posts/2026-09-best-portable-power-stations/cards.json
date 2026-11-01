@@ -15,11 +15,8 @@
       "video": "qe2BonqDN7s",
       "video_title": "6 best portable power stations of 2026 — including the C1000 Gen 2",
       "art": {
-        "size": "mid",
-        "body": "#2B2F36",
-        "accent": "#8A8F98",
-        "screen_text": "1,024 Wh",
-        "handle": "bar"
+        "shape": "tile",
+        "label": "Anker SOLIX C1000 Gen 2"
       }
     },
     {
@@ -66,12 +63,8 @@
       "video": "3Ran5022zyg",
       "video_title": "Hurricane prep: testing a Jackery solar generator for power outages",
       "art": {
-        "size": "large",
-        "body": "#222",
-        "accent": "#F58220",
-        "screen_text": "2,042 Wh",
-        "handle": "fold",
-        "handle_color": "#F58220"
+        "shape": "tile",
+        "label": "Jackery Explorer 2000 v2"
       }
     },
     {
@@ -94,6 +87,17 @@
         "screen_text": "4,096 Wh",
         "handle": "side",
         "wheels": true
+      },
+      "photo": {
+        "file": "brand/photos/ecoflow-delta-pro-3.jpg",
+        "kind": "brand",
+        "credit": "EcoFlow press kit",
+        "source": "https://drive.google.com/drive/folders/1s5OEOtogK4zc7ry4EV1mUbZ8VyL-RgNE",
+        "terms": "https://www.prnewswire.com/news-releases/ecoflow-launches-delta-pro-3-the-next-generation-of-home-and-portable-energy-storage-302179840.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -116,6 +120,17 @@
         "screen_text": "3,840 Wh",
         "handle": "side",
         "wheels": true
+      },
+      "photo": {
+        "file": "brand/photos/anker-solix-f3800.jpg",
+        "kind": "brand",
+        "credit": "Anker SOLIX press kit",
+        "source": "https://www.prnewswire.com/news-releases/anker-solix-introduces-next-generation-of-camping-and-flex-series-power-stations-301914075.html",
+        "terms": "https://www.prnewswire.com/news-releases/anker-solix-introduces-next-generation-of-camping-and-flex-series-power-stations-301914075.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -130,11 +145,8 @@
       "owners": "Owners praise the cells and the price. Complaints: weight, and slow warranty replies.",
       "cta": "https://www.amazon.com/s?k=BLUETTI+Elite+200+V2+portable+power+station&tag=verdictpicks-20",
       "art": {
-        "size": "large",
-        "body": "#2E2E2E",
-        "accent": "#2EAF6B",
-        "screen_text": "2,074 Wh",
-        "handle": "bar"
+        "shape": "tile",
+        "label": "Bluetti Elite 200 V2"
       }
     },
     {
@@ -155,6 +167,18 @@
         "screen_text": "1,070 Wh",
         "handle": "fold",
         "handle_color": "#F58220"
+      },
+      "photo": {
+        "file": "brand/photos/jackery-explorer-1000-v2.jpg",
+        "kind": "brand",
+        "credit": "Photo: Qurren, CC BY-SA 4.0, Wikimedia Commons (JE-1000D)",
+        "source": "https://commons.wikimedia.org/wiki/File:Jackery_Explorer_1000_New_JE-1000D.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -169,11 +193,8 @@
       "owners": "Owners praise the size and the ports. Complaint: fan chatter in UPS mode.",
       "cta": "https://www.amazon.com/s?k=BLUETTI+Elite+30+V2+portable+power+station&tag=verdictpicks-20",
       "art": {
-        "size": "small",
-        "body": "#2E2E2E",
-        "accent": "#2EAF6B",
-        "screen_text": "288 Wh",
-        "handle": "bar"
+        "shape": "tile",
+        "label": "Bluetti Elite 30 V2"
       }
     },
     {
@@ -188,13 +209,8 @@
       "owners": "Owners love the size and the silence. Complaint: buyers who missed the 'DC' in the name.",
       "cta": "https://www.amazon.com/s?k=Anker+SOLIX+C300+DC+portable+power+station&tag=verdictpicks-20",
       "art": {
-        "size": "small",
-        "body": "#2B2F36",
-        "accent": "#8A8F98",
-        "screen_text": "288 Wh",
-        "handle": "bar",
-        "bolt": false,
-        "no_ac": true
+        "shape": "tile",
+        "label": "Anker SOLIX C300 DC"
       }
     },
     {

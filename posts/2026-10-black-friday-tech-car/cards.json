@@ -21,12 +21,8 @@
       "video_channel": "Channel not confirmed",
       "video_why": "The title promises warnings as well as praise; it came from a search-result URL and we could not confirm the channel.",
       "art": {
-        "size": "large",
-        "body": "#222",
-        "accent": "#F58220",
-        "screen_text": "2,042 Wh",
-        "handle": "fold",
-        "handle_color": "#F58220"
+        "shape": "tile",
+        "label": "Jackery Explorer 2000 v2"
       },
       "buy": {
         "tier": "The pick",
@@ -131,6 +127,18 @@
         "lid": "#E4E4E4",
         "bud": "#FAFAFA",
         "accent": "#222"
+      },
+      "photo": {
+        "file": "brand/photos/apple-airpods-pro-3.jpg",
+        "kind": "brand",
+        "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -150,11 +158,8 @@
       "video_channel": "",
       "video_why": "",
       "art": {
-        "size": "mid",
-        "body": "#2B2F36",
-        "accent": "#8A8F98",
-        "screen_text": "1,024 Wh",
-        "handle": "bar"
+        "shape": "tile",
+        "label": "Anker SOLIX C1000 Gen 2"
       }
     },
     {
@@ -209,9 +214,8 @@
       "video_channel": "",
       "video_why": "",
       "art": {
-        "shape": "flat",
-        "body": "#111",
-        "accent": "#6B7280"
+        "shape": "tile",
+        "label": "LG C6 OLED 65-inch"
       }
     },
     {
@@ -231,11 +235,8 @@
       "video_channel": "Channel not confirmed",
       "video_why": "A head-to-head with the AirPods Pro 3, the two earbuds on this page; the title came from a search-result URL.",
       "art": {
-        "style": "stemless",
-        "case": "#151515",
-        "lid": "#2B2B2B",
-        "bud": "#1A1A1A",
-        "accent": "#B08D57"
+        "shape": "tile",
+        "label": "Sony WF-1000XM6"
       }
     },
     {
@@ -260,6 +261,18 @@
         "lens": "#3B3B3B",
         "camera": true,
         "display": "none"
+      },
+      "photo": {
+        "file": "brand/photos/meta-ray-ban-meta-gen-2.jpg",
+        "kind": "brand",
+        "credit": "Photo: ItzANormalFioko, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rayban_x_Meta_glasses_Generazione_2_con_lenti_Polaroid,_wayfarer.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -279,10 +292,8 @@
       "video_channel": "",
       "video_why": "",
       "art": {
-        "style": "coin",
-        "pack": 4,
-        "body": "#F7F7F5",
-        "back": "#C9CACB"
+        "shape": "tile",
+        "label": "Apple AirTag 2 4-pack"
       }
     },
     {
@@ -305,6 +316,18 @@
         "shape": "box",
         "body": "#2F2F2F",
         "accent": "#F08A24"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -324,9 +347,8 @@
       "video_channel": "",
       "video_why": "",
       "art": {
-        "shape": "box",
-        "body": "#1B1B1B",
-        "accent": "#C8102E"
+        "shape": "tile",
+        "label": "REDTIGER F7NP"
       }
     }
   ]

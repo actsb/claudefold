@@ -121,7 +121,19 @@
         "bud": "#FAFAFA",
         "accent": "#222"
       },
-      "category": "earbuds"
+      "category": "earbuds",
+      "photo": {
+        "file": "brand/photos/apple-airpods-pro-3.jpg",
+        "kind": "brand",
+        "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      }
     },
     {
       "id": "xm6",
@@ -135,11 +147,8 @@
       "owners": "Owners praise the sound and the battery. The complaint is fit for small ears, and the price.",
       "cta": "https://www.amazon.com/s?k=Sony+WF-1000XM6&tag=verdictpicks-20",
       "art": {
-        "style": "stemless",
-        "case": "#151515",
-        "lid": "#2B2B2B",
-        "bud": "#1A1A1A",
-        "accent": "#B08D57"
+        "shape": "tile",
+        "label": "Sony WF-1000XM6"
       },
       "category": "earbuds"
     },
@@ -157,11 +166,8 @@
       "video": "qe2BonqDN7s",
       "video_title": "6 best portable power stations of 2026 — including the C1000 Gen 2",
       "art": {
-        "size": "mid",
-        "body": "#2B2F36",
-        "accent": "#8A8F98",
-        "screen_text": "1,024 Wh",
-        "handle": "bar"
+        "shape": "tile",
+        "label": "Anker SOLIX C1000 Gen 2"
       },
       "category": "power"
     },
@@ -208,12 +214,8 @@
       "owners": "Owners love the simplicity and the weight. Complaint: fan noise on fast charge.",
       "cta": "https://www.amazon.com/s?k=Jackery+Explorer+2000+v2+portable+power+station&tag=verdictpicks-20",
       "art": {
-        "size": "large",
-        "body": "#222",
-        "accent": "#F58220",
-        "screen_text": "2,042 Wh",
-        "handle": "fold",
-        "handle_color": "#F58220"
+        "shape": "tile",
+        "label": "Jackery Explorer 2000 v2"
       },
       "category": "power"
     },
@@ -235,7 +237,19 @@
         "camera": true,
         "display": "none"
       },
-      "category": "glasses"
+      "category": "glasses",
+      "photo": {
+        "file": "brand/photos/meta-ray-ban-meta-gen-2.jpg",
+        "kind": "brand",
+        "credit": "Photo: ItzANormalFioko, CC BY-SA 3.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Rayban_x_Meta_glasses_Generazione_2_con_lenti_Polaroid,_wayfarer.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      }
     },
     {
       "id": "airtag2",
@@ -249,10 +263,8 @@
       "owners": "Reviewers and owners call it much louder and easier to find (Tom's Guide, Macworld). Complaints: still no keyring hole, and the same coin battery.",
       "cta": "https://www.amazon.com/s?k=Apple+AirTag+2+4+pack&tag=verdictpicks-20",
       "art": {
-        "style": "coin",
-        "pack": 4,
-        "body": "#F7F7F5",
-        "back": "#C9CACB"
+        "shape": "tile",
+        "label": "Apple AirTag 2 · 4-pack"
       },
       "category": "tracker"
     },
@@ -273,7 +285,19 @@
         "lid": "#1B2A41",
         "accent": "#8FD3AE"
       },
-      "category": "bottle"
+      "category": "bottle",
+      "photo": {
+        "file": "brand/photos/owala-freesip.jpg",
+        "kind": "brand",
+        "credit": "Photo: Dirt Smurf, CC0, Wikimedia Commons (32 oz shown)",
+        "source": "https://commons.wikimedia.org/wiki/File:Owala_Water_Bottle.jpg",
+        "terms": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      }
     },
     {
       "id": "little-green",
@@ -289,10 +313,8 @@
       "video": "pHWrhVtkYLA",
       "video_title": "6 years with the Bissell Little Green — a long-term review",
       "art": {
-        "style": "classic",
-        "body": "#3E8E5A",
-        "tank": "#9FD3FF",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Bissell Little Green 1400B"
       },
       "category": "cleaner"
     }

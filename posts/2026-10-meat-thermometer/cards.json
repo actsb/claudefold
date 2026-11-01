@@ -76,9 +76,8 @@
       "badge": "The middle price",
       "chip": "3 s read · auto-rotating display · backlight",
       "art": {
-        "shape": "flat",
-        "body": "#2E7D32",
-        "accent": "#E8F5E9"
+        "shape": "tile",
+        "label": "Javelin PRO Duo"
       },
       "price": "About $55 when Serious Eats tested it (May 2023); price today not checked",
       "buy_if": "you want something closer to a Thermapen's feel than a ThermoPop's, for less, and you do not mind email-only support.",
@@ -94,9 +93,8 @@
       "badge": "The cheapest that still works",
       "chip": "Backlit · ambidextrous display · calibration button",
       "art": {
-        "shape": "flat",
-        "body": "#E65100",
-        "accent": "#FFF3E0"
+        "shape": "tile",
+        "label": "TP19H"
       },
       "price": "$17.99 for the TP19HW at Target, regular $24.99 (October 23, 2026)",
       "buy_if": "you want a thermometer in the drawer for under $25 and will accept a slower read.",
@@ -112,9 +110,8 @@
       "badge": "The faster cheap one",
       "chip": "2.1 s read · within 0.3 °F · IP65",
       "art": {
-        "shape": "flat",
-        "body": "#6A1B9A",
-        "accent": "#F3E5F5"
+        "shape": "tile",
+        "label": "Lightning TP622"
       },
       "price": "Owners cited a $14.99 sale (TVWBB, November 2023); price today not checked",
       "buy_if": "you want ATK's recommended cheap thermometer: faster than the TP19H in its test.",

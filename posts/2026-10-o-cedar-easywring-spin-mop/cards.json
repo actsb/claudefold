@@ -8,14 +8,13 @@
       "category": "generic",
       "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
       "short": "O-Cedar spin mop",
-      "badge": "Product of the day \u00b7 the value pick in spin mops",
-      "chip": "Foot-pedal wringer \u00b7 triangle head \u00b7 washable",
+      "badge": "Product of the day · the value pick in spin mops",
+      "chip": "Foot-pedal wringer · triangle head · washable",
       "art": {
-        "shape": "cylinder",
-        "body": "#C8102E",
-        "accent": "#2F3A48"
+        "shape": "tile",
+        "label": "O-Cedar spin mop"
       },
-      "price": "About $35\u2013$40 at major retailers: Target $34.99, Lowe's $34.98, Walmart rollback $34.96 (undated snippets seen Oct 2, 2026); sales near $25\u2013$30 reported at Lowe's and Costco",
+      "price": "About $35–$40 at major retailers: Target $34.99, Lowe's $34.98, Walmart rollback $34.96 (undated snippets seen Oct 2, 2026); sales near $25–$30 reported at Lowe's and Costco",
       "buy_if": "you have sealed hardwood, tile, vinyl or laminate and want a mop that wrings itself dry without bending, for about the price of two Swiffer refill boxes.",
       "skip_if": "you want a machine that scrubs and vacuums (look at a floor washer such as a Bissell CrossWave), or you have unsealed or waxed wood, where any wet mop is a risk.",
       "owners": "Home Depot shoppers rate it 4.4 out of 5 from about 4,160 reviews, 81% recommending it (search summary, Oct 5, 2026). Praised for the pedal wringer and nearly dry floors; the handle is the most-cited weak point.",
@@ -26,7 +25,7 @@
       "video_why": "A demo of the pedal wringer and the triangle head in use; the title came from a search-result URL.",
       "buy": {
         "tier": "The pick",
-        "pick": "The standard EasyWring 1-tank system (mop, bucket, one head); a bundle with 2\u20133 extra heads when the price per head is lower. Not the RinseClean two-tank model, which is a different product",
+        "pick": "The standard EasyWring 1-tank system (mop, bucket, one head); a bundle with 2–3 extra heads when the price per head is lower. Not the RinseClean two-tank model, which is a different product",
         "check": "Sold by Amazon.com or O-Cedar; the listing title says EasyWring; buy refills labelled for your system. Generic heads sell for about $3 each but fit and durability were not checked",
         "label": "See today's price"
       }

@@ -11,8 +11,8 @@
       "badge": "Product of the day · the value pick in air purifiers",
       "chip": "219 sq ft · 24 dB sleep · 3-in-1 filter",
       "art": {
-        "body": "#F1F1EF",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "Levoit Core 300-P"
       },
       "price": "About $85–$100 at major retailers at the time of writing (Home Depot $89.98, Levoit.com $89.99, Walmart $99.00, as listed in September 2026; $99.99 list)",
       "buy_if": "you want one bedroom, nursery or home office (about 220 sq ft) cleaned quietly all night for the price of a month of allergy pills.",
@@ -38,9 +38,8 @@
       "badge": "The refill · every 6–8 months",
       "chip": "Fits 300 · 300-P · 300S",
       "art": {
-        "shape": "cylinder",
-        "body": "#3A3A3A",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "Core 300-RF filter"
       },
       "price": "About $20–$30 for a genuine filter at the time of writing (Levoit.com lists it at $29.99, per levoitreview.com's 2026 filter guide); less in sale weeks",
       "buy_if": "you keep the purifier: one or two a year, on Subscribe & Save so the delivery lands about when the light comes on.",

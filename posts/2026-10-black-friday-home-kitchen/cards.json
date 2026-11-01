@@ -18,10 +18,8 @@
       "video": "pHWrhVtkYLA",
       "video_title": "6 years with the Bissell Little Green — a long-term review",
       "art": {
-        "style": "classic",
-        "body": "#3E8E5A",
-        "tank": "#9FD3FF",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Bissell Little Green 1400B"
       },
       "buy": {
         "tier": "The pick",
@@ -50,7 +48,19 @@
       "video": "-1eGvX4LiMY",
       "video_title": "Instant Pot DUO 6QT Full Review & First Look",
       "video_channel": "Channel not confirmed",
-      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL."
+      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL.",
+      "photo": {
+        "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+        "kind": "brand",
+        "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      }
     },
     {
       "id": "levoit300",
@@ -60,8 +70,8 @@
       "badge": "Air purifier · a bedroom buy, not a doorbuster",
       "chip": "219 sq ft · 24 dB sleep · 3-in-1 filter",
       "art": {
-        "body": "#F1F1EF",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "Levoit Core 300-P"
       },
       "price": "Home Depot ran it near $49 (regional, $24–$99 by store) on Slickdeals threads dated Nov 6 and Nov 26, 2025; about $85–$100 at big retailers the rest of the time (Sept 2026).",
       "buy_if": "you want one quiet bedroom purifier and can check a Home Depot store near you; $50–$60 is a fine price.",
@@ -81,9 +91,8 @@
       "badge": "Spin mop · already cheap",
       "chip": "Foot-pedal wringer · triangle head · washable",
       "art": {
-        "shape": "cylinder",
-        "body": "#C8102E",
-        "accent": "#2F3A48"
+        "shape": "tile",
+        "label": "O-Cedar spin mop"
       },
       "price": "Walmart $34.96, was $39.96 (Aug 20, 2026, Slickdeals); Costco has run a three-refill bundle near $26 (Slickdeals, July 2025).",
       "buy_if": "you have sealed hard floors and want a pedal-wring mop; under $30 is a good price.",
@@ -133,9 +142,8 @@
       "badge": "Pillows · discounts are the norm",
       "chip": "Gel fiber · 2-pack · plush",
       "art": {
-        "shape": "bag",
-        "body": "#F4F1EA",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Beckham pillows"
       },
       "price": "Walmart listed a King two-pack out of stock with a $70 reviewer price (snapshot); Woot sold a pair at $34.99, was $49.99, in March 2023. Expect 30–40% bands, which also appear outside Black Friday.",
       "buy_if": "you want soft guest-room pillows and will replace them in a year or two.",
@@ -155,9 +163,8 @@
       "badge": "Heated throw · check the model number",
       "chip": "50×60 in · 6 heat levels · machine washable",
       "art": {
-        "shape": "box",
-        "body": "#8A8F98",
-        "accent": "#C9781B"
+        "shape": "tile",
+        "label": "Bedsure heated throw"
       },
       "price": "Heated throws run about $20–$80 at major retailers; Walmart listed the U by Bedsure 50×60 at about $32 (Oct 1, 2026). Expect 30–45% off in a sale.",
       "buy_if": "one person on a sofa wants a cheap heated throw and you check the label against the March 2023 CPSC recall before first use.",
@@ -176,9 +183,8 @@
       "badge": "Air fryer · the $90 benchmark",
       "chip": "4 qt · 1 basket · nonstick",
       "art": {
-        "shape": "box",
-        "body": "#2B2B2B",
-        "accent": "#C8102E"
+        "shape": "tile",
+        "label": "Ninja AF101"
       },
       "category": "generic",
       "price": "List $119.99; Best Buy, Target and Home Depot $89.99 (Slickdeals tracker, Apr 1, 2026). Home Depot showed 32% off Ninja kitchen appliances on Black Friday 2025 (NBC Select).",
@@ -203,7 +209,19 @@
       "buy_if": "you bake often enough to use it weekly, and the price is near $250–$350.",
       "skip_if": "you knead stiff dough often (owners report stalls on heavy dough and consumer testers favour the bowl-lift) or bake twice a year.",
       "owners": "KitchenAid's own Best Buy Q&A answer says slight oil seepage can occur after sitting unused; heavy dough stalls the motor on Sam's Club reviews of the Artisan. America's Test Kitchen's mid-price pick is the Classic 4.5 qt.",
-      "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+5+quart+stand+mixer&tag=verdictpicks-20"
+      "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+5+quart+stand+mixer&tag=verdictpicks-20",
+      "photo": {
+        "file": "brand/photos/kitchenaid-artisan-5-quart-tilt-head.jpg",
+        "kind": "brand",
+        "credit": "Photo: BenFrantzDale, CC BY-SA 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_KitchenAid_Artisan.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      }
     },
     {
       "id": "stick-vac",
@@ -212,9 +230,8 @@
       "badge": "Stick vacuum · big cuts, battery risk",
       "chip": "Removable battery vs fixed",
       "art": {
-        "shape": "flat",
-        "body": "#5A6572",
-        "accent": "#F08A24"
+        "shape": "tile",
+        "label": "Stick vacuum"
       },
       "category": "generic",
       "price": "Walmart showed Dyson V8 Absolute $349.99 and Shark Cordless Pro $198, was $399.99 (Black Friday roundups, 2025); Home Depot showed Shark 39% off (NBC Select, 2025).",
@@ -230,9 +247,8 @@
       "badge": "Cookware · good outside Black Friday",
       "chip": "Tri-ply stainless · induction-ready",
       "art": {
-        "shape": "bag",
-        "body": "#B8BEC6",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Tramontina 12-piece"
       },
       "category": "generic",
       "price": "Costco $189.99 in Oct 2025 (a $50 instant saving, about $240 normally; Slickdeals, Oct 23, 2025); Walmart $280 (Hunker, May 2026).",

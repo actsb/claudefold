@@ -14,9 +14,8 @@
       "owners": "Testers at Wirecutter, CNN Underscored and Reader's Digest rate it for upholstery; Reader's Digest cleared a cushion in about 30 seconds. Owners praise that there is nothing to refill. Complaints: a week to learn the stroke, and the button pops open under your thumb.",
       "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20",
       "art": {
-        "body": "#F4F4F1",
-        "accent": "#1B2A41",
-        "strip": "#2A2A2A"
+        "shape": "tile",
+        "label": "ChomChom Roller"
       },
       "video": "fTYMnh6c1r8",
       "video_title": "Bull or No Bull? ABC15 tests the ChomChom Roller",
@@ -36,10 +35,8 @@
       "owners": "Dogster scores it 4.9/5; Neakasa's own store shows 4.8/5 from 770 reviews (September 2026). Owners praise that fur goes straight into the bin and that vacuum-averse dogs accept it after a few short sessions. Complaints: emptying the cup mid-groom, and the clipper is for trims, not shaves.",
       "cta": "https://www.amazon.com/s?k=Neakasa+P1+Pro+pet+grooming+vacuum+kit&tag=verdictpicks-20",
       "art": {
-        "body": "#F1F1EE",
-        "accent": "#3C8DAD",
-        "cup": "#9FD3FF",
-        "tool": "#2A2A2A"
+        "shape": "tile",
+        "label": "Neakasa P1 Pro"
       },
       "video": "YUcAU5oHfJc",
       "video_title": "Neabot Neakasa P1 Pro grooming kit and vacuum review: best pet grooming vacuum?",

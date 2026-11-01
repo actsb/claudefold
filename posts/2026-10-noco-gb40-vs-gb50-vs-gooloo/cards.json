@@ -28,6 +28,18 @@
         "pick": "The NOCO Boost Plus GB40 (model GB40, 1,000 amps). The GB50 is the next size up if you drive a V8 or live somewhere cold.",
         "check": "Sold by NOCO or an authorized seller; the box says GB40 and 1000A; register it at no.co/support the day it arrives to activate the one-year warranty, and keep the receipt.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {

@@ -8,8 +8,8 @@
       "category": "generic",
       "name": "NOCO Boost Plus GB40 1000A Jump Starter",
       "short": "NOCO GB40",
-      "badge": "Product of the day \u00b7 the value pick in jump starters",
-      "chip": "1000A \u00b7 lithium \u00b7 spark-proof",
+      "badge": "Product of the day · the value pick in jump starters",
+      "chip": "1000A · lithium · spark-proof",
       "art": {
         "shape": "box",
         "body": "#2F2F2F",
@@ -29,6 +29,18 @@
         "pick": "The NOCO Boost Plus GB40 (1000A, model GB40) with the clamps and USB cable in the box; the bigger GB70 only if you own a large diesel",
         "check": "Sold by Amazon.com or NOCO; the listing says GB40 and 1000A (not 2000A+ claims from no-name brands). There is no wall charger in the box, so you need a USB-A charger",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     }
   ]

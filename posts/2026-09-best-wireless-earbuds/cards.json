@@ -15,11 +15,8 @@
       "video": "S0cAb2b1hss",
       "video_title": "Sony WF-1000XM6 review",
       "art": {
-        "style": "stemless",
-        "case": "#151515",
-        "lid": "#2B2B2B",
-        "bud": "#1A1A1A",
-        "accent": "#B08D57"
+        "shape": "tile",
+        "label": "Sony WF-1000XM6"
       }
     },
     {
@@ -41,6 +38,18 @@
         "lid": "#E4E4E4",
         "bud": "#FAFAFA",
         "accent": "#222"
+      },
+      "photo": {
+        "file": "brand/photos/apple-airpods-pro-3.jpg",
+        "kind": "brand",
+        "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -92,6 +101,18 @@
         "lid": "#D4D4D4",
         "bud": "#F2F2F2",
         "accent": "#333"
+      },
+      "photo": {
+        "file": "brand/photos/samsung-galaxy-buds4-pro.jpg",
+        "kind": "brand",
+        "credit": "Photo: Dinkun Chen, CC BY-SA 4.0, Wikimedia Commons (cropped)",
+        "source": "https://commons.wikimedia.org/wiki/File:SAMSUNG_Galaxy_S26_Ultra_%26_SAMSUNG_Galaxy_Buds4_Pro.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -141,6 +162,18 @@
         "lid": "#E4E4E4",
         "bud": "#FAFAFA",
         "accent": "#222"
+      },
+      "photo": {
+        "file": "brand/photos/apple-airpods-5.jpg",
+        "kind": "brand",
+        "credit": "Photo: Cheeseburgahhh, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Fifth-generation_AirPods_in_their_charging_case.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -155,11 +188,8 @@
       "owners": "Owners call it the best value in earbuds. Complaints: call quality and a big case.",
       "cta": "https://www.amazon.com/s?k=Soundcore+Liberty+4+NC&tag=verdictpicks-20",
       "art": {
-        "style": "stem",
-        "case": "#1A1A1A",
-        "lid": "#2A2A2A",
-        "bud": "#1A1A1A",
-        "accent": "#00B3E6"
+        "shape": "tile",
+        "label": "Soundcore Liberty 4 NC"
       }
     },
     {
@@ -176,11 +206,8 @@
       "video": "5Q0S0TiRqjQ",
       "video_title": "EarFun Air Pro 4+ review",
       "art": {
-        "style": "stem",
-        "case": "#1A1A1A",
-        "lid": "#2A2A2A",
-        "bud": "#1A1A1A",
-        "accent": "#9A9A9A"
+        "shape": "tile",
+        "label": "EarFun Air Pro 4+"
       }
     },
     {
@@ -195,11 +222,8 @@
       "owners": "Owners love the look. Complaints: the app, and ANC in wind.",
       "cta": "https://www.amazon.com/s?k=Nothing+Ear+3+earbuds&tag=verdictpicks-20",
       "art": {
-        "style": "stem",
-        "case": "#F5F5F5",
-        "lid": "#E8E8E8",
-        "bud": "#F5F5F5",
-        "accent": "#D71920"
+        "shape": "tile",
+        "label": "Nothing Ear (3)"
       }
     },
     {
@@ -214,11 +238,8 @@
       "owners": "Owners rave about the sound. Complaints: call quality and the price.",
       "cta": "https://www.amazon.com/s?k=Technics+EAH-AZ100&tag=verdictpicks-20",
       "art": {
-        "style": "stemless",
-        "case": "#2B2B2B",
-        "lid": "#3A3A3A",
-        "bud": "#2B2B2B",
-        "accent": "#C0C0C0"
+        "shape": "tile",
+        "label": "Technics EAH-AZ100"
       }
     },
     {
@@ -238,6 +259,18 @@
         "lid": "#2A2A2A",
         "bud": "#E0552B",
         "accent": "#111"
+      },
+      "photo": {
+        "file": "brand/photos/beats-powerbeats-pro-2.jpg",
+        "kind": "brand",
+        "credit": "Photo: Kyu3a, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Powerbeats_Pro_2_-_4.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -257,6 +290,18 @@
         "lid": "#3A3A3A",
         "bud": "#333",
         "accent": "#F26522"
+      },
+      "photo": {
+        "file": "brand/photos/shokz-openfit-2.jpg",
+        "kind": "brand",
+        "credit": "Photo: TaurusEmerald, CC BY-SA 4.0, Wikimedia Commons (OpenFit 2 shown, same design)",
+        "source": "https://commons.wikimedia.org/wiki/File:Shokz_OpenFit_2.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     }
   ]

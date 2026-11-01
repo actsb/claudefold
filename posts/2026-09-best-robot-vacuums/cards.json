@@ -47,13 +47,8 @@
       "owners": "Owners love the features for the money. Complaints: the tall turret, and a mop-pad smell if the dock isn't cleaned.",
       "cta": "https://www.amazon.com/s?k=Dreame+L50+Ultra&tag=verdictpicks-20",
       "art": {
-        "body": "#2E2E2E",
-        "rim": "#151515",
-        "turret": true,
-        "camera": true,
-        "dock": "omni",
-        "accent": "#7FB3D5",
-        "mop": "pads"
+        "shape": "tile",
+        "label": "Dreame L50 Ultra"
       }
     },
     {
@@ -102,13 +97,8 @@
       "video": "LRzkqir_3JA",
       "video_title": "eufy Omni S2 review",
       "art": {
-        "body": "#1C1C1C",
-        "rim": "#000",
-        "turret": true,
-        "camera": true,
-        "dock": "omni",
-        "accent": "#3B82F6",
-        "mop": "pads"
+        "shape": "tile",
+        "label": "eufy Omni S2"
       }
     },
     {
@@ -159,13 +149,8 @@
       "video": "7AtdDqNZfEQ",
       "video_title": "Ecovacs Deebot X9 Pro Omni review",
       "art": {
-        "body": "#2C2C2C",
-        "rim": "#111",
-        "turret": true,
-        "camera": true,
-        "dock": "omni",
-        "accent": "#C9781B",
-        "mop": "roller"
+        "shape": "tile",
+        "label": "Ecovacs Deebot X9S Pro Omni"
       }
     },
     {
@@ -187,6 +172,17 @@
         "dock": "omni",
         "accent": "#C9781B",
         "mop": "roller"
+      },
+      "photo": {
+        "file": "brand/photos/ecovacs-deebot-x11-omnicyclone.jpg",
+        "kind": "brand",
+        "credit": "ECOVACS press image (PRNewswire)",
+        "source": "https://www.prnewswire.com/news-releases/ecovacs-unveils-award-winning-deebot-at-ifa-with-industrys-first-fast-charging-robotic-cleaner-302547789.html",
+        "terms": "https://www.prnewswire.com/news-releases/ecovacs-unveils-award-winning-deebot-at-ifa-with-industrys-first-fast-charging-robotic-cleaner-302547789.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -233,13 +229,8 @@
       "owners": "Owners call it the sweet spot. Complaint: the roller needs an occasional hand-clean.",
       "cta": "https://www.amazon.com/s?k=Roborock+Qrevo+Curv+2+Flow&tag=verdictpicks-20",
       "art": {
-        "body": "#F4F4F1",
-        "rim": "#C4C4BE",
-        "turret": true,
-        "camera": true,
-        "dock": "omni",
-        "accent": "#1B2A41",
-        "mop": "roller"
+        "shape": "tile",
+        "label": "Roborock Qrevo Curv 2 Flow"
       }
     },
     {
@@ -289,12 +280,8 @@
       "video": "HS7deYTT0BU",
       "video_title": "Shark PowerDetect robot vacuum review",
       "art": {
-        "body": "#2A2A2A",
-        "rim": "#111",
-        "turret": true,
-        "camera": false,
-        "dock": "bin",
-        "accent": "#F26522"
+        "shape": "tile",
+        "label": "Shark PowerDetect Self-Empty"
       }
     },
     {
@@ -309,12 +296,8 @@
       "owners": "Owners say it simply does the job. Complaint: it eats cables and socks.",
       "cta": "https://www.amazon.com/s?k=Roborock+Q7+M5%2B+robot+vacuum&tag=verdictpicks-20",
       "art": {
-        "body": "#F4F4F1",
-        "rim": "#C4C4BE",
-        "turret": true,
-        "camera": false,
-        "dock": "bin",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "Roborock Q7 M5+"
       }
     },
     {
@@ -329,12 +312,8 @@
       "owners": "Owners love the 90-day bag. Complaints: weak on thick carpet, basic mopping.",
       "cta": "https://www.amazon.com/s?k=Dreame+D10+Plus+Gen+2&tag=verdictpicks-20",
       "art": {
-        "body": "#F4F4F1",
-        "rim": "#C4C4BE",
-        "turret": true,
-        "camera": false,
-        "dock": "bin",
-        "accent": "#7FB3D5"
+        "shape": "tile",
+        "label": "Dreame D10 Plus Gen 2"
       }
     },
     {
@@ -349,12 +328,8 @@
       "owners": "Owners say it just works. Complaint: random paths, and it bumps furniture.",
       "cta": "https://www.amazon.com/s?k=eufy+RoboVac+11S+MAX&tag=verdictpicks-20",
       "art": {
-        "body": "#1C1C1C",
-        "rim": "#000",
-        "turret": false,
-        "camera": false,
-        "dock": null,
-        "accent": "#3B82F6"
+        "shape": "tile",
+        "label": "eufy 11S MAX"
       }
     }
   ]

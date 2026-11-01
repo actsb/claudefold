@@ -519,7 +519,7 @@
     "smarttag2"
    ]
   ],
-  "status": "ok",
+  "status": "held",
   "file": "brand/photos/samsung-galaxy-smarttag2.jpg",
   "kind": "brand",
   "credit": "Samsung press kit",
@@ -531,7 +531,7 @@
    "web"
   ],
   "checked": "2026-10-23",
-  "notes": "Samsung US Newsroom release with a press-kit image list and a 'Download all' link. Black and white SmartTag2, front view, on white (1200x800). Samsung serves its newsroom press-kit files from its own AWS S3 bucket (snr-2019-presskits-production.s3.amazonaws.com). That is Samsung's file hosting, not Amazon retail, but it is flagged because the brief bans 'anything hosted by Amazon'. The img.us.news.samsung.com mirror failed TLS verification through the proxy. No usage terms are stated on the Samsung US Newsroom."
+  "notes": "Withdrawn 2026-11-01: Samsung Newsroom terms of use allow copying for personal use only and exclude commercial use (pass2-3 finding, news.samsung.com/fr/condition); no terms on the US release page."
  },
  {
   "product": "REDTIGER F7NP 4K Front and Rear Dash Cam",

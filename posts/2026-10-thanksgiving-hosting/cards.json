@@ -89,9 +89,8 @@
       "badge": "America's Test Kitchen's pick · holds a 19-pound turkey",
       "chip": "stainless · flat bottom · rack included",
       "art": {
-        "shape": "flat",
-        "body": "#A9B0B8",
-        "accent": "#C9781B"
+        "shape": "tile",
+        "label": "Cuisinart 16-in roaster"
       },
       "price": "Roughly $100–$200 depending on the store and sale (non-Amazon sources we saw in October 2026; dates unverified)",
       "buy_if": "you roast a big bird once a year and want a pan that also makes pan gravy on the stovetop.",
@@ -117,9 +116,8 @@
       "badge": "ATK's electric-knife winner · quiet and cheap",
       "chip": "9-inch blade · rounded handle · button underneath",
       "art": {
-        "shape": "flat",
-        "body": "#F4F4F2",
-        "accent": "#C0392B"
+        "shape": "tile",
+        "label": "Black+Decker electric knife"
       },
       "price": "Under $50 (a band; the Walmart prices we saw for rival electric knives were $33–$40 in October 2026, dates unverified)",
       "buy_if": "you carve for 8 or more and would rather slice skin-on turkey fast than fuss with a chef's knife.",
@@ -145,9 +143,8 @@
       "badge": "ATK's fat-separator winner · a $15–25 gravy fixer",
       "chip": "4-cup · bottom-draining",
       "art": {
-        "shape": "bottle",
-        "body": "#E8E8E3",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "OXO fat separator"
       },
       "price": "Under $30 (OXO's 2-cup was about $18 at Walmart per a search summary; dates unverified)",
       "buy_if": "you make gravy from pan drippings and hate skimming with a spoon.",
@@ -173,9 +170,8 @@
       "badge": "ATK's slow-cooker pick · frees the oven for the turkey",
       "chip": "6-quart · temperature probe · lockable lid",
       "art": {
-        "shape": "cylinder",
-        "body": "#5E6A73",
-        "accent": "#C9781B"
+        "shape": "tile",
+        "label": "Hamilton Beach Temp Tracker"
       },
       "price": "Under $100 (a band; we did not verify current retail prices)",
       "buy_if": "you need a side dish to stay hot without taking an oven rack: mashed potatoes, stuffing, green bean casserole.",
@@ -201,9 +197,8 @@
       "badge": "ATK's winner for plastic containers · leftovers sorted",
       "chip": "10 pieces · leak-proof lids",
       "art": {
-        "shape": "box",
-        "body": "#EDEFF2",
-        "accent": "#2B6CB0"
+        "shape": "tile",
+        "label": "Rubbermaid Brilliance"
       },
       "price": "About $14–$18 at Target and Walmart for the 10-piece set per search summaries in October 2026 (dates unverified); Costco's 16-piece was reported at $29.99 in store",
       "buy_if": "you host and send leftover plates home, or you want a stack of lids that match.",

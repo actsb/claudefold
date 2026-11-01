@@ -39,6 +39,22 @@ def picture(d, cfg, spec, cx, cy, r, uid):
                 f'<image href="{photo_uri("/", product_photos.path(d, p))}" x="{cx - r * 0.78}" y="{cy - r * 0.78}" width="{r * 1.56}" height="{r * 1.56}" preserveAspectRatio="xMidYMid meet"/>')
     return ring + render_product(hero.get("category", spec["category"]), hero.get("art", {}), uid + "hero", scale=s, tx=cx - 300 * s, ty=cy - 195 * s, with_studio=False)
 
+def with_photos(d, cfg, spec):
+    """Real photos first (owner, October 2026: no drawn products): when the hero has no photo cleared for social use, the
+    circle shows the first card that has one, and the chips put photographed products first, filling up from the other cards."""
+    import product_photos
+    has = lambda c: bool(product_photos.photo(d, c, "social"))
+    cards = spec["cards"]; cfg = dict(cfg)
+    hero = next((c for c in cards if c["id"] == cfg.get("hero")), None)
+    if not cfg.get("photo") and (hero is None or not has(hero)):
+        alt = next((c for c in cards if has(c)), None)
+        if alt: cfg["hero"] = alt["id"]
+    prods = [cid for cid in cfg.get("products", []) if cid != cfg.get("hero")]
+    with_p = [cid for cid in prods if has(next(c for c in cards if c["id"] == cid))]
+    extra = [c["id"] for c in cards if has(c) and c["id"] not in with_p and c["id"] != cfg.get("hero")]
+    cfg["products"] = (with_p + extra + [cid for cid in prods if cid not in with_p])[:3]
+    return cfg
+
 DEFS = '''<defs>
 <linearGradient id="{u}-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF6E3"/><stop offset="0.55" stop-color="#F7F5F0"/><stop offset="1" stop-color="#DDF2E5"/></linearGradient>
 <radialGradient id="{u}-sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FFD27A" stop-opacity="0.85"/><stop offset="1" stop-color="#FFD27A" stop-opacity="0"/></radialGradient>
@@ -53,6 +69,7 @@ def wrap_sub(lines, width=54, max_lines=3):
     return out
 
 def cover(d, cfg, spec):
+    cfg = with_photos(d, cfg, spec)
     W, H = 1200, 630; u = "bc"
     fs = min(cfg.get("title_size", 78), int(690 / (max(len(l) for l in cfg["title"]) * 0.56)))
     title = "".join(f'<text x="64" y="{236 + i*(fs+14)}" font-size="{fs}" font-weight="800" fill="{NAVY}">{esc(l)}</text>' for i, l in enumerate(cfg["title"]))
@@ -67,6 +84,7 @@ def cover(d, cfg, spec):
             f'<circle cx="1120" cy="80" r="40" fill="{GREEN}"/><path d="M 1100 81 L 1113 94 L 1141 67" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>\n')
 
 def pin(d, cfg, spec):
+    cfg = with_photos(d, cfg, spec)
     W, H = 1000, 1500; u = "bp"; lines = cfg["title"]; fs = 92 if max(len(l) for l in lines) <= 14 else 78
     title = "".join(f'<text x="500" y="{250 + i*(fs+8)}" text-anchor="middle" font-size="{fs}" font-weight="800" fill="{NAVY}">{esc(l)}</text>' for i, l in enumerate(lines))
     prods = cfg.get("products", [])[:3]; cw = 250; x0 = 500 - (len(prods) * cw + (len(prods) - 1) * 24) / 2

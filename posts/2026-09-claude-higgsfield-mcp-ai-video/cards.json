@@ -11,8 +11,8 @@
       "badge": "Render · the one subscription that opens every video model",
       "chip": "Kling · Veo · Seedance in one app · MCP",
       "art": {
-        "body": "#1B2A41",
-        "accent": "#7C5CFF"
+        "shape": "tile",
+        "label": "Higgsfield"
       },
       "price": "from $9 to $79 a month at September 2026 prices (plans renamed twice this year; treat any price as a snapshot)",
       "buy_if": "you want one subscription that carries the current top video models, a filmmaking layer on top of them, and the official connector that lets Claude drive it.",
@@ -36,8 +36,8 @@
       "badge": "Plan · the director that never touches a credit",
       "chip": "Desktop · web · Claude Code · connectors",
       "art": {
-        "body": "#C9781B",
-        "accent": "#FFF3C4"
+        "shape": "tile",
+        "label": "Claude"
       },
       "price": "free tier for chat; Pro $20 a month; Max from $100 at the time of writing (custom connectors need a paid plan)",
       "buy_if": "you want the planning, prompt-writing and review steps done in one conversation, with the connector that sends approved shots to Higgsfield when you say so.",
@@ -61,8 +61,8 @@
       "badge": "Voice · narration, dubbing, sound effects",
       "chip": "Text to speech · 30+ languages · SFX",
       "art": {
-        "body": "#2F3A48",
-        "accent": "#8FD3AE"
+        "shape": "tile",
+        "label": "ElevenLabs"
       },
       "price": "free tier (non-commercial, attribution required); Starter about $5–6; Creator about $22 a month at the time of writing",
       "buy_if": "your clips need a narrator, a product name pronounced right, or a dubbed version for a second market; the paid tiers carry the commercial licence.",
@@ -100,6 +100,18 @@
         "pick": "A 16-inch box fits a shoebox-sized product; 12-inch is enough for bottles and gadgets.",
         "check": "Two LED strips, a white and a black backdrop, and a front shooting hole; \"dimmable\" if you shoot glossy things.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/foldable-photo-light-box.jpg",
+        "kind": "brand",
+        "credit": "Photo: Ted Lowe, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Mission_Gourmande_studio_photo_1.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -110,8 +122,8 @@
       "badge": "Input · the same angle for every shot",
       "chip": "Ball head · Bluetooth remote · 50–60 in",
       "art": {
-        "body": "#2F3A48",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "Phone tripod"
       },
       "price": "budget tier; the button shows today's price on Amazon",
       "buy_if": "you want the reference stills the models start from to share one angle and one height, so a series looks like a series.",
@@ -133,8 +145,8 @@
       "badge": "Output · where the renders live",
       "chip": "USB-C · 1,000 MB/s class · 1–2 TB",
       "art": {
-        "body": "#2F3A48",
-        "accent": "#7C5CFF"
+        "shape": "tile",
+        "label": "Portable SSD"
       },
       "price": "mid-range; the button shows today's price on Amazon",
       "buy_if": "you keep the source stills, every generation and the final cuts; a month of this workflow is tens of gigabytes.",

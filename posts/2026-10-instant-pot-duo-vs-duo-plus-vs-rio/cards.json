@@ -30,6 +30,18 @@
         "pick": "The 6-quart Duo 7-in-1, model 112-0170-01 (also sold as IP-DUO60). Not the 8-quart, the Duo Nova or the Duo Crisp.",
         "check": "Sold by Amazon.com or Instant Pot (the one-year warranty covers authorized retailers only); the title says Duo, 7-in-1 and 6 Qt; the model number matches.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+        "kind": "brand",
+        "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
@@ -40,9 +52,8 @@
       "badge": "The upgrade · worth it only on sale",
       "chip": "sous vide · cake · quiet release",
       "art": {
-        "shape": "cylinder",
-        "body": "#2F3A48",
-        "accent": "#2B6CB0"
+        "shape": "tile",
+        "label": "Instant Pot Duo Plus 6-qt"
       },
       "price": "List $139.99 at Instant Pot's store (October 2026); sale depth reported up to about 57% off in November 2025",
       "buy_if": "you will really use sous vide or cake, you want a quieter steam release, or you want two spare sealing rings in the box.",
@@ -68,9 +79,8 @@
       "badge": "The one to check twice · same list price as the Duo",
       "chip": "high pressure only · no pot handles",
       "art": {
-        "shape": "cylinder",
-        "body": "#1F2937",
-        "accent": "#0F8B8D"
+        "shape": "tile",
+        "label": "Instant Pot Rio 6-qt"
       },
       "price": "List $109.99 at Instant Pot's store (October 2026)",
       "buy_if": "you find it clearly cheaper than the Duo and like the slimmer look and the time-only display.",
@@ -88,9 +98,8 @@
       "badge": "The step up · more power and handles",
       "chip": "1200 W · 28 programs · pot handles",
       "art": {
-        "shape": "cylinder",
-        "body": "#1B2A41",
-        "accent": "#B7791F"
+        "shape": "tile",
+        "label": "Instant Pot Pro 6-qt"
       },
       "price": "List $169.99 at Instant Pot's store (October 2026)",
       "buy_if": "you cook on it most days and want the insulated pot handles, more power and a flat pot for searing; America's Test Kitchen's winner was the 8-quart Pro.",

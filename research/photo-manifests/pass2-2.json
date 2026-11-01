@@ -1,0 +1,777 @@
+[
+ {
+  "product": "Ecovacs Deebot X9S Pro Omni",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "x9s"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none after a wider search. Wikimedia Commons has no Ecovacs or Deebot files at all (title search for Ecovacs, Deebot and Ecovacs X9 returned nothing). No X9S press image on PR Newswire, Business Wire or GlobeNewswire; ECOVACS' own releases cover the X9 PRO OMNI sibling (the earlier pass found only a group backdrop shot) and the US tariff-price release has only the logo. To source: ECOVACS DEEBOT X9S PRO OMNI (robot + OMNI station, 2026 refresh of the X9 PRO OMNI); our card does not specify a colour. No ECOVACS US press email was found; ask via ECOVACS' PR Newswire contact or photograph it."
+ },
+ {
+  "product": "ElevenLabs (the voice that turns a silent clip into an ad)",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "elevenlabs"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Software (text-to-speech service), so there is no physical product to photograph. ElevenLabs' official brand page (https://elevenlabs.io/brand, 'Brand guidelines and press kit') offers only logo and symbol files (black/white PNG and SVG, zip at https://11labs-nonprd-15f22c1d.s3.eu-west-3.amazonaws.com/45748ad8-5ef9-4843-b060-c73caa462fb0/elevenlabs-logos.zip). It says the page 'is designed for all external entities engaging with our brand' and asks for 'Adherence to these guidelines ... when incorporating ElevenLabs branding elements into third-party assets', but states no explicit editorial/commercial permission and offers no product screenshots. Press page: https://elevenlabs.io/press. Owner decision: a logo or our own UI screenshot could stand in; neither was saved."
+ },
+ {
+  "product": "Even Realities G2",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "even"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Commons has no Even Realities or Even G2 files. Even Realities has no press kit (evenrealities.com/pages/press redirects to a support form); its only wire image (PR Newswire, https://mma.prnewswire.com/media/2940778/Even_G2_Conversate_2_0_Prep_Notes.jpg) is a cropped close-up of one lens showing UI, not a product shot. Its own news blog posts (e.g. the Taiwan/iNNOHOME post) carry no image terms. To source: Even Realities Even G2 display smart glasses ($599, Nov 2025 launch); our card shows a thin grey frame (#8A8A8A). No press email found; ask via the support form or photograph it."
+ },
+ {
+  "product": "Fanttik X8 APEX cordless tire inflator",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "x8apex"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Fanttik's only launch release (PR Newswire, Dec 2021, https://www.prnewswire.com/news-releases/fanttik-x8-apex-tire-inflator-enables-raging-inflation-speed-anytime-anywhere-301444907.html) has one photo of hands using the inflator on a truck tyre, not a product-alone shot, and states no image terms. No Fanttik media kit or press page found. Commons has only a Fanttik mini vacuum (Tony Webster), not the X8 APEX. To source: Fanttik X8 APEX cordless tire inflator (also sold as 'X8 APEX EV'); our card shows a black body with a yellow accent. Contact via the PR Newswire release's media contact or photograph it."
+ },
+ {
+  "product": "Foldable photo light box, 12–16 inch (with LED strips)",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "lightbox"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/foldable-photo-light-box.jpg",
+  "kind": "brand",
+  "credit": "Photo: Ted Lowe, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Mission_Gourmande_studio_photo_1.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Mission_Gourmande_studio_photo_1.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "CC BY-SA 4.0 (Creative Commons Attribution-Share Alike 4.0 International)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Generic product (our card names no brand). Shows an unbranded-looking foldable white light box with the LED bar along the top edge, a small object and a colour chart inside, and a DSLR on a tripod in front, on a museum work table (Musee de la Gourmandise, Belgium, Jan 2026). Commons description: 'Photographie d'un petit studio photo pliable'. 'Own work' by Ted Lowe. In use rather than product-alone; one person's torso and a hand are at the top edge, no faces. Saved from the 1280px rendition, 1280x960, metadata stripped. CC BY-SA: credit with license link; a modified version must stay CC BY-SA. Backup: File:Studio_portatif_shadow_table.jpg (Benoit Rochon, CC BY-SA 3.0), a smaller LED box at Wikimania 2018, dark room, event screen behind."
+ },
+ {
+  "product": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+  "cards": [
+   [
+    "posts/2026-10-furhaven-orthopedic-dog-bed",
+    "furhaven-bed"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Furhaven press room, media kit or wire release with images; Commons has no Furhaven files (title search empty). To source: Furhaven Orthopedic Sofa Dog Bed (egg-crate foam, three-sided bolster), size Large (36x27 in); our card shows a brown/tan bed (#8B6B43). No press contact found; ask via furhaven.com customer contact or photograph it."
+ },
+ {
+  "product": "Hamilton Beach Temp Tracker 6-quart Slow Cooker",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "slowcooker"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Commons has 'Hamilton Beach slow cooker with thermometer.jpg' (Your Best Digs, CC BY 2.0) but its description says model 33969, which is the Set & Forget 6-qt with probe, not the Temp Tracker, so it was rejected (the author is also a review site). The Hamilton Beach press room (https://hamiltonbeach.com/press-room) has only a media-inquiry button. To source: Hamilton Beach Temp Tracker 6-Quart Slow Cooker, model 33866 (now listed discontinued) or its successor 33867 'Advanced Temp Tracker', stainless steel; our card shows a grey body (#5E6A73). Ask Hamilton Beach PR through the press-room media-inquiry form."
+ },
+ {
+  "product": "Higgsfield (the rendering half: images, video, the MCP connector)",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "higgsfield"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Software (AI video platform), so there is no physical product to photograph. No official Higgsfield press kit or brand-asset page was found (only third-party logo sites, which are not allowed). Commons has no Higgsfield files. Owner decision: use our own UI screenshot or ask Higgsfield's communications team (it lists PR roles on Built In) for a logo/kit."
+ },
+ {
+  "product": "Hoover CleanSlate Plus",
+  "cards": [
+   [
+    "posts/2026-09-bissell-little-green",
+    "cleanslate"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Commons has no CleanSlate files. Hoover has a press-release page for a sibling, the CleanSlate Pet Carpet & Upholstery Spot Cleaner (https://hoover.com/pages/cleanslate_pet_carpet_upholstery_spot_cleaner_press_release, May 2022), not the Plus, and no media-kit downloads were found. To source: Hoover CleanSlate Plus Carpet & Upholstery Spot Cleaner, model FH14050 (FH14051 variant; the plain CleanSlate is FH14000/FH14010); our card shows a red body. Ask Hoover (TTI Floor Care) PR or photograph it."
+ },
+ {
+  "product": "Hopkins SubZero snow brush and ice scraper (metal-joint telescoping model)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "subzero"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Hopkins/SubZero press kit (hopkins-global.com press/media/news 404). Commons has only generic snow brushes (e.g. 'Snow brush for car.jpg'), not a SubZero, so nothing usable. To source: Hopkins SubZero telescoping snow brush and ice scraper with metal joint (exact SKU/length not named on our card); our card shows blue (#1B6CA8) with a yellow accent. No press email found; photograph it."
+ },
+ {
+  "product": "Instant Pot Duo 6-Quart 7-in-1",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "instant-pot-duo"
+   ],
+   [
+    "posts/2026-10-instant-pot-duo-6-quart",
+    "instant-pot-duo"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+  "kind": "brand",
+  "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Instant_Pot_%2849907000991%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Front view of an Instant Pot Duo (panel reads 'IPDUO'; buttons Pressure Cook, Pressure Level, Soup/Broth, Meat/Stew, Bean/Chili, Poultry, Rice, Multigrain, Porridge, Steam, Slow Cook, Saute, Yogurt, Keep Warm, Delay Start, Cancel) on a white counter, kitchen blurred behind, no people. Originally Flickr https://flickr.com/photos/83136374@N05/49907000991 (FlickreviewR-confirmed cc-by-2.0, 17 May 2020). Capacity cannot be read from the photo (6-qt and 8-qt Duos share this panel), and the photo is from 2020, so it shows the Duo line rather than a verified 112-0170-01 unit. Saved from Commons' 1280px rendition (originals were rate-limited), 1280x960, metadata stripped; credit must link the license. Rejected: Commons 'Instant_Pot_DUO60_pressure_cooker.jpg' is mislabeled; it actually shows a Power Pressure Cooker XL."
+ },
+ {
+  "product": "Instant Pot Duo 6-Quart 7-in-1 (model 112-0170-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duo"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+  "kind": "brand",
+  "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Instant_Pot_%2849907000991%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Front view of an Instant Pot Duo (panel reads 'IPDUO'; buttons Pressure Cook, Pressure Level, Soup/Broth, Meat/Stew, Bean/Chili, Poultry, Rice, Multigrain, Porridge, Steam, Slow Cook, Saute, Yogurt, Keep Warm, Delay Start, Cancel) on a white counter, kitchen blurred behind, no people. Originally Flickr https://flickr.com/photos/83136374@N05/49907000991 (FlickreviewR-confirmed cc-by-2.0, 17 May 2020). Capacity cannot be read from the photo (6-qt and 8-qt Duos share this panel), and the photo is from 2020, so it shows the Duo line rather than a verified 112-0170-01 unit. Saved from Commons' 1280px rendition (originals were rate-limited), 1280x960, metadata stripped; credit must link the license. Rejected: Commons 'Instant_Pot_DUO60_pressure_cooker.jpg' is mislabeled; it actually shows a Power Pressure Cooker XL."
+ },
+ {
+  "product": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet, model 112-0169-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duoplus"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Commons has no Duo Plus photo (Category:Instant Pot holds one Duo photo and logos; title and full-text searches found nothing). Instant Pot Brands has no press room (instantpot.com press pages 404; corporate site redirects to Corelle). The only Instant wire release with photos checked (PR Newswire 301316123, Prime Day 2021) now returns 'Unauthorized' for its images. The Duo photo was not reused: the Duo Plus has a different panel and lid. To source: Instant Pot Duo Plus 6-Quart 9-in-1 Whisper Quiet, SKU 112-0169-01; our card shows a dark slate body (#2F3A48). Ask Instant Pot Brands PR or photograph it."
+ },
+ {
+  "product": "Instant Pot Pro 6-Quart 10-in-1 (model 112-0123-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "pro"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Commons photo of the Instant Pot Pro; no Instant Pot Brands press room; no wire release with a usable Pro image. To source: Instant Pot Pro 6-Quart 10-in-1, SKU 112-0123-01 (black, dial control, pot with handles); our card shows a navy/black body (#1B2A41). Ask Instant Pot Brands PR or photograph it."
+ },
+ {
+  "product": "Instant Pot Rio 6-Quart 7-in-1 (model 112-0312-01)",
+  "cards": [
+   [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "rio"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Commons photo of the Rio; no Instant Pot Brands press room; no Rio launch release found on PR Newswire/Business Wire. Do not reuse the Duo photo: the Rio has a different slimmer matte-black body and time-only display. To source: Instant Pot Rio 6-Quart 7-in-1, SKU 112-0312-01 (not the Walmart 'Rio Chef Series'); our card shows a black body (#1F2937). Ask Instant Pot Brands PR or photograph it."
+ },
+ {
+  "product": "Jackery Explorer 1000 v2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "1000v2"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/jackery-explorer-1000-v2.jpg",
+  "kind": "brand",
+  "credit": "Photo: Qurren, CC BY-SA 4.0, Wikimedia Commons (JE-1000D)",
+  "source": "https://commons.wikimedia.org/wiki/File:Jackery_Explorer_1000_New_JE-1000D.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Jackery_Explorer_1000_New_JE-1000D.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "CC BY-SA 4.0 (Creative Commons Attribution-Share Alike 4.0 International)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Straight front view on a plain white wall/wood floor, no people, 7 Dec 2024, 'Own work' by Qurren (multi-licensed GFDL and CC BY-SA 4.0/3.0/2.5/2.0/1.0; we use CC BY-SA 4.0). It is the Japanese-market unit sold as 'Jackery Portable Power 1000 New', model JE-1000D. Best Buy lists the US Explorer 1000 v2 as model JE-1000D too, and the ports match the US v2 (three grounded AC outlets with the same plug shape as US, USB-C 30W, USB-C 100W, USB-A 18W, 12V car port, 'AC 1500W pure sine wave'). The front badge reads 'Jackery Explorer 1000' (no 'v2'); the Japanese unit is 100V. Saved from the 1280px rendition, 1280x960, metadata stripped. Earlier pass: Jackery's own PR Newswire images are marketing composites with headline overlays (also the US release 302220919 image, media 2480100)."
+ },
+ {
+  "product": "Jackery Explorer 2000 v2",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "2000v2"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "2000v2"
+   ],
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "2000v2"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Commons Category:Jackery has the 1000 New/v2, 100 Plus and 300 Plus, but no 2000 v2. Brand images are composites with headline overlays: the German PR Newswire launch photo (https://mma.prnewswire.com/media/2618762/Jackery.jpg, EU-socket unit with a 'Compact yet Powerful' overlay) and the US 1000 v2/240 v2 release image (media 2480100, two units in a camping scene with headline text). No Jackery press room or media kit (jackery.com press URLs 404). To source: Jackery Explorer 2000 v2 (2,042 Wh, 2,200 W, US outlets); our card art is the dark grey body with orange accents. Press contact: marketing@jackery.com (from Jackery's releases)."
+ },
+ {
+  "product": "KOHLER PureWash M100 (dual-wand attachment)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "m100"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Kohler's product press room (https://www.kohler.com/en/press-room) returns 403/503 to automated access (also via a second fetcher today); the corporate press room offers no image downloads. Commons has no PureWash or Kohler bidet files. Only kohler.com e-commerce and retailer images exist (not allowed). To source: KOHLER PureWash M100 toilet-seat bidet attachment, K-22860 (white, two self-cleaning wands, one control knob). Ask Kohler PR via the kohler.com press room in a browser, or photograph it."
+ },
+ {
+  "product": "KOHLER PureWash M300 (manual bidet seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "m300"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. Same as M100: kohler.com press room blocks automated access (403/503), corporate press room has no downloads, no Commons files, only e-commerce/retailer images. To source: KOHLER PureWash M300 elongated manual bidet toilet seat, K-98804-0 (White; a -CP chrome-handle variant also exists), quiet-close seat. Ask Kohler PR via the kohler.com press room, or photograph it."
+ },
+ {
+  "product": "KONG Classic (natural rubber, made in the USA)",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "kong"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/kong-classic.jpg",
+  "kind": "brand",
+  "credit": "Photo: Olgierd, CC BY 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:KONG_-_the_perfect_toy_for_a_dog_(50751011862).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/KONG_-_the_perfect_toy_for_a_dog_%2850751011862%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Red KONG Classic in use: a dog lying on grass, nose on a frozen, stuffed red KONG Classic. The photographer's description calls it a medium-size KONG; no people. Originally Flickr https://www.flickr.com/photos/olgierd-cc/50751011862/ (18 Jul 2020, by user 'Olgierd (Creative Commons licensed only)'). Product-in-use rather than product-alone; the toy is fully visible but partly covered by the dog's paw and nose. Saved from the 1280px rendition, 1280x962, metadata stripped. Black KONGs in the same category are KONG Extreme, so not used. Backup: File:Dog_with_red_kong.jpg (Hawkins, CC BY 2.0), a close-up of a dog's muzzle on a red KONG in grass (portrait)."
+ },
+ {
+  "product": "KONG Classic dog toy (medium)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "kong"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/kong-classic.jpg",
+  "kind": "brand",
+  "credit": "Photo: Olgierd, CC BY 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:KONG_-_the_perfect_toy_for_a_dog_(50751011862).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/KONG_-_the_perfect_toy_for_a_dog_%2850751011862%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Red KONG Classic in use: a dog lying on grass, nose on a frozen, stuffed red KONG Classic. The photographer's description calls it a medium-size KONG; no people. Originally Flickr https://www.flickr.com/photos/olgierd-cc/50751011862/ (18 Jul 2020, by user 'Olgierd (Creative Commons licensed only)'). Product-in-use rather than product-alone; the toy is fully visible but partly covered by the dog's paw and nose. Saved from the 1280px rendition, 1280x962, metadata stripped. Black KONGs in the same category are KONG Extreme, so not used. Backup: File:Dog_with_red_kong.jpg (Hawkins, CC BY 2.0), a close-up of a dog's muzzle on a red KONG in grass (portrait)."
+ },
+ {
+  "product": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "kitchenaid-artisan"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/kitchenaid-artisan-5-quart-tilt-head.jpg",
+  "kind": "brand",
+  "credit": "Photo: BenFrantzDale, CC BY-SA 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Red_KitchenAid_Artisan.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Red_KitchenAid_Artisan.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "terms_quote": "CC BY-SA 2.0 (Creative Commons Attribution-Share Alike 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Side view of a KitchenAid Artisan tilt-head mixer on a wooden chest against a plain cream wall. 'ARTISAN' and '325 watts' are legible on the trim band (the US 5-qt Artisan, KSM150 series), with the handled 5-qt stainless bowl and pouring shield. Originally Flickr https://www.flickr.com/photos/59141600@N00/2144487581 (Dec 2007), uploaded by Flickr upload bot, licence confirmed. The colour is a deep cranberry/burgundy, not Empire Red; our card says 20+ colours. A tiny reflection in the bowl, no faces. Saved from the 1280px rendition, 1280x1263, metadata stripped. Alternative not used: File:White_KitchenAid_mixer_(KSM150PSWH).jpg (exact Artisan SKU, CC BY 2.0) is by Your Best Digs, a review site."
+ },
+ {
+  "product": "LG C6 OLED (65-inch)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "lg-c6"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. LG's US release ('LG Announces Pricing and Availability for 2026 Flagship TV Models', lg.com/us/press-release/...) has one hero image, and it is the G6 (file name RESIZED_OLED97G6WUA...), not the C6; no downloadable media kit and no image terms on the page. LG's global newsroom (lg.com/global/newsroom) lists a CES 2026 press kit but its search is script-rendered and shows no image terms; lgnewsroom.com now resolves to an unrelated site. Commons has no C6 files. To source: LG OLED evo C6 65-inch, OLED65C6PUA. Press contacts (from the US release): christopher.demaria@lge.com, laura.barbieri@lge.com, LGMSUS@LG-One.com."
+ },
+ {
+  "product": "Lavatools Javelin PRO Duo",
+  "cards": [
+   [
+    "posts/2026-10-meat-thermometer",
+    "javelin"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Lavatools press/media page (lavatools.co /pages/press and /pages/media 404), no wire release, no Commons files. To source: Lavatools Javelin PRO Duo instant-read thermometer (auto-rotating backlit display, folding probe); our card shows green (#2E7D32). Lavatools support is email/web-form only; ask through it or photograph it."
+ },
+ {
+  "product": "Levoit Core 300-P Air Purifier",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "levoit300"
+   ],
+   [
+    "posts/2026-09-levoit-core-300p-air-purifier",
+    "levoit300"
+   ]
+  ],
+  "status": "held",
+  "file": "brand/photos/levoit-core-300.jpg",
+  "kind": "brand",
+  "credit": "Photo: Home Air Quality Guides (homeairguides.com), CC BY-SA 2.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Air_Purifier_(Levoit_Core_300)_(49317752928).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Air_Purifier_%28Levoit_Core_300%29_%2849317752928%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "terms_quote": "CC BY-SA 2.0 (Creative Commons Attribution-Share Alike 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "HELD for two reasons. (1) The author is Home Air Quality Guides, an air-purifier review/guide site, and our rules bar images from review sites; the photo itself is licensed by them on Flickr (https://www.flickr.com/photos/homeairguides/49317752928/, CC BY-SA 2.0, FlickreviewR-checked) and they ask: 'If used, please credit us by using the following link: https://homeairguides.com'. (2) It shows the original Levoit Core 300 (Nov 2019), not a unit labelled Core 300-P; the 300-P appears to be the current name of the same white cylinder (same 300-RF filter family) but that is not confirmed. Clean front view, white unit on a wooden nightstand, panelled wall, no people. Saved from the 1280px rendition, 1280x1280, metadata stripped. If the owner accepts both points, flip to ok."
+ },
+ {
+  "product": "Levoit Core 300-RF Replacement Filter (genuine Original 3-in-1)",
+  "cards": [
+   [
+    "posts/2026-09-levoit-core-300p-air-purifier",
+    "core300rf"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Levoit/VeSync press image of the Core 300-RF filter. Commons has only Home Air Quality Guides photos of whole purifiers (the 'filter exposed' shot is the LV-H133, a different model). Levoit's PR Newswire kits found are for the Core 300S/400S (2021). To source: Levoit Core 300-RF (Original 3-in-1 HEPA filter; current packaging 'Core 300-P-RF'), fits Core 300/300-P/300S. Press contacts from Levoit releases: Levoit Marketing Team pr.au@vesync.com (Australia); US releases name a VeSync PR director."
+ },
+ {
+  "product": "Meta Ray-Ban Display",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "display"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Meta press kit",
+  "source": "https://about.fb.com/news/2025/09/meta-ray-ban-display-ai-glasses-emg-wristband/",
+  "image_url": "https://about.fb.com/wp-content/uploads/2025/09/Meta-Ray-Ban-Display_Social-Share.jpg",
+  "terms": "Meta Newsroom 'DOWNLOAD ALL IMAGES' ZIP Legal_Notice.txt (read in the Oakley Meta Vanguard post ZIP, earlier pass)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Meta.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Unchanged from the earlier pass (tech.json): held because Meta's terms allow only editorial, non-commercial use and forbid alteration (our resize/re-encode would count). No file is saved here: brand/photos/meta-ray-ban-display.jpg named in tech.json is not in brand/photos today. Wider search found no CC alternative: Commons has Ray-Ban Meta Gen 1/Gen 2 photos but nothing of the Display (title and full-text searches empty). To source: Meta Ray-Ban Display with Meta Neural Band ($799; our card art is a Wayfarer-style frame). Ask Meta PR for commercial permission, or photograph it."
+ },
+ {
+  "product": "NOCO Boost Plus GB40",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "noco-gb40"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/noco-boost-plus-gb40.jpg",
+  "kind": "brand",
+  "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+  "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_%2827189494027%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "HELD for owner review (label mismatch). Top-down product-alone shot of a NOCO GB40 (12V 1000A, '7000 joules 3S') on moss, no people, by independent photographer Tony Webster (Flickr https://flickr.com/photos/87296837@N00/27189494027, 24 Mar 2017, FlickreviewR-confirmed cc-by-2.0). Same model number and body shape as today's Boost Plus GB40, but the face label is the older 'NOCO genius BOOST+' branding; current units are labelled 'NOCO Boost'. A reader comparing it with the listing may notice. If the owner accepts this, flip all three GB40 entries to ok. NOCO's downloads page (https://no.co/downloads) still returns 403 to automated fetches (also via a second fetcher today), so the official image could not be checked; a person can try it in a browser. Saved from the 1280px rendition, 1280x853, metadata stripped. | Accepted 2026-11-01: same GB40 model, older label; credit says so."
+ },
+ {
+  "product": "NOCO Boost Plus GB40 1000A Jump Starter",
+  "cards": [
+   [
+    "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+    "noco-gb40"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/noco-boost-plus-gb40.jpg",
+  "kind": "brand",
+  "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+  "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_%2827189494027%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "HELD for owner review (label mismatch). Top-down product-alone shot of a NOCO GB40 (12V 1000A, '7000 joules 3S') on moss, no people, by independent photographer Tony Webster (Flickr https://flickr.com/photos/87296837@N00/27189494027, 24 Mar 2017, FlickreviewR-confirmed cc-by-2.0). Same model number and body shape as today's Boost Plus GB40, but the face label is the older 'NOCO genius BOOST+' branding; current units are labelled 'NOCO Boost'. A reader comparing it with the listing may notice. If the owner accepts this, flip all three GB40 entries to ok. NOCO's downloads page (https://no.co/downloads) still returns 403 to automated fetches (also via a second fetcher today), so the official image could not be checked; a person can try it in a browser. Saved from the 1280px rendition, 1280x853, metadata stripped. | Accepted 2026-11-01: same GB40 model, older label; credit says so."
+ },
+ {
+  "product": "NOCO Boost Plus GB40 jump starter",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "gb40"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/noco-boost-plus-gb40.jpg",
+  "kind": "brand",
+  "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+  "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_%2827189494027%29.jpg",
+  "terms": "https://creativecommons.org/licenses/by/2.0/",
+  "terms_quote": "CC BY 2.0 (Creative Commons Attribution 2.0 Generic)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "HELD for owner review (label mismatch). Top-down product-alone shot of a NOCO GB40 (12V 1000A, '7000 joules 3S') on moss, no people, by independent photographer Tony Webster (Flickr https://flickr.com/photos/87296837@N00/27189494027, 24 Mar 2017, FlickreviewR-confirmed cc-by-2.0). Same model number and body shape as today's Boost Plus GB40, but the face label is the older 'NOCO genius BOOST+' branding; current units are labelled 'NOCO Boost'. A reader comparing it with the listing may notice. If the owner accepts this, flip all three GB40 entries to ok. NOCO's downloads page (https://no.co/downloads) still returns 403 to automated fetches (also via a second fetcher today), so the official image could not be checked; a person can try it in a browser. Saved from the 1280px rendition, 1280x853, metadata stripped. | Accepted 2026-11-01: same GB40 model, older label; credit says so."
+ },
+ {
+  "product": "Neakasa P1 Pro Grooming Vacuum Kit",
+  "cards": [
+   [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "p1pro"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none, one lead. Neakasa was formerly Neabot. The 2021 PRWeb launch release 'New Neabot P1 Pro All-in-One Pet Grooming Kit and Vacuum...' (https://www.prweb.com/releases/new_neabot_p1_pro_all_in_one_pet_grooming_kit_and_vacuum_is_a_must_have_tool_for_do_it_yourself_diy_pet_grooming_and_professional_groomers/prweb18077522.htm) lists a product image (https://ww1.prweb.com/prfiles/2021/07/19/18077522/NeabotP1Pro.jpg) and a press kit PDF (NeabotPressKit_Final.pdf), but the file server returned HTTP 522 on every try today, and the page states no image terms. The unit in it would carry the old 'Neabot' branding. Commons has no Neakasa/Neabot files. To source: Neakasa P1 Pro pet grooming vacuum kit (5 tools, 1 L cup). Contacts: hi@neakasa.com (Neakasa releases); hi@neabot.com and sandra@wirenotebook.com (2021 PRWeb release)."
+ },
+ {
+  "product": "Ninja AF101 4-Quart Air Fryer",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "ninja-af101"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. SharkNinja newsroom/press pages are behind a Cloudflare bot challenge (403). Commons Category:Airfryers and Category:SharkNinja hold only the Ninja Foodi MAX AG551EU grill (different product); no AF101 file. To source: Ninja AF101 Air Fryer, 4-quart, black/grey with a single nonstick basket (UK twin AF100UK looks similar but is a different SKU). Ask SharkNinja PR or photograph it."
+ },
+ {
+  "product": "Nothing Ear (3)",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "nothing"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No Nothing press kit (nothing.tech press/newsroom pages 404); official images were posted only on social media, which is not allowed. Commons has many CC BY-SA photos of the Nothing ear (1) and ear (stick) by 'Premeditated', but none of the Ear (3), whose metal case and new 'Super Mic' design differ, so none were used. To source: Nothing Ear (3), launched Sept 2025, $179; our card shows white/silver (#F5F5F5 case). Ask Nothing PR or photograph it."
+ },
+ {
+  "product": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "ocedar-mop"
+   ],
+   [
+    "posts/2026-10-o-cedar-easywring-spin-mop",
+    "ocedar-mop"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No O-Cedar press kit; parent Freudenberg's press centre is corporate, and its O-Cedar images show the EasyWring RinseClean sibling on a non-press page. Commons has no O-Cedar spin mop (title search finds only a 1919 O-Cedar ad) and Category:Mop_buckets holds only generic buckets. To source: O-Cedar EasyWring Microfiber Spin Mop & Bucket Floor Cleaning System (triangle head, foot-pedal wringer; red/grey in the US). Ask Freudenberg Household Products (O-Cedar) PR or photograph it."
+ },
+ {
+  "product": "O-Cedar EasyWring spin mop and bucket",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "ocedar"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. No O-Cedar press kit; parent Freudenberg's press centre is corporate, and its O-Cedar images show the EasyWring RinseClean sibling on a non-press page. Commons has no O-Cedar spin mop (title search finds only a 1919 O-Cedar ad) and Category:Mop_buckets holds only generic buckets. To source: O-Cedar EasyWring Microfiber Spin Mop & Bucket Floor Cleaning System (triangle head, foot-pedal wringer; red/grey in the US). Ask Freudenberg Household Products (O-Cedar) PR or photograph it."
+ },
+ {
+  "product": "OXO Good Grips Good Gravy Fat Separator (4-cup)",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "separator"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Still none. oxo.com (press and media pages included) is behind a Cloudflare bot challenge (403); OXO's PR Newswire releases cover other products. Commons has no OXO kitchenware or fat-separator files (title searches find only the OXO Tower and the OXO video game). To source: OXO Good Grips Good Gravy Fat Separator, 4-cup (bottom-draining; clear body). Ask OXO (Helen of Troy) PR or photograph it."
+ }
+]

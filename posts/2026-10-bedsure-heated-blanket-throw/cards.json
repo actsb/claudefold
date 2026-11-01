@@ -11,9 +11,8 @@
       "badge": "Product of the day · the value pick in heated throws",
       "chip": "50×60 in · 6 heat levels · machine washable",
       "art": {
-        "shape": "box",
-        "body": "#8A8F98",
-        "accent": "#C9781B"
+        "shape": "tile",
+        "label": "Bedsure heated throw"
       },
       "price": "Heated throws run about $20 to $80 at major retailers; Walmart listed the U by Bedsure 50×60 throw at about $32 on October 1, 2026. The button shows today's price.",
       "buy_if": "you want one person on a sofa or desk warm for about a cent or two an hour, and you will check the model number on the label before first use.",

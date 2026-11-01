@@ -1,0 +1,783 @@
+[
+ {
+  "product": "Amazon Echo Frames (3rd Gen)",
+  "cards": [
+   [
+    "posts/2026-09-best-smart-glasses",
+    "echo"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Amazon Echo Frames (3rd Gen) smart glasses, 2023 (style shown on the card is not specified; the frames come in several styles, e.g. Modern Rectangle / Classic Round / Square, with blue-light, sunglass or prescription-ready lenses). Pass 2 found the Amazon press center assets: press.aboutamazon.com/search/devices?f1=0000018a-b3a5-d4f3-afbe-fbff3e5c0000 (Echo Frames (3rd Gen) filter) lists echo-frames-image-1.png, -2.jpg, -3.png (e.g. https://assets.aboutamazon.com/94/bd/fd9c6cd84f62aa303ec7e84436b3/echo-frames-image-1.png). All three are lifestyle shots with a person's face as the subject (glasses worn), so they break the no-faces rule. Terms: the press center's Images & Videos page has no media licence; it only says non-press parties wanting logos should use the Amazon Trademarks page, and the footer links Amazon.com Conditions of Use (https://www.amazon.com/gp/help/customer/display.html?nodeId=508088, which returned 503 when fetched, so it is not quoted). Press assets also sit on a script-only Bynder portal (amazongca.getbynder.com) whose terms could not be read. Wikimedia Commons and Flickr CC searches ('Echo Frames') found nothing of the product. Ask Amazon PR (press.aboutamazon.com/contact-us) for a product-only shot and written permission for affiliate use."
+ },
+ {
+  "product": "Anker SOLIX C1000 Gen 2",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "c1000"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "c1000"
+   ],
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "c1000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Anker SOLIX C1000 Gen 2 Portable Power Station (1,024 Wh, 2,000 W, US version with US outlets; launched Aug 19, 2025, MSRP $799). Its GlobeNewswire launch release (Aug 19, 2025; syndicated copy: https://markets.financialcontent.com/wral/article/gnwcq-2025-8-19-anker-launches-solix-c1000-gen-2-its-most-versatile-compact-power-station-yet) says 'For product images, specifications, and press inquiries, visit the Anker SOLIX Press Kit'. The link is a GlobeNewswire Tracker redirect, and GlobeNewswire returns 403 to automated access, so the kit could not be opened. The only image on the release is the Anker SOLIX logo. The 2023 SOLIX Dropbox kit (from PR Newswire 301914075) has the 1st-gen C1000 only (different model, not used). Commons/Flickr: nothing. Press contacts in the release: jenna.rogers@anker.com, sean.tan@anker.com (2023 kit contacts: emelinefoy@anker.com US). The owner can open the 'Anker SOLIX Press Kit' link from the GlobeNewswire release in a browser."
+ },
+ {
+  "product": "Anker SOLIX C300 DC",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "c300"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Anker SOLIX C300 DC Power Bank Station (288 Wh, 300 W, DC/USB only with no AC outlets, model A1726; launched Aug 2024, $199.99 list). No wire-service release with images was found on PR Newswire, GlobeNewswire or Business Wire. The launch text ('Anker SOLIX Unveils New Lineup of Compact and Mighty Portable Power Stations', Aug 14, 2024) appears only on anker-in.com and syndication sites, without a press kit. Commons/Flickr: nothing. Contacts: jenna.rogers@anker.com, sean.tan@anker.com (Anker SOLIX US PR, from the 2025 releases)."
+ },
+ {
+  "product": "Anker SOLIX F3800 / F3800 Plus",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "f3800"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/anker-solix-f3800.jpg",
+  "kind": "brand",
+  "credit": "Anker SOLIX press kit",
+  "source": "https://www.prnewswire.com/news-releases/anker-solix-introduces-next-generation-of-camping-and-flex-series-power-stations-301914075.html",
+  "image_url": "https://www.dropbox.com/sh/qdu8yhdfh3tpomo/AACLn6iYWf8E_sxlFtLRwvO3a?dl=0 (ZIP > Anker SOLIX F3800/US/F3800 - US version - 3.png)",
+  "terms": "https://www.prnewswire.com/news-releases/anker-solix-introduces-next-generation-of-camping-and-flex-series-power-stations-301914075.html",
+  "terms_quote": "none stated; press download page (release link text: 'Link For High-Res Product and Lifestyle Images')",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "The file is 'Anker SOLIX F3800/US/F3800 - US version - 3.png' (6000x6000 RGBA cut-out, 15.8 MB) from Anker's official 2023 SOLIX press kit. That kit is the Dropbox folder linked under PR Contacts in Anker's own PR Newswire release (Aug 31, 2023) as 'Link For High-Res Product and Lifestyle Images'. Shows the US-version F3800 alone, three-quarter view with side outlet panel, wheels and handle. It was flattened onto white, resized to 1400 px and saved as JPEG; nothing else was changed. This is the original F3800, not the F3800 Plus. The Plus is a near-identical evolution, but no Plus image was found, so caption it 'F3800' or check with Anker. The earlier pass rejected this file only because of the old 15 MB / no-resize rule. No usage terms or credit line are stated in the release or the kit. Contacts: emelinefoy@anker.com (US), jessica.gorringe@anker.com (UK)."
+ },
+ {
+  "product": "Anker Soundcore Liberty 4 NC",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "liberty"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Anker Soundcore Liberty 4 NC true-wireless earbuds (model A3947), 2023; the card does not specify a colour (sold in Black, White, Blue, Pink etc.). Nothing new in pass 2. soundcore.com 'press-release-introducing-liberty-4-nc' is a store page with no downloads or terms. No PR Newswire/GlobeNewswire release with images was found. Commons has no Soundcore category or Liberty 4 NC photo (only an old 2017 'Zolo Liberty' on Flickr/Commons, a different product). Ask Anker US PR (jenna.rogers@anker.com, sean.tan@anker.com, from Anker SOLIX releases) for a soundcore contact."
+ },
+ {
+  "product": "Apple AirPods 5",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "airpods5"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/apple-airpods-5.jpg",
+  "kind": "brand",
+  "credit": "Photo: Cheeseburgahhh, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Fifth-generation_AirPods_in_their_charging_case.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Fifth-generation_AirPods_in_their_charging_case.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Own work by Commons user Cheeseburgahhh (https://commons.wikimedia.org/wiki/User:Cheeseburgahhh), description 'Fifth-generation AirPods in their charging case', taken 2026-09-19 (after the Sept 2026 launch). Product alone, open white case with both buds, on a wood surface, no people. The AirPods 5 identification relies on the uploader's title and the capture date, because AirPods 4 and 5 look very similar. The case is the standard one; the card also mentions the $149 wireless-case version. Downloaded as Wikimedia's standard 1280 px rendition, because upload.wikimedia.org rate-limited (429) the 2150 px original; saved as JPEG 1280x1280 with metadata stripped and no other edits. CC BY-SA needs the credit line with a link to the licence, and the edited file would be shared under the same licence. Apple Newsroom image held earlier (non-commercial terms)."
+ },
+ {
+  "product": "Apple AirPods Pro 3",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "pro3"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "pro3"
+   ],
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "pro3"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/apple-airpods-pro-3.jpg",
+  "kind": "brand",
+  "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Airpods_Modell_Pro_3.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Own work by Burkhard Mücke (Commons user Pimpinellus), 2025-10-24, part of his series comparing AirPods Pro 1, 2 and 3 (Category:AirPods Pro mit Hörgerätefunktion im Vergleich); the file title names Model Pro 3. Shows the two AirPods Pro 3 earbuds alone on a wood table (no case), slightly used/dusty, no people. Rejected alternatives: 'AirPods Pro 3 with case.jpg' (clean studio look, CC BY 3.0) is a frame from a YouTube video by Auggie G. That counts as social media, and its CC licence has no Commons licence review. Mücke's case shots show an engraved (anonymised) e-mail address or several generations side by side. Downloaded as Wikimedia's standard 1920 px rendition (the original was rate-limited); resized to 1400x763, JPEG q85, metadata stripped, no crop. Apple Newsroom hero image held earlier (non-commercial terms)."
+ },
+ {
+  "product": "Apple AirTag (2nd generation), single",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "airtag"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/",
+  "image_url": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip",
+  "terms": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Apple Newsroom has the only press photo: the 2nd-generation AirTag in the FineWoven Key Ring (orange, sold separately); there is no bare-AirTag or 4-pack shot. Its terms limit use to 'personal or editorial and non-commercial', and an affiliate site is commercial. Ask the Apple Media Helpline (media.help@apple.com). Not saved to brand/photos. Pass 2 widened the search: Wikimedia Commons Category:AirTag has only 1st-generation AirTags (KKPCW series, May 2021, CC BY-SA 4.0). The 2nd gen looks almost the same, so those were not used (wrong model). Flickr CC search ('AirTag 2') found no product shot. Exact product: Apple AirTag (2nd generation), 1-pack, white/silver; the card art shows a single white AirTag."
+ },
+ {
+  "product": "Apple AirTag 2 (4-pack)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-tech-car",
+    "airtag2"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "airtag2"
+   ],
+   [
+    "posts/2026-09-apple-airtag-2",
+    "airtag2"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Apple press kit",
+  "source": "https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/",
+  "image_url": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip",
+  "terms": "https://www.apple.com/newsroom/images/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/article/Apple-AirTag-FineWoven-Key-Ring.zip (LEGAL_NOTICE.rtf inside the ZIP)",
+  "terms_quote": "By using any of the media included in this zipped file, you agree that the use is personal or editorial and non-commercial. Images, video, and audio cannot be altered or modified in any way, in whole or in part without express permission from Apple.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Apple Newsroom has the only press photo: the 2nd-generation AirTag in the FineWoven Key Ring (orange, sold separately); there is no bare-AirTag or 4-pack shot. Its terms limit use to 'personal or editorial and non-commercial', and an affiliate site is commercial. Ask the Apple Media Helpline (media.help@apple.com). Not saved to brand/photos. Pass 2 widened the search: Wikimedia Commons Category:AirTag has only 1st-generation AirTags (KKPCW series, May 2021, CC BY-SA 4.0). The 2nd gen looks almost the same, so those were not used (wrong model). Flickr CC search ('AirTag 2') found no product shot. Exact product: Apple AirTag (2nd generation) 4-pack ($99 list). No 4-pack image exists in Apple's kit."
+ },
+ {
+  "product": "Beats Powerbeats Pro 2",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "powerbeats"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/beats-powerbeats-pro-2.jpg",
+  "kind": "brand",
+  "credit": "Photo: Kyu3a, CC BY-SA 4.0, Wikimedia Commons",
+  "source": "https://commons.wikimedia.org/wiki/File:Powerbeats_Pro_2_-_4.jpg",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Powerbeats_Pro_2_-_4.jpg",
+  "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "terms_quote": "Creative Commons Attribution-Share Alike 4.0 International (CC BY-SA 4.0)",
+  "uses": [
+   "web",
+   "social"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Own work by Commons user Kyu3a (https://commons.wikimedia.org/wiki/User:Kyu3a), 2026-07-13, in Category:Powerbeats Pro 2. Shows both earbuds (Jet Black) in front of the open charging case on a desk, with cables in the dark background. No people or hands. The card names no colour; this is black. Other files in the series show a hand holding a bud or an in-store display. Downloaded as Wikimedia's standard 1920 px rendition (the original was rate-limited); resized to 1050x1400, JPEG q85, metadata stripped. Beats press room still has nothing for Powerbeats Pro 2 (press@beatsbydre.com)."
+ },
+ {
+  "product": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "beckham-pillows"
+   ],
+   [
+    "posts/2026-10-beckham-hotel-collection-pillows",
+    "beckham-pillows"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Beckham Hotel Collection Gel-fiber Bed Pillows, Standard/Queen, set of 2 (white, sold by Beckham Luxury Linens). Pass 2 again found no press page, media kit or wire release (PR Newswire/Business Wire/PRWeb), and no Commons/Flickr photo. Images exist only on marketplace listings (not allowed). Contact: Beckham Luxury Linens customer/press contact via beckhamluxurylinens.com, or photograph a set in-house."
+ },
+ {
+  "product": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "bedsure-throw"
+   ],
+   [
+    "posts/2026-10-bedsure-heated-blanket-throw",
+    "bedsure-throw"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Bedsure heated electric throw blanket, 50 x 60 in, 6 heat levels, auto-off timer, machine-washable (flannel/sherpa; the card art is grey with an orange or red controller accent; exact SKU not given on the card, and 'U by Bedsure' is a separate line). Pass 2 checked all Bedsure PR Newswire releases on heated products: Heated Essentials 2024 (302269432, 302313980: 'UP TO 54% OFF' collage mma 2565193), GentleSoft heated collection 2025 (302615640: 'BFCM' promo graphic mma 2823405), Early Black Friday (302305903: promo graphic) and the Oct 2026 heated bedding release (302891260: no image). None is a clean shot of the 50 x 60 throw. No Bedsure media kit or regional press room found; Commons/Flickr have nothing. Ask Bedsure PR (contact listed in its PR Newswire releases)."
+ },
+ {
+  "product": "Bedsure heated electric throw (50 x 60 in)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "bedsure"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Bedsure heated electric throw blanket, 50 x 60 in, 6 heat levels, auto-off timer, machine-washable (flannel/sherpa; the card art is grey with an orange or red controller accent; exact SKU not given on the card, and 'U by Bedsure' is a separate line). Pass 2 checked all Bedsure PR Newswire releases on heated products: Heated Essentials 2024 (302269432, 302313980: 'UP TO 54% OFF' collage mma 2565193), GentleSoft heated collection 2025 (302615640: 'BFCM' promo graphic mma 2823405), Early Black Friday (302305903: promo graphic) and the Oct 2026 heated bedding release (302891260: no image). None is a clean shot of the 50 x 60 throw. No Bedsure media kit or regional press room found; Commons/Flickr have nothing. Ask Bedsure PR (contact listed in its PR Newswire releases)."
+ },
+ {
+  "product": "Bio Bidet BB-2000 Bliss (electric seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "bb2000"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Bio Bidet BB-2000 Bliss electric bidet seat (white; elongated and round versions exist; the card art shows an electric seat, size not specified). Pass 2 again found no press room, media kit or wire release with BB-2000 images, and no Commons/Flickr photo of the model (Commons only has generic Japanese washlets). Contact Bio Bidet (Bemis Manufacturing brand) via biobidet.com/contact."
+ },
+ {
+  "product": "Bissell Little Green (1400B)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "little-green"
+   ],
+   [
+    "posts/2026-09-prime-big-deal-days-2026",
+    "little-green"
+   ],
+   [
+    "posts/2026-09-bissell-little-green",
+    "little-green"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BISSELL Little Green Portable Carpet Cleaner, model 1400B (green/clear tank, 48 oz). Pass 2: BISSELL's PR Newswire releases (bissell org page) are only Little Green Mini NYFW, spring cleaning and BarkBath, with no 1400B image. The bissell.com newsroom has no downloads. Commons has no Bissell product category, and Flickr CC search ('Bissell Little Green') returned 0 results. Contact: pr@bissell.com."
+ },
+ {
+  "product": "Bissell Little Green Mini (4075)",
+  "cards": [
+   [
+    "posts/2026-09-bissell-little-green",
+    "mini"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BISSELL Little Green Mini portable carpet cleaner, model 4075 (corded). Only press image remains the NYFW release photo (https://mma.prnewswire.com/media/2821609/BISSELL_Homecare_Little_Green.jpg) with third-party Susan Alexandra bag charms, not a clean product shot; model 4075 not confirmed there. Commons/Flickr: nothing. Ask pr@bissell.com for a clean 4075 shot."
+ },
+ {
+  "product": "Black+Decker ComfortGrip 9-inch Electric Knife",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "knife"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BLACK+DECKER ComfortGrip 9-inch Electric Carving Knife, model EK700 (white with red/grey accents, per the card art). Black+Decker small kitchen appliances in the US are licensed to Spectrum Brands; no Spectrum or Black+Decker press asset was found for it. Commons Category:Black & Decker has toasters, tools and a can opener, but no electric knife; Commons 'Electric knives' is empty and Flickr CC had nothing. Model number EK700 is from general product knowledge; check it against the card's link. Contact Spectrum Brands media relations (spectrumbrands.com/news)."
+ },
+ {
+  "product": "Black+Decker Dustbuster AdvancedClean cordless hand vacuum (CHV1410L)",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "dustbuster"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BLACK+DECKER Dustbuster AdvancedClean cordless hand vacuum CHV1410L (16V, white/grey with purple/orange accents per the card art). Commons Category:Black & Decker DustBuster has only 2018 in-store photos of other EU 'Kruimeldief' models, a Spill Buster and a tiny 'Dustbuster Eco Extreme'. None is the CHV1410L. Flickr CC 'Dustbuster' returned only a 1979 original Dustbuster (CC0) and unrelated photos. No Stanley Black & Decker press asset found. Contact Stanley Black & Decker media relations (stanleyblackanddecker.com/news)."
+ },
+ {
+  "product": "Bluetti Elite 200 V2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "elite200"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BLUETTI Elite 200 V2 portable power station (2,073.6 Wh LiFePO4, 2,600 W, US version). BLUETTI PR Newswire org page (https://www.prnewswire.com/news/bluetti-power-inc/) checked in pass 2: Elite 200 V2 launch (302302493) has only the 'NEW ARRIVAL' featured graphic (mma 2555184); Black Friday 2024 (302304116) and Christmas 2024 (302330174) have promo graphics; the Oct 2026 Prime Big Deal Days release (302899603) has no Elite image. The bluettipower.com newsroom lists coverage only and has no media kit. Commons has only a 2026 photo of AC50P/AC180P/AC200PL units (different models). Contact BLUETTI PR via the media contact in its PR Newswire releases (no address shown on the release pages)."
+ },
+ {
+  "product": "Bluetti Elite 30 V2",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "elite30"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BLUETTI Elite 30 V2 portable power station (288 Wh, 600 W, US version; sold in grey and later in two new colours). BLUETTI PR Newswire org page (https://www.prnewswire.com/news/bluetti-power-inc/) checked in pass 2: Elite 200 V2 launch (302302493) has only the 'NEW ARRIVAL' featured graphic (mma 2555184); Black Friday 2024 (302304116) and Christmas 2024 (302330174) have promo graphics; the Oct 2026 Prime Big Deal Days release (302899603) has no Elite image. The bluettipower.com newsroom lists coverage only and has no media kit. Commons has only a 2026 photo of AC50P/AC180P/AC200PL units (different models). The Elite 30 V2 launch photo (mma 2790420) is a beach lifestyle shot with two people. AU releases (Cision/AAP, Sept 2025) cover new colours only. Contact BLUETTI PR."
+ },
+ {
+  "product": "Braun 500-lumen rechargeable magnetic work light",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "braun"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: BRAUN 500 Lumen Rechargeable Magnetic Work Light, Harbor Freight item 59536 (red/yellow per the card art). Braun-branded lights at Harbor Freight are a Harbor Freight brand licence, not Braun GmbH. No press source exists; Commons/Flickr have nothing. Options: ask Harbor Freight media relations or photograph one."
+ },
+ {
+  "product": "Brondell Swash EcoSeat (manual bidet seat)",
+  "cards": [
+   [
+    "posts/2026-10-best-bidet-2026",
+    "ecoseat"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Brondell Swash EcoSeat manual (non-electric) dual-nozzle bidet seat (white; round/elongated not specified). Pass 2: no Brondell press room or media kit (brondell.com /press, /media 404). Its PR Newswire releases cover the Swash 1400, a Costco seat and CES 2023, not the EcoSeat. Commons/Flickr: nothing. Contact Brondell marketing via brondell.com/contact."
+ },
+ {
+  "product": "Chipolo Pop",
+  "cards": [
+   [
+    "posts/2026-09-apple-airtag-2",
+    "chipolo"
+   ]
+  ],
+  "status": "held",
+  "file": "",
+  "kind": "brand",
+  "credit": "Chipolo press kit",
+  "source": "https://chipolo.net/en-us/pages/press",
+  "image_url": "https://www.dropbox.com/scl/fo/82xk539112567mltlmgu5/AEBLWtlhfQBe4UZH55xMEz8?rlkey=abss26avr274aquvzqtcbnvs3&dl=0 (Chipolo PRESS KIT 2025.zip > 02_Chipolo_POP/02_Photos/02_Product_Photos/Chipolo_POP-Blue.png)",
+  "terms": "https://chipolo.net/en-us/pages/press",
+  "terms_quote": "Download Press Kit Logotypes, photos and video files, brochures and more information about Chipolo.",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "Unchanged from the earlier pass: the official kit render (blue POP, 3000x3000 PNG; other colours in the same folder) is available, but the kit's Marketing_Materials_Guidelines.pdf says 'Any materials you create should be approved by the Chipolo design team' (design@chipolo.net). Get that approval, then use it. Not saved to brand/photos. Pass 2: Commons has only 'Chipolo ONE.jpg' (CC BY-SA 4.0, uploaded by Chipolo; a different model) and the logo; no POP photo. Exact product: Chipolo POP Bluetooth tracker (Find My or Find Hub version; colour not specified on the card)."
+ },
+ {
+  "product": "ChomChom Roller (Original)",
+  "cards": [
+   [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "chomchom"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: ChomChom Roller pet hair remover, original (reusable, grey/white with dark accent per the card art; made by ChomChom/Pet Hair Remover LLC). Pass 2: no press page or wire release found; chomchomroller.com refused connections earlier. Commons search for 'ChomChom' only returns Thai places (chôm chôm = rambutan), Commons Category:Lint rollers has generic rollers only, and Flickr CC 'ChomChom roller' returned 0 results. Contact the maker via chomchomroller.com or photograph one."
+ },
+ {
+  "product": "ChomChom Roller pet hair remover",
+  "cards": [
+   [
+    "posts/2026-10-gifts-under-50",
+    "chomchom"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: ChomChom Roller pet hair remover, original (reusable, grey/white with dark accent per the card art; made by ChomChom/Pet Hair Remover LLC). Pass 2: no press page or wire release found; chomchomroller.com refused connections earlier. Commons search for 'ChomChom' only returns Thai places (chôm chôm = rambutan), Commons Category:Lint rollers has generic rollers only, and Flickr CC 'ChomChom roller' returned 0 results. Contact the maker via chomchomroller.com or photograph one."
+ },
+ {
+  "product": "Claude (the planning half: shot list, prompts, review)",
+  "cards": [
+   [
+    "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "claude"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Not a physical product: the card is about Anthropic's Claude AI assistant (desktop, web, Claude Code). A 'product photo' would be a logo or a UI screenshot. Logos are trademark-restricted, and a screenshot is better taken in-house from the post's own workflow. Not sourced. If a brand image is wanted, ask Anthropic press (press@anthropic.com) or use an in-house screenshot of the Claude app."
+ },
+ {
+  "product": "Cordless stick vacuum (Shark Cordless Pro, Dyson V8)",
+  "cards": [
+   [
+    "posts/2026-10-black-friday-home-kitchen",
+    "stick-vac"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Generic category card naming two products (Shark Cordless Pro stick vacuum, e.g. IZ562H; Dyson V8 / V8 Absolute). One brand photo would misrepresent it, so it is not sourced. If the card is changed to show the Dyson V8, a Commons candidate is https://commons.wikimedia.org/wiki/File:Dyson_V8_handstick_vacuum.jpg (CC BY 2.0, author 'Your Best Digs', 1900x1266, wand and motor unit with brush heads). It was not checked closely or downloaded."
+ },
+ {
+  "product": "Cuisinart MultiClad Pro Triple Ply 16-inch Roasting Pan with Rack",
+  "cards": [
+   [
+    "posts/2026-10-thanksgiving-hosting",
+    "roaster"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Cuisinart MultiClad Pro Triple Ply Stainless 16-inch Rectangular Roaster with Rack, model MCP117-16BR. Pass 2: Cuisinart (Conair) has no public press/media page (cuisinart.com/press 404), and its PR Newswire releases cover appliances only. Commons search for a Cuisinart roasting pan found nothing; Flickr CC had nothing. Model number MCP117-16BR is from general product knowledge; check it against the card's link. Contact Conair/Cuisinart PR via cuisinart.com/contact-us."
+ },
+ {
+  "product": "Dreame D10 Plus Gen 2",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "d10"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Dreame D10 Plus Gen 2 robot vacuum with self-empty base (white, US). Dreame's PR Newswire org page (pass 2) has only D10 Plus (2022), L10 Prime, personal-care and Black Friday/Prime releases. The Oct 2026 'Amazon Prime Big Deal Days' release (302898524) mentions L50 Ultra at $699 but has no images. Commons Category:Dreame has only the logo, store fronts and a billboard. Only the 2022 D10 Plus (Gen 1) releases have images, a sibling model, so not substituted. Contact Dreame US PR via the media contact in its PR Newswire releases."
+ },
+ {
+  "product": "Dreame L50 Ultra",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "l50"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Dreame L50 Ultra robot vacuum and mop with hot-water self-cleaning dock (US version, ProLeap climbing legs; launched at $1,399.99). Dreame's PR Newswire org page (pass 2) has only D10 Plus (2022), L10 Prime, personal-care and Black Friday/Prime releases. The Oct 2026 'Amazon Prime Big Deal Days' release (302898524) mentions L50 Ultra at $699 but has no images. Commons Category:Dreame has only the logo, store fronts and a billboard. Variant releases exist (L50 Ultra CE / L50s Pro Ultra India, June 2026; L50 Ultra AE UK). These are siblings, so not substituted. Contact Dreame US PR."
+ },
+ {
+  "product": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+  "cards": [
+   [
+    "posts/2026-10-dreo-space-heater",
+    "dreo-heater"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: per the earlier pass, the post covers the Dreo Atom One space heater (DR-HSH004, black, 1500 W PTC, oscillating, thermostat and remote); the card title is generic. Dreo's PR Newswire releases cover newer heaters (Whole-Room 714/715/720, MC706). No Atom One release, media kit or Commons/Flickr photo was found. Another model would be a substitution. Contact Dreo via dreo.com."
+ },
+ {
+  "product": "Drop Stop car seat gap filler",
+  "cards": [
+   [
+    "posts/2026-10-gifts-car-lovers",
+    "dropstop"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Drop Stop - The Original Patented Car Seat Gap Filler, 2-pack (black, as on the card). The buydropstop.com press page has media contacts but no images. Commons has only the Drop Stop logo (public-domain text logo), not the product. Flickr CC: no product photo. Contact Drop Stop via the press page https://buydropstop.com/info/howard-stern.html or photograph one."
+ },
+ {
+  "product": "EarFun Air Pro 4+",
+  "cards": [
+   [
+    "posts/2026-09-best-wireless-earbuds",
+    "earfun"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: EarFun Air Pro 4+ true-wireless ANC earbuds (Oct 2025; colour not specified on the card). EarFun's only PR Newswire releases are the Oct 27, 2025 Air Pro 4+ release (composite with a model wearing the buds plus text, mma 2805665) and the Sept 2026 Wave Pro X headphones release. Commons has 'Earfun wireless black headphones, September 2024' photos (CC BY-SA, Chenspec), but they predate the Air Pro 4+ and the model is unknown, so not used. Contact media@myearfun.com."
+ },
+ {
+  "product": "Earth Rated Dog Poop Bags (270, unscented, refill rolls)",
+  "cards": [
+   [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "bags"
+   ]
+  ],
+  "status": "none",
+  "file": "",
+  "kind": "brand",
+  "credit": "",
+  "source": "",
+  "image_url": "",
+  "terms": "",
+  "terms_quote": "",
+  "uses": [],
+  "checked": "2026-11-01",
+  "notes": "Exact product: Earth Rated Dog Poop Bags, unscented, 270 bags (18 refill rolls x 15), green bags (as on the card art). Pass 2 checked Earth Rated's PR Newswire releases: the PetSmart availability release (302215699) is a store-shelf assortment of many products, the pee-pad release (302551938) shows pee pads, and the 2026 Halloween parade release has no image; the 2023 'new look' release is a small lavender composite. No media kit (earthrated.com /pages/press 404). Commons/Flickr: nothing. Contact Earth Rated PR via the PR Newswire release contacts or earthrated.com."
+ },
+ {
+  "product": "EcoFlow DELTA Pro 3",
+  "cards": [
+   [
+    "posts/2026-09-best-portable-power-stations",
+    "pro3"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/ecoflow-delta-pro-3.jpg",
+  "kind": "brand",
+  "credit": "EcoFlow press kit",
+  "source": "https://drive.google.com/drive/folders/1s5OEOtogK4zc7ry4EV1mUbZ8VyL-RgNE",
+  "image_url": "https://drive.google.com/file/d/18B7_XwD7nhYSEN9iw543NyeONV0doky7/view (2 Product Images/1 Cut-out/30°Front.png)",
+  "terms": "https://www.prnewswire.com/news-releases/ecoflow-launches-delta-pro-3-the-next-generation-of-home-and-portable-energy-storage-302179840.html",
+  "terms_quote": "none stated; press download page (release: 'Images and more information can be found in the media kit.')",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "File '30°Front.png' (8000x8000 RGBA cut-out, 40 MB) from EcoFlow's official DELTA Pro 3 media kit (Google Drive, folder '2 Product Images/1 Cut-out'), linked from EcoFlow's own PR Newswire launch release. Shows the DELTA Pro 3 alone, three-quarter front view, US outlets (NEMA 5-20 and L14-30), no extra battery. It was flattened onto white, resized to 1400 px and saved as JPEG; nothing else was changed. The earlier pass rejected it only because of the old 15 MB / no-resize rule. No usage terms or credit line are stated; same standard as the accepted DELTA 3 Plus and RIVER 3 entries."
+ },
+ {
+  "product": "Ecovacs Deebot X11 OmniCyclone",
+  "cards": [
+   [
+    "posts/2026-09-best-robot-vacuums",
+    "x11"
+   ]
+  ],
+  "status": "ok",
+  "file": "brand/photos/ecovacs-deebot-x11-omnicyclone.jpg",
+  "kind": "brand",
+  "credit": "ECOVACS press image (PRNewswire)",
+  "source": "https://www.prnewswire.com/news-releases/ecovacs-unveils-award-winning-deebot-at-ifa-with-industrys-first-fast-charging-robotic-cleaner-302547789.html",
+  "image_url": "https://mma.prnewswire.com/media/2765813/TruePass.jpg?p=original",
+  "terms": "https://www.prnewswire.com/news-releases/ecovacs-unveils-award-winning-deebot-at-ifa-with-industrys-first-fast-charging-robotic-cleaner-302547789.html",
+  "terms_quote": "none stated; press download page",
+  "uses": [
+   "web"
+  ],
+  "checked": "2026-11-01",
+  "notes": "This replaces the earlier 'held' key visual. The photo comes from ECOVACS's own US PR Newswire release (IFA 2025, which also gives US/CA pricing), captioned 'ECOVACS unveils the DEEBOT X11 OMNICYCLONE at IFA 2025 in Berlin.' (file TruePass.jpg, 2700x2025). It shows the X11 robot climbing a threshold, in use, in a plain interior. It has no people, no text and no logo overlay. Robot only: the OmniCyclone bagless station (the card's main selling point) is not in frame. Another image, from release 302547348, shows the X11 OmniCyclone with its station, but it has taglines and logos baked in ('DEEBOT X11 FAMILY ... Xtra in Every Way') and also shows the X11 PRO OMNI. Resized to 1400 px, JPEG q85, metadata stripped, no crop. PR Newswire site Terms of Use (https://www.prnewswire.com/terms-of-use/) cover the site itself (personal, noncommercial use); the release states no image terms. The photo is attached to the maker's own release for media download. It is treated as an issuer-supplied press photo, the same standard as the earlier pass. Confirm with brand PR if in doubt."
+ }
+]

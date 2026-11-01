@@ -11,9 +11,8 @@
       "badge": "Pets · the budget orthopedic bed",
       "chip": "36×27 in · egg-crate base · washable cover",
       "art": {
-        "shape": "bag",
-        "body": "#8B6B43",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "Furhaven dog bed"
       },
       "price": "About $40–$57 for the Large at Target and PetSmart (Oct 19, 2026); Casper Large $224.10 at Target",
       "buy_if": "Your dog is under about 55 lb, or older and mildly stiff, and you want a washable bed with a foam base for the price of a dinner out.",

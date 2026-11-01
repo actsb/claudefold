@@ -47,10 +47,8 @@
       "badge": "The KOHLER PureWash dual-nozzle attachment",
       "chip": "2 self-cleaning wands",
       "art": {
-        "style": "attachment",
-        "knobs": 1,
-        "body": "#F4F4F2",
-        "accent": "#9AA0A6"
+        "shape": "tile",
+        "label": "KOHLER PureWash M100"
       },
       "price": "About $59–$75 at the time of writing (Lowe's $59.98, Wayfair $65.88, Home Depot $74.96; $99.95 list)",
       "buy_if": "you want a KOHLER part on a KOHLER toilet, with front and rear wands, and you catch it near $60.",
@@ -68,9 +66,8 @@
       "badge": "A whole new seat, still no outlet",
       "chip": "built-in wand · quiet-close",
       "art": {
-        "style": "seat",
-        "body": "#F4F4F2",
-        "accent": "#9AA0A6"
+        "shape": "tile",
+        "label": "KOHLER PureWash M300"
       },
       "price": "About $93–$110 at the time of writing (Costco $99.99 online; Wayfair $109.98)",
       "buy_if": "your old seat is worn out anyway and you want the bidet hidden inside a quiet-close KOHLER seat.",
@@ -153,10 +150,8 @@
       "badge": "The testers' favourite attachment",
       "chip": "angle + pressure knobs",
       "art": {
-        "style": "attachment",
-        "knobs": 2,
-        "body": "#F6F5F2",
-        "accent": "#9AA0A6"
+        "shape": "tile",
+        "label": "TUSHY Classic 3.0"
       },
       "price": "About $115–$129 ($129 at TUSHY, $114.95 at Walmart, October 2026)",
       "buy_if": "the feel of the stream matters more than price: it is the attachment professional testers pick most often.",
@@ -174,9 +169,8 @@
       "badge": "A two-nozzle manual seat",
       "chip": "2 nozzles · non-electric",
       "art": {
-        "style": "seat",
-        "body": "#F4F4F2",
-        "accent": "#2B6CB0"
+        "shape": "tile",
+        "label": "Brondell Swash EcoSeat"
       },
       "price": "Usually under $100 at major retailers",
       "buy_if": "you want a manual bidet seat from a bidet specialist with the biggest review base in its class.",
@@ -194,10 +188,8 @@
       "badge": "Warm water, heated seat, dryer, under $300",
       "chip": "electric · remote",
       "art": {
-        "style": "seat",
-        "electric": true,
-        "body": "#F4F4F2",
-        "accent": "#1E8E5A"
+        "shape": "tile",
+        "label": "SmartBidet SB-1000"
       },
       "price": "Usually $300–$400",
       "buy_if": "you want the full heated-seat experience for the least money and already have an outlet within about 4 feet of the toilet.",
@@ -215,10 +207,8 @@
       "badge": "The premium seat testers rate highest",
       "chip": "instant warm water · dryer",
       "art": {
-        "style": "seat",
-        "electric": true,
-        "body": "#F7F7F5",
-        "accent": "#1B2A41"
+        "shape": "tile",
+        "label": "TOTO Washlet S2"
       },
       "price": "About $400–$450 at major retailers (2026)",
       "buy_if": "you want the most comfortable stream and dryer CNN Underscored tested, with endless warm water.",
@@ -236,10 +226,8 @@
       "badge": "Forbes Vetted's best overall",
       "chip": "warm water · 3-year warranty",
       "art": {
-        "style": "seat",
-        "electric": true,
-        "body": "#F4F4F2",
-        "accent": "#2B6CB0"
+        "shape": "tile",
+        "label": "Bio Bidet BB-2000"
       },
       "price": "About $490–$700 at dealers ($549 list, October 2026)",
       "buy_if": "you want a feature-rich electric seat with a full 3-year warranty and you can wait for a sale.",

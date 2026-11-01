@@ -8,17 +8,16 @@
       "category": "generic",
       "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
       "short": "Dreo space heater",
-      "badge": "Home comfort \u00b7 the cheap zone heater",
-      "chip": "1500W PTC \u00b7 oscillating \u00b7 remote",
+      "badge": "Home comfort · the cheap zone heater",
+      "chip": "1500W PTC · oscillating · remote",
       "art": {
-        "shape": "cylinder",
-        "body": "#2F2F2F",
-        "accent": "#F08A24"
+        "shape": "tile",
+        "label": "Dreo space heater"
       },
-      "price": "$49.99 at dreo.com (Oct 15, 2026); Walmart deals of $29.99\u2013$43.99 (Nov 2025\u2013Jan 2026)",
+      "price": "$49.99 at dreo.com (Oct 15, 2026); Walmart deals of $29.99–$43.99 (Nov 2025–Jan 2026)",
       "buy_if": "You want to heat one small or medium room, a desk or a bathroom-side corner for a few hours, with a thermostat, a timer and a remote, for about the price of a pizza night.",
-      "skip_if": "You need to heat an open-plan space or run it all night in a drafty room: a 1500W unit tops out near 150 to 200 square feet. For quiet and no remote, the Vornado VH200 (about $60\u2013$70 at Home Depot and Macy's, spring 2026); for a whole-house answer, a heat pump or a furnace tune-up.",
-      "owners": "Dreo.com's Trustpilot page, read Oct 15, 2026: heater buyers praise fast warm-up and lower bills; one reviewer lost output after about 5\u20136 weeks; one 2-star (Jul 17, 2026) was a support problem, not a heating one.",
+      "skip_if": "You need to heat an open-plan space or run it all night in a drafty room: a 1500W unit tops out near 150 to 200 square feet. For quiet and no remote, the Vornado VH200 (about $60–$70 at Home Depot and Macy's, spring 2026); for a whole-house answer, a heat pump or a furnace tune-up.",
+      "owners": "Dreo.com's Trustpilot page, read Oct 15, 2026: heater buyers praise fast warm-up and lower bills; one reviewer lost output after about 5–6 weeks; one 2-star (Jul 17, 2026) was a support problem, not a heating one.",
       "cta": "https://www.amazon.com/s?k=Dreo+space+heater+1500W+oscillating+thermostat+remote&tag=verdictpicks-20",
       "video": "5zUxALu1q0A",
       "video_title": "Dreo Portable Space Heater Full Review",
@@ -26,7 +25,7 @@
       "video_why": "A full-length walk-through of a Dreo portable heater, so you can see the size, the remote and the controls; it may not be the exact Atom One.",
       "buy": {
         "tier": "The pick",
-        "pick": "Dreo Atom One, model DR-HSH004: 1500W PTC ceramic, 70\u00b0 oscillation, thermostat 41\u201395\u00b0F, remote, about 10 inches tall",
+        "pick": "Dreo Atom One, model DR-HSH004: 1500W PTC ceramic, 70° oscillation, thermostat 41–95°F, remote, about 10 inches tall",
         "check": "The listing names model DR-HSH004 or 'Atom One' and says oscillation plus remote. Dreo sells many look-alike names (316 and 320 do not oscillate; the Tower 718 is a bigger, pricier unit). Sold by Dreo or an 'Official DREO Store'; Dreo says fakes carry no warranty.",
         "label": "See today's price"
       }

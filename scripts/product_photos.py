@@ -51,7 +51,19 @@ def url(d, p):
 
 
 def credit_text(p):
-    return "Our photo" if p.get("kind") == "own" else f"Photo: {p['credit']}"
+    """ "Our photo", "Photo: EcoFlow press kit", or a Creative Commons credit as written ("Photo: Jane Doe, CC BY-SA 4.0, ...")."""
+    if p.get("kind") == "own":
+        return "Our photo"
+    c = p["credit"]
+    return c if c.lower().startswith("photo:") else f"Photo: {c}"
+
+
+def credit_svg(text):
+    """The credit under the picture: beside the name when short, on its own line below it when long (Creative Commons credits)."""
+    text = text.replace(", Wikimedia Commons", " / Wikimedia Commons")
+    if len(text) <= 34:
+        return f'<text x="578" y="382" text-anchor="end" font-size="11" fill="#8a8a8a">{esc(text)}</text>'
+    return f'<text x="578" y="397" text-anchor="end" font-size="10" fill="#8a8a8a">{esc(text[:110])}</text>'
 
 
 def card_svg(d, c, chip_w, chip, short):
@@ -64,7 +76,7 @@ def card_svg(d, c, chip_w, chip, short):
 <rect x="18" y="18" width="{chip_w}" height="28" rx="14" fill="{NAVY}"/>
 <text x="{18 + chip_w/2}" y="37" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">{esc(chip)}</text>
 <text x="22" y="380" font-size="22" font-weight="700" fill="{NAVY}">{esc(short)}</text>
-<text x="578" y="382" text-anchor="end" font-size="11" fill="#8a8a8a">{esc(credit_text(p))}</text>
+{credit_svg(credit_text(p))}
 </g>
 </svg>
 '''
@@ -94,8 +106,11 @@ def image_credits(d, cards):
         p = photo(d, c)
         if p and p.get("kind") == "brand" and p["credit"] not in seen:
             seen.add(p["credit"])
-            out.append(f'<a href="{esc(p.get("source") or p["terms"])}" rel="nofollow noopener" target="_blank">{esc(p["credit"])}</a>')
-    return ("Image credits: product photos from " + ", ".join(out) + ", used under their press terms.") if out else ""
+            label = p["credit"][6:].strip() if p["credit"].lower().startswith("photo:") else p["credit"]
+            lic = (f' (<a href="{esc(p["terms"])}" rel="nofollow noopener" target="_blank">license</a>)'
+                   if "creativecommons.org" in (p.get("terms") or "") else "")
+            out.append(f'<a href="{esc(p.get("source") or p["terms"])}" rel="nofollow noopener" target="_blank">{esc(label)}</a>{lic}')
+    return ("Image credits: product photos from " + "; ".join(out) + ", used under their press terms or Creative Commons licenses.") if out else ""
 
 
 def main(post_dir):

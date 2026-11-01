@@ -11,9 +11,8 @@
       "badge": "Kitchen storage · the sturdy value set",
       "chip": "Tritan · latch lids · 5 containers",
       "art": {
-        "shape": "box",
-        "body": "#DCE7F5",
-        "accent": "#C8102E"
+        "shape": "tile",
+        "label": "Rubbermaid Brilliance"
       },
       "price": "Mid-teens to about $20 on sale at Walmart and Target (2025–26 posts); more at list",
       "buy_if": "You want one set that survives a lunchbox, a shaken tote bag and a week of meal prep, and you will hand-wash it or accept the risk.",

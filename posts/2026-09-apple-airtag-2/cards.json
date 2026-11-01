@@ -15,10 +15,8 @@
       "video": "LAihNivnoYQ",
       "video_title": "AirTag 2 review — what's different vs AirTag 1? (Brian Tong)",
       "art": {
-        "style": "coin",
-        "pack": 4,
-        "body": "#F7F7F5",
-        "back": "#C9CACB"
+        "shape": "tile",
+        "label": "Apple AirTag 2 · 4-pack"
       }
     },
     {
@@ -33,9 +31,8 @@
       "owners": "Owners like the loud ring and the hole. Complaint: no precision finding.",
       "cta": "https://www.amazon.com/s?k=Chipolo+Pop+bluetooth+tracker&tag=verdictpicks-20",
       "art": {
-        "style": "tag",
-        "body": "#F2C94C",
-        "back": "#D9A400"
+        "shape": "tile",
+        "label": "Chipolo Pop"
       }
     },
     {
@@ -50,20 +47,8 @@
       "owners": "Owners praise the range and the built-in loop. Complaint: Samsung-only.",
       "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+SmartTag2&tag=verdictpicks-20",
       "art": {
-        "style": "tag",
-        "body": "#151515",
-        "back": "#333"
-      },
-      "photo": {
-        "file": "brand/photos/samsung-galaxy-smarttag2.jpg",
-        "kind": "brand",
-        "credit": "Samsung press kit",
-        "source": "https://news.samsung.com/us/introducing-new-samsung-galaxy-smarttag2-a-smart-way-to-keep-track-of-important-things-in-your-life/",
-        "terms": "https://news.samsung.com/us/introducing-new-samsung-galaxy-smarttag2-a-smart-way-to-keep-track-of-important-things-in-your-life/",
-        "uses": [
-          "web"
-        ],
-        "checked": "2026-10-23"
+        "shape": "tile",
+        "label": "Samsung SmartTag2"
       }
     }
   ]

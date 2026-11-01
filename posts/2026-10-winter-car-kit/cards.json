@@ -28,6 +28,18 @@
         "pick": "The NOCO Boost Plus GB40 (1000 A). Charge it fully the day it arrives, then top it up every month or two.",
         "check": "Buy from noco.com or a big-box store so the 1-year limited warranty and returns are clean, and check the listing says NOCO GB40, not an unbranded 'peak amp' look-alike. The US Consumer Product Safety Commission warned about another brand of lithium jump starters in September 2026 after 16 fire reports.",
         "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
       }
     },
     {
