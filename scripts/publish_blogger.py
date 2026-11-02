@@ -266,6 +266,12 @@ POSTS = {
         "slug_title": "NOCO GB40 vs GB50 2026",
         "labels": ["Car", "Jump Starters", "Comparison", "Buying Guide", "Under $150", "Amazon Finds"],
     },
+    "smart-tv-privacy": {
+        "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+        "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is",
+        "slug_title": "TVs With the Fewest AI Features 2026",
+        "labels": ["TVs", "Privacy", "Smart Home", "Comparison", "Black Friday", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
