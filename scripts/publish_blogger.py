@@ -268,6 +268,7 @@ POSTS = {
     },
     "smart-tv-privacy": {
         "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+        "url": "https://acts39.blogspot.com/2026/11/tvs-with-fewest-ai-features-2026.html",
         "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is",
         "slug_title": "TVs With the Fewest AI Features 2026",
         "labels": ["TVs", "Privacy", "Smart Home", "Comparison", "Black Friday", "Amazon Finds"],

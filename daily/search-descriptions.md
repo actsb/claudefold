@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is
+https://acts39.blogspot.com/2026/11/tvs-with-fewest-ai-features-2026.html
+
+```text
+Which 55-inch TV has the fewest AI features? Samsung, LG, TCL, Roku and Sony compared on assistants, ACR tracking and ads, with each menu path.
+```
+
 ## NOCO GB40 vs GB50 vs GOOLOO 2026: Which Jump Starter Size Does Your Engine Need?
 https://acts39.blogspot.com/2026/10/noco-gb40-vs-gb50-2026.html
 

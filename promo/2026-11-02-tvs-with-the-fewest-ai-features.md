@@ -1,6 +1,6 @@
 # Promotion kit — TVs With the Fewest AI Features 2026 (buying guide, November 2, 2026)
 
-Post: https://acts39.blogspot.com/2026/11/tvs-with-the-fewest-ai-features-2026.html
+Post: https://acts39.blogspot.com/2026/11/tvs-with-fewest-ai-features-2026.html
 Cover: `posts/2026-11-tvs-with-the-fewest-ai-features/images/cover.png` · Pin: `images/pin.png` · Share: `images/howto.png`, `images/stores.png`, `images/strips/in-real-life.png`
 
 Disclosure on every social post: "Amazon links in the guide are paid links."
