@@ -1,26 +1,29 @@
 {
-  "hero": "smart-tv-privacy",
-  "title_size": 66,
-  "title": [
-    "TVs with less tracking:",
-    "WRITE: line two",
-    "WRITE: line three"
-  ],
-  "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
-  ],
-  "footer": "Product of the day · Smart TVs where tracking and AI are easiest to turn off · Verdict Picks",
-  "alt": "Smart TVs where tracking and AI are easiest to turn off: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
-  "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
-  ],
-  "url": "https://acts39.blogspot.com/2026/11/tvs-with-the-fewest-ai-features-2026.html",
-  "style": "bright",
-  "products": [
-    "smart-tv-privacy"
-  ]
+ "hero": "roku-select",
+ "title_size": 62,
+ "title": [
+  "TVs with the",
+  "fewest AI features:",
+  "where each switch is"
+ ],
+ "subtitle": [
+  "Samsung, LG, TCL, Roku and Sony compared",
+  "on assistants, viewing-data tracking and",
+  "the ads no menu can turn off."
+ ],
+ "footer": "Buying guide · TVs 2026 · Verdict Picks",
+ "alt": "TVs with the fewest AI features in 2026: Samsung, LG, TCL, Roku and Sony compared on assistants, viewing-data tracking and ads, with the menu path for each switch (Verdict Picks)",
+ "pin": [
+  "5 TVs, 5 tracking switches",
+  "What each maker says you can't turn off",
+  "Buy now or wait for Black Friday?"
+ ],
+ "url": "https://acts39.blogspot.com/2026/11/tvs-with-the-fewest-ai-features-2026.html",
+ "style": "bright",
+ "products": [
+  "lg-c6",
+  "sony-bravia7",
+  "samsung-s90h",
+  "tcl-qm7l"
+ ]
 }

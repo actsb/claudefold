@@ -1,34 +1,170 @@
 {
-  "category": "generic",
-  "buy_title": "The exact TVs with less tracking to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "smart-tv-privacy",
-      "category": "generic",
-      "name": "Smart TVs where tracking and AI are easiest to turn off",
-      "short": "TVs with less tracking",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "tile",
-        "label": "TVs with less tracking"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=55+inch+TV&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The exact TVs to order, and what to check on the listing",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from Target, Best Buy, Abt, Samsung.com, LG and Apple in October and November 2026 and move with sales; the buttons show today's price.",
+ "buy_kicker": "Our first pick, and our last word",
+ "cards": [
+  {
+   "id": "roku-select",
+   "category": "generic",
+   "name": "Roku Select Series 55-inch (2026)",
+   "short": "Roku Select 55\"",
+   "badge": "Our first pick · the fewest open questions",
+   "chip": "No generative assistant found · ACR switch on a dated page · about $250",
+   "art": {
+    "shape": "tile",
+    "label": "Roku Select 55\""
+   },
+   "price": "About $250 (Target $249.99 and Best Buy $269.99 in search results, early November 2026; list was $349.99)",
+   "buy_if": "you want the TV with the fewest AI features on our list, a plain home screen and a documented switch for viewing-data tracking, and you will not pay for OLED.",
+   "skip_if": "you care most about picture quality (Tom's Guide gave the set 2.5 stars) or you object to home-screen ads: Roku says video ads and themed backgrounds cannot be controlled.",
+   "owners": "Roku Pro owners at Best Buy describe a quick interface but some glitches after a few days; we found no owner thread about the Select itself (undated search snippets, so treat as a hint).",
+   "cta": "https://www.amazon.com/s?k=Roku+Select+Series+55+inch+2026&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "The 2026 Roku Select Series 55-inch. Its US model code is unconfirmed (Best Buy Canada lists 55R5D5CA), so match the 'Select Series, 2026' name, not an older 55R5C5.",
+    "check": "Sold and shipped by the retailer, not a third-party seller; the box says Select Series, not Plus; keep the receipt for the one-year warranty.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "lg-c6",
+   "category": "generic",
+   "name": "LG C6 OLED 55-inch (OLED55C6PUA)",
+   "short": "LG C6 OLED",
+   "badge": "Best picture, middling on AI",
+   "chip": "OLED · webOS 26 · Copilot shortcut · from about $1,800",
+   "art": {
+    "shape": "tile",
+    "label": "LG C6 OLED"
+   },
+   "price": "MSRP $1,999 (LG press release, March 5, 2026); $1,799.99 at Best Buy and Walmart in search results, undated, early November 2026",
+   "buy_if": "you want the best picture in the group and will spend ten minutes in the settings: LG says its viewing-data feature is off by default and the C6 has no Gemini.",
+   "skip_if": "you want no AI tiles at all: a Copilot shortcut arrived by update in December 2025, and LG only promised a delete option. Whether it shipped is unconfirmed.",
+   "owners": "Retailer review snippets for the C6 call webOS ad-heavy and say the home screen needs trimming, while one reviewer says the ads can be disabled (undated, search-tool summaries).",
+   "cta": "https://www.amazon.com/s?k=LG+OLED55C6PUA&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The OLED pick",
+    "pick": "The 55-inch OLED55C6PUA. A similar 'C6A' code is sold at some stores and is not confirmed to be identical.",
+    "check": "Model code ends PUA; sold by the store itself (Target's C6 page showed a third-party seller); check the LG.com bundle offers against the shelf price.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "sony-bravia7",
+   "category": "generic",
+   "name": "Sony Bravia 7 II 55-inch (K55XR70M2)",
+   "short": "Sony Bravia 7 II",
+   "badge": "Samba is switchable, Gemini is not",
+   "chip": "RGB Mini LED · Google TV with Gemini · $2,099.99 list",
+   "art": {
+    "shape": "tile",
+    "label": "Sony Bravia 7 II"
+   },
+   "price": "List $2,099.99 (Engadget, May 27, 2026); $1,398 at Abt on November 2, 2026",
+   "buy_if": "you want Sony's picture processing and a documented switch (Samba Interactive TV) for its viewing-data feature, and you accept Gemini on Google TV.",
+   "skip_if": "you want the least AI: no page we found explains how to switch Gemini off, and TechRadar says the Google TV home screen carries large banner ads.",
+   "owners": "Best Buy owner snippets are positive (55-inch listed at 4.9 out of 5 from 57 reviews, undated), with one owner annoyed about being tied into Google.",
+   "cta": "https://www.amazon.com/s?k=Sony+Bravia+7+II+K55XR70M2&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The Sony pick",
+    "pick": "The 55-inch K55XR70M2 (the K-55XR75M2 code seen on UK sites is not the US set).",
+    "check": "Sold by Sony-authorized dealers (Abt, Best Buy); Sony's US warranty is one year parts and one year labor per Abt's listing.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "samsung-s90h",
+   "category": "generic",
+   "name": "Samsung S90H OLED 55-inch (QN55S90HAEXZA)",
+   "short": "Samsung S90H",
+   "badge": "Great panel, most assistants",
+   "chip": "OLED · glare-free · Vision AI with Bixby, Perplexity and Copilot",
+   "art": {
+    "shape": "tile",
+    "label": "Samsung S90H"
+   },
+   "price": "List $1,999.99; $1,299.99 at Best Buy and Samsung.com (SlashGear, October 19, 2026)",
+   "buy_if": "you want a bright glare-free OLED and will turn the extras off. Samsung's court-ordered Texas consent screens show the company knows the viewing-data switch matters.",
+   "skip_if": "you want fewer AI features: Samsung's own support page gives no menu path for its viewing-data switch, we found no off switch for Vision AI Companion, and an Australian owner says sponsored tiles cannot be disabled.",
+   "owners": "A Sam's Club reviewer called the Samsung experience 'useless advertising vehicles' (undated snippet); another reviewer got headaches from the AI picture mode until switching to Movie.",
+   "cta": "https://www.amazon.com/s?k=Samsung+QN55S90HAEXZA&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The Samsung pick",
+    "pick": "The 55-inch QN55S90HAEXZA (US codes end in A; the Canada code does not).",
+    "check": "The S90H is not the S90F (2025) or the S95H; check the 'H' and the 55-inch size on the label.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "tcl-qm7l",
+   "category": "generic",
+   "name": "TCL QM7L 55-inch (55QM7L)",
+   "short": "TCL QM7L",
+   "badge": "Best value, most Google",
+   "chip": "Mini LED · Google TV with Gemini · about $800",
+   "art": {
+    "shape": "tile",
+    "label": "TCL QM7L"
+   },
+   "price": "List $1,199.99; $799.99 at Best Buy (Slickdeals price data, July 2026, so check today)",
+   "buy_if": "you want the brightest picture per dollar and are fine with Gemini, which can change TV settings by voice on this model.",
+   "skip_if": "you want fewer AI features or no ads: TCL's own support page says 'You can't turn off ads', and no TCL page we found names the viewing-data switch.",
+   "owners": "Best Buy owners mention setup signing into Google to get Gemini working and some slowness (undated snippets); Tom's Guide gave the set 4.5 stars.",
+   "cta": "https://www.amazon.com/s?k=TCL+55QM7L&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The TCL pick",
+    "pick": "The 55-inch 55QM7L (not the QM7K from 2025, and not the QM7L Pro).",
+    "check": "Model 55QM7L; one-year limited warranty per TCL's spec sheet; QM8L does not come in 55 inches.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "apple-tv",
+   "category": "generic",
+   "name": "Apple TV 4K (new model, $299)",
+   "short": "Apple TV 4K",
+   "badge": "The box that lets the TV stay dumb",
+   "chip": "Streaming box · tvOS · ships November 13",
+   "art": {
+    "shape": "tile",
+    "label": "Apple TV 4K"
+   },
+   "price": "$299 on Apple's page, fetched November 2, 2026; ships November 13",
+   "buy_if": "you would rather keep any TV offline and run apps from one box with documented tracking switches in tvOS.",
+   "skip_if": "you want cheap: it costs more than our top-pick TV, and the Google TV Streamer ($149.99, Engadget, August 31, 2026) is the same Google software as TCL and Sony.",
+   "owners": "We found no reliable owner reports for the new model yet; the 2026 hardware refresh details come from conflicting reports.",
+   "cta": "https://www.amazon.com/s?k=Apple+TV+4K&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The streaming box",
+    "pick": "The new Apple TV 4K at $299 (check the storage option on the label).",
+    "check": "Sold by Apple or an authorized store; Apple's tracking switches sit in Settings, General, Privacy and Security, Tracking.",
+    "label": "See today's price"
+   }
+  }
+ ]
 }

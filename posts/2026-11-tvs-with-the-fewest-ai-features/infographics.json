@@ -1,84 +1,107 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The TVs with less tracking in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+ {
+  "type": "matrix",
+  "name": "switches",
+  "title": "Where each TV keeps its tracking switch",
+  "sub": "The viewing-data (ACR) setting on five platforms, and what stays after you switch it off",
+  "footer": "Menu names vary by model year. Sources: Consumer Reports (updated Oct 19, 2025), Roku support (June 23, 2026), TCL support, Sony and Samsung support pages; see the guide.",
+  "columns": [
+   {
+    "head": "TV",
+    "w": 190
+   },
+   {
+    "head": "Switch to turn off",
+    "w": 330
+   },
+   {
+    "head": "Built-in assistant",
+    "w": 230
+   },
+   {
+    "head": "What stays",
+    "w": 330
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Roku Select",
+     "Settings, Privacy, Smart TV Experience, uncheck ACR",
+     "None found",
+     "Video ads and themed backgrounds"
     ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "LG C6",
+     "Settings, All Settings, Support, Privacy & Terms, User Agreements",
+     "Copilot shortcut, AI Chatbot",
+     "Copilot tile (delete promised)"
     ]
-  }
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Sony Bravia 7 II",
+     "System Preferences, Samba Interactive TV, disable",
+     "Gemini",
+     "Gemini; home-screen banners"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Samsung S90H",
+     "Settings, All Settings, General & Privacy, Terms & Privacy, Viewing Information Services",
+     "Bixby, Perplexity, Copilot",
+     "Sponsored tiles (owner report)"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "TCL QM7L",
+     "Settings, Privacy, Ads for the ad ID; no TCL page names ACR",
+     "Gemini",
+     "Ads ('You can't turn off ads')"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "The ten-minute privacy pass on a new TV",
+  "sub": "Do these before you sign in to anything",
+  "footer": "Paths from Consumer Reports (Oct 19, 2025) and the makers' support pages; names change between model years.",
+  "items": [
+   {
+    "head": "Decline at setup",
+    "body": "Say no to viewing information and interest-based ads on the first-run screens."
+   },
+   {
+    "head": "Skip the account",
+    "body": "Create the maker account later, or never, if the apps do not need it."
+   },
+   {
+    "head": "Switch off ACR",
+    "body": "Use the path for your brand in the table above."
+   },
+   {
+    "head": "Reset the ad ID",
+    "body": "Settings, Privacy, Ads on Google TV; Advertising on Roku."
+   },
+   {
+    "head": "Check the voice mic",
+    "body": "Turn off the voice assistant or remote mic if you never use it."
+   },
+   {
+    "head": "Go offline if unsure",
+    "body": "Unplug Ethernet, skip Wi-Fi and use a streaming box."
+   }
+  ]
+ }
 ]

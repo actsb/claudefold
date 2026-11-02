@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "roku-select",
+   "title": "Setting up a new TV — in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "smart-tv-privacy",
-      "title": "A day with the TVs with less tracking — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Unbox",
+     "text": "New TV, new remote, and a setup screen with a long privacy agreement.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Read the agreement",
+     "text": "Decline viewing data and ad personalization before the first channel."
+    },
+    {
+     "glyph": "warning",
+     "head": "Still ads",
+     "text": "Some tiles stay, whatever you switch off. Know which ones before you buy."
+    },
+    {
+     "glyph": "sun",
+     "head": "Offline box",
+     "text": "For zero doubt, keep the TV off Wi-Fi and run a streaming box.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

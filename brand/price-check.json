@@ -1,1213 +1,1379 @@
 {
-  "_about": "Price Check data (daily/price-check-plan.md). One entry per exact model we recommend. All figures are prices seen at stores other than Amazon, or list prices, each with its source and date; never an Amazon price (Associates Program Policies 2(b), 6(y)). 'good' and 'great' are our own lines; 'verdict' is buy (buy now), ok (fair price, no reason to wait) or wait (a sale is likely soon). Change 'checked' only when the entry was really re-checked.",
-  "categories": {
-    "kitchen": "Kitchen",
-    "cleaning": "Home cleaning",
-    "comfort": "Sleep and home comfort",
-    "car": "Car",
-    "pets": "Pets",
-    "bathroom": "Bathroom",
-    "tech": "Tech"
-  },
-  "items": [
+ "_about": "Price Check data (daily/price-check-plan.md). One entry per exact model we recommend. All figures are prices seen at stores other than Amazon, or list prices, each with its source and date; never an Amazon price (Associates Program Policies 2(b), 6(y)). 'good' and 'great' are our own lines; 'verdict' is buy (buy now), ok (fair price, no reason to wait) or wait (a sale is likely soon). Change 'checked' only when the entry was really re-checked.",
+ "categories": {
+  "kitchen": "Kitchen",
+  "cleaning": "Home cleaning",
+  "comfort": "Sleep and home comfort",
+  "car": "Car",
+  "pets": "Pets",
+  "bathroom": "Bathroom",
+  "tech": "Tech"
+ },
+ "items": [
+  {
+   "key": "thermopop-2",
+   "category": "kitchen",
+   "name": "ThermoWorks ThermoPop 2",
+   "guide": "thanksgiving-hosting",
+   "card": [
+    "posts/2026-10-thanksgiving-hosting",
+    "thermopop"
+   ],
+   "model": "ThermoPop 2 (not the original ThermoPop or the Thermapen ONE).",
+   "street": "About $39 list at ThermoWorks",
+   "good": "under $35",
+   "great": "about $31",
+   "verdict": "buy",
+   "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
+   "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
+   "checked": "2026-10-31",
+   "stores": [
     {
-      "key": "thermopop-2",
-      "category": "kitchen",
-      "name": "ThermoWorks ThermoPop 2",
-      "guide": "thanksgiving-hosting",
-      "card": [
-        "posts/2026-10-thanksgiving-hosting",
-        "thermopop"
-      ],
-      "model": "ThermoPop 2 (not the original ThermoPop or the Thermapen ONE).",
-      "street": "About $39 list at ThermoWorks",
-      "good": "under $35",
-      "great": "about $31",
-      "verdict": "buy",
-      "why": "Thanksgiving is November 26 and you want time to test it in ice water. ThermoWorks ran it at $31 (20% off) on July 1, 2026, so 20–30% off happens, but not reliably before the holiday.",
-      "sources": "ThermoWorks via America's Test Kitchen, July 1, 2026; ThermoWorks list price, October 2026",
-      "checked": "2026-10-31",
-      "stores": [
-        {
-          "name": "ThermoWorks",
-          "url": "https://www.thermoworks.com/products/thermopop-2",
-          "seen": "$39 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "instant-pot-duo-6",
-      "category": "kitchen",
-      "name": "Instant Pot Duo 6-Quart 7-in-1",
-      "guide": "instant-pot-duo",
-      "card": [
-        "posts/2026-10-instant-pot-duo-6-quart",
-        "instant-pot-duo"
-      ],
-      "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
-      "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
-      "good": "under $80",
-      "great": "$60 or less",
-      "verdict": "wait",
-      "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
-      "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
-      "checked": "2026-10-21",
-      "stores": [
-        {
-          "name": "Instant Pot",
-          "url": "https://instantpot.com/products/instant-pot-duo-6qt-multi-use-pressure-cooker",
-          "seen": "$109.99 list, Oct 2026"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Instant-Pot-DUO60-V4-6-Quart-Duo-Electric-Pressure-Cooker-Slow-Cooker/45918917"
-        }
-      ]
-    },
-    {
-      "key": "ninja-af101",
-      "category": "kitchen",
-      "name": "Ninja AF101 4-Quart Air Fryer",
-      "guide": "black-friday-home-kitchen",
-      "card": [
-        "posts/2026-10-black-friday-home-kitchen",
-        "ninja-af101"
-      ],
-      "model": "AF101, 4 quarts; check the model number, Ninja sells several similar baskets.",
-      "street": "List $119.99; $89.99 at Best Buy, Target and Home Depot (Apr 1, 2026)",
-      "good": "under $80",
-      "great": "$75 or less",
-      "verdict": "wait",
-      "why": "Home Depot took 32% off Ninja kitchen appliances on Black Friday 2025, which would put it near $82; a few dollars lower is our buy line.",
-      "sources": "Slickdeals price tracker, Apr 1, 2026; NBC Select Black Friday 2025",
-      "checked": "2026-10-31",
-      "stores": [
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/NINJA-Basket-Electric-Air-Fryer-4-qt-Black-And-Gray-Digital-Temperature-Controls-to-Dehydrate-Roast-and-Reheat-AF101/307348719"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/ninja-air-fryer-black-gray/JXJVXGK9G5"
-        }
-      ]
-    },
-    {
-      "key": "kitchenaid-artisan",
-      "category": "kitchen",
-      "name": "KitchenAid Artisan 5-Quart Stand Mixer",
-      "guide": "black-friday-home-kitchen",
-      "card": [
-        "posts/2026-10-black-friday-home-kitchen",
-        "kitchenaid-artisan"
-      ],
-      "model": "Artisan KSM150, 5-quart tilt-head; colours differ in price, so compare the same colour.",
-      "street": "List $499.99; $349 at Target and $242.29 at Lowe's (Oct 6, 2025)",
-      "good": "under $350",
-      "great": "$260 or less",
-      "verdict": "wait",
-      "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
-      "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
-      "checked": "2026-10-31",
-      "stores": [
-        {
-          "name": "KitchenAid",
-          "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.ksm150ps.KSM150PSWH.html"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/KitchenAid-Artisan-Series-5-Quart-Tilt-Head-Stand-Mixer-White-KSM150PS/15173450"
-        }
-      ]
-    },
-    {
-      "key": "rubbermaid-brilliance",
-      "category": "kitchen",
-      "name": "Rubbermaid Brilliance Leak-Proof Containers",
-      "guide": "rubbermaid-brilliance",
-      "card": [
-        "posts/2026-10-rubbermaid-brilliance-food-storage",
-        "rubbermaid-brilliance"
-      ],
-      "model": "Brilliance plastic sets; count the pieces, because set sizes differ by store.",
-      "street": "Mid-teens to about $20 on sale; Target $39.99 at list (July 5, 2026)",
-      "good": "about 40% below list",
-      "great": "Target's $23.99 (Nov 20, 2025) for the same set",
-      "verdict": "wait",
-      "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
-      "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
-      "checked": "2026-10-31",
-      "stores": [
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/rubbermaid-10pc-brilliance-leak-proof-food-storage-containers-with-airtight-lids/-/A-51097873"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Rubbermaid-Brilliance-Leak-Proof-Food-Storage-Containers-10-Piece-Set/54297078"
-        }
-      ]
-    },
-    {
-      "key": "owala-freesip-24",
-      "category": "kitchen",
-      "name": "Owala FreeSip 24 oz",
-      "guide": "owala",
-      "card": [
-        "posts/2026-09-owala-freesip",
-        "freesip"
-      ],
-      "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
-      "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
-      "good": "under $25",
-      "great": "about $24",
-      "verdict": "ok",
-      "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, and no 2026 Black Friday Owala deal was announced as of October 24, so there is little to wait for.",
-      "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025; NBC News Select, Nov 2025",
-      "checked": "2026-10-24",
-      "stores": [
-        {
-          "name": "Owala",
-          "url": "https://owalalife.com/products/freesip"
-        },
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/owala-freesip-24oz-stainless-steel-water-bottle-alpine-sport/-/A-86722059"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Owala-FreeSip-Stainless-Steel-Water-Bottle-24oz-Black/785624932"
-        }
-      ]
-    },
-    {
-      "key": "bissell-little-green",
-      "category": "cleaning",
-      "name": "Bissell Little Green 1400B",
-      "guide": "bissell",
-      "card": [
-        "posts/2026-09-bissell-little-green",
-        "little-green"
-      ],
-      "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
-      "street": "About $95–$130; Walmart $74.62 (Oct 7, 2026), Bissell $129.99 (Oct 29, 2026)",
-      "good": "under $90",
-      "great": "about $75",
-      "verdict": "buy",
-      "why": "Walmart listed it at $74.62 on October 7, 2026, about what last year's Black Friday cut (around 31% off list) reached, so there is little to wait for. No 2026 Black Friday price was announced as of October 25.",
-      "sources": "Slickdeals, Oct 7, 2026 (Walmart); CNN Underscored, Nov 19, 2025; Bissell list price",
-      "checked": "2026-10-25",
-      "stores": [
-        {
-          "name": "BISSELL",
-          "url": "https://www.bissell.com/en-us/product/little-green-portable-carpet-upholstery-cleaner-1400B.html",
-          "seen": "$129.99 list, Oct 2026"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Bissell-Multi-Purpose-Portable-Carpet-and-Upholstery-Cleaner-1400B-Green/436861322"
-        }
-      ]
-    },
-    {
-      "key": "ocedar-easywring",
-      "category": "cleaning",
-      "name": "O-Cedar EasyWring Spin Mop",
-      "guide": "ocedar-mop",
-      "card": [
-        "posts/2026-10-o-cedar-easywring-spin-mop",
-        "ocedar-mop"
-      ],
-      "model": "EasyWring 1-tank system (mop, bucket, one head); the RinseClean 2-tank is a different, pricier set.",
-      "street": "About $35–$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
-      "good": "under $35",
-      "great": "under $30",
-      "verdict": "ok",
-      "why": "It rarely moves much below $35; the better saving is a bundle with refill heads, which Costco has sold near $26.",
-      "sources": "Slickdeals, Aug 20, 2026; Costco bundle, July 2025",
-      "checked": "2026-10-31",
-      "stores": [
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/o-cedar-easywring-spin-mop-and-bucket-system/-/A-50335649"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/O-Cedar-EasyWring-Spin-Mop-Bucket-System/44187544"
-        }
-      ]
-    },
-    {
-      "key": "roborock-saros-10r",
-      "category": "cleaning",
-      "name": "Roborock Saros 10R",
-      "guide": "robot-vacuums",
-      "card": [
-        "posts/2026-09-best-robot-vacuums",
-        "saros-10r"
-      ],
-      "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
-      "street": "List $1,599.99; Roborock's store $899.99 (Oct 14, 2026), sold out there on Oct 29, 2026",
-      "good": "$900 or less",
-      "great": "under $850",
-      "verdict": "buy",
-      "why": "October already beat last year's Black Friday price of $999.99, and as a replaced model it has less room to fall.",
-      "sources": "Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Roborock",
-          "url": "https://us.roborock.com/products/roborock-saros-10r",
-          "seen": "$1,599.99 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "dreame-x50-ultra",
-      "category": "cleaning",
-      "name": "Dreame X50 Ultra",
-      "guide": "black-friday-tech-car",
-      "card": [
-        "posts/2026-10-black-friday-tech-car",
-        "x50"
-      ],
-      "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
-      "street": "List $1,599.99",
-      "good": "under $850",
-      "great": "$800 or less",
-      "verdict": "wait",
-      "why": "Dreame's own store ran it at $799.99 (50% off) from November 20 to December 1, 2025; expect a clearance-style price again.",
-      "sources": "Dreame Black Friday 2025 post (search snippet)",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Dreame",
-          "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
-          "seen": "$1,599.99 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "levoit-core-300p",
-      "category": "comfort",
-      "name": "Levoit Core 300-P Air Purifier",
-      "guide": "levoit300",
-      "card": [
-        "posts/2026-09-levoit-core-300p-air-purifier",
-        "levoit300"
-      ],
-      "model": "Core 300-P; its filter is the genuine Core 300-RF.",
-      "street": "About $85–$100 at big retailers (Sept 2026)",
-      "good": "under $70",
-      "great": "$50–$60",
-      "verdict": "wait",
-      "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
-      "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Levoit",
-          "url": "https://levoit.com/products/core300-p-air-purifier",
-          "seen": "$99.99 list, Oct 2026"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/LEVOIT-Core-300-P-Coverage-220-sq-ft-Activated-Carbon-Filter-Large-Room-Air-Purifer-in-White-EAPAPLVNUS0132Y/317951088"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/levoit-core-300-p-air-purifier-white/J3Y7X9S5S4"
-        }
-      ]
-    },
-    {
-      "key": "bedsure-throw-50x60",
-      "category": "comfort",
-      "name": "Bedsure Heated Throw 50 x 60",
-      "guide": "bedsure-throw",
-      "card": [
-        "posts/2026-10-bedsure-heated-blanket-throw",
-        "bedsure-throw"
-      ],
-      "model": "50 x 60 in throw with the 8-hour auto-off; check the label against the March 2023 CPSC recall before first use.",
-      "street": "Heated throws run about $20–$80; Walmart about $32 (Oct 1, 2026)",
-      "good": "under $35",
-      "great": "under $28",
-      "verdict": "ok",
-      "why": "Sales take 30–45% off, but the everyday price is already low; buy when it is cold, not for the deal.",
-      "sources": "Walmart listing, Oct 1, 2026",
-      "checked": "2026-10-17"
-    },
-    {
-      "key": "beckham-pillows",
-      "category": "comfort",
-      "name": "Beckham Hotel Collection Pillows (pair)",
-      "guide": "beckham-pillows",
-      "card": [
-        "posts/2026-10-beckham-hotel-collection-pillows",
-        "beckham-pillows"
-      ],
-      "model": "Standard/Queen set of 2 (King costs more).",
-      "street": "About $40–$60 for the pair at major retailers",
-      "good": "under $45",
-      "great": "about $35",
-      "verdict": "ok",
-      "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
-      "sources": "Walmart listings (2026); Woot, March 2023",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Beckham Hotel Collection",
-          "url": "https://beckhamhotelcollection.com/products/original-down-alternative-pillow-set",
-          "seen": "$89.99 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "dreo-heater-1500",
-      "category": "comfort",
-      "name": "Dreo 1500W Ceramic Space Heater",
-      "guide": "dreo-heater",
-      "card": [
-        "posts/2026-10-dreo-space-heater",
-        "dreo-heater"
-      ],
-      "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
-      "street": "$49.99 at dreo.com (Oct 15, 2026)",
-      "good": "under $45",
-      "great": "$30–$35",
-      "verdict": "ok",
-      "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
-      "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Dreo",
-          "url": "https://www.dreo.com/products/dreo-atom-one-space-heater",
-          "seen": "$49.99 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "noco-gb40",
-      "category": "car",
-      "name": "NOCO Boost Plus GB40",
-      "guide": "noco-gb40",
-      "card": [
-        "posts/2026-09-noco-boost-plus-gb40-jump-starter",
-        "noco-gb40"
-      ],
-      "model": "GB40, 1000A, for gas engines up to 6.0 liters (the GB50 is the bigger one).",
-      "street": "List $99.95 at NOCO's store",
-      "good": "under $85",
-      "great": "about $80",
-      "verdict": "buy",
-      "why": "About $80 has been the usual deal price for two years (Woot, Aug 26, 2025); it does not usually go lower, so there is nothing to wait for before winter.",
-      "sources": "NOCO list price; Slickdeals, Aug 26, 2025",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "NOCO",
-          "url": "https://no.co/gb40"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/noco-boost-gb40-1000a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-6-0l-gas-3-0l-diesel/J7GRLJ2QJ7"
-        }
-      ]
-    },
-    {
-      "key": "redtiger-f7np",
-      "category": "car",
-      "name": "REDTIGER F7NP 4K Dash Cam",
-      "guide": "redtiger-f7np",
-      "card": [
-        "posts/2026-10-redtiger-f7np-dash-cam",
-        "redtiger-f7np"
-      ],
-      "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
-      "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
-      "good": "under $110",
-      "great": "$100 or less",
-      "verdict": "wait",
-      "why": "The crossed-out $149.98 is not the real street price; $100 or less is where it is a good buy.",
-      "sources": "Android Authority, Jul 28, 2026; redtigercam.com, Oct 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "REDTIGER",
-          "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
-          "seen": "$129.99 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "chomchom-roller",
-      "category": "pets",
-      "name": "ChomChom Roller",
-      "guide": "pets",
-      "card": [
-        "posts/2026-09-best-pet-products-on-amazon",
-        "chomchom"
-      ],
-      "model": "The original ChomChom Roller (look-alikes copy the shape, not the comb).",
-      "street": "$19.99 at PetSmart (Oct 2026); $23.99 at Walmart (Sept 2026)",
-      "good": "under $20",
-      "great": "about $16",
-      "verdict": "buy",
-      "why": "20–50% off has been reported at past big sales (BuzzFeed, Nov 2024; Krazy Coupon Lady, Nov 2024); it is already near the usual low, so waiting saves a few dollars.",
-      "sources": "PetSmart, Oct 2026; Walmart, Sept 2026; BuzzFeed and The Krazy Coupon Lady, Nov 2024",
-      "checked": "2026-10-29",
-      "stores": [
-        {
-          "name": "PetSmart",
-          "url": "https://www.petsmart.com/cat/grooming-supplies/brushes-combs-and-blowdryers/angry-orange-chomchom-roller-pet-hair-remover-92837.html"
-        },
-        {
-          "name": "Chewy",
-          "url": "https://www.chewy.com/chomchom-roller-pet-hair-remover/dp/3998782"
-        }
-      ]
-    },
-    {
-      "key": "kong-classic-large",
-      "category": "pets",
-      "name": "KONG Classic (Large)",
-      "guide": "dogs",
-      "card": [
-        "posts/2026-09-dog-essentials-on-amazon",
-        "kong"
-      ],
-      "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
-      "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
-      "good": "under $12",
-      "great": "under $10",
-      "verdict": "buy",
-      "why": "It is cheap all year; size matters more than price.",
-      "sources": "Chewy and Walmart, Sept 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Chewy",
-          "url": "https://www.chewy.com/kong-classic-dog-toy/dp/38485"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Kong-Classic-Dog-Toy-Large-Red/19629270"
-        }
-      ]
-    },
-    {
-      "key": "neakasa-p1-pro",
-      "category": "pets",
-      "name": "Neakasa P1 Pro grooming vacuum kit",
-      "guide": "pets",
-      "card": [
-        "posts/2026-09-best-pet-products-on-amazon",
-        "p1pro"
-      ],
-      "model": "Neakasa P1 Pro (5 tools, 1 L cup); the P2 Pro has a 2 L cup and costs more.",
-      "street": "$99.99 sale vs $129.99 regular at neakasa.com (search snippet, Oct 29, 2026); $83–$85 in Aug 2026 (9to5Toys, DealNews)",
-      "good": "under $90",
-      "great": "about $70",
-      "verdict": "wait",
-      "why": "The maker's own store shows $99.99 against $129.99, but Aug 2026 deals reached $83–$85 and the June 2025 low was $69.99; Black Friday (Nov 27) is the next chance.",
-      "sources": "neakasa.com, Oct 2026; 9to5Toys and DealNews, Aug 2026",
-      "checked": "2026-10-29",
-      "stores": [
-        {
-          "name": "Neakasa",
-          "url": "https://neakasa.com/products/neakasa-p1-pro-pet-grooming-vacuum-kits",
-          "seen": "$99.99 sale, $129.99 regular, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "litter-robot-4",
-      "category": "pets",
-      "name": "Litter-Robot 4",
-      "guide": "pets",
-      "card": [
-        "posts/2026-09-best-pet-products-on-amazon",
-        "lr4"
-      ],
-      "model": "Litter-Robot 4 (the EVO is a cheaper, different machine).",
-      "street": "$699 direct at litter-robot.com all of 2026",
-      "good": "$699 new",
-      "great": "$599 reconditioned, direct",
-      "verdict": "ok",
-      "why": "The price held at $699 all year; Costco's $699.99 bundle adds extras. Reconditioned units save $100 with a shorter warranty.",
-      "sources": "litter-robot.com, 2026; Costco, July 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Whisker (Litter-Robot)",
-          "url": "https://www.litter-robot.com/litter-robot-4.html",
-          "seen": "$699 list, Oct 2026"
-        },
-        {
-          "name": "PetSmart",
-          "url": "https://www.petsmart.com/cat/litter-and-waste-disposal/litter-boxes/litter-robot-4-automatic-self-cleaning-cat-litter-box-by-whisker-80271.html"
-        },
-        {
-          "name": "Chewy",
-          "url": "https://www.chewy.com/litter-robot-4-automatic-self/dp/617582"
-        }
-      ]
-    },
-    {
-      "key": "luxe-neo-185",
-      "category": "bathroom",
-      "name": "LUXE Bidet NEO 185",
-      "guide": "bidets2026",
-      "card": [
-        "posts/2026-10-best-bidet-2026",
-        "neo185"
-      ],
-      "model": "NEO 185 dual nozzle (the 185 Plus costs a few dollars more; the NEO 120 has one nozzle).",
-      "street": "$49.99 at LUXE's store (Oct 2026); Walmart $42.49 (undated)",
-      "good": "under $45",
-      "great": "under $40",
-      "verdict": "buy",
-      "why": "It sits near its floor all year, so a wait saves only a few dollars.",
-      "sources": "LUXE store, Oct 2026; Walmart listing (undated)",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "LUXE Bidet",
-          "url": "https://luxebidet.com/products/neo-185",
-          "seen": "$49.99 list, Oct 2026"
-        },
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/neo-185-mechanical-bidet-attachment-blue-luxe-bidet/-/A-80202389"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/LUXE-Bidet-NEO-185-Dual-Nozzle-Self-Cleaning-Non-Electric-Attachable-Bidet-System-Bidet-Attachment-for-Toilet-Seat-Rose-Gold-BidetNeo185rg/341822228"
-        }
-      ]
-    },
-    {
-      "key": "airpods-pro-3",
-      "category": "tech",
-      "name": "Apple AirPods Pro 3",
-      "guide": "black-friday-tech-car",
-      "card": [
-        "posts/2026-10-black-friday-tech-car",
-        "pro3"
-      ],
-      "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
-      "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
-      "good": "under $190",
-      "great": "$180 or less",
-      "verdict": "buy",
-      "why": "About $180 is already below last year's Black Friday low of $219.99.",
-      "sources": "apple.com; TechBuzz, Nov 20, 2025; Slickdeals price table, Oct 5, 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Apple",
-          "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
-          "seen": "$249.00 list, Oct 2026"
-        },
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350"
-        }
-      ]
-    },
-    {
-      "key": "airtag-2-4pack",
-      "category": "tech",
-      "name": "Apple AirTag 2 (4-pack)",
-      "guide": "airtag",
-      "card": [
-        "posts/2026-09-apple-airtag-2",
-        "airtag2"
-      ],
-      "model": "AirTag 2nd generation, 4-pack (a single is $29 list).",
-      "street": "List $99; Target $89.99 (Oct 2026)",
-      "good": "under $90",
-      "great": "$80 or less",
-      "verdict": "wait",
-      "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
-      "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
-      "checked": "2026-10-22",
-      "stores": [
-        {
-          "name": "Apple",
-          "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
-          "seen": "$99.00 list, Oct 2026"
-        },
-        {
-          "name": "Target",
-          "url": "https://www.target.com/p/apple-airtag-4-pack-2nd-generation/-/A-85990990"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3"
-        }
-      ]
-    },
-    {
-      "key": "sony-wf-1000xm6",
-      "category": "tech",
-      "name": "Sony WF-1000XM6",
-      "guide": "earbuds",
-      "card": [
-        "posts/2026-09-best-wireless-earbuds",
-        "xm6"
-      ],
-      "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
-      "street": "List $329.99",
-      "good": "under $280",
-      "great": "$260 or less",
-      "verdict": "wait",
-      "why": "The best discount so far was about 22% off list (Oct 5, 2026); a first Black Friday usually matches or beats it.",
-      "sources": "SoundGuys, Oct 5, 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/J7XSRH5W6P"
-        }
-      ]
-    },
-    {
-      "key": "anker-c1000-gen2",
-      "category": "tech",
-      "name": "Anker SOLIX C1000 Gen 2",
-      "guide": "power-stations",
-      "card": [
-        "posts/2026-09-best-portable-power-stations",
-        "c1000"
-      ],
-      "model": "C1000 Gen 2 (the first C1000 charges more slowly).",
-      "street": "List $799; $699.99 at Anker's store (Oct 29, 2026)",
-      "good": "under $500",
-      "great": "$430 or less",
-      "verdict": "wait",
-      "why": "Anker's own store sold it for $429 with a code in April 2026, so it has room to fall.",
-      "sources": "Slickdeals, Apr 23, 2026",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Anker",
-          "url": "https://www.anker.com/products/c1000-gen2",
-          "seen": "$699.99, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "jackery-2000-v2",
-      "category": "tech",
-      "name": "Jackery Explorer 2000 v2",
-      "guide": "black-friday-tech-car",
-      "card": [
-        "posts/2026-10-black-friday-tech-car",
-        "2000v2"
-      ],
-      "model": "Explorer 2000 v2 (2,042 Wh); the 2000 Plus is a different, heavier unit.",
-      "street": "List $1,499; $999 at Jackery's store (Oct 29, 2026)",
-      "good": "under $750",
-      "great": "$650 or less",
-      "verdict": "wait",
-      "why": "Wellbots sold it for $599 with a code on November 14, 2025: the clearest Black Friday-window low of our picks.",
-      "sources": "Slickdeals, Nov 14, 2025",
-      "checked": "2026-10-17",
-      "stores": [
-        {
-          "name": "Jackery",
-          "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
-          "seen": "$999, Oct 2026"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/Jackery-2200W-Rated-4400W-Peak-Portable-Power-Station-Explorer-2000-v2-Push-Button-Start-Battery-Generator-for-Outdoors-and-Home-Explorer-2000-v2/332459572"
-        }
-      ]
-    },
-    {
-      "key": "furhaven-sofa-large",
-      "category": "pets",
-      "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
-      "guide": "furhaven-bed",
-      "card": [
-        "posts/2026-10-furhaven-orthopedic-dog-bed",
-        "furhaven-bed"
-      ],
-      "model": "Large (36 x 27 x 6.5 in, size guide up to 55 lb); the Quilted style is thinner than the Plush & Suede Full Support.",
-      "street": "Quilted $39.99 (Target, Oct 19, 2026); Plush & Suede $54.99 (PetSmart, Oct 19, 2026), list $65.99",
-      "good": "under $45",
-      "great": "$40 or less",
-      "verdict": "ok",
-      "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
-      "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
-      "checked": "2026-10-19",
-      "stores": [
-        {
-          "name": "Furhaven",
-          "url": "https://furhaven.com/products/shop-pet-beds-sofa-bed-plush-suede"
-        },
-        {
-          "name": "PetSmart",
-          "url": "https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/furhaven-plush-and-suede-full-support-orthopedic-sofa-pet-bed-for-dogs-and-cats---gray-5361465.html"
-        },
-        {
-          "name": "Chewy",
-          "url": "https://www.chewy.com/furhaven-plush-suede-full-support/dp/768638"
-        }
-      ]
-    },
-    {
-      "key": "instant-pot-duo-plus-6",
-      "category": "kitchen",
-      "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet)",
-      "guide": "instant-pot-models",
-      "card": [
-        "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
-        "duoplus"
-      ],
-      "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
-      "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
-      "good": "under $110",
-      "great": "$80 or less",
-      "verdict": "wait",
-      "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
-      "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
-      "checked": "2026-10-21",
-      "stores": [
-        {
-          "name": "Instant Pot",
-          "url": "https://instantpot.com/products/instant-pot-duo-plus-6qt-multi-use-pressure-cooker-whisper-quiet",
-          "seen": "$139.99 list, Oct 2026"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/Instant-Pot-6-qt-Duo-Plus-Stainless-Steel-Electric-Pressure-Cooker-with-Whisper-Quiet-Steam-Release-V4-112-0169-01/324263727"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/Instant-Pot-112-0169-01-Duo-Plus-Digital-Pressure-Cooker-Stainless-Steel/1413891263"
-        }
-      ]
-    },
-    {
-      "key": "thermopop-2-thermometers",
-      "category": "kitchen",
-      "name": "ThermoWorks ThermoPop 2",
-      "guide": "meat-thermometer",
-      "card": [
-        "posts/2026-10-meat-thermometer",
-        "thermopop2"
-      ],
-      "model": "ThermoPop 2 (not the original ThermoPop).",
-      "street": "About $39 list at ThermoWorks, October 2026; $35 at launch (2022)",
-      "good": "under $35",
-      "great": "about $31",
-      "verdict": "buy",
-      "why": "Thanksgiving is November 26. ThermoWorks ran it at $31 (20% off) on July 1, 2026 and at $24.50 (30% off) on October 5, 2023, but not reliably before the holiday, and you want time for an ice-bath test.",
-      "sources": "ThermoWorks list price, October 2026; ThermoWorks via America's Test Kitchen, July 1, 2026; TVWBB, October 5, 2023",
-      "checked": "2026-10-23",
-      "stores": [
-        {
-          "name": "ThermoWorks",
-          "url": "https://www.thermoworks.com/products/thermopop-2",
-          "seen": "$39 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "thermapen-one",
-      "category": "kitchen",
-      "name": "ThermoWorks Thermapen ONE",
-      "guide": "meat-thermometer",
-      "card": [
-        "posts/2026-10-meat-thermometer",
-        "thermapen-one"
-      ],
-      "model": "Thermapen ONE, any colour (the NANO is a different, newer model).",
-      "street": "$74 in colour closeout at ThermoWorks (Oct 23, 2026); $115 list (Oct 29, 2026)",
-      "good": "under $75",
-      "great": "about $62",
-      "verdict": "buy",
-      "why": "It is being closed out, so colours are running out; ThermoWorks has sold it at $62 to $76 several times (Black Friday 2022, 2024, Nov 10, 2025), but this year's successor may change that.",
-      "sources": "thermoworks.com, Oct 23, 2026; Slickdeals, Nov 10, 2025 and Aug 21, 2026; TVWBB Black Friday 2022 thread",
-      "checked": "2026-10-23",
-      "stores": [
-        {
-          "name": "ThermoWorks",
-          "url": "https://www.thermoworks.com/products/thermapen-one",
-          "seen": "$115 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "fanttik-x8-apex",
-      "category": "car",
-      "name": "Fanttik X8 Apex",
-      "guide": "tire-inflator",
-      "card": [
-        "posts/2026-10-tire-inflator",
-        "x8apex"
-      ],
-      "model": "X8 Apex (150 psi, built-in battery); the Deluxe package adds a case and a car adapter.",
-      "street": "$89.99 at fanttik.com (list $99.99, Oct 26, 2026); Walmart search results showed it from about $70 (not confirmed live)",
-      "good": "under $75",
-      "great": "about $70",
-      "verdict": "ok",
-      "why": "Seen at $70 at Best Buy in March 2025 and from about $70 at Walmart; the brand store is $20 higher, and no Black Friday terms were announced yet.",
-      "sources": "fanttik.com, Oct 26, 2026; Slickdeals (Best Buy), Mar 22, 2025; Walmart search result, undated",
-      "checked": "2026-10-26",
-      "stores": [
-        {
-          "name": "Fanttik",
-          "url": "https://www.fanttik.com/products/x8-apex-tire-inflator",
-          "seen": "$99.99 list, Oct 2026"
-        },
-        {
-          "name": "Lowe's",
-          "url": "https://www.lowes.com/pd/Fanttik-Fanttik-X8-APEX-Tire-Inflator-11-1-volt-5V-3A-Lithium-Ion-li-ion-Air-Inflator-Power-Source-Battery/5015108147"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/fanttik-x8-apex-portable-air-compressor-tire-inflator-with-power-bank-for-mpv-car-e-bike-motorcycle-black/J3R8KP8F4S"
-        }
-      ]
-    },
-    {
-      "key": "milwaukee-m18-inflator",
-      "category": "car",
-      "name": "Milwaukee M18 inflator 2848-20",
-      "guide": "tire-inflator",
-      "card": [
-        "posts/2026-10-tire-inflator",
-        "m18"
-      ],
-      "model": "2848-20, tool only (no battery or charger).",
-      "street": "$199 at Home Depot (Dec 2024); $149 at Walmart (search result, undated)",
-      "good": "under $150",
-      "great": "about $119 (free with a battery kit)",
-      "verdict": "wait",
-      "why": "Home Depot ran it as a free gift with an M18 starter kit in July 2026 and in the 2025 Black Friday promotions; the Oct 29 holiday sales may repeat that.",
-      "sources": "ShopSavvy, Dec 3, 2024; Slickdeals (Home Depot), Jul 15, 2026; ToolGuyd, Dec 2025",
-      "checked": "2026-10-26",
-      "stores": [
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-Electric-Portable-Inflator-Tool-Only-2848-20/320022879"
-        }
-      ]
-    },
-    {
-      "key": "dewalt-dcc020ib",
-      "category": "car",
-      "name": "DeWalt 20V MAX inflator DCC020IB",
-      "guide": "tire-inflator",
-      "card": [
-        "posts/2026-10-tire-inflator",
-        "dcc020"
-      ],
-      "model": "DCC020IB, tool only (battery, charger and AC adapter sold separately).",
-      "street": "$169 at Home Depot (Apr 2026); $109 at Lowe's (Nov 7, 2025)",
-      "good": "under $110",
-      "great": "about $100",
-      "verdict": "wait",
-      "why": "It has dropped 35% at Lowe's before and Lowe's said Black Friday pricing starts Oct 29, 2026.",
-      "sources": "Slickdeals price tracker, Apr 2026; Slickdeals (Lowe's), Nov 7, 2025; ToolGuyd, Oct 2026",
-      "checked": "2026-10-26",
-      "stores": [
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/DEWALT-20V-MAX-Cordless-Electric-Portable-Inflator-Tool-Only-DCC020IB/305709688"
-        },
-        {
-          "name": "Lowe's",
-          "url": "https://www.lowes.com/pd/DEWALT-110-Volt-Lithium-Ion-Li-Ion-Air-Inflator-Power-Source-Battery-Car-Electric/1000632717"
-        }
-      ]
-    },
-    {
-      "key": "astroai-l7",
-      "category": "car",
-      "name": "AstroAI L7 cordless inflator",
-      "guide": "tire-inflator",
-      "card": [
-        "posts/2026-10-tire-inflator",
-        "l7"
-      ],
-      "model": "L7 pocket inflator (built-in battery); other AstroAI models differ.",
-      "street": "AstroAI cordless inflators were $14.99–$44.99 in Walmart listings and deal posts in 2026",
-      "good": "under $30",
-      "great": "about $15",
-      "verdict": "ok",
-      "why": "Cheap enough that waiting saves little; deal posts show frequent coupon prices.",
-      "sources": "Slickdeals (Walmart), Aug 28, 2026; Walmart search results, 2026",
-      "checked": "2026-10-26",
-      "stores": [
-        {
-          "name": "AstroAI",
-          "url": "https://www.astroai.com/l7-tire-inflator/ap/1000347761"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/AstroAI-L7-12-Volts-150-PSI-Tire-Inflator-Portable-Air-Compressor-Cordless-Bike-Pump-with-Digital-Dual-Values-Display-ACACL7BK-US/334246585"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/astroai-tire-inflator-l7-portable-air-compressor-150-psi-cordless-bike-pump-with-digital-dual-values-display-car-tires-black/J3GWJHV7G2"
-        }
-      ]
-    },
-    {
-      "key": "subzero-26",
-      "category": "car",
-      "name": "Hopkins SubZero 26 in snow brush and scraper",
-      "guide": "winter-car-kit",
-      "card": [
-        "posts/2026-10-winter-car-kit",
-        "subzero"
-      ],
-      "model": "SubZero 26 in brush with integrated scraper (the Quick Lock pivoting broom is a related model).",
-      "street": "$27.99 at Tractor Supply for the Quick Lock broom (Bob Vila, Jan 6, 2026); $24.94 at Walmart for a 26 in SubZero (snippet, maker unconfirmed)",
-      "good": "under $25",
-      "great": "about $15",
-      "verdict": "ok",
-      "why": "Cheap and rarely discounted; no sourced Black Friday percent for scrapers, so buy when you need it.",
-      "sources": "Bob Vila best ice scrapers, Jan 2026; Walmart listing snippet, Oct 2026",
-      "checked": "2026-10-28"
-    },
-    {
-      "key": "suncast-auto-shovel",
-      "category": "car",
-      "name": "Suncast Telescoping Auto Shovel SCS4506PK",
-      "guide": "winter-car-kit",
-      "card": [
-        "posts/2026-10-winter-car-kit",
-        "shovel"
-      ],
-      "model": "SCS4506PK telescoping car shovel.",
-      "street": "No confirmed US price found; folding car shovels ran about $15–$30 (Harbor Freight utility shovel $14.99, Oct 28, 2026; Walmart Garant about $25, snippet)",
-      "good": "under $25",
-      "great": "about $15",
-      "verdict": "ok",
-      "why": "We could not confirm this model's price; compare with a metal-bladed folding shovel at about $15 at Harbor Freight.",
-      "sources": "Harbor Freight page, Oct 28, 2026; Walmart snippet",
-      "checked": "2026-10-28",
-      "stores": [
-        {
-          "name": "Suncast",
-          "url": "https://suncast.com/11-telescoping-car-shovel.html",
-          "seen": "$14.99 list, Oct 2026"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/Suncast-Telescoping-Auto-Shovel-SCS4506PK/302369673"
-        }
-      ]
-    },
-    {
-      "key": "maxsa-20333",
-      "category": "car",
-      "name": "MAXSA Escaper Buddy traction mats 20333",
-      "guide": "winter-car-kit",
-      "card": [
-        "posts/2026-10-winter-car-kit",
-        "mats"
-      ],
-      "model": "2-pack, 48 in mats, model 20333.",
-      "street": "$129.99 at Home Depot (snippet); $249.99 at Tractor Supply online (snippet)",
-      "good": "under $130",
-      "great": "about $100",
-      "verdict": "wait",
-      "why": "A $120 spread on one SKU means checking the seller; coarse sand at about $8 does most of the job, so skip unless your driveway needs it.",
-      "sources": "Home Depot and Tractor Supply listing snippets, Oct 2026; Sakrete sand $7.98 at Home Depot (NBC Select, Sept 24, 2026)",
-      "checked": "2026-10-28",
-      "stores": [
-        {
-          "name": "MAXSA Innovations",
-          "url": "https://www.maxsainnovations.com/escaper-buddy-traction-mat-set-of-2-pieces/",
-          "seen": "$129.95 list, Oct 2026"
-        },
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/MAXSA-Escaper-Buddy-Traction-Mats-Set-of-2-20333/309649258"
-        }
-      ]
-    },
-    {
-      "key": "bd-astro-300",
-      "category": "car",
-      "name": "Black Diamond Astro 300 headlamp",
-      "guide": "winter-car-kit",
-      "card": [
-        "posts/2026-10-winter-car-kit",
-        "astro300"
-      ],
-      "model": "Astro 300 (3 AAA), not the rechargeable 300-R.",
-      "street": "No confirmed price found; Black Diamond Spot 400 about $49.95 at REI (snippet); Harbor Freight Braun 500 lumen $12.99 (Oct 28, 2026)",
-      "good": "under $30",
-      "great": "about $20",
-      "verdict": "ok",
-      "why": "Price not confirmed; a $13 Harbor Freight headlamp is a fair budget alternative for one winter job.",
-      "sources": "REI snippet; Harbor Freight page, Oct 28, 2026",
-      "checked": "2026-10-28",
-      "stores": [
-        {
-          "name": "Black Diamond",
-          "url": "https://www.blackdiamondequipment.com/products/astro-300-headlamp",
-          "seen": "$24.95 list, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "wool-blanket",
-      "category": "car",
-      "name": "Wool-blend blanket (Rothco) plus foil emergency blanket",
-      "guide": "winter-car-kit",
-      "card": [
-        "posts/2026-10-winter-car-kit",
-        "warmth"
-      ],
-      "model": "Rothco European surplus style wool blanket; Coleman foil emergency blanket.",
-      "street": "$53.99 at Rothco (snippet); $23.99 on eBay (snippet); Coleman foil blanket $9.12 at Walmart (snippet, undated)",
-      "good": "under $35",
-      "great": "about $25",
-      "verdict": "ok",
-      "why": "Wool is the warmth; foil is a light add-on. Prices are snippets, so check the live page.",
-      "sources": "Rothco, eBay and Walmart snippets, Oct 2026",
-      "checked": "2026-10-28",
-      "stores": [
-        {
-          "name": "Rothco",
-          "url": "https://www.rothco.com/product/rothco-european-surplus-style-blanket",
-          "seen": "from $54.99, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "noco-gb50",
-      "category": "car",
-      "name": "NOCO Boost XL GB50",
-      "guide": "jump-starter-sizes",
-      "card": [
-        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
-        "gb50"
-      ],
-      "model": "GB50, 1500A, gas up to 7.0 liters and diesel up to 4.5 liters.",
-      "street": "List $149.95 at NOCO's store and Best Buy",
-      "good": "under $130",
-      "great": "about $120",
-      "verdict": "ok",
-      "why": "Every store we saw charged the $149.95 list; our lines are 15% and 20% off list, the size of the GB40's usual deal cut. We found no dated GB50 sale history, so there is no reason to wait if you need it this month.",
-      "sources": "NOCO and Best Buy listings in search results, Oct 30, 2026",
-      "checked": "2026-10-30",
-      "stores": [
-        {
-          "name": "NOCO",
-          "url": "https://no.co/gb50",
-          "seen": "$149.95 list, Oct 2026"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/noco-boost-gb50-1500a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-7-0l-gas-4-5l-diesel/J7GRLJ36GJ",
-          "seen": "$149.95, Oct 2026"
-        },
-        {
-          "name": "Walmart",
-          "url": "https://www.walmart.com/ip/NOCO-Boost-XL-GB50-1500A-12V-UltraSafe-Portable-Lithium-Jump-Starter/871769636",
-          "seen": "$149.95 on one listing, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "noco-gb70",
-      "category": "car",
-      "name": "NOCO Boost HD GB70",
-      "guide": "jump-starter-sizes",
-      "card": [
-        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
-        "gb70"
-      ],
-      "model": "GB70, 2000A, gas up to 8.0 liters and diesel up to 6.0 liters.",
-      "street": "About $199.95 at Home Depot and Walmart, $199.99 at O'Reilly",
-      "good": "under $170",
-      "great": "about $160",
-      "verdict": "ok",
-      "why": "Three stores showed $199.95 to $199.99 in October 2026; our lines are 15% and 20% off that. Buy it for a big diesel when you need it; there is no sourced sale history to wait for.",
-      "sources": "Home Depot, Walmart and O'Reilly listings in search results, Oct 30, 2026",
-      "checked": "2026-10-30",
-      "stores": [
-        {
-          "name": "The Home Depot",
-          "url": "https://www.homedepot.com/p/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044",
-          "seen": "$199.95, Oct 2026"
-        },
-        {
-          "name": "O'Reilly Auto Parts",
-          "url": "https://www.oreillyauto.com/detail/c/the-noco-company/the-noco-company-2000-amp-jump-starter/noc0/gb70",
-          "seen": "$199.99, Oct 2026"
-        },
-        {
-          "name": "NOCO",
-          "url": "https://no.co/gb70",
-          "seen": "price not confirmed, Oct 2026"
-        }
-      ]
-    },
-    {
-      "key": "gooloo-gp4000",
-      "category": "car",
-      "name": "GOOLOO GP4000",
-      "guide": "jump-starter-sizes",
-      "card": [
-        "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
-        "gp4000"
-      ],
-      "model": "GP4000, 4000A peak, the base unit (not the Pro, Plus or inflator bundle).",
-      "street": "Best Buy official-store listing $119.99 (date unclear); GOOLOO store bundle with inflator $149.99",
-      "good": "about $120",
-      "great": "$100 or less",
-      "verdict": "wait",
-      "why": "Prices ranged from $119.99 to $149.99 and listings carry crossed-out reference prices that are not real; buy from GOOLOO's own store or Best Buy's official-store listing, and wait for $120 or less on the bare unit.",
-      "sources": "GOOLOO store and Best Buy listing in search results, Oct 2026; 9to5Toys, Aug 6, 2026 (warranty)",
-      "checked": "2026-10-30",
-      "stores": [
-        {
-          "name": "GOOLOO",
-          "url": "https://us.gooloo.com/products/gooloo-gp4000-jump-starter-with-gt160-dual-tire-inflator",
-          "seen": "$149.99 for the GP4000 with inflator, Oct 2026"
-        },
-        {
-          "name": "Best Buy",
-          "url": "https://www.bestbuy.com/product/gooloo-gp4000-4000a-peak-car-jump-starter-portable-12v-lithium-battery-booster-for-all-gas-up-to-10l-diesel-engines/JX59F7XXTX",
-          "seen": "$119.99, date unclear, official-store listing"
-        }
-      ]
+     "name": "ThermoWorks",
+     "url": "https://www.thermoworks.com/products/thermopop-2",
+     "seen": "$39 list, Oct 2026"
     }
-  ],
-  "changelog": [
-    "Week of Oct 31, 2026: re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan KSM150, Rubbermaid Brilliance 10-piece and O-Cedar EasyWring. No dated October 2026 price or Black Friday 2026 deal turned up for any of them (Black Friday is Nov 27), so lines and verdicts are unchanged: ThermoPop 2 buy, the others wait or ok. Newest figures seen: Target Brilliance $21.99 (Slickdeals, Apr 2, 2026), Walmart EasyWring $34.96 Rollback (Jun 4, 2026), KitchenAid Artisan about $349 at Best Buy and Slickdeals (undated).",
-    "Oct 30, 2026: jump starters: new entries for NOCO GB50, GB70 and GOOLOO GP4000 (list prices at NOCO, Best Buy, Home Depot, O'Reilly and Walmart from search results; none confirmed live), and the NOCO GB40 entry is unchanged ($99.95 list, buy).",
-    "Oct 29, 2026: pet guide re-checked: ChomChom Roller unchanged (buy); new Neakasa P1 Pro entry (wait: $99.99 sale at the maker's store, $83–$85 reached in Aug 2026); Litter-Robot 4 unchanged at $699 list.",
-    "Oct 29, 2026: added other places to buy (maker stores and US stores) to 36 entries; corrected the maker-store prices of Thermapen ONE ($115 list), Bissell Little Green ($129.99), Anker C1000 Gen 2 ($699.99), Jackery 2000 v2 ($999) and noted the Saros 10R sold out at Roborock.",
-    "2026-10-28 · Added the Hopkins SubZero 26 in, Suncast auto shovel, MAXSA Escaper Buddy, Black Diamond Astro 300 and a wool blanket for the winter car kit roundup; NOCO GB40 entry unchanged (NOCO list $99.95 still matches).",
-    "2026-10-26 · Added the Fanttik X8 Apex, Milwaukee M18 inflator, DeWalt DCC020IB and AstroAI L7 for the cordless tire inflator roundup.",
-    "2026-10-25 · Re-checked the Bissell Little Green 1400B: Walmart $74.62 on Oct 7, 2026; no announced 2026 Black Friday price.",
-    "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",
-    "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",
-    "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
-    "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
-    "2026-10-17 · Price Check launched with 25 models across seven categories.",
-    "2026-10-19 · Added the Furhaven Large dog bed."
-  ]
+   ]
+  },
+  {
+   "key": "instant-pot-duo-6",
+   "category": "kitchen",
+   "name": "Instant Pot Duo 6-Quart 7-in-1",
+   "guide": "instant-pot-duo",
+   "card": [
+    "posts/2026-10-instant-pot-duo-6-quart",
+    "instant-pot-duo"
+   ],
+   "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
+   "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
+   "good": "under $80",
+   "great": "$60 or less",
+   "verdict": "wait",
+   "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
+   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
+   "checked": "2026-10-21",
+   "stores": [
+    {
+     "name": "Instant Pot",
+     "url": "https://instantpot.com/products/instant-pot-duo-6qt-multi-use-pressure-cooker",
+     "seen": "$109.99 list, Oct 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Instant-Pot-DUO60-V4-6-Quart-Duo-Electric-Pressure-Cooker-Slow-Cooker/45918917"
+    }
+   ]
+  },
+  {
+   "key": "ninja-af101",
+   "category": "kitchen",
+   "name": "Ninja AF101 4-Quart Air Fryer",
+   "guide": "black-friday-home-kitchen",
+   "card": [
+    "posts/2026-10-black-friday-home-kitchen",
+    "ninja-af101"
+   ],
+   "model": "AF101, 4 quarts; check the model number, Ninja sells several similar baskets.",
+   "street": "List $119.99; $89.99 at Best Buy, Target and Home Depot (Apr 1, 2026)",
+   "good": "under $80",
+   "great": "$75 or less",
+   "verdict": "wait",
+   "why": "Home Depot took 32% off Ninja kitchen appliances on Black Friday 2025, which would put it near $82; a few dollars lower is our buy line.",
+   "sources": "Slickdeals price tracker, Apr 1, 2026; NBC Select Black Friday 2025",
+   "checked": "2026-10-31",
+   "stores": [
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/NINJA-Basket-Electric-Air-Fryer-4-qt-Black-And-Gray-Digital-Temperature-Controls-to-Dehydrate-Roast-and-Reheat-AF101/307348719"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/ninja-air-fryer-black-gray/JXJVXGK9G5"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-artisan",
+   "category": "kitchen",
+   "name": "KitchenAid Artisan 5-Quart Stand Mixer",
+   "guide": "black-friday-home-kitchen",
+   "card": [
+    "posts/2026-10-black-friday-home-kitchen",
+    "kitchenaid-artisan"
+   ],
+   "model": "Artisan KSM150, 5-quart tilt-head; colours differ in price, so compare the same colour.",
+   "street": "List $499.99; $349 at Target and $242.29 at Lowe's (Oct 6, 2025)",
+   "good": "under $350",
+   "great": "$260 or less",
+   "verdict": "wait",
+   "why": "It sells 25–30% below list in most big sales, and Lowe's went near half off in October 2025.",
+   "sources": "TechRadar (list); Slickdeals, Oct 6, 2025; Walmart listing (undated)",
+   "checked": "2026-10-31",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.ksm150ps.KSM150PSWH.html"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/KitchenAid-Artisan-Series-5-Quart-Tilt-Head-Stand-Mixer-White-KSM150PS/15173450"
+    }
+   ]
+  },
+  {
+   "key": "rubbermaid-brilliance",
+   "category": "kitchen",
+   "name": "Rubbermaid Brilliance Leak-Proof Containers",
+   "guide": "rubbermaid-brilliance",
+   "card": [
+    "posts/2026-10-rubbermaid-brilliance-food-storage",
+    "rubbermaid-brilliance"
+   ],
+   "model": "Brilliance plastic sets; count the pieces, because set sizes differ by store.",
+   "street": "Mid-teens to about $20 on sale; Target $39.99 at list (July 5, 2026)",
+   "good": "about 40% below list",
+   "great": "Target's $23.99 (Nov 20, 2025) for the same set",
+   "verdict": "wait",
+   "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
+   "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
+   "checked": "2026-10-31",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/rubbermaid-10pc-brilliance-leak-proof-food-storage-containers-with-airtight-lids/-/A-51097873"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Rubbermaid-Brilliance-Leak-Proof-Food-Storage-Containers-10-Piece-Set/54297078"
+    }
+   ]
+  },
+  {
+   "key": "owala-freesip-24",
+   "category": "kitchen",
+   "name": "Owala FreeSip 24 oz",
+   "guide": "owala",
+   "card": [
+    "posts/2026-09-owala-freesip",
+    "freesip"
+   ],
+   "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
+   "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
+   "good": "under $25",
+   "great": "about $24",
+   "verdict": "ok",
+   "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, and no 2026 Black Friday Owala deal was announced as of October 24, so there is little to wait for.",
+   "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025; NBC News Select, Nov 2025",
+   "checked": "2026-10-24",
+   "stores": [
+    {
+     "name": "Owala",
+     "url": "https://owalalife.com/products/freesip"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/owala-freesip-24oz-stainless-steel-water-bottle-alpine-sport/-/A-86722059"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Owala-FreeSip-Stainless-Steel-Water-Bottle-24oz-Black/785624932"
+    }
+   ]
+  },
+  {
+   "key": "bissell-little-green",
+   "category": "cleaning",
+   "name": "Bissell Little Green 1400B",
+   "guide": "bissell",
+   "card": [
+    "posts/2026-09-bissell-little-green",
+    "little-green"
+   ],
+   "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
+   "street": "About $95–$130; Walmart $74.62 (Oct 7, 2026), Bissell $129.99 (Oct 29, 2026)",
+   "good": "under $90",
+   "great": "about $75",
+   "verdict": "buy",
+   "why": "Walmart listed it at $74.62 on October 7, 2026, about what last year's Black Friday cut (around 31% off list) reached, so there is little to wait for. No 2026 Black Friday price was announced as of October 25.",
+   "sources": "Slickdeals, Oct 7, 2026 (Walmart); CNN Underscored, Nov 19, 2025; Bissell list price",
+   "checked": "2026-10-25",
+   "stores": [
+    {
+     "name": "BISSELL",
+     "url": "https://www.bissell.com/en-us/product/little-green-portable-carpet-upholstery-cleaner-1400B.html",
+     "seen": "$129.99 list, Oct 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Bissell-Multi-Purpose-Portable-Carpet-and-Upholstery-Cleaner-1400B-Green/436861322"
+    }
+   ]
+  },
+  {
+   "key": "ocedar-easywring",
+   "category": "cleaning",
+   "name": "O-Cedar EasyWring Spin Mop",
+   "guide": "ocedar-mop",
+   "card": [
+    "posts/2026-10-o-cedar-easywring-spin-mop",
+    "ocedar-mop"
+   ],
+   "model": "EasyWring 1-tank system (mop, bucket, one head); the RinseClean 2-tank is a different, pricier set.",
+   "street": "About $35–$40; Walmart $34.96 (Aug 20, 2026), Target $34.99",
+   "good": "under $35",
+   "great": "under $30",
+   "verdict": "ok",
+   "why": "It rarely moves much below $35; the better saving is a bundle with refill heads, which Costco has sold near $26.",
+   "sources": "Slickdeals, Aug 20, 2026; Costco bundle, July 2025",
+   "checked": "2026-10-31",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/o-cedar-easywring-spin-mop-and-bucket-system/-/A-50335649"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/O-Cedar-EasyWring-Spin-Mop-Bucket-System/44187544"
+    }
+   ]
+  },
+  {
+   "key": "roborock-saros-10r",
+   "category": "cleaning",
+   "name": "Roborock Saros 10R",
+   "guide": "robot-vacuums",
+   "card": [
+    "posts/2026-09-best-robot-vacuums",
+    "saros-10r"
+   ],
+   "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
+   "street": "List $1,599.99; Roborock's store $899.99 (Oct 14, 2026), sold out there on Oct 29, 2026",
+   "good": "$900 or less",
+   "great": "under $850",
+   "verdict": "buy",
+   "why": "October already beat last year's Black Friday price of $999.99, and as a replaced model it has less room to fall.",
+   "sources": "Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Roborock",
+     "url": "https://us.roborock.com/products/roborock-saros-10r",
+     "seen": "$1,599.99 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "dreame-x50-ultra",
+   "category": "cleaning",
+   "name": "Dreame X50 Ultra",
+   "guide": "black-friday-tech-car",
+   "card": [
+    "posts/2026-10-black-friday-tech-car",
+    "x50"
+   ],
+   "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
+   "street": "List $1,599.99",
+   "good": "under $850",
+   "great": "$800 or less",
+   "verdict": "wait",
+   "why": "Dreame's own store ran it at $799.99 (50% off) from November 20 to December 1, 2025; expect a clearance-style price again.",
+   "sources": "Dreame Black Friday 2025 post (search snippet)",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Dreame",
+     "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+     "seen": "$1,599.99 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "levoit-core-300p",
+   "category": "comfort",
+   "name": "Levoit Core 300-P Air Purifier",
+   "guide": "levoit300",
+   "card": [
+    "posts/2026-09-levoit-core-300p-air-purifier",
+    "levoit300"
+   ],
+   "model": "Core 300-P; its filter is the genuine Core 300-RF.",
+   "street": "About $85–$100 at big retailers (Sept 2026)",
+   "good": "under $70",
+   "great": "$50–$60",
+   "verdict": "wait",
+   "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
+   "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Levoit",
+     "url": "https://levoit.com/products/core300-p-air-purifier",
+     "seen": "$99.99 list, Oct 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/LEVOIT-Core-300-P-Coverage-220-sq-ft-Activated-Carbon-Filter-Large-Room-Air-Purifer-in-White-EAPAPLVNUS0132Y/317951088"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/levoit-core-300-p-air-purifier-white/J3Y7X9S5S4"
+    }
+   ]
+  },
+  {
+   "key": "bedsure-throw-50x60",
+   "category": "comfort",
+   "name": "Bedsure Heated Throw 50 x 60",
+   "guide": "bedsure-throw",
+   "card": [
+    "posts/2026-10-bedsure-heated-blanket-throw",
+    "bedsure-throw"
+   ],
+   "model": "50 x 60 in throw with the 8-hour auto-off; check the label against the March 2023 CPSC recall before first use.",
+   "street": "Heated throws run about $20–$80; Walmart about $32 (Oct 1, 2026)",
+   "good": "under $35",
+   "great": "under $28",
+   "verdict": "ok",
+   "why": "Sales take 30–45% off, but the everyday price is already low; buy when it is cold, not for the deal.",
+   "sources": "Walmart listing, Oct 1, 2026",
+   "checked": "2026-10-17"
+  },
+  {
+   "key": "beckham-pillows",
+   "category": "comfort",
+   "name": "Beckham Hotel Collection Pillows (pair)",
+   "guide": "beckham-pillows",
+   "card": [
+    "posts/2026-10-beckham-hotel-collection-pillows",
+    "beckham-pillows"
+   ],
+   "model": "Standard/Queen set of 2 (King costs more).",
+   "street": "About $40–$60 for the pair at major retailers",
+   "good": "under $45",
+   "great": "about $35",
+   "verdict": "ok",
+   "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
+   "sources": "Walmart listings (2026); Woot, March 2023",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Beckham Hotel Collection",
+     "url": "https://beckhamhotelcollection.com/products/original-down-alternative-pillow-set",
+     "seen": "$89.99 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "dreo-heater-1500",
+   "category": "comfort",
+   "name": "Dreo 1500W Ceramic Space Heater",
+   "guide": "dreo-heater",
+   "card": [
+    "posts/2026-10-dreo-space-heater",
+    "dreo-heater"
+   ],
+   "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
+   "street": "$49.99 at dreo.com (Oct 15, 2026)",
+   "good": "under $45",
+   "great": "$30–$35",
+   "verdict": "ok",
+   "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
+   "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Dreo",
+     "url": "https://www.dreo.com/products/dreo-atom-one-space-heater",
+     "seen": "$49.99 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "noco-gb40",
+   "category": "car",
+   "name": "NOCO Boost Plus GB40",
+   "guide": "noco-gb40",
+   "card": [
+    "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+    "noco-gb40"
+   ],
+   "model": "GB40, 1000A, for gas engines up to 6.0 liters (the GB50 is the bigger one).",
+   "street": "List $99.95 at NOCO's store",
+   "good": "under $85",
+   "great": "about $80",
+   "verdict": "buy",
+   "why": "About $80 has been the usual deal price for two years (Woot, Aug 26, 2025); it does not usually go lower, so there is nothing to wait for before winter.",
+   "sources": "NOCO list price; Slickdeals, Aug 26, 2025",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "NOCO",
+     "url": "https://no.co/gb40"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/noco-boost-gb40-1000a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-6-0l-gas-3-0l-diesel/J7GRLJ2QJ7"
+    }
+   ]
+  },
+  {
+   "key": "redtiger-f7np",
+   "category": "car",
+   "name": "REDTIGER F7NP 4K Dash Cam",
+   "guide": "redtiger-f7np",
+   "card": [
+    "posts/2026-10-redtiger-f7np-dash-cam",
+    "redtiger-f7np"
+   ],
+   "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
+   "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
+   "good": "under $110",
+   "great": "$100 or less",
+   "verdict": "wait",
+   "why": "The crossed-out $149.98 is not the real street price; $100 or less is where it is a good buy.",
+   "sources": "Android Authority, Jul 28, 2026; redtigercam.com, Oct 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "REDTIGER",
+     "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
+     "seen": "$129.99 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "chomchom-roller",
+   "category": "pets",
+   "name": "ChomChom Roller",
+   "guide": "pets",
+   "card": [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "chomchom"
+   ],
+   "model": "The original ChomChom Roller (look-alikes copy the shape, not the comb).",
+   "street": "$19.99 at PetSmart (Oct 2026); $23.99 at Walmart (Sept 2026)",
+   "good": "under $20",
+   "great": "about $16",
+   "verdict": "buy",
+   "why": "20–50% off has been reported at past big sales (BuzzFeed, Nov 2024; Krazy Coupon Lady, Nov 2024); it is already near the usual low, so waiting saves a few dollars.",
+   "sources": "PetSmart, Oct 2026; Walmart, Sept 2026; BuzzFeed and The Krazy Coupon Lady, Nov 2024",
+   "checked": "2026-10-29",
+   "stores": [
+    {
+     "name": "PetSmart",
+     "url": "https://www.petsmart.com/cat/grooming-supplies/brushes-combs-and-blowdryers/angry-orange-chomchom-roller-pet-hair-remover-92837.html"
+    },
+    {
+     "name": "Chewy",
+     "url": "https://www.chewy.com/chomchom-roller-pet-hair-remover/dp/3998782"
+    }
+   ]
+  },
+  {
+   "key": "kong-classic-large",
+   "category": "pets",
+   "name": "KONG Classic (Large)",
+   "guide": "dogs",
+   "card": [
+    "posts/2026-09-dog-essentials-on-amazon",
+    "kong"
+   ],
+   "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
+   "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
+   "good": "under $12",
+   "great": "under $10",
+   "verdict": "buy",
+   "why": "It is cheap all year; size matters more than price.",
+   "sources": "Chewy and Walmart, Sept 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Chewy",
+     "url": "https://www.chewy.com/kong-classic-dog-toy/dp/38485"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Kong-Classic-Dog-Toy-Large-Red/19629270"
+    }
+   ]
+  },
+  {
+   "key": "neakasa-p1-pro",
+   "category": "pets",
+   "name": "Neakasa P1 Pro grooming vacuum kit",
+   "guide": "pets",
+   "card": [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "p1pro"
+   ],
+   "model": "Neakasa P1 Pro (5 tools, 1 L cup); the P2 Pro has a 2 L cup and costs more.",
+   "street": "$99.99 sale vs $129.99 regular at neakasa.com (search snippet, Oct 29, 2026); $83–$85 in Aug 2026 (9to5Toys, DealNews)",
+   "good": "under $90",
+   "great": "about $70",
+   "verdict": "wait",
+   "why": "The maker's own store shows $99.99 against $129.99, but Aug 2026 deals reached $83–$85 and the June 2025 low was $69.99; Black Friday (Nov 27) is the next chance.",
+   "sources": "neakasa.com, Oct 2026; 9to5Toys and DealNews, Aug 2026",
+   "checked": "2026-10-29",
+   "stores": [
+    {
+     "name": "Neakasa",
+     "url": "https://neakasa.com/products/neakasa-p1-pro-pet-grooming-vacuum-kits",
+     "seen": "$99.99 sale, $129.99 regular, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "litter-robot-4",
+   "category": "pets",
+   "name": "Litter-Robot 4",
+   "guide": "pets",
+   "card": [
+    "posts/2026-09-best-pet-products-on-amazon",
+    "lr4"
+   ],
+   "model": "Litter-Robot 4 (the EVO is a cheaper, different machine).",
+   "street": "$699 direct at litter-robot.com all of 2026",
+   "good": "$699 new",
+   "great": "$599 reconditioned, direct",
+   "verdict": "ok",
+   "why": "The price held at $699 all year; Costco's $699.99 bundle adds extras. Reconditioned units save $100 with a shorter warranty.",
+   "sources": "litter-robot.com, 2026; Costco, July 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Whisker (Litter-Robot)",
+     "url": "https://www.litter-robot.com/litter-robot-4.html",
+     "seen": "$699 list, Oct 2026"
+    },
+    {
+     "name": "PetSmart",
+     "url": "https://www.petsmart.com/cat/litter-and-waste-disposal/litter-boxes/litter-robot-4-automatic-self-cleaning-cat-litter-box-by-whisker-80271.html"
+    },
+    {
+     "name": "Chewy",
+     "url": "https://www.chewy.com/litter-robot-4-automatic-self/dp/617582"
+    }
+   ]
+  },
+  {
+   "key": "luxe-neo-185",
+   "category": "bathroom",
+   "name": "LUXE Bidet NEO 185",
+   "guide": "bidets2026",
+   "card": [
+    "posts/2026-10-best-bidet-2026",
+    "neo185"
+   ],
+   "model": "NEO 185 dual nozzle (the 185 Plus costs a few dollars more; the NEO 120 has one nozzle).",
+   "street": "$49.99 at LUXE's store (Oct 2026); Walmart $42.49 (undated)",
+   "good": "under $45",
+   "great": "under $40",
+   "verdict": "buy",
+   "why": "It sits near its floor all year, so a wait saves only a few dollars.",
+   "sources": "LUXE store, Oct 2026; Walmart listing (undated)",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "LUXE Bidet",
+     "url": "https://luxebidet.com/products/neo-185",
+     "seen": "$49.99 list, Oct 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/neo-185-mechanical-bidet-attachment-blue-luxe-bidet/-/A-80202389"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/LUXE-Bidet-NEO-185-Dual-Nozzle-Self-Cleaning-Non-Electric-Attachable-Bidet-System-Bidet-Attachment-for-Toilet-Seat-Rose-Gold-BidetNeo185rg/341822228"
+    }
+   ]
+  },
+  {
+   "key": "airpods-pro-3",
+   "category": "tech",
+   "name": "Apple AirPods Pro 3",
+   "guide": "black-friday-tech-car",
+   "card": [
+    "posts/2026-10-black-friday-tech-car",
+    "pro3"
+   ],
+   "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
+   "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
+   "good": "under $190",
+   "great": "$180 or less",
+   "verdict": "buy",
+   "why": "About $180 is already below last year's Black Friday low of $219.99.",
+   "sources": "apple.com; TechBuzz, Nov 20, 2025; Slickdeals price table, Oct 5, 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+     "seen": "$249.00 list, Oct 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350"
+    }
+   ]
+  },
+  {
+   "key": "airtag-2-4pack",
+   "category": "tech",
+   "name": "Apple AirTag 2 (4-pack)",
+   "guide": "airtag",
+   "card": [
+    "posts/2026-09-apple-airtag-2",
+    "airtag2"
+   ],
+   "model": "AirTag 2nd generation, 4-pack (a single is $29 list).",
+   "street": "List $99; Target $89.99 (Oct 2026)",
+   "good": "under $90",
+   "great": "$80 or less",
+   "verdict": "wait",
+   "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
+   "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
+   "checked": "2026-10-22",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
+     "seen": "$99.00 list, Oct 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/apple-airtag-4-pack-2nd-generation/-/A-85990990"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/apple-airtag-4-pack-2nd-generation-2026-white/JJGCQLTTF3"
+    }
+   ]
+  },
+  {
+   "key": "sony-wf-1000xm6",
+   "category": "tech",
+   "name": "Sony WF-1000XM6",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "xm6"
+   ],
+   "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
+   "street": "List $329.99",
+   "good": "under $280",
+   "great": "$260 or less",
+   "verdict": "wait",
+   "why": "The best discount so far was about 22% off list (Oct 5, 2026); a first Black Friday usually matches or beats it.",
+   "sources": "SoundGuys, Oct 5, 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/J7XSRH5W6P"
+    }
+   ]
+  },
+  {
+   "key": "anker-c1000-gen2",
+   "category": "tech",
+   "name": "Anker SOLIX C1000 Gen 2",
+   "guide": "power-stations",
+   "card": [
+    "posts/2026-09-best-portable-power-stations",
+    "c1000"
+   ],
+   "model": "C1000 Gen 2 (the first C1000 charges more slowly).",
+   "street": "List $799; $699.99 at Anker's store (Oct 29, 2026)",
+   "good": "under $500",
+   "great": "$430 or less",
+   "verdict": "wait",
+   "why": "Anker's own store sold it for $429 with a code in April 2026, so it has room to fall.",
+   "sources": "Slickdeals, Apr 23, 2026",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Anker",
+     "url": "https://www.anker.com/products/c1000-gen2",
+     "seen": "$699.99, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "jackery-2000-v2",
+   "category": "tech",
+   "name": "Jackery Explorer 2000 v2",
+   "guide": "black-friday-tech-car",
+   "card": [
+    "posts/2026-10-black-friday-tech-car",
+    "2000v2"
+   ],
+   "model": "Explorer 2000 v2 (2,042 Wh); the 2000 Plus is a different, heavier unit.",
+   "street": "List $1,499; $999 at Jackery's store (Oct 29, 2026)",
+   "good": "under $750",
+   "great": "$650 or less",
+   "verdict": "wait",
+   "why": "Wellbots sold it for $599 with a code on November 14, 2025: the clearest Black Friday-window low of our picks.",
+   "sources": "Slickdeals, Nov 14, 2025",
+   "checked": "2026-10-17",
+   "stores": [
+    {
+     "name": "Jackery",
+     "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
+     "seen": "$999, Oct 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/Jackery-2200W-Rated-4400W-Peak-Portable-Power-Station-Explorer-2000-v2-Push-Button-Start-Battery-Generator-for-Outdoors-and-Home-Explorer-2000-v2/332459572"
+    }
+   ]
+  },
+  {
+   "key": "furhaven-sofa-large",
+   "category": "pets",
+   "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+   "guide": "furhaven-bed",
+   "card": [
+    "posts/2026-10-furhaven-orthopedic-dog-bed",
+    "furhaven-bed"
+   ],
+   "model": "Large (36 x 27 x 6.5 in, size guide up to 55 lb); the Quilted style is thinner than the Plush & Suede Full Support.",
+   "street": "Quilted $39.99 (Target, Oct 19, 2026); Plush & Suede $54.99 (PetSmart, Oct 19, 2026), list $65.99",
+   "good": "under $45",
+   "great": "$40 or less",
+   "verdict": "ok",
+   "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
+   "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
+   "checked": "2026-10-19",
+   "stores": [
+    {
+     "name": "Furhaven",
+     "url": "https://furhaven.com/products/shop-pet-beds-sofa-bed-plush-suede"
+    },
+    {
+     "name": "PetSmart",
+     "url": "https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/furhaven-plush-and-suede-full-support-orthopedic-sofa-pet-bed-for-dogs-and-cats---gray-5361465.html"
+    },
+    {
+     "name": "Chewy",
+     "url": "https://www.chewy.com/furhaven-plush-suede-full-support/dp/768638"
+    }
+   ]
+  },
+  {
+   "key": "instant-pot-duo-plus-6",
+   "category": "kitchen",
+   "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet)",
+   "guide": "instant-pot-models",
+   "card": [
+    "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "duoplus"
+   ],
+   "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
+   "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
+   "good": "under $110",
+   "great": "$80 or less",
+   "verdict": "wait",
+   "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
+   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
+   "checked": "2026-10-21",
+   "stores": [
+    {
+     "name": "Instant Pot",
+     "url": "https://instantpot.com/products/instant-pot-duo-plus-6qt-multi-use-pressure-cooker-whisper-quiet",
+     "seen": "$139.99 list, Oct 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/Instant-Pot-6-qt-Duo-Plus-Stainless-Steel-Electric-Pressure-Cooker-with-Whisper-Quiet-Steam-Release-V4-112-0169-01/324263727"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Instant-Pot-112-0169-01-Duo-Plus-Digital-Pressure-Cooker-Stainless-Steel/1413891263"
+    }
+   ]
+  },
+  {
+   "key": "thermopop-2-thermometers",
+   "category": "kitchen",
+   "name": "ThermoWorks ThermoPop 2",
+   "guide": "meat-thermometer",
+   "card": [
+    "posts/2026-10-meat-thermometer",
+    "thermopop2"
+   ],
+   "model": "ThermoPop 2 (not the original ThermoPop).",
+   "street": "About $39 list at ThermoWorks, October 2026; $35 at launch (2022)",
+   "good": "under $35",
+   "great": "about $31",
+   "verdict": "buy",
+   "why": "Thanksgiving is November 26. ThermoWorks ran it at $31 (20% off) on July 1, 2026 and at $24.50 (30% off) on October 5, 2023, but not reliably before the holiday, and you want time for an ice-bath test.",
+   "sources": "ThermoWorks list price, October 2026; ThermoWorks via America's Test Kitchen, July 1, 2026; TVWBB, October 5, 2023",
+   "checked": "2026-10-23",
+   "stores": [
+    {
+     "name": "ThermoWorks",
+     "url": "https://www.thermoworks.com/products/thermopop-2",
+     "seen": "$39 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "thermapen-one",
+   "category": "kitchen",
+   "name": "ThermoWorks Thermapen ONE",
+   "guide": "meat-thermometer",
+   "card": [
+    "posts/2026-10-meat-thermometer",
+    "thermapen-one"
+   ],
+   "model": "Thermapen ONE, any colour (the NANO is a different, newer model).",
+   "street": "$74 in colour closeout at ThermoWorks (Oct 23, 2026); $115 list (Oct 29, 2026)",
+   "good": "under $75",
+   "great": "about $62",
+   "verdict": "buy",
+   "why": "It is being closed out, so colours are running out; ThermoWorks has sold it at $62 to $76 several times (Black Friday 2022, 2024, Nov 10, 2025), but this year's successor may change that.",
+   "sources": "thermoworks.com, Oct 23, 2026; Slickdeals, Nov 10, 2025 and Aug 21, 2026; TVWBB Black Friday 2022 thread",
+   "checked": "2026-10-23",
+   "stores": [
+    {
+     "name": "ThermoWorks",
+     "url": "https://www.thermoworks.com/products/thermapen-one",
+     "seen": "$115 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "fanttik-x8-apex",
+   "category": "car",
+   "name": "Fanttik X8 Apex",
+   "guide": "tire-inflator",
+   "card": [
+    "posts/2026-10-tire-inflator",
+    "x8apex"
+   ],
+   "model": "X8 Apex (150 psi, built-in battery); the Deluxe package adds a case and a car adapter.",
+   "street": "$89.99 at fanttik.com (list $99.99, Oct 26, 2026); Walmart search results showed it from about $70 (not confirmed live)",
+   "good": "under $75",
+   "great": "about $70",
+   "verdict": "ok",
+   "why": "Seen at $70 at Best Buy in March 2025 and from about $70 at Walmart; the brand store is $20 higher, and no Black Friday terms were announced yet.",
+   "sources": "fanttik.com, Oct 26, 2026; Slickdeals (Best Buy), Mar 22, 2025; Walmart search result, undated",
+   "checked": "2026-10-26",
+   "stores": [
+    {
+     "name": "Fanttik",
+     "url": "https://www.fanttik.com/products/x8-apex-tire-inflator",
+     "seen": "$99.99 list, Oct 2026"
+    },
+    {
+     "name": "Lowe's",
+     "url": "https://www.lowes.com/pd/Fanttik-Fanttik-X8-APEX-Tire-Inflator-11-1-volt-5V-3A-Lithium-Ion-li-ion-Air-Inflator-Power-Source-Battery/5015108147"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/fanttik-x8-apex-portable-air-compressor-tire-inflator-with-power-bank-for-mpv-car-e-bike-motorcycle-black/J3R8KP8F4S"
+    }
+   ]
+  },
+  {
+   "key": "milwaukee-m18-inflator",
+   "category": "car",
+   "name": "Milwaukee M18 inflator 2848-20",
+   "guide": "tire-inflator",
+   "card": [
+    "posts/2026-10-tire-inflator",
+    "m18"
+   ],
+   "model": "2848-20, tool only (no battery or charger).",
+   "street": "$199 at Home Depot (Dec 2024); $149 at Walmart (search result, undated)",
+   "good": "under $150",
+   "great": "about $119 (free with a battery kit)",
+   "verdict": "wait",
+   "why": "Home Depot ran it as a free gift with an M18 starter kit in July 2026 and in the 2025 Black Friday promotions; the Oct 29 holiday sales may repeat that.",
+   "sources": "ShopSavvy, Dec 3, 2024; Slickdeals (Home Depot), Jul 15, 2026; ToolGuyd, Dec 2025",
+   "checked": "2026-10-26",
+   "stores": [
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/Milwaukee-M18-18-Volt-Lithium-Ion-Cordless-Electric-Portable-Inflator-Tool-Only-2848-20/320022879"
+    }
+   ]
+  },
+  {
+   "key": "dewalt-dcc020ib",
+   "category": "car",
+   "name": "DeWalt 20V MAX inflator DCC020IB",
+   "guide": "tire-inflator",
+   "card": [
+    "posts/2026-10-tire-inflator",
+    "dcc020"
+   ],
+   "model": "DCC020IB, tool only (battery, charger and AC adapter sold separately).",
+   "street": "$169 at Home Depot (Apr 2026); $109 at Lowe's (Nov 7, 2025)",
+   "good": "under $110",
+   "great": "about $100",
+   "verdict": "wait",
+   "why": "It has dropped 35% at Lowe's before and Lowe's said Black Friday pricing starts Oct 29, 2026.",
+   "sources": "Slickdeals price tracker, Apr 2026; Slickdeals (Lowe's), Nov 7, 2025; ToolGuyd, Oct 2026",
+   "checked": "2026-10-26",
+   "stores": [
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/DEWALT-20V-MAX-Cordless-Electric-Portable-Inflator-Tool-Only-DCC020IB/305709688"
+    },
+    {
+     "name": "Lowe's",
+     "url": "https://www.lowes.com/pd/DEWALT-110-Volt-Lithium-Ion-Li-Ion-Air-Inflator-Power-Source-Battery-Car-Electric/1000632717"
+    }
+   ]
+  },
+  {
+   "key": "astroai-l7",
+   "category": "car",
+   "name": "AstroAI L7 cordless inflator",
+   "guide": "tire-inflator",
+   "card": [
+    "posts/2026-10-tire-inflator",
+    "l7"
+   ],
+   "model": "L7 pocket inflator (built-in battery); other AstroAI models differ.",
+   "street": "AstroAI cordless inflators were $14.99–$44.99 in Walmart listings and deal posts in 2026",
+   "good": "under $30",
+   "great": "about $15",
+   "verdict": "ok",
+   "why": "Cheap enough that waiting saves little; deal posts show frequent coupon prices.",
+   "sources": "Slickdeals (Walmart), Aug 28, 2026; Walmart search results, 2026",
+   "checked": "2026-10-26",
+   "stores": [
+    {
+     "name": "AstroAI",
+     "url": "https://www.astroai.com/l7-tire-inflator/ap/1000347761"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/AstroAI-L7-12-Volts-150-PSI-Tire-Inflator-Portable-Air-Compressor-Cordless-Bike-Pump-with-Digital-Dual-Values-Display-ACACL7BK-US/334246585"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/astroai-tire-inflator-l7-portable-air-compressor-150-psi-cordless-bike-pump-with-digital-dual-values-display-car-tires-black/J3GWJHV7G2"
+    }
+   ]
+  },
+  {
+   "key": "subzero-26",
+   "category": "car",
+   "name": "Hopkins SubZero 26 in snow brush and scraper",
+   "guide": "winter-car-kit",
+   "card": [
+    "posts/2026-10-winter-car-kit",
+    "subzero"
+   ],
+   "model": "SubZero 26 in brush with integrated scraper (the Quick Lock pivoting broom is a related model).",
+   "street": "$27.99 at Tractor Supply for the Quick Lock broom (Bob Vila, Jan 6, 2026); $24.94 at Walmart for a 26 in SubZero (snippet, maker unconfirmed)",
+   "good": "under $25",
+   "great": "about $15",
+   "verdict": "ok",
+   "why": "Cheap and rarely discounted; no sourced Black Friday percent for scrapers, so buy when you need it.",
+   "sources": "Bob Vila best ice scrapers, Jan 2026; Walmart listing snippet, Oct 2026",
+   "checked": "2026-10-28"
+  },
+  {
+   "key": "suncast-auto-shovel",
+   "category": "car",
+   "name": "Suncast Telescoping Auto Shovel SCS4506PK",
+   "guide": "winter-car-kit",
+   "card": [
+    "posts/2026-10-winter-car-kit",
+    "shovel"
+   ],
+   "model": "SCS4506PK telescoping car shovel.",
+   "street": "No confirmed US price found; folding car shovels ran about $15–$30 (Harbor Freight utility shovel $14.99, Oct 28, 2026; Walmart Garant about $25, snippet)",
+   "good": "under $25",
+   "great": "about $15",
+   "verdict": "ok",
+   "why": "We could not confirm this model's price; compare with a metal-bladed folding shovel at about $15 at Harbor Freight.",
+   "sources": "Harbor Freight page, Oct 28, 2026; Walmart snippet",
+   "checked": "2026-10-28",
+   "stores": [
+    {
+     "name": "Suncast",
+     "url": "https://suncast.com/11-telescoping-car-shovel.html",
+     "seen": "$14.99 list, Oct 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/Suncast-Telescoping-Auto-Shovel-SCS4506PK/302369673"
+    }
+   ]
+  },
+  {
+   "key": "maxsa-20333",
+   "category": "car",
+   "name": "MAXSA Escaper Buddy traction mats 20333",
+   "guide": "winter-car-kit",
+   "card": [
+    "posts/2026-10-winter-car-kit",
+    "mats"
+   ],
+   "model": "2-pack, 48 in mats, model 20333.",
+   "street": "$129.99 at Home Depot (snippet); $249.99 at Tractor Supply online (snippet)",
+   "good": "under $130",
+   "great": "about $100",
+   "verdict": "wait",
+   "why": "A $120 spread on one SKU means checking the seller; coarse sand at about $8 does most of the job, so skip unless your driveway needs it.",
+   "sources": "Home Depot and Tractor Supply listing snippets, Oct 2026; Sakrete sand $7.98 at Home Depot (NBC Select, Sept 24, 2026)",
+   "checked": "2026-10-28",
+   "stores": [
+    {
+     "name": "MAXSA Innovations",
+     "url": "https://www.maxsainnovations.com/escaper-buddy-traction-mat-set-of-2-pieces/",
+     "seen": "$129.95 list, Oct 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/MAXSA-Escaper-Buddy-Traction-Mats-Set-of-2-20333/309649258"
+    }
+   ]
+  },
+  {
+   "key": "bd-astro-300",
+   "category": "car",
+   "name": "Black Diamond Astro 300 headlamp",
+   "guide": "winter-car-kit",
+   "card": [
+    "posts/2026-10-winter-car-kit",
+    "astro300"
+   ],
+   "model": "Astro 300 (3 AAA), not the rechargeable 300-R.",
+   "street": "No confirmed price found; Black Diamond Spot 400 about $49.95 at REI (snippet); Harbor Freight Braun 500 lumen $12.99 (Oct 28, 2026)",
+   "good": "under $30",
+   "great": "about $20",
+   "verdict": "ok",
+   "why": "Price not confirmed; a $13 Harbor Freight headlamp is a fair budget alternative for one winter job.",
+   "sources": "REI snippet; Harbor Freight page, Oct 28, 2026",
+   "checked": "2026-10-28",
+   "stores": [
+    {
+     "name": "Black Diamond",
+     "url": "https://www.blackdiamondequipment.com/products/astro-300-headlamp",
+     "seen": "$24.95 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "wool-blanket",
+   "category": "car",
+   "name": "Wool-blend blanket (Rothco) plus foil emergency blanket",
+   "guide": "winter-car-kit",
+   "card": [
+    "posts/2026-10-winter-car-kit",
+    "warmth"
+   ],
+   "model": "Rothco European surplus style wool blanket; Coleman foil emergency blanket.",
+   "street": "$53.99 at Rothco (snippet); $23.99 on eBay (snippet); Coleman foil blanket $9.12 at Walmart (snippet, undated)",
+   "good": "under $35",
+   "great": "about $25",
+   "verdict": "ok",
+   "why": "Wool is the warmth; foil is a light add-on. Prices are snippets, so check the live page.",
+   "sources": "Rothco, eBay and Walmart snippets, Oct 2026",
+   "checked": "2026-10-28",
+   "stores": [
+    {
+     "name": "Rothco",
+     "url": "https://www.rothco.com/product/rothco-european-surplus-style-blanket",
+     "seen": "from $54.99, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "noco-gb50",
+   "category": "car",
+   "name": "NOCO Boost XL GB50",
+   "guide": "jump-starter-sizes",
+   "card": [
+    "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+    "gb50"
+   ],
+   "model": "GB50, 1500A, gas up to 7.0 liters and diesel up to 4.5 liters.",
+   "street": "List $149.95 at NOCO's store and Best Buy",
+   "good": "under $130",
+   "great": "about $120",
+   "verdict": "ok",
+   "why": "Every store we saw charged the $149.95 list; our lines are 15% and 20% off list, the size of the GB40's usual deal cut. We found no dated GB50 sale history, so there is no reason to wait if you need it this month.",
+   "sources": "NOCO and Best Buy listings in search results, Oct 30, 2026",
+   "checked": "2026-10-30",
+   "stores": [
+    {
+     "name": "NOCO",
+     "url": "https://no.co/gb50",
+     "seen": "$149.95 list, Oct 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/noco-boost-gb50-1500a-ultrasafe-jump-starter-12v-portable-lithium-battery-booster-pack-7-0l-gas-4-5l-diesel/J7GRLJ36GJ",
+     "seen": "$149.95, Oct 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/NOCO-Boost-XL-GB50-1500A-12V-UltraSafe-Portable-Lithium-Jump-Starter/871769636",
+     "seen": "$149.95 on one listing, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "noco-gb70",
+   "category": "car",
+   "name": "NOCO Boost HD GB70",
+   "guide": "jump-starter-sizes",
+   "card": [
+    "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+    "gb70"
+   ],
+   "model": "GB70, 2000A, gas up to 8.0 liters and diesel up to 6.0 liters.",
+   "street": "About $199.95 at Home Depot and Walmart, $199.99 at O'Reilly",
+   "good": "under $170",
+   "great": "about $160",
+   "verdict": "ok",
+   "why": "Three stores showed $199.95 to $199.99 in October 2026; our lines are 15% and 20% off that. Buy it for a big diesel when you need it; there is no sourced sale history to wait for.",
+   "sources": "Home Depot, Walmart and O'Reilly listings in search results, Oct 30, 2026",
+   "checked": "2026-10-30",
+   "stores": [
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/NOCO-GB70-2000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-8-Liter-Gasoline-And-6-Liter-Diesel-Engines-GB70/312000044",
+     "seen": "$199.95, Oct 2026"
+    },
+    {
+     "name": "O'Reilly Auto Parts",
+     "url": "https://www.oreillyauto.com/detail/c/the-noco-company/the-noco-company-2000-amp-jump-starter/noc0/gb70",
+     "seen": "$199.99, Oct 2026"
+    },
+    {
+     "name": "NOCO",
+     "url": "https://no.co/gb70",
+     "seen": "price not confirmed, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "gooloo-gp4000",
+   "category": "car",
+   "name": "GOOLOO GP4000",
+   "guide": "jump-starter-sizes",
+   "card": [
+    "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+    "gp4000"
+   ],
+   "model": "GP4000, 4000A peak, the base unit (not the Pro, Plus or inflator bundle).",
+   "street": "Best Buy official-store listing $119.99 (date unclear); GOOLOO store bundle with inflator $149.99",
+   "good": "about $120",
+   "great": "$100 or less",
+   "verdict": "wait",
+   "why": "Prices ranged from $119.99 to $149.99 and listings carry crossed-out reference prices that are not real; buy from GOOLOO's own store or Best Buy's official-store listing, and wait for $120 or less on the bare unit.",
+   "sources": "GOOLOO store and Best Buy listing in search results, Oct 2026; 9to5Toys, Aug 6, 2026 (warranty)",
+   "checked": "2026-10-30",
+   "stores": [
+    {
+     "name": "GOOLOO",
+     "url": "https://us.gooloo.com/products/gooloo-gp4000-jump-starter-with-gt160-dual-tire-inflator",
+     "seen": "$149.99 for the GP4000 with inflator, Oct 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/gooloo-gp4000-4000a-peak-car-jump-starter-portable-12v-lithium-battery-booster-for-all-gas-up-to-10l-diesel-engines/JX59F7XXTX",
+     "seen": "$119.99, date unclear, official-store listing"
+    }
+   ]
+  },
+  {
+   "key": "roku-select-55",
+   "category": "tech",
+   "name": "Roku Select Series 55-inch (2026)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "roku-select"
+   ],
+   "model": "Select Series 55-inch, 2026 model year (not the 2025 55R5C5). US code unconfirmed; Best Buy Canada lists 55R5D5CA.",
+   "street": "Target $249.99 (was $299.99) and Best Buy $269.99 (was $349.99) in search-result snippets, undated, early Nov 2026",
+   "good": "about $250",
+   "great": "$200 or less",
+   "verdict": "ok",
+   "why": "Already about 17-29% off list at Target and Best Buy; Black Friday 2025 cuts on Roku sets reached 33%, so $200 would be a real low, but $250 is a fair price today.",
+   "sources": "Target and Best Buy listings in search results, early Nov 2026 (snippets; Best Buy blocked fetches)",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/-/6673080.p",
+     "seen": "$269.99, snippet, undated, Nov 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/55-Roku-Select-4K/20097802164",
+     "seen": "2026 Select 55-inch listing; price not captured, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "lg-c6-55",
+   "category": "tech",
+   "name": "LG C6 OLED 55-inch (OLED55C6PUA)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "lg-c6"
+   ],
+   "model": "OLED55C6PUA, 55-inch (not the OLED55C6AUA, whose differences are unconfirmed).",
+   "street": "$1,799.99 at Best Buy and Walmart in search snippets, undated, Nov 2026; LG.com $1,999.99 on Nov 2, 2026",
+   "good": "$1,499",
+   "great": "$1,299 or less",
+   "verdict": "wait",
+   "why": "Only about 10% under the $1,999 MSRP (LG release, Mar 5, 2026). 2025-model OLEDs fell 30-44% last Black Friday; wait for Best Buy's Nov 19-28 window.",
+   "sources": "LG US press release (Mar 5, 2026); LG.com product page fetched Nov 2, 2026; Best Buy and Walmart snippets",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "LG",
+     "url": "https://www.lg.com/us/tvs/lg-oled55c6pua-oled-4k-tv",
+     "seen": "$1,999.99 list, Nov 2, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/lg-55-class-c6-series-oled-evo-ai-4k-smart-webos-tv-2026/JJ8VPZKKP3",
+     "seen": "$1,799.99, snippet, undated, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "tcl-qm7l-55",
+   "category": "tech",
+   "name": "TCL QM7L 55-inch (55QM7L)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "tcl-qm7l"
+   ],
+   "model": "55QM7L (Best Buy SKU 6673190), not the QM7L Pro or the 2025 QM7K.",
+   "street": "$799.99 at Best Buy per Slickdeals price data last updated July 2026; PC Richard $797.99 (undated promo)",
+   "good": "$799",
+   "great": "$699 or less",
+   "verdict": "wait",
+   "why": "The $799.99 figure is months old and the set lists at $1,199.99; recheck at Best Buy's Nov 6 and Nov 19 events before buying.",
+   "sources": "Slickdeals price data (July 2026), Best Buy listing snippet, PC Richard snippet",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/tcl-55-class-qm7l-series-4k-uhd-hdr-sqd-mini-led-smart-tv-with-google-tv-2026/J36QYTHLR6",
+     "seen": "$799.99, Slickdeals data July 2026"
+    }
+   ]
+  },
+  {
+   "key": "samsung-s90h-55",
+   "category": "tech",
+   "name": "Samsung S90H OLED 55-inch (QN55S90HAEXZA)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "samsung-s90h"
+   ],
+   "model": "QN55S90HAEXZA, 55-inch (not the 2025 S90F).",
+   "street": "$1,299.99 at Best Buy and Samsung.com (SlashGear, Oct 19, 2026); list $1,999.99",
+   "good": "$1,299",
+   "great": "$1,199 or less",
+   "verdict": "ok",
+   "why": "35% off list is already near the depth of last year's cuts; buy if it reaches about $1,200 in Black Friday, otherwise this is a fair price.",
+   "sources": "SlashGear, Oct 19, 2026; Samsung.com page fetched Nov 2, 2026 (still showed $1,999.99)",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "Samsung",
+     "url": "https://www.samsung.com/us/tvs/oled-tv/55-inch-oled-4k-tv-s90h-sku-qn55s90haexza/",
+     "seen": "$1,999.99 list on the page, Nov 2, 2026; SlashGear reports $1,299.99 Oct 19"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/samsung-55-class-s90h-oled-4k-uhd-smartvision-ai-smart-tizen-tv-2026/JJGRF3QG5T",
+     "seen": "$1,299.99 per SlashGear, Oct 19, 2026"
+    }
+   ]
+  },
+  {
+   "key": "sony-bravia7ii-55",
+   "category": "tech",
+   "name": "Sony Bravia 7 II 55-inch (K55XR70M2)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "sony-bravia7"
+   ],
+   "model": "K55XR70M2, 55-inch True RGB Mini LED (US code).",
+   "street": "$1,398 at Abt on Nov 2, 2026; list $2,099.99 (Engadget, May 27, 2026)",
+   "good": "$1,398",
+   "great": "$1,199 or less",
+   "verdict": "ok",
+   "why": "33% under list at a major dealer today; Sony cuts are shallower than Samsung's or LG's, so waiting may save little.",
+   "sources": "Abt listing fetched Nov 2, 2026; Engadget May 27, 2026",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "Abt",
+     "url": "https://www.abt.com/Sony-BRAVIA-7-II-55-Inch-True-RGB-4K-HDR-Google-TV-with-Gemini-K55XR70M2/p/244173.html",
+     "seen": "$1,398, Nov 2, 2026"
+    }
+   ]
+  },
+  {
+   "key": "apple-tv-4k-2026",
+   "category": "tech",
+   "name": "Apple TV 4K (new model)",
+   "guide": "smart-tv-privacy",
+   "card": [
+    "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "apple-tv"
+   ],
+   "model": "The new Apple TV 4K at $299 (check storage option), ships Nov 13, 2026.",
+   "street": "$299 on Apple's page, fetched Nov 2, 2026",
+   "good": "$299",
+   "great": "$249 or less",
+   "verdict": "ok",
+   "why": "No discount is reported yet and it ships Nov 13; Apple rarely cuts the box, so there is little reason to wait for a sale.",
+   "sources": "Apple page fetched Nov 2, 2026; TechRadar",
+   "checked": "2026-11-02",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-tv/apple-tv-4k",
+     "seen": "$299, Nov 2, 2026, ships Nov 13"
+    }
+   ]
+  }
+ ],
+ "changelog": [
+  "Nov 2, 2026: TVs: new entries for the Roku Select 55-inch, LG C6, TCL QM7L, Samsung S90H, Sony Bravia 7 II and the new Apple TV 4K, for the TV privacy guide. Best Buy and Walmart blocked our tools, so several figures are search-result snippets and are marked undated. Verdicts: Roku Select ok, S90H ok, Bravia 7 II ok, Apple TV ok, C6 and QM7L wait for Best Buy's Nov 19-28 sale (Black Friday is Nov 27).",
+  "Week of Oct 31, 2026: re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan KSM150, Rubbermaid Brilliance 10-piece and O-Cedar EasyWring. No dated October 2026 price or Black Friday 2026 deal turned up for any of them (Black Friday is Nov 27), so lines and verdicts are unchanged: ThermoPop 2 buy, the others wait or ok. Newest figures seen: Target Brilliance $21.99 (Slickdeals, Apr 2, 2026), Walmart EasyWring $34.96 Rollback (Jun 4, 2026), KitchenAid Artisan about $349 at Best Buy and Slickdeals (undated).",
+  "Oct 30, 2026: jump starters: new entries for NOCO GB50, GB70 and GOOLOO GP4000 (list prices at NOCO, Best Buy, Home Depot, O'Reilly and Walmart from search results; none confirmed live), and the NOCO GB40 entry is unchanged ($99.95 list, buy).",
+  "Oct 29, 2026: pet guide re-checked: ChomChom Roller unchanged (buy); new Neakasa P1 Pro entry (wait: $99.99 sale at the maker's store, $83–$85 reached in Aug 2026); Litter-Robot 4 unchanged at $699 list.",
+  "Oct 29, 2026: added other places to buy (maker stores and US stores) to 36 entries; corrected the maker-store prices of Thermapen ONE ($115 list), Bissell Little Green ($129.99), Anker C1000 Gen 2 ($699.99), Jackery 2000 v2 ($999) and noted the Saros 10R sold out at Roborock.",
+  "2026-10-28 · Added the Hopkins SubZero 26 in, Suncast auto shovel, MAXSA Escaper Buddy, Black Diamond Astro 300 and a wool blanket for the winter car kit roundup; NOCO GB40 entry unchanged (NOCO list $99.95 still matches).",
+  "2026-10-26 · Added the Fanttik X8 Apex, Milwaukee M18 inflator, DeWalt DCC020IB and AstroAI L7 for the cordless tire inflator roundup.",
+  "2026-10-25 · Re-checked the Bissell Little Green 1400B: Walmart $74.62 on Oct 7, 2026; no announced 2026 Black Friday price.",
+  "2026-10-24 · Re-checked the Owala FreeSip 24 oz: still under $25 at Target in September and October; no announced 2026 Black Friday Owala deal.",
+  "2026-10-23 · Added the ThermoPop 2 and Thermapen ONE for the instant-read thermometer roundup.",
+  "2026-10-22 · Re-checked the AirTag 2 4-pack: deepest reported cut so far is about 19% off list.",
+  "2026-10-21 · Added the Instant Pot Duo Plus 6-quart and re-checked the Duo 6-quart.",
+  "2026-10-17 · Price Check launched with 25 models across seven categories.",
+  "2026-10-19 · Added the Furhaven Large dog bed."
+ ]
 }
