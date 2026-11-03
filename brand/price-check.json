@@ -301,9 +301,9 @@
    "good": "under $70",
    "great": "$50–$60",
    "verdict": "wait",
-   "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region), so the Black Friday week is the time to check.",
+   "why": "Home Depot ran it near $49 in some stores in November 2025 (prices varied by region). No confirmed Black Friday 2026 price yet (checked Nov 3, 2026); September 2026 prices were $89.98 Home Depot and $89.99 Levoit.com. Black Friday is Nov 27, Cyber Monday Nov 30: wait for under $85.",
    "sources": "Slickdeals threads, Nov 6 and Nov 26, 2025; retailer pages, Sept 2026",
-   "checked": "2026-10-17",
+   "checked": "2026-11-03",
    "stores": [
     {
      "name": "Levoit",
@@ -1361,6 +1361,7 @@
   }
  ],
  "changelog": [
+  "Nov 3, 2026: Levoit Core 300-P re-checked: no confirmed Black Friday 2026 price yet, September prices unchanged ($89.98 Home Depot, $89.99 Levoit.com); verdict stays wait for under $85 (Black Friday Nov 27, Cyber Monday Nov 30).",
   "Nov 2, 2026: TVs: new entries for the Roku Select 55-inch, LG C6, TCL QM7L, Samsung S90H, Sony Bravia 7 II and the new Apple TV 4K, for the TV privacy guide. Best Buy and Walmart blocked our tools, so several figures are search-result snippets and are marked undated. Verdicts: Roku Select ok, S90H ok, Bravia 7 II ok, Apple TV ok, C6 and QM7L wait for Best Buy's Nov 19-28 sale (Black Friday is Nov 27).",
   "Week of Oct 31, 2026: re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan KSM150, Rubbermaid Brilliance 10-piece and O-Cedar EasyWring. No dated October 2026 price or Black Friday 2026 deal turned up for any of them (Black Friday is Nov 27), so lines and verdicts are unchanged: ThermoPop 2 buy, the others wait or ok. Newest figures seen: Target Brilliance $21.99 (Slickdeals, Apr 2, 2026), Walmart EasyWring $34.96 Rollback (Jun 4, 2026), KitchenAid Artisan about $349 at Best Buy and Slickdeals (undated).",
   "Oct 30, 2026: jump starters: new entries for NOCO GB50, GB70 and GOOLOO GP4000 (list prices at NOCO, Best Buy, Home Depot, O'Reilly and Walmart from search results; none confirmed live), and the NOCO GB40 entry is unchanged ($99.95 list, buy).",

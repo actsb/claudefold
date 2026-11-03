@@ -13,7 +13,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 | power-stations | https://acts39.blogspot.com/2026/09/best-portable-power-stations-2026.html |  | 2026-10-27 |
 | pets | https://acts39.blogspot.com/2026/09/best-pet-products-on-amazon-2026.html |  | 2026-10-29 |
 | dogs | https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html |  | 2026-11-01 |
-| levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | |
+| levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | 2026-11-03 |
 | bedsure-throw | https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html |  | |
 | ocedar-mop | https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html |  | |
 | noco-gb40 | https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html |  | |
@@ -35,6 +35,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-11-03 · levoit300 · replaced the expired Prime Big Deal Days advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) wait-for-under-$85 verdict (Home Depot near $49 in Nov 2025 as precedent, no confirmed 2026 price), added a three-year cost table ($305–$411: unit, five filters, electricity), updated the settlement line (claim deadline Nov 3, 2026; fairness hearing Feb 17, 2027), added links to the Dreo heater and Bedsure throw reviews, Price Check entry re-checked, Updated date November 3, 2026.
 * 2026-11-01 · 31 posts · photo pass 2: 19 more licensed photos (maker press kits, Wikimedia Commons CC0/BY/BY-SA) on 33 cards; every remaining drawn product became a name tile (owner's request: no drawn products); covers and pins lead with photographed products; Samsung SmartTag2 press photo withdrawn (newsroom terms personal-use only); hubs, About and Price Check thumbnails refreshed. Products still needing a photo: daily/photo-requests-2026-11-01.md (99).
 * 2026-11-01 · dogs · replaced the expired Prime Big Deal Days (Oct 6–7) advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (KONG Large $13 vs $17 list in a past season, Yahoo roundup; Earth Rated bags 25–47% off in Whole Dog Journal's 2025 roundup; no 2026 deals announced; no dated October 2026 harness price found), added links to the Black Friday home and kitchen guide and the Furhaven dog bed review, Updated date November 1, 2026.
 * 2026-10-31 · weekly-refresh · Recall Check re-run (228 recalls in our categories); Price Check re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan, Rubbermaid Brilliance and O-Cedar EasyWring: no dated October 2026 prices or Black Friday 2026 deals found, lines and verdicts unchanged; changelog line added.
