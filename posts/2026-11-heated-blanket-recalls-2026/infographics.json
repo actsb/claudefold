@@ -2,81 +2,81 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The heated blanket recalls in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "Heated blanket safety in six steps",
+    "sub": "Check the label, lay it flat, test the auto-off",
+    "footer": "State Farm (Sept 18, 2026); UL Solutions; Sunbeam and Bedsure manuals",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Match the label",
+        "body": "Model number against the recall list"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Look for a mark",
+        "body": "UL or ETL on the label"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Lay it flat",
+        "body": "Never tucked in or folded"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Plug in the wall",
+        "body": "No extension cord or strip"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Test the auto-off",
+        "body": "While awake, on a weekend"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Preheat, then off",
+        "body": "Switch off before you get in"
       }
     ]
   },
   {
     "type": "stores",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Where the three throws were seen",
+    "sub": "November 2026, from search snippets; prices not read live",
+    "footer": "Search snippets, Nov 2026; undated store prices. The buttons show today's price.",
     "rows": [
       {
         "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "See today's price",
+        "ship": "Prime shipping on many",
+        "returns": "Check the seller's return window",
+        "note": "Both 2026 mass recalls were marketplace brands: buy sold by the brand",
         "verdict": "ok"
       },
       {
+        "store": "Walmart",
+        "price": "About $26–$32 (snippets, undated)",
+        "ship": "Store pickup or shipping",
+        "returns": "Standard store returns",
+        "note": "Usually the lowest we saw for Sunbeam and Bedsure",
+        "verdict": "win"
+      },
+      {
         "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Marselle about $67 (snippet)",
+        "ship": "Shipping or pickup",
+        "returns": "Standard store returns",
+        "note": "Carries the Beautyrest Marselle",
         "verdict": "ok"
       },
       {
         "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Not confirmed",
+        "ship": "Varies",
+        "returns": "Varies",
+        "note": "We could not open Sunbeam.com or Bedsure's store",
         "verdict": "ok"
       },
       {
         "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
+        "price": "Cheap",
+        "ship": "Slow",
+        "returns": "Unclear",
+        "note": "No brand, no listing mark, no recall lookup",
         "verdict": "no"
       }
     ]

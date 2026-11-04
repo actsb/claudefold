@@ -1358,9 +1358,84 @@
      "seen": "$299, Nov 2, 2026, ships Nov 13"
     }
    ]
+  },
+  {
+   "category": "comfort",
+   "guide": "heated-blanket-recalls",
+   "verdict": "ok",
+   "checked": "2026-11-04",
+   "key": "sunbeam-royal-luxe-50x60",
+   "name": "Sunbeam Royal Luxe Heated Throw 50 x 60",
+   "card": [
+    "posts/2026-11-heated-blanket-recalls-2026",
+    "sunbeam-luxe"
+   ],
+   "model": "Sunbeam Royal Luxe Microplush 50 x 60 in throw, 4 heat settings, 4-hour auto-off, 5-year limited warranty per listings.",
+   "street": "About $26 at Walmart (search snippet, undated, Nov 2026); everyday Sunbeam throws about $24–$30",
+   "good": "under $30",
+   "great": "under $25",
+   "why": "Everyday prices are already low; past sales took about 40–58% off Sunbeam throws (Slickdeals-style posts, 2025), so waiting saves a few dollars. Buy when it is cold.",
+   "sources": "Walmart search snippet, Nov 2026 (undated); deal posts Nov–Dec 2025",
+   "stores": []
+  },
+  {
+   "category": "comfort",
+   "guide": "heated-blanket-recalls",
+   "verdict": "ok",
+   "checked": "2026-11-04",
+   "key": "bedsure-throw-50x60-nov",
+   "name": "Bedsure Heated Throw 50 x 60 (Nov 2026 re-check)",
+   "card": [
+    "posts/2026-11-heated-blanket-recalls-2026",
+    "bedsure-throw"
+   ],
+   "model": "Bedsure/U by Bedsure 50 x 60 in throw; auto-off 3, 8 or 10 hours depending on version.",
+   "street": "Walmart $26.99–$28.99 in search snippets (undated); $32 on Oct 1, 2026",
+   "good": "under $35",
+   "great": "under $28",
+   "why": "Check the label against the March 2023 recall list; the auto-off differs by version.",
+   "sources": "Walmart listings in search snippets, Nov 2026; Walmart Oct 1, 2026",
+   "stores": [
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/17625710158",
+     "seen": "$28.99 in a search snippet, undated (UNVERIFIED)"
+    }
+   ]
+  },
+  {
+   "category": "comfort",
+   "guide": "heated-blanket-recalls",
+   "verdict": "ok",
+   "checked": "2026-11-04",
+   "key": "beautyrest-marselle-50x70",
+   "name": "Beautyrest Marselle Heated Throw 50 x 70",
+   "card": [
+    "posts/2026-11-heated-blanket-recalls-2026",
+    "beautyrest-marselle"
+   ],
+   "model": "Beautyrest Marselle oversized faux fur 50 x 70 in heated throw, 2-hour auto-off, 5-year limited warranty per listings.",
+   "street": "About $66.99 on sale at Target (search snippet, undated)",
+   "good": "under $70",
+   "great": "under $55",
+   "why": "Larger than the others with the shortest auto-off; wattage and wash rating unconfirmed.",
+   "sources": "Target and Kohl's listings in search snippets, Nov 2026",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/beautyrest-50-x70-marselle-oversized-faux-fur-heated-throw/-/A-93486918",
+     "seen": "$66.99 sale in a search snippet, undated (UNVERIFIED)"
+    },
+    {
+     "name": "Kohl's",
+     "url": "https://www.kohls.com/product/prd-3082930/beautyrest-marselle-oversized-faux-fur-heated-throw.jsp",
+     "seen": "listed, price not read (UNVERIFIED)"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 4, 2026: Added the Sunbeam Royal Luxe, Bedsure (re-check) and Beautyrest Marselle heated throws for the heated blanket recall guide; prices are from undated search snippets and marked UNVERIFIED.",
   "Nov 3, 2026: Levoit Core 300-P re-checked: no confirmed Black Friday 2026 price yet, September prices unchanged ($89.98 Home Depot, $89.99 Levoit.com); verdict stays wait for under $85 (Black Friday Nov 27, Cyber Monday Nov 30).",
   "Nov 2, 2026: TVs: new entries for the Roku Select 55-inch, LG C6, TCL QM7L, Samsung S90H, Sony Bravia 7 II and the new Apple TV 4K, for the TV privacy guide. Best Buy and Walmart blocked our tools, so several figures are search-result snippets and are marked undated. Verdicts: Roku Select ok, S90H ok, Bravia 7 II ok, Apple TV ok, C6 and QM7L wait for Best Buy's Nov 19-28 sale (Black Friday is Nov 27).",
   "Week of Oct 31, 2026: re-checked ThermoPop 2, Ninja AF101, KitchenAid Artisan KSM150, Rubbermaid Brilliance 10-piece and O-Cedar EasyWring. No dated October 2026 price or Black Friday 2026 deal turned up for any of them (Black Friday is Nov 27), so lines and verdicts are unchanged: ThermoPop 2 buy, the others wait or ok. Newest figures seen: Target Brilliance $21.99 (Slickdeals, Apr 2, 2026), Walmart EasyWring $34.96 Rollback (Jun 4, 2026), KitchenAid Artisan about $349 at Best Buy and Slickdeals (undated).",

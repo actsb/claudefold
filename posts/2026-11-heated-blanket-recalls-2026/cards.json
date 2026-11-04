@@ -1,32 +1,86 @@
 {
   "category": "generic",
-  "buy_title": "The exact heated blanket recalls to order, and what to check on the listing",
+  "buy_title": "The three heated throws to order, and the label check before the first night",
   "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
   "cards": [
     {
-      "id": "heated-blanket-recalls",
+      "id": "sunbeam-luxe",
       "category": "generic",
-      "name": "Heated blanket recalls and safe picks",
-      "short": "heated blanket recalls",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "Sunbeam Royal Luxe Microplush Heated Throw (50 x 60 in)",
+      "short": "Sunbeam Royal Luxe",
+      "badge": "Our pick · no 2025–2026 CPSC recall",
+      "chip": "50×60 in · 4 heat settings · 4-hour auto-off",
       "art": {
         "shape": "tile",
-        "label": "heated blanket recalls"
+        "label": "Sunbeam Royal Luxe"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=heated+blanket+auto+shut+off+UL&tag=verdictpicks-20",
+      "price": "About $26 at Walmart in a search snippet we could not date; everyday Sunbeam throw prices run about $24–$30. The button shows today's price.",
+      "buy_if": "you want one person warm on the sofa, from a brand with no 2025–2026 recall, and you will read the label first.",
+      "skip_if": "you want to warm a bed (look at a full-size blanket), or you need it for an infant, an immobile person or someone who cannot feel heat.",
+      "owners": "Walmart review summaries (undated) mention controllers that blink or show an F2 fault and stop heating; praise is for quick warm-up and softness.",
+      "cta": "https://www.amazon.com/s?k=Sunbeam+Royal+Luxe+heated+throw+50x60&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The Royal Luxe Microplush 50×60 (4 heat settings, 4-hour auto-off, 5-year limited warranty per listings)",
+        "check": "Sold by Sunbeam or the store itself; the title says Royal Luxe, 50×60; wattage and the UL or ETL mark are unconfirmed, so read the label; the controller must come off for washing",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "bedsure-throw",
+      "category": "generic",
+      "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+      "short": "Bedsure heated throw",
+      "badge": "The cheaper pick · 2023 recall on other models",
+      "chip": "50×60 in · 6 heat levels · machine washable",
+      "art": {
+        "shape": "tile",
+        "label": "Bedsure heated throw"
+      },
+      "price": "About $27–$32 at Walmart (search snippets, undated; $32 on Oct 1, 2026 in our earlier check). The button shows today's price.",
+      "buy_if": "you want the lowest price for a sofa throw and will check the label against the 2023 recall list.",
+      "skip_if": "you want a brand with no recall history at all, or a guaranteed 8-hour auto-off (a Walmart listing for this size says 3 hours).",
+      "owners": "Our Bedsure review covers owner reports; we found no brand-specific non-Amazon complaint this time.",
+      "cta": "https://www.amazon.com/s?k=Bedsure+heated+blanket+electric+throw+50x60&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Cheaper",
+        "pick": "The 50×60 throw; read the auto-off in the title (3, 8 or 10 hours depending on the version)",
+        "check": "ETL mark in the title; compare the label with the seven model numbers recalled in March 2023 (BS-HB5060 is on the list); sold by Bedsure",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "beautyrest-marselle",
+      "category": "generic",
+      "name": "Beautyrest Marselle Oversized Faux Fur Heated Throw (50 x 70 in)",
+      "short": "Beautyrest Marselle",
+      "badge": "The bigger pick · room for two",
+      "chip": "50×70 in · 2-hour auto-off · 5-year warranty",
+      "art": {
+        "shape": "tile",
+        "label": "Beautyrest Marselle"
+      },
+      "price": "About $67 on sale at Target in a search snippet we could not date; also at Kohl's. The button shows today's price.",
+      "buy_if": "you want a bigger throw for a long sofa or two people and can live with a 2-hour auto-off.",
+      "skip_if": "you want a long auto-off timer, or a confirmed wash-and-dry rating (we could not confirm wattage, listing mark or washability).",
+      "owners": "We found no usable long-term owner reports; the few Walmart pages we saw for Beautyrest throws had reviews flagged as promotional.",
+      "cta": "https://www.amazon.com/s?k=Beautyrest+Marselle+heated+throw+50x70&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Bigger",
+        "pick": "The Marselle 50×70 faux fur throw (not the 50×60 Beautyrest fleece)",
+        "check": "Sold by Beautyrest or the store; 50×70 in the title; read the listing mark and the wash instructions on the label before use",
         "label": "See today's price"
       }
     }

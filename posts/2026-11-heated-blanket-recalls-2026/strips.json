@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "heated-blanket-recalls",
-      "title": "A day with the heated blanket recalls — in real life",
+      "card": "sunbeam-luxe",
+      "title": "A cold week with a heated throw — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Read the label",
+          "text": "Find the model number before the first night and compare it with the recall list.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Lay it flat",
+          "text": "On top of the sheet, controller outside the covers, plugged into the wall."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Test the auto-off",
+          "text": "Stay awake once and time it; stop if the controller gets hot."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Switch it off",
+          "text": "Preheat, then turn it off before you get in, as UL Solutions suggests.",
           "host": {
             "pose": "thumbsup"
           }
