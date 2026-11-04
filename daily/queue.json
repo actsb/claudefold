@@ -730,7 +730,7 @@
    "key": "heated-blanket-recalls",
    "slug": "heated-blanket-recalls-2026",
    "date": "2026-11-04",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Heated blanket recalls and safe picks",
@@ -754,7 +754,9 @@
    "hook": "CPSC recalls of JKMAX (about 195,000 blankets and pads, Sept 17, 2026) and OCTROT heated blankets; nobody keeps a model lookup; links Recall Check and our Bedsure throw review",
    "picks": "how to find the model on the controller and label; what to do if it matches (CPSC remedy); the safety checklist (UL/ETL listing, auto-off, detachable controller, warranty); 3 picks from brands with no 2025-2026 CPSC recall after checking /p/recall-check.html (e.g. Sunbeam, Bedsure, Beautyrest); who should not use one. Stores: Walmart, Target, Costco, Kohl's, maker stores",
    "cluster": "comfort",
-   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)",
+   "url": "https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html",
+   "dir": "posts/2026-11-heated-blanket-recalls-2026"
   },
   {
    "key": "smart-speakers-alexa-plus",

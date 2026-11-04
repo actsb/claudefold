@@ -273,6 +273,12 @@ POSTS = {
         "slug_title": "TVs With the Fewest AI Features 2026",
         "labels": ["TVs", "Privacy", "Smart Home", "Comparison", "Black Friday", "Amazon Finds"],
     },
+    "heated-blanket-recalls": {
+        "dir": "posts/2026-11-heated-blanket-recalls-2026",
+        "title": "Heated Blanket Recalls 2026: Check Your Model, Then What to Buy Instead",
+        "slug_title": "Heated Blanket Recalls 2026",
+        "labels": ["Home Comfort", "Heated Blankets", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
