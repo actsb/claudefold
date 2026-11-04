@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Heated Blanket Recalls 2026: Check Your Model, Then What to Buy Instead
+https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html
+
+```text
+Is your heated blanket recalled? Where to find the model number, what the JKMAX and OCTROT recalls say, and three throws with no 2025-2026 recall.
+```
+
 ## TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is
 https://acts39.blogspot.com/2026/11/tvs-with-fewest-ai-features-2026.html
 

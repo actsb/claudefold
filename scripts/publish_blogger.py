@@ -275,6 +275,7 @@ POSTS = {
     },
     "heated-blanket-recalls": {
         "dir": "posts/2026-11-heated-blanket-recalls-2026",
+        "url": "https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html",
         "title": "Heated Blanket Recalls 2026: Check Your Model, Then What to Buy Instead",
         "slug_title": "Heated Blanket Recalls 2026",
         "labels": ["Home Comfort", "Heated Blankets", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],

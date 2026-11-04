@@ -6,17 +6,17 @@ Cover: `posts/2026-11-heated-blanket-recalls-2026/images/cover.png` · Pin: `ima
 Disclosure on every social post: "Amazon links in the guide are paid links."
 
 ## Pinterest (day 1)
-WRITE
+Pin: "Is your heated blanket recalled? Check the label" (see pinterest/pins-2026-11.md); the owner chooses it on the quick-pin page.
 
 ## X / Threads (day 1)
-1. WRITE
-2. WRITE
+1. Two 2026 heated blanket recalls cover about 373,000 units (OCTROT, JKMAX). Where the model number is, and what to do: https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html (Amazon links in the guide are paid links.)
+2. Check the back of the controller, the wash label or the box against the CPSC lists; the guide has the table.
 
 ## Facebook groups (day 2)
-WRITE
+Share the recall table with a line: check your label before the cold snap; disclose the paid links.
 
 ## Reddit (comments only, day 3)
-WRITE
+Only in threads asking whether a blanket is recalled: answer with the CPSC page first, our guide second, disclose the affiliate links.
 
 ## Search and indexing
 Search Console → URL inspection → Request indexing; set the search description from post-meta.md.
