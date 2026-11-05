@@ -15,25 +15,7 @@
 <rect x="314.5" y="62" width="276.5" height="358" rx="16" fill="#fff" stroke="#1B2A41" stroke-width="4"/>
 <rect x="318.5" y="66" width="268.5" height="200.48000000000002" rx="12" fill="#E4F3EA"/>
 <circle cx="344.5" cy="92" r="18" fill="#1B2A41"/><text x="344.5" y="99" text-anchor="middle" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="20" font-weight="800" fill="#fff">2</text>
-<g transform="translate(344.75 84) scale(0.36)"><defs>
-<radialGradient id="s1-bg" cx="50%" cy="38%" r="72%"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#f3f3f1"/><stop offset="1" stop-color="#e4e4e1"/></radialGradient>
-<filter id="s1-blur" x="-30%" y="-80%" width="160%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
-<filter id="s1-soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2.2"/></filter>
-<filter id="s1-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
-<linearGradient id="s1-front" x1="0" y1="0" x2="0.35" y2="1"><stop offset="0" stop-color="#a5a9b0"/><stop offset="0.55" stop-color="#8A8F98"/><stop offset="1" stop-color="#727882"/></linearGradient>
-<linearGradient id="s1-side" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a7f8a"/><stop offset="1" stop-color="#585c64"/></linearGradient>
-<linearGradient id="s1-top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#cbcdd1"/><stop offset="1" stop-color="#9a9fa6"/></linearGradient>
-<radialGradient id="s1-dome" cx="38%" cy="32%" r="75%"><stop offset="0" stop-color="#c6c8cd"/><stop offset="0.6" stop-color="#8A8F98"/><stop offset="1" stop-color="#666b74"/></radialGradient>
-<linearGradient id="s1-gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.05"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<linearGradient id="s1-screen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="1" stop-color="#060a10"/></linearGradient>
-<linearGradient id="s1-metal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9d9d6"/><stop offset="0.35" stop-color="#f4f4f2"/><stop offset="0.65" stop-color="#bdbdb9"/><stop offset="1" stop-color="#e6e6e3"/></linearGradient>
-<linearGradient id="s1-accent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e79e4a"/><stop offset="1" stop-color="#935814"/></linearGradient>
-<linearGradient id="s1-lens" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6470"/><stop offset="0.45" stop-color="#1c2129"/><stop offset="0.55" stop-color="#2b323c"/><stop offset="1" stop-color="#0c0f14"/></linearGradient>
-</defs>
-<ellipse cx="300" cy="336" rx="200" ry="16" fill="#000" opacity="0.28" filter="url(#s1-blur)"/>
-<path d="M 410 136.4 L 443.0 109.4 L 443.0 266.6 Q 443.0 273.0 438.2 273.0 L 410 297.6 Z" fill="url(#s1-side)"/><path d="M 178.0 130 L 211.0 103.0 L 438.2 103.0 Q 443.0 103.0 443.0 109.4 L 410 136.4 Q 410 130 402.0 130 Z" fill="url(#s1-top)"/><rect x="170" y="130" width="240" height="170" rx="16" fill="url(#s1-front)"/><rect x="170" y="130" width="240" height="170" rx="16" fill="none" stroke="#4c5056" stroke-width="1.2" opacity="0.6"/><path d="M 186 133 L 394 133" stroke="#fff" stroke-opacity="0.35" stroke-width="2" stroke-linecap="round"/>
-<rect x="196" y="196" width="150" height="26" rx="8" fill="#C9781B"/><rect x="204" y="203" width="70" height="6" rx="3" fill="#fff" opacity="0.7"/><rect x="204" y="212" width="46" height="5" rx="2.5" fill="#fff" opacity="0.45"/>
-<rect x="430" y="300" width="70" height="18" rx="6" fill="#C9781B"/><rect x="438" y="306" width="36" height="6" rx="3" fill="#fff" opacity="0.7"/></g>
+<g transform="translate(344.75 84) scale(0.36)"><rect x="60" y="60" width="480" height="280" rx="28" fill="#F4F2EC"/><rect x="60" y="60" width="480" height="280" rx="28" fill="none" stroke="#E3E1DB" stroke-width="2"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif"><text x="300" y="174" text-anchor="middle" font-size="40" font-weight="800" fill="#1B2A41">Bedsure heated</text><text x="300" y="226" text-anchor="middle" font-size="40" font-weight="800" fill="#1B2A41">throw</text></g></g>
 <g transform="translate(495.0 82) scale(0.55)"><circle cx="70" cy="70" r="54" fill="#1E8E5A"/><path d="M 42 72 L 62 92 L 100 50" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/></g>
 <text x="330.5" y="296.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#1B2A41">About 30 minutes later</text>
 <text x="330.5" y="322.48" font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif" font-size="15.5" fill="#333">A third-party review site</text>
