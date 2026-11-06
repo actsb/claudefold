@@ -1,84 +1,107 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The smart speakers & Alexa+ in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+ {
+  "type": "matrix",
+  "name": "records",
+  "title": "What each speaker keeps, and how to delete it",
+  "sub": "Default retention and the mute control, from each maker's own page",
+  "footer": "Sources: Amazon Alexa privacy FAQ (undated, read Nov 6, 2026), Apple Siri privacy page (Oct 26, 2026) and HomePod guide, Google Gemini for Home activity page, Sonos privacy statement (Sept 2026). Settings change; check your app.",
+  "columns": [
+   {
+    "head": "Speaker",
+    "w": 190
+   },
+   {
+    "head": "Default retention",
+    "w": 340
+   },
+   {
+    "head": "Delete or limit it",
+    "w": 330
+   },
+   {
+    "head": "Mic off",
+    "w": 210
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Sonos Era 100 SL",
+     "Nothing: no microphones",
+     "Nothing to delete",
+     "Not needed"
     ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "HomePod mini 2",
+     "Audio not stored unless you opt in; requests tied to a random ID for 6 months",
+     "Home app, Siri History, Delete Siri History",
+     "Voice or Home app (no switch found)"
     ]
-  }
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Sonos Era 100",
+     "Classic Sonos Voice on the speaker, nothing saved; Alexa recordings go to Amazon",
+     "Amazon's settings for Alexa",
+     "Switch on the back"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Google Home Speaker",
+     "Activity saved 18 months if Home History is on; training use off by default",
+     "myactivity.google.com/product/home; auto-delete 3, 18 or 36 months",
+     "Physical switch"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Echo Dot Max / Studio",
+     "Recordings kept until you set 3 or 18 months, or not to save (transcripts kept 30 days)",
+     "Alexa app, More, Alexa Privacy",
+     "Mic button"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "The five-minute privacy pass on a new speaker",
+  "sub": "Do these before you ask it anything",
+  "footer": "Paths from the makers' privacy pages, read November 6, 2026; app menus change.",
+  "items": [
+   {
+    "head": "Pick the history",
+    "body": "Alexa: set auto-delete to 3 months or choose not to save. Google: leave 18 months or shorten it."
+   },
+   {
+    "head": "Keep training off",
+    "body": "On Google, leave the voice and audio improvement setting off. On Apple, decline Improve Siri."
+   },
+   {
+    "head": "Find the mute",
+    "body": "Echo has a mic button, Google and Era 100 have a switch, HomePod mutes by voice or the Home app."
+   },
+   {
+    "head": "Check the plan",
+    "body": "Alexa+ is free only with Prime. Gemini Live needs a Premium plan."
+   },
+   {
+    "head": "Delete old audio",
+    "body": "Use the app path for your brand once a quarter; Echo: More, Alexa Privacy."
+   },
+   {
+    "head": "Or skip the mic",
+    "body": "If the room is private, the Sonos Era 100 SL has no microphones at all."
+   }
+  ]
+ }
 ]

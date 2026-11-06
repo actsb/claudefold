@@ -1,34 +1,170 @@
 {
-  "category": "generic",
-  "buy_title": "The exact smart speakers & Alexa+ to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "smart-speakers-alexa-plus",
-      "category": "generic",
-      "name": "Smart speakers and the cost of Alexa+",
-      "short": "smart speakers & Alexa+",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "tile",
-        "label": "smart speakers & Alexa+"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=smart+speaker&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The exact speakers to order, and what to check on the listing",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from Target, Apple, Costco, Sonos and the Google Store on November 6, 2026 and move with sales; the buttons show today's price.",
+ "cards": [
+  {
+   "id": "sonos-era-100-sl",
+   "category": "generic",
+   "name": "Sonos Era 100 SL",
+   "short": "Sonos Era 100 SL",
+   "badge": "Our first pick · it cannot record you",
+   "chip": "No microphones · no voice assistant · Wi-Fi and Bluetooth · $189 list",
+   "art": {
+    "shape": "tile",
+    "label": "Sonos Era 100 SL"
+   },
+   "price": "$189 at Sonos (Nov 6, 2026). About 21% off ($149) on Oct 6, 2026 per Gizmodo; Best Buy lists it at $189 in a search result.",
+   "buy_if": "you want good sound and a speaker with nothing to record: Sonos says it has no internal microphones, so there is no voice data to keep and no subscription.",
+   "skip_if": "you want to say \"play my playlist\" or ask the weather: it has no voice control at all, and Android phones cannot run full Trueplay room tuning (iPhone only, Sonos and TechRadar).",
+   "owners": "No owner failure threads found for the SL itself. Sonos Community (March 10, 2026): it will not stereo pair with a Sonos One, One SL or Play:1. Best Buy search snippet, Nov 6, 2026: 4.7 stars on 27 reviews (UNVERIFIED, small pool).",
+   "cta": "https://www.amazon.com/s?k=Sonos+Era+100+SL&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Era 100 SL in black or white. The \"SL\" is the model without microphones; the plain Era 100 looks the same and has mics.",
+    "check": "Sold and shipped by a named retailer or Sonos, not a third-party seller; the box says Era 100 SL; keep the receipt, Sonos gives 30-day returns on its own store.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "homepod-mini-2",
+   "category": "generic",
+   "name": "Apple HomePod mini (2nd generation)",
+   "short": "HomePod mini 2",
+   "badge": "Best for an iPhone home",
+   "chip": "S10 chip · Siri · Matter and Thread hub · $149",
+   "art": {
+    "shape": "tile",
+    "label": "HomePod mini 2"
+   },
+   "price": "$149 at Apple and $149.99 at Target (Nov 6, 2026); $144.99 at Costco (Oct 23, 2026, SlashGear).",
+   "buy_if": "your household lives on iPhones and you want the shortest documented retention and no monthly fee.",
+   "skip_if": "you need Siri AI today: Apple says it is \"coming in a future software update\" with no date, and only classic Siri works now (Cult of Mac, Nov 2, 2026). Android homes should skip it.",
+   "owners": "On sale since Oct 30, so no months-long owner reports exist yet. Cult of Mac (Nov 2, 2026) gave it 5 of 5. The first-generation mini's forum complaints are about false triggers and glitches after software 26.x (Apple Community, May 20, 2026).",
+   "cta": "https://www.amazon.com/s?k=Apple+HomePod+mini+2nd+generation&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best for iPhone homes",
+    "pick": "The 2nd-generation HomePod mini ($149), not the first-generation mini that stores may still sell.",
+    "check": "Listing says 2nd generation or HomePod mini (2026); it needs HomePod software 27.2; Apple's warranty is one year.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "google-home-speaker",
+   "category": "generic",
+   "name": "Google Home Speaker",
+   "short": "Google Home Speaker",
+   "badge": "The one live sale · Gemini needs a plan",
+   "chip": "Gemini for Home · mute switch · $79.99 sale to Dec 2",
+   "art": {
+    "shape": "tile",
+    "label": "Google Home Speaker"
+   },
+   "price": "$79.99 at the Google Store, from $99.99, through Dec 2, 2026 (Google Store, Nov 6; 9to5Google, Nov 2).",
+   "buy_if": "your home runs on Google Home and Android, and you want the speaker at its first discount.",
+   "skip_if": "you want the Gemini conversation features without paying: Gemini Live needs Google Home Premium at $10 or $20 a month (Google Store, Nov 6, 2026). There is no way back to Google Assistant on speakers.",
+   "owners": "No months-later owner reports yet (on sale since June 25). BGR (Aug 18, 2026) measured 5 to 10 seconds to turn on a light after a couple of weeks; Engadget (June 24, 2026) rated it 8 of 10 but called the platform buggy.",
+   "cta": "https://www.amazon.com/s?k=Google+Home+Speaker+Gemini&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best for Google homes",
+    "pick": "Google Home Speaker in any colour; the listing must say Google Home Speaker, not the older Google Home or Nest Audio.",
+    "check": "Check the sale price against the Google Store ($79.99 to Dec 2) before paying more; confirm the Premium trial length on the Google Store page.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "echo-dot-max",
+   "category": "generic",
+   "name": "Amazon Echo Dot Max (2025)",
+   "short": "Echo Dot Max",
+   "badge": "Best for Alexa homes · wait for a deal",
+   "chip": "Alexa+ · Zigbee, Matter, Thread hub · $119.99 at Target",
+   "art": {
+    "shape": "tile",
+    "label": "Echo Dot Max"
+   },
+   "price": "$119.99 at Target, no sale (Nov 6, 2026). Past cuts of 10% (Black Friday 2025), 25% (May 2026) and 35% (June 2026) per 9to5Toys and Gizmodo.",
+   "buy_if": "you already pay for Prime (Alexa+ is included) and want an Alexa hub that also covers Zigbee, Matter and Thread.",
+   "skip_if": "you do not have Prime: Alexa+ is $19.99 a month on its own (Amazon, Sept 1, 2026), $719.64 over three years. Also skip it if you care most about sound: PCWorld found it small and muddy.",
+   "owners": "PCWorld (Jan 21, 2026, about two months of use) called Alexa+ \"still a work in progress\". Reddit threads we read (mirror snapshots, Jan to Apr 2026) recur on slow replies and erratic routines; a German site reported late alarms in Sept 2026, which we could not confirm.",
+   "cta": "https://www.amazon.com/s?k=Amazon+Echo+Dot+Max&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best for Alexa homes",
+    "pick": "Echo Dot Max (2025). It is not the Echo Dot (5th gen) or the Echo Pop.",
+    "check": "The listing says Echo Dot Max, with the Alexa+ line; shipped by a named retailer or Amazon itself.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "echo-studio-2025",
+   "category": "generic",
+   "name": "Amazon Echo Studio (2025)",
+   "short": "Echo Studio",
+   "badge": "Best sound from Alexa",
+   "chip": "Dolby Atmos · Alexa+ · home hub · $219.99 at Target",
+   "art": {
+    "shape": "tile",
+    "label": "Echo Studio"
+   },
+   "price": "$219.99 at Target, no sale (Nov 6, 2026). Black Friday 2025 low was about 14% off (9to5Toys, Dec 12, 2025).",
+   "buy_if": "you want the best Alexa sound and a home theatre add-on and will wait for a sale.",
+   "skip_if": "sound is the main point: Tom's Guide said those focused on audio will still prefer the Sonos Era 100. Skip it too if you are not on Prime, for the same Alexa+ reason.",
+   "owners": "Reddit (mirror, April 2026): one 2025 Echo Studio owner says replies were slow since day one; that is a single comment. Engadget and TechRadar found the sound inconsistent against the original (summaries only).",
+   "cta": "https://www.amazon.com/s?k=Amazon+Echo+Studio+2025&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best Alexa sound",
+    "pick": "Echo Studio (2025, the smaller one), not the 2019 model.",
+    "check": "About 40% smaller than the 2019 Echo Studio; the 2025 box says Alexa+.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "sonos-era-100",
+   "category": "generic",
+   "name": "Sonos Era 100",
+   "short": "Sonos Era 100",
+   "badge": "Best sound with a mic switch",
+   "chip": "Alexa · Sonos Voice · mic switch · $219 list",
+   "art": {
+    "shape": "tile",
+    "label": "Sonos Era 100"
+   },
+   "price": "$219 at Sonos (Nov 6, 2026). Past cuts: 20% (Black Friday 2023, Engadget), 18% (June 25, 2026, 9to5Toys).",
+   "buy_if": "you want the best-sounding speaker here and voice control you can cut with a physical switch on the back.",
+   "skip_if": "you do not want a microphone in the room: pick the SL. Whether Alexa+ works on the Era 100 is unconfirmed, and Sonos 27voice (cloud-processed) is early access later this fall.",
+   "owners": "Retailer pages recur on the Sonos app, drops and no Google Assistant. Best Buy search snippet, Nov 6, 2026: about 4.7 stars on 1,300+ reviews (UNVERIFIED).",
+   "cta": "https://www.amazon.com/s?k=Sonos+Era+100&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The sound pick",
+    "pick": "Era 100 (not the Era 100 Pro, an installer model, and not the SL).",
+    "check": "Mic switch on the back; sold by Sonos or a named retailer, not a third-party seller.",
+    "label": "See today's price"
+   }
+  }
+ ],
+ "buy_kicker": "Our first pick, and our last word"
 }

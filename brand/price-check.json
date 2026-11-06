@@ -1432,9 +1432,195 @@
      "seen": "listed, price not read (UNVERIFIED)"
     }
    ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "wait",
+   "checked": "2026-11-06",
+   "key": "echo-dot-max",
+   "name": "Amazon Echo Dot Max (2025)",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "echo-dot-max"
+   ],
+   "model": "Echo Dot Max (2025) smart speaker with Alexa+; not the Echo Dot 5th gen.",
+   "street": "$119.99 at Target, no sale (Nov 6, 2026)",
+   "good": "under $95",
+   "great": "about $78",
+   "why": "Target holds $119.99 on Nov 6, 2026. Outlets reported 10% (Black Friday 2025), 25% (May 2026) and 35% (June 2026) off; Best Buy's Nov 19-28 window is the next chance.",
+   "sources": "Target listing, Nov 6, 2026; 9to5Toys, Gizmodo",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/amazon-echo-dot-max-amethyst/-/A-94987876",
+     "seen": "$119.99, Nov 6, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-echo-dot-max-newest-model-alexa-speaker-w-room-filling-sound-and-built-in-smart-home-hub-designed-for-alexa-amethyst/J39TLS6SCJ",
+     "seen": "listed, price not read (UNVERIFIED)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "wait",
+   "checked": "2026-11-06",
+   "key": "echo-studio-2025",
+   "name": "Amazon Echo Studio (2025)",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "echo-studio-2025"
+   ],
+   "model": "Echo Studio (2025, the smaller model) with Alexa+.",
+   "street": "$219.99 at Target, no sale (Nov 6, 2026)",
+   "good": "under $200",
+   "great": "about $176",
+   "why": "Target $219.99 on Nov 6, 2026. The Black Friday 2025 low was about 14% off (9to5Toys, Dec 12, 2025).",
+   "sources": "Target listing, Nov 6, 2026; 9to5Toys",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/amazon-echo-studio-2025/-/A-95002747",
+     "seen": "$219.99, Nov 6, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-echo-studio-newest-model-our-best-echo-studio-yet-immersive-spatial-audio-and-dolby-atmos-designed-for-alexa-graphite/J39TLSY9YV",
+     "seen": "listed, price not read (UNVERIFIED)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "ok",
+   "checked": "2026-11-06",
+   "key": "homepod-mini-2",
+   "name": "Apple HomePod mini (2nd generation)",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "homepod-mini-2"
+   ],
+   "model": "HomePod mini 2nd generation (S10 chip), on sale Oct 30, 2026.",
+   "street": "$149 at Apple; $149.99 at Target (Nov 6, 2026); $144.99 at Costco (Oct 23, 2026)",
+   "good": "$145 or less",
+   "great": "about $129",
+   "why": "New models are rarely cut in their first holiday; the first-generation mini's best Black Friday cut was 20% (2022). Siri AI is not shipped yet.",
+   "sources": "Apple, Target, SlashGear (Costco)",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-homepod/homepod-mini",
+     "seen": "$149, Nov 6, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/apple-homepod-mini-2-blue/-/A-85979025",
+     "seen": "$149.99, Nov 6, 2026"
+    },
+    {
+     "name": "Costco",
+     "url": "https://www.costco.com/p/-/homepod-mini-2/4000444280?langId=-1",
+     "seen": "$144.99, Oct 23, 2026 (SlashGear; membership not confirmed)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "buy",
+   "checked": "2026-11-06",
+   "key": "google-home-speaker",
+   "name": "Google Home Speaker",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "google-home-speaker"
+   ],
+   "model": "Google Home Speaker with Gemini for Home (June 2026); not the Nest Audio.",
+   "street": "$79.99 at the Google Store through Dec 2, 2026 (list $99.99)",
+   "good": "$80 or less",
+   "great": "about $70",
+   "why": "Cut to $79.99 on Nov 2, 2026 through Dec 2, its first discount, so the sale spans Black Friday. Deeper cuts are possible (Nest Audio hit 50% in 2024) but none is reported.",
+   "sources": "Google Store, Nov 6, 2026; 9to5Google, Nov 2",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+     "seen": "$79.99 sale, Nov 6, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/google-home-speaker-smart-speaker-with-gemini-for-home-voice-assistant-and-360-degree-sound-hazel/J39TC8JG7G",
+     "seen": "$79.99 per 9to5Google, not read (UNVERIFIED)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "wait",
+   "checked": "2026-11-06",
+   "key": "sonos-era-100",
+   "name": "Sonos Era 100",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "sonos-era-100"
+   ],
+   "model": "Sonos Era 100 with microphones (not the Era 100 Pro or the SL).",
+   "street": "$219 at Sonos (Nov 6, 2026)",
+   "good": "under $190",
+   "great": "about $175",
+   "why": "Sonos ran 20% off at Black Friday 2023 (Engadget) and 18% on June 25, 2026 (9to5Toys). Its 2026 Black Friday sale is not announced.",
+   "sources": "Sonos, Nov 6, 2026; Engadget; 9to5Toys",
+   "stores": [
+    {
+     "name": "Sonos",
+     "url": "https://www.sonos.com/en-us/shop/era-100",
+     "seen": "$219, Nov 6, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/sonos-era-100-wifi-and-bluetooth-smart-speaker-each-black/J39H373RL3",
+     "seen": "listed, price not read (UNVERIFIED)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "smart-speakers-alexa-plus",
+   "verdict": "wait",
+   "checked": "2026-11-06",
+   "key": "sonos-era-100-sl",
+   "name": "Sonos Era 100 SL",
+   "card": [
+    "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "sonos-era-100-sl"
+   ],
+   "model": "Sonos Era 100 SL, the model with no microphones.",
+   "street": "$189 at Sonos (Nov 6, 2026)",
+   "good": "under $160",
+   "great": "about $149",
+   "why": "About 21% off ($149) on Oct 6, 2026 (Gizmodo) and 16% in June; a repeat in the Black Friday window is likely but not confirmed.",
+   "sources": "Sonos, Nov 6, 2026; Gizmodo; 9to5Toys",
+   "stores": [
+    {
+     "name": "Sonos",
+     "url": "https://www.sonos.com/en-us/shop/era-100-sl",
+     "seen": "$189, Nov 6, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/sonos-era-100-sl-speaker-each-black/J39H373RRC",
+     "seen": "listed, price not read (UNVERIFIED)"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 6, 2026: smart speakers: new entries for the Echo Dot Max, Echo Studio (2025), HomePod mini 2, Google Home Speaker, Sonos Era 100 and Era 100 SL for the speaker guide. Best Buy and Walmart blocked our tools, so their prices were not read. Verdicts: Google Home Speaker buy (20% off to Dec 2), HomePod mini 2 ok, Echo and Sonos models wait for Best Buy's Nov 19-28 window (Black Friday is Nov 27).",
   "Nov 5, 2026: Bedsure heated throw re-checked: no Black Friday 2026 price announced, Prime Big Deal Days over; verdict stays ok (buy now under about $45, else wait for Nov 27).",
   "Nov 4, 2026: Added the Sunbeam Royal Luxe, Bedsure (re-check) and Beautyrest Marselle heated throws for the heated blanket recall guide; prices are from undated search snippets and marked UNVERIFIED.",
   "Nov 3, 2026: Levoit Core 300-P re-checked: no confirmed Black Friday 2026 price yet, September prices unchanged ($89.98 Home Depot, $89.99 Levoit.com); verdict stays wait for under $85 (Black Friday Nov 27, Cyber Monday Nov 30).",

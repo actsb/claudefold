@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-label="What each speaker keeps, and how to delete it"><rect width="1200" height="620" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">What each speaker keeps, and how to delete it</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Default retention and the mute control, from each maker's own page</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Speaker</text>
+<text x="250.87850467289718" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Default retention</text>
+<text x="606.7663551401869" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Delete or limit it</text>
+<text x="952.1869158878503" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Mic off</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Sonos Era 100 SL</text>
+<text x="250.87850467289718" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Nothing: no microphones</text>
+<text x="606.7663551401869" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Nothing to delete</text>
+<text x="952.1869158878503" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Not needed</text>
+<rect x="40" y="230" width="1120" height="62" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#C9781B"/><rect x="54" y="254.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">HomePod mini 2</text>
+<text x="250.87850467289718" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Audio not stored unless you opt in;</text><text x="250.87850467289718" y="277" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">requests tied to a random ID for 6 months</text>
+<text x="606.7663551401869" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Home app, Siri History, Delete Siri</text><text x="606.7663551401869" y="277" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">History</text>
+<text x="952.1869158878503" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Voice or Home app (no</text><text x="952.1869158878503" y="277" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">switch found)</text>
+<rect x="40" y="302" width="1120" height="81" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="328" r="12" fill="#C9781B"/><rect x="54" y="326.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="332" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Sonos Era 100</text>
+<text x="250.87850467289718" y="330" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Classic Sonos Voice on the speaker,</text><text x="250.87850467289718" y="349" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">nothing saved; Alexa recordings go to</text><text x="250.87850467289718" y="368" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Amazon</text>
+<text x="606.7663551401869" y="330" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Amazon's settings for Alexa</text>
+<text x="952.1869158878503" y="330" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Switch on the back</text>
+<rect x="40" y="393" width="1120" height="62" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="419" r="12" fill="#C9781B"/><rect x="54" y="417.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="423" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Google Home</text><text x="74" y="442" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Speaker</text>
+<text x="250.87850467289718" y="421" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Activity saved 18 months if Home History</text><text x="250.87850467289718" y="440" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">is on; training use off by default</text>
+<text x="606.7663551401869" y="421" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">myactivity.google.com/product/home;</text><text x="606.7663551401869" y="440" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">auto-delete 3, 18 or 36 months</text>
+<text x="952.1869158878503" y="421" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Physical switch</text>
+<rect x="40" y="465" width="1120" height="81" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="491" r="12" fill="#C8102E"/><path d="M 55.5 486.5 l 9 9 M 64.5 486.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="74" y="495" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Echo Dot Max /</text><text x="74" y="514" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Studio</text>
+<text x="250.87850467289718" y="493" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Recordings kept until you set 3 or 18</text><text x="250.87850467289718" y="512" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">months, or not to save (transcripts kept</text><text x="250.87850467289718" y="531" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">30 days)</text>
+<text x="606.7663551401869" y="493" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Alexa app, More, Alexa Privacy</text>
+<text x="952.1869158878503" y="493" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Mic button</text>
+<text x="40" y="570" font-size="13" font-weight="400" fill="#888" text-anchor="start">Sources: Amazon Alexa privacy FAQ (undated, read Nov 6, 2026), Apple Siri privacy page (Oct 26, 2026) and HomePod guide, Google Gemini for Home</text><text x="40" y="587" font-size="13" font-weight="400" fill="#888" text-anchor="start">activity page, Sonos privacy statement (Sept 2026). Settings change; check your app.</text>
+</g></svg>

@@ -1,26 +1,29 @@
 {
-  "hero": "smart-speakers-alexa-plus",
-  "title_size": 66,
-  "title": [
-    "smart speakers & Alexa+:",
-    "WRITE: line two",
-    "WRITE: line three"
-  ],
-  "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
-  ],
-  "footer": "Product of the day · Smart speakers and the cost of Alexa+ · Verdict Picks",
-  "alt": "Smart speakers and the cost of Alexa+: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
-  "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
-  ],
-  "url": "https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html",
-  "style": "bright",
-  "products": [
-    "smart-speakers-alexa-plus"
-  ]
+ "hero": "sonos-era-100-sl",
+ "title_size": 60,
+ "title": [
+  "Echo vs HomePod",
+  "vs Google vs Sonos:",
+  "what Alexa+ costs"
+ ],
+ "subtitle": [
+  "What each speaker records, what each assistant",
+  "costs over three years, and which to buy",
+  "before Black Friday."
+ ],
+ "footer": "Buying guide · Smart speakers 2026 · Verdict Picks",
+ "alt": "Echo vs HomePod vs Google vs Sonos in 2026: what Alexa+ costs over three years, what each smart speaker records and which to buy (Verdict Picks)",
+ "pin": [
+  "Alexa+ costs $0 or $719.64 over 3 years",
+  "The Sonos speaker that cannot record",
+  "What each smart speaker keeps"
+ ],
+ "url": "https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html",
+ "style": "bright",
+ "products": [
+  "homepod-mini-2",
+  "google-home-speaker",
+  "echo-dot-max",
+  "sonos-era-100"
+ ]
 }

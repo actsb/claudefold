@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "sonos-era-100-sl",
+   "title": "Setting up a new smart speaker: in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "smart-speakers-alexa-plus",
-      "title": "A day with the smart speakers & Alexa+ — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Unbox",
+     "text": "New speaker, new app, and a setup screen that asks about saving your voice.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Choose what to keep",
+     "text": "Set the history to auto-delete, or not save, before the first command."
+    },
+    {
+     "glyph": "warning",
+     "head": "Check the plan",
+     "text": "Alexa+ and Gemini Live cost money if you lack Prime or Premium. Know it before you buy."
+    },
+    {
+     "glyph": "sun",
+     "head": "Mic off",
+     "text": "Press the mute switch when you want the room private, or buy the one with no mic.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }
