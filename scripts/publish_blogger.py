@@ -280,6 +280,12 @@ POSTS = {
         "slug_title": "Heated Blanket Recalls 2026",
         "labels": ["Home Comfort", "Heated Blankets", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],
     },
+    "smart-speakers-alexa-plus": {
+        "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+        "title": "Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy",
+        "slug_title": "Echo vs HomePod vs Nest vs Sonos 2026",
+        "labels": ["Smart Speakers", "Alexa", "Privacy", "Smart Home", "Comparison", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

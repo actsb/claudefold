@@ -762,7 +762,7 @@
    "key": "smart-speakers-alexa-plus",
    "slug": "smart-speakers-alexa-plus-cost-and-alternatives",
    "date": "2026-11-06",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Smart speakers and the cost of Alexa+",
@@ -786,7 +786,9 @@
    "hook": "Prof H Lab's turn-off-Alexa+ post: 531 impressions in 28 days; gift season for speakers",
    "picks": "Echo (with Alexa+ price and what Prime includes, from Amazon's own announcement pages), Apple HomePod mini, Google Nest Audio/Mini (Gemini), Sonos Era 100 (voice off or local voice): voice-recording settings and retention per maker's privacy pages, what works with the assistant off, sound and price lines Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab. BLUEPRINT: read research/bf-devices-blueprint-2026-11.md section 0 (calendar: Best Buy early deals Nov 6, Black Friday Nov 19-28; commission: Amazon devices 4%, TVs 2%; images) and section 2 in full before research, and check its section 5 open items. PRICE RULES for this guide: never an Amazon.com price of a device, not even dated; device prices only from Best Buy, Target, Walmart, Costco or the maker's own store, each with source and date; subscription fees (Alexa+, Google Home Premium, Ring Home plans, Kindle+, Kindle ad removal) only from the maker's official plan or announcement page with its date, written as the plan price, never next to 'on Amazon'. IMAGES: Amazon's press center, Ring, Samsung and Apple press images are personal/non-commercial only, so those products get a name tile unless the owner sends a photo; Google press images allowed with the credit 'Source: Google.'; check each other maker's terms. Write the buy-now-or-wait verdict per product against the Black Friday window, and say plainly that the guide compares makers' documentation, settings pages and published tests, not hands-on testing.",
    "cluster": "tech",
-   "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8; research/bf-devices-blueprint-2026-11.md"
+   "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8; research/bf-devices-blueprint-2026-11.md",
+   "url": "https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html",
+   "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives"
   },
   {
    "key": "heating-cost-per-night",
