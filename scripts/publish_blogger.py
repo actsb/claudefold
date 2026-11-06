@@ -282,6 +282,7 @@ POSTS = {
     },
     "smart-speakers-alexa-plus": {
         "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+        "url": "https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html",
         "title": "Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy",
         "slug_title": "Echo vs HomePod vs Nest vs Sonos 2026",
         "labels": ["Smart Speakers", "Alexa", "Privacy", "Smart Home", "Comparison", "Amazon Finds"],

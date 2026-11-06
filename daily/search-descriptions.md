@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy
+https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html
+
+```text
+Alexa+ costs $0 with Prime or $719.64 over 3 years without. What each smart speaker records, plus the Sonos with no mic, and when to buy.
+```
+
 ## Heated Blanket Recalls 2026: Check Your Model, Then What to Buy Instead
 https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html
 
