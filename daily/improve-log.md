@@ -15,7 +15,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 | dogs | https://acts39.blogspot.com/2026/09/best-value-dog-essentials-on-amazon-2026.html |  | 2026-11-01 |
 | levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | 2026-11-03 |
 | bedsure-throw | https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html |  | 2026-11-05 |
-| ocedar-mop | https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html |  | |
+| ocedar-mop | https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html |  | 2026-11-08 |
 | noco-gb40 | https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html |  | |
 | beckham-pillows | https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html |  | |
 | bidets2026 | https://acts39.blogspot.com/2026/10/best-bidet-2026.html |  | |
@@ -35,6 +35,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-11-08 · ocedar-mop · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the buy-timing section, quick answer, FAQ schema and Korean summary with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) verdict (buy now if needed, wait only for under $30; Walmart $34.96 Aug 20, 2026 per Slickdeals; no 2026 deal announced), added a three-year cost table ($67–$117 incl. refill heads), guide cards to the Black Friday home and kitchen guide and the Bissell Little Green review, Price Check entry re-checked, Updated date November 8, 2026.
 * 2026-11-05 · bedsure-throw · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the buy-timing section, quick answer and FAQ schema with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (buy under about $45, else wait; Walmart $23.99 Black Friday 2025; no 2026 price announced), added guide cards to the Heated Blanket Recalls 2026 guide and the Dreo heater review, Price Check entry re-checked, Updated date November 5, 2026.
 * 2026-11-03 · levoit300 · replaced the expired Prime Big Deal Days advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) wait-for-under-$85 verdict (Home Depot near $49 in Nov 2025 as precedent, no confirmed 2026 price), added a three-year cost table ($305–$411: unit, five filters, electricity), updated the settlement line (claim deadline Nov 3, 2026; fairness hearing Feb 17, 2027), added links to the Dreo heater and Bedsure throw reviews, Price Check entry re-checked, Updated date November 3, 2026.
 * 2026-11-01 · 31 posts · photo pass 2: 19 more licensed photos (maker press kits, Wikimedia Commons CC0/BY/BY-SA) on 33 cards; every remaining drawn product became a name tile (owner's request: no drawn products); covers and pins lead with photographed products; Samsung SmartTag2 press photo withdrawn (newsroom terms personal-use only); hubs, About and Price Check thumbnails refreshed. Products still needing a photo: daily/photo-requests-2026-11-01.md (99).
