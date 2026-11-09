@@ -287,6 +287,12 @@ POSTS = {
         "slug_title": "Echo vs HomePod vs Nest vs Sonos 2026",
         "labels": ["Smart Speakers", "Alexa", "Privacy", "Smart Home", "Comparison", "Amazon Finds"],
     },
+    "heating-cost-per-night": {
+        "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+        "title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026: Cost per Night at Your Electricity Price",
+        "slug_title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026",
+        "labels": ["Home Comfort", "Space Heaters", "Heated Blankets", "Running Cost", "Comparison", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
