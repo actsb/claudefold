@@ -373,18 +373,18 @@
     "dreo-heater"
    ],
    "model": "Dreo 1500W PTC ceramic oscillating heater with thermostat and remote.",
-   "street": "$49.99 at dreo.com (Oct 15, 2026)",
+   "street": "$49.99 at dreo.com (Nov 9, 2026)",
    "good": "under $45",
    "great": "$30–$35",
    "verdict": "ok",
-   "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine.",
+   "why": "Walmart ran $29.99–$43.99 from November 2025 to January 2026. If you are cold now, under $45 is fine. Not the model recalled Oct 29, 2026 (DR-HSH015): check the label.",
    "sources": "dreo.com, Oct 15, 2026; Walmart deals, Nov 2025 – Jan 2026",
-   "checked": "2026-10-17",
+   "checked": "2026-11-09",
    "stores": [
     {
      "name": "Dreo",
      "url": "https://www.dreo.com/products/dreo-atom-one-space-heater",
-     "seen": "$49.99 list, Oct 2026"
+     "seen": "$49.99, Nov 9, 2026"
     }
    ]
   },
@@ -1617,9 +1617,71 @@
      "seen": "listed, price not read (UNVERIFIED)"
     }
    ]
+  },
+  {
+   "key": "sunbeam-restful-queen-pad",
+   "category": "comfort",
+   "name": "Sunbeam Restful Quilted Heated Mattress Pad, Queen",
+   "guide": "sunbeam-pad",
+   "card": [
+    "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+    "sunbeam-pad"
+   ],
+   "model": "Queen, dual controllers, 10-hour auto-off; the Wi-Fi version is a different, pricier model.",
+   "street": "About $60 at Walmart (search listing seen Nov 9, 2026; list $79.87)",
+   "good": "under $60",
+   "great": "under $45",
+   "verdict": "ok",
+   "why": "Fair at about $60 and cold weather is here; blanket and pad deals ran up to 30% off last Black Friday (Bedsure, company claim), so wait only if you are not cold. No 2026 Sunbeam price announced as of Nov 9.",
+   "sources": "Walmart search listing, Nov 9, 2026 (page blocked, price unconfirmed); Sunbeam heated bedding manual, read Nov 9, 2026",
+   "checked": "2026-11-09"
+  },
+  {
+   "key": "sunbeam-microplush-queen-blanket",
+   "category": "comfort",
+   "name": "Sunbeam Microplush Heated Blanket, Queen (BSM9KQS)",
+   "guide": "sunbeam-pad",
+   "card": [
+    "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+    "sunbeam-blanket"
+   ],
+   "model": "BSM9KQS queen, 84 x 90 in, 10 settings, 10-hour auto-off; read the model suffix on your label (not the 2023-recalled 32810027).",
+   "street": "No store price confirmed (heated blankets run about $50 to $130)",
+   "good": "under $80",
+   "great": "under $60",
+   "verdict": "wait",
+   "why": "We could not confirm a price at Walmart, Kohl's or Target on Nov 9, 2026, so compare today's price with the good line and wait for Black Friday (Nov 27) if you are not cold.",
+   "sources": "BuyDig and manual summary listing the model, Nov 9, 2026",
+   "checked": "2026-11-09"
+  },
+  {
+   "key": "pelonis-ho-0279",
+   "category": "comfort",
+   "name": "Pelonis HO-0279 1,500 W Oil-Filled Radiator",
+   "guide": "sunbeam-pad",
+   "card": [
+    "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+    "pelonis-oil"
+   ],
+   "model": "HO-0279, 600/900/1,500 W, thermostat (Home Depot Internet #309069851).",
+   "street": "About $60 and up at Home Depot (Slickdeals comment, Jan 2026); one Walmart listing near $118, undated",
+   "good": "under $60",
+   "great": "under $45",
+   "verdict": "wait",
+   "why": "Prices in the snippets we saw ranged from $44 to $118, so the street price is unclear; buy under $60 or wait for Black Friday (Nov 27).",
+   "sources": "Slickdeals comment Jan 2026; Walmart browse page, undated; Pelonis page returned an error Nov 9, 2026",
+   "checked": "2026-11-09",
+   "stores": [
+    {
+     "name": "Pelonis",
+     "url": "https://us.pelonis.com/shop/1500-watt-oil-filled-radiant-electric-space-heater-with-thermostat/",
+     "seen": "price not readable, Nov 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 9, 2026: new entries for the Sunbeam Restful queen pad, Sunbeam queen blanket and Pelonis HO-0279 oil-filled heater (cost-per-night guide); Dreo Atom One re-checked at $49.99 on dreo.com and flagged as not the DR-HSH015 model recalled Oct 29.",
   "Nov 8, 2026: O-Cedar EasyWring re-checked for the improve day. Newest dated price is still Walmart $34.96 (Slickdeals, Aug 20, 2026); Staples $39.99 and a Costco bundle at $38.79 are undated. No Black Friday 2026 deal announced, so the line stays under $30 and the verdict ok.",
   "Nov 6, 2026: smart speakers: new entries for the Echo Dot Max, Echo Studio (2025), HomePod mini 2, Google Home Speaker, Sonos Era 100 and Era 100 SL for the speaker guide. Best Buy and Walmart blocked our tools, so their prices were not read. Verdicts: Google Home Speaker buy (20% off to Dec 2), HomePod mini 2 ok, Echo and Sonos models wait for Best Buy's Nov 19-28 window (Black Friday is Nov 27).",
   "Nov 5, 2026: Bedsure heated throw re-checked: no Black Friday 2026 price announced, Prime Big Deal Days over; verdict stays ok (buy now under about $45, else wait for Nov 27).",

@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "heating-cost-per-night",
-      "title": "A day with the heating cost per night — in real life",
+      "card": "sunbeam-pad",
+      "title": "A cold week with a heated pad — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "6:30 pm — pre-heat",
+          "text": "Turn the pad on high about 30 minutes before bed (Sunbeam's manual says to preheat), while a heater warms the room for the evening.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "10 pm — heater off",
+          "text": "Turn the room heater off when you go to bed, as Consumer Reports advises, and drop the pad to a low setting."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Week 3 — the check",
+          "text": "Look for frays, dark spots or a controller that blinks. If it does, stop using it and check the model against CPSC recalls."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Morning — the bill",
+          "text": "At 120 W the whole night is about 17 cents at the national average. The heater would have been about $2.18.",
           "host": {
             "pose": "thumbsup"
           }

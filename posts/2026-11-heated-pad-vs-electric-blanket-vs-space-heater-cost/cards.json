@@ -1,34 +1,92 @@
 {
   "category": "generic",
-  "buy_title": "The exact heating cost per night to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "If you want a warm bed for pennies a night, order this one",
+  "buy_total": "The button is a paid link: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from other US stores and the makers' sites in November 2026 and move with sales; the button shows today's price.",
+  "buy_kicker": "Our first pick, and our last word",
   "cards": [
     {
-      "id": "heating-cost-per-night",
+      "id": "sunbeam-pad",
       "category": "generic",
-      "name": "Heated pad vs electric blanket vs space heater running cost",
-      "short": "heating cost per night",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "Sunbeam Restful Quilted Heated Mattress Pad, Queen (dual controllers)",
+      "short": "Sunbeam queen heated pad",
+      "badge": "Our first pick · the cheapest warm bed",
+      "chip": "Queen · two controls · 10-hour auto-off",
       "art": {
         "shape": "tile",
-        "label": "heating cost per night"
+        "label": "Sunbeam queen heated pad"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=heated+mattress+pad&tag=verdictpicks-20",
+      "price": "About $60 at Walmart in a search listing seen Nov 9, 2026 (list $79.87); Wi-Fi versions from about $78",
+      "buy_if": "you sleep cold, your bedroom is the only cold room, and you want to turn the heat down a few degrees for the night: a pad runs for pennies, not dollars.",
+      "skip_if": "you need to warm a whole room (a pad heats the bed, not the air), or you want a product with no controller-failure history: owners of several brands report controllers quitting within a season or two.",
+      "owners": "Sunbeam's own manual (read Nov 9, 2026) lists a 10-hour auto-off and a 3-year limited warranty; retail listings say 5 years, so read the one in your box. The common complaint at Target and in blanket-review round-ups is a controller that fails after the warranty.",
+      "cta": "https://www.amazon.com/s?k=Sunbeam+Restful+heated+mattress+pad+queen&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "Queen size, dual controllers (one per side), the Restful quilted pad; the Wi-Fi version costs about $18 more and adds nothing to the cost per night.",
+        "check": "Sold by Sunbeam or a major retailer, a UL or ETL mark on the controller label, and the model number on the label (we found no recall for the Restful pads; the 2023 Sunbeam recall was a different queen blanket, model 32810027).",
         "label": "See today's price"
       }
+    },
+    {
+      "id": "sunbeam-blanket",
+      "category": "generic",
+      "name": "Sunbeam Microplush Heated Blanket, Queen (BSM9KQS)",
+      "short": "Sunbeam queen heated blanket",
+      "badge": "The same pennies, on top of you",
+      "chip": "84 × 90 in · 10 settings · 10-hour auto-off",
+      "art": {
+        "shape": "tile",
+        "label": "Sunbeam queen heated blanket"
+      },
+      "price": "No store price confirmed in November 2026; heated blankets run about $50 to $130 at major retailers",
+      "buy_if": "you want the heat on top of you, you wash it often, or you already have a mattress pad you like.",
+      "skip_if": "you share a bed and fight over the controls (a pad has one control per side, a queen blanket usually too, but check), or you want a wattage on the box before buying: Sunbeam does not print one on the pages we could reach.",
+      "owners": "A 10-hour auto-off and two digital controllers per the manual summary we read (Nov 9, 2026). We found no owner counts at stores other than Amazon for this model, so we make no claim about how it holds up.",
+      "cta": "https://www.amazon.com/s?k=Sunbeam+Microplush+heated+blanket+queen+BSM9KQS&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Sunbeam queen blanket on Amazon"
+    },
+    {
+      "id": "dreo-atom",
+      "category": "generic",
+      "name": "Dreo Atom One 1500W ceramic heater (DR-HSH004)",
+      "short": "Dreo Atom One",
+      "badge": "The room heater that costs about $2 a night",
+      "chip": "1,500 W · thermostat 41–95°F · 1–12 h timer",
+      "art": {
+        "shape": "tile",
+        "label": "Dreo Atom One"
+      },
+      "price": "$49.99 at dreo.com (Nov 9, 2026)",
+      "buy_if": "you want to warm one small room before bed or while you work, with a thermostat and a timer.",
+      "skip_if": "you plan to sleep with it running (Consumer Reports says turn a heater off when you go to bed), or you own the recalled Dreo DR-HSH015 model (see the recall box).",
+      "owners": "Dreo.com's Trustpilot page (read Oct 15, 2026) shows fast warm-up and one reviewer who lost output after five to six weeks. See our Dreo review for the full read.",
+      "cta": "https://www.amazon.com/s?k=Dreo+Atom+One+space+heater+1500W&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Dreo Atom One on Amazon"
+    },
+    {
+      "id": "pelonis-oil",
+      "category": "generic",
+      "name": "Pelonis HO-0279 1,500 W oil-filled radiator",
+      "short": "Pelonis oil-filled heater",
+      "badge": "Slow to warm, quiet, holds heat",
+      "chip": "600 / 900 / 1,500 W · thermostat",
+      "art": {
+        "shape": "tile",
+        "label": "Pelonis oil-filled heater"
+      },
+      "price": "About $60 and up at Home Depot (a Slickdeals commenter, January 2026); one Walmart listing near $118 (undated)",
+      "buy_if": "you want quiet, steady background heat in a bedroom for an evening and don't mind the wait for it to warm up.",
+      "skip_if": "you want heat in the first five minutes (use a ceramic fan heater) or you need a model with a warranty we could read: we could not open Pelonis's page (it returned an error on Nov 9, 2026).",
+      "owners": "A Home Depot reviewer measured about 600, 860 and 1,400 W on the three settings (seen in a search summary). Others report a unit that failed to turn on after months, and a maker reply.",
+      "cta": "https://www.amazon.com/s?k=Pelonis+HO-0279+oil+filled+radiator+heater&tag=verdictpicks-20",
+      "cta_style": "link",
+      "cta_label": "Check the Pelonis oil-filled heater on Amazon"
     }
   ]
 }

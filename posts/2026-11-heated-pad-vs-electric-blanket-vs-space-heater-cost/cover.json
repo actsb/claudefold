@@ -1,26 +1,26 @@
 {
-  "hero": "heating-cost-per-night",
-  "title_size": 66,
+  "hero": "sunbeam-pad",
+  "title_size": 64,
   "title": [
-    "heating cost per night:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Heated pad vs heater:",
+    "about 20¢ a night vs",
+    "about $2 (your rate)"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Electric blanket, mattress pad and space",
+    "heater costs for an 8-hour night, with a",
+    "table for 15 states from EIA data."
   ],
-  "footer": "Product of the day · Heated pad vs electric blanket vs space heater running cost · Verdict Picks",
-  "alt": "Heated pad vs electric blanket vs space heater running cost: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Running cost · Heated pad vs blanket vs space heater 2026 · Verdict Picks",
+  "alt": "Heated mattress pad vs electric blanket vs space heater 2026: what each costs for an 8-hour night at 12, 18 and 30 cents per kilowatt-hour (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "Pad: about 17¢ a night at 120 W",
+    "1,500 W heater: $2.18 at the US average",
+    "15-state cost table, EIA data"
   ],
   "url": "https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket-vs-space-heater-2026.html",
   "style": "bright",
   "products": [
-    "heating-cost-per-night"
+    "sunbeam-pad"
   ]
 }
