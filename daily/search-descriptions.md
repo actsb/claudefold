@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Heated Mattress Pad vs Electric Blanket vs Space Heater 2026: Cost per Night at Your Electricity Price
+https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket.html
+
+```text
+A heated pad costs about 17¢ for an 8-hour night, a 1,500 W heater about $2.18 (EIA 18.16¢/kWh). 15-state table, recalls, and a pad to start with.
+```
+
 ## Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy
 https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html
 

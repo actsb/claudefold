@@ -289,6 +289,7 @@ POSTS = {
     },
     "heating-cost-per-night": {
         "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+        "url": "https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket.html",
         "title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026: Cost per Night at Your Electricity Price",
         "slug_title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026",
         "labels": ["Home Comfort", "Space Heaters", "Heated Blankets", "Running Cost", "Comparison", "Amazon Finds"],

@@ -794,7 +794,7 @@
    "key": "heating-cost-per-night",
    "slug": "heated-pad-vs-electric-blanket-vs-space-heater-cost",
    "date": "2026-11-09",
-   "status": "writing",
+   "status": "published",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Heated pad vs electric blanket vs space heater running cost",
@@ -819,8 +819,9 @@
    "picks": "one heated mattress pad, one electric blanket, one heated throw, one 1,500 W ceramic heater (Dreo), one oil-filled radiator: watts from maker specs, cost per 8-hour night at 12, 18 and 30 cents/kWh, a table by state, who each suits. Stores: Walmart, Target, Costco, Home Depot, maker stores",
    "cluster": "comfort",
    "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)",
-   "url": "https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket-vs-space-heater-2026.html",
-   "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost"
+   "url": "https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket.html",
+   "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+   "aliases": []
   },
   {
    "key": "doorbell-no-subscription",

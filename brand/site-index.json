@@ -1,5 +1,73 @@
 [
  {
+  "key": "heating-cost-per-night",
+  "title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026: Cost per Night at Your Electricity Price",
+  "url": "https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket.html",
+  "description": "A heated pad costs about 17¢ for an 8-hour night, a 1,500 W heater about $2.18 (EIA 18.16¢/kWh). 15-state table, recalls, and a pad to start with.",
+  "labels": [
+   "Home Comfort",
+   "Space Heaters",
+   "Heated Blankets",
+   "Running Cost",
+   "Comparison",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+  "blurb": "Cold bed? A pad costs about 17¢ a night at the US average; a 1,500 W heater about $2.18. Table by state inside.",
+  "updated": "November 9, 2026"
+ },
+ {
+  "key": "smart-speakers-alexa-plus",
+  "title": "Echo vs HomePod vs Nest vs Sonos 2026: What Alexa+ Costs, What Each Speaker Records, and Which to Buy",
+  "url": "https://acts39.blogspot.com/2026/11/echo-vs-homepod-vs-nest-vs-sonos-2026.html",
+  "description": "Alexa+ costs $0 with Prime or $719.64 over 3 years without. What each smart speaker records, plus the Sonos with no mic, and when to buy.",
+  "labels": [
+   "Smart Speakers",
+   "Alexa",
+   "Privacy",
+   "Smart Home",
+   "Comparison",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "blurb": "What each speaker keeps and what Alexa+ costs over three years: the mic-free Sonos Era 100 SL leads.",
+  "updated": "November 6, 2026"
+ },
+ {
+  "key": "heated-blanket-recalls",
+  "title": "Heated Blanket Recalls 2026: Check Your Model, Then What to Buy Instead",
+  "url": "https://acts39.blogspot.com/2026/11/heated-blanket-recalls-2026.html",
+  "description": "Is your heated blanket recalled? Where to find the model number, what the JKMAX and OCTROT recalls say, and three throws with no 2025-2026 recall.",
+  "labels": [
+   "Home Comfort",
+   "Heated Blankets",
+   "Recalls",
+   "Safety",
+   "Buying Guide",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-11-heated-blanket-recalls-2026",
+  "blurb": "Check your model number against the 2026 JKMAX and OCTROT recalls, then buy a throw with no recent recall; skip heated throws for infants and anyone who can't feel heat.",
+  "updated": "November 4, 2026"
+ },
+ {
+  "key": "smart-tv-privacy",
+  "title": "TVs With the Fewest AI Features 2026: Samsung vs LG vs TCL vs Roku vs Sony, and Where Each Tracking Switch Is",
+  "url": "https://acts39.blogspot.com/2026/11/tvs-with-fewest-ai-features-2026.html",
+  "description": "Which 55-inch TV has the fewest AI features? Samsung, LG, TCL, Roku and Sony compared on assistants, ACR tracking and ads, with each menu path.",
+  "labels": [
+   "TVs",
+   "Privacy",
+   "Smart Home",
+   "Comparison",
+   "Black Friday",
+   "Amazon Finds"
+  ],
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "blurb": "Which 55-inch TVs have the fewest AI features and where each tracking switch is, with a buy-now-or-wait call for Black Friday.",
+  "updated": "November 2, 2026"
+ },
+ {
   "key": "jump-starter-sizes",
   "title": "NOCO GB40 vs GB50 vs GOOLOO 2026: Which Jump Starter Size Does Your Engine Need?",
   "url": "https://acts39.blogspot.com/2026/10/noco-gb40-vs-gb50-2026.html",
@@ -321,7 +389,7 @@
   ],
   "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
   "blurb": "The foot-pedal wringer for sealed hard floors, what replacement heads cost in a year, and the handle that is its known weak spot.",
-  "updated": "October 5, 2026"
+  "updated": "November 8, 2026"
  },
  {
   "key": "bedsure-throw",
@@ -339,7 +407,7 @@
   ],
   "dir": "posts/2026-10-bedsure-heated-blanket-throw",
   "blurb": "A cent or two an hour to run, who it suits, and the 2023 recall check to do before you use an older one.",
-  "updated": "October 5, 2026"
+  "updated": "November 5, 2026"
  },
  {
   "key": "levoit300",
@@ -358,7 +426,7 @@
   ],
   "dir": "posts/2026-09-levoit-core-300p-air-purifier",
   "blurb": "A quiet purifier sized for one bedroom, and why the filter, not the machine, is the real price.",
-  "updated": "October 5, 2026"
+  "updated": "November 3, 2026"
  },
  {
   "key": "aivideo",
