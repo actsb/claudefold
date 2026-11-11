@@ -1,84 +1,206 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The doorbells, no subscription in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+ {
+  "type": "matrix",
+  "name": "cost",
+  "title": "What each doorbell costs over three years",
+  "sub": "Hardware at a US store on Nov 11, 2026, plus 36 months of the cheapest way to keep video",
+  "footer": "Sources: ring.com, Target, eufy.com, reolink.com, us.aqara.com, Tapo and Google stores, Apple iCloud+ page, Nov 11, 2026. microSD $30 to $60 is a 2026 band. Prices move.",
+  "columns": [
+   {
+    "head": "Doorbell",
+    "w": 240
+   },
+   {
+    "head": "Hardware",
+    "w": 230
+   },
+   {
+    "head": "How video is kept",
+    "w": 360
+   },
+   {
+    "head": "3-year total",
+    "w": 240
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "eufy E340",
+     "$119.99 (Target)",
+     "8 GB built in, no plan",
+     "$119.99"
     ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Tapo D225",
+     "$99.99 (Tapo store)",
+     "microSD card, $30 to $60",
+     "$130 to $160"
     ]
-  }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Reolink PoE",
+     "$119.99 (Reolink)",
+     "microSD card or NVR",
+     "$150 to $180"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Aqara G410",
+     "$144.99 (Aqara)",
+     "microSD, or iCloud+ 50 GB at $0.99/mo",
+     "$175 to $205"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Ring Battery 2K",
+     "$39.99 (Target)",
+     "Ring Solo, $49.99 a year",
+     "$189.96"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Nest Doorbell",
+     "$199.99 (Google)",
+     "Premium Standard, $100 a year",
+     "$499.99"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Ring + Ring Pro",
+     "$39.99 (Target)",
+     "Ring Pro, $199.99 a year (AI features)",
+     "$639.96"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "matrix",
+  "name": "noplan",
+  "title": "What still works if you never pay",
+  "sub": "From each maker's own support and product pages, read November 11, 2026",
+  "footer": "Sources: Ring Live View help and Ring blog (July 16, 2026), eufy E340 page, Reolink PoE page, Aqara G410 page, Google Store. Features change; check your app.",
+  "columns": [
+   {
+    "head": "Doorbell",
+    "w": 220
+   },
+   {
+    "head": "Saves video free?",
+    "w": 300
+   },
+   {
+    "head": "Works free",
+    "w": 330
+   },
+   {
+    "head": "Needs a plan",
+    "w": 220
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "eufy E340",
+     "Yes, about 90 days in 8 GB",
+     "Person, package and face alerts",
+     "Cloud backup only"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Reolink PoE",
+     "Yes, card, NVR or FTP",
+     "24/7 or motion recording, Home Assistant",
+     "Cloud only"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Aqara G410",
+     "Yes, card in the indoor chime",
+     "Face recognition on the device",
+     "HomeGuardian cloud"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Tapo D225",
+     "Yes, card in the doorbell",
+     "Person, pet, vehicle, package alerts",
+     "Tapo Care cloud"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Nest Doorbell",
+     "3 hours of events",
+     "Package and person alerts",
+     "Longer history, faces"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Ring Battery 2K",
+     "No",
+     "Live view, two-way talk, motion alerts",
+     "Video, person alerts"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Set up a doorbell that never needs a plan",
+  "sub": "Do these before the free trial ends",
+  "footer": "From the makers' install and support pages and owner forum threads, read November 11, 2026.",
+  "items": [
+   {
+    "head": "Read the transformer",
+    "body": "eufy wants 16 to 24 V AC at 30 VA for wired mode; under 10 VA owners report drain and missed rings."
+   },
+   {
+    "head": "Pick the storage",
+    "body": "An endurance microSD for Reolink, Aqara or Tapo; eufy's 8 GB is built in."
+   },
+   {
+    "head": "Format the card",
+    "body": "Format it in the app on day one and check a test clip plays back."
+   },
+   {
+    "head": "Shrink the zone",
+    "body": "Cut the street out of the motion zone; it is the top battery drain owners name."
+   },
+   {
+    "head": "Turn off what you skip",
+    "body": "On Ring, turn off Search Party per camera in Control Center."
+   },
+   {
+    "head": "Check after updates",
+    "body": "Owners on eufy and Aqara report firmware that broke chimes or batteries."
+   }
+  ]
+ }
 ]

@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "eufy-e340",
+   "title": "A new doorbell without a plan: in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "doorbell-no-subscription",
-      "title": "A day with the doorbells, no subscription — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Before you buy",
+     "text": "Open the old chime and read the transformer label: volts and VA.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Storage first",
+     "text": "Built-in memory or a microSD card, so clips save with no monthly fee."
+    },
+    {
+     "glyph": "warning",
+     "head": "Day 30",
+     "text": "Trials end. If clips stop saving, the doorbell needed a plan all along."
+    },
+    {
+     "glyph": "sun",
+     "head": "Tune it",
+     "text": "Narrow the motion zone so the street does not drain the battery.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

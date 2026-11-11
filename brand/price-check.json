@@ -1678,9 +1678,185 @@
      "seen": "price not readable, Nov 2026"
     }
    ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "wait",
+   "checked": "2026-11-11",
+   "key": "eufy-e340",
+   "name": "eufy Video Doorbell E340",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "eufy-e340"
+   ],
+   "model": "eufy Video Doorbell E340, model T8214111 (Target lists T8214112); not the E340 floodlight camera or the wired-only S330.",
+   "street": "$119.99 at Target; $169.99 at eufy.com (Nov 11, 2026)",
+   "good": "$120 or less",
+   "great": "$100 or less",
+   "why": "Home Depot sold it for $99.99 on July 3, 2026 (Slickdeals), and eufy's main Black Friday sale runs Nov 19 to 30 (eufy.com, Nov 11, 2026).",
+   "sources": "Target and eufy.com, Nov 11, 2026; Slickdeals (Home Depot), Jul 3, 2026",
+   "stores": [
+    {
+     "name": "eufy",
+     "url": "https://www.eufy.com/products/t8214111",
+     "seen": "$169.99, Nov 11, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/eufy-video-doorbell-e340/-/A-95009014",
+     "seen": "$119.99, Nov 11, 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/eufy-E340-Wireless-Hardwired-2K-Video-Doorbell-with-Dual-Cameras-Color-Night-Vision-Wired-or-Battery-Powered-Black-T8214111/331413735",
+     "seen": "$119.99, was $149.99 (search snippet, Nov 2026)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "wait",
+   "checked": "2026-11-11",
+   "key": "reolink-doorbell-poe",
+   "name": "Reolink Video Doorbell PoE",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "reolink-doorbell-poe"
+   ],
+   "model": "Reolink Video Doorbell PoE (2K+ 5MP, D340P), not the battery Video Doorbell (2nd Gen).",
+   "street": "$119.99 in Reolink's store data; $109.99 at Best Buy (snippet), Nov 2026",
+   "good": "under $95",
+   "great": "$85 or less",
+   "why": "Reolink's own store sold it for $82.49 with a code on May 18, 2026 (Slickdeals), and its store showed a Black Friday banner on Nov 11, 2026.",
+   "sources": "reolink.com, Nov 11, 2026; Best Buy search snippet; Slickdeals, May 18, 2026",
+   "stores": [
+    {
+     "name": "Reolink",
+     "url": "https://reolink.com/us/product/reolink-video-doorbell/",
+     "seen": "$119.99 in page data, Nov 11, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/reolink-d340p-wired-poe-video-doorbell-camera-2k-5mp-with-chime-pre-record-works-with-nvrs-black/J3R84PK88S",
+     "seen": "$109.99 (search snippet, Nov 2026)"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "wait",
+   "checked": "2026-11-11",
+   "key": "aqara-g410",
+   "name": "Aqara Doorbell Camera Hub G410",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "aqara-g410"
+   ],
+   "model": "Aqara Doorbell Camera Hub G410 (black or gray). The Best Buy G410 Select is the same doorbell with a longer HomeGuardian trial; the G400 is a different, wired-only model.",
+   "street": "$144.99 at Aqara's US store, no sale (Nov 11, 2026)",
+   "good": "under $125",
+   "great": "$110 or less",
+   "why": "Past events cut it about 20% (Oct 2025, 9to5Toys) and about 27% (late 2025, Slickdeals); it is at full price before Black Friday.",
+   "sources": "us.aqara.com, Nov 11, 2026; 9to5Toys; Slickdeals",
+   "stores": [
+    {
+     "name": "Aqara",
+     "url": "https://us.aqara.com/products/video-doorbell-g410",
+     "seen": "$144.99, Nov 11, 2026"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "ok",
+   "checked": "2026-11-11",
+   "key": "tapo-d225",
+   "name": "TP-Link Tapo D225",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "tapo-d225"
+   ],
+   "model": "Tapo D225 2K QHD battery doorbell with chime (not the D235).",
+   "street": "$99.99 at the Tapo store, list $129.99 (Nov 11, 2026)",
+   "good": "under $100",
+   "great": "$80 or less",
+   "why": "23% off list now; a 2026 Tapo store promotion reached $79.99 (undated store snippet), so $80 is the line if you can wait.",
+   "sources": "us.store.tapo.com, Nov 11, 2026",
+   "stores": [
+    {
+     "name": "Tapo",
+     "url": "https://us.store.tapo.com/products/tapo-2k-qhd-smart-battery-video-doorbell",
+     "seen": "$99.99, list $129.99, Nov 11, 2026"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "buy",
+   "checked": "2026-11-11",
+   "key": "ring-battery-doorbell-2k",
+   "name": "Ring Battery Doorbell 2K",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "ring-battery-doorbell-2k"
+   ],
+   "model": "Ring Battery Doorbell 2K (2026, sold as Newest Model or Battery Doorbell 2nd Gen), built-in battery; not the 2K Plus and not the 2020 Video Doorbell (2nd Generation).",
+   "street": "$39.99 at ring.com and Target, reg $99.99 (Nov 11, 2026)",
+   "good": "under $50",
+   "great": "$40 or less",
+   "why": "60% off at ring.com and Target on Nov 11, 2026; the same $39.99 was reported Sept 24 and Oct 2, 2026, so Black Friday is unlikely to beat it. Saved video needs Ring Solo ($49.99 a year).",
+   "sources": "ring.com and Target, Nov 11, 2026; The Krazy Coupon Lady, Sep 24 and Oct 2, 2026",
+   "stores": [
+    {
+     "name": "Ring",
+     "url": "https://ring.com/products/battery-doorbell-2nd-gen",
+     "seen": "$39.99 sale, $99.99 list, Nov 11, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/-/A-95005682",
+     "seen": "$39.99, reg $99.99, Nov 11, 2026"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "doorbell-no-subscription",
+   "verdict": "wait",
+   "checked": "2026-11-11",
+   "key": "nest-doorbell-battery",
+   "name": "Google Nest Doorbell (battery)",
+   "card": [
+    "posts/2026-11-video-doorbells-without-a-subscription",
+    "nest-doorbell-battery"
+   ],
+   "model": "Google Nest Doorbell (battery), not the Nest Doorbell (wired, 3rd gen).",
+   "street": "$199.99 at the Google Store and Target (Nov 11, 2026)",
+   "good": "under $150",
+   "great": "$130 or less",
+   "why": "No sale on Nov 11, 2026; Walmart sold it for $129.98 in spring 2026 (Chrome Unboxed). Longer history needs Google Home Premium at $100 a year.",
+   "sources": "Google Store and Target, Nov 11, 2026; Chrome Unboxed",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/us/product/nest_doorbell?hl=en-US",
+     "seen": "$199.99, Nov 11, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/google-nest-doorbell-battery-snow/-/A-82685731",
+     "seen": "$199.99, Nov 11, 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 11, 2026: new entries for six video doorbells (no-subscription guide): eufy E340 $119.99 at Target, wait for eufy's Nov 19 to 30 sale; Ring Battery Doorbell 2K $39.99 at ring.com and Target, buy; Reolink PoE, Aqara G410 and Nest Doorbell (battery) wait; Tapo D225 ok at $99.99.",
   "Nov 10, 2026: NOCO GB40 re-checked for the improve day. Home Depot listing $99.95 with a new-cardholder offer to $74.95 (undated search result); no confirmed Black Friday 2026 GB40 sale. Lines now good $75 to $80, great under $75; verdict stays buy.",
   "Nov 9, 2026: new entries for the Sunbeam Restful queen pad, Sunbeam queen blanket and Pelonis HO-0279 oil-filled heater (cost-per-night guide); Dreo Atom One re-checked at $49.99 on dreo.com and flagged as not the DR-HSH015 model recalled Oct 29.",
   "Nov 8, 2026: O-Cedar EasyWring re-checked for the improve day. Newest dated price is still Walmart $34.96 (Slickdeals, Aug 20, 2026); Staples $39.99 and a Costco bundle at $38.79 are undated. No Black Friday 2026 deal announced, so the line stays under $30 and the verdict ok.",

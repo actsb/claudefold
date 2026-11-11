@@ -1,34 +1,170 @@
 {
-  "category": "generic",
-  "buy_title": "The exact doorbells, no subscription to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "doorbell-no-subscription",
-      "category": "generic",
-      "name": "Video doorbells without a subscription",
-      "short": "doorbells, no subscription",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "tile",
-        "label": "doorbells, no subscription"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=video+doorbell+local+storage&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The exact doorbells to order, and what to check on the listing",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from Target, Best Buy, Home Depot and the makers' own stores (Ring, eufy, Reolink, Aqara, Tapo, Google) on November 11, 2026 and move with sales; the buttons show today's price.",
+ "cards": [
+  {
+   "id": "eufy-e340",
+   "category": "generic",
+   "name": "eufy Video Doorbell E340",
+   "short": "eufy E340",
+   "badge": "Our first pick · records with no plan",
+   "chip": "Two cameras · 8 GB built in · battery or wired · $119.99 at Target",
+   "art": {
+    "shape": "tile",
+    "label": "eufy E340"
+   },
+   "price": "$119.99 at Target and $169.99 at eufy.com (Nov 11, 2026). Home Depot sold it for $99.99 on July 3, 2026 (Slickdeals); eufy's main Black Friday sale runs Nov 19 to 30.",
+   "buy_if": "you want a doorbell that saves its own video with no plan and no card to buy: eufy says the 8 GB inside holds about 90 days of clips, and a second camera looks down at packages.",
+   "skip_if": "your door faces a busy street (owners report two to three weeks per charge there), you need HomeKit (eufy says it does not support it), or your doorbell transformer is under 16 V and 30 VA.",
+   "owners": "About 4.5 of 5 at Best Buy on roughly 450 reviews and 4.5 on 74 at Lowe's (search-result snippets, Nov 11, 2026). The eufy forum's \"Hard Wired Issues\" thread (since Oct 2023, 77+ pages of replies) is about wired mode only trickle-charging the battery.",
+   "cta": "https://www.amazon.com/s?k=eufy+Video+Doorbell+E340&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "The pick",
+    "pick": "Video Doorbell E340 (model T8214111, black). It is the doorbell, not the E340 floodlight camera, and not the wired-only S330.",
+    "check": "The listing says E340 and \"Dual\" cameras; sold by eufy or a named retailer; eufy's own store gives 30-day returns. Compare with Target's $119.99 before paying more.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "reolink-doorbell-poe",
+   "category": "generic",
+   "name": "Reolink Video Doorbell PoE",
+   "short": "Reolink Doorbell PoE",
+   "badge": "Best for Home Assistant · runs on one cable",
+   "chip": "5MP 2K+ · microSD to 256 GB · ONVIF and RTSP · 2-year warranty",
+   "art": {
+    "shape": "tile",
+    "label": "Reolink PoE"
+   },
+   "price": "$119.99 in Reolink's store data and $109.99 at Best Buy as model D340P (search snippet), Nov 2026. Reolink's own store sold it for $82.49 with a code on May 18, 2026 (Slickdeals).",
+   "buy_if": "you can run an Ethernet cable to the door and want recordings on a microSD card, a Reolink NVR or Home Assistant, with no cloud and no battery to charge.",
+   "skip_if": "you have no cable path to the door (the WiFi version exists, but forum owners report drop-outs), or you need it to ring your old mechanical chime: Reolink sells a power kit because those can buzz.",
+   "owners": "Home Assistant forum owners (2024 to 2025) call the PoE model the reliable choice and praise the local integration; one says its mic died after heavy rain despite the IP65 rating. Reolink's store shows 4.51 of 5 on 84 reviews for the WiFi model (snippet, Nov 11, 2026).",
+   "cta": "https://www.amazon.com/s?k=Reolink+Video+Doorbell+PoE&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best for local hubs",
+    "pick": "Reolink Video Doorbell PoE (2K+ 5MP, D340P). Not the battery \"Video Doorbell (2nd Gen)\", which needs a Reolink hub for Home Assistant.",
+    "check": "PoE in the name; a chime in the box; a PoE switch or injector at your end; buy new from Reolink or a named store (forum owners report dead resold units).",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "aqara-g410",
+   "category": "generic",
+   "name": "Aqara Doorbell Camera Hub G410",
+   "short": "Aqara G410",
+   "badge": "Best for an iPhone home · porch only",
+   "chip": "HomeKit Secure Video · Matter hub · microSD to 512 GB · $144.99",
+   "art": {
+    "shape": "tile",
+    "label": "Aqara G410"
+   },
+   "price": "$144.99 at Aqara's US store, no sale (Nov 11, 2026). Past events cut it about 20% (Oct 2025, 9to5Toys) and about 27% (late 2025, Slickdeals).",
+   "buy_if": "you use Apple Home: one doorbell on HomeKit Secure Video needs only Apple's $0.99-a-month 50 GB plan, the card sits indoors in the chime, and the chime doubles as a Matter, Thread and Zigbee hub.",
+   "skip_if": "the door is exposed to rain: TechRadar found only an IPX3 rating and says to use it in an enclosed or semi-enclosed porch. Owners on AA batteries report one to four months, not five.",
+   "owners": "Best Buy sells the G410 Select: about 4.4 of 5 on 48 to 55 reviews (snippet, Nov 11, 2026). On Aqara's forum, a Nov 4 to 5, 2026 thread reports fresh batteries draining in hours after a firmware update; a wired owner's missed rings traced to an 8 V transformer.",
+   "cta": "https://www.amazon.com/s?k=Aqara+Doorbell+Camera+Hub+G410&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best for Apple Home",
+    "pick": "Doorbell Camera Hub G410 (black or gray). The G410 Select is the same doorbell with a three-month HomeGuardian trial (MacRumors); the G400 is wired-only and is not a hub.",
+    "check": "G410 in the name; microSD bought separately (up to 512 GB); an Apple home hub (HomePod or Apple TV) if you want HomeKit Secure Video.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "tapo-d225",
+   "category": "generic",
+   "name": "TP-Link Tapo D225",
+   "short": "Tapo D225",
+   "badge": "Cheapest no-fee pick · chime included",
+   "chip": "2K · microSD to 512 GB · free person and package alerts · $99.99",
+   "art": {
+    "shape": "tile",
+    "label": "Tapo D225"
+   },
+   "price": "$99.99 at TP-Link's Tapo store, list $129.99 (Nov 11, 2026). A 2026 Tapo store promotion had it at $79.99 (undated store snippet).",
+   "buy_if": "you want the lowest three-year cost with recordings: PCMag gave it Editors' Choice (June 2026) and CNET named it the best no-subscription doorbell (Oct 2026), with free AI alerts.",
+   "skip_if": "you worry about theft: the card sits in the outdoor unit, so a thief can take it with the doorbell. It also needs 2.4 GHz WiFi.",
+   "owners": "We found no US big-box rating. A TP-Link Community owner's battery drain stopped after a mesh WiFi upgrade; CyberShack measured 1 to 3% a day over four weeks on the similar D235. Thin owner data: treat it as the cheaper bet, not the proven one.",
+   "cta": "https://www.amazon.com/s?k=Tapo+D225+video+doorbell&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Lowest cost",
+    "pick": "Tapo D225 (2K QHD battery doorbell with chime). The D235 is a different model with a chime hub.",
+    "check": "D225 in the name; a microSD card bought separately; TP-Link or a named retailer as the seller.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "ring-battery-doorbell-2k",
+   "category": "generic",
+   "name": "Ring Battery Doorbell 2K",
+   "short": "Ring Battery 2K",
+   "badge": "Cheapest today · but no video without a plan",
+   "chip": "2K · built-in battery · live view free · $39.99 at Target",
+   "art": {
+    "shape": "tile",
+    "label": "Ring Battery 2K"
+   },
+   "price": "$39.99 at ring.com and Target, from $99.99 (Nov 11, 2026). The same 60% cut was reported on Sept 24 and Oct 2, 2026 (The Krazy Coupon Lady).",
+   "buy_if": "you already use Ring or Alexa and will pay Ring Solo ($49.99 a year, ring.com): then it is $189.96 over three years, about the same as the no-fee picks with a card.",
+   "skip_if": "you will not pay a plan: Ring says reviewing recorded video requires a subscription, and its blog lists person detection and snapshots as plan-only. Live view, two-way talk and motion alerts stay free.",
+   "owners": "Best Buy reviews of the new 2K are short and positive (snippets, no rating confirmed, Nov 11, 2026). The repeated gripe: the battery is built in, so the whole doorbell comes off the wall to charge by USB-C.",
+   "cta": "https://www.amazon.com/s?k=Ring+Battery+Doorbell+2K&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "If you want Ring",
+    "pick": "Battery Doorbell 2K (sold as \"Newest Model\" or Battery Doorbell 2nd Gen, 2026). Not the 2K Plus ($179.99) and not the 2020 Video Doorbell (2nd Generation).",
+    "check": "Retinal 2K and built-in battery on the listing; Target matched ring.com's $39.99 on Nov 11, so do not pay more; the free trial is 30 days.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "nest-doorbell-battery",
+   "category": "generic",
+   "name": "Google Nest Doorbell (battery)",
+   "short": "Nest Doorbell battery",
+   "badge": "Three free hours, then a plan · wait",
+   "chip": "Free 3-hour event history · Google Home · $199.99",
+   "art": {
+    "shape": "tile",
+    "label": "Nest Doorbell"
+   },
+   "price": "$199.99 at the Google Store and Target, no sale (Nov 11, 2026). Walmart had it for $129.98 in spring 2026 (Chrome Unboxed).",
+   "buy_if": "your home runs on Google Home and three hours of free event history is enough, or you already pay Google Home Premium for other cameras.",
+   "skip_if": "you want long history without paying: Google Home Premium Standard is $100 a year (Google Store, Nov 11, 2026), which makes it $499.99 over three years, the most here after Ring Pro.",
+   "owners": "Best Buy owners complain about the plan price for history (snippet, Nov 11, 2026); Google confirmed in 2022 that outdoor Nest batteries struggle to charge in the cold (TechRadar). CNET called it the best smart doorbell (Oct 2026).",
+   "cta": "https://www.amazon.com/s?k=Google+Nest+Doorbell+battery&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Google homes only",
+    "pick": "Nest Doorbell (battery), not the Nest Doorbell (wired, 3rd gen), which is a different product.",
+    "check": "Battery in the name; no microSD slot; wait for a sale near $150.",
+    "label": "See today's price"
+   }
+  }
+ ],
+ "buy_kicker": "Our first pick, and our last word"
 }

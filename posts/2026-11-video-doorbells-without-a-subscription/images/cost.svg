@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 666" role="img" aria-label="What each doorbell costs over three years"><rect width="1200" height="666" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">What each doorbell costs over three years</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Hardware at a US store on Nov 11, 2026, plus 36 months of the cheapest way to keep video</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Doorbell</text>
+<text x="303.214953271028" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Hardware</text>
+<text x="543.9626168224298" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">How video is kept</text>
+<text x="920.7850467289718" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">3-year total</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">eufy E340</text>
+<text x="303.214953271028" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$119.99 (Target)</text>
+<text x="543.9626168224298" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">8 GB built in, no plan</text>
+<text x="920.7850467289718" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$119.99</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#1E8E5A"/><path d="M 55 256 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Tapo D225</text>
+<text x="303.214953271028" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$99.99 (Tapo store)</text>
+<text x="543.9626168224298" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">microSD card, $30 to $60</text>
+<text x="920.7850467289718" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$130 to $160</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#1E8E5A"/><path d="M 55 318 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Reolink PoE</text>
+<text x="303.214953271028" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$119.99 (Reolink)</text>
+<text x="543.9626168224298" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">microSD card or NVR</text>
+<text x="920.7850467289718" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$150 to $180</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#C9781B"/><rect x="54" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Aqara G410</text>
+<text x="303.214953271028" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$144.99 (Aqara)</text>
+<text x="543.9626168224298" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">microSD, or iCloud+ 50 GB at $0.99/mo</text>
+<text x="920.7850467289718" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$175 to $205</text>
+<rect x="40" y="416" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="442" r="12" fill="#C9781B"/><rect x="54" y="440.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="446" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Ring Battery 2K</text>
+<text x="303.214953271028" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$39.99 (Target)</text>
+<text x="543.9626168224298" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Ring Solo, $49.99 a year</text>
+<text x="920.7850467289718" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$189.96</text>
+<rect x="40" y="478" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="504" r="12" fill="#C8102E"/><path d="M 55.5 499.5 l 9 9 M 64.5 499.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="74" y="508" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Nest Doorbell</text>
+<text x="303.214953271028" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$199.99 (Google)</text>
+<text x="543.9626168224298" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Premium Standard, $100 a year</text>
+<text x="920.7850467289718" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$499.99</text>
+<rect x="40" y="540" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="566" r="12" fill="#C8102E"/><path d="M 55.5 561.5 l 9 9 M 64.5 561.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="74" y="570" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Ring + Ring Pro</text>
+<text x="303.214953271028" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$39.99 (Target)</text>
+<text x="543.9626168224298" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Ring Pro, $199.99 a year (AI features)</text>
+<text x="920.7850467289718" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$639.96</text>
+<text x="40" y="616" font-size="13" font-weight="400" fill="#888" text-anchor="start">Sources: ring.com, Target, eufy.com, reolink.com, us.aqara.com, Tapo and Google stores, Apple iCloud+ page, Nov 11, 2026. microSD $30 to $60 is a 2026</text><text x="40" y="633" font-size="13" font-weight="400" fill="#888" text-anchor="start">band. Prices move.</text>
+</g></svg>
