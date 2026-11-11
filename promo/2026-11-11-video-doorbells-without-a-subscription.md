@@ -1,6 +1,6 @@
 # Promotion kit — Video doorbells without a subscription (buying guide, November 11, 2026)
 
-Post: https://acts39.blogspot.com/2026/11/video-doorbells-without-a-subscription-2026.html
+Post: https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html
 Cover: `posts/2026-11-video-doorbells-without-a-subscription/images/cover.png` · Pin: `images/pin.png` · Share: `images/howto.png`, `images/stores.png`, `images/strips/in-real-life.png`
 
 Disclosure on every social post: "Amazon links in the guide are paid links."

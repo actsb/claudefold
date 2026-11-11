@@ -827,7 +827,7 @@
    "key": "doorbell-no-subscription",
    "slug": "video-doorbells-without-a-subscription",
    "date": "2026-11-11",
-   "status": "writing",
+   "status": "published",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Video doorbells without a subscription",
@@ -852,7 +852,7 @@
    "picks": "Ring (with and without Ring Home plan), eufy (local storage), Aqara G4, Reolink: what works without a plan, local storage, police/video-sharing settings documented by each maker, 3-year total cost table, wired vs battery; check Recall Check for each brand Cite Prof H Lab's own checked findings (menu paths, features that cannot be switched off, lawsuits) with links where they support a point, and say they are from Prof. H's lab. BLUEPRINT: read research/bf-devices-blueprint-2026-11.md section 0 (calendar: Best Buy early deals Nov 6, Black Friday Nov 19-28; commission: Amazon devices 4%, TVs 2%; images) and section 3 in full before research, and check its section 5 open items. PRICE RULES for this guide: never an Amazon.com price of a device, not even dated; device prices only from Best Buy, Target, Walmart, Costco or the maker's own store, each with source and date; subscription fees (Alexa+, Google Home Premium, Ring Home plans, Kindle+, Kindle ad removal) only from the maker's official plan or announcement page with its date, written as the plan price, never next to 'on Amazon'. IMAGES: Amazon's press center, Ring, Samsung and Apple press images are personal/non-commercial only, so those products get a name tile unless the owner sends a photo; Google press images allowed with the credit 'Source: Google.'; check each other maker's terms. Write the buy-now-or-wait verdict per product against the Black Friday window, and say plainly that the guide compares makers' documentation, settings pages and published tests, not hands-on testing.",
    "cluster": "tech",
    "source": "Prof H Lab Search Console, last 28 days to Oct 29, 2026 (Samsung TV turn-off-AI 2,061 impressions/16 clicks; Alexa+ 531/3; Ring 317/1; Kindle 117/1); daily/profhlab-link-plan-2026-10-29.md section 8; research/bf-devices-blueprint-2026-11.md",
-   "url": "https://acts39.blogspot.com/2026/11/video-doorbells-without-a-subscription-2026.html",
+   "url": "https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html",
    "dir": "posts/2026-11-video-doorbells-without-a-subscription"
   },
   {

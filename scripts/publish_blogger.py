@@ -296,6 +296,7 @@ POSTS = {
     },
     "doorbell-no-subscription": {
         "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+        "url": "https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html",
         "title": "Video Doorbells Without a Subscription 2026: Ring vs eufy vs Aqara vs Reolink, and the 3-Year Cost",
         "slug_title": "Video Doorbells Without a Subscription 2026",
         "labels": ["Video Doorbells", "Smart Home", "Privacy", "Running Cost", "Comparison", "Amazon Finds"],
