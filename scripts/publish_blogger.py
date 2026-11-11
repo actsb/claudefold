@@ -294,6 +294,12 @@ POSTS = {
         "slug_title": "Heated Mattress Pad vs Electric Blanket vs Space Heater 2026",
         "labels": ["Home Comfort", "Space Heaters", "Heated Blankets", "Running Cost", "Comparison", "Amazon Finds"],
     },
+    "doorbell-no-subscription": {
+        "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+        "title": "Video Doorbells Without a Subscription 2026: Ring vs eufy vs Aqara vs Reolink, and the 3-Year Cost",
+        "slug_title": "Video Doorbells Without a Subscription 2026",
+        "labels": ["Video Doorbells", "Smart Home", "Privacy", "Running Cost", "Comparison", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
