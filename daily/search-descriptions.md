@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Video Doorbells Without a Subscription 2026: Ring vs eufy vs Aqara vs Reolink, and the 3-Year Cost
+https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html
+
+```text
+Ring is $39.99 but saves no video without a plan: $189.96 to $639.96 over 3 years. eufy E340 records free. 6 doorbells, 3-year cost, buy or wait.
+```
+
 ## Heated Mattress Pad vs Electric Blanket vs Space Heater 2026: Cost per Night at Your Electricity Price
 https://acts39.blogspot.com/2026/11/heated-mattress-pad-vs-electric-blanket.html
 
