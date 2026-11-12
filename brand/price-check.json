@@ -348,18 +348,23 @@
     "beckham-pillows"
    ],
    "model": "Standard/Queen set of 2 (King costs more).",
-   "street": "About $40–$60 for the pair at major retailers",
+   "street": "About $40–$60 for the pair at major retailers; Beckham's own store $69.99 (list $89.99), Nov 12, 2026",
    "good": "under $45",
    "great": "about $35",
-   "verdict": "ok",
-   "why": "30–40% cuts show up outside Black Friday too (Woot sold a pair at $34.99); there is no reason to wait weeks.",
-   "sources": "Walmart listings (2026); Woot, March 2023",
-   "checked": "2026-10-17",
+   "verdict": "wait",
+   "why": "Black Friday (Nov 27) and Cyber Monday (Nov 30, 2026) are two weeks away and 40–50% cuts on this pillow have been reported in past sales; no 2026 deal announced as of Nov 12, 2026. Buy now only at $45 or less.",
+   "sources": "Beckham Hotel Collection store (Nov 12, 2026); Walmart listings (Oct 4 and Nov 12, 2026); NBC News Select (2026); Woot, March 2023",
+   "checked": "2026-11-12",
    "stores": [
     {
      "name": "Beckham Hotel Collection",
      "url": "https://beckhamhotelcollection.com/products/original-down-alternative-pillow-set",
-     "seen": "$89.99 list, Oct 2026"
+     "seen": "$69.99 sale, $89.99 list, Nov 12, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Beckham-Hotel-Collection-Luxury-Linens-Down-Alternative-Pillows-for-Sleeping-Queen-2-Pack/832325636",
+     "seen": "queen 2-pack out of stock, Nov 12, 2026"
     }
    ]
   },
@@ -1856,6 +1861,7 @@
   }
  ],
  "changelog": [
+  "Nov 12, 2026: Beckham Hotel Collection pillows re-checked for the improve day. Beckham's own store $69.99 (list $89.99); Walmart queen 2-pack out of stock; no Black Friday 2026 price announced. Lines stay good under $45, great about $35; verdict now wait for Black Friday (Nov 27) or Cyber Monday (Nov 30).",
   "Nov 11, 2026: new entries for six video doorbells (no-subscription guide): eufy E340 $119.99 at Target, wait for eufy's Nov 19 to 30 sale; Ring Battery Doorbell 2K $39.99 at ring.com and Target, buy; Reolink PoE, Aqara G410 and Nest Doorbell (battery) wait; Tapo D225 ok at $99.99.",
   "Nov 10, 2026: NOCO GB40 re-checked for the improve day. Home Depot listing $99.95 with a new-cardholder offer to $74.95 (undated search result); no confirmed Black Friday 2026 GB40 sale. Lines now good $75 to $80, great under $75; verdict stays buy.",
   "Nov 9, 2026: new entries for the Sunbeam Restful queen pad, Sunbeam queen blanket and Pelonis HO-0279 oil-filled heater (cost-per-night guide); Dreo Atom One re-checked at $49.99 on dreo.com and flagged as not the DR-HSH015 model recalled Oct 29.",

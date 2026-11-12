@@ -16,8 +16,8 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 | levoit300 | https://acts39.blogspot.com/2026/09/levoit-core-300p-review-2026.html |  | 2026-11-03 |
 | bedsure-throw | https://acts39.blogspot.com/2026/10/bedsure-heated-throw-review-2026.html |  | 2026-11-05 |
 | ocedar-mop | https://acts39.blogspot.com/2026/10/o-cedar-easywring-spin-mop-review-2026.html |  | 2026-11-08 |
-| noco-gb40 | https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html |  | |
-| beckham-pillows | https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html |  | |
+| noco-gb40 | https://acts39.blogspot.com/2026/10/noco-gb40-jump-starter-review-2026.html |  | 2026-11-10 |
+| beckham-pillows | https://acts39.blogspot.com/2026/10/beckham-hotel-pillows-review-2026.html |  | 2026-11-12 |
 | bidets2026 | https://acts39.blogspot.com/2026/10/best-bidet-2026.html |  | |
 | instant-pot-duo | https://acts39.blogspot.com/2026/10/instant-pot-duo-6-quart-review-2026.html |  | |
 | redtiger-f7np | https://acts39.blogspot.com/2026/10/redtiger-f7np-dash-cam-review-2026.html |  | |
@@ -35,6 +35,7 @@ Improve days (daily/README.md section 2a) take the first row whose **Last improv
 
 One line per improve day, newest first, in this exact form (the Bing workflow reads it):
 `* 2026-10-21 · <publisher key> · what changed`
+* 2026-11-12 · beckham-pillows · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the buy-timing section, sale-pricing bullet and Korean summary with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) wait-for-$45-or-less verdict (Beckham store $69.99, list $89.99, Nov 12, 2026; Walmart queen 2-pack out of stock Nov 12; NBC News Select 2026 cut of almost 50%; no 2026 deal announced), added a question H2 with a 40–60 word answer, a three-year cost table for two pillows (Beckham $80–$140 vs Utopia $40–$105 vs Coop $142–$178), the brand store's 30-day policy, three guide cards (heated mattress pad cost guide, Bedsure throw, Black Friday home and kitchen), refreshed the store table and card price line, Price Check entry re-checked (verdict now wait, Walmart added to stores), Updated date November 12, 2026.
 * 2026-11-10 · noco-gb40 · replaced the expired Prime Big Deal Days advice with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (Home Depot listing $99.95 with a $74.95 new-cardholder offer, undated search result; no confirmed 2026 GB40 sale; wait only for under $75), added a five-year cost line, guide cards to the GB40 vs GB50 comparison and the winter car emergency kit guide, Price Check entry re-checked with new lines, Updated date November 10, 2026.
 * 2026-11-08 · ocedar-mop · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the buy-timing section, quick answer, FAQ schema and Korean summary with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) verdict (buy now if needed, wait only for under $30; Walmart $34.96 Aug 20, 2026 per Slickdeals; no 2026 deal announced), added a three-year cost table ($67–$117 incl. refill heads), guide cards to the Black Friday home and kitchen guide and the Bissell Little Green review, Price Check entry re-checked, Updated date November 8, 2026.
 * 2026-11-05 · bedsure-throw · replaced the expired Prime Big Deal Days (Oct 6–7) advice in the buy-timing section, quick answer and FAQ schema with a dated Black Friday (Nov 27) / Cyber Monday (Nov 30) buy-now-or-wait verdict (buy under about $45, else wait; Walmart $23.99 Black Friday 2025; no 2026 price announced), added guide cards to the Heated Blanket Recalls 2026 guide and the Dreo heater review, Price Check entry re-checked, Updated date November 5, 2026.

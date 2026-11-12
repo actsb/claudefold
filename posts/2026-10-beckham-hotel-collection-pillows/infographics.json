@@ -36,7 +36,7 @@
     "type": "stores",
     "name": "stores",
     "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "October 4, 2026: what search snippets showed; the Amazon row shows no price, use the button",
+    "sub": "Oct 4 and Nov 12, 2026: what search snippets and store pages showed; the Amazon row shows no price, use the button",
     "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
     "rows": [
       {
@@ -49,10 +49,10 @@
       },
       {
         "store": "Walmart",
-        "price": "$45.99–$79.99 (Oct 4, 2026)",
+        "price": "Queen out of stock",
         "ship": "Varies",
         "returns": "Not checked",
-        "note": "Seller often unknown; compare when no coupon runs",
+        "note": "Nov 12, 2026; $45.99–$79.99 on Oct 4 (sellers unknown)",
         "verdict": "ok"
       },
       {
@@ -65,10 +65,10 @@
       },
       {
         "store": "Brand store",
-        "price": "No confirmed store",
-        "ship": "—",
-        "returns": "—",
-        "note": "Many unofficial Beckham-named sites; none confirmed as the brand",
+        "price": "$69.99 (list $89.99)",
+        "ship": "Not checked",
+        "returns": "30 days, \"make it right\"",
+        "note": "Seen Nov 12, 2026; beware look-alike sites",
         "verdict": "ok"
       },
       {
