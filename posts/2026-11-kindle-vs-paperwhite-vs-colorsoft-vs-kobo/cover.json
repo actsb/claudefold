@@ -1,0 +1,26 @@
+{
+  "hero": "kindle-models",
+  "title_size": 66,
+  "title": [
+    "Kindle models:",
+    "WRITE: line two",
+    "WRITE: line three"
+  ],
+  "subtitle": [
+    "WRITE: one sentence of what the guide answers,",
+    "wrapped at about fifty characters per line,",
+    "three lines at most."
+  ],
+  "footer": "Product of the day · Kindle models compared (and Kobo) · Verdict Picks",
+  "alt": "Kindle models compared (and Kobo): is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "pin": [
+    "WRITE: bullet one",
+    "WRITE: bullet two",
+    "WRITE: bullet three"
+  ],
+  "url": "https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs-kobo-2026.html",
+  "style": "bright",
+  "products": [
+    "kindle-models"
+  ]
+}
