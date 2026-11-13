@@ -1,26 +1,29 @@
 {
-  "hero": "kindle-models",
-  "title_size": 66,
-  "title": [
-    "Kindle models:",
-    "WRITE: line two",
-    "WRITE: line three"
-  ],
-  "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
-  ],
-  "footer": "Product of the day · Kindle models compared (and Kobo) · Verdict Picks",
-  "alt": "Kindle models compared (and Kobo): is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
-  "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
-  ],
-  "url": "https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs-kobo-2026.html",
-  "style": "bright",
-  "products": [
-    "kindle-models"
-  ]
+ "hero": "kindle-paperwhite-2026",
+ "title_size": 60,
+ "title": [
+  "Kindle vs Kobo:",
+  "which e-reader in",
+  "2026, and the cost"
+ ],
+ "subtitle": [
+  "Paperwhite, Colorsoft, basic Kindle and Kobo:",
+  "ads, AI features, library books and the",
+  "3-year cost, before Black Friday."
+ ],
+ "footer": "Buying guide · E-readers 2026 · Verdict Picks",
+ "alt": "Kindle vs Paperwhite vs Colorsoft vs Kobo in 2026: lockscreen ads, AI features that cannot be switched off, library borrowing and the three-year cost (Verdict Picks)",
+ "pin": [
+  "Paperwhite $199.99: the Kindle for most",
+  "Ads cost about $20 to remove",
+  "Ask this Book has no off switch"
+ ],
+ "url": "https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs-kobo-2026.html",
+ "style": "bright",
+ "products": [
+  "kindle-2026",
+  "kindle-colorsoft-2026",
+  "kobo-clara-bw",
+  "kobo-libra-colour"
+ ]
 }

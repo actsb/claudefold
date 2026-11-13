@@ -1,84 +1,188 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The Kindle models in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+ {
+  "type": "matrix",
+  "name": "cost",
+  "title": "What each e-reader costs over three years",
+  "sub": "Device at a US store on Nov 13, 2026, plus an optional library subscription",
+  "footer": "Sources: Target, Best Buy and Kobo listings, Nov 13, 2026; Kindle+ page (Oct 22, 2026); Kobo Plus per TechRadar. Ad removal about $20 is one tester's figure. Taxes excluded.",
+  "columns": [
+   {
+    "head": "E-reader",
+    "w": 250
+   },
+   {
+    "head": "Device",
+    "w": 210
+   },
+   {
+    "head": "Plus ad removal",
+    "w": 230
+   },
+   {
+    "head": "With Kindle+ / Kobo Plus",
+    "w": 330
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Kobo Clara BW",
+     "$159.99",
+     "none (no lockscreen ads)",
+     "$447.63 (Plus, Read)"
     ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Kindle (2026)",
+     "$149.99",
+     "$169.99 ad-free",
+     "$601.63"
     ]
-  }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Kindle Paperwhite",
+     "$199.99",
+     "$219.99 ad-free",
+     "$651.63"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Paperwhite Signature",
+     "$249.99",
+     "none (ad-free)",
+     "$681.63"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Kobo Libra Colour",
+     "$259.99",
+     "none",
+     "$547.63 (Plus, Read)"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Kindle Colorsoft",
+     "$289.99",
+     "none (ad-free)",
+     "$721.63"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "matrix",
+  "name": "features",
+  "title": "Ads, AI and library books on each e-reader",
+  "sub": "From the makers' help pages, reviewers and Prof H Lab, read Nov 13, 2026",
+  "footer": "Sources: Amazon help and news pages, Kobo help pages, the-ebook-reader, Tom's Guide, Prof H Lab (Oct 5, 2026). Features change with updates.",
+  "columns": [
+   {
+    "head": "E-reader",
+    "w": 230
+   },
+   {
+    "head": "Lockscreen ads",
+    "w": 250
+   },
+   {
+    "head": "AI reading features",
+    "w": 300
+   },
+   {
+    "head": "Library books",
+    "w": 280
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Kobo Clara BW / Libra Colour",
+     "None",
+     "None found (Nov 2026)",
+     "Libby built in"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Kindle Paperwhite",
+     "Yes, about $20 to remove",
+     "Cannot be switched off",
+     "Second device needed"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Kindle (2026)",
+     "Yes; aluminum model has none",
+     "Cannot be switched off",
+     "Second device needed"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Paperwhite Signature",
+     "No",
+     "Cannot be switched off",
+     "Second device needed"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Kindle Colorsoft",
+     "No",
+     "Cannot be switched off",
+     "Second device needed"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Set up an e-reader without the extras",
+  "sub": "Do these in the first 30 days, while you can still return it",
+  "footer": "From Amazon's and Kobo's help pages and Prof H Lab, read Nov 13, 2026. Menu names change with updates.",
+  "items": [
+   {
+    "head": "Check the ads",
+    "body": "Base Kindle and Paperwhite show lockscreen ads. Amazon's pop-up shows the removal price before you pay."
+   },
+   {
+    "head": "Pick your library route",
+    "body": "Kobo has Libby built in. Kindle sends loans from the Libby app on a phone."
+   },
+   {
+    "head": "Use Reading so far",
+    "body": "Ask this Book and Recaps cannot be turned off; choosing Reading so far limits spoilers."
+   },
+   {
+    "head": "Clear the history",
+    "body": "Clear History in the Ask this Book panel; Amazon says it clears itself after 90 days idle."
+   },
+   {
+    "head": "Test the screen",
+    "body": "Open dark mode and look at the edges for glow. Exchange a bad unit inside the window."
+   },
+   {
+    "head": "Read update notes",
+    "body": "Owners report updates that drained batteries or hid books. Update on Wi-Fi with a full charge."
+   }
+  ]
+ }
 ]

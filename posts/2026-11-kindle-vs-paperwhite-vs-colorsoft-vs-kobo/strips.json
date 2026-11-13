@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "kindle-paperwhite-2026",
+   "title": "A new e-reader in its first month: in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "kindle-models",
-      "title": "A day with the Kindle models — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Before you buy",
+     "text": "Decide: text only, colour, or library books without a second device.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Day one",
+     "text": "Check the listing for ads, then open the library or store you actually use."
+    },
+    {
+     "glyph": "warning",
+     "head": "Week two",
+     "text": "Update prompts arrive. Owners say read the notes: some updates broke battery or books."
+    },
+    {
+     "glyph": "sun",
+     "head": "Day 30",
+     "text": "Still inside the return window? Test the edges in dark mode and the battery now.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

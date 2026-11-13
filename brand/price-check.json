@@ -1858,9 +1858,186 @@
      "seen": "$199.99, Nov 11, 2026"
     }
    ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "wait",
+   "checked": "2026-11-13",
+   "key": "kindle-paperwhite-2026",
+   "name": "Kindle Paperwhite (2026, 16 GB)",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kindle-paperwhite-2026"
+   ],
+   "model": "Kindle Paperwhite 16 GB, 2026 release, not the 2024 model or the Signature Edition.",
+   "street": "$199.99 at Target (Nov 13, 2026), the same as the 2024 model there",
+   "good": "under $175",
+   "great": "$155 or less",
+   "why": "No sale on Nov 13, 2026. Past Black Friday cuts were about 19% (2024) and 22% (2025); the model is new this season, so a shallow cut is likely.",
+   "sources": "Target, Nov 13, 2026; the-ebook-reader (Black Friday 2024 and 2025)",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/amazon-kindle-paperwhite-16gb-now-thinner-and-lighter-7-34-display-warm-light-graphite/-/A-95011300",
+     "seen": "$199.99, Nov 13, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-kindle-paperwhite-16gb-2026-release-now-thinner-and-lighter-7-display-warm-light-2026-graphite/J39TLSRCQC/sku/6693462"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "wait",
+   "checked": "2026-11-13",
+   "key": "kindle-2026",
+   "name": "Kindle (2026, 6-inch)",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kindle-2026"
+   ],
+   "model": "Kindle 6-inch 16 GB, 2026 release (with ads). The aluminum 32 GB \"No Ads\" model is a separate listing.",
+   "street": "$149.99 at Target (Nov 13, 2026); aluminum 32 GB No Ads $189.99 at Target and Best Buy",
+   "good": "under $125",
+   "great": "$115 or less",
+   "why": "No sale on Nov 13, 2026. The older $109.99 model was cut 23% (2024) and 27% (2025) at Black Friday.",
+   "sources": "Target, Nov 13, 2026; the-ebook-reader",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/amazon-kindle-16gb-now-thinner-lighter-and-faster-6-display/-/A-1014413257",
+     "seen": "$149.99, Nov 13, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-kindle-16gb-2026-release-now-thinner-lighter-and-faster-6-display-2026-ube/J39TLSR3HR/sku/6690617"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "wait",
+   "checked": "2026-11-13",
+   "key": "kindle-colorsoft-2026",
+   "name": "Kindle Colorsoft (2026, 16 GB)",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kindle-colorsoft-2026"
+   ],
+   "model": "Kindle Colorsoft 16 GB, 2026 release, not the 2024 Colorsoft sold as clearance.",
+   "street": "$289.99 at Target (Nov 13, 2026)",
+   "good": "under $250",
+   "great": "about $200",
+   "why": "No sale on Nov 13, 2026. The 2024 Colorsoft had no Black Friday cut in 2024 and about 32% in 2025.",
+   "sources": "Target, Nov 13, 2026; the-ebook-reader",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/amazon-kindle-colorsoft-16gb-now-thinner-and-lighter-7-34-color-display-warm-light-graphite/-/A-95011292",
+     "seen": "$289.99, Nov 13, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-kindle-colorsoft-16gb-2026-release-now-thinner-and-lighter-7-color-display-warm-light-2026-graphite/J39TLSY9KH/sku/6693463"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "wait",
+   "checked": "2026-11-13",
+   "key": "kindle-paperwhite-signature-2026",
+   "name": "Kindle Paperwhite Signature Edition (2026, 32 GB)",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kindle-paperwhite-signature-2026"
+   ],
+   "model": "Paperwhite Signature Edition 32 GB, 2026 release (the 2024 Signature is a different model).",
+   "street": "$249.99 on a Best Buy listing (Nov 13, 2026); not listed at Target",
+   "good": "under $210",
+   "great": "$190 or less",
+   "why": "No sale seen on Nov 13, 2026. The Signature was cut about 23% at Black Friday 2024.",
+   "sources": "Best Buy listing, Nov 13, 2026; the-ebook-reader",
+   "stores": [
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/amazon-kindle-paperwhite-signature-edition-32gb-2026-release-7-aluminum-design-auto-adjusting-front-light-2026-graphite/J39TLSS595/sku/6693464",
+     "seen": "$249.99, Nov 13, 2026"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "ok",
+   "checked": "2026-11-13",
+   "key": "kobo-clara-bw",
+   "name": "Kobo Clara BW",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kobo-clara-bw"
+   ],
+   "model": "Kobo Clara BW 16 GB (black and white), not a bundle with a case or remote.",
+   "street": "$159.99 at Kobo and Target (Nov 13, 2026)",
+   "good": "under $145",
+   "great": "$130 or less",
+   "why": "Up $20 in May 2026. Kobo left the Clara models out of Black Friday in 2024 and 2025 and took $20 off from Dec 12 to 26, 2025.",
+   "sources": "Kobo store and Target, Nov 13, 2026; the-ebook-reader",
+   "stores": [
+    {
+     "name": "Kobo",
+     "url": "https://ereader.kobo.com/en-us/products/kobo-clara-bw",
+     "seen": "$159.99, Nov 13, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kobo-clara-bw-6-16gb-ereader-glare-free-touchscreen-with-comfortlight-pro-dark-mode-option-audiobooks-waterproof-black/-/A-91829936",
+     "seen": "$159.99, Nov 13, 2026"
+    }
+   ]
+  },
+  {
+   "category": "tech",
+   "guide": "kindle-models",
+   "verdict": "wait",
+   "checked": "2026-11-13",
+   "key": "kobo-libra-colour",
+   "name": "Kobo Libra Colour",
+   "card": [
+    "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "kobo-libra-colour"
+   ],
+   "model": "Kobo Libra Colour 7-inch (32 GB), not a bundle with a stylus or case.",
+   "street": "$259.99 at Kobo and Target (Nov 13, 2026)",
+   "good": "under $235",
+   "great": "$220 or less",
+   "why": "Up $30 in May 2026. It was cut about 13% at Black Friday 2025, the only Kobo model included.",
+   "sources": "Kobo store and Target, Nov 13, 2026; the-ebook-reader",
+   "stores": [
+    {
+     "name": "Kobo",
+     "url": "https://ereader.kobo.com/en-us/products/kobo-libra-colour",
+     "seen": "$259.99, Nov 13, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kobo-libra-colour-ereader-7-glare-free-colour-e-ink-kaleido-3-display-dark-mode-option-waterproof/-/A-91830242",
+     "seen": "$259.99, Nov 13, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/kobo-libra-colour-ereader-7-glare-free-color-e-ink-kaleido-3-display-dark-mode-option-waterproof-32gb-2024-white/JXSHPC3Q96/sku/6680803"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 13, 2026: new entries for six e-readers (Kindle Paperwhite, Kindle, Colorsoft, Paperwhite Signature, Kobo Clara BW, Kobo Libra Colour) for the e-reader guide. Target and Kobo's store showed list prices with no sale; Best Buy pages did not load. Amazon's Black Friday Week runs Nov 19 to 30; Kobo left its Clara models out of Black Friday in 2024 and 2025. Verdicts: wait on the Kindles and the Libra Colour, ok on the Clara BW.",
   "Nov 12, 2026: Beckham Hotel Collection pillows re-checked for the improve day. Beckham's own store $69.99 (list $89.99); Walmart queen 2-pack out of stock; no Black Friday 2026 price announced. Lines stay good under $45, great about $35; verdict now wait for Black Friday (Nov 27) or Cyber Monday (Nov 30).",
   "Nov 11, 2026: new entries for six video doorbells (no-subscription guide): eufy E340 $119.99 at Target, wait for eufy's Nov 19 to 30 sale; Ring Battery Doorbell 2K $39.99 at ring.com and Target, buy; Reolink PoE, Aqara G410 and Nest Doorbell (battery) wait; Tapo D225 ok at $99.99.",
   "Nov 10, 2026: NOCO GB40 re-checked for the improve day. Home Depot listing $99.95 with a new-cardholder offer to $74.95 (undated search result); no confirmed Black Friday 2026 GB40 sale. Lines now good $75 to $80, great under $75; verdict stays buy.",

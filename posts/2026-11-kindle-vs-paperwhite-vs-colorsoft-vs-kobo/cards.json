@@ -1,34 +1,161 @@
 {
-  "category": "generic",
-  "buy_title": "The exact Kindle models to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "kindle-models",
-      "category": "generic",
-      "name": "Kindle models compared (and Kobo)",
-      "short": "Kindle models",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "tile",
-        "label": "Kindle models"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=Kindle+Paperwhite&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The exact Kindle models to order, and what to check on the listing",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Device prices in this guide come from Target, Best Buy and Kobo's store on November 13, 2026 and move with sales; the buttons show today's price.",
+ "cards": [
+  {
+   "id": "kindle-paperwhite-2026",
+   "category": "generic",
+   "name": "Kindle Paperwhite (2026, 16 GB)",
+   "short": "Paperwhite 2026",
+   "badge": "Our top pick · the default Kindle",
+   "chip": "7\" 300 ppi · warm light · waterproof · up to 12 weeks (maker claim)",
+   "art": {
+    "shape": "tile",
+    "label": "Paperwhite 2026"
+   },
+   "price": "$199.99 at Target (Nov 13, 2026), the same price as the 2024 Paperwhite there. The August 2026 rise was $40. Past Black Friday cuts: about 19% (2024) and 22% (2025).",
+   "buy_if": "you read mostly text and want the screen, warm light and waterproofing without paying for colour or the Signature extras. TechRadar says it is the Kindle it would recommend to most people.",
+   "skip_if": "you hate lockscreen ads: the base Paperwhite carries them and removing them costs about $20 per one tester (Amazon shows the price at checkout). Or you want colour (Colorsoft) or library books without a second device (Kobo).",
+   "owners": "Few 2026 owner reviews exist yet (0 to 2 per listing at Best Buy and Target on Nov 13, 2026). The 2026 screen is only slightly better than 2024's and no faster (the-ebook-reader, Nov 4, 2026). Owners of earlier Paperwhites blamed software 5.19.2 for battery drain in February 2026.",
+   "cta": "https://www.amazon.com/s?k=Kindle+Paperwhite+16GB+2026&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Top pick",
+    "pick": "Kindle Paperwhite (2026 release), 16 GB. Not the Signature Edition, and not the 2024 model that is still listed.",
+    "check": "\"2026 release\" and 7-inch in the title; sold by Amazon or a named retailer; a listing that offers the ad-free version says so in the title.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "kindle-2026",
+   "category": "generic",
+   "name": "Kindle (2026, 6-inch)",
+   "short": "Kindle 2026",
+   "badge": "Cheapest Kindle · no warm light, not waterproof",
+   "chip": "6\" · 16 GB · up to 6 weeks (maker claim)",
+   "art": {
+    "shape": "tile",
+    "label": "Kindle 2026"
+   },
+   "price": "$149.99 at Target (Nov 13, 2026) with ads; the 32 GB aluminum model sold as \"No Ads\" is $189.99 at Target and Best Buy. Black Friday cuts of 23% (2024) and 27% (2025) applied to the older $109.99 model.",
+   "buy_if": "you want the lowest price for a screen that is easy on the eyes in daylight, mainly for travel or a gift.",
+   "skip_if": "you read in bed (no warm light), near water (not waterproof), or you got a unit with a grey glow at the edges: Amazon told Good e-Reader that heavy light bleed on new units is a defect to exchange.",
+   "owners": "Amazon acknowledged light bleed on some base 2026 units and offers free exchange (Android Headlines, Oct 9, 2026). TechRadar says it is thinner, lighter and about 30% faster by Amazon's figures, and that ads show by default.",
+   "cta": "https://www.amazon.com/s?k=Kindle+6+inch+16GB+2026&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Cheapest",
+    "pick": "Kindle (2026 release), 6-inch, 16 GB; or the aluminum 32 GB \"No Ads\" version if you will not tolerate ads.",
+    "check": "\"2026\" in the title and the word \"No Ads\" if you want it; a unit with visible glow along the bezel in dark mode should be exchanged.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "kindle-colorsoft-2026",
+   "category": "generic",
+   "name": "Kindle Colorsoft (2026, 16 GB)",
+   "short": "Colorsoft 2026",
+   "badge": "Colour · ad-free · for comics and covers",
+   "chip": "7\" · colour 150 ppi, text 300 ppi · up to 8 weeks (maker claim)",
+   "art": {
+    "shape": "tile",
+    "label": "Colorsoft 2026"
+   },
+   "price": "$289.99 at Target (Nov 13, 2026); Colorsoft Signature Edition $319 (Tom's Guide, Oct 31, 2026). Black Friday: no cut on the 2024 Colorsoft in 2024, about 32% in 2025.",
+   "buy_if": "you read comics, cookbooks or magazines where colour matters and want no lockscreen ads on the base model.",
+   "skip_if": "you read mostly novels: Tom's Guide and the-ebook-reader both prefer the Paperwhite for text, and the Colorsoft's panel is darker, so you turn the light up and lose battery.",
+   "owners": "The 2026 Colorsoft has no yellow band (the-ebook-reader, Nov 10, 2026), but the same reviewer found light bleed along the bezel on his unit, worse in dark mode (Oct 28, 2026). 2024 Colorsoft owners at Best Buy still report the yellow band.",
+   "cta": "https://www.amazon.com/s?k=Kindle+Colorsoft+16GB+2026&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "For colour",
+    "pick": "Kindle Colorsoft (2026 release), 16 GB. Not the 2024 Colorsoft that is still sold as clearance.",
+    "check": "\"2026\" in the title; a unit with a visible bright strip along the edges in dark mode should be returned inside the 30-day window.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "kindle-paperwhite-signature-2026",
+   "category": "generic",
+   "name": "Kindle Paperwhite Signature Edition (2026, 32 GB)",
+   "short": "Paperwhite Signature",
+   "badge": "Splurge · ad-free · auto light",
+   "chip": "7\" · 32 GB · auto-adjusting light · aluminum back",
+   "art": {
+    "shape": "tile",
+    "label": "Paperwhite Signature"
+   },
+   "price": "$249.99 on the Best Buy listing (Nov 13, 2026); Target did not list it. The 2024 Signature was $249.99 at Target. Past Black Friday cut: about 23% (2024).",
+   "buy_if": "you want a Paperwhite with no ads from day one, more storage and an auto light, and you will pay about $50 more for it.",
+   "skip_if": "you are fine with the base Paperwhite: Engadget calls the Signature \"more of a splurge than an essential purchase\", and wireless charging was dropped for a pogo-pin dock.",
+   "owners": "Tom's Guide (Oct 28, 2026) calls it arguably the best Paperwhite yet but pricey; Engadget (Oct 28, 2026) scored it 8.6 of 10. One Best Buy owner said the battery fell short of the claim; only two reviews so far.",
+   "cta": "https://www.amazon.com/s?k=Kindle+Paperwhite+Signature+Edition+32GB+2026&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Splurge",
+    "pick": "Kindle Paperwhite Signature Edition (2026 release), 32 GB.",
+    "check": "\"Signature Edition\" and \"2026\" in the title; 32 GB; the charging dock is sold separately.",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "kobo-clara-bw",
+   "category": "generic",
+   "name": "Kobo Clara BW",
+   "short": "Kobo Clara BW",
+   "badge": "Best non-Amazon · library books built in",
+   "chip": "6\" black and white · waterproof · 16 GB · EPUB",
+   "art": {
+    "shape": "tile",
+    "label": "Kobo Clara BW"
+   },
+   "price": "$159.99 at Kobo's store and Target (Nov 13, 2026), after a $20 rise in May 2026. Kobo left the Clara models out of Black Friday in 2024 and 2025; a $20 cut came Dec 12 to 26, 2025.",
+   "buy_if": "you borrow library books (Libby is built in for US libraries), read EPUBs you own, or do not want to depend on Amazon's store.",
+   "skip_if": "you want the biggest bookstore and the fastest software: Engadget says Kobo's \"interface and library simply can't hold a candle to Amazon's\". Kobo's late-September 2026 6.0 beta lost books on some units.",
+   "owners": "Kobo's Clara BW is 4.3 of 5 on 27 ratings at Walmart (bundle listing, undated, seen Nov 13, 2026). One MobileRead owner's battery drain stopped after Kobo replaced the unit (Jan to Feb 2025).",
+   "cta": "https://ereader.kobo.com/en-us/products/kobo-clara-bw",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "cta_label": "See the Clara BW at Kobo",
+   "cta_style": "link"
+  },
+  {
+   "id": "kobo-libra-colour",
+   "category": "generic",
+   "name": "Kobo Libra Colour",
+   "short": "Kobo Libra Colour",
+   "badge": "Colour with page buttons · stylus support",
+   "chip": "7\" colour · page-turn buttons · waterproof · 32 GB",
+   "art": {
+    "shape": "tile",
+    "label": "Kobo Libra Colour"
+   },
+   "price": "$259.99 at Kobo's store and Target (Nov 13, 2026), up $30 in May 2026. Past Black Friday cut: about 13% in 2025 (the-ebook-reader).",
+   "buy_if": "you want colour and physical page-turn buttons and library borrowing built in.",
+   "skip_if": "you want the cheapest colour: the Clara Colour is $179.99 at Kobo and Target, with no buttons.",
+   "owners": "Best Buy owners rate it 4.7 of 5 on 37 reviews and 4.7 on 42 (two listings, seen Nov 13, 2026): battery and buttons are praised; colour looks darker than black and white and page turns lag a little.",
+   "cta": "https://ereader.kobo.com/en-us/products/kobo-libra-colour",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "cta_label": "See the Libra Colour at Kobo",
+   "cta_style": "link"
+  }
+ ]
 }
