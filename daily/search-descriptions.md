@@ -11,10 +11,10 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
 ## Kindle vs Paperwhite vs Colorsoft vs Kobo 2026: Which E-Reader, and What the AI Features Do
-https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs-kobo-2026.html
+https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs.html
 
 ```text
-Kindle Paperwhite is $199.99, ads cost about $20 to remove, and Ask this Book has no off switch. Kindle vs Kobo: library books, 3-year cost, when to buy.
+Kindle Paperwhite is $199.99, ads cost about $20 to remove, and Ask this Book has no off switch. Kindle vs Kobo: library books, 3-year cost, timing.
 ```
 
 ## Video Doorbells Without a Subscription 2026: Ring vs eufy vs Aqara vs Reolink, and the 3-Year Cost

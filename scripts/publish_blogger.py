@@ -303,6 +303,7 @@ POSTS = {
     },
     "kindle-models": {
         "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+        "url": "https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs.html",
         "title": "Kindle vs Paperwhite vs Colorsoft vs Kobo 2026: Which E-Reader, and What the AI Features Do",
         "slug_title": "Kindle vs Paperwhite vs Colorsoft vs Kobo 2026",
         "labels": ["E-Readers", "Kindle", "Gift Ideas", "Comparison", "Black Friday", "Amazon Finds"],
