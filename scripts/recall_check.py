@@ -30,7 +30,7 @@ CLUSTERS = [
     ("pets", "Pets", r"\bpets?\b|\bdogs?\b|\bcats?\b|litter|leash|collar|aquarium|chew toy"),
     ("bath", "Bathroom", r"bidet|toilet|shower|bathroom|hair dryer|curling|flat iron"),
 ]
-SKIP = re.compile(r"\btoys?\b|child|children|baby|babies|infant|crib|bassinet|stroller|high chair|teeth|pacifier|youth|\bkids?\b|"
+SKIP = re.compile(r"\btoys?\b|nursing|child|children|baby|babies|infant|crib|bassinet|stroller|high chair|teeth|pacifier|youth|\bkids?\b|"
                   r"toddler|play ?yard|playpen|bicycle|helmet|dresser|chest of drawers|nightwear|pajama|sleepwear|costume|swing set", re.I)
 PRICE = re.compile(r"\s*(for|at|priced at|retailing for|selling for)?\s*(about|approximately|between|from)?\s*\$[\d,.]+(\s*(to|and|-|–)\s*\$[\d,.]+)?", re.I)
 
