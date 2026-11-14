@@ -247,18 +247,18 @@
     "saros-10r"
    ],
    "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
-   "street": "List $1,599.99; Roborock's store $899.99 (Oct 14, 2026), sold out there on Oct 29, 2026",
+   "street": "List $1,599.99. New units are gone from Roborock's US store (the old page now shows the Saros 20); certified refurbished $899.99 there, sold out (Nov 14, 2026). Last new price seen: $899.99 at Roborock (Oct 14, 2026)",
    "good": "$900 or less",
    "great": "under $850",
-   "verdict": "buy",
-   "why": "October already beat last year's Black Friday price of $999.99, and as a replaced model it has less room to fall.",
-   "sources": "Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
-   "checked": "2026-10-17",
+   "verdict": "ok",
+   "why": "Roborock no longer lists a new Saros 10R, and its Black Friday sale (Nov 19 to 30, 2026) showed none on Nov 14. If another store still has a new one at $900 or less, that is a fair price for a replaced model; Roborock had the Saros 20 that replaced it at $989.99 on Nov 14.",
+   "sources": "Roborock store and its deals page, Nov 14, 2026; Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
+   "checked": "2026-11-14",
    "stores": [
     {
-     "name": "Roborock",
-     "url": "https://us.roborock.com/products/roborock-saros-10r",
-     "seen": "$1,599.99 list, Oct 2026"
+     "name": "Roborock (refurbished)",
+     "url": "https://us.roborock.com/products/certified-refurbished-90-new-roborock-saros-10r-robot-vacuum-with-multifunctional-dock-4-0",
+     "seen": "$899.99 certified refurbished, sold out, Nov 14, 2026"
     }
    ]
   },
@@ -272,18 +272,18 @@
     "x50"
    ],
    "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
-   "street": "List $1,599.99",
+   "street": "List $1,599.99; Dreame's store $999.99 (Nov 14, 2026). The X50 Ultra Complete was $899.99 there the same day (list $1,699.99)",
    "good": "under $850",
    "great": "$800 or less",
    "verdict": "wait",
-   "why": "Dreame's own store ran it at $799.99 (50% off) from November 20 to December 1, 2025; expect a clearance-style price again.",
-   "sources": "Dreame Black Friday 2025 post (search snippet)",
-   "checked": "2026-10-17",
+   "why": "Dreame's store ran it at $799.99 (50% off) from November 20 to December 1, 2025. On Nov 14, 2026 its \"Black Friday Prices Early\" price was $999.99, $200 above that, and the Complete bundle was cheaper than the plain robot. Wait for under $850.",
+   "sources": "Dreame store, Nov 14, 2026; Dreame Black Friday 2025 post (search snippet)",
+   "checked": "2026-11-14",
    "stores": [
     {
      "name": "Dreame",
      "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
-     "seen": "$1,599.99 list, Oct 2026"
+     "seen": "$999.99 (list $1,599.99), Nov 14, 2026"
     }
    ]
   },
@@ -435,18 +435,18 @@
     "redtiger-f7np"
    ],
    "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
-   "street": "Brand list $149.98 with card, $129.99 without; street about $100–$130",
+   "street": "REDTIGER's store $109.99 without a card (crossed-out $129.99) and $149.99 with a 128GB card (crossed-out $169.99), Nov 14, 2026",
    "good": "under $110",
    "great": "$100 or less",
-   "verdict": "wait",
-   "why": "The crossed-out $149.98 is not the real street price; $100 or less is where it is a good buy.",
-   "sources": "Android Authority, Jul 28, 2026; redtigercam.com, Oct 2026",
-   "checked": "2026-10-17",
+   "verdict": "ok",
+   "why": "REDTIGER's own store cut the camera without a card from $129.99 to $109.99, which is just inside our good line. No Black Friday 2026 price is announced; wait only if you want $100 or less.",
+   "sources": "redtigercam.com, Nov 14, 2026; Android Authority, Jul 28, 2026",
+   "checked": "2026-11-14",
    "stores": [
     {
      "name": "REDTIGER",
      "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
-     "seen": "$129.99 list, Oct 2026"
+     "seen": "$109.99 without card, Nov 14, 2026"
     }
    ]
   },
@@ -488,14 +488,19 @@
     "kong"
    ],
    "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
-   "street": "$9.96 at Chewy, from $7.96 at Walmart (Sept 2026)",
+   "street": "KONG's own list price for the Large is $13.96 (kongcompany.com, Nov 14, 2026); $9.96 at Chewy (Sept 2026). Chewy and Walmart pages did not load for us on Nov 14",
    "good": "under $12",
    "great": "under $10",
    "verdict": "buy",
-   "why": "It is cheap all year; size matters more than price.",
-   "sources": "Chewy and Walmart, Sept 2026",
-   "checked": "2026-10-17",
+   "why": "It is cheap all year; size matters more than price. Check that a low price is for the Large: KONG's list for the X-Small is $7.96.",
+   "sources": "kongcompany.com, Nov 14, 2026; Chewy, Sept 2026",
+   "checked": "2026-11-14",
    "stores": [
+    {
+     "name": "KONG",
+     "url": "https://kongcompany.com/kong-classic",
+     "seen": "$13.96 list (Large), Nov 14, 2026"
+    },
     {
      "name": "Chewy",
      "url": "https://www.chewy.com/kong-classic-dog-toy/dp/38485"
@@ -541,22 +546,23 @@
     "lr4"
    ],
    "model": "Litter-Robot 4 (the EVO is a cheaper, different machine).",
-   "street": "$699 direct at litter-robot.com all of 2026",
+   "street": "$699 direct at litter-robot.com and $699.99 at PetSmart (both Nov 14, 2026)",
    "good": "$699 new",
    "great": "$599 reconditioned, direct",
    "verdict": "ok",
-   "why": "The price held at $699 all year; Costco's $699.99 bundle adds extras. Reconditioned units save $100 with a shorter warranty.",
-   "sources": "litter-robot.com, 2026; Costco, July 2026",
-   "checked": "2026-10-17",
+   "why": "The price held at $699 all year, and Whisker's Black Friday and holiday offers (live Nov 14, 2026) leave the robot alone at $699: the $150 off is on the Starter and LitterHopper bundles ($813 and $862). Buy a bundle only if you want the extras. Reconditioned units cost less with a shorter warranty.",
+   "sources": "litter-robot.com product and holiday-offers pages, Nov 14, 2026; PetSmart, Nov 14, 2026; Costco, July 2026",
+   "checked": "2026-11-14",
    "stores": [
     {
      "name": "Whisker (Litter-Robot)",
      "url": "https://www.litter-robot.com/litter-robot-4.html",
-     "seen": "$699 list, Oct 2026"
+     "seen": "$699, Nov 14, 2026"
     },
     {
      "name": "PetSmart",
-     "url": "https://www.petsmart.com/cat/litter-and-waste-disposal/litter-boxes/litter-robot-4-automatic-self-cleaning-cat-litter-box-by-whisker-80271.html"
+     "url": "https://www.petsmart.com/cat/litter-and-waste-disposal/litter-boxes/litter-robot-4-automatic-self-cleaning-cat-litter-box-by-whisker-80271.html",
+     "seen": "$699.99, Nov 14, 2026"
     },
     {
      "name": "Chewy",
@@ -2037,6 +2043,7 @@
   }
  ],
  "changelog": [
+  "Week of Nov 14: five oldest entries re-checked. Roborock Saros 10R: new units are gone from Roborock's US store (refurbished $899.99, sold out), verdict now ok. Dreame X50 Ultra: $999.99 at Dreame, still $200 above last year's Black Friday price, wait. REDTIGER F7NP: $109.99 at REDTIGER's store (was $129.99), verdict now ok. KONG Classic Large: KONG's list $13.96; Chewy and Walmart did not load, verdict stays buy. Litter-Robot 4: still $699 direct and $699.99 at PetSmart; Whisker's holiday offers take $150 off bundles only, verdict stays ok. No CPSC recall found for any of the five.",
   "Nov 13, 2026: new entries for six e-readers (Kindle Paperwhite, Kindle, Colorsoft, Paperwhite Signature, Kobo Clara BW, Kobo Libra Colour) for the e-reader guide. Target and Kobo's store showed list prices with no sale; Best Buy pages did not load. Amazon's Black Friday Week runs Nov 19 to 30; Kobo left its Clara models out of Black Friday in 2024 and 2025. Verdicts: wait on the Kindles and the Libra Colour, ok on the Clara BW.",
   "Nov 12, 2026: Beckham Hotel Collection pillows re-checked for the improve day. Beckham's own store $69.99 (list $89.99); Walmart queen 2-pack out of stock; no Black Friday 2026 price announced. Lines stay good under $45, great about $35; verdict now wait for Black Friday (Nov 27) or Cyber Monday (Nov 30).",
   "Nov 11, 2026: new entries for six video doorbells (no-subscription guide): eufy E340 $119.99 at Target, wait for eufy's Nov 19 to 30 sale; Ring Battery Doorbell 2K $39.99 at ring.com and Target, buy; Reolink PoE, Aqara G410 and Nest Doorbell (battery) wait; Tapo D225 ok at $99.99.",
