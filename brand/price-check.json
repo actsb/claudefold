@@ -580,22 +580,23 @@
     "neo185"
    ],
    "model": "NEO 185 dual nozzle (the 185 Plus costs a few dollars more; the NEO 120 has one nozzle).",
-   "street": "$49.99 at LUXE's store (Oct 2026); Walmart $42.49 (undated)",
+   "street": "$49.99 at LUXE's store and at Target (Nov 15, 2026); Walmart $49.99 (search snippet, undated)",
    "good": "under $45",
    "great": "under $40",
    "verdict": "buy",
-   "why": "It sits near its floor all year, so a wait saves only a few dollars.",
-   "sources": "LUXE store, Oct 2026; Walmart listing (undated)",
-   "checked": "2026-10-17",
+   "why": "It sits at $49.99 everywhere we looked and LUXE's holiday offers are bundles of Plus models only, so waiting for Black Friday saves a few dollars at most.",
+   "sources": "LUXE store and Target product pages, Nov 15, 2026; Walmart listing (search snippet, undated)",
+   "checked": "2026-11-15",
    "stores": [
     {
      "name": "LUXE Bidet",
      "url": "https://luxebidet.com/products/neo-185",
-     "seen": "$49.99 list, Oct 2026"
+     "seen": "$49.99, Nov 2026"
     },
     {
      "name": "Target",
-     "url": "https://www.target.com/p/neo-185-mechanical-bidet-attachment-blue-luxe-bidet/-/A-80202389"
+     "url": "https://www.target.com/p/neo-185-mechanical-bidet-attachment-blue-luxe-bidet/-/A-80202389",
+     "seen": "$49.99, Nov 2026"
     },
     {
      "name": "The Home Depot",
@@ -2043,6 +2044,7 @@
   }
  ],
  "changelog": [
+  "Nov 15, 2026: LUXE NEO 185 re-checked for the improve day. $49.99 at LUXE's store and at Target, no Black Friday price on single units (LUXE's holiday offers are NEO Plus bundles), no CPSC bidet recall found; lines stay good under $45, great under $40; verdict stays buy. Also noted: KOHLER marks the PureWash M100 discontinued on its October 2026 spec sheet, and TUSHY's early Black Friday sale is 15% off.",
   "Week of Nov 14: five oldest entries re-checked. Roborock Saros 10R: new units are gone from Roborock's US store (refurbished $899.99, sold out), verdict now ok. Dreame X50 Ultra: $999.99 at Dreame, still $200 above last year's Black Friday price, wait. REDTIGER F7NP: $109.99 at REDTIGER's store (was $129.99), verdict now ok. KONG Classic Large: KONG's list $13.96; Chewy and Walmart did not load, verdict stays buy. Litter-Robot 4: still $699 direct and $699.99 at PetSmart; Whisker's holiday offers take $150 off bundles only, verdict stays ok. No CPSC recall found for any of the five.",
   "Nov 13, 2026: new entries for six e-readers (Kindle Paperwhite, Kindle, Colorsoft, Paperwhite Signature, Kobo Clara BW, Kobo Libra Colour) for the e-reader guide. Target and Kobo's store showed list prices with no sale; Best Buy pages did not load. Amazon's Black Friday Week runs Nov 19 to 30; Kobo left its Clara models out of Black Friday in 2024 and 2025. Verdicts: wait on the Kindles and the Libra Colour, ok on the Clara BW.",
   "Nov 12, 2026: Beckham Hotel Collection pillows re-checked for the improve day. Beckham's own store $69.99 (list $89.99); Walmart queen 2-pack out of stock; no Black Friday 2026 price announced. Lines stay good under $45, great about $35; verdict now wait for Black Friday (Nov 27) or Cyber Monday (Nov 30).",
