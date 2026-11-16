@@ -308,6 +308,12 @@ POSTS = {
         "slug_title": "Kindle vs Paperwhite vs Colorsoft vs Kobo 2026",
         "labels": ["E-Readers", "Kindle", "Gift Ideas", "Comparison", "Black Friday", "Amazon Finds"],
     },
+    "black-friday-vs-cyber-monday": {
+        "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+        "title": "Black Friday vs Cyber Monday 2026: Which Day to Buy Vacuums, Kitchen Appliances and Pet Supplies",
+        "slug_title": "Black Friday vs Cyber Monday 2026",
+        "labels": ["Black Friday", "Cyber Monday", "Deals", "Price Check", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

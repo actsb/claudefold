@@ -1,0 +1,26 @@
+{
+  "hero": "black-friday-vs-cyber-monday",
+  "title_size": 66,
+  "title": [
+    "which day to buy:",
+    "WRITE: line two",
+    "WRITE: line three"
+  ],
+  "subtitle": [
+    "WRITE: one sentence of what the guide answers,",
+    "wrapped at about fifty characters per line,",
+    "three lines at most."
+  ],
+  "footer": "Product of the day · Black Friday vs Cyber Monday by category · Verdict Picks",
+  "alt": "Black Friday vs Cyber Monday by category: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "pin": [
+    "WRITE: bullet one",
+    "WRITE: bullet two",
+    "WRITE: bullet three"
+  ],
+  "url": "https://acts39.blogspot.com/2026/11/black-friday-vs-cyber-monday-2026.html",
+  "style": "bright",
+  "products": [
+    "black-friday-vs-cyber-monday"
+  ]
+}
