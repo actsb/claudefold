@@ -3,7 +3,7 @@
 * **Title:** Black Friday vs Cyber Monday 2026: Which Day to Buy Vacuums, Kitchen Appliances and Pet Supplies
 * **Slug title (first publish):** Black Friday vs Cyber Monday 2026 → https://acts39.blogspot.com/2026/11/black-friday-vs-cyber-monday-2026.html
 * **Labels:** Black Friday, Cyber Monday, Deals, Price Check, Buying Guide, Amazon Finds
-* **Search description (≤150 chars):** WRITE
+* **Search description (≤150 chars):** Appliances and vacuums: Black Friday. Earbuds: Cyber Monday (Adobe). 2025 store prices, sale dates, price-match rules and lines for 11 picks.
 * **Format:** roundup (daily/README.md section 11; model: posts/2026-10-best-bidet-2026)
 * **Research:** research/daily-2026-11-16-black-friday-vs-cyber-monday-2026-which-day.md
-* **Status:** scaffolded 2026-11-16
+* **Status:** built 2026-11-16

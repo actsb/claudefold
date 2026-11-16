@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Black Friday vs Cyber Monday 2026: Which Day to Buy Vacuums, Kitchen Appliances and Pet Supplies
+https://acts39.blogspot.com/2026/11/black-friday-vs-cyber-monday-2026.html
+
+```text
+Appliances and vacuums: Black Friday. Earbuds: Cyber Monday (Adobe). 2025 store prices, sale dates, price-match rules and lines for 11 picks.
+```
+
 ## Kindle vs Paperwhite vs Colorsoft vs Kobo 2026: Which E-Reader, and What the AI Features Do
 https://acts39.blogspot.com/2026/11/kindle-vs-paperwhite-vs-colorsoft-vs.html
 

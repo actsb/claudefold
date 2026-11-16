@@ -2,82 +2,114 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The which day to buy in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "Which day? A five-step plan for Cyber Week",
+    "sub": "Works for every category in this guide",
+    "footer": "Sources: Adobe holiday forecast (Sept 28, 2026), store holiday calendars (Oct–Nov 2026), Target, Best Buy and Costco price-adjustment pages. Our synthesis.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Set the number",
+        "body": "Write a price for each item before the sale. Use our good and great lines, not the banner."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Match the day to the category",
+        "body": "Appliances and vacuums: Black Friday. Electronics and earbuds: Cyber Monday (Adobe)."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Buy early where it is protected",
+        "body": "Target matches its own lower price to Dec 24; Best Buy matches its own drops; Costco.com adjusts for 30 days."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Be careful at Walmart",
+        "body": "Walmart.com gives no adjustment after you buy, so buy there at the low, not before it."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Check the model number",
+        "body": "Retailer-only versions (a Shark IZ840HRW, a Little Green 3369) are not the model you compared."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Keep the receipt",
+        "body": "Holiday return windows run to mid or late January at Target and Best Buy."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Which day, by category",
+    "sub": "Adobe's forecast day, what last year showed, and our call for 2026",
+    "footer": "Sources: Adobe forecast (Sept 28, 2026) and 2025 results (Dec 2, 2025; Jan 7, 2026); Slickdeals threads and store pages dated in the guide. Our calls are judgment, not a promise.",
+    "columns": [
+      {
+        "head": "Category",
+        "w": 180
+      },
+      {
+        "head": "Adobe's best day",
+        "w": 260
+      },
+      {
+        "head": "What 2025 showed",
+        "w": 330
+      },
+      {
+        "head": "Our call",
+        "w": 330
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
+        "verdict": "win",
+        "cells": [
+          "Kitchen appliances",
+          "Black Friday (appliances, 18%)",
+          "Target's mixer was lowest on the Sunday",
+          "Black Friday weekend through Sunday"
+        ]
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "win",
+        "cells": [
+          "Vacuums",
+          "Black Friday (appliances)",
+          "Maker sales ran Nov 20 to Dec 1",
+          "Either day; check the maker store"
+        ]
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Pet supplies",
+          "No discount figure; pet sales +93%",
+          "Chewy ran gift cards; Costco cut LR4 in Dec",
+          "Stock up either day; big items: no rush"
+        ]
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Car gear",
+          "No figure",
+          "NOCO near $60 several times a year",
+          "Buy when it hits the line"
+        ]
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "verdict": "win",
+        "cells": [
+          "Earbuds",
+          "Cyber Monday (electronics, 30%)",
+          "AirPods low held across both days",
+          "Cyber Monday, or now if under the line"
+        ]
+      },
+      {
+        "verdict": "no",
+        "cells": [
+          "Apple store, Litter-Robot",
+          "Not discounted",
+          "Gift cards and bundles, not price cuts",
+          "Buy elsewhere, or when you need it"
+        ]
       }
     ]
   }

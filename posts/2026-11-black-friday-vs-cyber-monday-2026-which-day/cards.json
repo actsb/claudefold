@@ -1,34 +1,351 @@
 {
   "category": "generic",
-  "buy_title": "The exact which day to buy to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The three to act on: the mixer, the spot cleaner and the earbuds",
+  "buy_kicker": "Our top pick, and our last word",
+  "buy_total": "The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Our price lines come from US retailers other than Amazon on the dates named.",
   "cards": [
     {
-      "id": "black-friday-vs-cyber-monday",
+      "id": "kitchenaid-artisan",
       "category": "generic",
-      "name": "Black Friday vs Cyber Monday by category",
-      "short": "which day to buy",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+      "short": "KitchenAid Artisan",
+      "badge": "Kitchen · the clearest case for Cyber weekend",
+      "chip": "5 qt · tilt-head · 10 speeds",
       "art": {
-        "shape": "tile",
-        "label": "which day to buy"
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#1B2A41"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=black+friday&tag=verdictpicks-20",
+      "photo": {
+        "file": "brand/photos/kitchenaid-artisan-5-quart-tilt-head.jpg",
+        "kind": "brand",
+        "credit": "Photo: BenFrantzDale, CC BY-SA 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_KitchenAid_Artisan.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$349.99 at Target (regular $499.99) on Nov 16, 2026; $297.49 there with a 15% in-cart offer on Sunday, Nov 30, 2025 (Slickdeals). List $499.99.",
+      "buy_if": "you bake weekly and want the mixer that every attachment fits: $349.99 is already 30% off, and the Black Friday weekend has gone lower through stacked offers.",
+      "skip_if": "you only whip cream twice a year (a hand mixer does it), or you need a bigger bowl for heavy bread dough (look at a bowl-lift model).",
+      "owners": "Owners and repair shops say the nylon worm gear is the part that strips under heavy dough, by design, so the motor survives (Mr. Mixer); a Slickdeals owner said the tilt-head walks on the counter with stiff dough (July 2024).",
+      "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+5+quart+stand+mixer&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The Artisan Series 5-quart tilt-head, model KSM150 (KSM150PS plus a colour code), not the 4.5-quart Classic or the 3.5-quart Artisan Mini",
+        "check": "The model number starts KSM150; sold by KitchenAid, Amazon.com or a big-box store; a sale on one colour only is normal, so pick the colour after the price",
         "label": "See today's price"
       }
+    },
+    {
+      "id": "little-green",
+      "category": "generic",
+      "name": "Bissell Little Green (1400B)",
+      "short": "Bissell Little Green 1400B",
+      "badge": "Floor care · cheaper before the sale",
+      "chip": "Spray + suck · 48 oz tank · corded",
+      "art": {
+        "shape": "tile",
+        "label": "Bissell Little Green 1400B"
+      },
+      "price": "$129.99 at Bissell (Nov 16, 2026); Walmart about $110 (search snippet, Nov 2026) and $74.62 on Oct 7, 2026 (Slickdeals). Our line: under $90.",
+      "buy_if": "you clean pet accidents, kid spills and car seats: Walmart had it at $74.62 in October, so a Black Friday price under $90 is fine and $75 is as good as it has been.",
+      "skip_if": "you want to clean whole rooms of carpet (rent or buy an upright), or the deal is on a different model number (3369, 4064T, 2513W) you have not compared.",
+      "owners": "The common failure is a pump or nozzle that stops spraying, often from a clog (owner repair threads); fabric stays damp, so dry passes matter. See our full Little Green review.",
+      "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=verdictpicks-20",
+      "video": "pHWrhVtkYLA",
+      "video_title": "6 years with the Bissell Little Green — a long-term review",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Floor care",
+        "pick": "The Little Green 1400B, not the Mini (3369 or 4064T) or the ProHeat (2513W), which are different machines",
+        "check": "The model reads 1400B; sold by Bissell, Amazon.com or a big-box store; under $90 is our line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "x50",
+      "category": "generic",
+      "name": "Dreame X50 Ultra",
+      "short": "Dreame X50 Ultra",
+      "badge": "Robot vacuum · the maker's sale runs both days",
+      "chip": "20,000 Pa · lifting arm · auto-empty dock",
+      "art": {
+        "body": "#2B2B2B",
+        "rim": "#111",
+        "turret": true,
+        "camera": true,
+        "dock": "omni",
+        "accent": "#7FB3D5",
+        "mop": "pads"
+      },
+      "photo": {
+        "file": "brand/photos/dreame-x50-ultra.jpg",
+        "kind": "brand",
+        "credit": "Dreame press kit",
+        "source": "https://www.prnewswire.com/news-releases/dreame-technologys-x50-ultra-robot-vacuum-named-to-times-list-of-the-best-inventions-of-2025-302580023.html",
+        "terms": "https://www.prnewswire.com/news-releases/dreame-technologys-x50-ultra-robot-vacuum-named-to-times-list-of-the-best-inventions-of-2025-302580023.html",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      },
+      "price": "$999.99 at Dreame's store (list $1,599.99) and $1,199.99 at Target on Nov 16, 2026; the X50 Ultra Complete was $899.99 at Dreame the same day. Dreame ran it at $799.99 from Nov 20 to Dec 1, 2025.",
+      "buy_if": "you want a mopping robot that climbs low thresholds and can wait: last year's sale price was $200 below today's, and Dreame's sale covered Black Friday and Cyber Monday alike.",
+      "skip_if": "your home has many tall thresholds or rugs with fringe, or you would rather pay less for a refurbished unit (eBay listings went far lower after Cyber Monday 2025).",
+      "owners": "Owners on Galaxus and ProductReview reported dock and mop problems within weeks to months (undated reports); Vacuum Wars lists early navigation bugs and pads that fall off (Sept 2026).",
+      "cta": "https://www.amazon.com/s?k=Dreame+X50+Ultra&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": ""
+    },
+    {
+      "id": "instant-pot-duo",
+      "category": "generic",
+      "name": "Instant Pot Duo 6-Quart 7-in-1",
+      "short": "Instant Pot Duo",
+      "badge": "Kitchen · a Black Friday-week doorbuster, often earlier",
+      "chip": "6 qt · 7-in-1 · pressure + slow",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A4453",
+        "accent": "#C8102E"
+      },
+      "photo": {
+        "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+        "kind": "brand",
+        "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "List $109.99 at Instant Pot (Oct 21, 2026); a 6-quart 9-in-1 bundle was $59.99 at Target on Nov 20, 2025, a week before Black Friday (Slickdeals).",
+      "buy_if": "you want one pot for beans, stock and rice and you can buy at $60–$80: that price has shown up in the week before Black Friday, not only on the day.",
+      "skip_if": "you mostly air-fry or want a quieter release (the Duo Plus or a Rio), or the sale price is above $80.",
+      "owners": "The common failures are a stretched or mis-seated sealing ring and a stuck float valve, both cheap to fix (owner troubleshooting guides); see our Instant Pot review for the full list.",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20",
+      "video": "-1eGvX4LiMY",
+      "video_title": "Instant Pot DUO 6QT Full Review & First Look",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL."
+    },
+    {
+      "id": "ninja-af101",
+      "category": "generic",
+      "name": "Ninja AF101 4-Quart Air Fryer",
+      "short": "Ninja AF101",
+      "badge": "Kitchen · small appliance, watch both days",
+      "chip": "4 qt · basket · 105–400°F",
+      "art": {
+        "shape": "tile",
+        "label": "Ninja AF101"
+      },
+      "price": "$89.99 at Best Buy, Save $30 from $119.99 (search snippet, Nov 2026); list $119.99. Target's page for it no longer loads.",
+      "buy_if": "you cook for one or two and want a simple basket fryer at under $80, a price Black Friday-week Ninja promotions have reached at Home Depot (32% off Ninja kitchen, 2025).",
+      "skip_if": "you cook for four (get a 6-quart or a dual basket), or you want a basket coating with a warranty: owner reports say the coating can flake, and wear parts may be excluded.",
+      "owners": "The recurring complaint in owner posts and guides is the basket coating flaking within months; the reports are thin and secondary, so we weigh them lightly.",
+      "cta": "https://www.amazon.com/s?k=Ninja+AF101+air+fryer&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": ""
+    },
+    {
+      "id": "lr4",
+      "category": "generic",
+      "name": "Whisker Litter-Robot 4",
+      "short": "Litter-Robot 4",
+      "badge": "Pets · the robot barely moves; bundles do",
+      "chip": "Self-cleaning · app · sensor-based",
+      "art": {
+        "body": "#F2F2EF",
+        "accent": "#1B2A41",
+        "trim": "#8A8F98"
+      },
+      "photo": {
+        "file": "brand/photos/whisker-litter-robot-4.jpg",
+        "kind": "brand",
+        "credit": "Whisker press kit",
+        "source": "https://www.whisker.com/newsroom",
+        "terms": "https://www.whisker.com/newsroom",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-10-23"
+      },
+      "price": "$699 at Whisker and Chewy on Nov 16, 2026 (Chewy from a search snippet); Whisker's holiday deal is $150 off bundles only. Costco had the LR4 + LitterHopper bundle at $699 on Dec 9, 2025, after Cyber Monday (Slickdeals).",
+      "buy_if": "you have two or more cats and want to stop scooping: buy when you need it, because neither Black Friday nor Cyber Monday moved the robot's own price in 2025 or so far in 2026.",
+      "skip_if": "you have one cat and a tight budget, or a kitten under 3 pounds (Whisker's sensor needs the weight).",
+      "owners": "Sensor faults are the dominant owner complaint (Slickdeals owner at about 8 months, replaced under warranty; RobotShop forum); owners with several cats call it worth the money.",
+      "cta": "https://www.amazon.com/s?k=Litter-Robot+4+self-cleaning+litter+box&tag=verdictpicks-20",
+      "video": "2IHJJ6Jaz_o",
+      "video_title": "Litter-Robot 4: still the best after three years? (One Man Five Cats)",
+      "video_channel": "One Man Five Cats · long-term review",
+      "video_why": "Three years and five cats after buying it, a cat-tech channel asks whether the Litter-Robot 4 is still the one to buy — the long-term view most reviews can’t give, and the question to settle before spending $699."
+    },
+    {
+      "id": "kong",
+      "category": "generic",
+      "name": "KONG Classic (natural rubber, made in the USA)",
+      "short": "KONG Classic",
+      "badge": "Pets · never really on sale",
+      "chip": "Natural rubber · stuffable · Large",
+      "art": {
+        "body": "#C8102E",
+        "accent": "#F4B942"
+      },
+      "photo": {
+        "file": "brand/photos/kong-classic.jpg",
+        "kind": "brand",
+        "credit": "Photo: Olgierd, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:KONG_-_the_perfect_toy_for_a_dog_(50751011862).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$13.99 at Target and PetSmart (Nov 16, 2026); $13.96 at Chewy (search snippet). A Black Friday 2025 cut from $13.99 to $11.96 was mocked on Slickdeals as trivial.",
+      "buy_if": "your dog needs something to chew this week: the price moves by about two dollars, so the right size matters more than the day.",
+      "skip_if": "your dog destroys rubber (the black Extreme exists for that), or you are buying it just because it is in a Black Friday banner.",
+      "owners": "Owners keep them for years and stuff them with frozen food to make them last; we found no common failure pattern in owner reports.",
+      "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+large+natural+rubber&tag=verdictpicks-20",
+      "video": "3tCjekqSC3M",
+      "video_title": "5 stuffed KONG recipes: how to stuff a KONG dog toy",
+      "video_channel": "YouTube how-to",
+      "video_why": "Five fillings, easy to hard. The stuffing is the product; an empty KONG is a red doorstop, and the freezer is where the twenty minutes come from."
+    },
+    {
+      "id": "noco-gb40",
+      "category": "generic",
+      "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+      "short": "NOCO GB40",
+      "badge": "Car · deals come all year",
+      "chip": "1,000 A · 12 V · up to 6 L gas",
+      "art": {
+        "shape": "box",
+        "body": "#2F2F2F",
+        "accent": "#F08A24"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$99.95 list at NOCO, Home Depot and Walmart (search snippets, Nov 2026); NOCO's own site matched about $60 in late 2025, per a Slickdeals commenter, and Woot had it at $63.95 on Black Friday 2024.",
+      "buy_if": "you drive an older car or park outside in winter: deals near $60–$75 have come several times a year, so buy one when you see under $75, Black Friday or not.",
+      "skip_if": "you have a V8 truck or a diesel over 3 liters (the GB50 or GB70 is the safer size).",
+      "owners": "Owners report years of service; the failure stories involve a pack left uncharged in a car for two years (Expedition Portal), so top it up every few months.",
+      "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20",
+      "video": "ZhVpxYlyLto",
+      "video_title": "How to jump start using your NOCO Boost GB40",
+      "video_channel": "Channel not confirmed",
+      "video_why": "The three-step jump-start routine, shown on a real car; the title came from a search-result URL."
+    },
+    {
+      "id": "redtiger-f7np",
+      "category": "generic",
+      "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+      "short": "REDTIGER F7NP",
+      "badge": "Car · the maker's store cut it before the sale",
+      "chip": "4K front · rear camera · Wi-Fi app",
+      "art": {
+        "shape": "tile",
+        "label": "REDTIGER F7NP"
+      },
+      "price": "$109.99 at REDTIGER's store without a card (crossed-out $129.99) on Nov 16, 2026; Walmart $129.99 with a 128GB card (search snippet). Refurbished units were $60.79 on REDTIGER's eBay store on Dec 23, 2025.",
+      "buy_if": "you want front and rear video for under $110 and do not mind a slow 2.4 GHz app: the maker's price already sits on our line.",
+      "skip_if": "you want a camera with frequent firmware updates and well-known support (owners on DashCamTalk and Team-BHP report thin support).",
+      "owners": "A handful of owners on Team-BHP and DashCamTalk report power cycling, GPS and won't-power-on failures, and few firmware updates.",
+      "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+4K+dash+cam+front+rear&tag=verdictpicks-20",
+      "video": "zIEPnJMKCjQ",
+      "video_title": "REDTIGER F7NP Dual Dash Cam Review & Driving Video",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A driving test of the exact F7NP; the title came from a search-result URL."
+    },
+    {
+      "id": "pro3",
+      "category": "generic",
+      "name": "Apple AirPods Pro 3",
+      "short": "Apple AirPods Pro 3",
+      "badge": "Earbuds · Cyber Monday is Adobe's day, but 2026 prices already beat last year's",
+      "chip": "ANC · heart rate · USB-C",
+      "art": {
+        "style": "stem",
+        "case": "#F4F4F4",
+        "lid": "#E4E4E4",
+        "bud": "#FAFAFA",
+        "accent": "#222"
+      },
+      "photo": {
+        "file": "brand/photos/apple-airpods-pro-3.jpg",
+        "kind": "brand",
+        "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$179.99 at Target (regular $249.99) on Nov 16, 2026; $199.99 at Best Buy (search snippet). The Black Friday 2025 low was $219.99, and it held through Cyber Monday (9to5Toys, Dec 10, 2025). Apple's store stays at $249.",
+      "buy_if": "you use an iPhone and want noise cancelling: $179.99 is $40 under last year's holiday low, so there is little reason to wait for a particular day.",
+      "skip_if": "you use Android (Sony or Pixel Buds fit better), or the buds already slip out of your ears (some owners report fit trouble in Apple's community).",
+      "owners": "MacRumors reported static or hiss with noise cancelling on and no audio for some owners (Oct 29, 2025), with Apple exchanging units; fit complaints appear in Apple Community threads.",
+      "cta": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Earbuds",
+        "pick": "AirPods Pro 3 (the 2025 model with heart-rate sensing), not AirPods Pro 2 or AirPods 4",
+        "check": "Sold by Amazon.com or Apple; the box says AirPods Pro 3; at or under $180 is our line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "xm6",
+      "category": "generic",
+      "name": "Sony WF-1000XM6",
+      "short": "Sony WF-1000XM6",
+      "badge": "Earbuds · first holiday season, expect the low on the big days",
+      "chip": "ANC · LDAC · 8 h battery",
+      "art": {
+        "shape": "tile",
+        "label": "Sony WF-1000XM6"
+      },
+      "price": "$299.99 at Target and Best Buy (regular $329.99; Best Buy from a search snippet) on Nov 16, 2026. Sony's own store with an Amex offer came to $249.99 in April 2026 (Slickdeals).",
+      "buy_if": "you use Android and want the strongest noise cancelling in a small bud, at $280 or less: this is its first Black Friday, so Cyber Monday's electronics discounts are the likely low.",
+      "skip_if": "you use an iPhone (AirPods Pro 3 cost less and pair better), or foam tips do not stay in your ears.",
+      "owners": "Engadget's review and reports on Best Buy's page mention an unstable fit with the foam tips and a hinge that feels cheap; we could not open those Best Buy pages to confirm.",
+      "cta": "https://www.amazon.com/s?k=Sony+WF-1000XM6&tag=verdictpicks-20",
+      "video": "S0cAb2b1hss",
+      "video_title": "Sony WF-1000XM6 review",
+      "video_channel": "",
+      "video_why": ""
     }
   ]
 }

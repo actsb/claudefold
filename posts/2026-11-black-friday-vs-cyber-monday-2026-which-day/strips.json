@@ -1,14 +1,14 @@
 {
   "strips": [
     {
-      "id": "in-real-life",
-      "card": "black-friday-vs-cyber-monday",
-      "title": "A day with the which day to buy — in real life",
+      "id": "two-days",
+      "card": "kitchenaid-artisan",
+      "title": "Black Friday or Cyber Monday — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Now — the numbers",
+          "text": "Write one price per item. The mixer under $300, the earbuds under $180. A number beats a date.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Nov 27 — appliances",
+          "text": "Mixer, spot cleaner, air fryer: check Black Friday first. Buy at or under the number."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The trap",
+          "text": "The robot vacuum costs more than last year's sale. The cat box never moves. Skip the banner."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Nov 30 — gadgets",
+          "text": "Earbuds and electronics: Cyber Monday. Then keep every receipt until January.",
           "host": {
             "pose": "thumbsup"
           }

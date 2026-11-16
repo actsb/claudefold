@@ -272,18 +272,53 @@
     "x50"
    ],
    "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
-   "street": "List $1,599.99; Dreame's store $999.99 (Nov 14, 2026). The X50 Ultra Complete was $899.99 there the same day (list $1,699.99)",
+   "street": "List $1,599.99; Dreame's store $999.99 and Target $1,199.99 (Nov 16, 2026). The X50 Ultra Complete was $899.99 at Dreame the same day",
    "good": "under $850",
    "great": "$800 or less",
    "verdict": "wait",
    "why": "Dreame's store ran it at $799.99 (50% off) from November 20 to December 1, 2025. On Nov 14, 2026 its \"Black Friday Prices Early\" price was $999.99, $200 above that, and the Complete bundle was cheaper than the plain robot. Wait for under $850.",
-   "sources": "Dreame store, Nov 14, 2026; Dreame Black Friday 2025 post (search snippet)",
-   "checked": "2026-11-14",
+   "sources": "Dreame store and Target, Nov 16, 2026; Dreame Black Friday 2025 post (search snippet)",
+   "checked": "2026-11-16",
    "stores": [
     {
      "name": "Dreame",
      "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
      "seen": "$999.99 (list $1,599.99), Nov 14, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/dreame-x50-ultra-robot-vacuum-black/-/A-95002753",
+     "seen": "$1,199.99, Nov 16, 2026"
+    }
+   ]
+  },
+  {
+   "key": "bissell-little-green-nov-2026",
+   "category": "cleaning",
+   "name": "Bissell Little Green 1400B (Nov 2026 re-check)",
+   "guide": "black-friday-vs-cyber-monday",
+   "card": [
+    "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "little-green"
+   ],
+   "model": "Little Green 1400B (not the Mini 3369 or 4064T, or the ProHeat 2513W).",
+   "street": "$129.99 at Bissell (Nov 16, 2026); Walmart about $110 (search snippet, Nov 2026) and $74.62 (Oct 7, 2026)",
+   "good": "under $90",
+   "great": "about $75",
+   "verdict": "wait",
+   "why": "Today's prices are above our good line, and Walmart had it at $74.62 in October, so a Black Friday week price under $90 is likely. Walmart gives no price adjustment after you buy, so buy there at the low, not before it.",
+   "sources": "bissell.com, Nov 16, 2026; Walmart search snippet, Nov 2026; Slickdeals, Oct 7, 2026",
+   "checked": "2026-11-16",
+   "stores": [
+    {
+     "name": "BISSELL",
+     "url": "https://www.bissell.com/en-us/product/little-green-portable-carpet-upholstery-cleaner-1400B.html",
+     "seen": "$129.99, Nov 16, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Bissell-Multi-Purpose-Portable-Carpet-and-Upholstery-Cleaner-1400B-Green/436861322",
+     "seen": "about $110, Nov 2026"
     }
    ]
   },
@@ -488,13 +523,13 @@
     "kong"
    ],
    "model": "Classic red KONG, Large for 30–65 lb dogs (black is the Extreme).",
-   "street": "KONG's own list price for the Large is $13.96 (kongcompany.com, Nov 14, 2026); $9.96 at Chewy (Sept 2026). Chewy and Walmart pages did not load for us on Nov 14",
+   "street": "$13.99 at Target and PetSmart (Nov 16, 2026); $13.96 at Chewy (search snippet); KONG's list $13.96",
    "good": "under $12",
    "great": "under $10",
    "verdict": "buy",
    "why": "It is cheap all year; size matters more than price. Check that a low price is for the Large: KONG's list for the X-Small is $7.96.",
-   "sources": "kongcompany.com, Nov 14, 2026; Chewy, Sept 2026",
-   "checked": "2026-11-14",
+   "sources": "Target and PetSmart, Nov 16, 2026; Chewy search snippet; kongcompany.com, Nov 14, 2026",
+   "checked": "2026-11-16",
    "stores": [
     {
      "name": "KONG",
@@ -506,8 +541,9 @@
      "url": "https://www.chewy.com/kong-classic-dog-toy/dp/38485"
     },
     {
-     "name": "Walmart",
-     "url": "https://www.walmart.com/ip/Kong-Classic-Dog-Toy-Large-Red/19629270"
+     "name": "Target",
+     "url": "https://www.target.com/p/kong-classic-chew-toy-l/-/A-11065983",
+     "seen": "$13.99, Nov 16, 2026"
     }
    ]
   },
@@ -680,14 +716,19 @@
     "xm6"
    ],
    "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
-   "street": "List $329.99",
+   "street": "List $329.99; $299.99 at Target and Best Buy (Best Buy from a search snippet), Nov 16, 2026",
    "good": "under $280",
    "great": "$260 or less",
    "verdict": "wait",
-   "why": "The best discount so far was about 22% off list (Oct 5, 2026); a first Black Friday usually matches or beats it.",
-   "sources": "SoundGuys, Oct 5, 2026",
-   "checked": "2026-10-17",
+   "why": "Target and Best Buy took $30 off (9%) on Nov 16, 2026, short of our line. It is its first Black Friday, and Adobe expects electronics to bottom out on Cyber Monday (30% off in its Sept 28, 2026 forecast): wait.",
+   "sources": "Target, Nov 16, 2026; Best Buy search snippet; Adobe forecast, Sept 28, 2026; SoundGuys, Oct 5, 2026",
+   "checked": "2026-11-16",
    "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/sony-wf1000xm6-s/-/A-95009025",
+     "seen": "$299.99, Nov 16, 2026"
+    },
     {
      "name": "Best Buy",
      "url": "https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/J7XSRH5W6P"
@@ -860,6 +901,41 @@
      "name": "ThermoWorks",
      "url": "https://www.thermoworks.com/products/thermapen-one",
      "seen": "$115 list, Oct 2026"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-artisan-nov-2026",
+   "category": "kitchen",
+   "name": "KitchenAid Artisan 5-Quart Stand Mixer (Nov 2026 re-check)",
+   "guide": "black-friday-vs-cyber-monday",
+   "card": [
+    "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "kitchenaid-artisan"
+   ],
+   "model": "Artisan Series 5-quart tilt-head, KSM150 (not the 4.5-quart Classic or the Artisan Mini).",
+   "street": "List $499.99; $349.99 at Target (Nov 16, 2026); Walmart $369.99 (search snippet, Nov 2026)",
+   "good": "under $350",
+   "great": "under $300",
+   "verdict": "wait",
+   "why": "Target's $349.99 sits on our good line. Over the 2025 Black Friday weekend Target took 15% more off in the cart, which brought it to $297.49 on Sunday, Nov 30 (Slickdeals), and Kohl's buyers stacked Kohl's Cash. Wait for Thanksgiving weekend if you can; buy at $350 if you cannot.",
+   "sources": "Target, Nov 16, 2026; Walmart search snippet, Nov 2026; Slickdeals, Nov 30 and Dec 2, 2025",
+   "checked": "2026-11-16",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.KSM150PSOB.html",
+     "seen": "$499.99 list, Nov 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kitchenaid-artisan-series-5qt-tilt-head-stand-mixer-matte-black-ksm150/-/A-53021309",
+     "seen": "$349.99, Nov 16, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/KitchenAid-Artisan-Series-5-Quart-Tilt-Head-Stand-Mixer-White-KSM150PS/15173450",
+     "seen": "$369.99, Nov 2026"
     }
    ]
   },
@@ -2041,9 +2117,45 @@
      "url": "https://www.bestbuy.com/product/kobo-libra-colour-ereader-7-glare-free-color-e-ink-kaleido-3-display-dark-mode-option-waterproof-32gb-2024-white/JXSHPC3Q96/sku/6680803"
     }
    ]
+  },
+  {
+   "key": "airpods-pro-3-nov-2026",
+   "category": "tech",
+   "name": "Apple AirPods Pro 3 (Nov 2026 re-check)",
+   "guide": "black-friday-vs-cyber-monday",
+   "card": [
+    "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "pro3"
+   ],
+   "model": "AirPods Pro 3 (2025, heart-rate sensing), not AirPods Pro 2 or AirPods 4.",
+   "street": "List $249 at Apple; $179.99 at Target (Nov 16, 2026); $199.99 at Best Buy (search snippet, Nov 2026)",
+   "good": "under $190",
+   "great": "$170 or less",
+   "verdict": "buy",
+   "why": "$179.99 is $40 under the 2025 holiday low of $219.99, which held from Black Friday through Cyber Monday (9to5Toys). Macworld puts the all-time low at $169. Waiting for Cyber Monday might save $10; Target's holiday price match covers its own drops through Dec 24.",
+   "sources": "Target and apple.com, Nov 16, 2026; Best Buy search snippet; 9to5Toys, Dec 10, 2025; Macworld, Nov 14, 2026",
+   "checked": "2026-11-16",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+     "seen": "$249 list, Nov 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609",
+     "seen": "$179.99, Nov 16, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/apple-airpods-pro-3-wireless-active-noise-cancelling-earbuds-with-heart-rate-sensing-feature-white/JJGCQLYK5F",
+     "seen": "$199.99, Nov 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 16, 2026: three entries for the Black Friday vs Cyber Monday guide. KitchenAid Artisan: $349.99 at Target, wait for Thanksgiving weekend stacking (great line now under $300). Bissell Little Green 1400B: $129.99 at Bissell and about $110 at Walmart, above our line; wait. AirPods Pro 3: $179.99 at Target, $40 under last year's holiday low; buy. Also re-checked: Sony WF-1000XM6 $299.99 at Target (wait), Dreame X50 Ultra $1,199.99 at Target and $999.99 at Dreame (wait), KONG Classic Large $13.99 at Target and PetSmart (buy). No CPSC recall covers any of them.",
   "Nov 15, 2026: LUXE NEO 185 re-checked for the improve day. $49.99 at LUXE's store and at Target, no Black Friday price on single units (LUXE's holiday offers are NEO Plus bundles), no CPSC bidet recall found; lines stay good under $45, great under $40; verdict stays buy. Also noted: KOHLER marks the PureWash M100 discontinued on its October 2026 spec sheet, and TUSHY's early Black Friday sale is 15% off.",
   "Week of Nov 14: five oldest entries re-checked. Roborock Saros 10R: new units are gone from Roborock's US store (refurbished $899.99, sold out), verdict now ok. Dreame X50 Ultra: $999.99 at Dreame, still $200 above last year's Black Friday price, wait. REDTIGER F7NP: $109.99 at REDTIGER's store (was $129.99), verdict now ok. KONG Classic Large: KONG's list $13.96; Chewy and Walmart did not load, verdict stays buy. Litter-Robot 4: still $699 direct and $699.99 at PetSmart; Whisker's holiday offers take $150 off bundles only, verdict stays ok. No CPSC recall found for any of the five.",
   "Nov 13, 2026: new entries for six e-readers (Kindle Paperwhite, Kindle, Colorsoft, Paperwhite Signature, Kobo Clara BW, Kobo Libra Colour) for the e-reader guide. Target and Kobo's store showed list prices with no sale; Best Buy pages did not load. Amazon's Black Friday Week runs Nov 19 to 30; Kobo left its Clara models out of Black Friday in 2024 and 2025. Verdicts: wait on the Kindles and the Libra Colour, ok on the Clara BW.",
