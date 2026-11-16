@@ -6,4 +6,4 @@
 * **Search description (≤150 chars):** Appliances and vacuums: Black Friday. Earbuds: Cyber Monday (Adobe). 2025 store prices, sale dates, price-match rules and lines for 11 picks.
 * **Format:** roundup (daily/README.md section 11; model: posts/2026-10-best-bidet-2026)
 * **Research:** research/daily-2026-11-16-black-friday-vs-cyber-monday-2026-which-day.md
-* **Status:** built 2026-11-16
+* **Status:** published 2026-11-16 (live)
