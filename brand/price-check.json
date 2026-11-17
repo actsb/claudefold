@@ -45,13 +45,13 @@
     "instant-pot-duo"
    ],
    "model": "Duo 6-quart, model IP-DUO60 or 112-0170-01; not the Duo Plus or the 8-quart.",
-   "street": "List $109.99 at Instant Pot's store; no sale on the day (Oct 21, 2026)",
+   "street": "List $109.99 at Instant Pot's store; no discount on the day (Nov 17, 2026)",
    "good": "under $80",
-   "great": "$60 or less",
+   "great": "$70 or less",
    "verdict": "wait",
-   "why": "Black Friday is November 27. Reported 2025 sale depth was 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025) and 30%–40% in earlier years, so 30% off or better is the line.",
-   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Slickdeals comment (Mar 2025)",
-   "checked": "2026-10-21",
+   "why": "Black Friday is November 27 and Cyber Monday November 30. Instant Pot's store showed no discount on November 17, 2026, and the reported 2025 Black Friday cut was about 36% off for the Duo 6-quart (Bob Vila, Nov 28, 2025), about $70 against the list.",
+   "sources": "Instant Pot store product page, fetched Nov 17, 2026; Bob Vila Black Friday 2025 deals (Nov 28, 2025); Digital Trends (Oct 2025)",
+   "checked": "2026-11-17",
    "stores": [
     {
      "name": "Instant Pot",
@@ -2155,6 +2155,7 @@
   }
  ],
  "changelog": [
+  "Nov 17, 2026: Instant Pot Duo 6-quart re-checked: $109.99 at Instant Pot's store with no discount; Walmart's and Target's pages did not load. The great line moves to $70 or less (last year's Black Friday depth, about 36% off); verdict stays wait for Black Friday Nov 27 / Cyber Monday Nov 30.",
   "Nov 16, 2026: three entries for the Black Friday vs Cyber Monday guide. KitchenAid Artisan: $349.99 at Target, wait for Thanksgiving weekend stacking (great line now under $300). Bissell Little Green 1400B: $129.99 at Bissell and about $110 at Walmart, above our line; wait. AirPods Pro 3: $179.99 at Target, $40 under last year's holiday low; buy. Also re-checked: Sony WF-1000XM6 $299.99 at Target (wait), Dreame X50 Ultra $1,199.99 at Target and $999.99 at Dreame (wait), KONG Classic Large $13.99 at Target and PetSmart (buy). No CPSC recall covers any of them.",
   "Nov 15, 2026: LUXE NEO 185 re-checked for the improve day. $49.99 at LUXE's store and at Target, no Black Friday price on single units (LUXE's holiday offers are NEO Plus bundles), no CPSC bidet recall found; lines stay good under $45, great under $40; verdict stays buy. Also noted: KOHLER marks the PureWash M100 discontinued on its October 2026 spec sheet, and TUSHY's early Black Friday sale is 15% off.",
   "Week of Nov 14: five oldest entries re-checked. Roborock Saros 10R: new units are gone from Roborock's US store (refurbished $899.99, sold out), verdict now ok. Dreame X50 Ultra: $999.99 at Dreame, still $200 above last year's Black Friday price, wait. REDTIGER F7NP: $109.99 at REDTIGER's store (was $129.99), verdict now ok. KONG Classic Large: KONG's list $13.96; Chewy and Walmart did not load, verdict stays buy. Litter-Robot 4: still $699 direct and $699.99 at PetSmart; Whisker's holiday offers take $150 off bundles only, verdict stays ok. No CPSC recall found for any of the five.",
