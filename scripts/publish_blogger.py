@@ -317,6 +317,7 @@ POSTS = {
     },
     "phone-ai-bundle-deals": {
         "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+        "url": "https://acts39.blogspot.com/2026/11/pixel-vs-galaxy-black-friday-ai-bundles.html",
         "title": "Pixel vs Galaxy Black Friday 2026: What the Included Google AI Pro Is Really Worth (and When to Skip It)",
         "slug_title": "Pixel vs Galaxy Black Friday AI Bundles 2026",
         "labels": ["Phones", "Black Friday", "AI", "Price Check", "Comparison", "Amazon Finds"],
