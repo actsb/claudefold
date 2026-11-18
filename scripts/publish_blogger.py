@@ -315,6 +315,12 @@ POSTS = {
         "slug_title": "Black Friday vs Cyber Monday 2026",
         "labels": ["Black Friday", "Cyber Monday", "Deals", "Price Check", "Buying Guide", "Amazon Finds"],
     },
+    "phone-ai-bundle-deals": {
+        "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+        "title": "Pixel vs Galaxy Black Friday 2026: What the Included Google AI Pro Is Really Worth (and When to Skip It)",
+        "slug_title": "Pixel vs Galaxy Black Friday AI Bundles 2026",
+        "labels": ["Phones", "Black Friday", "AI", "Price Check", "Comparison", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
