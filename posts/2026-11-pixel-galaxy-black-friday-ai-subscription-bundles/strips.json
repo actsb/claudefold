@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "phone-ai-bundle-deals",
-      "title": "A day with the phone + AI bundles — in real life",
+      "card": "pixel-11-pro",
+      "title": "Six months of AI Pro: in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Black Friday",
+          "text": "Read the AI Pro footnote, not the banner: some offers already closed.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Day one",
+          "text": "Activate the phone, redeem AI Pro in the Google One app, set a reminder."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Month five",
+          "text": "Decide: keep it at $19.99 a month, or drop to a storage-only plan."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Month six",
+          "text": "Cancelled in time? Access runs to the end of the trial, and nothing is billed.",
           "host": {
             "pose": "thumbsup"
           }

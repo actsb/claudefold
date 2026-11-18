@@ -1,32 +1,167 @@
 {
   "category": "generic",
-  "buy_title": "The exact phone + AI bundles to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The exact phones to order, and what to check before you pay",
+  "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Device prices in this guide come from the Google Store, Samsung.com and Best Buy as seen or reported between November 7 and 18, 2026; the buttons show today's price. Check that the listing is the unlocked US model, and read the AI Pro footnote on the maker's page before you count the bundle.",
   "cards": [
     {
-      "id": "phone-ai-bundle-deals",
+      "id": "pixel-11-pro",
       "category": "generic",
-      "name": "Black Friday phones with AI subscriptions included",
-      "short": "phone + AI bundles",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "Google Pixel 11 Pro (256 GB, unlocked)",
+      "short": "Pixel 11 Pro",
+      "badge": "Our top pick · 6 months of AI Pro included",
+      "chip": "Pro model · 7 years of updates · 6 mo Google AI Pro",
       "art": {
         "shape": "tile",
-        "label": "phone + AI bundles"
+        "label": "Pixel 11 Pro"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=Google+Pixel+10&tag=verdictpicks-20",
+      "price": "$699 at the Google Store from Nov 19, 2026 (list $1,099; 9to5Google, Nov 9), $100 under its late-October sale.",
+      "buy_if": "you want a Pixel and would use Gemini or 5 TB of storage for six months. At $699 it costs the same as the base Pixel 11 and adds the AI Pro months ($119.94 at Google's monthly rate).",
+      "skip_if": "you will not set a reminder to cancel: the trial renews at $19.99 a month. Or you want the best zoom and battery, where reviewers favour the Galaxy S26 Ultra.",
+      "owners": "Too new for long-term owner reports. Engadget scored it 9 of 10; Android Central called it harder to recommend and Tom's Guide \"good, but boring\". Its predecessor's year-one owners reported warm charging, sub-one-day battery on bad days and call drops (Digital Trends, Aug 9, 2026).",
+      "cta": "https://www.amazon.com/s?k=Google+Pixel+11+Pro+256GB+unlocked&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "tier": "Top pick",
+        "pick": "Pixel 11 Pro, 256 GB, unlocked (not the Pixel 11, which has no AI Pro offer, and not the Pixel 10 Pro, whose offer closed Oct 31, 2026).",
+        "check": "\"Pixel 11 Pro\" and \"unlocked\" in the title; sold by Google or a named retailer. The AI Pro months are redeemed in the Google One or Gemini app after activation, by Oct 31, 2027.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "galaxy-z-flip8",
+      "category": "generic",
+      "name": "Samsung Galaxy Z Flip8 (256 GB, unlocked)",
+      "short": "Galaxy Z Flip8",
+      "badge": "The Galaxy that includes AI Pro · foldable",
+      "chip": "Flip foldable · 6 mo Google AI Pro · Galaxy AI",
+      "art": {
+        "shape": "tile",
+        "label": "Galaxy Z Flip8"
+      },
+      "price": "List $1,199.99; $999.99 at Samsung.com on Nov 18, 2026 (Black Friday price, Nov 16 to 26). Samsung's offers page lists 6 months of Google AI Pro for Z Fold8, Fold8 Ultra and Flip8 buyers.",
+      "buy_if": "you want a Galaxy and the Google AI Pro months: the Flip8 is the cheapest current Z model with them, and $999.99 is within about $10 of the lowest price we found reported.",
+      "skip_if": "you want a phone that shrugs off sand and pockets full of keys: foldables are IP48 at best, and iFixit gave the sibling Fold8 a provisional 4 of 10 for repairability.",
+      "owners": "We found no post-launch owner complaint pattern for the Flip8 yet. Best Buy's listing showed 4.8 of 5 on 89 reviews in a search snapshot (Nov 18, 2026, date of the snapshot unknown). Fold8 owners report inner-screen cracks along the crease (iThinkDifferent, Oct 31, 2026).",
+      "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+Z+Flip8+256GB+unlocked&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Galaxy with AI Pro",
+        "pick": "Galaxy Z Flip8, 256 GB, unlocked US model.",
+        "check": "\"Z Flip8\" (not Flip7) and \"unlocked\" in the title; the AI Pro offer needs purchase and activation between Aug 1, 2026 and Aug 1, 2027.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "galaxy-s26-ultra",
+      "category": "generic",
+      "name": "Samsung Galaxy S26 Ultra (256 GB, unlocked)",
+      "short": "Galaxy S26 Ultra",
+      "badge": "Best hardware · no AI Pro included",
+      "chip": "S Pen · Privacy Display · 7 years of security updates",
+      "art": {
+        "shape": "tile",
+        "label": "Galaxy S26 Ultra"
+      },
+      "price": "$1,049.99 at Samsung.com on Nov 18, 2026 ($350 off, Nov 16 to 26), or $949.99 with Samsung's PAYPAL100 code (orders of $1,000+, through Nov 30). Best Buy sold it at $949.99 on Nov 7.",
+      "buy_if": "you want the best camera zoom, the S Pen and the phone Tom's Guide calls the best Android you can buy, and you do not care about a bundled subscription.",
+      "skip_if": "you are sensitive to screen flicker or fuzzy text: some owners report eye strain from the Privacy Display. And there is no Google AI Pro in the box; budget $19.99 a month if you want it.",
+      "owners": "Best Buy listings showed 4.8 to 4.9 of 5 on 203 and 629 reviews in search snapshots (seen Nov 18, 2026). Complaints: Privacy Display eye strain and dimness (Android Authority, Mar 2026) and a One UI 9 setup freeze (Android Central, Oct 23, 2026).",
+      "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+S26+Ultra+256GB+unlocked&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Best hardware",
+        "pick": "Galaxy S26 Ultra, 256 GB, unlocked US model.",
+        "check": "\"S26 Ultra\" and \"unlocked\" in the title; avoid \"AT&T only\" or refurbished carrier units if you want it unlocked.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "pixel-11",
+      "category": "generic",
+      "name": "Google Pixel 11 (256 GB, unlocked)",
+      "short": "Pixel 11",
+      "badge": "Skip at the same price as the Pro",
+      "chip": "Base model · 7 years of updates · no AI Pro offer",
+      "art": {
+        "shape": "tile",
+        "label": "Pixel 11"
+      },
+      "price": "List $899; $699 from November 19, 2026 at the Google Store (9to5Google, Nov 9, 2026), the same as its Oct 30 to Nov 8 price.",
+      "buy_if": "the Pixel 11 Pro is sold out in your colour, or a store cuts the Pixel 11 well below $699.",
+      "skip_if": "the Pixel 11 Pro is also $699: the Pro model adds six months of AI Pro for no extra money. Google gives the base Pixel 11 no AI Pro months at all.",
+      "owners": "Droid Life's review called it a great phone at a price that \"feels a little steep\" and asked why the base model gets no AI Pro (Aug 27, 2026). We found no long-term owner pattern yet.",
+      "cta": "https://www.amazon.com/s?k=Google+Pixel+11+256GB+unlocked&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Only below the Pro",
+        "pick": "Pixel 11, 256 GB, unlocked, only if it is clearly cheaper than the Pixel 11 Pro.",
+        "check": "Compare the Pixel 11 Pro price the same day; the base model comes with no Google AI Pro offer.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "galaxy-s26-fe",
+      "category": "generic",
+      "name": "Samsung Galaxy S26 FE (128 GB, unlocked)",
+      "short": "Galaxy S26 FE",
+      "badge": "Cheapest phone with AI Pro months",
+      "chip": "Mid-range · 7 OS upgrades · 6 mo Google AI Pro",
+      "art": {
+        "shape": "tile",
+        "label": "Galaxy S26 FE"
+      },
+      "price": "From $699.99 at Samsung.com before trade-in (read Nov 18, 2026); a $150 cut was reported on Nov 17 but we could not confirm it at a store other than Amazon. Samsung's page includes 6 months of Google AI Pro.",
+      "buy_if": "you want the AI Pro months on the cheapest current phone that has them, and a phone Samsung promises up to 7 OS upgrades.",
+      "skip_if": "you need long battery life or fast wired transfers: reviewers note middling battery and a drop to USB 2.0 (Expert Reviews called it \"competent but overpriced\").",
+      "owners": "Too new for long-term owner reports. Launch reviews flag battery life and the USB 2.0 port; the S25 FE before it ran warm in sustained gaming (Engadget, 2025).",
+      "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+S26+FE+unlocked&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Budget with AI Pro",
+        "pick": "Galaxy S26 FE, 128 GB, unlocked US model.",
+        "check": "\"S26 FE\" (not S25 FE) in the title; the AI Pro offer excludes anyone already on a discounted Pixel AI bundle.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "pixel-10-pro",
+      "category": "generic",
+      "name": "Google Pixel 10 Pro (128 GB, unlocked)",
+      "short": "Pixel 10 Pro",
+      "badge": "Watch out · its AI Pro year has closed",
+      "chip": "Last year's Pro · offer ended Oct 31, 2026",
+      "art": {
+        "shape": "tile",
+        "label": "Pixel 10 Pro"
+      },
+      "price": "From $999 on the Google Store page (Nov 18, 2026). Its official low was $699 (Google Store, July 13 to 26, 2026), the same as the Pixel 11 Pro's Black Friday price.",
+      "buy_if": "a store sells it under about $600 and you do not care about the AI Pro months, or you want a used or open-box Pro on a budget.",
+      "skip_if": "you are buying it for the \"year of Google AI Pro\": Google's own footnote says the offer had to be redeemed by Oct 31, 2026, even though the page still shows the banner.",
+      "owners": "Best Buy listings showed 4.6 to 4.7 of 5 on 130 to 185 reviews in search snapshots (seen Nov 18, 2026). One-year owners report warm, slow charging, a battery that does not always last the day, and dropped calls (Digital Trends, Aug 9, 2026).",
+      "cta": "https://www.amazon.com/s?k=Google+Pixel+10+Pro+128GB+unlocked&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Only on a deep cut",
+        "pick": "Pixel 10 Pro, 128 GB, unlocked, only well under the Pixel 11 Pro's price.",
+        "check": "Assume no AI Pro months come with it; a listing that promises \"a year of AI Pro\" is out of date.",
         "label": "See today's price"
       }
     }

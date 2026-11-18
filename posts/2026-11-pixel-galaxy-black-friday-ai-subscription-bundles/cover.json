@@ -1,26 +1,29 @@
 {
-  "hero": "phone-ai-bundle-deals",
-  "title_size": 66,
+  "hero": "pixel-11-pro",
+  "title_size": 60,
   "title": [
-    "phone + AI bundles:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Pixel vs Galaxy:",
+    "which Black Friday",
+    "phones include AI Pro"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Six months of Google AI Pro, worth $119.94",
+    "by Google's math, comes with only some phones.",
+    "Which ones, and when to skip the bundle."
   ],
-  "footer": "Product of the day · Black Friday phones with AI subscriptions included · Verdict Picks",
-  "alt": "Black Friday phones with AI subscriptions included: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Comparison · Phones and AI plans 2026 · Verdict Picks",
+  "alt": "Pixel vs Galaxy Black Friday 2026: which phones still include six months of Google AI Pro, what it is worth, and when to skip it (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "Pixel 11 Pro: $699 with 6 mo AI Pro",
+    "Pixel 10 Pro's AI Pro year closed Oct 31",
+    "S26 Ultra: best hardware, no AI Pro"
   ],
   "url": "https://acts39.blogspot.com/2026/11/pixel-vs-galaxy-black-friday-ai-bundles-2026.html",
   "style": "bright",
   "products": [
-    "phone-ai-bundle-deals"
+    "pixel-11-pro",
+    "galaxy-z-flip8",
+    "galaxy-s26-ultra",
+    "galaxy-s26-fe"
   ]
 }

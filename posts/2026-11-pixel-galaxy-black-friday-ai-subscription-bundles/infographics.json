@@ -1,84 +1,57 @@
 [
   {
-    "type": "steps",
-    "name": "howto",
-    "title": "The phone + AI bundles in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+    "type": "matrix",
+    "name": "bundles",
+    "title": "Which phones include Google AI Pro",
+    "sub": "Maker offer pages and Google's Pixel help page, read Nov 18, 2026",
+    "footer": "Sources: Google Store and support.google.com/pixelphone/answer/13529884; Samsung.com offer pages. Value at Google's $19.99 monthly rate. Offers change.",
+    "columns": [
+      {"head": "Phone", "w": 250},
+      {"head": "AI Pro included", "w": 230},
+      {"head": "Deadline", "w": 250},
+      {"head": "Black Friday price seen", "w": 290}
+    ],
+    "rows": [
+      {"verdict": "win", "cells": ["Pixel 11 Pro / Pro XL", "6 months ($119.94)", "Redeem by Oct 31, 2027", "$699 (11 Pro, from Nov 19)"]},
+      {"verdict": "win", "cells": ["Galaxy Z Flip8 / Fold8", "6 months ($119.94)", "Buy by Aug 1, 2027", "$999.99 (Flip8)"]},
+      {"verdict": "win", "cells": ["Galaxy S26 FE", "6 months ($119.94)", "Buy by Aug 1, 2027", "from $699.99"]},
+      {"verdict": "ok", "cells": ["Galaxy S26 Ultra", "None", "n/a", "$1,049.99"]},
+      {"verdict": "ok", "cells": ["Pixel 11", "None", "n/a", "$699 (from Nov 19)"]},
+      {"verdict": "no", "cells": ["Pixel 10 Pro", "None now (was 12 mo)", "Closed Oct 31, 2026", "from $999"]}
     ]
   },
   {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "type": "matrix",
+    "name": "cost",
+    "title": "Three years of the AI plan, by what you do",
+    "sub": "Google AI Pro at $19.99 a month or $199.99 a year after a 6-month trial",
+    "footer": "Our arithmetic from Google's plan prices (gemini.google/subscriptions, read Nov 18, 2026). 30 months after the trial; taxes excluded; prices can change.",
+    "columns": [
+      {"head": "After the free 6 months you…", "w": 330},
+      {"head": "Per month", "w": 170},
+      {"head": "30 more months", "w": 220},
+      {"head": "Verdict", "w": 300}
+    ],
     "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+      {"verdict": "win", "cells": ["cancel in time", "$0", "$0", "the bundle was free"]},
+      {"verdict": "win", "cells": ["drop to AI Plus (400 GB)", "$4.99", "$149.70", "enough for most"]},
+      {"verdict": "ok", "cells": ["keep AI Pro, pay yearly", "about $16.67", "about $500", "only if you use it"]},
+      {"verdict": "no", "cells": ["forget, pay monthly", "$19.99", "$599.70", "the costly default"]}
+    ]
+  },
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "Claim the AI Pro months without paying later",
+    "sub": "Do these in the first week, inside the return window",
+    "footer": "From Google's Pixel help page, Samsung's offer terms and Prof H Lab, read Nov 18, 2026. Menu names change with updates.",
+    "items": [
+      {"head": "Read the footnote", "body": "Check the redeem-by date on the maker's page. The Pixel 10 Pro banner outlived its Oct 31 deadline."},
+      {"head": "Check your Google One plan", "body": "Third-party billing, add-ons or a family plan you do not manage can block the offer."},
+      {"head": "Activate, then redeem", "body": "Open the Google One or Gemini app on the new phone and look for the offer."},
+      {"head": "Set a reminder", "body": "A card is required; the trial renews at $19.99 a month unless you cancel."},
+      {"head": "Cancel early if unsure", "body": "Google says access continues to the end of the trial after you cancel."},
+      {"head": "Keep the phone", "body": "Returning the phone may cancel the subscription; decide inside the window."}
     ]
   }
 ]

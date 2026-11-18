@@ -2152,9 +2152,190 @@
      "seen": "$199.99, Nov 2026"
     }
    ]
+  },
+  {
+   "key": "pixel-11-pro",
+   "category": "tech",
+   "name": "Google Pixel 11 Pro (256 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "pixel-11-pro"
+   ],
+   "model": "Pixel 11 Pro, 256 GB, unlocked (2026). Not the Pixel 11 (no AI Pro offer) or the Pixel 10 Pro (offer closed Oct 31, 2026).",
+   "street": "List $1,099 at the Google Store; $699 in Google's Black Friday sale from Nov 19, 2026 (9to5Google, Nov 9); $799 Oct 30 to Nov 8",
+   "good": "$799 or less",
+   "great": "$699 or less",
+   "verdict": "buy",
+   "why": "$699 is the lowest price we found, $400 off list, and includes 6 months of Google AI Pro ($119.94 at Google's monthly rate). The Google Store refunds the difference if a named retailer goes lower within the 15-day return window.",
+   "sources": "Google Store page and Pixel help page, Nov 18, 2026; 9to5Google, Nov 9, 2026; Droid Life, Oct 30, 2026",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/us/product/pixel_11_pro?hl=en-US",
+     "seen": "$1,099 list; $699 from Nov 19, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/google-pixel-11-pro-256gb-unlocked-obsidian/J39TC8239J/sku/6684520",
+     "seen": "$1,099 (search snippet, Nov 2026)"
+    }
+   ]
+  },
+  {
+   "key": "galaxy-z-flip8",
+   "category": "tech",
+   "name": "Samsung Galaxy Z Flip8 (256 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "galaxy-z-flip8"
+   ],
+   "model": "Galaxy Z Flip8, 256 GB, unlocked US model (2026). Not the Z Flip7.",
+   "street": "List $1,199.99; $999.99 at Samsung.com on Nov 18, 2026 (Black Friday price, Nov 16 to 26)",
+   "good": "$999.99 or less",
+   "great": "$949.99 or less",
+   "verdict": "ok",
+   "why": "$999.99 is within about $10 of the lowest price reported in October, and it is the cheapest current Z model with 6 months of Google AI Pro. Fair now; a lower price is possible but not likely before Nov 26.",
+   "sources": "Samsung.com buy and offers pages, Nov 18, 2026; 9to5Toys, Nov 9, 2026",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Samsung",
+     "url": "https://www.samsung.com/us/smartphones/galaxy-z-flip8/buy/",
+     "seen": "$999.99, Nov 18, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/samsung-galaxy-z-series/samsung-galaxy-z-flip8/pcmcat1781797291392.c?id=pcmcat1781797291392",
+     "seen": "$1,199.99 list (search snippet, Nov 2026)"
+    }
+   ]
+  },
+  {
+   "key": "galaxy-s26-ultra",
+   "category": "tech",
+   "name": "Samsung Galaxy S26 Ultra (256 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "galaxy-s26-ultra"
+   ],
+   "model": "Galaxy S26 Ultra, 256 GB, unlocked US model (2026). Avoid carrier-only refurbished units if you want it unlocked.",
+   "street": "$1,049.99 at Samsung.com on Nov 18, 2026 ($350 off, Nov 16 to 26); $949.99 with Samsung's PAYPAL100 code through Nov 30; $949.99 at Best Buy on Nov 7 (ended)",
+   "good": "$1,049.99 or less",
+   "great": "$949.99 or less",
+   "verdict": "buy",
+   "why": "$949.99 with the PayPal code matches the lowest price we found. No Google AI Pro included, so the value is the hardware.",
+   "sources": "Samsung.com buy and offers pages, Nov 18, 2026; Best Buy via deal coverage, Nov 7, 2026",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Samsung",
+     "url": "https://www.samsung.com/us/smartphones/galaxy-s26-ultra/buy/",
+     "seen": "$1,049.99, Nov 18, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/samsung-galaxy-s26-ultra-256gb-unlocked-black/JJGRF36YGZ",
+     "seen": "$949.99, Nov 7, 2026 (ended)"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/samsung-galaxy-s26-ultra-unlocked-android-smartphone-256gb-privacy-display-galaxy-ai-ai-camera-super-fast-charging-3-0-durable-battery-black/-/A-1010911937",
+     "seen": "listed, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "pixel-11",
+   "category": "tech",
+   "name": "Google Pixel 11 (256 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "pixel-11"
+   ],
+   "model": "Pixel 11, 256 GB, unlocked (2026). No Google AI Pro offer on this model.",
+   "street": "List $899 at the Google Store; $699 from Nov 19, 2026 (9to5Google, Nov 9); also $699 Oct 30 to Nov 8",
+   "good": "$749 or less",
+   "great": "$699 or less",
+   "verdict": "ok",
+   "why": "$699 repeats its earlier low. Fair, but the Pixel 11 Pro is the same $699 from Nov 19 and adds 6 months of AI Pro, so buy the Pixel 11 only if it is clearly cheaper.",
+   "sources": "Google Store page, Nov 18, 2026; 9to5Google, Nov 9, 2026",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/us/product/pixel_11?hl=en-US",
+     "seen": "$899 list; $699 from Nov 19, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/google-pixel-11-phones/google-pixel-11/pcmcat1781881469827.c?id=pcmcat1781881469827",
+     "seen": "$899 (search snippet, Nov 2026)"
+    }
+   ]
+  },
+  {
+   "key": "galaxy-s26-fe",
+   "category": "tech",
+   "name": "Samsung Galaxy S26 FE (128 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "galaxy-s26-fe"
+   ],
+   "model": "Galaxy S26 FE, 128 GB, unlocked US model (2026). Not the S25 FE.",
+   "street": "From $699.99 at Samsung.com before trade-in (Nov 18, 2026); a $150 cut was reported Nov 17 but not confirmed at a store we can cite",
+   "good": "$599 or less",
+   "great": "$549 or less",
+   "verdict": "wait",
+   "why": "The list price was not raised in October and a $150 cut has been reported, so a Samsung or Best Buy price near $549 is likely during the sale. Includes 6 months of Google AI Pro.",
+   "sources": "Samsung.com product page, Nov 18, 2026",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Samsung",
+     "url": "https://www.samsung.com/us/smartphones/galaxy-s26-fe/",
+     "seen": "from $699.99, Nov 18, 2026"
+    }
+   ]
+  },
+  {
+   "key": "pixel-10-pro",
+   "category": "tech",
+   "name": "Google Pixel 10 Pro (128 GB)",
+   "guide": "phone-ai-bundle-deals",
+   "card": [
+    "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "pixel-10-pro"
+   ],
+   "model": "Pixel 10 Pro, 128 GB, unlocked (2025). Its 12-month AI Pro offer had to be redeemed by Oct 31, 2026.",
+   "street": "From $999 on the Google Store page (Nov 18, 2026); official low $699 (Google Store, Jul 13 to 26, 2026); $749 on Black Friday 2025",
+   "good": "$649 or less",
+   "great": "$599 or less",
+   "verdict": "wait",
+   "why": "At $999 it costs more than the Pixel 11 Pro's $699 Black Friday price, and the AI Pro year no longer applies. Worth it only well under $650.",
+   "sources": "Google Store page and Pixel help page, Nov 18, 2026; Digital Trends and 9to5Google, Jul 13, 2026; 9to5Google, Nov 28, 2025",
+   "checked": "2026-11-18",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/config/pixel_10_pro?hl=en-US",
+     "seen": "from $999, Nov 18, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/google-pixel-10-pro-128gb-unlocked-obsidian/J39TC8J8GF",
+     "seen": "listed, Nov 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 18, 2026: six phones for the Pixel vs Galaxy AI bundle guide. Pixel 11 Pro: $699 at the Google Store from Nov 19 with 6 months of Google AI Pro; buy. Galaxy S26 Ultra: $1,049.99 at Samsung.com, $949.99 with PAYPAL100; buy. Z Flip8: $999.99 at Samsung.com; ok. Pixel 11: $699; ok, but the Pro is the better $699. S26 FE: from $699.99; wait. Pixel 10 Pro: from $999 and its AI Pro year closed Oct 31; wait. No CPSC recall covers any of them.",
   "Nov 17, 2026: Instant Pot Duo 6-quart re-checked: $109.99 at Instant Pot's store with no discount; Walmart's and Target's pages did not load. The great line moves to $70 or less (last year's Black Friday depth, about 36% off); verdict stays wait for Black Friday Nov 27 / Cyber Monday Nov 30.",
   "Nov 16, 2026: three entries for the Black Friday vs Cyber Monday guide. KitchenAid Artisan: $349.99 at Target, wait for Thanksgiving weekend stacking (great line now under $300). Bissell Little Green 1400B: $129.99 at Bissell and about $110 at Walmart, above our line; wait. AirPods Pro 3: $179.99 at Target, $40 under last year's holiday low; buy. Also re-checked: Sony WF-1000XM6 $299.99 at Target (wait), Dreame X50 Ultra $1,199.99 at Target and $999.99 at Dreame (wait), KONG Classic Large $13.99 at Target and PetSmart (buy). No CPSC recall covers any of them.",
   "Nov 15, 2026: LUXE NEO 185 re-checked for the improve day. $49.99 at LUXE's store and at Target, no Black Friday price on single units (LUXE's holiday offers are NEO Plus bundles), no CPSC bidet recall found; lines stay good under $45, great under $40; verdict stays buy. Also noted: KOHLER marks the PureWash M100 discontinued on its October 2026 spec sheet, and TUSHY's early Black Friday sale is 15% off.",
