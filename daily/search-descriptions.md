@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Pixel vs Galaxy Black Friday 2026: What the Included Google AI Pro Is Really Worth (and When to Skip It)
+https://acts39.blogspot.com/2026/11/pixel-vs-galaxy-black-friday-ai-bundles.html
+
+```text
+Which Pixel and Galaxy phones still include 6 months of Google AI Pro, the Pixel 10 Pro offer that closed Oct 31, 3-year costs and Black Friday lines.
+```
+
 ## Black Friday vs Cyber Monday 2026: Which Day to Buy Vacuums, Kitchen Appliances and Pet Supplies
 https://acts39.blogspot.com/2026/11/black-friday-vs-cyber-monday-2026.html
 
