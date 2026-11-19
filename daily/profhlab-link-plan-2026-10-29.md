@@ -171,3 +171,18 @@ Prof H Lab과 Verdict Picks(acts39.blogspot.com)의 상생 계획(github actsb/c
    - 글 자체는 그대로 두기를 권합니다. 내리면 404가 생기고 핀·색인을 잃습니다.
    - Verdict Picks의 다른 분야와 맞지 않는 글이니 개선 대상에서는 뒤로 둡니다.
    - 최종 유지 여부는 운영자 결정입니다.
+
+## 10. 연결 현황 (2026-11-19, 양쪽 실제 사이트 확인)
+| profhlab 글 | Verdict Picks 가이드 | profhlab → VP | VP → profhlab |
+|---|---|---|---|
+| /how-to-turn-off-ai-on-samsung-tv/ | TVs With the Fewest AI Features 2026 (11/2 발행) | ✅ | ✅ |
+| /how-to-turn-off-alexa-plus/ | Echo vs HomePod vs Nest vs Sonos 2026 | ✅ (11/19) | ✅ |
+| /how-to-turn-off-ai-on-kindle/ | Kindle vs Paperwhite vs Colorsoft vs Kobo 2026 | ✅ (11/19) | ✅ |
+| /how-to-turn-off-ai-on-ring-doorbell/ | Video Doorbells Without a Subscription 2026 | ✅ (11/19) | ✅ |
+| 로봇청소기 6편 | 로봇청소기 가이드, Price Check | ✅ (10/29) | ✅ |
+
+**남은 연결:** "Robot Vacuums Without a Camera 2026"(11/23 발행 예정) → profhlab /robot-vacuum-or-stick-vacuum/ 의 기존 링크를 교체.
+
+**정정:** profhlab 세션은 TV 가이드가 11/23 예정이라고 기록했으나, TV 가이드는 11/2에 발행됐고 이미 연결돼 있습니다. 11/23 예정 글은 로봇청소기 가이드입니다.
+
+**참고:** Alexa+ 글은 profhlab 주간 보강 루틴이 11/21까지 잠근 글입니다. 11/19 링크 한 줄은 운영자 지시로 넣었고, profhlab이 이력에 기록했습니다.
