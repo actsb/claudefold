@@ -470,18 +470,23 @@
     "redtiger-f7np"
    ],
    "model": "F7NP front and rear; the bundle with a 128GB card costs more than the camera alone.",
-   "street": "REDTIGER's store $109.99 without a card (crossed-out $129.99) and $149.99 with a 128GB card (crossed-out $169.99), Nov 14, 2026",
+   "street": "REDTIGER's store $93.49 without a card (crossed-out $129.99) and $109.99 with a 128GB card (crossed-out $169.99), Nov 19, 2026",
    "good": "under $110",
    "great": "$100 or less",
-   "verdict": "ok",
-   "why": "REDTIGER's own store cut the camera without a card from $129.99 to $109.99, which is just inside our good line. No Black Friday 2026 price is announced; wait only if you want $100 or less.",
-   "sources": "redtigercam.com, Nov 14, 2026; Android Authority, Jul 28, 2026",
-   "checked": "2026-11-14",
+   "verdict": "buy",
+   "why": "On Nov 19, 2026, the first day of REDTIGER's announced Nov 19–30 Black Friday sale, its own store showed $93.49 without a card and $109.99 with a 128GB card: both inside our lines, and official-store orders get 18+6 months of warranty. Past cuts went little deeper (35%–43% off list, late 2025).",
+   "sources": "redtigercam.com, Nov 19, 2026; AndroidGuys, Nov 17, 2026; 9to5Toys, 2025",
+   "checked": "2026-11-19",
    "stores": [
     {
      "name": "REDTIGER",
      "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
-     "seen": "$109.99 without card, Nov 14, 2026"
+     "seen": "$93.49 without card, $109.99 with 128GB, Nov 19, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/882125614",
+     "seen": "Listing seen in search; price did not load, Nov 19, 2026"
     }
    ]
   },
@@ -2335,6 +2340,7 @@
   }
  ],
  "changelog": [
+  "Nov 19, 2026: REDTIGER F7NP re-checked: $93.49 without a card and $109.99 with a 128GB card at REDTIGER's store on the first day of its Nov 19–30 Black Friday sale; Walmart's listing did not load. Verdict now buy (was ok).",
   "Nov 18, 2026: six phones for the Pixel vs Galaxy AI bundle guide. Pixel 11 Pro: $699 at the Google Store from Nov 19 with 6 months of Google AI Pro; buy. Galaxy S26 Ultra: $1,049.99 at Samsung.com, $949.99 with PAYPAL100; buy. Z Flip8: $999.99 at Samsung.com; ok. Pixel 11: $699; ok, but the Pro is the better $699. S26 FE: from $699.99; wait. Pixel 10 Pro: from $999 and its AI Pro year closed Oct 31; wait. No CPSC recall covers any of them.",
   "Nov 17, 2026: Instant Pot Duo 6-quart re-checked: $109.99 at Instant Pot's store with no discount; Walmart's and Target's pages did not load. The great line moves to $70 or less (last year's Black Friday depth, about 36% off); verdict stays wait for Black Friday Nov 27 / Cyber Monday Nov 30.",
   "Nov 16, 2026: three entries for the Black Friday vs Cyber Monday guide. KitchenAid Artisan: $349.99 at Target, wait for Thanksgiving weekend stacking (great line now under $300). Bissell Little Green 1400B: $129.99 at Bissell and about $110 at Walmart, above our line; wait. AirPods Pro 3: $179.99 at Target, $40 under last year's holiday low; buy. Also re-checked: Sony WF-1000XM6 $299.99 at Target (wait), Dreame X50 Ultra $1,199.99 at Target and $999.99 at Dreame (wait), KONG Classic Large $13.99 at Target and PetSmart (buy). No CPSC recall covers any of them.",
