@@ -1,0 +1,698 @@
+[
+ {
+  "post": "dogs",
+  "dir": "posts/2026-09-dog-essentials-on-amazon",
+  "id": "harness",
+  "name": "Rabbitgoo No-Pull Dog Harness",
+  "pick": "Measure the chest just behind the front legs and choose the size that puts that number mid-range. A 50-lb Jindo lands in Large.",
+  "cta": "https://www.amazon.com/s?k=rabbitgoo+no+pull+dog+harness+2+leash+clips&tag=verdictpicks-20"
+ },
+ {
+  "post": "dogs",
+  "dir": "posts/2026-09-dog-essentials-on-amazon",
+  "id": "kong",
+  "name": "KONG Classic (natural rubber, made in the USA)",
+  "pick": "Large for 30–65 lb dogs (Noeul's size). Between sizes, go up, never down; power chewers get the black Extreme.",
+  "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+large+natural+rubber&tag=verdictpicks-20"
+ },
+ {
+  "post": "dogs",
+  "dir": "posts/2026-09-dog-essentials-on-amazon",
+  "id": "bags",
+  "name": "Earth Rated Dog Poop Bags (270, unscented, refill rolls)",
+  "pick": "270-count unscented on refill rolls (15 a roll, fits any dispenser); add the leash dispenser once, not every time.",
+  "cta": "https://www.amazon.com/s?k=Earth+Rated+dog+poop+bags+270+unscented+refill+rolls&tag=verdictpicks-20"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "higgsfield",
+  "name": "Higgsfield (the rendering half: images, video, the MCP connector)",
+  "pick": "The smallest plan is enough to learn on; move up only when the plan step is producing shots you keep. Never buy annual before one month of real use.",
+  "cta": "https://higgsfield.ai/"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "claude",
+  "name": "Claude (the planning half: shot list, prompts, review)",
+  "pick": "Pro is the practical floor: long conversations, photo uploads, and custom connectors. Max only if you batch dozens of jobs a day.",
+  "cta": "https://claude.ai/"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "elevenlabs",
+  "name": "ElevenLabs (the voice that turns a silent clip into an ad)",
+  "pick": "Starter for a few ads a month; Creator when you dub or run more than about ten minutes of speech a month.",
+  "cta": "https://try.elevenlabs.io/yjuf2xc4bkom"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "lightbox",
+  "name": "Foldable photo light box, 12–16 inch (with LED strips)",
+  "pick": "A 16-inch box fits a shoebox-sized product; 12-inch is enough for bottles and gadgets.",
+  "cta": "https://www.amazon.com/s?k=photo+light+box+16+inch+foldable+LED&tag=verdictpicks-20"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "tripod",
+  "name": "Phone tripod with a ball head and remote",
+  "pick": "Any 50–60 inch tripod with a ball head; the remote matters more than the brand.",
+  "cta": "https://www.amazon.com/s?k=phone+tripod+ball+head+bluetooth+remote&tag=verdictpicks-20"
+ },
+ {
+  "post": "aivideo",
+  "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+  "id": "ssd",
+  "name": "Portable SSD, 1–2 TB (USB-C)",
+  "pick": "2 TB if you keep everything; 1 TB if you cull.",
+  "cta": "https://www.amazon.com/s?k=portable+SSD+2TB+USB-C&tag=verdictpicks-20"
+ },
+ {
+  "post": "levoit300",
+  "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+  "id": "levoit300",
+  "name": "Levoit Core 300-P Air Purifier",
+  "pick": "Core 300-P in white (the black one does the same job); one Original 3-in-1 filter is already inside the base",
+  "cta": "https://www.amazon.com/dp/B07VVK39F7?tag=verdictpicks-20"
+ },
+ {
+  "post": "levoit300",
+  "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+  "id": "core300rf",
+  "name": "Levoit Core 300-RF Replacement Filter (genuine Original 3-in-1)",
+  "pick": "Genuine Core 300-RF Original 3-in-1 (newer boxes say Core 300-P-RF); Pet Allergy, Toxin Absorber and Smoke Remover versions fit the same slot",
+  "cta": "https://www.amazon.com/dp/B07RSZSYNC?tag=verdictpicks-20"
+ },
+ {
+  "post": "bedsure-throw",
+  "dir": "posts/2026-10-bedsure-heated-blanket-throw",
+  "id": "bedsure-throw",
+  "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+  "pick": "The 50×60 throw with Preheat and the 8-hour auto-off (the listing title says so); the 3-hour auto-off versions suit lounging only",
+  "cta": "https://www.amazon.com/s?k=Bedsure+heated+blanket+electric+throw+50x60&tag=verdictpicks-20"
+ },
+ {
+  "post": "ocedar-mop",
+  "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
+  "id": "ocedar-mop",
+  "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+  "pick": "The standard EasyWring 1-tank system (mop, bucket, one head); a bundle with 2–3 extra heads when the price per head is lower. Not the RinseClean two-tank model,",
+  "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+microfiber+spin+mop+bucket&tag=verdictpicks-20"
+ },
+ {
+  "post": "noco-gb40",
+  "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+  "id": "noco-gb40",
+  "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+  "pick": "The NOCO Boost Plus GB40 (1000A, model GB40) with the clamps and USB cable in the box; the bigger GB70 only if you own a large diesel",
+  "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20"
+ },
+ {
+  "post": "beckham-pillows",
+  "dir": "posts/2026-10-beckham-hotel-collection-pillows",
+  "id": "beckham-pillows",
+  "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+  "pick": "Beckham Hotel Collection Bed Pillows, Standard/Queen, set of 2 (ASIN B01LYNW421), in the colour you prefer; the king is a separate listing",
+  "cta": "https://www.amazon.com/s?k=Beckham+Hotel+Collection+bed+pillows+queen+set+of+2&tag=verdictpicks-20"
+ },
+ {
+  "post": "bidets2026",
+  "dir": "posts/2026-10-best-bidet-2026",
+  "id": "neo185",
+  "name": "LUXE Bidet NEO 185 (dual nozzle, non-electric)",
+  "pick": "The standard NEO 185 (the 185 Plus costs a few dollars more); knob colour is cosmetic. A T-adapter and supply hose come in the box.",
+  "cta": "https://www.amazon.com/dp/B00P2XZIP2?tag=verdictpicks-20"
+ },
+ {
+  "post": "instant-pot-duo",
+  "dir": "posts/2026-10-instant-pot-duo-6-quart",
+  "id": "instant-pot-duo",
+  "name": "Instant Pot Duo 6-Quart 7-in-1",
+  "pick": "The 6-quart Duo 7-in-1 (IP-DUO60 or 112-0170-01); not the 9-in-1 Duo Plus, a Target bundle or the Duo Nova unless the price is clearly lower",
+  "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "thermopop",
+  "name": "ThermoWorks ThermoPop 2 (instant-read thermometer)",
+  "pick": "ThermoPop 2 (the budget instant-read ATK's testers named).",
+  "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2+thermometer&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "thermapen",
+  "name": "ThermoWorks Thermapen ONE",
+  "pick": "Thermapen ONE.",
+  "cta": "https://www.amazon.com/s?k=ThermoWorks+Thermapen+ONE&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "roaster",
+  "name": "Cuisinart MultiClad Pro Triple Ply 16-inch Roasting Pan with Rack",
+  "pick": "16-inch with rack (the size ATK tested).",
+  "cta": "https://www.amazon.com/s?k=Cuisinart+MultiClad+Pro+Triple+Ply+16+inch+roasting+pan+with+rack&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "knife",
+  "name": "Black+Decker ComfortGrip 9-inch Electric Knife",
+  "pick": "ComfortGrip 9-inch.",
+  "cta": "https://www.amazon.com/s?k=Black+Decker+ComfortGrip+9+inch+electric+knife&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "separator",
+  "name": "OXO Good Grips Good Gravy Fat Separator (4-cup)",
+  "pick": "4-cup (the size ATK tested).",
+  "cta": "https://www.amazon.com/s?k=OXO+Good+Grips+Good+Gravy+fat+separator+4+cup&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "slowcooker",
+  "name": "Hamilton Beach Temp Tracker 6-quart Slow Cooker",
+  "pick": "6-quart Temp Tracker.",
+  "cta": "https://www.amazon.com/s?k=Hamilton+Beach+Temp+Tracker+6+quart+slow+cooker&tag=verdictpicks-20"
+ },
+ {
+  "post": "thanksgiving-hosting",
+  "dir": "posts/2026-10-thanksgiving-hosting",
+  "id": "containers",
+  "name": "Rubbermaid Brilliance Food Storage Containers (10-piece plastic set)",
+  "pick": "10-piece plastic set.",
+  "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+food+storage+containers+10+piece&tag=verdictpicks-20"
+ },
+ {
+  "post": "redtiger-f7np",
+  "dir": "posts/2026-10-redtiger-f7np-dash-cam",
+  "id": "redtiger-f7np",
+  "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+  "pick": "The F7NP 4K front + 1080p rear (GPS in the mount), with a 128GB card if the price gap is about $20 or less; not the F7N, F7N Pro or the Best Buy-only F7NP-EX un",
+  "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+4K+dash+cam+front+rear&tag=verdictpicks-20"
+ },
+ {
+  "post": "black-friday-home-kitchen",
+  "dir": "posts/2026-10-black-friday-home-kitchen",
+  "id": "little-green",
+  "name": "Bissell Little Green (1400B)",
+  "pick": "The Little Green 1400B (the basic model), not the ProHeat or HydroSteam, which are different machines at different prices",
+  "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "gb40",
+  "name": "NOCO Boost Plus GB40 jump starter",
+  "pick": "NOCO Boost Plus GB40 (1000A), the 12V lithium model.",
+  "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+jump+starter&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "f7np",
+  "name": "REDTIGER F7NP 4K dash cam (front and rear)",
+  "pick": "REDTIGER F7NP 4K front plus 1080p rear (the dual-camera set).",
+  "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+dash+cam&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "x8apex",
+  "name": "Fanttik X8 APEX cordless tire inflator",
+  "pick": "Fanttik X8 APEX.",
+  "cta": "https://www.amazon.com/s?k=Fanttik+X8+APEX+tire+inflator&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "dustbuster",
+  "name": "Black+Decker Dustbuster AdvancedClean cordless hand vacuum (CHV1410L)",
+  "pick": "Black+Decker Dustbuster AdvancedClean CHV1410L (check the model number).",
+  "cta": "https://www.amazon.com/s?k=Black+Decker+Dustbuster+AdvancedClean+CHV1410L&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "iottie",
+  "name": "iOttie dash and windshield phone mount",
+  "pick": "iOttie Easy One Touch (dash/windshield) or the iTap 3 MagSafe version.",
+  "cta": "https://www.amazon.com/s?k=iOttie+Easy+One+Touch+phone+mount&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "braun",
+  "name": "Braun 500-lumen rechargeable magnetic work light",
+  "pick": "Braun 500-lumen slim bar (Harbor Freight item 59536) or a similar 500–800 lumen magnetic light.",
+  "cta": "https://www.amazon.com/s?k=Braun+500+lumen+rechargeable+magnetic+work+light&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "dropstop",
+  "name": "Drop Stop car seat gap filler",
+  "pick": "Drop Stop original 2-pack.",
+  "cta": "https://www.amazon.com/s?k=Drop+Stop+car+seat+gap+filler&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-car-lovers",
+  "dir": "posts/2026-10-gifts-car-lovers",
+  "id": "subzero",
+  "name": "Hopkins SubZero snow brush and ice scraper (metal-joint telescoping model)",
+  "pick": "A SubZero telescoping brush with a metal joint (about 26–48 in. for a car, longer for an SUV).",
+  "cta": "https://www.amazon.com/s?k=Hopkins+SubZero+snow+brush+ice+scraper&tag=verdictpicks-20"
+ },
+ {
+  "post": "rubbermaid-brilliance",
+  "dir": "posts/2026-10-rubbermaid-brilliance-food-storage",
+  "id": "rubbermaid-brilliance",
+  "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+  "pick": "Rubbermaid Brilliance 10-piece set (model 2183421, Tritan): five containers and five latch lids, in 1.3, 3.2 and 9.6 cups",
+  "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+leak+proof+food+storage+containers+10+piece&tag=verdictpicks-20"
+ },
+ {
+  "post": "black-friday-tech-car",
+  "dir": "posts/2026-10-black-friday-tech-car",
+  "id": "2000v2",
+  "name": "Jackery Explorer 2000 v2",
+  "pick": "The Jackery Explorer 2000 v2 on its own (2,042 Wh), not a bundle unless the listing names every panel and you check the box on arrival",
+  "cta": "https://www.amazon.com/s?k=Jackery+Explorer+2000+v2&tag=verdictpicks-20"
+ },
+ {
+  "post": "dreo-heater",
+  "dir": "posts/2026-10-dreo-space-heater",
+  "id": "dreo-heater",
+  "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+  "pick": "Dreo Atom One, model DR-HSH004: 1500W PTC ceramic, 70° oscillation, thermostat 41–95°F, remote, about 10 inches tall",
+  "cta": "https://www.amazon.com/s?k=Dreo+space+heater+1500W+oscillating+thermostat+remote&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "pop",
+  "name": "ThermoWorks ThermoPop 2 instant-read thermometer",
+  "pick": "ThermoWorks ThermoPop 2 (any colour).",
+  "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "owala",
+  "name": "Owala FreeSip 24 oz insulated bottle",
+  "pick": "Owala FreeSip 24 oz, the colour the recipient likes.",
+  "cta": "https://www.amazon.com/s?k=Owala+FreeSip+24+oz&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "airtag",
+  "name": "Apple AirTag (2nd generation), single",
+  "pick": "Apple AirTag (2nd generation), 1-pack.",
+  "cta": "https://www.amazon.com/s?k=Apple+AirTag+2nd+generation+1+pack&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "kong",
+  "name": "KONG Classic dog toy (medium)",
+  "pick": "KONG Classic, red, sized to the dog's weight.",
+  "cta": "https://www.amazon.com/s?k=KONG+Classic+dog+toy+medium&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "ocedar",
+  "name": "O-Cedar EasyWring spin mop and bucket",
+  "pick": "The classic EasyWring round-bucket system with one mop head.",
+  "cta": "https://www.amazon.com/s?k=O-Cedar+EasyWring+spin+mop+bucket&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "rubbermaid",
+  "name": "Rubbermaid Brilliance leak-proof food storage set",
+  "pick": "The clear plastic (Tritan) Brilliance set, 10 pieces or more.",
+  "cta": "https://www.amazon.com/s?k=Rubbermaid+Brilliance+food+storage+set&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "chomchom",
+  "name": "ChomChom Roller pet hair remover",
+  "pick": "ChomChom Roller, the original (not a limited edition).",
+  "cta": "https://www.amazon.com/s?k=ChomChom+Roller+pet+hair+remover&tag=verdictpicks-20"
+ },
+ {
+  "post": "gifts-under-50",
+  "dir": "posts/2026-10-gifts-under-50",
+  "id": "bedsure",
+  "name": "Bedsure heated electric throw (50 x 60 in)",
+  "pick": "Bedsure heated throw, 50 x 60 in.",
+  "cta": "https://www.amazon.com/s?k=Bedsure+heated+electric+throw+blanket+50x60&tag=verdictpicks-20"
+ },
+ {
+  "post": "furhaven-bed",
+  "dir": "posts/2026-10-furhaven-orthopedic-dog-bed",
+  "id": "furhaven-bed",
+  "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+  "pick": "Furhaven Plush & Suede Full Support Orthopedic Sofa, Large: 36 × 27 × 6.5 in, 3-inch egg-crate base, size guide up to 55 lb",
+  "cta": "https://www.amazon.com/s?k=Furhaven+orthopedic+sofa+dog+bed+large&tag=verdictpicks-20"
+ },
+ {
+  "post": "instant-pot-models",
+  "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+  "id": "duo",
+  "name": "Instant Pot Duo 6-Quart 7-in-1 (model 112-0170-01)",
+  "pick": "The 6-quart Duo 7-in-1, model 112-0170-01 (also sold as IP-DUO60). Not the 8-quart, the Duo Nova or the Duo Crisp.",
+  "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20"
+ },
+ {
+  "post": "instant-pot-models",
+  "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+  "id": "duoplus",
+  "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet, model 112-0169-01)",
+  "pick": "The Duo Plus 6-quart Whisper Quiet, model 112-0169-01, when it is within about $20 of the Duo.",
+  "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+Plus+6+quart+Whisper+Quiet+112-0169-01&tag=verdictpicks-20"
+ },
+ {
+  "post": "meat-thermometer",
+  "dir": "posts/2026-10-meat-thermometer",
+  "id": "thermopop2",
+  "name": "ThermoWorks ThermoPop 2",
+  "pick": "The ThermoPop 2 (not the original ThermoPop); colour is cosmetic. Order the one with the standard probe unless you cook ribs, where the thinner probe is liked b",
+  "cta": "https://www.amazon.com/s?k=ThermoWorks+ThermoPop+2&tag=verdictpicks-20"
+ },
+ {
+  "post": "tire-inflator",
+  "dir": "posts/2026-10-tire-inflator",
+  "id": "x8apex",
+  "name": "Fanttik X8 Apex (built-in battery, 150 psi)",
+  "pick": "The Fanttik X8 Apex (150 psi, built-in 28.8 Wh battery). The Deluxe package adds a case and a car charger adapter; the base unit is enough.",
+  "cta": "https://www.amazon.com/s?k=fanttik+x8+apex+tire+inflator&tag=verdictpicks-20"
+ },
+ {
+  "post": "winter-car-kit",
+  "dir": "posts/2026-10-winter-car-kit",
+  "id": "gb40",
+  "name": "NOCO Boost Plus GB40 jump starter (1000 A, lithium)",
+  "pick": "The NOCO Boost Plus GB40 (1000 A). Charge it fully the day it arrives, then top it up every month or two.",
+  "cta": "https://www.amazon.com/s?k=noco+boost+plus+gb40&tag=verdictpicks-20"
+ },
+ {
+  "post": "jump-starter-sizes",
+  "dir": "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+  "id": "gb40",
+  "name": "NOCO Boost Plus GB40 (1000A)",
+  "pick": "The NOCO Boost Plus GB40 (model GB40, 1,000 amps). The GB50 is the next size up if you drive a V8 or live somewhere cold.",
+  "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "roku-select",
+  "name": "Roku Select Series 55-inch (2026)",
+  "pick": "The 2026 Roku Select Series 55-inch. Its US model code is unconfirmed (Best Buy Canada lists 55R5D5CA), so match the 'Select Series, 2026' name, not an older 55",
+  "cta": "https://www.amazon.com/s?k=Roku+Select+Series+55+inch+2026&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "lg-c6",
+  "name": "LG C6 OLED 55-inch (OLED55C6PUA)",
+  "pick": "The 55-inch OLED55C6PUA. A similar 'C6A' code is sold at some stores and is not confirmed to be identical.",
+  "cta": "https://www.amazon.com/s?k=LG+OLED55C6PUA&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "sony-bravia7",
+  "name": "Sony Bravia 7 II 55-inch (K55XR70M2)",
+  "pick": "The 55-inch K55XR70M2 (the K-55XR75M2 code seen on UK sites is not the US set).",
+  "cta": "https://www.amazon.com/s?k=Sony+Bravia+7+II+K55XR70M2&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "samsung-s90h",
+  "name": "Samsung S90H OLED 55-inch (QN55S90HAEXZA)",
+  "pick": "The 55-inch QN55S90HAEXZA (US codes end in A; the Canada code does not).",
+  "cta": "https://www.amazon.com/s?k=Samsung+QN55S90HAEXZA&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "tcl-qm7l",
+  "name": "TCL QM7L 55-inch (55QM7L)",
+  "pick": "The 55-inch 55QM7L (not the QM7K from 2025, and not the QM7L Pro).",
+  "cta": "https://www.amazon.com/s?k=TCL+55QM7L&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-tv-privacy",
+  "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+  "id": "apple-tv",
+  "name": "Apple TV 4K (new model, $299)",
+  "pick": "The new Apple TV 4K at $299 (check the storage option on the label).",
+  "cta": "https://www.amazon.com/s?k=Apple+TV+4K&tag=verdictpicks-20"
+ },
+ {
+  "post": "heated-blanket-recalls",
+  "dir": "posts/2026-11-heated-blanket-recalls-2026",
+  "id": "sunbeam-luxe",
+  "name": "Sunbeam Royal Luxe Microplush Heated Throw (50 x 60 in)",
+  "pick": "The Royal Luxe Microplush 50×60 (4 heat settings, 4-hour auto-off, 5-year limited warranty per listings)",
+  "cta": "https://www.amazon.com/s?k=Sunbeam+Royal+Luxe+heated+throw+50x60&tag=verdictpicks-20"
+ },
+ {
+  "post": "heated-blanket-recalls",
+  "dir": "posts/2026-11-heated-blanket-recalls-2026",
+  "id": "bedsure-throw",
+  "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+  "pick": "The 50×60 throw; read the auto-off in the title (3, 8 or 10 hours depending on the version)",
+  "cta": "https://www.amazon.com/s?k=Bedsure+heated+blanket+electric+throw+50x60&tag=verdictpicks-20"
+ },
+ {
+  "post": "heated-blanket-recalls",
+  "dir": "posts/2026-11-heated-blanket-recalls-2026",
+  "id": "beautyrest-marselle",
+  "name": "Beautyrest Marselle Oversized Faux Fur Heated Throw (50 x 70 in)",
+  "pick": "The Marselle 50×70 faux fur throw (not the 50×60 Beautyrest fleece)",
+  "cta": "https://www.amazon.com/s?k=Beautyrest+Marselle+heated+throw+50x70&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "sonos-era-100-sl",
+  "name": "Sonos Era 100 SL",
+  "pick": "Era 100 SL in black or white. The \"SL\" is the model without microphones; the plain Era 100 looks the same and has mics.",
+  "cta": "https://www.amazon.com/s?k=Sonos+Era+100+SL&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "homepod-mini-2",
+  "name": "Apple HomePod mini (2nd generation)",
+  "pick": "The 2nd-generation HomePod mini ($149), not the first-generation mini that stores may still sell.",
+  "cta": "https://www.amazon.com/s?k=Apple+HomePod+mini+2nd+generation&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "google-home-speaker",
+  "name": "Google Home Speaker",
+  "pick": "Google Home Speaker in any colour; the listing must say Google Home Speaker, not the older Google Home or Nest Audio.",
+  "cta": "https://www.amazon.com/s?k=Google+Home+Speaker+Gemini&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "echo-dot-max",
+  "name": "Amazon Echo Dot Max (2025)",
+  "pick": "Echo Dot Max (2025). It is not the Echo Dot (5th gen) or the Echo Pop.",
+  "cta": "https://www.amazon.com/s?k=Amazon+Echo+Dot+Max&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "echo-studio-2025",
+  "name": "Amazon Echo Studio (2025)",
+  "pick": "Echo Studio (2025, the smaller one), not the 2019 model.",
+  "cta": "https://www.amazon.com/s?k=Amazon+Echo+Studio+2025&tag=verdictpicks-20"
+ },
+ {
+  "post": "smart-speakers-alexa-plus",
+  "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+  "id": "sonos-era-100",
+  "name": "Sonos Era 100",
+  "pick": "Era 100 (not the Era 100 Pro, an installer model, and not the SL).",
+  "cta": "https://www.amazon.com/s?k=Sonos+Era+100&tag=verdictpicks-20"
+ },
+ {
+  "post": "heating-cost-per-night",
+  "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+  "id": "sunbeam-pad",
+  "name": "Sunbeam Restful Quilted Heated Mattress Pad, Queen (dual controllers)",
+  "pick": "Queen size, dual controllers (one per side), the Restful quilted pad; the Wi-Fi version costs about $18 more and adds nothing to the cost per night.",
+  "cta": "https://www.amazon.com/s?k=Sunbeam+Restful+heated+mattress+pad+queen&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "eufy-e340",
+  "name": "eufy Video Doorbell E340",
+  "pick": "Video Doorbell E340 (model T8214111, black). It is the doorbell, not the E340 floodlight camera, and not the wired-only S330.",
+  "cta": "https://www.amazon.com/s?k=eufy+Video+Doorbell+E340&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "reolink-doorbell-poe",
+  "name": "Reolink Video Doorbell PoE",
+  "pick": "Reolink Video Doorbell PoE (2K+ 5MP, D340P). Not the battery \"Video Doorbell (2nd Gen)\", which needs a Reolink hub for Home Assistant.",
+  "cta": "https://www.amazon.com/s?k=Reolink+Video+Doorbell+PoE&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "aqara-g410",
+  "name": "Aqara Doorbell Camera Hub G410",
+  "pick": "Doorbell Camera Hub G410 (black or gray). The G410 Select is the same doorbell with a three-month HomeGuardian trial (MacRumors); the G400 is wired-only and is ",
+  "cta": "https://www.amazon.com/s?k=Aqara+Doorbell+Camera+Hub+G410&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "tapo-d225",
+  "name": "TP-Link Tapo D225",
+  "pick": "Tapo D225 (2K QHD battery doorbell with chime). The D235 is a different model with a chime hub.",
+  "cta": "https://www.amazon.com/s?k=Tapo+D225+video+doorbell&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "ring-battery-doorbell-2k",
+  "name": "Ring Battery Doorbell 2K",
+  "pick": "Battery Doorbell 2K (sold as \"Newest Model\" or Battery Doorbell 2nd Gen, 2026). Not the 2K Plus ($179.99) and not the 2020 Video Doorbell (2nd Generation).",
+  "cta": "https://www.amazon.com/s?k=Ring+Battery+Doorbell+2K&tag=verdictpicks-20"
+ },
+ {
+  "post": "doorbell-no-subscription",
+  "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+  "id": "nest-doorbell-battery",
+  "name": "Google Nest Doorbell (battery)",
+  "pick": "Nest Doorbell (battery), not the Nest Doorbell (wired, 3rd gen), which is a different product.",
+  "cta": "https://www.amazon.com/s?k=Google+Nest+Doorbell+battery&tag=verdictpicks-20"
+ },
+ {
+  "post": "kindle-models",
+  "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+  "id": "kindle-paperwhite-2026",
+  "name": "Kindle Paperwhite (2026, 16 GB)",
+  "pick": "Kindle Paperwhite (2026 release), 16 GB. Not the Signature Edition, and not the 2024 model that is still listed.",
+  "cta": "https://www.amazon.com/s?k=Kindle+Paperwhite+16GB+2026&tag=verdictpicks-20"
+ },
+ {
+  "post": "kindle-models",
+  "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+  "id": "kindle-2026",
+  "name": "Kindle (2026, 6-inch)",
+  "pick": "Kindle (2026 release), 6-inch, 16 GB; or the aluminum 32 GB \"No Ads\" version if you will not tolerate ads.",
+  "cta": "https://www.amazon.com/s?k=Kindle+6+inch+16GB+2026&tag=verdictpicks-20"
+ },
+ {
+  "post": "kindle-models",
+  "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+  "id": "kindle-colorsoft-2026",
+  "name": "Kindle Colorsoft (2026, 16 GB)",
+  "pick": "Kindle Colorsoft (2026 release), 16 GB. Not the 2024 Colorsoft that is still sold as clearance.",
+  "cta": "https://www.amazon.com/s?k=Kindle+Colorsoft+16GB+2026&tag=verdictpicks-20"
+ },
+ {
+  "post": "kindle-models",
+  "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+  "id": "kindle-paperwhite-signature-2026",
+  "name": "Kindle Paperwhite Signature Edition (2026, 32 GB)",
+  "pick": "Kindle Paperwhite Signature Edition (2026 release), 32 GB.",
+  "cta": "https://www.amazon.com/s?k=Kindle+Paperwhite+Signature+Edition+32GB+2026&tag=verdictpicks-20"
+ },
+ {
+  "post": "black-friday-vs-cyber-monday",
+  "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+  "id": "kitchenaid-artisan",
+  "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+  "pick": "The Artisan Series 5-quart tilt-head, model KSM150 (KSM150PS plus a colour code), not the 4.5-quart Classic or the 3.5-quart Artisan Mini",
+  "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+5+quart+stand+mixer&tag=verdictpicks-20"
+ },
+ {
+  "post": "black-friday-vs-cyber-monday",
+  "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+  "id": "little-green",
+  "name": "Bissell Little Green (1400B)",
+  "pick": "The Little Green 1400B, not the Mini (3369 or 4064T) or the ProHeat (2513W), which are different machines",
+  "cta": "https://www.amazon.com/s?k=Bissell+Little+Green+1400B&tag=verdictpicks-20"
+ },
+ {
+  "post": "black-friday-vs-cyber-monday",
+  "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+  "id": "pro3",
+  "name": "Apple AirPods Pro 3",
+  "pick": "AirPods Pro 3 (the 2025 model with heart-rate sensing), not AirPods Pro 2 or AirPods 4",
+  "cta": "https://www.amazon.com/s?k=Apple+AirPods+Pro+3&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "pixel-11-pro",
+  "name": "Google Pixel 11 Pro (256 GB, unlocked)",
+  "pick": "Pixel 11 Pro, 256 GB, unlocked (not the Pixel 11, which has no AI Pro offer, and not the Pixel 10 Pro, whose offer closed Oct 31, 2026).",
+  "cta": "https://www.amazon.com/s?k=Google+Pixel+11+Pro+256GB+unlocked&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "galaxy-z-flip8",
+  "name": "Samsung Galaxy Z Flip8 (256 GB, unlocked)",
+  "pick": "Galaxy Z Flip8, 256 GB, unlocked US model.",
+  "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+Z+Flip8+256GB+unlocked&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "galaxy-s26-ultra",
+  "name": "Samsung Galaxy S26 Ultra (256 GB, unlocked)",
+  "pick": "Galaxy S26 Ultra, 256 GB, unlocked US model.",
+  "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+S26+Ultra+256GB+unlocked&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "pixel-11",
+  "name": "Google Pixel 11 (256 GB, unlocked)",
+  "pick": "Pixel 11, 256 GB, unlocked, only if it is clearly cheaper than the Pixel 11 Pro.",
+  "cta": "https://www.amazon.com/s?k=Google+Pixel+11+256GB+unlocked&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "galaxy-s26-fe",
+  "name": "Samsung Galaxy S26 FE (128 GB, unlocked)",
+  "pick": "Galaxy S26 FE, 128 GB, unlocked US model.",
+  "cta": "https://www.amazon.com/s?k=Samsung+Galaxy+S26+FE+unlocked&tag=verdictpicks-20"
+ },
+ {
+  "post": "phone-ai-bundle-deals",
+  "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+  "id": "pixel-10-pro",
+  "name": "Google Pixel 10 Pro (128 GB, unlocked)",
+  "pick": "Pixel 10 Pro, 128 GB, unlocked, only well under the Pixel 11 Pro's price.",
+  "cta": "https://www.amazon.com/s?k=Google+Pixel+10+Pro+128GB+unlocked&tag=verdictpicks-20"
+ }
+]
