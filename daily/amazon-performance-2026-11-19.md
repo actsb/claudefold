@@ -114,3 +114,23 @@
 | Samsung Galaxy S26 Ultra (256 GB, unlocked) | phone-ai-bundle-deals | low | B0G4SWDH8P | Amazon title 'Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 256GB, Black'. Tom's  |
 | Google Pixel 11 (256 GB, unlocked) | phone-ai-bundle-deals | low | B0H8363LHL | Amazon title 'Google Pixel 11 - Unlocked Smartphone, Gemini - 256 GB - Pistachio'. No plai |
 | Samsung Galaxy S26 FE (128 GB, unlocked) | phone-ai-bundle-deals | low | B0H7SLXZPB | Amazon title 'Samsung Galaxy S26 FE, Unlocked Phone, Graphite, 128GB' (base colour), Amazo |
+
+## 6. Associates Central 실제 숫자 (운영자님 확인, 11/18 갱신분)
+| 항목 | 값 |
+|---|---|
+| 최근 30일 (10/20~11/18) 클릭 | 0 |
+| 최근 30일 수수료·바운티 | $0.00 / $0.00 |
+| 이번 달 주문·배송 수량 | 0 / 0 |
+| 화면 안내 | "Complete your onboarding checklist" 남아 있음 |
+
+**판단:** 블로그 조회 30일 53회에 아마존 클릭 0회입니다. 원인은 둘 중 하나입니다.
+1. 방문자 대부분이 운영자 본인이나 봇
+2. 링크의 추적 ID(verdictpicks-20)가 이 계정에 등록되지 않음
+
+**확인 순서:**
+1. Manage Tracking IDs에 verdictpicks-20이 있는지
+2. Website and Mobile App List에 acts39.blogspot.com이 있는지
+3. 온보딩(세금 W-8BEN, 지급 방법) 완료
+4. 시험 클릭 1회 후 다음 날 리포트에서 클릭이 1로 오르는지
+
+**2026-11-19:** 아마존 계정 잠금은 운영자님이 다시 로그인하면서 해결됐습니다.
