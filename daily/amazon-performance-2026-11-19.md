@@ -139,7 +139,7 @@
 ## 7. 서치콘솔 URL 검사 결과 (2026-11-19, 운영자님 화면)
 | 가이드 | 상태 | 조치 |
 |---|---|---|
-| Black Friday vs Cyber Monday 2026 | 실시간 테스트: 색인 가능 | 색인 요청 여부 확인 필요 |
+| Black Friday vs Cyber Monday 2026 | 실시간 테스트: 색인 가능 | 색인 요청 완료 (11/19) |
 | TVs With the Fewest AI Features 2026 | 크롤링됨 - 현재 색인 생성 안 됨 (마지막 크롤링 11/2) | 색인 요청 완료 |
 | Kindle vs Paperwhite vs Colorsoft vs Kobo 2026 | 발견됨 - 현재 색인 생성 안 됨 (처음 조회 땐 "알 수 없는 URL") | 실시간 테스트 통과 |
 | Echo vs HomePod vs Nest vs Sonos 2026 | 발견됨 - 현재 색인 생성 안 됨 | 요청 |
