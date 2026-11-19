@@ -1,0 +1,1170 @@
+[
+  {
+    "post": "dogs",
+    "dir": "posts/2026-09-dog-essentials-on-amazon",
+    "id": "harness",
+    "name": "Rabbitgoo No-Pull Dog Harness",
+    "asin": "B01M8JT6FT",
+    "variant": "Large, Black",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Rabbitgoo-Harness-Adjustable-Reflective-Material/dp/B01M8JT6FT"
+    ],
+    "notes": "Amazon result title: 'rabbitgoo Dog Harness, No Pull for Large Dogs with 2 Leash Clips'; ASIN lookup summary describes it as Large in black. No second independent source found (rabbitgoo.com has no Amazon links). Other colours/sizes are separate child ASINs."
+  },
+  {
+    "post": "dogs",
+    "dir": "posts/2026-09-dog-essentials-on-amazon",
+    "id": "kong",
+    "name": "KONG Classic (natural rubber, made in the USA)",
+    "asin": "B0002AR0I8",
+    "variant": "Large (red Classic)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/KONG-Classic-Durable-Natural-Rubber/dp/B0002AR0I8"
+    ],
+    "notes": "Amazon title: 'KONG Classic Stuffable Dog Toy, Natural Rubber Chew, for Large Dogs' (model T1). Only Amazon-hosted results; kongcompany.com has no Amazon link. Listing was shown as currently unavailable in one snapshot."
+  },
+  {
+    "post": "dogs",
+    "dir": "posts/2026-09-dog-essentials-on-amazon",
+    "id": "bags",
+    "name": "Earth Rated Dog Poop Bags (270, unscented, refill rolls)",
+    "asin": "B00LAI9OM6",
+    "variant": "270 bags, unscented, refill rolls (18 rolls x 15)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Earth-Rated-Unscented-Completely-Inches/dp/B00LAI9OM6"
+    ],
+    "notes": "Amazon title: 'Earth Rated Dog Poop Bags on Refill Rolls, 270 Bags, Unscented'. Lavender 270 is a different ASIN. No second independent source found."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "higgsfield",
+    "name": "Higgsfield (the rendering half: images, video, the MCP connector)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "Not an Amazon product (software/subscription sold by the maker); keep the current maker link."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "claude",
+    "name": "Claude (the planning half: shot list, prompts, review)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "Not an Amazon product (software/subscription sold by the maker); keep the current maker link."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "elevenlabs",
+    "name": "ElevenLabs (the voice that turns a silent clip into an ad)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "Not an Amazon product (software/subscription sold by the maker); keep the current maker link."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "lightbox",
+    "name": "Foldable photo light box, 12–16 inch (with LED strips)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "The pick is a generic spec, not one product, so there is no single ASIN to verify; keep the search link or name a specific model first."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "tripod",
+    "name": "Phone tripod with a ball head and remote",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "The pick is a generic spec, not one product, so there is no single ASIN to verify; keep the search link or name a specific model first."
+  },
+  {
+    "post": "aivideo",
+    "dir": "posts/2026-09-claude-higgsfield-mcp-ai-video",
+    "id": "ssd",
+    "name": "Portable SSD, 1–2 TB (USB-C)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "The pick is a generic spec, not one product, so there is no single ASIN to verify; keep the search link or name a specific model first."
+  },
+  {
+    "post": "levoit300",
+    "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+    "id": "levoit300",
+    "name": "Levoit Core 300-P Air Purifier",
+    "asin": "B07VVK39F7",
+    "variant": "Core 300-P, White",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/LEVOIT-Purifier-Home-Allergies-Pets/dp/B07VVK39F7"
+    ],
+    "notes": "Amazon titles for this ASIN read '...Core300-P, White'. Matches the ASIN already on the card. levoit.com product page has no Amazon link and no Tom's Guide link to this ASIN was found, so only Amazon-hosted evidence. B083TMWFSZ is another Core300-P listing (colour not confirmed)."
+  },
+  {
+    "post": "levoit300",
+    "dir": "posts/2026-09-levoit-core-300p-air-purifier",
+    "id": "core300rf",
+    "name": "Levoit Core 300-RF Replacement Filter (genuine Original 3-in-1)",
+    "asin": "B07RSZSYNC",
+    "variant": "Genuine Levoit Core 300-RF Original 3-in-1, 1-pack",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/LEVOIT-Core-Replacement-High-Efficiency-300-RF/dp/B07RSZSYNC"
+    ],
+    "notes": "Amazon title: 'LEVOIT Core 300 Air Purifier Replacement Filter, 3-In-1 Filter... Core300-RF, 1 Pack, White'. Matches the card's current ASIN. Genuine 2-pack is B08Q3VZX9X. Only Amazon-hosted evidence."
+  },
+  {
+    "post": "bedsure-throw",
+    "dir": "posts/2026-10-bedsure-heated-blanket-throw",
+    "id": "bedsure-throw",
+    "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+    "asin": "B0BZYVG8NW",
+    "variant": "50x60 in, White, striped, Preheat, 8H auto-off",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Bedsure-Heated-Blanket-Electric-Throw/dp/B0BZYVG8NW"
+    ],
+    "notes": "Amazon title names '...Preheat Function, 6 Heat & 6 Timer (Up to 10H), 8H Auto Off, ETL Certified (50\"x60\", White)' (model BS-TH01-S), which is what this pick asks for. Only Amazon evidence. The Grey sibling B0BZR6YBHK is confirmed by Tom's Guide (see the other Bedsure cards) but its title does not state the 8-hour auto-off."
+  },
+  {
+    "post": "ocedar-mop",
+    "dir": "posts/2026-10-o-cedar-easywring-spin-mop",
+    "id": "ocedar-mop",
+    "name": "O-Cedar EasyWring Microfiber Spin Mop and Bucket",
+    "asin": "B00WSWGVZQ",
+    "variant": "Standard EasyWring 1-tank system, one mop head (Red/Gray)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Cedar-EasyWring-Microfiber-Bucket-Cleaning/dp/B00WSWGVZQ",
+      "https://www.tomsguide.com/home/no-more-dirty-mop-water-this-simple-cleaning-tool-is-a-game-changer"
+    ],
+    "notes": "Amazon title 'O-Cedar EasyWring Microfiber Spin Mop, Bucket Floor Cleaning System, Red, Gray, Standard'; Tom's Guide links the same ASIN for the EasyWring system. Bundles: +1 refill B071G1J8TZ, +2 refills B07VWL357N, +3 refills B01MCVXNSG (Amazon titles only). RinseClean listings are separate."
+  },
+  {
+    "post": "noco-gb40",
+    "dir": "posts/2026-09-noco-boost-plus-gb40-jump-starter",
+    "id": "noco-gb40",
+    "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+    "asin": "B015TKUPIC",
+    "variant": "NOCO Boost Plus GB40 (1000A), standard kit",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Amazon title 'NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter'; Tom's Guide links the same ASIN as 'Noco Boost Plus GB40 1000A Battery Jump Starter'. Several newer GB40 ASINs (e.g. B0HP8VBQ4Y, B0HM6S7621) appear to be reseller or renewed listings; avoid."
+  },
+  {
+    "post": "beckham-pillows",
+    "dir": "posts/2026-10-beckham-hotel-collection-pillows",
+    "id": "beckham-pillows",
+    "name": "Beckham Hotel Collection Bed Pillows (Standard/Queen, set of 2)",
+    "asin": "B01LYNW421",
+    "variant": "Standard/Queen, set of 2, down-alternative (gel)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Pillows-for-Sleeping-2-Pack/dp/B01LYNW421",
+      "https://www.tomsguide.com/mattresses/pillows-bedding/beckham-hotel-collection-pillow-review"
+    ],
+    "notes": "Matches the ASIN named in the pick. Amazon title 'Beckham Hotel Collection Bed Pillows Standard / Queen Size Set of 2 - Down Alternative...'; Tom's Guide review and deal posts link the same ASIN. Colour is not a selectable option on this listing as far as seen."
+  },
+  {
+    "post": "bidets2026",
+    "dir": "posts/2026-10-best-bidet-2026",
+    "id": "neo185",
+    "name": "LUXE Bidet NEO 185 (dual nozzle, non-electric)",
+    "asin": "B00P2XZIP2",
+    "variant": "NEO 185 (standard, not Plus), White",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/LUXE-Bidet-Non-Electric-Attachment-Self-cleaning/dp/B00P2XZIP2"
+    ],
+    "notes": "Amazon title 'LUXE Bidet NEO 185 - Bidet Attachment for Toilet Seat, White'. Matches the card's current ASIN. Blue is B00P2XZDGG; NEO 185 Plus is B0B1H9W4D2 (white). luxebidet.com has no Amazon links; no review-site link found. Base colour (white) chosen."
+  },
+  {
+    "post": "instant-pot-duo",
+    "dir": "posts/2026-10-instant-pot-duo-6-quart",
+    "id": "instant-pot-duo",
+    "name": "Instant Pot Duo 6-Quart 7-in-1",
+    "asin": "B00FLYWNYQ",
+    "variant": "Duo 6-quart 7-in-1, stainless (DUO60 / IP-DUO60)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Instant-Pot-Multi-Use-Programmable-Pressure/dp/B00FLYWNYQ",
+      "https://www.amazon.com/Instant-Pot-112-0170-01-6Qt-120V/dp/B097TSGT9G"
+    ],
+    "notes": "B00FLYWNYQ is the main 'Instant Pot Duo 6 Qt 7-in-1 Electric Pressure Cooker, Stainless Steel' listing (model DUO 60). A second listing, B097TSGT9G, has 112-0170-01 in its URL slug but its page reportedly shows ASIN B00FLYWNYQ, so the two appear to be the same product family. No review-site link to either was found."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "thermopop",
+    "name": "ThermoWorks ThermoPop 2 (instant-read thermometer)",
+    "asin": "B0DG6M1TMY",
+    "variant": "ThermoPop 2, Cayenne Pepper Red (probe length not stated in title)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/ThermoWorks-Recommended-Best-Value-Instant-Read-Thermometer/dp/B0DG6M1TMY",
+      "https://www.tomsguide.com/home/cook-the-perfect-thanksgiving-turkey-3-black-friday-meat-thermometer-deals-id-recommend-from-usd32"
+    ],
+    "notes": "Amazon title names 'ThermoWorks ThermoPop 2 ... Cayenne Pepper Red'. Tom's Guide links a different ASIN, B0DC8KQC81, as 'ThermoWorks ThermoPop 2', but no Amazon result could confirm what B0DC8KQC81 is. The sources disagree, so this is low."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "thermapen",
+    "name": "ThermoWorks Thermapen ONE",
+    "asin": "B0DC8MWQ8K",
+    "variant": "Thermapen ONE, Cayenne Pepper Red",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/dp/B0DC8MWQ8K",
+      "https://www.tomsguide.com/home/thermoworks-thermapen-one-meat-thermometer-review",
+      "https://www.tomsguide.com/home/cook-the-perfect-thanksgiving-turkey-3-black-friday-meat-thermometer-deals-id-recommend-from-usd32"
+    ],
+    "notes": "Amazon title 'ThermoWorks Thermapen ONE, No. 1 Recommended Instant-Read Thermometer - Cayenne Pepper Red'; Tom's Guide links the same ASIN as Thermapen One. Other colours are separate ASINs (Dove Grey B0DC8FWCDT). Tom's Guide also links B0DC8776HK and B0DC87RW4R (variants it did not name), so they are not used."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "roaster",
+    "name": "Cuisinart MultiClad Pro Triple Ply 16-inch Roasting Pan with Rack",
+    "asin": "B0041Q409G",
+    "variant": "MultiClad Pro 16-inch roaster with rack (MCP117-16BR)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Cuisinart-MCP117-16BR-MultiClad-Stainless-Rectangular/dp/B0041Q409G"
+    ],
+    "notes": "Amazon title 'Cuisinart MultiClad Pro 16\" Stainless Roasting Pan & Rack'. Do not confuse with the Chef's Classic 7117-16UR (B003YLJZ6M). Only Amazon evidence."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "knife",
+    "name": "Black+Decker ComfortGrip 9-inch Electric Knife",
+    "asin": "B01K1JJ80M",
+    "variant": "9-inch ComfortGrip electric carving knife, White",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Electric-Carving-Comfort-Stainless-Dishwasher/dp/B01K1JJ80M"
+    ],
+    "notes": "Amazon title 'BLACK+DECKER 9 inch Electric Carving Knife, Comfort Grip Handle & Safety Lock Button... White'. The EK700 Slice Right (B0000DAR49) is listed as discontinued; a black 9\" ComfortGrip listing (B07F9XY5SV) was unavailable. Only Amazon evidence."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "separator",
+    "name": "OXO Good Grips Good Gravy Fat Separator (4-cup)",
+    "asin": "B071F2ZM15",
+    "variant": "Good Gravy 4-cup (bottom release)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/OXO-Grips-Gravy-Separator-4-Cup/dp/B071F2ZM15"
+    ],
+    "notes": "URL slug 'OXO-Grips-Gravy-Separator-4-Cup'; ASIN lookup describes a clear 4-cup bottom-release model. Its search-result title was blank, so the evidence is weak. B07V1ZSYVF ('OXO Good Grips Fat Separator for Gravy and Sauces, 4-cup') uses a stopper and pour spout, a different design; B0002YTGIQ is an older 4-cup separator."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "slowcooker",
+    "name": "Hamilton Beach Temp Tracker 6-quart Slow Cooker",
+    "asin": "B07BB9ZQDY",
+    "variant": "6-quart programmable with temperature probe (33866)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Hamilton-Beach-Programmable-Temperature-33866/dp/B07BB9ZQDY"
+    ],
+    "notes": "Amazon slug and review titles name model 33866 (6-quart Set & Forget with probe, black stainless). It is not certain that 'Temp Tracker' = 33866: one listing uses 'Temp Tracker' as a colour name on the 33969A. Bundle with travel bag is B084ZT1BR8. Check the model number before linking."
+  },
+  {
+    "post": "thanksgiving-hosting",
+    "dir": "posts/2026-10-thanksgiving-hosting",
+    "id": "containers",
+    "name": "Rubbermaid Brilliance Food Storage Containers (10-piece plastic set)",
+    "asin": "B01JCNEIC6",
+    "variant": "10-piece plastic (Tritan) set: 2x1.3, 2x3.2, 1x9.6 cup",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Rubbermaid-Brilliance-Container-10-Piece-1976520/dp/B01JCNEIC6"
+    ],
+    "notes": "Amazon title 'Rubbermaid Brilliance Food Storage Containers, Set of 5 (10 Pieces), BPA-Free, Leak-Proof, Clear'. Slug carries model 1976520; no listing naming 2183421 was found. B075KL7G8Z is another 10-piece listing (14.1 cups, shown unavailable)."
+  },
+  {
+    "post": "redtiger-f7np",
+    "dir": "posts/2026-10-redtiger-f7np-dash-cam",
+    "id": "redtiger-f7np",
+    "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+    "asin": "B098WVKF19",
+    "variant": "F7NP 4K front + 1080p rear (card option varies)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/dp/B098WVKF19"
+    ],
+    "notes": "Amazon title 'REDTIGER F7NP 4K Dash Cam Front Rear, STARVIS 2 Sensor, Free Card Included'. The card-size option (64/128 GB) is a variation on the listing and is not confirmed. Many F7NP bundle ASINs exist (hardwire kits B09XB4XGK9, B0CT5DZ6FY; 256GB card B0DBZ5LKRW). Tom's Guide's REDTIGER link (B0C6YBHKJ5) is the F7N Touch, not the F7NP."
+  },
+  {
+    "post": "black-friday-home-kitchen",
+    "dir": "posts/2026-10-black-friday-home-kitchen",
+    "id": "little-green",
+    "name": "Bissell Little Green (1400B)",
+    "asin": "B0016HF5GK",
+    "variant": "Little Green 1400B (basic)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK",
+      "https://www.tomsguide.com/home/bissells-viral-little-green-carpet-vacuum-is-just-usd99-in-this-post-prime-day-deal",
+      "https://www.tomsguide.com/home/home-appliances/say-goodbye-to-stains-bissells-little-green-carpet-cleaner-has-just-dropped-in-price-for-prime-day"
+    ],
+    "notes": "Amazon title 'BISSELL Little Green Multi-Purpose Portable Carpet Cleaner, 1400B'; several Tom's Guide deal posts link the same ASIN. HydroSteam is B0C9V4L32W, Max Pet B0CS1KZYH5."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "gb40",
+    "name": "NOCO Boost Plus GB40 jump starter",
+    "asin": "B015TKUPIC",
+    "variant": "NOCO Boost Plus GB40 (1000A), standard kit",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Same product as card 'noco-gb40'. Amazon title 'NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter'; Tom's Guide links the same ASIN as 'Noco Boost Plus GB40 1000A Battery Jump Starter'. Several newer GB40 ASINs (e.g. B0HP8VBQ4Y, B0HM6S7621) appear to be reseller or renewed listings; avoid."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "f7np",
+    "name": "REDTIGER F7NP 4K dash cam (front and rear)",
+    "asin": "B098WVKF19",
+    "variant": "F7NP 4K front + 1080p rear (card option varies)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/dp/B098WVKF19"
+    ],
+    "notes": "Same product as card 'redtiger-f7np'. Amazon title 'REDTIGER F7NP 4K Dash Cam Front Rear, STARVIS 2 Sensor, Free Card Included'. The card-size option (64/128 GB) is a variation on the listing and is not confirmed. Many F7NP bundle ASINs exist (hardwire kits B09XB4XGK9, B0CT5DZ6FY; 256GB card B0DBZ5LKRW). Tom's Guide's REDTIGER link (B0C6YBHKJ5) is the F7N Touch, not the F7NP."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "x8apex",
+    "name": "Fanttik X8 APEX cordless tire inflator",
+    "asin": "B09YD2D96V",
+    "variant": "X8 APEX base unit (not Deluxe or EV)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Fanttik-Inflator-Compressor-Inflation-Motorcycles-Yellow/dp/B09YD2D96V",
+      "https://www.tomsguide.com/best-picks/best-tire-inflators",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Amazon title 'Fanttik X8 APEX Tire Inflator Portable Air Compressor, 1 Min Fast Inflation' (slug says Yellow); two Tom's Guide guides link the same ASIN. Avoid X8 APEX EV (B0C36BBF7Y) and bundles. A Mechanical Gray variant is B0F191R1LZ."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "dustbuster",
+    "name": "Black+Decker Dustbuster AdvancedClean cordless hand vacuum (CHV1410L)",
+    "asin": "B006LXOJC0",
+    "variant": "CHV1410L",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/BLACK-DECKER-Dustbuster-Cordless-CHV1410L/dp/B006LXOJC0"
+    ],
+    "notes": "Amazon title names '(CHV1410L)'. It is also linked by third-party publishers' affiliate URLs in search results, but no allowed review site was found. Beware a 'BLACKY+DECKERR' knock-off listing (B0G266NCGN)."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "iottie",
+    "name": "iOttie dash and windshield phone mount",
+    "asin": "B076B27WP6",
+    "variant": "Easy One Touch Classic (4) dash & windshield mount",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/iOttie-Dashboard-Windshield-Samsung-Smartphone/dp/B076B27WP6",
+      "https://www.tomsguide.com/best-picks/best-car-phone-mounts"
+    ],
+    "notes": "Amazon title 'iOttie Easy One Touch Classic Dash & Windshield Smartphone Mount'; Tom's Guide links the same ASIN as Easy One Touch 4. Tom's Guide's other EOT4 link (B076B2HC1J) turns out to be the bike mount, so it is not used. iTap 3 MagSafe not researched."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "braun",
+    "name": "Braun 500-lumen rechargeable magnetic work light",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "The pick is the Harbor Freight Braun 500-lumen bar (item 59536), a Harbor Freight store product, and no Amazon listing for it was found. Keep a Harbor Freight link or pick a specific Amazon-sold light."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "dropstop",
+    "name": "Drop Stop car seat gap filler",
+    "asin": "B00BYH6C1E",
+    "variant": "Original, set of 2",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Drop-Stop-Original-Patented-Filler/dp/B00BYH6C1E"
+    ],
+    "notes": "Amazon result title 'Drop Stop - The Original Patented Car Seat Gap Filler (AS SEEN ON Shark Tank) - Set of 2...' (model DR001). Only Amazon evidence. dropstop.com had no readable Amazon link."
+  },
+  {
+    "post": "gifts-car-lovers",
+    "dir": "posts/2026-10-gifts-car-lovers",
+    "id": "subzero",
+    "name": "Hopkins SubZero snow brush and ice scraper (metal-joint telescoping model)",
+    "asin": "B0016GVKAG",
+    "variant": "SubZero 13054 Twist-lock telescoping snowbrush, 42 in",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Hopkins-13054-SubZero-Telescopic-Snowbrush/dp/B0016GVKAG"
+    ],
+    "notes": "Closest match: 'SUBZERO Twist-lock Snowbrush 42\"' with a telescoping steel handle. No listing confirms a 'metal joint'. Alternatives: 51\" Arctic Plow 18833 (B001DKQZCS, listed as discontinued), 60\" 80037 (B000KKLJSC). Model choice needs human check."
+  },
+  {
+    "post": "rubbermaid-brilliance",
+    "dir": "posts/2026-10-rubbermaid-brilliance-food-storage",
+    "id": "rubbermaid-brilliance",
+    "name": "Rubbermaid Brilliance Leak-Proof Food Storage Set (10-piece)",
+    "asin": "B01JCNEIC6",
+    "variant": "10-piece Tritan set: 2x1.3, 2x3.2, 1x9.6 cup",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Rubbermaid-Brilliance-Container-10-Piece-1976520/dp/B01JCNEIC6"
+    ],
+    "notes": "Container mix in the Amazon listing (two 1.3-cup, two 3.2-cup, one 9.6-cup) matches the pick, but the slug shows model 1976520, not 2183421; no source ties 2183421 to an ASIN. Only Amazon evidence."
+  },
+  {
+    "post": "black-friday-tech-car",
+    "dir": "posts/2026-10-black-friday-tech-car",
+    "id": "2000v2",
+    "name": "Jackery Explorer 2000 v2",
+    "asin": "B0DFG2WDQH",
+    "variant": "Explorer 2000 v2 alone (2042 Wh), no panels",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Jackery-Explorer-Portable-Generator-Emergencies/dp/B0DFG2WDQH",
+      "https://www.tomsguide.com/home/home-appliances/this-portable-power-station-is-a-storm-weather-essential-and-you-can-keep-your-tech-charged-during-a-blackout-for-usd100-less-ahead-of-prime-day"
+    ],
+    "notes": "Amazon title 'Jackery Explorer 2000 v2 Portable Power Station, 2042Wh, 2200W AC Output'; Tom's Guide links the same ASIN. Another Tom's Guide post links B0D62GMQ3F for the 2000 v2 (unconfirmed). Many bundle ASINs exist (2-pack B0FCSC7MKK, with panels B0FJXF9GJM); avoid."
+  },
+  {
+    "post": "dreo-heater",
+    "dir": "posts/2026-10-dreo-space-heater",
+    "id": "dreo-heater",
+    "name": "Dreo 1500W PTC Ceramic Space Heater (oscillating, with thermostat and remote)",
+    "asin": "B0B3MXGBVT",
+    "variant": "Atom One with remote, DR-HSH004-G, Starlight colour",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Dreo-70%C2%B0Oscillating-Electric-Thermostat-Portable/dp/B0B3MXGBVT"
+    ],
+    "notes": "Amazon title 'DREO Atom One Space Heater with Remote, 70°Oscillating... 1500W PTC Ceramic Heater'; ASIN lookup shows part DR-HSH004-G in Starlight. Silver variant B0BCWC6WYR. A black DR-HSH004 listing was mentioned but its ASIN was not confirmed. Only Amazon evidence."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "pop",
+    "name": "ThermoWorks ThermoPop 2 instant-read thermometer",
+    "asin": "B0DG6M1TMY",
+    "variant": "ThermoPop 2, Cayenne Pepper Red (probe length not stated in title)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/ThermoWorks-Recommended-Best-Value-Instant-Read-Thermometer/dp/B0DG6M1TMY",
+      "https://www.tomsguide.com/home/cook-the-perfect-thanksgiving-turkey-3-black-friday-meat-thermometer-deals-id-recommend-from-usd32"
+    ],
+    "notes": "Same product as card 'thermopop'. Amazon title names 'ThermoWorks ThermoPop 2 ... Cayenne Pepper Red'. Tom's Guide links a different ASIN, B0DC8KQC81, as 'ThermoWorks ThermoPop 2', but no Amazon result could confirm what B0DC8KQC81 is. The sources disagree, so this is low."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "owala",
+    "name": "Owala FreeSip 24 oz insulated bottle",
+    "asin": "B085DTZQNZ",
+    "variant": "24 oz, Very, Very Dark",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Owala-Insulated-Stainless-Steel-Push-Button-24-Ounce/dp/B085DTZQNZ",
+      "https://www.tomsguide.com/home/this-under-usd35-purchase-has-done-wonders-for-my-skin-heres-why-you-need-an-owala"
+    ],
+    "notes": "Amazon title 'Owala FreeSip Stainless Steel Water Bottle 24 oz Very, Very Dark'; Tom's Guide links the same ASIN. Colour chosen as the long-running core colour; every other colourway has its own ASIN."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "airtag",
+    "name": "Apple AirTag (2nd generation), single",
+    "asin": "B0GJTFXNRX",
+    "variant": "AirTag (2nd generation), 1-pack (MFE94LL/A)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Apple-AirTag-2nd-Generation-Precision/dp/B0GJTFXNRX"
+    ],
+    "notes": "Amazon title 'Apple AirTag (2nd Generation): Tracker...' (model MFE94LL/A, single unit). The 2nd-gen 4-pack is B0GJTXVN9Z (Tom's Guide links that one). No independent source for the 1-pack ASIN was found. B0CWXNS552 and B0933BVK6T are 1st-gen."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "kong",
+    "name": "KONG Classic dog toy (medium)",
+    "asin": "B000AYN7LU",
+    "variant": "Medium (red Classic), single",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/KONG-Classic-Durable-Natural-Rubber/dp/B000AYN7LU"
+    ],
+    "notes": "Amazon title 'KONG Classic Stuffable Dog Toy, Natural Rubber Chew, for Medium Dogs'. A 2-pack medium is B072MPKF5X; B0072ZY97G is another 'Medium, Red' listing with odd data. Only Amazon evidence."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "ocedar",
+    "name": "O-Cedar EasyWring spin mop and bucket",
+    "asin": "B00WSWGVZQ",
+    "variant": "Classic EasyWring round-bucket system, one mop head",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Cedar-EasyWring-Microfiber-Bucket-Cleaning/dp/B00WSWGVZQ",
+      "https://www.tomsguide.com/home/no-more-dirty-mop-water-this-simple-cleaning-tool-is-a-game-changer"
+    ],
+    "notes": "Same product as card 'ocedar-mop'. Amazon title 'O-Cedar EasyWring Microfiber Spin Mop, Bucket Floor Cleaning System, Red, Gray, Standard'; Tom's Guide links the same ASIN for the EasyWring system. Bundles: +1 refill B071G1J8TZ, +2 refills B07VWL357N, +3 refills B01MCVXNSG (Amazon titles only). RinseClean listings are separate."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "rubbermaid",
+    "name": "Rubbermaid Brilliance leak-proof food storage set",
+    "asin": "B01JCNEIC6",
+    "variant": "10-piece Tritan set",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Rubbermaid-Brilliance-Container-10-Piece-1976520/dp/B01JCNEIC6",
+      "https://www.tomsguide.com/home/clear-out-your-clutter-before-black-friday-experts-urge-shoppers-to-tackle-these-5-areas"
+    ],
+    "notes": "10-piece set from Amazon results only. Tom's Guide links a 44-piece Brilliance set as B07X64Z8RM, which fits '10 pieces or more', but no Amazon result confirmed that ASIN's title."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "chomchom",
+    "name": "ChomChom Roller pet hair remover",
+    "asin": "B00BAGTNAQ",
+    "variant": "Original roller (white)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Pet-Dog-Cat-Hair-Remover-Couch/dp/B00BAGTNAQ",
+      "https://amazon.com/gp/product/B00BAGTNAQ"
+    ],
+    "notes": "Amazon result titled 'ChomChom Roller Pet Hair Remover' (also indexed under /gp/product/). Black is B0C2FMZMHP; limited editions and bundles are separate. Only Amazon evidence."
+  },
+  {
+    "post": "gifts-under-50",
+    "dir": "posts/2026-10-gifts-under-50",
+    "id": "bedsure",
+    "name": "Bedsure heated electric throw (50 x 60 in)",
+    "asin": "B0BZR6YBHK",
+    "variant": "50x60 in, Grey, Preheat",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Bedsure-Heated-Blanket-Electric-Throw/dp/B0BZR6YBHK",
+      "https://www.tomsguide.com/wellness/sleep/amazon-has-deals-on-everything-you-need-to-boost-your-sleep-mood-and-energy-this-winter-sale-ends-today"
+    ],
+    "notes": "Amazon title 'Bedsure Heated Blanket Throw Blanket with Preheat Function... (50\"x60\", Grey)'; Tom's Guide links the same ASIN as 'Bedsure Electric Blanket'. White striped sibling with '8H Auto Off' in the title: B0BZYVG8NW."
+  },
+  {
+    "post": "furhaven-bed",
+    "dir": "posts/2026-10-furhaven-orthopedic-dog-bed",
+    "id": "furhaven-bed",
+    "name": "Furhaven Orthopedic Sofa Dog Bed (Large)",
+    "asin": "B01JAY07IQ",
+    "variant": "Plush & Suede Sofa, Large (36x27x6.5 in, up to 55 lb), Gray",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Furhaven-Plush-Suede-Sofa-Style-Orthopedic/dp/B01JAY07IQ"
+    ],
+    "notes": "Amazon title '...Orthopedic Dog Bed for Large/Medium Dogs... For Dogs Up to 55 lbs - Plush & Suede Sofa - Gray, Large'. Other Large colours: Espresso B01JAY0PZ6, Deep Pool B01JAY0N9Y. Gray chosen as base colour. Only Amazon evidence."
+  },
+  {
+    "post": "instant-pot-models",
+    "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "id": "duo",
+    "name": "Instant Pot Duo 6-Quart 7-in-1 (model 112-0170-01)",
+    "asin": "B00FLYWNYQ",
+    "variant": "Duo 6-quart 7-in-1, stainless (DUO60 / IP-DUO60)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Instant-Pot-Multi-Use-Programmable-Pressure/dp/B00FLYWNYQ",
+      "https://www.amazon.com/Instant-Pot-112-0170-01-6Qt-120V/dp/B097TSGT9G"
+    ],
+    "notes": "Same finding as the instant-pot-duo card: B097TSGT9G's slug carries 112-0170-01 but its page reportedly shows ASIN B00FLYWNYQ. No review-site link found. 8-quart (B01B1VC13K) and 3-quart (B06Y1YD5W7) are different."
+  },
+  {
+    "post": "instant-pot-models",
+    "dir": "posts/2026-10-instant-pot-duo-vs-duo-plus-vs-rio",
+    "id": "duoplus",
+    "name": "Instant Pot Duo Plus 6-Quart 9-in-1 (Whisper Quiet, model 112-0169-01)",
+    "asin": "B09MZTP44L",
+    "variant": "Duo Plus 6-quart WhisperQuiet, 112-0169-01",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Instant-Pot-Electric-Sterilizer-Stainless/dp/B09MZTP44L",
+      "https://www.tomsguide.com/home/home-appliances/instant-pot-duo-plus-whisper-quiet-multi-cooker-review",
+      "https://www.tomsguide.com/home/kitchen-dining/instant-pots-are-so-underrated-and-black-friday-is-the-best-time-to-get-one-save-up-to-41-percent-now"
+    ],
+    "notes": "Amazon listing 'Instant Pot 6 Qt 9-in-1 Electric Pressure Cooker, WhisperQuiet' gives model 112-0169-01; Tom's Guide's Duo Plus WhisperQuiet review and deal post link the same ASIN. Older non-WhisperQuiet Duo Plus is B01NBKTPTS."
+  },
+  {
+    "post": "meat-thermometer",
+    "dir": "posts/2026-10-meat-thermometer",
+    "id": "thermopop2",
+    "name": "ThermoWorks ThermoPop 2",
+    "asin": "B0DG6M1TMY",
+    "variant": "ThermoPop 2, Cayenne Pepper Red (probe length not stated in title)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/ThermoWorks-Recommended-Best-Value-Instant-Read-Thermometer/dp/B0DG6M1TMY",
+      "https://www.tomsguide.com/home/cook-the-perfect-thanksgiving-turkey-3-black-friday-meat-thermometer-deals-id-recommend-from-usd32"
+    ],
+    "notes": "Same product as card 'thermopop'. Amazon title names 'ThermoWorks ThermoPop 2 ... Cayenne Pepper Red'. Tom's Guide links a different ASIN, B0DC8KQC81, as 'ThermoWorks ThermoPop 2', but no Amazon result could confirm what B0DC8KQC81 is. The sources disagree, so this is low. Pick prefers the standard probe; the title does not state probe length (4.5 in standard, 8 in long), so check before linking."
+  },
+  {
+    "post": "tire-inflator",
+    "dir": "posts/2026-10-tire-inflator",
+    "id": "x8apex",
+    "name": "Fanttik X8 Apex (built-in battery, 150 psi)",
+    "asin": "B09YD2D96V",
+    "variant": "X8 APEX base unit (not Deluxe or EV)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Fanttik-Inflator-Compressor-Inflation-Motorcycles-Yellow/dp/B09YD2D96V",
+      "https://www.tomsguide.com/best-picks/best-tire-inflators",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Same product as card 'x8apex'. Amazon title 'Fanttik X8 APEX Tire Inflator Portable Air Compressor, 1 Min Fast Inflation' (slug says Yellow); two Tom's Guide guides link the same ASIN. Avoid X8 APEX EV (B0C36BBF7Y) and bundles. A Mechanical Gray variant is B0F191R1LZ."
+  },
+  {
+    "post": "winter-car-kit",
+    "dir": "posts/2026-10-winter-car-kit",
+    "id": "gb40",
+    "name": "NOCO Boost Plus GB40 jump starter (1000 A, lithium)",
+    "asin": "B015TKUPIC",
+    "variant": "NOCO Boost Plus GB40 (1000A), standard kit",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Same product as card 'noco-gb40'. Amazon title 'NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter'; Tom's Guide links the same ASIN as 'Noco Boost Plus GB40 1000A Battery Jump Starter'. Several newer GB40 ASINs (e.g. B0HP8VBQ4Y, B0HM6S7621) appear to be reseller or renewed listings; avoid."
+  },
+  {
+    "post": "jump-starter-sizes",
+    "dir": "posts/2026-10-noco-gb40-vs-gb50-vs-gooloo",
+    "id": "gb40",
+    "name": "NOCO Boost Plus GB40 (1000A)",
+    "asin": "B015TKUPIC",
+    "variant": "NOCO Boost Plus GB40 (1000A), standard kit",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/NOCO-GB40-UltraSafe-Lithium-Starter/dp/B015TKUPIC",
+      "https://www.tomsguide.com/best-picks/best-gifts-for-drivers"
+    ],
+    "notes": "Same product as card 'noco-gb40'. Amazon title 'NOCO Boost GB40 12V 1000A UltraSafe Portable Lithium Jump Starter'; Tom's Guide links the same ASIN as 'Noco Boost Plus GB40 1000A Battery Jump Starter'. Several newer GB40 ASINs (e.g. B0HP8VBQ4Y, B0HM6S7621) appear to be reseller or renewed listings; avoid."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "roku-select",
+    "name": "Roku Select Series 55-inch (2026)",
+    "asin": "B0FXZ21F3X",
+    "variant": "55-inch Select Series (2026), 4K QLED",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Roku-Smart-2026-Television-Streaming/dp/B0FXZ21F3X"
+    ],
+    "notes": "Amazon title 'Roku 55-Inch Select Series Smart TV 2026-4K (2160p) QLED TV' (model likely 55R5D5). Tom's Guide links B0FV57SCBF for 'Roku Select Series (2026)', but that is the 24-inch 24R2E5, so it does not count as a second source."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "lg-c6",
+    "name": "LG C6 OLED 55-inch (OLED55C6PUA)",
+    "asin": "B0GRKGQ8HH",
+    "variant": "55-inch OLED55C6PUA, TV only",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/LG-55-Inch-Processor-Upscaling-Compatible/dp/B0GRKGQ8HH"
+    ],
+    "notes": "Amazon titles for this ASIN name 'OLED55C6PUA, 2026' (shown as currently unavailable in one snapshot). Another 55\" C6 listing, B0GS4231WF, also exists. Tom's Guide only links the 42\" (B0H3DGXKKQ) and 65\" (B0GRK5D3RW). Most other results are bundles; avoid."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "sony-bravia7",
+    "name": "Sony Bravia 7 II 55-inch (K55XR70M2)",
+    "asin": "B0H3DZGCNN",
+    "variant": "55-inch K-55XR70M2",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Sony-BRAVIA-55-Inch-Google-Gemini/dp/B0H3DZGCNN"
+    ],
+    "notes": "Amazon title 'Sony BRAVIA 7 II 55-Inch True RGB 4K HDR Google TV with Gemini'; ASIN lookup gives model K55XR70M2 and showed it currently unavailable. Tom's Guide only links the 75\" (B0GZ93YW9F). Do not use 2024 K-55XR70 listings (B0CVNXYYWL)."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "samsung-s90h",
+    "name": "Samsung S90H OLED 55-inch (QN55S90HAEXZA)",
+    "asin": "B0GPYDMBYX",
+    "variant": "55-inch QN55S90HAEXZA",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Samsung-55-Inch-Class-Smart-Model/dp/B0GPYDMBYX"
+    ],
+    "notes": "Amazon title 'Samsung 55-Inch Class S90H Series, OLED, 4K, Smart TV, 2026 Model'; ASIN lookup gives model QN55S90HAEXZA. Tom's Guide's S90H links are the 42\" (B0GPYHR94N) and 65\" (B0GPY4Y2VF), not the 55\"."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "tcl-qm7l",
+    "name": "TCL QM7L 55-inch (55QM7L)",
+    "asin": "B0GPS3SYT3",
+    "variant": "55-inch 55QM7L",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/TCL-SQD-Mini-LED-55QM7L-Brightness-Television/dp/B0GPS3SYT3",
+      "https://www.tomsguide.com/tvs/4k-tvs/hisense-u7sg-vs-tcl-qm7l-we-tested-both-mid-range-tvs-and-one-is-better-for-most-people",
+      "https://www.tomsguide.com/tvs/4k-tvs/tcl-qm8l-vs-qm7l-which-sqd-mini-led-tv-tested-better-in-our-lab"
+    ],
+    "notes": "Amazon title 'TCL 55 Inch QM7L Series SQD-Mini LED QLED 4K Smart Google TV 55QM7L'; two Tom's Guide comparisons link the same ASIN. 65\" is B0GPT7DGDR, 75\" B0GQ9XPQ18."
+  },
+  {
+    "post": "smart-tv-privacy",
+    "dir": "posts/2026-11-tvs-with-the-fewest-ai-features",
+    "id": "apple-tv",
+    "name": "Apple TV 4K (new model, $299)",
+    "asin": "B0HMX69N2K",
+    "variant": "Apple TV 4K (4th gen, 2026), Black",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Apple-generation-Far-field-theater-surround/dp/B0HMX69N2K",
+      "https://www.tomsguide.com/entertainment/streaming-devices/apple-tv-4k-4th-gen-review"
+    ],
+    "notes": "Amazon title 'Apple TV 4K (4th generation)'; Tom's Guide's review links the same ASIN. No storage tier is shown in either title; confirm the configuration on the listing before linking. 2022 model is B0BN47SRRH."
+  },
+  {
+    "post": "heated-blanket-recalls",
+    "dir": "posts/2026-11-heated-blanket-recalls-2026",
+    "id": "sunbeam-luxe",
+    "name": "Sunbeam Royal Luxe Microplush Heated Throw (50 x 60 in)",
+    "asin": "B008BF2OAK",
+    "variant": "Royal Luxe Microplush 50x60, Dove Grey",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Sunbeam-Personal-Cozy-Warm-Adjustable-Settings/dp/B008BF2OAK"
+    ],
+    "notes": "Amazon title '...Royal Luxe Microplush Heated Blanket, 4 Heat Settings, 4-Hour Auto Shut-Off... Dove Grey Color, 50\" x 60\"'. Pick names no colour; Dove Grey used as a neutral default. Other colours are separate ASINs (Grey Rodeen Plaid B01LRGWMSI, Beige B0BZT9CDZQ). Only Amazon evidence."
+  },
+  {
+    "post": "heated-blanket-recalls",
+    "dir": "posts/2026-11-heated-blanket-recalls-2026",
+    "id": "bedsure-throw",
+    "name": "Bedsure Heated Blanket Electric Throw (50 x 60 in)",
+    "asin": "B0BZR6YBHK",
+    "variant": "50x60 in, Grey, Preheat",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Bedsure-Heated-Blanket-Electric-Throw/dp/B0BZR6YBHK",
+      "https://www.tomsguide.com/wellness/sleep/amazon-has-deals-on-everything-you-need-to-boost-your-sleep-mood-and-energy-this-winter-sale-ends-today"
+    ],
+    "notes": "Same product as the gifts-under-50 Bedsure card. Pick says to read the auto-off in the title; this Grey listing's title states '6 Time Settings (Up to 10H)' and does not state the auto-off. Amazon title 'Bedsure Heated Blanket Throw Blanket with Preheat Function... (50\"x60\", Grey)'; Tom's Guide links the same ASIN as 'Bedsure Electric Blanket'. White striped sibling with '8H Auto Off' in the title: B0BZYVG8NW."
+  },
+  {
+    "post": "heated-blanket-recalls",
+    "dir": "posts/2026-11-heated-blanket-recalls-2026",
+    "id": "beautyrest-marselle",
+    "name": "Beautyrest Marselle Oversized Faux Fur Heated Throw (50 x 70 in)",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "No listing named 'Marselle' was found. The closest 50x70 Beautyrest faux-fur throws are B075FN8XJT (brown) and B09JKF6Z86 (blush/grey), but neither title says Marselle, so it may be a different product. Needs a model number from the maker or retailer."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "sonos-era-100-sl",
+    "name": "Sonos Era 100 SL",
+    "asin": "B0GJ78ZKF6",
+    "variant": "Era 100 SL, Black, single",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Sonos-Era-100-Microphone-Free-Bluetooth/dp/B0GJ78ZKF6",
+      "https://www.tomsguide.com/audio/smart-speakers/i-found-the-perfect-use-for-sonos-new-era-100-sl-speakers-and-i-couldnt-be-happier"
+    ],
+    "notes": "Amazon title 'Sonos Era 100 SL Compact, Microphone-Free Speaker - Black'; Tom's Guide links the same ASIN. 2-packs: White B0GR5VSXS5, Black B0GR5SG2YF. A single White ASIN was not found."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "homepod-mini-2",
+    "name": "Apple HomePod mini (2nd generation)",
+    "asin": "B0HQF7CCJW",
+    "variant": "HomePod mini 2, White (MGHK4AM/A)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Apple-HomePod-mini-2-White/dp/B0HQF7CCJW"
+    ],
+    "notes": "Amazon title 'Apple HomePod mini 2 - White'; ASIN lookup ties it to model MGHK4AM/A. Midnight is B0HQ6BPFMH. No review-site link found (Tom's Guide only links the 1st-gen mini). White used as the base colour."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "google-home-speaker",
+    "name": "Google Home Speaker",
+    "asin": "",
+    "variant": "n/a",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "No Amazon listing titled 'Google Home Speaker' was found. A 'Google - Premium Audio Speaker - 360-Degree Sound (Porcelain)' listing (B0H6GS482L) exists, but its title does not say Google Home Speaker or mention Gemini, so the pick's rule excludes it."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "echo-dot-max",
+    "name": "Amazon Echo Dot Max (2025)",
+    "asin": "B0D6SX8VLQ",
+    "variant": "Echo Dot Max (2025), Graphite",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Amazon-Echo-Dot-Max-Alexa-Speaker-Graphite-Amazon/dp/B0D6SX8VLQ",
+      "https://www.tomsguide.com/audio/smart-speakers/amazon-echo-dot-max-review"
+    ],
+    "notes": "Amazon title 'Amazon Echo Dot Max' (Graphite in URL); Tom's Guide review and several guides link the same ASIN. Glacier White B0D6SZKGT4, Amethyst B0D6V1H9PM."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "echo-studio-2025",
+    "name": "Amazon Echo Studio (2025)",
+    "asin": "B0DMQ1QMVV",
+    "variant": "Echo Studio (2025), Graphite",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Amazon-Echo-Studio-Alexa-Speaker-Graphite-Amazon/dp/B0DMQ1QMVV",
+      "https://www.tomsguide.com/audio/smart-speakers/amazon-echo-studio-2025-review"
+    ],
+    "notes": "Amazon title 'Amazon Echo Studio' (Graphite in URL); Tom's Guide's 2025 review links the same ASIN. The 2019 model is B07G9Y3ZMC."
+  },
+  {
+    "post": "smart-speakers-alexa-plus",
+    "dir": "posts/2026-11-smart-speakers-alexa-plus-cost-and-alternatives",
+    "id": "sonos-era-100",
+    "name": "Sonos Era 100",
+    "asin": "B0BW34LCB8",
+    "variant": "Era 100, Black, single",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Sonos-Era-100-Wireless-Speaker/dp/B0BW34LCB8",
+      "https://www.tomsguide.com/us/best-smart-speakers,review-4480.html"
+    ],
+    "notes": "Amazon title 'Sonos Era 100 - Black - Wireless, Alexa Enabled Smart Speaker' (E10G1US1BLK); Tom's Guide links the same ASIN. 2-pack B0DVSSL51C; avoid renewed B0C3186LP9."
+  },
+  {
+    "post": "heating-cost-per-night",
+    "dir": "posts/2026-11-heated-pad-vs-electric-blanket-vs-space-heater-cost",
+    "id": "sunbeam-pad",
+    "name": "Sunbeam Restful Quilted Heated Mattress Pad, Queen (dual controllers)",
+    "asin": "B0D2DQTHLD",
+    "variant": "Restful Quilted, Queen, dual controllers (non-Wi-Fi)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Sunbeam-Electric-Mattress-Controller-Selectable/dp/B0D2DQTHLD"
+    ],
+    "notes": "Amazon title 'Sunbeam Restful Quilted Heated Mattress Pad, Queen 80 x 60'; listing summary mentions digital dual controllers. B0088AHKKW is another Queen Restful listing. Whether this is the non-Wi-Fi version is not confirmed. Only Amazon evidence."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "eufy-e340",
+    "name": "eufy Video Doorbell E340",
+    "asin": "B0CD7NT4Y9",
+    "variant": "Video Doorbell E340 (T8214), base unit",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/eufy-Security-Doorbell-Delivery-Compatible/dp/B0CD7NT4Y9",
+      "https://www.tomsguide.com/home/smart-home/this-eufy-smart-doorbell-lis-usd70-off-for-black-friday-and-its-the-perfect-way-to-thwart-porch-pirates"
+    ],
+    "notes": "Amazon title 'eufy Security Video Doorbell E340, Dual Cameras, 2K FHD, 8GB Local Storage'; two Tom's Guide posts link the same ASIN. Colour is not shown in the title. Bundles: with chime B0F5914CT1, rechargeable bundle B0DDTSXJDV, HomeBase 3 B0CJWZCJ1H."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "reolink-doorbell-poe",
+    "name": "Reolink Video Doorbell PoE",
+    "asin": "B0B7S1HMPC",
+    "variant": "Video Doorbell PoE with Chime V2 (D340P not confirmed)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/REOLINK-Doorbell-Security-Diagonal-Detection/dp/B0B7S1HMPC"
+    ],
+    "notes": "Amazon title 'REOLINK Video Doorbell PoE 2K Wired Outdoor Security Camera with Chime V2'. No listing naming D340P was found, and reolink.com's D340P page has no Amazon link. Its title says 2K rather than 2K+, so it may be an older revision. Needs a check."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "aqara-g410",
+    "name": "Aqara Doorbell Camera Hub G410",
+    "asin": "B0F6CJ93GS",
+    "variant": "Doorbell Camera Hub G410, Black",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Aqara-Doorbell-Wireless-Supports-Assistant/dp/B0F6CJ93GS"
+    ],
+    "notes": "Amazon title 'Aqara Smart Doorbell Camera G410 with Chime, HomeKit Secure Video, Black'. Gray is B0F6CJF9M9. aqara.com links only to Aqara's Amazon store page, not a product ASIN. Listings named 'Doorbell Camera Hub G410' (B0HR87BTPJ, B0HJRPQ24C) look like third-party listings; avoid."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "tapo-d225",
+    "name": "TP-Link Tapo D225",
+    "asin": "B0D8MKQ5RC",
+    "variant": "Tapo D225 (2K+ battery/wired, with chime)",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Tapo-Doorbell-Ultra-Wide-Detection-D225/dp/B0D8MKQ5RC"
+    ],
+    "notes": "Amazon title 'Tapo 2K+ Wired or Battery Powered Smart Video Doorbell with Chime, D225'. Tom's Guide's Tapo doorbell link (B0F5M75XCV) is the D205, so it does not count. Renewed D225 is B0H8Q2CTL6; avoid."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "ring-battery-doorbell-2k",
+    "name": "Ring Battery Doorbell 2K",
+    "asin": "B0G2D1R15Q",
+    "variant": "Battery Doorbell 2K (newest model, 2026), colour not confirmed",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Ring-Battery-Doorbell-newest-Built/dp/B0G2D1R15Q",
+      "https://www.amazon.com/clp/B0G2D1R15Q",
+      "https://www.tomsguide.com/home/smart-home/these-19-early-black-friday-amazon-devices-are-up-to-60-percent-off-shop-ring-solar-pathlight-alexa-tablet-11-and-blink-mini-starting-at-usd12"
+    ],
+    "notes": "Amazon page for this ASIN is titled 'Ring Battery Doorbell 2K (newest model)'; Tom's Guide links the same ASIN as 'Ring Battery Doorbell'. Its label does not say 2K, but the ASIN resolves to the 2K model. Colour is not shown. B0FHJ7TKZM is another 'newest' Battery Doorbell listing (maybe a colour variant). Not B0BZWRSRWV (older model) and not the 2K Plus."
+  },
+  {
+    "post": "doorbell-no-subscription",
+    "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+    "id": "nest-doorbell-battery",
+    "name": "Google Nest Doorbell (battery)",
+    "asin": "B09GZQ1MHC",
+    "variant": "Nest Doorbell (battery), Snow",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Google-GWX3T-Nest-Doorbell-Battery/dp/B09GZQ1MHC",
+      "https://www.tomsguide.com/deals/our-favorite-video-doorbell-is-now-just-dollar119-in-this-early-prime-day-deal",
+      "https://www.tomsguide.com/deals/these-nest-prime-day-deals-are-so-good-i-just-got-one-doorbells-cameras-and-more"
+    ],
+    "notes": "Amazon title 'Google Nest Doorbell (Battery) - Snow' (GWX3T); two Tom's Guide posts link the same ASIN. Ash is B09FCLPLWX. Snow chosen as base colour. Wired 3rd gen (B0FN7FK9G4) is a different product."
+  },
+  {
+    "post": "kindle-models",
+    "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "id": "kindle-paperwhite-2026",
+    "name": "Kindle Paperwhite (2026, 16 GB)",
+    "asin": "B0GHTD6Q5C",
+    "variant": "Paperwhite (2026), 16 GB, Graphite, base (ad-supported) config",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Kindle-Paperwhite%C2%A0-Graphite-16GB/dp/B0GHTD6Q5C",
+      "https://www.tomsguide.com/computing/e-readers/amazon-just-launched-new-kindles-how-to-save-usd68-on-your-preorder"
+    ],
+    "notes": "Amazon title 'Kindle Paperwhite' (slug Graphite-16GB); Tom's Guide's 2026 launch post links the same ASIN as the 7\" Paperwhite. Tom's Guide says the base 16GB model comes with ads. Without-ads Graphite is B0H961CQ8T (Amazon only). Avoid the 2024 model B0CFPJYX7P and Kindle+ bundles (B0CTMS2G6S)."
+  },
+  {
+    "post": "kindle-models",
+    "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "id": "kindle-2026",
+    "name": "Kindle (2026, 6-inch)",
+    "asin": "B0FXJ9PGSJ",
+    "variant": "Kindle (2026), 6-inch, 16 GB, Graphite",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Kindle-Graphite-16GB/dp/B0FXJ9PGSJ",
+      "https://www.tomsguide.com/computing/e-readers/amazon-kindle-2026-review"
+    ],
+    "notes": "Amazon title 'Kindle' (slug Graphite-16GB); Tom's Guide's 2026 review links the same ASIN as 'Amazon Kindle 2026 (16GB)'. The ad status of this listing is not stated (probably the base, ad-supported config). Ube is B0FXJ8VZ39. The aluminum 32 GB no-ads option in the pick was not researched."
+  },
+  {
+    "post": "kindle-models",
+    "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "id": "kindle-colorsoft-2026",
+    "name": "Kindle Colorsoft (2026, 16 GB)",
+    "asin": "B0GHT5P56N",
+    "variant": "Colorsoft (2026), 16 GB, Graphite",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Kindle-Colorsoft%C2%A0-Graphite-16GB/dp/B0GHT5P56N",
+      "https://www.tomsguide.com/computing/e-readers/amazon-just-launched-new-kindles-how-to-save-usd68-on-your-preorder"
+    ],
+    "notes": "Amazon title 'Kindle Colorsoft' (slug Graphite-16GB); Tom's Guide's 2026 launch post links the same ASIN as the 7\" Kindle Colorsoft. Avoid older 16GB Colorsoft listings B0CGVSKR1G and B0FJBNPJ9P, and the Kindle+ bundle B0CTMSVZ59."
+  },
+  {
+    "post": "kindle-models",
+    "dir": "posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo",
+    "id": "kindle-paperwhite-signature-2026",
+    "name": "Kindle Paperwhite Signature Edition (2026, 32 GB)",
+    "asin": "B0GV621HD7",
+    "variant": "Paperwhite Signature Edition (2026), 32 GB, Seaglass Green",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Kindle-Paperwhite-Signature-Edition-Seaglass-Green-32GB/dp/B0GV621HD7",
+      "https://www.tomsguide.com/computing/e-readers/kindle-paperwhite-signature-edition-2026-review",
+      "https://www.tomsguide.com/computing/e-readers/amazon-just-launched-new-kindles-how-to-save-usd68-on-your-preorder"
+    ],
+    "notes": "Amazon title 'Kindle Paperwhite Signature Edition|Seaglass Green|32GB'; Tom's Guide's review and launch post link the same ASIN. A Graphite version exists, but its ASIN was not confirmed. Avoid the 2024 Signature B0CFPHPHYC and Kindle+ bundle B0CTLZ8LSR."
+  },
+  {
+    "post": "black-friday-vs-cyber-monday",
+    "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "id": "kitchenaid-artisan",
+    "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+    "asin": "B076B1VM3W",
+    "variant": "KSM150PS Artisan 5-qt, Ink Blue (KSM150PSIB)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/KitchenAid%C2%AE-Artisan-Quart-Stand-KSM150PSIB/dp/B076B1VM3W",
+      "https://www.tomsguide.com/best-picks/best-stand-mixers"
+    ],
+    "notes": "Amazon title 'KitchenAid Artisan, 5-Qt Tilt Head Stand Mixer, KSM150PS, Ink Blue'; Tom's Guide links the same ASIN. The line has no single base colour, so this is the colour with two sources. Every other colour is its own ASIN (e.g. Cherry Tomato B09NCKQCS5, Juniper B0D1DNF2F6)."
+  },
+  {
+    "post": "black-friday-vs-cyber-monday",
+    "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "id": "little-green",
+    "name": "Bissell Little Green (1400B)",
+    "asin": "B0016HF5GK",
+    "variant": "Little Green 1400B (basic)",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Bissell-Multi-Purpose-Portable-Upholstery-1400B/dp/B0016HF5GK",
+      "https://www.tomsguide.com/home/bissells-viral-little-green-carpet-vacuum-is-just-usd99-in-this-post-prime-day-deal",
+      "https://www.tomsguide.com/home/home-appliances/say-goodbye-to-stains-bissells-little-green-carpet-cleaner-has-just-dropped-in-price-for-prime-day"
+    ],
+    "notes": "Same product as card 'little-green'. Amazon title 'BISSELL Little Green Multi-Purpose Portable Carpet Cleaner, 1400B'; several Tom's Guide deal posts link the same ASIN. HydroSteam is B0C9V4L32W, Max Pet B0CS1KZYH5."
+  },
+  {
+    "post": "black-friday-vs-cyber-monday",
+    "dir": "posts/2026-11-black-friday-vs-cyber-monday-2026-which-day",
+    "id": "pro3",
+    "name": "Apple AirPods Pro 3",
+    "asin": "B0FQFB8FMG",
+    "variant": "AirPods Pro 3",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Apple-Cancellation-Translation-Headphones-High-Fidelity/dp/B0FQFB8FMG",
+      "https://www.tomsguide.com/buying-guide/best-airpods",
+      "https://www.tomsguide.com/audio/airpods/airpods-pro-3-just-plummeted-to-usd179-usd70-off-apples-best-earbuds"
+    ],
+    "notes": "Amazon title 'Apple AirPods Pro 3 Wireless Earbuds...Heart Rate Sensing...'; several Tom's Guide pages link the same ASIN. Renewed is B0FRB8FXK5; avoid."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "pixel-11-pro",
+    "name": "Google Pixel 11 Pro (256 GB, unlocked)",
+    "asin": "B0H832JH4Z",
+    "variant": "Pixel 11 Pro, 256 GB, unlocked, Obsidian",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Google-Pixel-Pro-Smartphone-Intelligence/dp/B0H832JH4Z"
+    ],
+    "notes": "Amazon title 'Google Pixel 11 Pro - Unlocked Smartphone, Gemini - 256 GB - Obsidian' (base colour). Only Amazon evidence for Obsidian. HIGH alternative: Olive 256 GB B0H82XM1S2, confirmed by the Amazon title plus a Tom's Guide link (tomsguide.com/phones/google-pixel-phones/the-new-pixel-11-pro-is-good-but-boring-...). Avoid gift-card bundles (B0HBF...)."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "galaxy-z-flip8",
+    "name": "Samsung Galaxy Z Flip8 (256 GB, unlocked)",
+    "asin": "B0H12FP315",
+    "variant": "Z Flip8, 256 GB, unlocked, Graphite",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/dp/B0H12FP315",
+      "https://www.tomsguide.com/phones/samsung-phones/samsung-galaxy-z-flip-8-review",
+      "https://www.tomsguide.com/best-picks/best-samsung-phone"
+    ],
+    "notes": "Amazon title 'Samsung Galaxy Z Flip8 Unlocked Android Smartphone, 256GB Graphite'; several Tom's Guide pages link the same ASIN. Avoid gift-card bundle, Buds4 bundle and renewed variants (B0H12MGRVF, B0H12NWT53, B0HKTJKT19)."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "galaxy-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra (256 GB, unlocked)",
+    "asin": "B0G4SWDH8P",
+    "variant": "S26 Ultra, 256 GB, unlocked US, Black",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Samsung-Unlocked-Smartphone-Charging-Warranty/dp/B0G4SWDH8P"
+    ],
+    "notes": "Amazon title 'Samsung Galaxy S26 Ultra, Unlocked Android Smartphone, 256GB, Black'. Tom's Guide's S26 Ultra link (B0GR1TZX7C) is a Latin American SM-S948BZ import, not the US model, so it was rejected. White 256GB B0G4SX9GDX, Sky Blue B0G4SX6C1G (Amazon only)."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "pixel-11",
+    "name": "Google Pixel 11 (256 GB, unlocked)",
+    "asin": "B0H8363LHL",
+    "variant": "Pixel 11, 256 GB, unlocked, Pistachio",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Google-Pixel-Smartphone-Intelligence-protection/dp/B0H8363LHL"
+    ],
+    "notes": "Amazon title 'Google Pixel 11 - Unlocked Smartphone, Gemini - 256 GB - Pistachio'. No plain (non-bundle) Obsidian 256 GB listing was found; Obsidian and Frost appeared only as gift-card bundles (B0HBFZDB3F, B0HBF7RD17). Hibiscus is B0H8339LG7. Only Amazon evidence."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "galaxy-s26-fe",
+    "name": "Samsung Galaxy S26 FE (128 GB, unlocked)",
+    "asin": "B0H7SLXZPB",
+    "variant": "S26 FE, 128 GB, unlocked, Graphite",
+    "confidence": "low",
+    "evidence": [
+      "https://www.amazon.com/Samsung-Galaxy-Unlocked-Graphite-Battery/dp/B0H7SLXZPB"
+    ],
+    "notes": "Amazon title 'Samsung Galaxy S26 FE, Unlocked Phone, Graphite, 128GB' (base colour), Amazon only. HIGH alternative: Blueberry 128 GB B0H7STX68V, confirmed by the Amazon title plus Tom's Guide (tomsguide.com/phones/black-friday-phone-deals-2026). Avoid gift-card bundle variants (B0HFB3YBDG, B0HFB9K6FG)."
+  },
+  {
+    "post": "phone-ai-bundle-deals",
+    "dir": "posts/2026-11-pixel-galaxy-black-friday-ai-subscription-bundles",
+    "id": "pixel-10-pro",
+    "name": "Google Pixel 10 Pro (128 GB, unlocked)",
+    "asin": "B0FFTT2J6N",
+    "variant": "Pixel 10 Pro, 128 GB, unlocked, Obsidian",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Google-Pixel-Pro-Smartphone-Fast-Charging/dp/B0FFTT2J6N",
+      "https://www.tomsguide.com/phones/google-pixel-phones/the-google-pixel-10-pro-is-the-smartest-phone-weve-ever-tested-and-its-back-to-its-lowest-price-ever-on-amazon",
+      "https://www.tomsguide.com/phones/google-pixel-phones/ive-been-using-the-pixel-10-pro-for-6-months-heres-what-i-love-and-hate"
+    ],
+    "notes": "Amazon title 'Google Pixel 10 Pro - Unlocked Smartphone with Gemini - Obsidian - 128 GB'; Tom's Guide links the same ASIN as 'Google Pixel 10 Pro (Unlocked, 128GB)'. Moonstone 128 GB is B0FFTS7G7R."
+  }
+]
