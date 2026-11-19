@@ -143,7 +143,8 @@
 | TVs With the Fewest AI Features 2026 | 크롤링됨 - 현재 색인 생성 안 됨 (마지막 크롤링 11/2) | 색인 요청 완료 |
 | Kindle vs Paperwhite vs Colorsoft vs Kobo 2026 | 발견됨 - 현재 색인 생성 안 됨 (처음 조회 땐 "알 수 없는 URL") | 실시간 테스트 통과 |
 | Echo vs HomePod vs Nest vs Sonos 2026 | 발견됨 - 현재 색인 생성 안 됨 | 요청 |
-| Video Doorbells, Pixel vs Galaxy AI Bundles | 미확인 | 11/20 요청 |
+| Video Doorbells Without a Subscription 2026 | 크롤링됨 - 현재 색인 생성 안 됨 (마지막 크롤링 11/12), 실시간 테스트 통과 | 색인 요청 |
+| Pixel vs Galaxy Black Friday AI Bundles 2026 | 구글이 알 수 없는 URL (11/18 발행), 실시간 테스트 통과 | 색인 요청 |
 
 **판단:**
 - 기술 문제는 없습니다. 실시간 테스트에서 크롤링·색인 허용, 페이지 가져오기 성공, 영상 감지로 나왔습니다.
