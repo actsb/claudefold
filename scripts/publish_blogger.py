@@ -322,6 +322,12 @@ POSTS = {
         "slug_title": "Pixel vs Galaxy Black Friday AI Bundles 2026",
         "labels": ["Phones", "Black Friday", "AI", "Price Check", "Comparison", "Amazon Finds"],
     },
+    "fake-deal-check": {
+        "dir": "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+        "title": "Is That Black Friday Deal Real? How to Check a Sale Price in 2026 (With Our Price Lines)",
+        "slug_title": "Is That Black Friday Deal Real 2026",
+        "labels": ["Black Friday", "Deals", "Price Check", "Save Money", "How To", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

@@ -955,7 +955,7 @@
    "key": "fake-deal-check",
    "slug": "how-to-tell-if-a-black-friday-deal-is-real",
    "date": "2026-11-20",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "How to tell if a sale price is real",
@@ -979,7 +979,9 @@
    "hook": "Consumers' Checkbook found 21 of 25 US chains ran 'sale' prices more than half the time; Amazon and Chrome now show their own history, so our edge is cross-store and dated",
    "picks": "the five-minute check (list price vs street price, cross-store comparison, price-history tools and their limits, return windows, model-number traps); 4-6 products from Price Check as worked examples with good/great lines; a printable checklist",
    "cluster": "deals",
-   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)",
+   "url": "https://acts39.blogspot.com/2026/11/is-that-black-friday-deal-real-2026.html",
+   "dir": "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real"
   },
   {
    "key": "robot-vacuums-no-camera",
