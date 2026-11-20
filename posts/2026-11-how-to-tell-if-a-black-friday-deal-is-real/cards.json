@@ -1,32 +1,222 @@
 {
   "category": "generic",
-  "buy_title": "The exact is the deal real to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The six worked examples, and what to check on each listing",
+  "buy_kicker": "Our top pick, and our last word",
+  "buy_total": "The buttons show today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Our price lines come from US retailers other than Amazon on the dates named.",
   "cards": [
     {
-      "id": "fake-deal-check",
+      "id": "pro3",
       "category": "generic",
-      "name": "How to tell if a sale price is real",
-      "short": "is the deal real",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "Apple AirPods Pro 3",
+      "short": "Apple AirPods Pro 3",
+      "badge": "Top pick · a real deal under a fake “reg” price",
+      "chip": "ANC · heart rate · USB-C",
+      "art": {
+        "style": "stem",
+        "case": "#F4F4F4",
+        "lid": "#E4E4E4",
+        "bud": "#FAFAFA",
+        "accent": "#222"
+      },
+      "photo": {
+        "file": "brand/photos/apple-airpods-pro-3.jpg",
+        "kind": "brand",
+        "credit": "Photo: Burkhard Mücke, CC BY-SA 4.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Airpods_Modell_Pro_3.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$179.99 at Target (its “reg” $249.99 is 99¢ above Apple's own $249) on Nov 20, 2026; Walmart and Best Buy about $199.99. 2025 holiday low $219.99; 2026 low $169.99 at Walmart on June 15 (Slickdeals).",
+      "buy_if": "you use an iPhone and want noise cancelling: the reference price is padded, but $179.99 is still $40 under last year's holiday low, and Target pays back its own drops until Dec 24.",
+      "skip_if": "you use Android (Sony or Pixel Buds fit better), or the “deal” is on AirPods Pro 2 or AirPods 4, which are different, older or open-fit models.",
+      "owners": "Owners and reviewers praise the noise cancelling and heart-rate sensing (9to5Mac, Dec 2025); complaints are fit (Apple Community, SoundGuys, autumn 2025) and static with noise cancelling on (MacRumors, Oct 29 and Dec 18, 2025).",
+      "cta": "https://www.amazon.com/dp/B0FQFB8FMG?tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Earbuds",
+        "pick": "AirPods Pro 3 (the 2025 model with heart-rate sensing), not AirPods Pro 2 or AirPods 4",
+        "check": "The box and listing say AirPods Pro 3 and “heart rate sensing”; sold by Amazon.com or Apple; $190 or less is our good line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "redtiger-f7np",
+      "category": "generic",
+      "name": "REDTIGER F7NP 4K Front and Rear Dash Cam",
+      "short": "REDTIGER F7NP",
+      "badge": "Car · the crossed-out price moves; the real one doesn't",
+      "chip": "4K front · rear camera · Wi-Fi app",
       "art": {
         "shape": "tile",
-        "label": "is the deal real"
+        "label": "REDTIGER F7NP"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=black+friday+deals&tag=verdictpicks-20",
+      "price": "$93.49 without a card and $109.99 with a 128GB card at REDTIGER's store (crossed out $129.99 and $169.99) on Nov 20, 2026; a $157.13 “regular” price in Nov 2025 and Walmart's “was $199.99” (search result).",
+      "buy_if": "you want front and rear video under $110: REDTIGER's own Nov 19–30 sale puts it inside our lines, and last year's best was about $99.99 with a code.",
+      "skip_if": "you want true 4K: REDTIGER's own May 2026 buying guide lists the F7NP as “4K (Upscaled)”, and DashCamTalk says the F7N family's 4K is interpolated.",
+      "owners": "DashCamTalk rates daytime front video well and the rear camera and app as weak, with rare firmware updates; Walmart buyers praise the easy install (page seen Nov 2026).",
+      "cta": "https://www.amazon.com/s?k=REDTIGER+F7NP+4K+dash+cam+front+rear&tag=verdictpicks-20",
+      "video": "zIEPnJMKCjQ",
+      "video_title": "REDTIGER F7NP Dual Dash Cam Review & Driving Video",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A driving test of the exact F7NP; the title came from a search-result URL.",
+      "buy": {
+        "tier": "Car",
+        "pick": "The F7NP front-and-rear kit, not the front-only F7NS or the older F7N; decide whether you want the 128GB card bundle before comparing prices",
+        "check": "The listing names F7NP and says which card size is in the box (32GB or 128GB); $110 or less with a 128GB card is our line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "little-green",
+      "category": "generic",
+      "name": "Bissell Little Green (1400B)",
+      "short": "Bissell Little Green 1400B",
+      "badge": "Cleaning · the “was” price is real; the cheap one is another model",
+      "chip": "Spray + suck · 48 oz tank · corded",
+      "art": {
+        "shape": "tile",
+        "label": "Bissell Little Green 1400B"
+      },
+      "price": "$94.99 at Bissell (was $129.99, a price Bissell charged on Oct 29 and Nov 16) on Nov 20, 2026; Walmart's 1400B $95.99–$110 and out of stock (search results). The $75 Walmart deals are the 3369, a different model.",
+      "buy_if": "you clean pet accidents, kid spills and car seats: $94.99 at Bissell is the lowest dated 1400B price we found, measured from a list Bissell really charges.",
+      "skip_if": "you want whole-room carpet cleaning (rent an upright), or the deal is on a 3369, Pet Pro 2891/3909 or ProHeat you have not compared.",
+      "owners": "Owners praise it on pet and food stains; the repeated complaints are a hose that cracks at the tank joint (Sam's Club reviews, seen Nov 2026) and weak or fading suction (Best Buy reviews of the ProHeat sibling).",
+      "cta": "https://www.amazon.com/dp/B0016HF5GK?tag=verdictpicks-20",
+      "video": "pHWrhVtkYLA",
+      "video_title": "6 years with the Bissell Little Green — a long-term review",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Floor care",
+        "pick": "The Little Green 1400B, not the Mini (3369 or 4064T) or the ProHeat (2513W), which are different machines",
+        "check": "The model reads 1400B; sold by Bissell, Amazon.com or a big-box store; under $100 is our good line, $85 our great line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "kitchenaid-artisan",
+      "category": "generic",
+      "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer",
+      "short": "KitchenAid Artisan",
+      "badge": "Kitchen · “30% off” from a price few people pay",
+      "chip": "5 qt · tilt-head · 10 speeds",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#1B2A41"
+      },
+      "photo": {
+        "file": "brand/photos/kitchenaid-artisan-5-quart-tilt-head.jpg",
+        "kind": "brand",
+        "credit": "Photo: BenFrantzDale, CC BY-SA 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_KitchenAid_Artisan.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$349.99 at Target (“reg $499.99”) and $349.95 at Walmart on Nov 20, 2026; Best Buy $379.99 (White, search result). Popular colours sat near $350–$450 most of 2026. 2025 lows: $297.49 at Target with 15% in cart (Nov 30) and $299 at Lowe's (Dec 26).",
+      "buy_if": "you bake weekly: $350 is fair, under $300 is what last year's Black Friday weekend reached, and Target's holiday match pays back its own drops.",
+      "skip_if": "you mostly knead heavy bread dough (a bowl-lift suits it better), or the listing is a KSM150 bundle code or Costco's Artisan Plus you can't compare like for like.",
+      "owners": "Owners praise power and colours (Target and Best Buy review summaries, seen Nov 2026); the long-running complaints are grease seeping from the gearbox, the plastic worm gear that strips by design, and walking on stiff dough (iFixit, The Daily Meal).",
+      "cta": "https://www.amazon.com/dp/B076B1VM3W?tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
         "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "pick": "The Artisan Series 5-quart tilt-head, model KSM150 (KSM150PS plus a colour code), not the 4.5-quart Classic or the 3.5-quart Artisan Mini",
+        "check": "The model number starts KSM150; sold by KitchenAid, Amazon.com or a big-box store; a sale on one colour only is normal, so pick the colour after the price",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "instant-pot-duo",
+      "category": "generic",
+      "name": "Instant Pot Duo 6-Quart 7-in-1",
+      "short": "Instant Pot Duo",
+      "badge": "Kitchen · the $109.99 list is real at one store only",
+      "chip": "6 qt · 7-in-1 · pressure + slow",
+      "art": {
+        "shape": "cylinder",
+        "body": "#3A4453",
+        "accent": "#C8102E"
+      },
+      "photo": {
+        "file": "brand/photos/instant-pot-duo-6-quart.jpg",
+        "kind": "brand",
+        "credit": "Photo: Ajay Suresh, CC BY 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Instant_Pot_(49907000991).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$109.99 at Instant Pot's store with no discount (Nov 20, 2026); Home Depot $99.99 (search result); Walmart's third-party listings $143–$145, above the maker's list. Target's listing no longer loads.",
+      "buy_if": "you want one pot for beans, stock and rice and you see $80 or less: that is what stores other than the maker usually charge in a sale.",
+      "skip_if": "you mostly air-fry, or the listing is a Duo Plus, a Rio, a “V5 refurbished” unit or a bundle you did not price.",
+      "owners": "Owners like the time saved; the common complaints are a sealing ring that holds smells and “Burn” errors fixed by a new ring (r/instantpot, Mar 2025), and slow warranty replies (BBB complaints, 2025).",
+      "cta": "https://www.amazon.com/s?k=Instant+Pot+Duo+6+quart+7-in-1+pressure+cooker&tag=verdictpicks-20",
+      "video": "-1eGvX4LiMY",
+      "video_title": "Instant Pot DUO 6QT Full Review & First Look",
+      "video_channel": "Channel not confirmed",
+      "video_why": "A review of the exact 6-quart size; the title came from a search-result URL.",
+      "buy": {
+        "tier": "Kitchen",
+        "pick": "The Duo 6-quart 7-in-1 (IP-DUO60 / 112-0170-01), new, not refurbished, not the Duo Plus or Rio",
+        "check": "Sold by Instant Pot, Amazon.com or a big-box store, not a marketplace seller above $110; $80 or less is our good line",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "noco-gb40",
+      "category": "generic",
+      "name": "NOCO Boost Plus GB40 1000A Jump Starter",
+      "short": "NOCO GB40",
+      "badge": "Car · an honest list price and inflated “was” prices",
+      "chip": "1,000 A · 12 V · up to 6 L gas",
+      "art": {
+        "shape": "box",
+        "body": "#2F2F2F",
+        "accent": "#F08A24"
+      },
+      "photo": {
+        "file": "brand/photos/noco-boost-plus-gb40.jpg",
+        "kind": "brand",
+        "credit": "Photo: Tony Webster, CC BY 2.0, Wikimedia Commons (earlier label)",
+        "source": "https://commons.wikimedia.org/wiki/File:NOCO_Genius_Boost_GB40_-_Car_Battery_Booster_Jump_Starter_(27189494027).jpg",
+        "terms": "https://creativecommons.org/licenses/by/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$99.95 list at NOCO, Home Depot and most Walmart listings (Nov 2026, search results); Best Buy $115.99, above the maker's list; marketplace “was” prices of $125–$139. Home Depot $74.95 with a card offer (Nov 10, 2026).",
+      "buy_if": "you need a jump starter before the first cold snap: $99.95 is an honest price, and we found no non-Amazon Black Friday cut for 2025 or 2026.",
+      "skip_if": "you drive a V8 over 6 liters or a diesel over 3 liters (the GB50 or GB70 is the right size, per NOCO's chart).",
+      "owners": "Owners report years of starts, including a 5.3-liter truck at 20°F (Garage Journal); complaints are slow recharging and units that stop charging (ProductReview.com.au, undated).",
+      "cta": "https://www.amazon.com/s?k=NOCO+Boost+Plus+GB40+1000A+jump+starter&tag=verdictpicks-20",
+      "video": "ZhVpxYlyLto",
+      "video_title": "How to jump start using your NOCO Boost GB40",
+      "video_channel": "Channel not confirmed",
+      "video_why": "The three-step jump-start routine, shown on a real car; the title came from a search-result URL.",
+      "buy": {
+        "tier": "Car",
+        "pick": "The GB40 (1000A, gas up to 6.0 L, diesel up to 3.0 L), not the GB50 or GB70",
+        "check": "Sold by NOCO, Amazon.com or a big-box store; ignore any “was” above $99.95; $80 or less is our good line",
         "label": "See today's price"
       }
     }

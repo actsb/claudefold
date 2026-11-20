@@ -190,11 +190,11 @@
     "little-green"
    ],
    "model": "1400B (corded classic); the Little Green Cordless and the Pet Pro are different machines.",
-   "street": "About $95–$130; Walmart $74.62 (Oct 7, 2026), Bissell $129.99 (Oct 29, 2026)",
-   "good": "under $90",
-   "great": "about $75",
-   "verdict": "buy",
-   "why": "Walmart listed it at $74.62 on October 7, 2026, about what last year's Black Friday cut (around 31% off list) reached, so there is little to wait for. No 2026 Black Friday price was announced as of October 25.",
+   "street": "About $95–$130; Bissell $129.99 (Oct 29, 2026). (The Walmart $74.62 of Oct 7, 2026 was the 3369, a different model: corrected Nov 20, 2026.)",
+   "good": "under $100",
+   "great": "$85 or less",
+   "verdict": "ok",
+   "why": "Corrected Nov 20, 2026: the $74.62 Walmart deal we cited was the Little Green 3369, not the 1400B. Bissell's own store had the 1400B at $94.99 (was $129.99) on Nov 20, 2026, the lowest dated 1400B price we found.",
    "sources": "Slickdeals, Oct 7, 2026 (Walmart); CNN Underscored, Nov 19, 2025; Bissell list price",
    "checked": "2026-10-25",
    "stores": [
@@ -302,11 +302,11 @@
     "little-green"
    ],
    "model": "Little Green 1400B (not the Mini 3369 or 4064T, or the ProHeat 2513W).",
-   "street": "$129.99 at Bissell (Nov 16, 2026); Walmart about $110 (search snippet, Nov 2026) and $74.62 (Oct 7, 2026)",
-   "good": "under $90",
-   "great": "about $75",
+   "street": "$129.99 at Bissell (Nov 16, 2026); Walmart about $110 (search snippet, Nov 2026). (The $74.62 Walmart price we listed was the 3369: corrected Nov 20, 2026.)",
+   "good": "under $100",
+   "great": "$85 or less",
    "verdict": "wait",
-   "why": "Today's prices are above our good line, and Walmart had it at $74.62 in October, so a Black Friday week price under $90 is likely. Walmart gives no price adjustment after you buy, so buy there at the low, not before it.",
+   "why": "Today's prices were above our good line on Nov 16. Correction (Nov 20, 2026): the $75 Walmart Little Green deals were model 3369, not the 1400B, so the great line is now $85. Walmart gives no price adjustment after you buy.",
    "sources": "bissell.com, Nov 16, 2026; Walmart search snippet, Nov 2026; Slickdeals, Oct 7, 2026",
    "checked": "2026-11-16",
    "stores": [
@@ -2337,9 +2337,205 @@
      "seen": "listed, Nov 2026"
     }
    ]
+  },
+  {
+   "key": "airpods-pro-3-nov20-2026",
+   "category": "tech",
+   "name": "Apple AirPods Pro 3 (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "pro3"
+   ],
+   "model": "AirPods Pro 3 (2025, heart-rate sensing), not AirPods Pro 2 or AirPods 4.",
+   "street": "Apple $249.00; Target $179.99 with “reg $249.99” (Nov 20, 2026); Walmart and Best Buy about $199.99 (search results); Costco $199.99 with 2-year AppleCare+ (Oct 29, 2026)",
+   "good": "under $190",
+   "great": "$170 or less",
+   "verdict": "buy",
+   "why": "Target's “reg” price is 99¢ above Apple's own, but $179.99 is $40 under the 2025 holiday low of $219.99 and $10 above the 2026 low of $169.99 (Walmart, June 15). Target matches its own drops until Dec 24.",
+   "sources": "target.com and apple.com, fetched Nov 20, 2026; Slickdeals threads 2025–2026",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "Apple",
+     "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
+     "seen": "$249.00, Nov 20, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609",
+     "seen": "$179.99 (reg $249.99), Nov 20, 2026"
+    },
+    {
+     "name": "Costco",
+     "url": "https://www.costco.com/.product.4000404510.html",
+     "seen": "$199.99 with AppleCare+, Oct 29, 2026"
+    }
+   ]
+  },
+  {
+   "key": "redtiger-f7np-nov20-2026",
+   "category": "car",
+   "name": "REDTIGER F7NP 4K Dash Cam (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "redtiger-f7np"
+   ],
+   "model": "F7NP front and rear (front camera listed by REDTIGER as 4K upscaled); not the F7NS or F7N.",
+   "street": "REDTIGER $93.49 without a card and $109.99 with a 128GB card (crossed out $129.99 / $169.99), Nov 20, 2026; Walmart $129.99 “was $199.99” (search result)",
+   "good": "under $110",
+   "great": "$100 or less",
+   "verdict": "buy",
+   "why": "The crossed-out price has moved from $157.13 (Nov 2025) to $129.99–$199.99, so ignore it; REDTIGER's Nov 19–30 sale puts the real price inside our lines, and last year's best was about $99.99 with a code.",
+   "sources": "redtigercam.com, fetched Nov 20, 2026; REDTIGER sponsored post, Nov 27, 2025; AndroidGuys, Nov 17, 2026",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "REDTIGER",
+     "url": "https://www.redtigercam.com/products/redtiger-f7np-4k-dash-cam",
+     "seen": "$93.49 / $109.99 with 128GB, Nov 20, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/REDTIGER-F7NP-Dash-Cam-Front-and-Rear-4K-2-5K-Full-HD-Dash-Camera-with-Night-Vision-G-Sensor-Loop-Recording-Vehicle-Free-32GB-Card/882125614",
+     "seen": "$129.99 in search result, undated"
+    }
+   ]
+  },
+  {
+   "key": "bissell-little-green-nov20-2026",
+   "category": "cleaning",
+   "name": "Bissell Little Green 1400B (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "little-green"
+   ],
+   "model": "Little Green 1400B; the Walmart 3369, the Pet Pro 2891/3909 and the ProHeat are different machines.",
+   "street": "Bissell $94.99, was $129.99 (Nov 20, 2026); Walmart 1400B $95.99–$110.50, out of stock (search results, Nov 2026)",
+   "good": "under $100",
+   "great": "$85 or less",
+   "verdict": "ok",
+   "why": "Bissell charged the full $129.99 on Oct 29 and Nov 16, so its 27% off is real, and $94.99 is the lowest dated 1400B price we found. The $75 Walmart deals were the 3369.",
+   "sources": "bissell.com, fetched Nov 20, 2026; Slickdeals threads Oct 7 and Oct 16, 2026 (3369)",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "BISSELL",
+     "url": "https://www.bissell.com/en-us/product/little-green-portable-carpet-upholstery-cleaner-1400B.html",
+     "seen": "$94.99 (was $129.99), Nov 20, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/Bissell-Multi-Purpose-Portable-Carpet-and-Upholstery-Cleaner-1400B-Green/436861322",
+     "seen": "$95.99–$110.50, out of stock, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-artisan-nov20-2026",
+   "category": "kitchen",
+   "name": "KitchenAid Artisan 5-Quart Stand Mixer (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "kitchenaid-artisan"
+   ],
+   "model": "Artisan KSM150PS, 5-quart tilt-head; not a KSM150 bundle code, the Classic K45SS or Costco's Artisan Plus.",
+   "street": "Target $349.99 “reg $499.99” (Nov 20, 2026); Walmart $349.95 (Nov 20, 2026); Best Buy $379.99 White (search result); KitchenAid and Lowe's $499.99",
+   "good": "under $350",
+   "great": "$300 or less",
+   "verdict": "wait",
+   "why": "The $499.99 reference is real only at KitchenAid and Lowe's; popular colours sat near $349–$450 most of 2026. Last year's Black Friday weekend reached $297.49 at Target (15% in cart, Nov 30, 2025) and $299 at Lowe's (Dec 26, 2025).",
+   "sources": "target.com, fetched Nov 20, 2026; Slickdeals price box, Nov 20, 2026; Slickdeals threads Nov 30 and Dec 26, 2025",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.KSM150PSOB.html",
+     "seen": "$499.99 list, Nov 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kitchenaid-artisan-series-5qt-tilt-head-stand-mixer-matte-black-ksm150/-/A-53021309",
+     "seen": "$349.99, Nov 20, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/kitchenaid-artisan-series-5-quart-tilt-head-stand-mixer-ksm150pswh-white/J7LLHFV4Z5",
+     "seen": "$379.99 (White) in search result"
+    }
+   ]
+  },
+  {
+   "key": "instant-pot-duo-6-nov20-2026",
+   "category": "kitchen",
+   "name": "Instant Pot Duo 6-Quart 7-in-1 (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "instant-pot-duo"
+   ],
+   "model": "Duo 6-quart 7-in-1, IP-DUO60 or 112-0170-01, new; not the Duo Plus, Rio or a refurbished V5.",
+   "street": "Instant Pot $109.99, no discount (Nov 20, 2026); Home Depot $99.99 (search result); Walmart marketplace $143–$145 (search results); Target's listing no longer loads",
+   "good": "under $80",
+   "great": "$70 or less",
+   "verdict": "wait",
+   "why": "$109.99 is real only at the maker's store; elsewhere the Duo has sold for about $70–$100, and Walmart has sold it near $50 on past Black Fridays. No store discounted it on Nov 20, a week before Black Friday.",
+   "sources": "instantpot.com, fetched Nov 20, 2026; Home Depot and Walmart search results, Nov 2026; Digital Trends, Nov 2022",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "Instant Pot",
+     "url": "https://instantpot.com/products/instant-pot-duo-6qt-multi-use-pressure-cooker",
+     "seen": "$109.99, no discount, Nov 20, 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/Instant-Pot-6-qt-Stainless-Steel-Electric-Pressure-Cooker-112-0170-01/318242480",
+     "seen": "$99.99 in search result"
+    }
+   ]
+  },
+  {
+   "key": "noco-gb40-nov20-2026",
+   "category": "car",
+   "name": "NOCO Boost Plus GB40 (deal check, Nov 20)",
+   "guide": "fake-deal-check",
+   "card": [
+    "posts/2026-11-how-to-tell-if-a-black-friday-deal-is-real",
+    "noco-gb40"
+   ],
+   "model": "GB40, 1000A, gas engines up to 6.0 L and diesel up to 3.0 L; not the GB50 or GB70.",
+   "street": "$99.95 at NOCO, Home Depot and most Walmart listings (Nov 2026, search results); Best Buy $115.99, above list; marketplace “was” $124.95–$139",
+   "good": "$80 or less",
+   "great": "under $75",
+   "verdict": "ok",
+   "why": "$99.95 is an honest price that stores really charge; the higher “was” prices are not. We found no Black Friday cut at a store other than Amazon for 2025 or 2026; Home Depot's $74.95 (Nov 10) needed its card offer.",
+   "sources": "NOCO, Home Depot, Walmart and Best Buy search results, Nov 2026; Home Depot card offer, Nov 10, 2026",
+   "checked": "2026-11-20",
+   "stores": [
+    {
+     "name": "NOCO",
+     "url": "https://no.co/gb40",
+     "seen": "$99.95 list, Nov 2026"
+    },
+    {
+     "name": "The Home Depot",
+     "url": "https://www.homedepot.com/p/NOCO-GB40-1000-Amp-12-Volt-UltraSafe-Lithium-Jump-Starter-For-Up-To-6-Liter-Gasoline-And-3-Liter-Diesel-Engines-GB40/311961298",
+     "seen": "$99.95 in search result, Nov 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/NOCO-Boost-Plus-GB40-1000A-12V-UltraSafe-Portable-Lithium-Jump-Starter/46605770",
+     "seen": "$99.95 in search result"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 20, 2026: six deal checks for the “Is that Black Friday deal real?” guide. AirPods Pro 3 $179.99 at Target (its “reg” $249.99 is above Apple's $249): buy. REDTIGER F7NP $93.49 / $109.99 at REDTIGER: buy. Little Green 1400B $94.99 at Bissell: ok. KitchenAid Artisan $349.99 at Target: wait for $300. Instant Pot Duo $109.99 at Instant Pot, no discount: wait for $80. NOCO GB40 $99.95 list: ok (was buy). Correction: the Walmart $74.62 Little Green price we listed in October was the 3369, not the 1400B; its great line is now $85.",
   "Nov 19, 2026: REDTIGER F7NP re-checked: $93.49 without a card and $109.99 with a 128GB card at REDTIGER's store on the first day of its Nov 19–30 Black Friday sale; Walmart's listing did not load. Verdict now buy (was ok).",
   "Nov 18, 2026: six phones for the Pixel vs Galaxy AI bundle guide. Pixel 11 Pro: $699 at the Google Store from Nov 19 with 6 months of Google AI Pro; buy. Galaxy S26 Ultra: $1,049.99 at Samsung.com, $949.99 with PAYPAL100; buy. Z Flip8: $999.99 at Samsung.com; ok. Pixel 11: $699; ok, but the Pro is the better $699. S26 FE: from $699.99; wait. Pixel 10 Pro: from $999 and its AI Pro year closed Oct 31; wait. No CPSC recall covers any of them.",
   "Nov 17, 2026: Instant Pot Duo 6-quart re-checked: $109.99 at Instant Pot's store with no discount; Walmart's and Target's pages did not load. The great line moves to $70 or less (last year's Black Friday depth, about 36% off); verdict stays wait for Black Friday Nov 27 / Cyber Monday Nov 30.",

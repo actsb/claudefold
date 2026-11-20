@@ -1,26 +1,28 @@
 {
-  "hero": "fake-deal-check",
-  "title_size": 66,
+  "hero": "pro3",
+  "title_size": 62,
   "title": [
-    "is the deal real:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Is that deal real?",
+    "The 5-minute check",
+    "for any sale price"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "Studies found most chains are “on sale”",
+    "most of the time. Here is how to check a",
+    "price, with six worked examples and lines."
   ],
-  "footer": "Product of the day · How to tell if a sale price is real · Verdict Picks",
-  "alt": "How to tell if a sale price is real: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Deal guide · How to tell if a Black Friday deal is real · Verdict Picks",
+  "alt": "Is that Black Friday deal real? A five-minute check for any sale price, with six worked examples and our price lines (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "Ignore the crossed-out price",
+    "Compare three stores, same model number",
+    "Six worked examples with price lines"
   ],
   "url": "https://acts39.blogspot.com/2026/11/is-that-black-friday-deal-real-2026.html",
   "style": "bright",
   "products": [
-    "fake-deal-check"
+    "pro3",
+    "kitchenaid-artisan",
+    "little-green"
   ]
 }

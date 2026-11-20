@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "fake-deal-check",
-      "title": "A day with the is the deal real — in real life",
+      "card": "pro3",
+      "title": "Checking a deal — in real life",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "The banner",
+          "text": "“Was $249.99, now $179.99!” Before you tap, ignore the crossed-out number.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Three stores, one model",
+          "text": "Apple charges $249. Other stores sat at $180–$220 for months. $179.99 is good, not 28% good."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "The trap",
+          "text": "The cheaper one on the next shelf says Pro 2. Different earbuds, different deal."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Buy, keep the receipt",
+          "text": "Under your number? Buy where a later drop is paid back, and keep the receipt to January.",
           "host": {
             "pose": "thumbsup"
           }

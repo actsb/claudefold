@@ -2,82 +2,114 @@
   {
     "type": "steps",
     "name": "howto",
-    "title": "The is the deal real in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
+    "title": "Is the deal real? The five-minute check",
+    "sub": "Works on any product, in any store, on any sale day",
+    "footer": "Sources: FTC Guides Against Deceptive Pricing (16 CFR 233.1); Target, Walmart and Best Buy reference-price pages (Nov 2026); Consumers' Checkbook (Nov 13, 2025). Our synthesis.",
     "items": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Ignore the crossed-out price",
+        "body": "“Was”, “reg” and “compare at” are each store's own rule, not proof anyone paid it."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Copy the full model number",
+        "body": "Bundle codes, colours, refurbished units and store-only versions are different products."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Check three stores",
+        "body": "The maker's store, one big-box store and one more. The real price is what they charge."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Look at the history",
+        "body": "Google's price insights or a tracker: is today under the last 90 days' low, or just typical?"
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Read the fine print",
+        "body": "Sign-in, card-only, Kohl's Cash, a bundle or a gift card is not the same as a lower price."
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Buy where a later drop is paid back",
+        "body": "Target to Dec 24, Best Buy on its own drops, Costco for 30 days. Walmart.com: buy at the low only."
       }
     ]
   },
   {
-    "type": "stores",
+    "type": "matrix",
     "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
+    "title": "Six crossed-out prices, checked",
+    "sub": "The reference price shown, what stores really charged, and our call (Nov 20, 2026)",
+    "footer": "Sources: store pages and search results on Nov 20, 2026; Slickdeals threads 2025–2026; REDTIGER's buying guide (May 19, 2026). Our calls are judgment, not a promise.",
+    "columns": [
+      {
+        "head": "Product",
+        "w": 190
+      },
+      {
+        "head": "Reference price shown",
+        "w": 250
+      },
+      {
+        "head": "What stores really charged",
+        "w": 340
+      },
+      {
+        "head": "Our call",
+        "w": 320
+      }
+    ],
     "rows": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
+        "verdict": "win",
+        "cells": [
+          "AirPods Pro 3",
+          "Target “reg $249.99”",
+          "Apple $249; others $180–$220 most of 2026",
+          "Buy at $190 or less"
+        ]
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "win",
+        "cells": [
+          "REDTIGER F7NP",
+          "$129.99 to $199.99 crossed out",
+          "$93–$110 at the maker's own sale",
+          "Buy at $110 or less (with card)"
+        ]
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "Little Green 1400B",
+          "Bissell “was $129.99”",
+          "Bissell really charged it Oct–Nov",
+          "OK at $94.99; great at $85"
+        ]
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "verdict": "ok",
+        "cells": [
+          "KitchenAid Artisan",
+          "“reg $499.99”, 30% off",
+          "Popular colours $350–$450 in 2026",
+          "Wait for under $300"
+        ]
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "verdict": "no",
+        "cells": [
+          "Instant Pot Duo 6-qt",
+          "List $109.99",
+          "Maker only; sales elsewhere near $70–$80",
+          "Wait for $80 or less"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "NOCO GB40",
+          "Marketplace “was” $125–$139",
+          "$99.95 at NOCO, Home Depot, Walmart",
+          "Fair at $99.95; good at $80"
+        ]
       }
     ]
   }
