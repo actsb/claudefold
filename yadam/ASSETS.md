@@ -20,7 +20,7 @@ Start a new cloud session on this branch and read this file first. Reply to the 
 
 ### State
 - Container restart wiped the scratchpad on ~11-20. Lost: scripts, OAuth client files, refresh tokens, Gemini key file, film masters, release_log.
-- Scheduled tasks DISABLED until recovery: daily check trig_011EL2mZjsdmUTaJohVc7GKn, weekly report trig_01Dh7rpzLXKiQbPBFHYjPfdE. Re-enable after recovery and update their prompts to the new file locations.
+- Scheduled tasks DISABLED until recovery: (old ids, deleted 11-21). Now: daily check trig_01EqjtueTtfFZ74A1YX2m47y and weekly report trig_01TFKbHCm214kBpTP1qkX3jp, both firing into the recovery session session_0178FLamKtGXWcroNq1UABjN, prompts use the yadam/ scripts.
 - Credentials: the user adds them as environment Network secrets (this session was too long for the secure form):
   - generativelanguage.googleapis.com, header x-goog-api-key = Gemini API key
   - oauth2.googleapis.com, Authorization Basic = OAuth client ID : client secret of "koreanmusical uploader" (Cloud project "My First Project", number 825670073835; Google Auth Platform already PUBLISHED with branding links to actsb.github.io/claudefold/oauth/)
