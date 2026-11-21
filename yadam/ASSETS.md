@@ -10,7 +10,7 @@ Updated 2026-11-21 after the cloud work folder was wiped by a container restart.
 | OAuth branding pages | GitHub Pages: actsb.github.io/claudefold/oauth/ (branch claude/sharp-lovelace-n7vhzq) | Never delete |
 | Film masters (clean_master2.mkv, full_v4.mp4, full_v4_*.srt) | User's PC: `I:\내 드라이브\영상` (Google Drive desktop mount) — to be confirmed | Keep a copy in Google Drive: the cloud session can only reach files through Drive |
 | Credentials (Gemini key, OAuth client JSONs, refresh tokens) | Gemini key: environment network secret. OAuth files: private folder in the user's Google Drive | Never in git |
-| Scripts | This branch, folder yadam/ (to be rebuilt) | No secrets |
+| Scripts | This branch, folder yadam/ (rebuilt 2026-11-21, see below) | No secrets |
 
 ## Rule learned
 The cloud scratchpad is not durable. Anything needed again goes to git (code), Google Drive (media, private files) or environment secrets (keys).
@@ -43,3 +43,18 @@ Strategy EkiyssFUtiUnYengAY1d8E · Vrew guide 9MacfRc92oxgPmDtj2QKzu · Tools KE
 
 ### Pending with the user
 Vrew jobs kdh01 (tiger & magpie) and kdh02 (jeoseung saja) via the PC desktop app; Vrew update to 4.x; reply to the "중국식 음악" comment on KY5q4LSJcpY (drafted, not posted); next Arirang Decoded Short topic (regional Arirangs or Arirang Pass).
+
+## Scripts (yadam/, rebuilt 2026-11-21)
+Set `YADAM_TOKDIR` to a private folder holding km.json, gsb.json, drive.json (each with a "refresh_token").
+Refresh tokens: private backup file in the user's Google Drive (yadam_oauth_tokens_backup_2026-11-21.json, owner-only).
+The OAuth client ID/secret come from the environment network secret for oauth2.googleapis.com (HTTP Basic).
+| Script | Job |
+|---|---|
+| ytlib.py | token refresh + API helpers (shared) |
+| tok_check.py | 토큰 점검: which channel/account each token reaches |
+| views.py | 공개 조회수 for recent uploads (or --ids) |
+| comments.py | 댓글 점검: recent threads, 미답변 marked; never posts |
+| ctr48.py | first-48h Analytics per recent upload (impressions CTR only in Studio) |
+| pilot_short.py | pilot 쇼츠 제작: 9:16 cut from a clean master, big bottom subs, 0.5 s dissolves |
+| yt_up.py | upload (default private, --publish-at), thumbnail, captions, playlist; refuses "[OLD" titles |
+| bench.py | 명당 조사: views/day by channel, format, weekday, KST hour block |
