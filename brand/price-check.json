@@ -655,22 +655,23 @@
     "pro3"
    ],
    "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
-   "street": "List $249; Walmart and Target about $179–$180 (Oct 5, 2026)",
+   "street": "List $249 at Apple; Target $179.99 (both Nov 21, 2026)",
    "good": "under $190",
    "great": "$180 or less",
    "verdict": "buy",
-   "why": "About $180 is already below last year's Black Friday low of $219.99.",
-   "sources": "apple.com; TechBuzz, Nov 20, 2025; Slickdeals price table, Oct 5, 2026",
-   "checked": "2026-10-17",
+   "why": "Target's $179.99 (Nov 21, 2026) is still below last year's Black Friday low of $219.99; Apple's own store shows no sale.",
+   "sources": "apple.com and target.com, Nov 21, 2026; TechBuzz, Nov 20, 2025",
+   "checked": "2026-11-21",
    "stores": [
     {
      "name": "Apple",
      "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
-     "seen": "$249.00 list, Oct 2026"
+     "seen": "$249.00 list, Nov 21, 2026"
     },
     {
      "name": "Target",
-     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609"
+     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609",
+     "seen": "$179.99, Nov 21, 2026"
     },
     {
      "name": "Walmart",
@@ -750,18 +751,18 @@
     "c1000"
    ],
    "model": "C1000 Gen 2 (the first C1000 charges more slowly).",
-   "street": "List $799; $699.99 at Anker's store (Oct 29, 2026)",
+   "street": "List $799 at Anker's store (Nov 21, 2026); $530 announced on Anker's Early Black Friday page (9to5Toys, Nov 10, 2026)",
    "good": "under $500",
    "great": "$430 or less",
    "verdict": "wait",
-   "why": "Anker's own store sold it for $429 with a code in April 2026, so it has room to fall.",
-   "sources": "Slickdeals, Apr 23, 2026",
-   "checked": "2026-10-17",
+   "why": "Anker announced $530 for its Early Black Friday sale and sold it for $379 last Black Friday (9to5Toys, Nov 28, 2025), so $799 today is no price to pay.",
+   "sources": "ankersolix.com and us.eufy.com, Nov 21, 2026; 9to5Toys, Nov 10, 2026 and Nov 28, 2025",
+   "checked": "2026-11-21",
    "stores": [
     {
      "name": "Anker",
-     "url": "https://www.anker.com/products/c1000-gen2",
-     "seen": "$699.99, Oct 2026"
+     "url": "https://www.ankersolix.com/products/c1000-gen2",
+     "seen": "$799 list, Nov 21, 2026"
     }
    ]
   },
@@ -775,18 +776,18 @@
     "2000v2"
    ],
    "model": "Explorer 2000 v2 (2,042 Wh); the 2000 Plus is a different, heavier unit.",
-   "street": "List $1,499; $999 at Jackery's store (Oct 29, 2026)",
+   "street": "List $1,499; $999 at Jackery's store, no discount (Nov 21, 2026)",
    "good": "under $750",
    "great": "$650 or less",
    "verdict": "wait",
-   "why": "Wellbots sold it for $599 with a code on November 14, 2025: the clearest Black Friday-window low of our picks.",
-   "sources": "Slickdeals, Nov 14, 2025",
-   "checked": "2026-10-17",
+   "why": "No 2026 Black Friday price announced yet; last Black Friday it reached $699 (Popular Science, Nov 28, 2025), so wait for the sale on Nov 27.",
+   "sources": "jackery.com, Nov 21, 2026; Popular Science, Nov 28, 2025; Slickdeals, Nov 14, 2025",
+   "checked": "2026-11-21",
    "stores": [
     {
      "name": "Jackery",
      "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
-     "seen": "$999, Oct 2026"
+     "seen": "$999, Nov 21, 2026"
     },
     {
      "name": "The Home Depot",
@@ -804,21 +805,23 @@
     "furhaven-bed"
    ],
    "model": "Large (36 x 27 x 6.5 in, size guide up to 55 lb); the Quilted style is thinner than the Plush & Suede Full Support.",
-   "street": "Quilted $39.99 (Target, Oct 19, 2026); Plush & Suede $54.99 (PetSmart, Oct 19, 2026), list $65.99",
+   "street": "Quilted Large $39.99 at Furhaven, $47.59 at Target; Plush & Suede Full Support Large $54.99 at PetSmart (was $65.99), $64.99 convolute at Furhaven (all Nov 21, 2026)",
    "good": "under $45",
    "great": "$40 or less",
    "verdict": "ok",
-   "why": "Prices barely move between stores; a deal post showed 31% off a Plush & Suede on Nov 27, 2025. Under $45 is fine for the Large.",
-   "sources": "Target and PetSmart pages, Oct 19, 2026; Slickdeals, Nov 27, 2025",
-   "checked": "2026-10-19",
+   "why": "PetSmart's early Black Friday price runs through Nov 25 and Furhaven's own Quilted Large is $39.99, so under $45 is easy to hit without waiting.",
+   "sources": "furhaven.com, target.com and petsmart.com pages, Nov 21, 2026; Slickdeals, Nov 27, 2025",
+   "checked": "2026-11-21",
    "stores": [
     {
      "name": "Furhaven",
-     "url": "https://furhaven.com/products/shop-pet-beds-sofa-bed-plush-suede"
+     "url": "https://furhaven.com/products/shop-pet-beds-sofa-bed-plush-suede",
+     "seen": "$64.99 (Plush & Suede Large), Nov 21, 2026"
     },
     {
      "name": "PetSmart",
-     "url": "https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/furhaven-plush-and-suede-full-support-orthopedic-sofa-pet-bed-for-dogs-and-cats---gray-5361465.html"
+     "url": "https://www.petsmart.com/dog/beds-and-furniture/orthopedic-beds/furhaven-plush-and-suede-full-support-orthopedic-sofa-pet-bed-for-dogs-and-cats---gray-5361465.html",
+     "seen": "$54.99, early Black Friday through Nov 25, 2026"
     },
     {
      "name": "Chewy",
@@ -836,22 +839,23 @@
     "duoplus"
    ],
    "model": "Duo Plus 6-quart Whisper Quiet, model 112-0169-01; not Target's 6QT 9-in-1 bundle (112-2356-01) or the older V3 (112-0156-01).",
-   "street": "List $139.99 at Instant Pot's store (Oct 21, 2026)",
+   "street": "List $139.99 at Instant Pot's store, no discount; Target $99.99 but out of stock (both Nov 21, 2026)",
    "good": "under $110",
    "great": "$80 or less",
    "verdict": "wait",
-   "why": "Reported Black Friday 2025 depth was 57% off for the Duo Plus (Bob Vila, Nov 28, 2025; pressurecookrecipes.com). Black Friday is November 27, so wait unless you need it now.",
-   "sources": "Instant Pot store list price, Oct 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
-   "checked": "2026-10-21",
+   "why": "Instant Pot's store shows no sale yet and Target is out of stock; Black Friday 2025 took the Duo Plus 57% off (Bob Vila, Nov 28, 2025), so wait for Nov 27 unless you need it now.",
+   "sources": "instantpot.com and target.com, Nov 21, 2026; Bob Vila (Nov 28, 2025); pressurecookrecipes.com Black Friday 2025 tally",
+   "checked": "2026-11-21",
    "stores": [
     {
      "name": "Instant Pot",
      "url": "https://instantpot.com/products/instant-pot-duo-plus-6qt-multi-use-pressure-cooker-whisper-quiet",
-     "seen": "$139.99 list, Oct 2026"
+     "seen": "$139.99 list, Nov 21, 2026"
     },
     {
-     "name": "The Home Depot",
-     "url": "https://www.homedepot.com/p/Instant-Pot-6-qt-Duo-Plus-Stainless-Steel-Electric-Pressure-Cooker-with-Whisper-Quiet-Steam-Release-V4-112-0169-01/324263727"
+     "name": "Target",
+     "url": "https://www.target.com/p/instant-pot-6qt-duo-plus-with-whisper-quiet-pressure-cooker/-/A-94612737",
+     "seen": "$99.99, out of stock, Nov 21, 2026"
     },
     {
      "name": "Walmart",
@@ -2535,6 +2539,7 @@
   }
  ],
  "changelog": [
+  "Week of Nov 21: five oldest entries re-checked. AirPods Pro 3: $179.99 at Target, $249 at Apple, verdict stays buy. Anker SOLIX C1000 Gen 2: $799 list at Anker's store today, $530 announced for its Early Black Friday sale (9to5Toys, Nov 10), wait. Jackery Explorer 2000 v2: $999 at Jackery, no discount, wait (last Black Friday $699). Furhaven Sofa Bed Large: Quilted $39.99 at Furhaven, Plush & Suede Full Support $54.99 at PetSmart through Nov 25, verdict stays ok. Instant Pot Duo Plus 6qt: $139.99 at Instant Pot, Target $99.99 but out of stock, wait; Target replaces Home Depot under Other places to buy. No CPSC recall found for any of the five. Recall Check: four new recalls on Nov 19, none on a model we recommend.",
   "Nov 20, 2026: six deal checks for the “Is that Black Friday deal real?” guide. AirPods Pro 3 $179.99 at Target (its “reg” $249.99 is above Apple's $249): buy. REDTIGER F7NP $93.49 / $109.99 at REDTIGER: buy. Little Green 1400B $94.99 at Bissell: ok. KitchenAid Artisan $349.99 at Target: wait for $300. Instant Pot Duo $109.99 at Instant Pot, no discount: wait for $80. NOCO GB40 $99.95 list: ok (was buy). Correction: the Walmart $74.62 Little Green price we listed in October was the 3369, not the 1400B; its great line is now $85.",
   "Nov 19, 2026: REDTIGER F7NP re-checked: $93.49 without a card and $109.99 with a 128GB card at REDTIGER's store on the first day of its Nov 19–30 Black Friday sale; Walmart's listing did not load. Verdict now buy (was ok).",
   "Nov 18, 2026: six phones for the Pixel vs Galaxy AI bundle guide. Pixel 11 Pro: $699 at the Google Store from Nov 19 with 6 months of Google AI Pro; buy. Galaxy S26 Ultra: $1,049.99 at Samsung.com, $949.99 with PAYPAL100; buy. Z Flip8: $999.99 at Samsung.com; ok. Pixel 11: $699; ok, but the Pro is the better $699. S26 FE: from $699.99; wait. Pixel 10 Pro: from $999 and its AI Pro year closed Oct 31; wait. No CPSC recall covers any of them.",
