@@ -130,17 +130,18 @@
     "rubbermaid-brilliance"
    ],
    "model": "Brilliance plastic sets; count the pieces, because set sizes differ by store.",
-   "street": "Mid-teens to about $20 on sale; Target $39.99 at list (July 5, 2026)",
-   "good": "about 40% below list",
-   "great": "Target's $23.99 (Nov 20, 2025) for the same set",
-   "verdict": "wait",
-   "why": "Target took about 40% off in the Black Friday week last year; at list price it is poor value.",
-   "sources": "Slickdeals posts, Nov 20, 2025 and July 5, 2026; BJ's, July 2026",
-   "checked": "2026-10-31",
+   "street": "Target $18.39, regular $22.99 (Nov 22, 2026); Target $23.99 in the Black Friday week of 2025",
+   "good": "under $20",
+   "great": "about $17 a set (Walmart 4-pack, Dec 24, 2025)",
+   "verdict": "buy",
+   "why": "Target's $18.39 on November 22, 2026 already beats its $23.99 in last year's Black Friday week; waiting for November 27–30 might save a dollar or two.",
+   "sources": "Target listing, Nov 22, 2026; Slickdeals posts, Nov 20 and Dec 24, 2025",
+   "checked": "2026-11-22",
    "stores": [
     {
      "name": "Target",
-     "url": "https://www.target.com/p/rubbermaid-10pc-brilliance-leak-proof-food-storage-containers-with-airtight-lids/-/A-51097873"
+     "url": "https://www.target.com/p/rubbermaid-10pc-brilliance-leak-proof-food-storage-containers-with-airtight-lids/-/A-51097873",
+     "seen": "$18.39, reg $22.99, Nov 22, 2026"
     },
     {
      "name": "Walmart",
@@ -2539,6 +2540,7 @@
   }
  ],
  "changelog": [
+  "Nov 22, 2026: Rubbermaid Brilliance 10-piece re-checked for the improve day. $18.39 at Target (regular $22.99), below Target's $23.99 in last year's Black Friday week; Walmart's page did not load. Lines now good under $20, great about $17; verdict now buy (was wait). Target sells single sizes with lids from $10.39. No CPSC recall found for Rubbermaid food storage.",
   "Week of Nov 21: five oldest entries re-checked. AirPods Pro 3: $179.99 at Target, $249 at Apple, verdict stays buy. Anker SOLIX C1000 Gen 2: $799 list at Anker's store today, $530 announced for its Early Black Friday sale (9to5Toys, Nov 10), wait. Jackery Explorer 2000 v2: $999 at Jackery, no discount, wait (last Black Friday $699). Furhaven Sofa Bed Large: Quilted $39.99 at Furhaven, Plush & Suede Full Support $54.99 at PetSmart through Nov 25, verdict stays ok. Instant Pot Duo Plus 6qt: $139.99 at Instant Pot, Target $99.99 but out of stock, wait; Target replaces Home Depot under Other places to buy. No CPSC recall found for any of the five. Recall Check: four new recalls on Nov 19, none on a model we recommend.",
   "Nov 20, 2026: six deal checks for the “Is that Black Friday deal real?” guide. AirPods Pro 3 $179.99 at Target (its “reg” $249.99 is above Apple's $249): buy. REDTIGER F7NP $93.49 / $109.99 at REDTIGER: buy. Little Green 1400B $94.99 at Bissell: ok. KitchenAid Artisan $349.99 at Target: wait for $300. Instant Pot Duo $109.99 at Instant Pot, no discount: wait for $80. NOCO GB40 $99.95 list: ok (was buy). Correction: the Walmart $74.62 Little Green price we listed in October was the 3369, not the 1400B; its great line is now $85.",
   "Nov 19, 2026: REDTIGER F7NP re-checked: $93.49 without a card and $109.99 with a 128GB card at REDTIGER's store on the first day of its Nov 19–30 Black Friday sale; Walmart's listing did not load. Verdict now buy (was ok).",

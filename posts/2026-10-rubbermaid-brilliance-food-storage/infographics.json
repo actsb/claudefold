@@ -36,7 +36,7 @@
     "type": "matrix",
     "name": "stores",
     "title": "Where to buy it: what each store showed",
-    "sub": "October 2026, dated sale prices only",
+    "sub": "October–November 2026, dated prices only",
     "footer": "Dated observations from deal posts and store pages. Buttons show today's price.",
     "columns": [
       {
@@ -59,12 +59,21 @@
     "rows": [
       {
         "cells": [
+          "Target",
+          "$18.39 for the 10-pc",
+          "Nov 22, 2026",
+          "Regular $22.99; single sizes from $10.39"
+        ],
+        "verdict": "win"
+      },
+      {
+        "cells": [
           "Walmart",
           "$16.85 per 10-pc set",
           "Dec 24, 2025",
           "Priced from a 4-pack at $67.39 (deal post)"
         ],
-        "verdict": "win"
+        "verdict": "ok"
       },
       {
         "cells": [
