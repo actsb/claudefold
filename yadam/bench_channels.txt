@@ -1,0 +1,11 @@
+# 명당 조사 channel list (one id per line, comment after #). Used by: bench.py --channels $(grep -o '^UC[^ ]*' yadam/bench_channels.txt | paste -sd,)
+UCNDIUDE7FVc29dLcxl_ueEQ  # ours: Korean Musical Folktales (EN)
+UCd6mIDo7MFVfzoJs3Tg6VUA  # ours: 가성비리빙연구소 (KR)
+UCBMuuqoMpuDkqzLHGbLMFBA  # 전설의 향기 - Korean folklore/legend stories
+UCiqYOJGWXldUXsEQdBc3r2A  # 묵화야담 - 야담
+UCddnv2cEOwNxF5z3NLH1z-w  # 야담보배 - 야담
+UCUsPAZMvkRmNkzsXD0rWnDA  # 지구에 관하여 - Joseon life history
+UCieANLkh4-JSFdfCNeCrAKQ  # 다크신화 - Korean myth/monsters
+UCqx4QOxVCdRpD_5KoSmiSCg  # Korea Explained - KPop Demon Hunters culture explainer (EN)
+UCVBHJyHsGahl5MOYK0hQk3Q  # Korea in Ink - KPop Demon Hunters culture explainer (EN)
+UCCr3T2chzRva6CPM_AWvHDw  # 바다너머시선 - foreigners' reaction to Korean culture
