@@ -441,6 +441,22 @@ def main(post_dir):
         svg = re.sub(r"^<\?xml[^>]*\?>\s*", "", f.read_text(encoding="utf-8").strip())
         capt = f'<div style="font-size:14px;color:#555;margin-top:6px;">{cap}</div>' if cap else ""
         return f'<div class="vp-strip" style="margin:1.2em 0;">{svg}{capt}</div>'
+    def toon_fig(m):
+        """<!--TOON:id--> -> the comic's WebP slices, a skip link, a label above it and a text transcript (webtoon.py writes toon-<id>.json)."""
+        f = d / f"toon-{m.group(1)}.json"
+        if not f.exists(): return ""
+        t = json.loads(f.read_text(encoding="utf-8"))
+        rel = d.resolve().relative_to(pathlib.Path(__file__).resolve().parent.parent).as_posix()
+        base = f"https://actsb.github.io/claudefold/{rel}/images/toon/"
+        imgs = "".join(f'<img src="{base}{s["file"]}" alt="{html.escape(s["alt"])}" width="{s["w"]}" height="{s["h"]}" style="width:100%;height:auto;display:block;margin:0;" loading="lazy" decoding="async">' for s in t["slices"])
+        lines = "".join(f"<li>{html.escape(x)}</li>" for x in t["transcript"] if x)
+        return (f'<div class="vp-toon" style="max-width:640px;margin:1.6em auto;">'
+                f'<p style="font-size:14px;color:#555;margin:0 0 .5em;"><strong>Comic ({len(t["slices"])} panels' + ', about 1 minute):' + '</strong> an illustrated story before the picks. '
+                'Characters and scenes are fictional; the facts are sourced in the guide. Not sponsored by any brand; the Amazon links further down are paid links. '
+                '<a href="#picker">Skip the comic ↓</a></p>'
+                f'<div style="border-radius:10px;overflow:hidden;border:1px solid #e3e3e3;">{imgs}</div>'
+                f'<details style="margin:.6em 0 0;font-size:15px;"><summary style="cursor:pointer;color:#1B2A41;font-weight:700;">Read the comic as text</summary><ol style="margin:.5em 0 0;padding-left:22px;">{lines}</ol></details></div>')
+    easy = re.sub(r"<!--TOON:([a-z0-9\-]+)-->", toon_fig, easy)
     easy = re.sub(r"<!--STRIP:([a-z0-9\-]+)(?:\|(.*?))?-->", strip_fig, easy)
     easy = easy.replace("<!--CARDS-->", pick_grid(d, [(c, i + 1, i > 0) for i, c in enumerate(cards)]))
     # card markers that follow each other share one grid; a marker on its own stays a full-width card

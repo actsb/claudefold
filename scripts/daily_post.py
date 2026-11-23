@@ -154,6 +154,8 @@ def cmd_build(post_dir):
     sys.path.insert(0, str(ROOT / "scripts"))
     import link_cards
     link_cards.write_thumb(d)          # images/thumb.svg: this guide's picture on cards elsewhere (More guides, the hub)
+    if (d / "webtoon.json").exists():  # the comic before the picks: SVG slices -> WebP, toon-<id>.json for <!--TOON:id-->
+        run("python3", ROOT / "scripts" / "webtoon.py", d)
     run("python3", ROOT / "scripts" / "assemble_post.py", d)
     cfg = json.loads((ROOT / "brand" / "seo-configs.json").read_text(encoding="utf-8"))
     if d.name in cfg:
