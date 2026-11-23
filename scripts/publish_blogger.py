@@ -331,6 +331,7 @@ POSTS = {
     },
     "robot-vacuums-no-camera": {
         "dir": "posts/2026-11-robot-vacuums-without-a-camera",
+        "url": "https://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html",
         "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
         "slug_title": "Robot Vacuums Without a Camera 2026",
         "labels": ["Robot Vacuums", "Privacy", "Smart Home", "Comparison", "Buying Guide", "Amazon Finds"],
