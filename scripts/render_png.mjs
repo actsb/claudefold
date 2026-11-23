@@ -12,17 +12,19 @@ try { ({ chromium } = require('playwright')); }
 catch { ({ chromium } = require(join(execSync('npm root -g').toString().trim(), 'playwright'))); }
 
 const dir = process.argv[2] ?? 'posts/2026-09-best-robot-vacuums/images';
+const only = process.argv[3];            // optional: render just this file name
+const alpha = process.env.ALPHA === '1'; // transparent background (overlays)
 const exe = ['/opt/pw-browsers/chromium-1194/chrome-linux/chrome'].find(existsSync);
 const browser = await chromium.launch(exe ? { executablePath: exe } : {});
 const page = await browser.newPage({ deviceScaleFactor: 2 });
-for (const f of readdirSync(dir).filter(n => n.endsWith('.svg'))) {
+for (const f of readdirSync(dir).filter(n => n.endsWith('.svg') && (!only || n === only))) {
   const svg = readFileSync(join(dir, f), 'utf8');
   const m = svg.match(/viewBox="-?\d+ -?\d+ (\d+) (\d+)"/);
   const w = m ? +m[1] : 1000, h = m ? +m[2] : 600;
   await page.setViewportSize({ width: w, height: h });
-  await page.setContent(`<body style="margin:0;background:#fff">${svg.replace(/<svg /, `<svg style="width:${w}px;height:${h}px;display:block" `)}</body>`);
+  await page.setContent(`<body style="margin:0;background:${alpha ? 'transparent' : '#fff'}">${svg.replace(/<svg /, `<svg style="width:${w}px;height:${h}px;display:block" `)}</body>`);
   const out = join(dir, basename(f, '.svg') + '.png');
-  await page.screenshot({ path: out, clip: { x: 0, y: 0, width: w, height: h } });
+  await page.screenshot({ path: out, clip: { x: 0, y: 0, width: w, height: h }, omitBackground: alpha });
   console.log('wrote', out);
 }
 await browser.close();

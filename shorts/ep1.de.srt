@@ -1,0 +1,64 @@
+1
+00:00:00,150 --> 00:00:01,778
+Verdict Picks Toon: Der Roboter, der dich nicht sehen kann
+
+2
+00:00:01,928 --> 00:00:05,969
+Black Friday Woche. 23:48 Uhr. Saugroboter sind im Angebot. Tschüss, Hundehaare!
+
+3
+00:00:06,119 --> 00:00:10,694
+2022: Fotos von Test-Saugrobotern landeten im Netz (MIT Technology Review). 2026: Gehackte Roboter zeigten Live-Kamerabilder (Tom's Hardware).
+
+4
+00:00:10,844 --> 00:00:13,267
+Warte. Mein Staubsauger hätte eine KAMERA?
+
+5
+00:00:13,417 --> 00:00:16,266
+Viele Roboter weichen Chaos aus, indem sie es fotografieren.
+
+6
+00:00:16,416 --> 00:00:20,991
+Es geht auch anders: ein rotierender Laser. LiDAR. Er misst Entfernungen. Er macht nie ein Foto.
+
+7
+00:00:21,141 --> 00:00:23,862
+Er kartiert dein Zuhause im Dunkeln. Keine Bilder.
+
+8
+00:00:24,012 --> 00:00:26,351
+Also keine Kamera, kein Problem! Meistens.
+
+9
+00:00:26,501 --> 00:00:30,329
+Er scannt auf Höhe seines Turms. Er sieht das Sofa, nicht die Socke.
+
+10
+00:00:30,479 --> 00:00:35,054
+CNET Labortest, November 13, 2026: Der kameralose Roomba 205 Combo wich 1 von 6 aus; Roomba Combo 10 Max (Kamera) wich 6 von 6 aus Quelle: CNET, beste Saugroboter 2026 (Labortest von Ajay Kumar).
+
+11
+00:00:35,204 --> 00:00:38,904
+Und kein kameraloser Roboter in unserem Guide verspricht, Tierkot auszuweichen.
+
+12
+00:00:39,054 --> 00:00:40,754
+BISCUIT IST EIN WELPE!
+
+13
+00:00:40,904 --> 00:00:45,479
+Welcher Roboter für dein Zuhause?: Ordentlicher Boden, Privatsphäre zuerst keine Kamera; Welpe, krankes Tier, Kabel Kamera-Roboter
+
+14
+00:00:45,629 --> 00:00:50,203
+Nächster Morgen. Die 30-Sekunden-Regel: Kabel und Socken vor jedem Start vom Boden räumen. Boden ist frei, Kumpel. Los geht's.
+
+15
+00:00:50,353 --> 00:00:54,928
+Noch was: Ein Laser-Roboter sendet deinen Grundriss trotzdem in die Cloud. Überspringe das Datenfreigabe-Programm in der App. Keine Fotos. Nur wir.
+
+16
+00:00:55,078 --> 00:00:57,197
+Welchen kameralosen Roboter solltest du kaufen? Sechs Favoriten unten im Vergleich. Link in der Beschreibung.
+

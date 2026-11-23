@@ -172,7 +172,7 @@ def end_card(spec, h=None):
            text_block(wrap(credit + "Verdict Picks Toon · characters and scenes are fictional; the facts are sourced in the guide below. Not sponsored by any brand shown or named.", 680, 17), W / 2, h - 100, 17, 500, "middle", "#666")]
     return "".join(out), h
 
-def build(d):
+def build(d, return_blocks=False):
     d = pathlib.Path(d); spec = json.loads((d / "webtoon.json").read_text(encoding="utf-8")); sid = spec["id"]
     blocks = []   # (gap_before, height, svg, [transcript lines])
     svg, h = title_card(spec); blocks.append((0, h, svg, [f'{spec.get("series", "Verdict Picks Toon")}: {spec["title"]}']))
@@ -205,6 +205,7 @@ def build(d):
             elif it["t"] == "text": tr.append(it["text"])
         blocks.append((p.get("gap", 60), ph, svg, tr))
     svg, h = end_card(spec); blocks.append((80, h, svg, [spec.get("end", "")]))
+    if return_blocks: return spec, blocks
     # stack and slice: cut only in the middle of gaps, so no panel is split
     slices, cur, y = [], [], 0
     for gap, h, svg, tr in blocks:
