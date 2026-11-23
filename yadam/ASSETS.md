@@ -18,6 +18,7 @@ Updated 2026-11-21 after the cloud work folder was wiped by a container restart.
 3. Secret royal inspector Park Mun-su 2-part Shorts (Vrew) — instruction sheet yadam/vrew/pm01_02_지시문.md (11-23)
 4. Over Arirang Pass best-scene Shorts (auto, pilot_short.py)
 No jeoseung saja / afterlife-judge topics on our channel.
+Vrew output folder on the user's PC (D540win11): D:\Vrew반입\<job>\out (not Google Drive). Vrew jobs run in a session on the PC bridge environment "D540win11:D:\Claude_Work".
 
 ## Rule learned
 The cloud scratchpad is not durable. Anything needed again goes to git (code), Google Drive (media, private files) or environment secrets (keys).
