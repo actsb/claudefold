@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 728" role="img" aria-label="What each robot sees, and with what"><rect width="1200" height="728" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">What each robot sees, and with what</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">From each maker's product and support pages, read November 23, 2026</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Robot</text>
+<text x="313.6822429906542" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Maps with</text>
+<text x="533.4953271028037" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Sees what is ahead with</text>
+<text x="920.7850467289718" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Camera?</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roborock Q7 M5+</text>
+<text x="313.6822429906542" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR</text>
+<text x="533.4953271028037" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Bumper only</text>
+<text x="920.7850467289718" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">None</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#1E8E5A"/><path d="M 55 256 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Tapo RV30 Max Plus</text>
+<text x="313.6822429906542" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR + IMU</text>
+<text x="533.4953271028037" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR and bumper</text>
+<text x="920.7850467289718" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">None</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#1E8E5A"/><path d="M 55 318 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roomba 205</text>
+<text x="313.6822429906542" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">ClearView LiDAR</text>
+<text x="533.4953271028037" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR and bumper</text>
+<text x="920.7850467289718" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">None (iRobot list)</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#1E8E5A"/><path d="M 55 380 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roborock Q10 S5+</text>
+<text x="313.6822429906542" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR</text>
+<text x="533.4953271028037" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Structured light (infrared)</text>
+<text x="920.7850467289718" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">No RGB camera</text>
+<rect x="40" y="416" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="442" r="12" fill="#1E8E5A"/><path d="M 55 442 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="446" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Deebot N30 Pro Omni</text>
+<text x="313.6822429906542" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LDS (LiDAR)</text>
+<text x="533.4953271028037" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Laser obstacle sensor</text>
+<text x="920.7850467289718" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">No RGB camera</text>
+<rect x="40" y="478" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="504" r="12" fill="#1E8E5A"/><path d="M 55 504 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="508" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">eufy Omni C28</text>
+<text x="313.6822429906542" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LDS (LiDAR)</text>
+<text x="533.4953271028037" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Laser line</text>
+<text x="920.7850467289718" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">No RGB camera</text>
+<rect x="40" y="540" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="566" r="12" fill="#C8102E"/><path d="M 55.5 561.5 l 9 9 M 64.5 561.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="74" y="570" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roborock Saros 10R</text>
+<text x="313.6822429906542" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR + 3D ToF</text>
+<text x="533.4953271028037" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">RGB camera with AI</text>
+<text x="920.7850467289718" y="568" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Yes, can be off</text>
+<rect x="40" y="602" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="628" r="12" fill="#C8102E"/><path d="M 55.5 623.5 l 9 9 M 64.5 623.5 l -9 9" stroke="#fff" stroke-width="2.6" stroke-linecap="round"/>
+<text x="74" y="632" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roomba Max 705</text>
+<text x="313.6822429906542" y="630" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">LiDAR</text>
+<text x="533.4953271028037" y="630" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">PrecisionVision camera</text>
+<text x="920.7850467289718" y="630" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">Yes, cannot be off</text>
+<text x="40" y="678" font-size="13" font-weight="400" fill="#888" text-anchor="start">Sources: Roborock, TP-Link, iRobot (support article 31161 and fact sheets), Ecovacs, eufy pages; RTINGS and Roborock newsroom for the camera models.</text><text x="40" y="695" font-size="13" font-weight="400" fill="#888" text-anchor="start">Structured-light sensors read an infrared pattern; they are not RGB cameras.</text>
+</g></svg>

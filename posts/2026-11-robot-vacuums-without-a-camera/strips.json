@@ -1,38 +1,38 @@
 {
-  "strips": [
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "roborock-q10-s5-plus",
+   "title": "A robot with no camera: in real life",
+   "panels": [
     {
-      "id": "in-real-life",
-      "card": "robot-vacuums-no-camera",
-      "title": "A day with the no-camera robot vacuums — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
+     "glyph": "clock",
+     "head": "Before the run",
+     "text": "Pick up cords, socks and toys: a laser maps walls, not socks.",
+     "host": {
+      "pose": "present"
+     }
+    },
+    {
+     "glyph": "check",
+     "product": true,
+     "head": "Map once",
+     "text": "Draw no-go zones round the desk cables and the pet bowls."
+    },
+    {
+     "glyph": "warning",
+     "head": "Pet alone?",
+     "text": "Do not schedule it while a sick pet is home: it cannot see a mess."
+    },
+    {
+     "glyph": "sun",
+     "head": "Privacy",
+     "text": "Skip the data-sharing program in the app. No photos to share anyway.",
+     "host": {
+      "pose": "thumbsup"
+     }
     }
-  ]
+   ]
+  }
+ ]
 }

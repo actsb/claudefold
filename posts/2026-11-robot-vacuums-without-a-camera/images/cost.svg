@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 604" role="img" aria-label="What each robot costs over three years"><rect width="1200" height="604" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">What each robot costs over three years</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Price at a US store on Nov 23, 2026, plus 36 months of bags, filters, brushes and pads</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Robot</text>
+<text x="313.6822429906542" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Robot today</text>
+<text x="585.8317757009345" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">36 months of parts</text>
+<text x="899.8504672897195" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">3-year total</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roborock Q7 M5+</text>
+<text x="313.6822429906542" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$199.99 (Roborock)</text>
+<text x="585.8317757009345" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$262 to $397</text>
+<text x="899.8504672897195" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$462 to $597</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#1E8E5A"/><path d="M 55 256 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roborock Q10 S5+</text>
+<text x="313.6822429906542" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$229.99 (Roborock)</text>
+<text x="585.8317757009345" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $262 to $397</text>
+<text x="899.8504672897195" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $492 to $627</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#C9781B"/><rect x="54" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Tapo RV30 Max Plus</text>
+<text x="313.6822429906542" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$289.99 (Tapo)</text>
+<text x="585.8317757009345" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $220 to $240 (est.)</text>
+<text x="899.8504672897195" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $510 to $530</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#C9781B"/><rect x="54" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Deebot N30 Pro Omni</text>
+<text x="313.6822429906542" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$315 (Ecovacs)</text>
+<text x="585.8317757009345" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $390 (est.)</text>
+<text x="899.8504672897195" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">about $705</text>
+<rect x="40" y="416" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="442" r="12" fill="#C9781B"/><rect x="54" y="440.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="446" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">eufy Omni C28</text>
+<text x="313.6822429906542" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$379.99 (eufy sale)</text>
+<text x="585.8317757009345" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$329.94 (6 kits)</text>
+<text x="899.8504672897195" y="444" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$709.93</text>
+<rect x="40" y="478" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="504" r="12" fill="#C9781B"/><rect x="54" y="502.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="508" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Roomba 205</text>
+<text x="313.6822429906542" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$199.99 to $249.99</text>
+<text x="585.8317757009345" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">no bags; parts not priced</text>
+<text x="899.8504672897195" y="506" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$200 to $250 + parts</text>
+<text x="40" y="554" font-size="13" font-weight="400" fill="#888" text-anchor="start">Parts from the makers' US stores, Nov 23, 2026, at the intervals in their manuals; Tapo and Ecovacs parts intervals are our estimates, and the Q10</text><text x="40" y="571" font-size="13" font-weight="400" fill="#888" text-anchor="start">uses Q7 parts where its own were not listed. Prices move.</text>
+</g></svg>

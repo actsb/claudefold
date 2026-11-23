@@ -2537,9 +2537,180 @@
      "seen": "$99.95 in search result"
     }
    ]
+  },
+  {
+   "key": "roborock-q10-s5-plus",
+   "category": "cleaning",
+   "name": "Roborock Q10 S5+",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "roborock-q10-s5-plus"
+   ],
+   "model": "Q10 S5+ with the self-emptying dock; LiDAR plus Reactive Tech structured light, no camera. Not the Q10 X5+ (a different model).",
+   "street": "$229.99 at Roborock, list $549.99 (Nov 23, 2026); Best Buy “Q10 Series” self-emptying listing $259.99 (search snippet); $259.99 at Roborock on Black Friday 2025 (Wccftech)",
+   "good": "under $260",
+   "great": "$230 or less",
+   "verdict": "buy",
+   "why": "$229.99 at Roborock's own store on Nov 23, 2026 is $30 under its Black Friday 2025 price there; Roborock's sale runs to Nov 30. The page showed conflicting stock messages, so check before you count on it.",
+   "sources": "Roborock store and deals page, Nov 23, 2026; Best Buy search result, Nov 2026; Wccftech, Nov 2025",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "Roborock",
+     "url": "https://us.roborock.com/products/roborock-q10-s5-plus",
+     "seen": "$229.99 (compare-at $549.99), Nov 23, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/roborock-q10-series-robot-vacuum-and-mop-with-self-emptying-10000pa-suction-obstacle-avoidance-black/JJ8F5PCWJ6/sku/12699543",
+     "seen": "Q10 Series self-emptying, $259.99 in search result, Nov 2026 (exact model unconfirmed)"
+    }
+   ]
+  },
+  {
+   "key": "roborock-q7-m5-plus",
+   "category": "cleaning",
+   "name": "Roborock Q7 M5+",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "roborock-q7-m5-plus"
+   ],
+   "model": "Q7 M5+ with the auto-empty dock; LiDAR only, no obstacle sensor. Replaced the Q5 Max+. Not Walmart's “Q7M5 PlusX” or the Q7 L5.",
+   "street": "$199.99 at Roborock (White in stock, Black sold out), compare-at $429.99 (Nov 23, 2026); $219.99 on Black Friday 2025 and $249.99 on Feb 6, 2026 (9to5Toys)",
+   "good": "under $230",
+   "great": "$200 or less",
+   "verdict": "buy",
+   "why": "$199.99 at Roborock on Nov 23, 2026 is $20 under its Black Friday 2025 price and $50 under February's. LiDAR only: it will hit socks and cables.",
+   "sources": "Roborock store and deals page, Nov 23, 2026; 9to5Toys, Nov 28, 2025 and Feb 6, 2026",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "Roborock",
+     "url": "https://us.roborock.com/products/roborock-q7-m5-plus",
+     "seen": "$199.99 (compare-at $429.99), Nov 23, 2026"
+    }
+   ]
+  },
+  {
+   "key": "tapo-rv30-max-plus",
+   "category": "cleaning",
+   "name": "TP-Link Tapo RV30 Max Plus",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "tapo-rv30-max-plus"
+   ],
+   "model": "RV30 Max Plus (first generation) with auto-empty dock; LiDAR + IMU, no camera. The RV30 Max Plus Gen 2 is a different robot.",
+   "street": "$289.99 at Tapo's US store, list $329.99 (Nov 23, 2026); not found at Walmart, Target or Best Buy that day; Tapo RV20 Max Plus $179.99",
+   "good": "under $250",
+   "great": "$200 or less",
+   "verdict": "wait",
+   "why": "Only 12% off on Nov 23, 2026, while the Roborock Q7 M5+ was $199.99 and Tapo's own RV20 Max Plus $179.99. Wait for a real cut.",
+   "sources": "Tapo US store, Nov 23, 2026",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "Tapo",
+     "url": "https://us.store.tapo.com/products/tapo-rv30-max-plus-5300pa-suction-robot-vacuum-mop-with-auto-empty-dock",
+     "seen": "$289.99, list $329.99, Nov 23, 2026"
+    }
+   ]
+  },
+  {
+   "key": "roomba-205-dustcompactor",
+   "category": "cleaning",
+   "name": "iRobot Roomba 205 DustCompactor",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "roomba-205-dustcompactor"
+   ],
+   "model": "Roomba 205 DustCompactor Vac or Combo; ClearView LiDAR, no front camera per iRobot. Not the Plus 505 or Max 705 (camera).",
+   "street": "List $469.99 at iRobot; 205 Combo out of stock there (Nov 23, 2026); Target $199.99 (reg $449.99) and Best Buy $249.99 in undated search snippets",
+   "good": "under $250",
+   "great": "$200 or less",
+   "verdict": "ok",
+   "why": "Out of stock at iRobot on Nov 23, 2026; the Target and Best Buy prices we saw were undated snippets. Under $250 is fair for a robot CNET named best value; pay list only if you need the 60-day iRobot trial.",
+   "sources": "iRobot store, Nov 23, 2026; Target and Best Buy search results, Nov 2026",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "iRobot",
+     "url": "https://www.irobot.com/en_US/roomba-205-dustcompactor-combo-robot/L124020.html",
+     "seen": "$469.99, out of stock, Nov 23, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/irobot-roomba-205-dustcompactor-robot-vacuum/-/A-94371653",
+     "seen": "$199.99 (reg $449.99) in search result, undated"
+    }
+   ]
+  },
+  {
+   "key": "ecovacs-n30-pro-omni",
+   "category": "cleaning",
+   "name": "Ecovacs Deebot N30 Pro Omni",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "ecovacs-n30-pro-omni"
+   ],
+   "model": "Deebot N30 Pro Omni; LDS navigation and laser obstacle avoidance, no RGB camera. Not the T30S Pro or T30S AI (camera); the plain N30 Omni is $669.99 at Ecovacs.",
+   "street": "$315 at Ecovacs (Nov 23, 2026); Walmart $259.99 to $379 across listings and Best Buy clearance $175.99 earlier in 2026 (search snippets)",
+   "good": "under $320",
+   "great": "$260 or less",
+   "verdict": "ok",
+   "why": "$315 at Ecovacs on Nov 23, 2026 is a fair price; Walmart has listed it from $259.99 and Best Buy cleared it at $175.99 earlier this year. Do not buy the plain N30 Omni at $669.99.",
+   "sources": "Ecovacs US store, Nov 23, 2026; Walmart and Best Buy search results, 2026",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "Ecovacs",
+     "url": "https://www.ecovacs.com/us/shop/deebot-robotic-vacuum-cleaner/deebot-n30pro-omni",
+     "seen": "$315, Nov 23, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/17328373015",
+     "seen": "$259.99 to $379 in search results, 2026"
+    }
+   ]
+  },
+  {
+   "key": "eufy-omni-c28",
+   "category": "cleaning",
+   "name": "eufy Omni C28",
+   "guide": "robot-vacuums-no-camera",
+   "card": [
+    "posts/2026-11-robot-vacuums-without-a-camera",
+    "eufy-omni-c28"
+   ],
+   "model": "Omni C28 (T211A110 black / T211A120 white); LDS plus laser line, no camera. Not the Omni C20 (no LiDAR) or the E25 (camera).",
+   "street": "$379.99 on eufy's Black Friday page, list $799.99 (Nov 23, 2026; the product page itself still showed $799.99); Walmart C28 bundles $429.99 to $479.99 (search snippet)",
+   "good": "under $430",
+   "great": "$380 or less",
+   "verdict": "buy",
+   "why": "$379.99 on eufy's Black Friday page on Nov 23, 2026 is 52% off and under every other store we found. Confirm it in the cart: the product page still showed $799.99.",
+   "sources": "eufy Black Friday page and product page, Nov 23, 2026; Walmart search result, Nov 2026",
+   "checked": "2026-11-23",
+   "stores": [
+    {
+     "name": "eufy",
+     "url": "https://www.eufy.com/products/t211a110",
+     "seen": "$379.99 on eufy's Black Friday page, list $799.99, Nov 23, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/20686052981",
+     "seen": "C28 bundles $429.99 to $479.99 in search result, Nov 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 23, 2026: six camera-free robot vacuums added for the “Robot vacuums without a camera” guide. Roborock Q10 S5+ $229.99 and Q7 M5+ $199.99 at Roborock: buy. eufy Omni C28 $379.99 on eufy's Black Friday page: buy if the cart shows it. Ecovacs Deebot N30 Pro Omni $315: ok. Roomba 205 out of stock at iRobot: ok under $250. Tapo RV30 Max Plus $289.99, only 12% off: wait. No CPSC recall found for a robot vacuum from these brands.",
   "Nov 22, 2026: Rubbermaid Brilliance 10-piece re-checked for the improve day. $18.39 at Target (regular $22.99), below Target's $23.99 in last year's Black Friday week; Walmart's page did not load. Lines now good under $20, great about $17; verdict now buy (was wait). Target sells single sizes with lids from $10.39. No CPSC recall found for Rubbermaid food storage.",
   "Week of Nov 21: five oldest entries re-checked. AirPods Pro 3: $179.99 at Target, $249 at Apple, verdict stays buy. Anker SOLIX C1000 Gen 2: $799 list at Anker's store today, $530 announced for its Early Black Friday sale (9to5Toys, Nov 10), wait. Jackery Explorer 2000 v2: $999 at Jackery, no discount, wait (last Black Friday $699). Furhaven Sofa Bed Large: Quilted $39.99 at Furhaven, Plush & Suede Full Support $54.99 at PetSmart through Nov 25, verdict stays ok. Instant Pot Duo Plus 6qt: $139.99 at Instant Pot, Target $99.99 but out of stock, wait; Target replaces Home Depot under Other places to buy. No CPSC recall found for any of the five. Recall Check: four new recalls on Nov 19, none on a model we recommend.",
   "Nov 20, 2026: six deal checks for the “Is that Black Friday deal real?” guide. AirPods Pro 3 $179.99 at Target (its “reg” $249.99 is above Apple's $249): buy. REDTIGER F7NP $93.49 / $109.99 at REDTIGER: buy. Little Green 1400B $94.99 at Bissell: ok. KitchenAid Artisan $349.99 at Target: wait for $300. Instant Pot Duo $109.99 at Instant Pot, no discount: wait for $80. NOCO GB40 $99.95 list: ok (was buy). Correction: the Walmart $74.62 Little Green price we listed in October was the 3369, not the 1400B; its great line is now $85.",

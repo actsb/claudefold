@@ -1,84 +1,215 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The no-camera robot vacuums in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
+ {
+  "type": "matrix",
+  "name": "sensors",
+  "title": "What each robot sees, and with what",
+  "sub": "From each maker's product and support pages, read November 23, 2026",
+  "footer": "Sources: Roborock, TP-Link, iRobot (support article 31161 and fact sheets), Ecovacs, eufy pages; RTINGS and Roborock newsroom for the camera models. Structured-light sensors read an infrared pattern; they are not RGB cameras.",
+  "columns": [
+   {
+    "head": "Robot",
+    "w": 250
+   },
+   {
+    "head": "Maps with",
+    "w": 210
+   },
+   {
+    "head": "Sees what is ahead with",
+    "w": 370
+   },
+   {
+    "head": "Camera?",
+    "w": 240
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Roborock Q7 M5+",
+     "LiDAR",
+     "Bumper only",
+     "None"
     ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Tapo RV30 Max Plus",
+     "LiDAR + IMU",
+     "LiDAR and bumper",
+     "None"
     ]
-  }
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Roomba 205",
+     "ClearView LiDAR",
+     "LiDAR and bumper",
+     "None (iRobot list)"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Roborock Q10 S5+",
+     "LiDAR",
+     "Structured light (infrared)",
+     "No RGB camera"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Deebot N30 Pro Omni",
+     "LDS (LiDAR)",
+     "Laser obstacle sensor",
+     "No RGB camera"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "eufy Omni C28",
+     "LDS (LiDAR)",
+     "Laser line",
+     "No RGB camera"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Roborock Saros 10R",
+     "LiDAR + 3D ToF",
+     "RGB camera with AI",
+     "Yes, can be off"
+    ]
+   },
+   {
+    "verdict": "no",
+    "cells": [
+     "Roomba Max 705",
+     "LiDAR",
+     "PrecisionVision camera",
+     "Yes, cannot be off"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "matrix",
+  "name": "cost",
+  "title": "What each robot costs over three years",
+  "sub": "Price at a US store on Nov 23, 2026, plus 36 months of bags, filters, brushes and pads",
+  "footer": "Parts from the makers' US stores, Nov 23, 2026, at the intervals in their manuals; Tapo and Ecovacs parts intervals are our estimates, and the Q10 uses Q7 parts where its own were not listed. Prices move.",
+  "columns": [
+   {
+    "head": "Robot",
+    "w": 250
+   },
+   {
+    "head": "Robot today",
+    "w": 260
+   },
+   {
+    "head": "36 months of parts",
+    "w": 300
+   },
+   {
+    "head": "3-year total",
+    "w": 260
+   }
+  ],
+  "rows": [
+   {
+    "verdict": "win",
+    "cells": [
+     "Roborock Q7 M5+",
+     "$199.99 (Roborock)",
+     "$262 to $397",
+     "$462 to $597"
+    ]
+   },
+   {
+    "verdict": "win",
+    "cells": [
+     "Roborock Q10 S5+",
+     "$229.99 (Roborock)",
+     "about $262 to $397",
+     "about $492 to $627"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Tapo RV30 Max Plus",
+     "$289.99 (Tapo)",
+     "about $220 to $240 (est.)",
+     "about $510 to $530"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Deebot N30 Pro Omni",
+     "$315 (Ecovacs)",
+     "about $390 (est.)",
+     "about $705"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "eufy Omni C28",
+     "$379.99 (eufy sale)",
+     "$329.94 (6 kits)",
+     "$709.93"
+    ]
+   },
+   {
+    "verdict": "ok",
+    "cells": [
+     "Roomba 205",
+     "$199.99 to $249.99",
+     "no bags; parts not priced",
+     "$200 to $250 + parts"
+    ]
+   }
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Before you buy: settings and privacy",
+  "sub": "Six things to do in the first week with a camera-free robot",
+  "footer": "From the makers' help pages (Roborock, iRobot, Tapo, eufy, Ecovacs), DEF CON 2024 research reported by TechCrunch, and owner threads, read November 23, 2026.",
+  "items": [
+   {
+    "head": "Clear the floor",
+    "body": "LiDAR maps walls and furniture, not cords and socks; testers say to pick them up first."
+   },
+   {
+    "head": "Draw no-go zones",
+    "body": "Around desk cables and pet bowls. eufy warns zones can drop when the map changes."
+   },
+   {
+    "head": "Skip data programs",
+    "body": "eufy's User Experience Program, Ecovacs' product improvement program: leave them off."
+   },
+   {
+    "head": "Lock the account",
+    "body": "A long, unique app password; KISA found weak app logins on some brands in 2025."
+   },
+   {
+    "head": "Mind the pets",
+    "body": "Do not schedule a run while a sick pet or a new puppy is home alone."
+   },
+   {
+    "head": "Reset before selling",
+    "body": "Remove it from your account and factory-reset: DEF CON found data that outlived deletion."
+   }
+  ]
+ }
 ]

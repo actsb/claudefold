@@ -1,34 +1,181 @@
 {
   "category": "generic",
   "buy_title": "The exact no-camera robot vacuums to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from the makers' own US stores (Roborock, TP-Link Tapo, iRobot, Ecovacs, eufy) and Walmart, Target and Best Buy listings on November 23, 2026, and they move during Black Friday week; the buttons show today's price.",
   "cards": [
     {
-      "id": "robot-vacuums-no-camera",
+      "id": "roborock-q10-s5-plus",
       "category": "generic",
-      "name": "Robot vacuums without a camera",
-      "short": "no-camera robot vacuums",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "Roborock Q10 S5+",
+      "short": "Roborock Q10 S5+",
+      "badge": "Our first pick · LiDAR plus structured light, no camera",
+      "chip": "LiDAR · structured light · self-emptying",
       "art": {
         "shape": "tile",
-        "label": "no-camera robot vacuums"
+        "label": "Roborock Q10 S5+"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=robot+vacuum+lidar+no+camera&tag=verdictpicks-20",
+      "price": "$229.99 at Roborock (list $549.99), Nov 23, 2026: $30 under its Black Friday 2025 price.",
+      "buy_if": "you want a robot that maps by laser, sees a shoe or a chair leg in front of it without a camera, empties itself for weeks, and leaves long hair off the brush: Vacuum Wars measured 0% tangling in its hair test against a 38% average.",
+      "skip_if": "you leave cords, socks or pet accidents on the floor: Roborock's structured light sees taller things, and Vacuum Wars scored its obstacle avoidance 1.25 against a 3.39 average. Tom's Guide found its route planning poor; with a puppy, pay for a camera robot.",
+      "owners": "Tom's Guide's review headline: it \"cleans well but has zero sense of direction\". A two-star Sam's Club owner (snippet, Nov 23, 2026) found it buggier than an older Q5 Pro. Praise is for suction and the tangle-free brush.",
+      "cta": "https://www.amazon.com/s?k=Roborock+Q10+S5+&tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "tier": "Our first pick",
+        "pick": "Roborock Q10 S5+ (the plus sign means the self-emptying dock). Not the Q10 X5+, a different model, and not the Qrevo or Saros lines, which add an RGB camera on some versions.",
+        "check": "Q10 S5+ and \"Reactive Tech\" on the listing; sold by Roborock or a named store; Roborock's own store gives 30-day returns and a one-year warranty. Its page showed both \"Only 234 left\" and \"coming soon\" on Nov 23, so check stock.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "roborock-q7-m5-plus",
+      "category": "generic",
+      "name": "Roborock Q7 M5+",
+      "short": "Roborock Q7 M5+",
+      "badge": "Cheapest good LiDAR robot · nothing in front but a bumper",
+      "chip": "LiDAR only · self-emptying",
+      "art": {
+        "shape": "tile",
+        "label": "Roborock Q7 M5+"
+      },
+      "price": "$199.99 at Roborock (White in stock), Nov 23, 2026: $20 under Black Friday 2025.",
+      "buy_if": "you keep a tidy floor and want the most robot for the least money: RTINGS calls the Q7 M5 the best cheap robot vacuum it has tested, TechRadar the best budget robot its reviewer tested, and its only forward sensor is a bumper, so there is no image sensor of any kind.",
+      "skip_if": "you cannot pick up cables, socks and toys before every run: RTINGS says it has no real-time obstacle avoidance and often gets stuck on rugs, cords and clutter, and T3's tester found it ploughed into books and socks.",
+      "owners": "We found no owner reviews at Walmart, Target or Sam's Club for the exact M5+ (Walmart's similar listing is the Q7 L5 or the \"Q7M5 PlusX\"). Testers praise its mapping and how it climbs thresholds; Vacuum Wars (Oct 16, 2026) calls it good value on sale.",
+      "cta": "https://www.amazon.com/s?k=Roborock+Q7+M5+&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Cheapest pick",
+        "pick": "Roborock Q7 M5+ with the auto-empty dock (the Q7 M5 is the same robot without it). It replaced the Q5 Max+.",
+        "check": "Q7 M5+ on the listing; not Walmart's \"Q7M5 PlusX\" or the cheaper Q7 L5; Roborock's store has White in stock today. Bags last up to seven weeks (Roborock).",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "tapo-rv30-max-plus",
+      "category": "generic",
+      "name": "TP-Link Tapo RV30 Max Plus",
+      "short": "Tapo RV30 Max Plus",
+      "badge": "The testers' budget favourite · wait for a real cut",
+      "chip": "LiDAR + IMU · auto-empty · mop",
+      "art": {
+        "shape": "tile",
+        "label": "Tapo RV30 Max Plus"
+      },
+      "price": "$289.99 at Tapo (list $329.99), Nov 23, 2026: only 12% off.",
+      "buy_if": "you want the robot two big test sites named their budget pick: The Verge (Jennifer Pattison Tuohy, Jan 13, 2026) calls it best budget and says it navigated her house well, and PCMag gives it 4.0 and an Editors' Choice.",
+      "skip_if": "you have dark rugs or a lot of hair: a TP-Link forum owner (June 22, 2026) reports a black-and-red rug read as a cliff, and TechGearLab says it struggles with hair. The Verge warns cables and socks will trip it up. At $289.99 the Roborocks are cheaper.",
+      "owners": "TP-Link's community forum: dark rugs trigger \"cliff sensor\" errors (June 22 and July 7, 2026), a robot that stopped short of its dock (Dec 28, 2024), and a thread on battery range of about 750 sq ft. Staff answered each thread.",
+      "cta": "https://www.amazon.com/s?k=Tapo+RV30+Max+Plus&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Testers' budget pick",
+        "pick": "Tapo RV30 Max Plus (first generation, with the auto-empty dock). A Gen 2 exists and is a different robot; check which one the listing sells.",
+        "check": "RV30 Max Plus and \"LiDAR\" on the listing; sold by TP-Link or a named store; Tapo's store gives 30-day returns. Wait for under $250.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "roomba-205-dustcompactor",
+      "category": "generic",
+      "name": "iRobot Roomba 205 DustCompactor",
+      "short": "Roomba 205 DustCompactor",
+      "badge": "Best for hard floors · no dock to empty, no camera",
+      "chip": "ClearView LiDAR · no bags",
+      "art": {
+        "shape": "tile",
+        "label": "Roomba 205 DustCompactor"
+      },
+      "price": "List $469.99; out of stock at iRobot Nov 23, 2026; Target $199.99 and Best Buy $249.99 in undated snippets.",
+      "buy_if": "you have mostly hard floors and little room for a big dock: CNET named the 205 Combo its best value with 99.27% sand pickup on hardwood, and the robot compacts up to 60 days of debris inside itself, so there are no bags to buy.",
+      "skip_if": "you need it to steer around clutter: CNET found it \"only avoided one of six objects\", PCMag lists \"got stuck in testing\" and short battery life, and TechRadar called it \"a crushing disappointment\". iRobot is now owned by Picea (since January 23, 2026).",
+      "owners": "Best Buy shows about 4.1 to 4.2 of 5 on roughly 77 to 90 reviews with 86% recommending it (snippet, Nov 23, 2026). Owners there say it gets stuck on rug edges and that its avoidance only sees furniture; it uses the new Roomba Home app, not the classic iRobot app.",
+      "cta": "https://www.amazon.com/s?k=Roomba+205+DustCompactor&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Best for hard floors",
+        "pick": "Roomba 205 DustCompactor Vac, or the 205 Combo (same robot with a mop pad). Not the Plus 505 or Max 705, which add an iRobot PrecisionVision camera.",
+        "check": "205 DustCompactor on the listing; buy where you get a long return window (iRobot's store gives a 60-day trial); register the warranty, since iRobot changed owners in January 2026. Pay under $250.",
+        "label": "See today's price"
+      },
+      "photo": {
+        "file": "brand/photos/irobot-roomba-205-dustcompactor-vac.jpg",
+        "kind": "brand",
+        "credit": "iRobot press kit",
+        "source": "https://media.irobot.com/media-kits?item=48",
+        "terms": "https://media.irobot.com/",
+        "uses": [
+          "web"
+        ],
+        "checked": "2026-11-23"
+      }
+    },
+    {
+      "id": "ecovacs-n30-pro-omni",
+      "category": "generic",
+      "name": "Ecovacs Deebot N30 Pro Omni",
+      "short": "Deebot N30 Pro Omni",
+      "badge": "Cheapest full mop dock · laser avoidance, no RGB camera",
+      "chip": "LDS · laser avoidance · mop wash",
+      "art": {
+        "shape": "tile",
+        "label": "Deebot N30 Pro Omni"
+      },
+      "price": "$315 at Ecovacs, Nov 23, 2026; Walmart listings from $259.99 (snippets).",
+      "buy_if": "you want a dock that washes the mops and empties the bin for about the price of a vacuum-only robot, with a laser that reads obstacles instead of a camera that photographs them.",
+      "skip_if": "Ecovacs' security record worries you: at DEF CON in August 2024, researchers showed Ecovacs robots could be taken over over Bluetooth (TechCrunch), and its \"product improvement program\" collects photos and voice from camera models (ABC, Oct 2024). Don't pay $669.99 for the plain N30 Omni.",
+      "owners": "Best Buy: 4.1 of 5 on about 83 reviews (snippet, Nov 23, 2026), with praise for the mopping and mapping and complaints about the small dustbin. The Gadgeteer (Nov 22, 2024) found hair still winds round the brush ends of the N30 Omni.",
+      "cta": "https://www.amazon.com/s?k=Ecovacs+Deebot+N30+Pro+Omni&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Cheapest mop dock",
+        "pick": "Deebot N30 Pro Omni (the Pro is the cheaper one at Ecovacs today). Not the T30S Pro or T30S AI, which Ecovacs sells with a camera.",
+        "check": "N30 Pro Omni on the listing; sold by Ecovacs or a named store; Ecovacs returns need an RMA number within 30 days. Skip the product improvement program in the app.",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "eufy-omni-c28",
+      "category": "generic",
+      "name": "eufy Omni C28",
+      "short": "eufy Omni C28",
+      "badge": "Mop dock with a laser line · confirm the cart price",
+      "chip": "LDS + laser line · roller mop",
+      "art": {
+        "shape": "tile",
+        "label": "eufy Omni C28"
+      },
+      "price": "$379.99 on eufy's Black Friday page (list $799.99), Nov 23, 2026; confirm it in the cart.",
+      "buy_if": "you want a camera-free robot with a roller mop and a dock that refills and cleans it: eufy lists LDS plus laser-line avoidance, and Tom's Guide notes it relies on LiDAR where the eufy E25 adds an RGB camera.",
+      "skip_if": "the sale price does not show in the cart, or you want reviews from months of owners: we found no owner reviews of the C28 at another US store, and Mozilla's Privacy Not Included put its warning label on eufy robot vacuums in 2022.",
+      "owners": "Too new for owner patterns: we found no dated owner reviews at Best Buy, Walmart or Target. eufy says the L60 series it replaces is discontinued (eufy blog, Nov 11, 2026). Its replacement kit is $54.99 every six months, by eufy's schedule.",
+      "cta": "https://www.amazon.com/s?k=eufy+Omni+C28&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Mop dock",
+        "pick": "eufy Omni C28 (T211A110 black or T211A120 white). Not the Omni C20 (infrared and point laser, no LiDAR) and not the E25 or E20, which list a camera in some regions.",
+        "check": "C28 on the listing; the $379.99 should show in the cart at eufy.com; eufy's store gives a 30-day money-back guarantee and 12 months of warranty.",
         "label": "See today's price"
       }
     }
-  ]
+  ],
+  "buy_kicker": "Our first pick, and our last word"
 }
