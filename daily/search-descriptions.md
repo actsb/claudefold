@@ -10,6 +10,13 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)
+https://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html
+
+```text
+Six LiDAR robot vacuums with no camera: what each runs into, privacy settings to change, 3-year cost. Top pick: Roborock Q10 S5+, $229.99 at Roborock.
+```
+
 ## Is That Black Friday Deal Real? How to Check a Sale Price in 2026 (With Our Price Lines)
 https://acts39.blogspot.com/2026/11/is-that-black-friday-deal-real-2026.html
 
