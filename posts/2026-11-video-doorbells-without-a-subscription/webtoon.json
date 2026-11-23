@@ -1,0 +1,310 @@
+{
+ "id": "ep3",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 3 · Video doorbells without a subscription",
+ "ai_art": true,
+ "title": "Who's at the Door, Grandma?",
+ "subtitle": "Grandma June can't see her porch. Jo wants to fix that without a monthly bill.",
+ "end": "Which doorbell works without a plan? Six picks and the three-year costs are below.",
+ "style": "Winter daylight palette: pale blue snow, warm wood and amber indoor light.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Daytime establishing shot: a small gray wooden one-story house with a pitched snowy roof, a front porch and one front window; a delivery driver in a plain brown uniform with no logos walks away down the snowy path, leaving a plain cardboard box by the door. Quiet street. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Grandma June's porch. Tuesday, 2:10 p.m.",
+     "x": 30,
+     "y": 30,
+     "w": 460,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Inside, June peers anxiously through a gap in lace curtains beside the front door, one hand on the door chain; she cannot see the porch from this angle. Soft window light, a little lonely. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "whisper",
+     "text": "Was someone at the door?",
+     "x": 420,
+     "y": 60,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo in her bright apartment talking on a video call, leaning toward the camera with a reassuring, determined smile, one hand raised as if promising something. The phone is out of frame. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Grandma, let's get you a video doorbell.",
+     "x": 420,
+     "y": 50,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo stands in an electronics store aisle facing a wall of identical unbranded white and black video doorbell boxes with blank packaging, frowning and comparing two boxes in her hands. Bright retail light. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The catch: many doorbells save video only if you pay for a plan.",
+     "x": 30,
+     "y": 30,
+     "w": 600
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Dramatic impact panel: Vera stands before an enormous glowing paper receipt that unrolls endlessly from the sky and coils around the floor, like a monster; she points at it calmly, wind in her hair, cinematic blue and gold light. The receipt has only blank lines and abstract marks, no readable text. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "A Ring with no plan is a live camera, not a recorder.",
+     "x": 410,
+     "y": 50,
+     "w": 480
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Saved video costs extra: Ring Solo is $49.99 a year (ring.com).",
+     "x": 430,
+     "y": 200,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 470,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "What it costs over three years",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "eufy E340, no plan needed",
+       "$119.99",
+       "#1E8E5A"
+      ],
+      [
+       "Ring with the Solo plan",
+       "$189.96"
+      ],
+      [
+       "Nest with Premium",
+       "$499.99",
+       "#C1121F"
+      ],
+      [
+       "Ring with the Pro plan",
+       "$639.96",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Doorbell price plus three years of plan fees, from our guide below (Target and maker prices, November 11, 2026).",
+     "x": 360,
+     "y": 350,
+     "w": 620,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Comedic dramatic close-up of Jo, glasses askew, eyes huge, jaw dropped in disbelief, manga shock lines radiating behind her. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "$639.96 to watch Grandma's porch?!",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera holds up a sleek generic unbranded video doorbell with two small lenses, a soft glow around it; beside her floats a translucent holographic memory chip icon. Clean, hopeful light. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The eufy E340 saves about 90 days of clips on 8 GB inside it. No fee (eufy).",
+     "x": 16,
+     "y": 14,
+     "w": 380,
+     "size": 22,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Snowy afternoon on the porch of a small gray wooden one-story house with a pitched snowy roof, a front porch and one front window: Jo on a short step stool screws a generic unbranded video doorbell beside the front door; June stands beside her in a lavender coat holding the screwdriver case and a thermos, beaming. Warm teamwork. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Look at you, my little engineer.",
+     "x": 420,
+     "y": 60,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Close-up of June's delighted face lit by the glow of her phone's screen (the phone is out of frame below), eyes sparkling with surprise and joy, hand over her heart. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "shout",
+     "text": "I can see the whole porch!",
+     "x": 400,
+     "y": 40,
+     "w": 540,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Indoors by the window, Jo shows June how to unclip a generic doorbell's battery pack to charge it, June nodding attentively; cups of tea on the table. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The catch with every battery doorbell: at a busy door, owners get weeks of charge, not months.",
+     "x": 30,
+     "y": 24,
+     "w": 440,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "I'll charge it on Sundays, when I visit.",
+     "x": 640,
+     "y": 14,
+     "w": 300
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Heartwarming Sunday scene at a small gray wooden one-story house with a pitched snowy roof, a front porch and one front window: Jo on the porch with a bouquet of flowers presses the generic doorbell; through the front window we see June inside smiling at her phone and already walking to the door, arms opening. Golden late-afternoon light on snow. Composition: keep the top third of the frame as simple, uncluttered background (wall, sky, siding or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "I know exactly who that is.",
+     "x": 560,
+     "y": 40,
+     "w": 400
+    }
+   ]
+  }
+ ]
+}

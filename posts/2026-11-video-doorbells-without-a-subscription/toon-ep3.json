@@ -1,0 +1,106 @@
+{
+ "id": "ep3",
+ "title": "Who's at the Door, Grandma?",
+ "panels": 12,
+ "ai_art": true,
+ "series": "Verdict Picks Toon",
+ "slices": [
+  {
+   "file": "ep3-1.webp",
+   "w": 800,
+   "h": 1293,
+   "alt": "Comic, part 1 of 13: Verdict Picks Toon: Who's at the Door, Grandma? Caption: Grandma June's porch. Tuesday, 2:10 p.m."
+  },
+  {
+   "file": "ep3-2.webp",
+   "w": 800,
+   "h": 1401,
+   "alt": "Comic, part 2 of 13: Grandma June: Was someone at the door?"
+  },
+  {
+   "file": "ep3-3.webp",
+   "w": 800,
+   "h": 885,
+   "alt": "Comic, part 3 of 13: Jo: Grandma, let's get you a video doorbell."
+  },
+  {
+   "file": "ep3-4.webp",
+   "w": 800,
+   "h": 873,
+   "alt": "Comic, part 4 of 13: Caption: The catch: many doorbells save video only if you pay for a plan."
+  },
+  {
+   "file": "ep3-5.webp",
+   "w": 800,
+   "h": 1540,
+   "alt": "Comic, part 5 of 13: Vera: A Ring with no plan is a live camera, not a recorder. Vera: Saved video costs extra: Ring Solo is $49.99 a year (ring.com)."
+  },
+  {
+   "file": "ep3-6.webp",
+   "w": 800,
+   "h": 630,
+   "alt": "Comic, part 6 of 13: Board, What it costs over three years: eufy E340, no plan needed $119.99; Ring with the Solo plan $189.96; Nest with Premium $499.99; Ring with the Pro plan $639.96 Doorbell price plus three years of plan fees, from our guide below (Target and maker prices, November 11, 2026)."
+  },
+  {
+   "file": "ep3-7.webp",
+   "w": 800,
+   "h": 1036,
+   "alt": "Comic, part 7 of 13: Jo: $639.96 to watch Grandma's porch?!"
+  },
+  {
+   "file": "ep3-8.webp",
+   "w": 800,
+   "h": 761,
+   "alt": "Comic, part 8 of 13: Caption: The eufy E340 saves about 90 days of clips on 8 GB inside it. No fee (eufy)."
+  },
+  {
+   "file": "ep3-9.webp",
+   "w": 800,
+   "h": 1463,
+   "alt": "Comic, part 9 of 13: Grandma June: Look at you, my little engineer."
+  },
+  {
+   "file": "ep3-10.webp",
+   "w": 800,
+   "h": 1085,
+   "alt": "Comic, part 10 of 13: Grandma June: I can see the whole porch!"
+  },
+  {
+   "file": "ep3-11.webp",
+   "w": 800,
+   "h": 1006,
+   "alt": "Comic, part 11 of 13: Caption: The catch with every battery doorbell: at a busy door, owners get weeks of charge, not months. Jo: I'll charge it on Sundays, when I visit."
+  },
+  {
+   "file": "ep3-12.webp",
+   "w": 800,
+   "h": 891,
+   "alt": "Comic, part 12 of 13: Grandma June: I know exactly who that is."
+  },
+  {
+   "file": "ep3-13.webp",
+   "w": 800,
+   "h": 447,
+   "alt": "Comic, part 13 of 13: Which doorbell works without a plan? Six picks and the three-year costs are below."
+  }
+ ],
+ "transcript": [
+  "Verdict Picks Toon: Who's at the Door, Grandma?",
+  "Caption: Grandma June's porch. Tuesday, 2:10 p.m.",
+  "Grandma June: Was someone at the door?",
+  "Jo: Grandma, let's get you a video doorbell.",
+  "Caption: The catch: many doorbells save video only if you pay for a plan.",
+  "Vera: A Ring with no plan is a live camera, not a recorder.",
+  "Vera: Saved video costs extra: Ring Solo is $49.99 a year (ring.com).",
+  "Board, What it costs over three years: eufy E340, no plan needed $119.99; Ring with the Solo plan $189.96; Nest with Premium $499.99; Ring with the Pro plan $639.96",
+  "Doorbell price plus three years of plan fees, from our guide below (Target and maker prices, November 11, 2026).",
+  "Jo: $639.96 to watch Grandma's porch?!",
+  "Caption: The eufy E340 saves about 90 days of clips on 8 GB inside it. No fee (eufy).",
+  "Grandma June: Look at you, my little engineer.",
+  "Grandma June: I can see the whole porch!",
+  "Caption: The catch with every battery doorbell: at a busy door, owners get weeks of charge, not months.",
+  "Jo: I'll charge it on Sundays, when I visit.",
+  "Grandma June: I know exactly who that is.",
+  "Which doorbell works without a plan? Six picks and the three-year costs are below."
+ ]
+}

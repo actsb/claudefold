@@ -162,12 +162,14 @@ def title_card(spec, h=560):
     out.append(text_block(wrap(spec.get("note", "Characters and scenes are fictional. Every number in the comic comes from the guide below, with its source."), 640, 18), W / 2, h - 110, 18, 500, "middle", "#9FB0C8"))
     return "".join(out), h
 
-def end_card(spec, h=300):
+def end_card(spec, h=None):
     credit = ("Art generated with Google Gemini (AI) from our script; story, lettering and facts by Verdict Picks. " if spec.get("ai_art") else "")
+    lines = wrap(spec.get("end", "The full comparison is below."), 640, 30, True)
+    ay = 70 + 39 * len(lines); h = h or ay + 70 + 110
     out = [f'<rect width="{W}" height="{h}" fill="#F7F5F0"/>',
-           text_block(wrap(spec.get("end", "The full comparison is below."), 640, 30, True), W / 2, 40, 30, 800, "middle", INK),
-           item_svg({"t": "arrow", "x": W / 2, "y": 130, "len": 50}, W, h, "end"),
-           text_block(wrap(credit + "Verdict Picks Toon · characters and scenes are fictional; the facts are sourced in the guide below. Not sponsored by any brand shown or named.", 680, 17), W / 2, h - 110, 17, 500, "middle", "#666")]
+           text_block(lines, W / 2, 40, 30, 800, "middle", INK),
+           item_svg({"t": "arrow", "x": W / 2, "y": ay, "len": 40}, W, h, "end"),
+           text_block(wrap(credit + "Verdict Picks Toon · characters and scenes are fictional; the facts are sourced in the guide below. Not sponsored by any brand shown or named.", 680, 17), W / 2, h - 100, 17, 500, "middle", "#666")]
     return "".join(out), h
 
 def build(d):
