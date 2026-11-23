@@ -2,277 +2,213 @@
  "id": "ep1",
  "series": "Verdict Picks Toon",
  "episode": "Episode 1 · Robot vacuums without a camera",
+ "ai_art": true,
  "title": "The Robot That Can't See You",
  "subtitle": "Sam wants a robot vacuum this Black Friday. Then Sam reads the news.",
  "end": "Which camera-free robot should you buy? Six picks, compared below.",
  "panels": [
   {
    "gap": 120,
-   "h": 600,
-   "bg": "night-room",
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Late at night in a cozy small apartment living room lit by a warm floor lamp and blue moonlight from a big window. Sam sits on a gray sofa grinning at his smartphone, its glow on his face. Biscuit sleeps curled on a round cushion beside him. Medium-wide shot. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
      "t": "narr",
-     "text": "Black Friday week, 11:48 p.m.",
-     "x": 20,
-     "y": 20,
-     "w": 330,
+     "text": "Black Friday week. 11:48 p.m.",
+     "x": 30,
+     "y": 30,
+     "w": 360,
      "dark": true
-    },
-    {
-     "t": "char",
-     "who": "sam",
-     "expr": "happy",
-     "pose": "phone",
-     "x": 40,
-     "y": 220,
-     "s": 1.0
-    },
-    {
-     "t": "dog",
-     "x": 420,
-     "y": 390,
-     "s": 0.85,
-     "mood": "sleepy"
     },
     {
      "t": "say",
      "who": "sam",
      "text": "Robot vacuums are on sale. Goodbye, dog hair!",
-     "x": 500,
+     "x": 520,
      "y": 120,
-     "w": 380,
-     "tail": [
-      250,
-      300
-     ]
+     "w": 420
     }
    ]
   },
   {
    "gap": 220,
-   "h": 640,
-   "bg": "color:#E9EEF5",
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Over-the-shoulder close-up in a dark room: Sam's hand holds a smartphone whose screen shows a blurry, grainy photo of someone's living room taken from floor level, as if leaked. The cold screen light contrasts with the dark. Unease. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
-     "t": "phone",
-     "x": 217,
-     "y": 26,
-     "s": 0.95,
-     "title": "TECH NEWS",
-     "lines": [
-      "Photos taken by",
-      "test robot vacuums",
-      "were posted online",
-      "(2022).",
-      "",
-      "Hacked robots showed",
-      "live camera feeds",
-      "(2026)."
-     ]
-    },
-    {
      "t": "narr",
-     "text": "As reported by MIT Technology Review (2022) and Tom's Hardware (2026).",
-     "x": 60,
-     "y": 540,
-     "w": 600,
-     "size": 20
+     "text": "2022: photos taken by test robot vacuums were posted online (MIT Technology Review). 2026: hacked robots showed live camera feeds (Tom's Hardware).",
+     "x": 30,
+     "y": 24,
+     "w": 740
     }
    ]
   },
   {
-   "gap": 200,
-   "h": 520,
-   "bg": "focus",
+   "gap": 140,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Dramatic extreme close-up of Sam's shocked face, eyes wide, mouth open, sweat drop, intense dramatic lighting from below, radiating manga speed lines in the background. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
-    {
-     "t": "char",
-     "who": "sam",
-     "expr": "shock",
-     "pose": "headgrab",
-     "x": 195,
-     "y": 130,
-     "s": 1.1
-    },
-    {
-     "t": "sfx",
-     "text": "!!",
-     "x": 620,
-     "y": 300,
-     "size": 96
-    },
     {
      "t": "say",
      "who": "sam",
      "kind": "shout",
      "text": "Wait. My vacuum would have a CAMERA?",
-     "x": 360,
+     "x": 400,
      "y": 40,
      "w": 560,
-     "size": 30
-    }
-   ]
-  },
-  {
-   "gap": 560,
-   "h": 600,
-   "bg": "board",
-   "items": [
-    {
-     "t": "char",
-     "who": "vera",
-     "expr": "smug",
-     "pose": "present",
-     "x": 10,
-     "y": 220,
-     "s": 1.05
+     "size": 32
     },
     {
-     "t": "robot",
-     "x": 420,
-     "y": 430,
-     "s": 1.0
-    },
-    {
-     "t": "say",
-     "who": "vera",
-     "text": "Some do. A camera lets a robot see a sock and steer around it.",
-     "x": 480,
-     "y": 40,
-     "w": 480,
-     "tail": [
-      240,
-      280
-     ]
-    }
-   ]
-  },
-  {
-   "gap": 200,
-   "h": 660,
-   "bg": "board",
-   "items": [
-    {
-     "t": "narr",
-     "text": "A robot without a camera maps your home with a spinning laser: LiDAR.",
-     "x": 20,
-     "y": 20,
-     "w": 680
-    },
-    {
-     "t": "robot",
-     "view": "top",
-     "beams": true,
-     "x": 230,
-     "y": 200,
-     "s": 1.0
-    },
-    {
-     "t": "narr",
-     "text": "It measures the distance to walls and furniture. It never takes a photo, and it works in the dark.",
-     "x": 20,
-     "y": 516,
-     "w": 680,
-     "dark": true
-    }
-   ]
-  },
-  {
-   "gap": 200,
-   "h": 540,
-   "bg": "night-room",
-   "items": [
-    {
-     "t": "char",
-     "who": "sam",
-     "expr": "happy",
-     "pose": "thumbsup",
-     "x": 0,
-     "y": 180,
-     "s": 1.0
-    },
-    {
-     "t": "char",
-     "who": "vera",
-     "expr": "smug",
-     "pose": "rest",
-     "x": 410,
-     "y": 180,
-     "s": 1.0,
-     "flip": true
-    },
-    {
-     "t": "say",
-     "who": "sam",
-     "text": "Then no camera, no problem!",
-     "x": 210,
-     "y": 24,
-     "w": 380,
-     "tail": [
-      170,
-      250
-     ]
-    },
-    {
-     "t": "say",
-     "who": "vera",
-     "text": "Mostly.",
-     "x": 600,
-     "y": 70,
-     "w": 200,
-     "tail": [
-      560,
-      250
-     ]
+     "t": "sfx",
+     "text": "!!",
+     "x": 690,
+     "y": 420,
+     "size": 110
     }
    ]
   },
   {
    "gap": 520,
-   "h": 560,
-   "bg": "floor",
    "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Eerie low-angle wide shot at floor level in a dark living room: a sleek white round robot vacuum seen from the front, with a small glowing lens on its front bumper like an eye, looking toward the viewer. Moody blue shadows, a thin beam of light. Thriller atmosphere. The robot is generic and unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
      "t": "narr",
-     "text": "It scans at the height of its turret. It sees the sofa, not the sock on the floor.",
+     "text": "Many robots dodge clutter by photographing it.",
      "x": 30,
-     "y": 120,
-     "w": 560
-    },
-    {
-     "t": "sock",
-     "x": 110,
-     "y": 420,
-     "s": 1.0
-    },
-    {
-     "t": "robot",
-     "x": 250,
-     "y": 310,
-     "s": 1.3,
-     "beams": true
-    },
-    {
-     "t": "cord",
-     "x": 480,
-     "y": 470,
-     "w": 280
-    },
-    {
-     "t": "sfx",
-     "text": "SHRRRK",
-     "x": 620,
-     "y": 380,
-     "size": 60,
-     "rot": -10
+     "y": 30,
+     "w": 520,
+     "dark": true
     }
    ]
   },
   {
-   "gap": 200,
-   "h": 320,
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera makes a confident entrance in a bright, clean space, one hand raised presenting a glowing holographic diagram of a round robot with red laser lines radiating out from a small turret on top. Dynamic pose, wind in her hair, sparkles of light. Heroic, upbeat. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "There's another way: a spinning laser. LiDAR.",
+     "x": 400,
+     "y": 50,
+     "w": 480
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "It measures distance. It never takes a photo.",
+     "x": 440,
+     "y": 210,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "A generic white round robot vacuum with a small dark turret on top glides across a dark living room floor at night; thin red laser lines sweep out from the turret across walls and furniture like a lighthouse, beautiful and calm. No camera on the robot. Unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "It maps your home in the dark. No pictures.",
+     "x": 30,
+     "y": 30,
+     "w": 520
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam",
+     "vera"
+    ],
+    "prompt": "Sam pumps his fist, beaming with relief, in his apartment; Vera stands slightly behind him with arms crossed and a knowing half-smile, one eyebrow raised. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "Then no camera, no problem!",
+     "x": 560,
+     "y": 30,
+     "w": 400
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Mostly.",
+     "x": 170,
+     "y": 120,
+     "w": 200
+    }
+   ]
+  },
+  {
+   "gap": 560,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Dynamic action shot at floor level: a generic white round robot vacuum charges forward across a wooden floor, dragging a black phone charging cable and pushing a red sock, motion blur and speed lines, dust flying, comic energy. Unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "It scans at the height of its turret. It sees the sofa, not the sock.",
+     "x": 30,
+     "y": 24,
+     "w": 560
+    },
+    {
+     "t": "sfx",
+     "text": "SHRRRK",
+     "x": 610,
+     "y": 200,
+     "size": 74,
+     "rot": -12
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 330,
    "bg": "board",
    "items": [
     {
@@ -308,64 +244,44 @@
    ]
   },
   {
-   "gap": 220,
-   "h": 540,
-   "bg": "floor",
+   "gap": 200,
    "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "biscuit"
+    ],
+    "prompt": "Tense floor-level shot: Biscuit stands frozen with big worried eyes and ears perked as a white round robot vacuum slowly approaches from the right across a wooden floor. Dramatic shallow depth of field, suspense. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
-    {
-     "t": "dog",
-     "x": 60,
-     "y": 300,
-     "s": 1.1,
-     "mood": "alert"
-    },
-    {
-     "t": "robot",
-     "x": 440,
-     "y": 400,
-     "s": 1.0,
-     "flip": true
-    },
-    {
-     "t": "sfx",
-     "text": "?",
-     "x": 300,
-     "y": 300,
-     "size": 70,
-     "color": "#1B2A41",
-     "rot": 10
-    },
     {
      "t": "say",
      "who": "vera",
      "kind": "whisper",
      "text": "And no camera-free robot in our guide promises to avoid pet waste.",
-     "x": 420,
-     "y": 130,
+     "x": 400,
+     "y": 30,
      "w": 640
     }
    ]
   },
   {
-   "gap": 200,
-   "h": 470,
-   "bg": "alarm",
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Comedic super-deformed chibi version of Sam panicking, both hands on his head, eyes as huge white circles, tiny body, bright pink background with radiating burst lines. Funny reaction panel. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
-    {
-     "t": "chibi",
-     "who": "sam",
-     "expr": "shock",
-     "x": 230,
-     "y": 150,
-     "s": 1.3
-    },
     {
      "t": "say",
      "who": "sam",
      "kind": "shout",
-     "text": "MY DOG IS A PUPPY!",
-     "x": 360,
+     "text": "BISCUIT IS A PUPPY!",
+     "x": 400,
      "y": 40,
      "w": 560,
      "size": 40
@@ -373,16 +289,23 @@
    ]
   },
   {
-   "gap": 600,
-   "h": 760,
-   "bg": "board",
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera",
+     "biscuit"
+    ],
+    "prompt": "Warm moment: Vera kneels on a living-room rug and gently scratches Biscuit behind the ears; the puppy leans into her hand, happy. Soft afternoon light. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
      "t": "card",
-     "x": 40,
-     "y": 40,
-     "w": 640,
-     "size": 24,
+     "x": 330,
+     "y": 30,
+     "w": 450,
+     "size": 20,
      "title": "Which robot for your home?",
      "rows": [
       [
@@ -396,117 +319,65 @@
        "#C1121F"
       ]
      ]
-    },
-    {
-     "t": "char",
-     "who": "vera",
-     "expr": "neutral",
-     "pose": "point",
-     "x": 10,
-     "y": 390,
-     "s": 1.0
-    },
-    {
-     "t": "say",
-     "who": "vera",
-     "text": "Pick by your floor, not by the ad.",
-     "x": 500,
-     "y": 300,
-     "w": 440,
-     "tail": [
-      230,
-      470
-     ]
     }
    ]
   },
   {
-   "gap": 520,
-   "h": 640,
-   "bg": "day-room",
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Bright morning sunlight floods the apartment. Sam kneels on the floor coiling a charging cable and picking up a red sock, smiling; Biscuit wags his tail beside him; a white round robot vacuum waits on its dock in the background. Hopeful, warm colors. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
      "t": "narr",
      "text": "Next morning. The 30-second rule: cords and socks off the floor before every run.",
-     "x": 20,
-     "y": 20,
-     "w": 500,
+     "x": 30,
+     "y": 30,
+     "w": 520,
      "dark": true
-    },
-    {
-     "t": "char",
-     "who": "sam",
-     "expr": "determined",
-     "pose": "thumbsup",
-     "x": 10,
-     "y": 190,
-     "s": 0.95
-    },
-    {
-     "t": "dog",
-     "x": 300,
-     "y": 440,
-     "s": 0.75,
-     "mood": "calm"
-    },
-    {
-     "t": "robot",
-     "x": 460,
-     "y": 510,
-     "s": 0.9,
-     "beams": true
     },
     {
      "t": "say",
      "who": "sam",
-     "text": "Floor's clear. Go, robot.",
+     "text": "Floor's clear, buddy. Let's go.",
      "x": 560,
-     "y": 230,
-     "w": 320,
-     "tail": [
-      250,
-      290
-     ]
+     "y": 220,
+     "w": 360
     }
    ]
   },
   {
    "gap": 220,
-   "h": 580,
-   "bg": "board",
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Quiet, emotional closing shot from behind: Sam sits on the floor by a big sunny window with Biscuit in his lap, both watching a white round robot vacuum glide across the clean floor. Golden light, peaceful, heartwarming. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+   },
    "items": [
     {
-     "t": "char",
-     "who": "vera",
-     "expr": "neutral",
-     "pose": "wave",
-     "x": 10,
-     "y": 220,
-     "s": 1.0
+     "t": "narr",
+     "text": "One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app.",
+     "x": 30,
+     "y": 24,
+     "w": 740
     },
     {
      "t": "say",
-     "who": "vera",
-     "text": "One more thing: a laser robot still sends your floor map to the cloud.",
-     "x": 480,
-     "y": 30,
-     "w": 500,
-     "tail": [
-      230,
-      300
-     ]
-    },
-    {
-     "t": "say",
-     "who": "vera",
-     "text": "So skip the data-sharing program in the app.",
-     "x": 500,
-     "y": 250,
-     "w": 440,
-     "tail": [
-      250,
-      330
-     ]
+     "who": "sam",
+     "text": "No photos. Just us.",
+     "x": 560,
+     "y": 170,
+     "w": 300
     }
    ]
   }

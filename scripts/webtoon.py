@@ -163,10 +163,11 @@ def title_card(spec, h=560):
     return "".join(out), h
 
 def end_card(spec, h=300):
+    credit = ("Art generated with Google Gemini (AI) from our script; story, lettering and facts by Verdict Picks. " if spec.get("ai_art") else "")
     out = [f'<rect width="{W}" height="{h}" fill="#F7F5F0"/>',
            text_block(wrap(spec.get("end", "The full comparison is below."), 640, 30, True), W / 2, 40, 30, 800, "middle", INK),
            item_svg({"t": "arrow", "x": W / 2, "y": 130, "len": 50}, W, h, "end"),
-           text_block(wrap("Verdict Picks Toon · illustrated by Verdict Picks · characters and scenes are fictional; the facts are sourced in the guide below. Not sponsored by any brand shown or named.", 680, 17), W / 2, h - 110, 17, 500, "middle", "#666")]
+           text_block(wrap(credit + "Verdict Picks Toon · characters and scenes are fictional; the facts are sourced in the guide below. Not sponsored by any brand shown or named.", 680, 17), W / 2, h - 110, 17, 500, "middle", "#666")]
     return "".join(out), h
 
 def build(d):
@@ -174,8 +175,19 @@ def build(d):
     blocks = []   # (gap_before, height, svg, [transcript lines])
     svg, h = title_card(spec); blocks.append((0, h, svg, [f'{spec.get("series", "Verdict Picks Toon")}: {spec["title"]}']))
     for i, p in enumerate(spec["panels"]):
-        full = p.get("full", False); pw = W if full else W - 2 * MARGIN; ph = p["h"]; px = 0 if full else MARGIN; uid = f"{sid}{i}"
-        inner = background(p.get("bg", "plain"), pw, ph, uid) + "".join(item_svg(it, pw, ph, uid) for it in p.get("items", []))
+        full = p.get("full", False); pw = W if full else W - 2 * MARGIN; px = 0 if full else MARGIN; uid = f"{sid}{i}"
+        art = d / "toon-art" / f"{sid}-p{i+1:02d}.jpg" if "art" in p else None
+        if art is not None:
+            if not art.exists(): raise SystemExit(f"missing {art}: run scripts/toon_art.py {d} first")
+            import subprocess
+            aw, ah = [int(v) for v in subprocess.run(["identify", "-format", "%w %h", str(art)], capture_output=True, text=True, check=True).stdout.split()]   # real size after trimming
+            ph = p.get("h", round(pw * ah / aw))
+            import base64
+            bg = (f'<image href="data:image/jpeg;base64,{base64.b64encode(art.read_bytes()).decode()}" x="0" y="{p.get("art_y", 0)}" width="{pw}" height="{round(pw * ah / aw)}" '
+                  f'preserveAspectRatio="xMidYMid slice"/>')
+        else:
+            ph = p["h"]; bg = background(p.get("bg", "plain"), pw, ph, uid)
+        inner = bg + "".join(item_svg(it, pw, ph, uid) for it in p.get("items", []))
         clip = f'<clipPath id="c{uid}"><rect width="{pw}" height="{ph}" rx="{0 if full else 6}"/></clipPath>' if p.get("clip", True) else ""
         body = f'<g clip-path="url(#c{uid})">{inner}</g>' if clip else inner
         border = f'<rect width="{pw}" height="{ph}" rx="6" fill="none" stroke="{INK}" stroke-width="4"/>' if p.get("border", not full) and p.get("bg", "plain") != "none" else ""
@@ -203,7 +215,7 @@ def build(d):
     slices.append((cur, y + 40))
     out_dir = d / "images" / "toon"; out_dir.mkdir(parents=True, exist_ok=True)
     for f in out_dir.glob(f"{sid}-*.svg"): f.unlink()
-    meta = {"id": sid, "title": spec["title"], "panels": len(spec["panels"]), "series": spec.get("series", "Verdict Picks Toon"), "slices": [], "transcript": []}
+    meta = {"id": sid, "title": spec["title"], "panels": len(spec["panels"]), "ai_art": bool(spec.get("ai_art")), "series": spec.get("series", "Verdict Picks Toon"), "slices": [], "transcript": []}
     for n, (parts, sh) in enumerate(slices, 1):
         body = "".join(f'<g transform="translate(0 {y})">{svg}</g>' for y, h, svg, tr in parts)
         alt_bits = [t for _, _, _, tr in parts for t in tr]
@@ -222,8 +234,10 @@ def rasterize(d):
     d = pathlib.Path(d); td = d / "images" / "toon"; root = pathlib.Path(__file__).resolve().parent.parent
     subprocess.run(["node", str(root / "scripts" / "render_png.mjs"), str(td)], check=True, stdout=subprocess.DEVNULL)
     for png in sorted(td.glob("*.png")):
-        subprocess.run(["convert", str(png), "-quality", "82", "-define", "webp:method=6", str(png.with_suffix(".webp"))], check=True)
+        subprocess.run(["convert", str(png), "-quality", "80", "-define", "webp:method=6", str(png.with_suffix(".webp"))], check=True)
         png.unlink()
+    if json.loads((d / "webtoon.json").read_text(encoding="utf-8")).get("ai_art"):
+        for f in td.glob("*.svg"): f.unlink()   # these embed the art as base64: rebuilt from webtoon.json + toon-art/, not kept
     meta = d / f"toon-{json.loads((d / 'webtoon.json').read_text(encoding='utf-8'))['id']}.json"
     m = json.loads(meta.read_text(encoding="utf-8"))
     for sl in m["slices"]: sl["file"] = sl["file"].replace(".png", ".webp")

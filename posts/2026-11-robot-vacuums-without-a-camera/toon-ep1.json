@@ -1,108 +1,119 @@
 {
  "id": "ep1",
  "title": "The Robot That Can't See You",
- "panels": 13,
+ "panels": 14,
+ "ai_art": true,
  "series": "Verdict Picks Toon",
  "slices": [
   {
    "file": "ep1-1.webp",
    "w": 800,
-   "h": 1390,
-   "alt": "Comic, part 1 of 12: Verdict Picks Toon: The Robot That Can't See You Caption: Black Friday week, 11:48 p.m. Sam: Robot vacuums are on sale. Goodbye, dog hair!"
+   "h": 620,
+   "alt": "Comic, part 1 of 14: Verdict Picks Toon: The Robot That Can't See You"
   },
   {
    "file": "ep1-2.webp",
    "w": 800,
-   "h": 850,
-   "alt": "Comic, part 2 of 12: Phone screen: TECH NEWS Photos taken by test robot vacuums were posted online (2022).  Hacked robots showed live camera feeds (2026). Caption: As reported by MIT Technology Review (2022) and Tom's Hardware (2026)."
+   "h": 1370,
+   "alt": "Comic, part 2 of 14: Caption: Black Friday week. 11:48 p.m. Sam: Robot vacuums are on sale. Goodbye, dog hair!"
   },
   {
    "file": "ep1-3.webp",
    "w": 800,
-   "h": 900,
-   "alt": "Comic, part 3 of 12: (Sound: !!) Sam: Wait. My vacuum would have a CAMERA?"
+   "h": 713,
+   "alt": "Comic, part 3 of 14: Caption: 2022: photos taken by test robot vacuums were posted online (MIT Technology Review). 2026: hacked robots showed live camera feeds (Tom's Hardware)."
   },
   {
    "file": "ep1-4.webp",
    "w": 800,
-   "h": 980,
-   "alt": "Comic, part 4 of 12: Vera: Some do. A camera lets a robot see a sock and steer around it."
+   "h": 1130,
+   "alt": "Comic, part 4 of 14: Sam: Wait. My vacuum would have a CAMERA? (Sound: !!)"
   },
   {
    "file": "ep1-5.webp",
    "w": 800,
-   "h": 860,
-   "alt": "Comic, part 5 of 12: Caption: A robot without a camera maps your home with a spinning laser: LiDAR. Caption: It measures the distance to walls and furniture. It never takes a photo, and it works in the dark."
+   "h": 873,
+   "alt": "Comic, part 5 of 14: Caption: Many robots dodge clutter by photographing it."
   },
   {
    "file": "ep1-6.webp",
    "w": 800,
-   "h": 900,
-   "alt": "Comic, part 6 of 12: Sam: Then no camera, no problem! Vera: Mostly."
+   "h": 1360,
+   "alt": "Comic, part 6 of 14: Vera: There's another way: a spinning laser. LiDAR. Vera: It measures distance. It never takes a photo."
   },
   {
    "file": "ep1-7.webp",
    "w": 800,
-   "h": 920,
-   "alt": "Comic, part 7 of 12: Caption: It scans at the height of its turret. It sees the sofa, not the sock on the floor. (Sound: SHRRRK)"
+   "h": 693,
+   "alt": "Comic, part 7 of 14: Caption: It maps your home in the dark. No pictures."
   },
   {
    "file": "ep1-8.webp",
    "w": 800,
-   "h": 1280,
-   "alt": "Comic, part 8 of 12: Board, CNET lab test, November 13, 2026: Camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max (camera) avoided 6 of 6 Source: CNET, best robot vacuums of 2026 (lab test by Ajay Kumar). (Sound: ?) Vera: And no camera-free robot in our guide promises to avoid pet waste."
+   "h": 1046,
+   "alt": "Comic, part 8 of 14: Sam: Then no camera, no problem! Vera: Mostly."
   },
   {
    "file": "ep1-9.webp",
    "w": 800,
-   "h": 870,
-   "alt": "Comic, part 9 of 12: Sam: MY DOG IS A PUPPY!"
+   "h": 893,
+   "alt": "Comic, part 9 of 14: Caption: It scans at the height of its turret. It sees the sofa, not the sock. (Sound: SHRRRK)"
   },
   {
    "file": "ep1-10.webp",
    "w": 800,
-   "h": 1320,
-   "alt": "Comic, part 10 of 12: Board, Which robot for your home?: Tidy floor, privacy first no camera; Puppy, sick pet, cords camera robot Vera: Pick by your floor, not by the ad."
+   "h": 1203,
+   "alt": "Comic, part 10 of 14: Board, CNET lab test, November 13, 2026: Camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max (camera) avoided 6 of 6 Source: CNET, best robot vacuums of 2026 (lab test by Ajay Kumar). Vera: And no camera-free robot in our guide promises to avoid pet waste."
   },
   {
    "file": "ep1-11.webp",
    "w": 800,
-   "h": 1010,
-   "alt": "Comic, part 11 of 12: Caption: Next morning. The 30-second rule: cords and socks off the floor before every run. Sam: Floor's clear. Go, robot."
+   "h": 1120,
+   "alt": "Comic, part 11 of 14: Sam: BISCUIT IS A PUPPY!"
   },
   {
    "file": "ep1-12.webp",
    "w": 800,
-   "h": 1110,
-   "alt": "Comic, part 12 of 12: Vera: One more thing: a laser robot still sends your floor map to the cloud. Vera: So skip the data-sharing program in the app. Which camera-free robot should you buy? Six picks, compared below."
+   "h": 1038,
+   "alt": "Comic, part 12 of 14: Board, Which robot for your home?: Tidy floor, privacy first no camera; Puppy, sick pet, cords camera robot"
+  },
+  {
+   "file": "ep1-13.webp",
+   "w": 800,
+   "h": 1390,
+   "alt": "Comic, part 13 of 14: Caption: Next morning. The 30-second rule: cords and socks off the floor before every run. Sam: Floor's clear, buddy. Let's go."
+  },
+  {
+   "file": "ep1-14.webp",
+   "w": 800,
+   "h": 1063,
+   "alt": "Comic, part 14 of 14: Caption: One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app. Sam: No photos. Just us. Which camera-free robot should you buy? Six picks, compared below."
   }
  ],
  "transcript": [
   "Verdict Picks Toon: The Robot That Can't See You",
-  "Caption: Black Friday week, 11:48 p.m.",
+  "Caption: Black Friday week. 11:48 p.m.",
   "Sam: Robot vacuums are on sale. Goodbye, dog hair!",
-  "Phone screen: TECH NEWS Photos taken by test robot vacuums were posted online (2022).  Hacked robots showed live camera feeds (2026).",
-  "Caption: As reported by MIT Technology Review (2022) and Tom's Hardware (2026).",
-  "(Sound: !!)",
+  "Caption: 2022: photos taken by test robot vacuums were posted online (MIT Technology Review). 2026: hacked robots showed live camera feeds (Tom's Hardware).",
   "Sam: Wait. My vacuum would have a CAMERA?",
-  "Vera: Some do. A camera lets a robot see a sock and steer around it.",
-  "Caption: A robot without a camera maps your home with a spinning laser: LiDAR.",
-  "Caption: It measures the distance to walls and furniture. It never takes a photo, and it works in the dark.",
+  "(Sound: !!)",
+  "Caption: Many robots dodge clutter by photographing it.",
+  "Vera: There's another way: a spinning laser. LiDAR.",
+  "Vera: It measures distance. It never takes a photo.",
+  "Caption: It maps your home in the dark. No pictures.",
   "Sam: Then no camera, no problem!",
   "Vera: Mostly.",
-  "Caption: It scans at the height of its turret. It sees the sofa, not the sock on the floor.",
+  "Caption: It scans at the height of its turret. It sees the sofa, not the sock.",
   "(Sound: SHRRRK)",
   "Board, CNET lab test, November 13, 2026: Camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max (camera) avoided 6 of 6",
   "Source: CNET, best robot vacuums of 2026 (lab test by Ajay Kumar).",
-  "(Sound: ?)",
   "Vera: And no camera-free robot in our guide promises to avoid pet waste.",
-  "Sam: MY DOG IS A PUPPY!",
+  "Sam: BISCUIT IS A PUPPY!",
   "Board, Which robot for your home?: Tidy floor, privacy first no camera; Puppy, sick pet, cords camera robot",
-  "Vera: Pick by your floor, not by the ad.",
   "Caption: Next morning. The 30-second rule: cords and socks off the floor before every run.",
-  "Sam: Floor's clear. Go, robot.",
-  "Vera: One more thing: a laser robot still sends your floor map to the cloud.",
-  "Vera: So skip the data-sharing program in the app.",
+  "Sam: Floor's clear, buddy. Let's go.",
+  "Caption: One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app.",
+  "Sam: No photos. Just us.",
   "Which camera-free robot should you buy? Six picks, compared below."
  ]
 }
