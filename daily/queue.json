@@ -1016,34 +1016,34 @@
    "dir": "posts/2026-11-robot-vacuums-without-a-camera"
   },
   {
-   "key": "spot-cleaner-vs",
-   "slug": "bissell-little-green-vs-hoover-cleanslate-vs-spotclean-pro",
+   "key": "hand-warmer-recalls",
+   "slug": "rechargeable-hand-warmer-recalls-2026",
    "date": "2026-11-25",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
-   "name": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro",
-   "short": "spot cleaner showdown",
+   "name": "Rechargeable hand warmer recalls and safer picks",
+   "short": "hand warmer recalls",
    "category": "generic",
    "art": {
     "shape": "tile",
-    "label": "spot cleaner showdown"
+    "label": "hand warmer recalls"
    },
-   "search": "Hoover CleanSlate",
-   "title": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro 2026: Which Spot Cleaner for Pet Accidents?",
-   "slug_title": "Little Green vs CleanSlate vs SpotClean Pro 2026",
+   "search": "rechargeable hand warmer",
+   "title": "Rechargeable Hand Warmers: 1.58 Million Recalled in 2026. 8 Model Numbers to Check Before You Charge One",
+   "slug_title": "Rechargeable Hand Warmer Recalls 2026",
    "labels": [
-    "Cleaning",
-    "Carpet Cleaners",
-    "Pets",
-    "Comparison",
+    "Winter",
+    "Hand Warmers",
+    "Recalls",
+    "Safety",
     "Buying Guide",
     "Amazon Finds"
    ],
-   "hook": "r/CleaningTips: couch and carpet stains are top topics; builds on our Little Green review; floor care is cheapest on Black Friday (Adobe)",
-   "picks": "Little Green, Hoover CleanSlate, SpotClean Pro (and the Little Green Pet Pro variant): tank size, suction, hose tools, formula cost per ounce, parts, warranty, owner complaints from Target/Walmart/Best Buy reviews. Stores: Target, Walmart, Kohl's, bissell.com, hoover.com",
-   "cluster": "cleaning",
-   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+   "hook": "three 2026 CPSC recalls (OCOOPA 26-659 about 1.5 million incl. one death; HotHands 27-011; Gobi Heat 27-009); top-ranking pages still lead with recalled OCOOPA models; one model number (UT3053) sold under two brands and rebranded units on sale, so the model number is what to check",
+   "picks": "the recall table (8 model numbers, units, incidents, remedy, CPSC links), where the model number is printed, what to do if it matches, then safer picks from the brief (Zippo HeatBank 9s, Thaw, Unihand) checked against Recall Check, with disposable HotHands as the no-battery benchmark; battery and charging safety from CPSC/UL guidance; use the fallback title unless the UL claim is verified in UL's database. STYLE (owner's example posts, gaseongbi-living.tistory.com/249 and /244): open with a concrete scene, then a 'What we checked' box of three dated numbers; for every claim separate 'in the listing title' from 'verified in the spec, certificate or official record'; show the math, the sample size and the date; say plainly what could not be verified; end with who should buy / wait / skip and FAQ written as real searches. BLUEPRINT: research/winter-products-2026-11.md section 3.1.",
+   "cluster": "comfort",
+   "source": "research/winter-products-2026-11.md (owner request 2026-11-23: winter products)"
   },
   {
    "key": "kitchenaid-mixers",
@@ -1106,9 +1106,99 @@
    "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
   },
   {
+   "key": "humidifier-distilled-water-cost",
+   "slug": "humidifier-distilled-water-monthly-cost",
+   "date": "2026-12-02",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Humidifier running cost with distilled water",
+   "short": "humidifier real cost",
+   "category": "generic",
+   "art": {
+    "shape": "tile",
+    "label": "humidifier real cost"
+   },
+   "search": "Levoit LV600HH humidifier",
+   "title": "\"Use Distilled Water,\" Says the EPA: That's $26 to $130 a Month for One Popular 6-Liter Humidifier",
+   "slug_title": "Humidifier Distilled Water Cost 2026",
+   "labels": [
+    "Winter",
+    "Humidifiers",
+    "Running Cost",
+    "Home Comfort",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "highest winter demand; the EPA page (updated Apr 29, 2026) says use distilled water and clean every third day; no competitor gives the running cost",
+   "picks": "the monthly cost of distilled water (maker output figures x hours x $ per gallon at Walmart, dated) and electricity (rated watts x EIA cents/kWh), white dust and mold per EPA, warm vs cool mist, 4-5 models from the brief with cleaning effort and filter or demineralization cartridge cost; no ENERGY STAR or AHAM data exists for humidifiers, so output figures are maker claims and the post says so. STYLE (owner's example posts, gaseongbi-living.tistory.com/249 and /244): open with a concrete scene, then a 'What we checked' box of three dated numbers; for every claim separate 'in the listing title' from 'verified in the spec, certificate or official record'; show the math, the sample size and the date; say plainly what could not be verified; end with who should buy / wait / skip and FAQ written as real searches. BLUEPRINT: research/winter-products-2026-11.md section 3.2.",
+   "cluster": "comfort",
+   "source": "research/winter-products-2026-11.md (owner request 2026-11-23: winter products)"
+  },
+  {
+   "key": "sad-lamps-10000-lux",
+   "slug": "sad-lamp-10000-lux-distance",
+   "date": "2026-12-04",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "SAD lamps: 10,000 lux at what distance",
+   "short": "SAD lamp distance",
+   "category": "generic",
+   "art": {
+    "shape": "tile",
+    "label": "SAD lamp distance"
+   },
+   "search": "SAD light therapy lamp 10000 lux",
+   "title": "\"10,000 Lux\" SAD Lamps: In a 24-Device Test, Only 7 Light Boxes Hit It at the Maker's Own Distance",
+   "slug_title": "10,000 Lux SAD Lamps 2026",
+   "labels": [
+    "Winter",
+    "Light Therapy",
+    "Health",
+    "Comparison",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "winter blues season; Oldham et al. 2019 tested 24 devices and only 7 reached 10,000 lux at the maker's distance; Yale psychiatry measured specific lamps (Carex Day-Light Classic Plus 10,000 lux at 13 in); listings disagree on distance",
+   "picks": "what lux at distance means, the 2019 test and Yale measurements, a dated audit of how many listings at non-Amazon stores state the distance (sample size and date), 4-5 lamps with measured data first; health claims only from published sources; not medical advice, see a clinician for depression; Amazon Health category likely about 1% commission (note). STYLE (owner's example posts, gaseongbi-living.tistory.com/249 and /244): open with a concrete scene, then a 'What we checked' box of three dated numbers; for every claim separate 'in the listing title' from 'verified in the spec, certificate or official record'; show the math, the sample size and the date; say plainly what could not be verified; end with who should buy / wait / skip and FAQ written as real searches. BLUEPRINT: research/winter-products-2026-11.md section 3.3.",
+   "cluster": "home",
+   "source": "research/winter-products-2026-11.md (owner request 2026-11-23: winter products)"
+  },
+  {
+   "key": "spot-cleaner-vs",
+   "slug": "bissell-little-green-vs-hoover-cleanslate-vs-spotclean-pro",
+   "date": "2026-12-07",
+   "status": "queued",
+   "format": "roundup",
+   "model": "posts/2026-10-best-bidet-2026",
+   "name": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro",
+   "short": "spot cleaner showdown",
+   "category": "generic",
+   "art": {
+    "shape": "tile",
+    "label": "spot cleaner showdown"
+   },
+   "search": "Hoover CleanSlate",
+   "title": "Bissell Little Green vs Hoover CleanSlate vs SpotClean Pro 2026: Which Spot Cleaner for Pet Accidents?",
+   "slug_title": "Little Green vs CleanSlate vs SpotClean Pro 2026",
+   "labels": [
+    "Cleaning",
+    "Carpet Cleaners",
+    "Pets",
+    "Comparison",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "r/CleaningTips: couch and carpet stains are top topics; builds on our Little Green review; floor care is cheapest on Black Friday (Adobe)",
+   "picks": "Little Green, Hoover CleanSlate, SpotClean Pro (and the Little Green Pet Pro variant): tank size, suction, hose tools, formula cost per ounce, parts, warranty, owner complaints from Target/Walmart/Best Buy reviews. Stores: Target, Walmart, Kohl's, bissell.com, hoover.com",
+   "cluster": "cleaning",
+   "source": "daily/strategy-2026-10-29.md (research/reader-demand-2026-10.md section 4)"
+  },
+  {
    "key": "dog-food-price-per-pound",
    "slug": "dog-food-price-per-pound-chewy-walmart-target-costco",
-   "date": "2026-12-02",
+   "date": "2026-12-09",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1138,7 +1228,7 @@
   {
    "key": "litter-box-3-year-cost",
    "slug": "litter-robot-4-vs-petkit-puramax-2-cost",
-   "date": "2026-12-04",
+   "date": "2026-12-11",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1168,7 +1258,7 @@
   {
    "key": "enzyme-cleaner-vs",
    "slug": "natures-miracle-vs-rocco-roxie-vs-angry-orange",
-   "date": "2026-12-07",
+   "date": "2026-12-14",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1198,7 +1288,7 @@
   {
    "key": "car-battery-costco-walmart",
    "slug": "car-battery-costco-vs-walmart-vs-sams-club",
-   "date": "2026-12-09",
+   "date": "2026-12-16",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1228,7 +1318,7 @@
   {
    "key": "store-brand-vs-name-brand",
    "slug": "store-brand-vs-name-brand-cleaning",
-   "date": "2026-12-11",
+   "date": "2026-12-18",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1258,7 +1348,7 @@
   {
    "key": "bidet-attachment-vs-seat",
    "slug": "bidet-attachment-vs-bidet-seat",
-   "date": "2026-12-14",
+   "date": "2026-12-21",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1288,7 +1378,7 @@
   {
    "key": "robot-mop-types",
    "slug": "roller-mop-vs-spinning-mop-pads-robot-vacuum",
-   "date": "2026-12-16",
+   "date": "2026-12-23",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1318,7 +1408,7 @@
   {
    "key": "dog-gps-tracker-cost",
    "slug": "fi-vs-tractive-vs-halo-vs-airtag-dog-cost",
-   "date": "2026-12-18",
+   "date": "2026-12-25",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1348,7 +1438,7 @@
   {
    "key": "kettle-that-lasts",
    "slug": "electric-kettle-that-lasts",
-   "date": "2026-12-21",
+   "date": "2026-12-28",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1378,7 +1468,7 @@
   {
    "key": "pillow-cost-per-year",
    "slug": "when-to-replace-pillows-cost-per-year",
-   "date": "2026-12-23",
+   "date": "2026-12-30",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1408,7 +1498,7 @@
   {
    "key": "cleaning-reset",
    "slug": "cleaning-reset",
-   "date": "2026-12-25",
+   "date": "2027-01-01",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1436,7 +1526,7 @@
   {
    "key": "shower-filter-hard-water",
    "slug": "do-shower-filters-work-hard-water",
-   "date": "2026-12-28",
+   "date": "2027-01-04",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1466,7 +1556,7 @@
   {
    "key": "shower-caulk-mold",
    "slug": "mold-in-shower-caulk-remove-or-recaulk",
-   "date": "2026-12-30",
+   "date": "2027-01-06",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
@@ -1496,7 +1586,7 @@
   {
    "key": "dehumidifier-that-lasts",
    "slug": "dehumidifier-that-lasts",
-   "date": "2027-01-01",
+   "date": "2027-01-08",
    "status": "queued",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
