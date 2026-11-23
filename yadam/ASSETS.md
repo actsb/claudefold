@@ -12,6 +12,13 @@ Updated 2026-11-21 after the cloud work folder was wiped by a container restart.
 | Credentials (Gemini key, OAuth client JSONs, refresh tokens) | Gemini key: environment network secret. OAuth files: private folder in the user's Google Drive | Never in git |
 | Scripts | This branch, folder yadam/ (rebuilt 2026-11-21, see below) | No secrets |
 
+## Production queue (user-approved 11-23, in this order)
+1. Arirang Decoded Short: regional Arirangs (auto, film scenes)
+2. Tiger kindness folktale Short (Vrew)
+3. Secret royal inspector Park Mun-su 2-part Shorts (Vrew)
+4. Over Arirang Pass best-scene Shorts (auto, pilot_short.py)
+No jeoseung saja / afterlife-judge topics on our channel.
+
 ## Rule learned
 The cloud scratchpad is not durable. Anything needed again goes to git (code), Google Drive (media, private files) or environment secrets (keys).
 
@@ -42,7 +49,7 @@ Subtitles at the bottom, big; smooth 0.5 s dissolves; the user does not audition
 Strategy EkiyssFUtiUnYengAY1d8E · Vrew guide 9MacfRc92oxgPmDtj2QKzu · Tools KEQRR3VBcmyCUCCLrzzwmG · Weekly report 3fUcpEyLa1MFywhwGG6Gy9 · Series plan P2D3RdiaNXkRMvyPffAkE1 (URLs: https://claude.ai/artifact/<id>)
 
 ### Pending with the user
-Vrew jobs kdh01 (tiger & magpie) and kdh02 (jeoseung saja) via the PC desktop app; Vrew update to 4.x; reply to the "중국식 음악" comment on KY5q4LSJcpY (drafted, not posted); next Arirang Decoded Short topic (regional Arirangs or Arirang Pass).
+Vrew job kdh01 (tiger & magpie) via the PC desktop app (kdh02 jeoseung saja: CANCELLED 11-23, user decided not to make jeoseung/saja content on our channel); Vrew update to 4.x; reply to the "중국식 음악" comment on KY5q4LSJcpY (drafted, not posted); next Arirang Decoded Short topic (regional Arirangs or Arirang Pass).
 
 ## Scripts (yadam/, rebuilt 2026-11-21)
 Set `YADAM_TOKDIR` to a private folder holding km.json, gsb.json, drive.json (each with a "refresh_token").
