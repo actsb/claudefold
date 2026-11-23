@@ -451,7 +451,7 @@ def main(post_dir):
         imgs = "".join(f'<img src="{base}{s["file"]}" alt="{html.escape(s["alt"])}" width="{s["w"]}" height="{s["h"]}" style="width:100%;height:auto;display:block;margin:0;" loading="lazy" decoding="async">' for s in t["slices"])
         lines = "".join(f"<li>{html.escape(x)}</li>" for x in t["transcript"] if x)
         return (f'<div class="vp-toon" style="max-width:640px;margin:1.6em auto;">'
-                f'<p style="font-size:14px;color:#555;margin:0 0 .5em;"><strong>Comic ({len(t["slices"])} panels' + ', about 1 minute):' + '</strong> an illustrated story before the picks. '
+                f'<p style="font-size:14px;color:#555;margin:0 0 .5em;"><strong>Comic ({t.get("panels", len(t["slices"]))} panels, about 1 minute):</strong> an illustrated story before the picks. '
                 'Characters and scenes are fictional; the facts are sourced in the guide. Not sponsored by any brand; the Amazon links further down are paid links. '
                 '<a href="#picker">Skip the comic ↓</a></p>'
                 f'<div style="border-radius:10px;overflow:hidden;border:1px solid #e3e3e3;">{imgs}</div>'

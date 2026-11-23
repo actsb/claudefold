@@ -203,7 +203,7 @@ def build(d):
     slices.append((cur, y + 40))
     out_dir = d / "images" / "toon"; out_dir.mkdir(parents=True, exist_ok=True)
     for f in out_dir.glob(f"{sid}-*.svg"): f.unlink()
-    meta = {"id": sid, "title": spec["title"], "series": spec.get("series", "Verdict Picks Toon"), "slices": [], "transcript": []}
+    meta = {"id": sid, "title": spec["title"], "panels": len(spec["panels"]), "series": spec.get("series", "Verdict Picks Toon"), "slices": [], "transcript": []}
     for n, (parts, sh) in enumerate(slices, 1):
         body = "".join(f'<g transform="translate(0 {y})">{svg}</g>' for y, h, svg, tr in parts)
         alt_bits = [t for _, _, _, tr in parts for t in tr]
