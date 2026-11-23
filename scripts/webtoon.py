@@ -21,7 +21,7 @@ import toon_cast as C
 
 W, MARGIN, MAXH = 800, 40, 1280
 FONT, INK = C.FONT, C.INK
-NAMES = {"vera": "Vera", "sam": "Sam", "jo": "Jo", "narr": "Caption"}
+NAMES = {"vera": "Vera", "sam": "Sam", "jo": "Jo", "june": "Grandma June", "narr": "Caption"}
 
 def esc(s): return html.escape(s, quote=False)
 

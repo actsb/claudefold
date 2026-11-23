@@ -18,7 +18,7 @@ URL = "https://generativelanguage.googleapis.com/v1beta/openai/images/generation
 MODEL = "gemini-2.5-flash-image"
 STYLE = ("Professional Korean-style vertical webtoon panel, full-color digital illustration, crisp clean line art, soft cel shading, "
          "cinematic composition and lighting, expressive faces, consistent character design. ")
-NO_TEXT = (" Absolutely no text, letters, numbers, captions, speech bubbles, signatures, watermarks, logos or brand names anywhere in the image; "
+NO_TEXT = (" Absolutely no text, letters, numbers, captions, speech bubbles, signatures, watermarks, logos or brand names anywhere in the image (phones and laptops are plain, with no maker logo on the back or lid); "
            "screens and labels are blank or abstract. No panel border, no white margins or letterboxing: the art fills the whole frame edge to edge.")
 CAST = {
     "sam": "Sam: a man in his late 20s, warm brown skin, short dark curly hair, clean-shaven, friendly round face, mustard-yellow hoodie with white drawstrings, light gray joggers.",
@@ -39,6 +39,16 @@ def gen(prompt, size):
             print(f"  retry {attempt + 1}: {msg}"); time.sleep(5 * (attempt + 1))
     raise SystemExit("image generation failed")
 
+def trim(f):
+    """The model sometimes adds a white or coloured margin and a frame line: trim flat edges until nothing changes, then shave the line."""
+    size = lambda: subprocess.run(["identify", "-format", "%wx%h", str(f)], capture_output=True, text=True).stdout
+    before = size()
+    for _ in range(4):
+        prev = size()
+        subprocess.run(["mogrify", "-fuzz", "12%", "-trim", "+repage", str(f)], check=True)
+        if size() == prev: break
+    if size() != before: subprocess.run(["mogrify", "-shave", "5x5", "+repage", str(f)], check=True)
+
 def main(d, only=None, force=False):
     d = pathlib.Path(d); spec = json.loads((d / "webtoon.json").read_text(encoding="utf-8")); sid = spec["id"]
     out = d / "toon-art"; out.mkdir(exist_ok=True)
@@ -53,7 +63,8 @@ def main(d, only=None, force=False):
         prompt = STYLE + spec.get("style", "") + (" Characters: " + who + " " if who else " ") + "Scene: " + a["prompt"] + NO_TEXT
         t = time.time(); png = gen(prompt, a.get("size", "1536x1024"))
         tmp = out / f".{f.stem}.png"; tmp.write_bytes(png)
-        subprocess.run(["convert", str(tmp), "-bordercolor", "white", "-border", "1", "-fuzz", "12%", "-trim", "+repage", "-resize", "1440x", "-strip", "-quality", "88", str(f)], check=True); tmp.unlink()
+        trim(tmp)
+        subprocess.run(["convert", str(tmp), "-resize", "1440x", "-strip", "-quality", "88", str(f)], check=True); tmp.unlink()
         print(f"panel {i:02d}: {f.name} ({f.stat().st_size // 1024} KB, {time.time() - t:.0f} s)")
 
 if __name__ == "__main__":

@@ -1,0 +1,311 @@
+{
+ "id": "ep2",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 2 · Space heaters",
+ "ai_art": true,
+ "title": "A Warm Room for Grandma June",
+ "subtitle": "The first snow falls. Jo's grandmother says she's fine. Her old heater says otherwise.",
+ "end": "Is the Dreo heater right for your room? Our full review is below.",
+ "style": "Winter palette: deep blue snowy nights against warm amber interior light.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Establishing shot at night: first snow falling over a small gray wooden one-story house with a pitched snowy roof, a front porch and one front window on a quiet street; one window glows warm amber; soft blue moonlight; peaceful but lonely. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The first snow of the year. Jo's grandmother lives alone.",
+     "x": 30,
+     "y": 30,
+     "w": 560,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Inside the small house: June sits in an old armchair wrapped in a thick blanket, holding a smartphone up for a video call and smiling bravely, though her breath is faintly visible in the cold room. An old, worn metal space heater glows dimly near her feet. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Don't fuss, dear. I have my old heater.",
+     "x": 420,
+     "y": 60,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Close-up of Jo's face in her city apartment at night, lit by the cool glow of a video call from below (the phone itself is out of frame), eyes narrowing with worry, lips pressed; city lights behind her. Composition: keep the top third of the frame as simple dark background for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Grandma... what is that heater plugged into?",
+     "x": 420,
+     "y": 50,
+     "w": 480
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Dramatic close-up at floor level: an old space heater's plug pushed into a cheap, dusty power strip and a frayed extension cord running under the edge of a fringed blanket; an ominous red-orange glow and a few small sparks at the power strip. Tense, warning mood, dark background. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "CPSC: never plug a space heater into an extension cord or a power strip.",
+     "x": 30,
+     "y": 30,
+     "w": 600,
+     "dark": true
+    },
+    {
+     "t": "sfx",
+     "text": "TSSK",
+     "x": 640,
+     "y": 230,
+     "size": 70,
+     "rot": -10,
+     "color": "#F4A261"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Over-the-shoulder view from behind Jo at her desk late at night: we see the back of her auburn bob and teal cardigan and, beyond her, the laptop's screen glowing with an abstract blurry grid of product tiles (nothing readable); a framed photo of Jo and her grandmother on the desk; her hand on the trackpad, determined. Composition: keep the top third of the frame as simple dark wall for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "She's getting a new one. Tonight.",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera appears beside a glowing floating checklist hologram with three blank lines, one hand raised like a teacher making a point, calm and confident; soft blue light around her. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Good call. One check before you buy any heater this winter.",
+     "x": 420,
+     "y": 50,
+     "w": 480
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Close-up of two hands holding a small rectangular black ceramic space heater tilted back to read the blank white rating sticker on its underside; focused warm light on the blank sticker, dark background. Keep the top third of the frame as simple dark background for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Find the model number on the label, then look it up in the recall notice.",
+     "x": 30,
+     "y": 30,
+     "w": 600
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 380,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "CPSC recall, October 29, 2026",
+     "color": "#C1121F",
+     "rows": [
+      [
+       "Dreo DR-HSH015 (black, remote)",
+       "recalled"
+      ],
+      [
+       "Units in the US",
+       "about 338,800"
+      ],
+      [
+       "Hazard",
+       "fire and burn"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: CPSC notice 27-054. The Dreo in our review is a different model; check yours against the notice.",
+     "x": 360,
+     "y": 270,
+     "w": 620,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Snowy evening at the front door of the small house: Jo, snow on her coat, holds a plain unbranded cardboard box; June opens the door, overjoyed, arms wide to hug her. Warm light spills from inside. Emotional reunion. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "You drove all this way?",
+     "x": 400,
+     "y": 60,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "You're worth the trip.",
+     "x": 460,
+     "y": 200,
+     "w": 380
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo kneels and plugs a compact black ceramic heater directly into a wall outlet in a cozy living room; the heater stands on the bare floor with clear empty space around it, far from the curtains and the armchair. Clean, safe, warm. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Straight into the wall. Three feet clear of drapes, furniture and bedding (CPSC).",
+     "x": 30,
+     "y": 30,
+     "w": 620,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Close-up of June's hand pressing a button on a small remote control, the heater's soft orange glow in the background, June smiling in the warm light. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Set it near 68°F. In Eco mode it stops heating once the room gets there (Dreo).",
+     "x": 30,
+     "y": 30,
+     "w": 600
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Heartwarming night scene: June in her armchair holding a mug of tea, Jo sitting on the floor leaning her head on her grandmother's knee, both smiling with eyes closed in the warm amber glow; snow falling outside the window. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, night sky or soft gradient) with no faces in it, for lettering."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Warm at last.",
+     "x": 560,
+     "y": 40,
+     "w": 300
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Final quiet shot from outside at night: a small gray wooden one-story house with a pitched snowy roof, a front porch and one front window, in falling snow, its window glowing warm amber; the porch light switches off. Peaceful, tender ending. Composition: keep the top third of the frame as simple night sky for lettering."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Off when you sleep or leave: CPSC and NFPA both say so. Goodnight, Grandma.",
+     "x": 30,
+     "y": 30,
+     "w": 620,
+     "dark": true
+    }
+   ]
+  }
+ ],
+ "cast": {}
+}
