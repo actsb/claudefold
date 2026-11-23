@@ -987,7 +987,7 @@
    "key": "robot-vacuums-no-camera",
    "slug": "robot-vacuums-without-a-camera",
    "date": "2026-11-23",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Robot vacuums without a camera",
@@ -1011,7 +1011,9 @@
    "hook": "Prof H Lab's turn-off-AI readers ask what to buy instead; camera-based obstacle avoidance vs LiDAR/structured light is an engineering question in Prof. H's field; links our robot vacuum guide and Prof H Lab's explainers",
    "picks": "how each obstacle sensor works (camera + AI, structured light, LiDAR only), what images each maker says it stores or uploads (privacy policies, dated), the camera-off setting and what it disables, 4-5 models by sensor type with owner complaints about getting stuck from non-Amazon reviews, Price Check lines. Stores: Best Buy, Target, Walmart, Costco, maker stores Required section 'Before you buy: settings and privacy' linking https://profhlab.com/robot-vacuum-repair-costs/ and https://profhlab.com/robot-vacuum-consumables/ (keep the title phrase 'Robot Vacuums Without a Camera': Prof H Lab's feed check looks for it, Nov 11-30).",
    "cluster": "cleaning",
-   "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)"
+   "source": "daily/profhlab-link-plan-2026-10-29.md section 7 (bridge from Prof H Lab's turn-off-AI series)",
+   "url": "https://acts39.blogspot.com/2026/11/robot-vacuums-without-a-camera-2026.html",
+   "dir": "posts/2026-11-robot-vacuums-without-a-camera"
   },
   {
    "key": "spot-cleaner-vs",

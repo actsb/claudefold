@@ -329,6 +329,12 @@ POSTS = {
         "slug_title": "Is That Black Friday Deal Real 2026",
         "labels": ["Black Friday", "Deals", "Price Check", "Save Money", "How To", "Amazon Finds"],
     },
+    "robot-vacuums-no-camera": {
+        "dir": "posts/2026-11-robot-vacuums-without-a-camera",
+        "title": "Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)",
+        "slug_title": "Robot Vacuums Without a Camera 2026",
+        "labels": ["Robot Vacuums", "Privacy", "Smart Home", "Comparison", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
