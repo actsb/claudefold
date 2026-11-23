@@ -43,6 +43,7 @@ Long-tail queries a new site can win (`"X vs Y"`, `"is X worth it"`, `"X cost pe
 
 Pick one live post from `daily/improve-log.md`'s order (the oldest "last improved" first; core clusters before seasonal posts) and make it measurably better, then publish only that post (`--posts-only --only <key>`):
 * Put a 40–60 word answer under the title's question first; make every H2 a question with a one-sentence answer.
+* If the post has no comic yet, give it one (the next episode number of Verdict Picks Toon; README section 4, "Comic before the picks"). The cast recurs: Sam and his beagle Biscuit for home and pet guides, Jo and her grandmother June for safety, winter and family guides, Vera as the host who brings the facts. Keep the episode list in `daily/toon-episodes.md` up to date.
 * Add original synthesis a reader cannot get from one listing: a normalized spec/cost table with sources, owner-complaint patterns from non-Amazon retailers with counts and dates, what changed from the previous model, who should skip it.
 * Fix anything dated (an ended sale, "this week", an old price band) and cut padding.
 * Add two or three contextual links to and from newer related posts (descriptive anchors).

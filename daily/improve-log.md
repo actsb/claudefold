@@ -66,3 +66,6 @@ One line per improve day, newest first, in this exact form (the Bing workflow re
 
 ## 2026-11-23 (owner request): comic before the picks
 - robot-vacuums-no-camera: added Verdict Picks Toon episode 1 ("The Robot That Can't See You", 13 panels, 12 WebP slices, 541 KB) before the verdict, with a label, skip link and transcript; republished. From now on every new guide gets a comic (README section 4).
+
+## 2026-11-23 (owner request): comics redrawn with Gemini, series started
+- Episode 1 redrawn with Gemini art (robot-vacuums-no-camera); Episode 2 added to dreo-heater; Episode 3 added to doorbell-no-subscription. All three republished. Improve days now add a comic to one post that has none (README 2a).
