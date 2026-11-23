@@ -13,8 +13,8 @@ Updated 2026-11-21 after the cloud work folder was wiped by a container restart.
 | Scripts | This branch, folder yadam/ (rebuilt 2026-11-21, see below) | No secrets |
 
 ## Production queue (user-approved 11-23, in this order)
-1. Arirang Decoded Short: regional Arirangs (auto, film scenes)
-2. Tiger kindness folktale Short (Vrew)
+1. Arirang Decoded Short: regional Arirangs (auto, film scenes) — DONE 69cR6SZJuzI, scheduled public 2026-11-24 07:00 KST
+2. Tiger kindness folktale Short (Vrew) — instruction sheet yadam/vrew/tk01_지시문.md (11-23)
 3. Secret royal inspector Park Mun-su 2-part Shorts (Vrew)
 4. Over Arirang Pass best-scene Shorts (auto, pilot_short.py)
 No jeoseung saja / afterlife-judge topics on our channel.
