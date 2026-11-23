@@ -1,0 +1,188 @@
+1
+00:00:00,150 --> 00:00:04,050
+Musim 1 Tiga cerita pendek tentang belanja lebih cerdas: robot vakum, pemanas ruangan, dan bel pintu video.
+
+2
+00:00:04,200 --> 00:00:07,000
+Verdict Picks Toon: Robot yang Tak Bisa Melihat Anda
+
+3
+00:00:07,150 --> 00:00:13,760
+Pekan Black Friday. 11:48 p.m. Robot vacuum sedang diskon. Selamat tinggal bulu anjing!
+
+4
+00:00:13,910 --> 00:00:21,310
+2022: foto dari uji coba robot vacuum diposting online (MIT Technology Review). 2026: robot yang diretas menampilkan feed kamera langsung (Tom's Hardware).
+
+5
+00:00:21,460 --> 00:00:25,600
+Tunggu. Vacuum-ku punya KAMERA?
+
+6
+00:00:25,750 --> 00:00:30,540
+Banyak robot menghindari barang berantakan dengan memotretnya.
+
+7
+00:00:30,690 --> 00:00:38,090
+Ada cara lain: laser berputar. LiDAR. Ini mengukur jarak. Tak pernah memotret.
+
+8
+00:00:38,240 --> 00:00:42,835
+Memetakan rumah Anda dalam gelap. Tanpa foto.
+
+9
+00:00:42,985 --> 00:00:46,995
+Tanpa kamera, tak ada masalah! Sebagian besar.
+
+10
+00:00:47,145 --> 00:00:53,430
+Ia memindai setinggi turret-nya. Ia melihat sofa, bukan kaus kaki.
+
+11
+00:00:53,580 --> 00:01:00,980
+Uji lab CNET, November 13, 2026: Roomba 205 Combo tanpa kamera menghindari 1 dari 6; Roomba Combo 10 Max (kamera) menghindari 6 dari 6 Sumber: CNET, robot vacuum terbaik 2026 (uji lab oleh Ajay Kumar).
+
+12
+00:01:01,130 --> 00:01:07,220
+Dan tak ada robot tanpa kamera di panduan kami yang menjanjikan bisa menghindari kotoran hewan peliharaan.
+
+13
+00:01:07,370 --> 00:01:10,405
+BISCUIT MASIH ANAK ANJING!
+
+14
+00:01:10,555 --> 00:01:17,955
+Robot yang mana untuk rumah Anda?: Lantai rapi, privasi utama tanpa kamera; Anak anjing, hewan sakit, kabel robot kamera
+
+15
+00:01:18,105 --> 00:01:25,505
+Pagi harinya. Aturan 30 detik: singkirkan kabel dan kaus kaki dari lantai sebelum dipakai. Lantai sudah bersih, kawan. Ayo jalan.
+
+16
+00:01:25,655 --> 00:01:33,055
+Satu hal lagi: robot laser tetap mengirim peta lantai ke cloud. Lewati program berbagi data di aplikasi. Tanpa foto. Hanya kita.
+
+17
+00:01:33,205 --> 00:01:36,205
+Robot tanpa kamera mana yang sebaiknya dibeli? Enam pilihan dibandingkan di bawah. Link di deskripsi.
+
+18
+00:01:36,355 --> 00:01:39,155
+Verdict Picks Toon: Kamar Hangat untuk Nenek June
+
+19
+00:01:39,305 --> 00:01:44,810
+Salju pertama tahun ini. Nenek Jo tinggal sendirian.
+
+20
+00:01:44,960 --> 00:01:49,295
+Jangan repot-repot, Nak. Nenek punya pemanas lama.
+
+21
+00:01:49,445 --> 00:01:54,105
+Nenek... pemanas itu dicolok ke mana?
+
+22
+00:01:54,255 --> 00:02:00,735
+CPSC: jangan colokkan space heater ke kabel ekstensi atau power strip.
+
+23
+00:02:00,885 --> 00:02:04,830
+Dia akan dapat yang baru. Malam ini.
+
+24
+00:02:04,980 --> 00:02:10,615
+Keputusan bagus. Cek satu hal ini sebelum beli pemanas musim dingin.
+
+25
+00:02:10,765 --> 00:02:17,310
+Cari nomor model di label, lalu periksa di daftar penarikan (recall).
+
+26
+00:02:17,460 --> 00:02:24,860
+Penarikan CPSC, October 29, 2026: Dreo DR-HSH015 (hitam, remot) ditarik; Unit di AS sekitar 338,800; Bahaya kebakaran dan luka bakar Sumber: CPSC notice 27-054. Dreo di ulasan kami beda model; cocokkan milikmu dengan pemberitahuan itu.
+
+27
+00:02:25,010 --> 00:02:29,735
+Kamu jauh-jauh ke sini? Demi Nenek, itu sepadan.
+
+28
+00:02:29,885 --> 00:02:36,950
+Colok langsung ke dinding. Beri jarak three feet dari tirai, furnitur, dan kasur (CPSC).
+
+29
+00:02:37,100 --> 00:02:44,035
+Atur di sekitar 68°F. Di mode Eco, pemanas berhenti jika ruangan mencapai suhu itu (Dreo).
+
+30
+00:02:44,185 --> 00:02:46,830
+Akhirnya hangat.
+
+31
+00:02:46,980 --> 00:02:53,655
+Matikan saat tidur atau pergi: CPSC dan NFPA menyarankan demikian. Selamat malam, Nenek.
+
+32
+00:02:53,805 --> 00:02:56,805
+Apa pemanas Dreo cocok untuk kamarmu? Ulasan lengkap kami ada di bawah. Tautan di deskripsi.
+
+33
+00:02:56,955 --> 00:02:59,755
+Verdict Picks Toon: Siapa di Depan Pintu, Nek?
+
+34
+00:02:59,905 --> 00:03:04,305
+Teras Nenek June. Selasa, 2:10 p.m.
+
+35
+00:03:04,455 --> 00:03:07,815
+Apa ada orang di depan pintu?
+
+36
+00:03:07,965 --> 00:03:12,365
+Nek, ayo kita pasang bel pintu video.
+
+37
+00:03:12,515 --> 00:03:18,475
+Masalahnya: banyak bel pintu hanya menyimpan video jika berlangganan paket.
+
+38
+00:03:18,625 --> 00:03:26,025
+Ring tanpa paket hanyalah kamera langsung, bukan perekam. Simpan video butuh biaya ekstra: Ring Solo seharga $49.99 setahun (ring.com).
+
+39
+00:03:26,175 --> 00:03:33,575
+Biaya selama tiga tahun: eufy E340, tanpa paket $119.99; Ring dengan paket Solo $189.96; Nest dengan Premium $499.99; Ring dengan paket Pro $639.96 Harga bel pintu ditambah biaya paket tiga tahun, dari panduan kami di bawah (Harga Target dan produsen, November 11, 2026).
+
+40
+00:03:33,725 --> 00:03:37,735
+$639.96 untuk memantau teras Nenek?!
+
+41
+00:03:37,885 --> 00:03:44,625
+eufy E340 menyimpan sekitar 90 hari klip pada memori internal 8 GB. Tanpa biaya (eufy).
+
+42
+00:03:44,775 --> 00:03:48,655
+Hebatnya kamu, insinyur kecilku.
+
+43
+00:03:48,805 --> 00:03:52,295
+Aku bisa melihat seluruh teras!
+
+44
+00:03:52,445 --> 00:03:59,845
+Masalah pada semua bel pintu baterai: di pintu yang sibuk, dayanya bertahan berminggu-minggu, bukan berbulan-bulan. Aku akan mengecasnya tiap hari Minggu saat berkunjung.
+
+45
+00:03:59,995 --> 00:04:03,550
+Aku tahu persis siapa itu.
+
+46
+00:04:03,700 --> 00:04:06,700
+Bel pintu mana yang bisa tanpa langganan? Enam pilihan dan biaya tiga tahun ada di bawah. Tautan di deskripsi.
+
+47
+00:04:06,850 --> 00:04:12,250
+Baca panduan lengkapnya Setiap angka dalam cerita ini memiliki sumber. Tautan ada di deskripsi. Episode baru setiap minggu.
+

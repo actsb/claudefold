@@ -5,6 +5,7 @@
 - `epN-thumb.jpg`: 미리보기 이미지
 - `epN.<언어>.srt`: 11개 언어 자막 (en, es, pt, fr, de, ja, ko, zh-Hans, hi, id, vi)
 - `epN-youtube.json`: 11개 언어 제목·설명과 업로드 설정
+- `season1.mp4`: 1~3화를 합친 가로 롱폼(1920×1080, 4분 13초, 챕터 포함). 자막·메타는 `season1.<언어>.srt`, `season1-youtube.json`. 업로드 방법은 쇼츠와 같고, 설명란에 챕터(0:00, 1:36, 2:56)가 들어 있어 YouTube가 자동으로 챕터를 만듭니다.
 
 ## 왜 손으로 올려야 하나
 YouTube는 API 심사를 통과하지 않은 앱이 올린 영상을 **모두 비공개로 잠급니다**. 그래서 영상 업로드만 운영자님이 YouTube Studio에서 직접 합니다. 번역 제목·설명과 자막 11개는 아래 2단계를 한 번 해 두시면 Claude가 API로 자동으로 넣습니다.
@@ -38,3 +39,12 @@ YouTube Studio → 자막 → 영상 선택 → 언어 추가 (편당 10개 언�
 - "자막" → 파일 업로드 → "타이밍 포함" → 해당 `.srt`
 
 세 편 합쳐 약 1시간이 걸립니다.
+
+## Gemini 키를 헤더 방식으로 추가하기 (그림 품질 업그레이드용, 운영자님)
+Claude는 키 값을 볼 수 없어 직접 넣을 수 없습니다.
+1. claude.ai/code 세션 제목줄의 환경 메뉴(cloudfold) → 편집(Edit)
+2. Network secrets(또는 API credentials) → 추가
+   - 호스트: `generativelanguage.googleapis.com`
+   - 헤더 이름: `x-goog-api-key`
+   - 값: Google AI Studio 키
+3. 저장. 새 세션부터 적용됩니다.

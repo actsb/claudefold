@@ -1,0 +1,188 @@
+1
+00:00:00,150 --> 00:00:04,050
+Saison 1 Trois histoires courtes pour acheter plus malin : aspirateurs robots, radiateurs d'appoint et sonnettes vidéo.
+
+2
+00:00:04,200 --> 00:00:07,000
+Verdict Picks Toon : Le robot qui ne vous voit pas
+
+3
+00:00:07,150 --> 00:00:13,760
+Semaine du Black Friday. 11:48 p.m. Les aspirateurs robots sont en promo. Adieu, poils de chien !
+
+4
+00:00:13,910 --> 00:00:21,310
+2022 : des photos prises par des aspirateurs robots tests ont fuité en ligne (MIT Technology Review). 2026 : des robots piratés ont diffusé des flux de caméras en direct (Tom's Hardware).
+
+5
+00:00:21,460 --> 00:00:25,600
+Attendez. Mon aspirateur aurait une CAMÉRA ?
+
+6
+00:00:25,750 --> 00:00:30,540
+De nombreux robots évitent le désordre en le photographiant.
+
+7
+00:00:30,690 --> 00:00:38,090
+Il y a une autre méthode : un laser rotatif. Le LiDAR. Il mesure la distance. Il ne prend jamais de photo.
+
+8
+00:00:38,240 --> 00:00:42,835
+Il cartographie votre maison dans le noir. Aucune photo.
+
+9
+00:00:42,985 --> 00:00:46,995
+Donc pas de caméra, pas de problème ! En général.
+
+10
+00:00:47,145 --> 00:00:53,430
+Il scanne à la hauteur de sa tourelle. Il voit le canapé, pas la chaussette.
+
+11
+00:00:53,580 --> 00:01:00,980
+Test labo CNET, November 13, 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max (caméra) 6 sur 6. Source : CNET, meilleurs aspirateurs robots de 2026 (test labo de Ajay Kumar).
+
+12
+00:01:01,130 --> 00:01:07,220
+Et aucun robot sans caméra de notre guide ne promet d'éviter les déjections d'animaux.
+
+13
+00:01:07,370 --> 00:01:10,405
+BISCUIT EST UN CHIOT !
+
+14
+00:01:10,555 --> 00:01:17,955
+Quel robot pour votre maison ? : Sol rangé, vie privée d'abord sans caméra ; Chiot, animal malade, câbles robot avec caméra
+
+15
+00:01:18,105 --> 00:01:25,505
+Le lendemain matin. La règle des 30 secondes : câbles et chaussettes ramassés avant chaque passage. Le sol est dégagé, mon grand. C'est parti.
+
+16
+00:01:25,655 --> 00:01:33,055
+Encore une chose : un robot laser envoie quand même votre carte sur le cloud. Ignorez le programme de partage de données dans l'appli. Pas de photos. Juste nous.
+
+17
+00:01:33,205 --> 00:01:36,205
+Quel robot sans caméra devriez-vous acheter ? Six choix comparés ci-dessous. Lien en description.
+
+18
+00:01:36,355 --> 00:01:39,155
+Verdict Picks Toon : Une chambre bien au chaud pour mamie June
+
+19
+00:01:39,305 --> 00:01:44,810
+Première neige de l'année. La grand-mère de Jo vit seule.
+
+20
+00:01:44,960 --> 00:01:49,295
+Ne t'en fais pas, chérie. J'ai mon vieux radiateur.
+
+21
+00:01:49,445 --> 00:01:54,105
+Mamie... sur quoi ce radiateur est-il branché ?
+
+22
+00:01:54,255 --> 00:02:00,735
+CPSC : ne branchez jamais un radiateur d'appoint sur une rallonge ou une multiprise.
+
+23
+00:02:00,885 --> 00:02:04,830
+Elle va en avoir un nouveau. Dès ce soir.
+
+24
+00:02:04,980 --> 00:02:10,615
+Bon réflexe. Un point à vérifier avant d'acheter un radiateur cet hiver.
+
+25
+00:02:10,765 --> 00:02:17,310
+Cherchez le numéro de modèle sur l'étiquette, puis vérifiez les avis de rappel.
+
+26
+00:02:17,460 --> 00:02:24,860
+Rappel CPSC, October 29, 2026 : Dreo DR-HSH015 (noir, télécommande) rappelé ; environ 338,800 units aux US ; Risque d'incendie et de brûlure Source : avis CPSC 27-054. Le Dreo de notre test est un modèle différent ; vérifiez le vôtre avec l'avis.
+
+27
+00:02:25,010 --> 00:02:29,735
+Tu as fait tout ce chemin ? Pour toi, ça vaut le coup.
+
+28
+00:02:29,885 --> 00:02:36,950
+Directement sur la prise murale. À three feet des rideaux, meubles et de la literie (CPSC).
+
+29
+00:02:37,100 --> 00:02:44,035
+Réglez-le autour de 68°F. En mode Éco, il arrête de chauffer une fois la pièce à température (Dreo).
+
+30
+00:02:44,185 --> 00:02:46,830
+Enfin au chaud.
+
+31
+00:02:46,980 --> 00:02:53,655
+Éteint quand vous dormez ou partez : la CPSC et la NFPA sont formelles. Bonne nuit, mamie.
+
+32
+00:02:53,805 --> 00:02:56,805
+Le radiateur Dreo est-il fait pour vous ? Notre test complet est ci-dessous. Lien en description.
+
+33
+00:02:56,955 --> 00:02:59,755
+Verdict Picks Toon : Qui est à la porte, Mamie ?
+
+34
+00:02:59,905 --> 00:03:04,305
+Porche de Mamie June. Mardi, 2:10 p.m.
+
+35
+00:03:04,455 --> 00:03:07,815
+Il y avait quelqu'un à la porte ?
+
+36
+00:03:07,965 --> 00:03:12,365
+Mamie, on va t'acheter une sonnette vidéo.
+
+37
+00:03:12,515 --> 00:03:18,475
+Le hic : beaucoup de sonnettes n'enregistrent que si vous payez un forfait.
+
+38
+00:03:18,625 --> 00:03:26,025
+Une Ring sans forfait est une caméra en direct, pas un enregistreur. La vidéo sauvegardée coûte un supplément : Ring Solo est à $49.99 par an (ring.com).
+
+39
+00:03:26,175 --> 00:03:33,575
+Ce que ça coûte sur trois ans : eufy E340, sans forfait $119.99 ; Ring avec le forfait Solo $189.96 ; Nest avec Premium $499.99 ; Ring avec le forfait Pro $639.96 Prix de la sonnette plus trois ans de frais, d'après notre guide ci-dessous (prix Target et fabricant, November 11, 2026).
+
+40
+00:03:33,725 --> 00:03:37,735
+$639.96 pour surveiller le porche de Mamie ?!
+
+41
+00:03:37,885 --> 00:03:44,625
+La eufy E340 stocke environ 90 jours de clips sur ses 8 GB internes. Sans frais (eufy).
+
+42
+00:03:44,775 --> 00:03:48,655
+Regarde-toi, mon petit ingénieur.
+
+43
+00:03:48,805 --> 00:03:52,295
+Je peux voir tout le porche !
+
+44
+00:03:52,445 --> 00:03:59,845
+Le problème de toutes les sonnettes sur batterie : sur une porte très fréquentée, la charge dure des semaines, pas des mois. Je la rechargerai le dimanche en venant.
+
+45
+00:03:59,995 --> 00:04:03,550
+Je sais exactement qui c'est.
+
+46
+00:04:03,700 --> 00:04:06,700
+Quelle sonnette fonctionne sans forfait ? Six choix et les coûts sur trois ans ci-dessous. Lien en description.
+
+47
+00:04:06,850 --> 00:04:12,250
+Lisez les guides complets Chaque chiffre dans ces histoires a une source. Liens dans la description. Nouveaux épisodes chaque semaine.
+

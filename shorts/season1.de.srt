@@ -1,0 +1,188 @@
+1
+00:00:00,150 --> 00:00:04,050
+Staffel 1 Drei Kurzgeschichten, um schlauer einzukaufen: Saugroboter, Heizlüfter und Videotürklingeln.
+
+2
+00:00:04,200 --> 00:00:07,000
+Verdict Picks Toon: Der Roboter, der dich nicht sehen kann
+
+3
+00:00:07,150 --> 00:00:13,760
+Black Friday Woche. 23:48 Uhr. Saugroboter sind im Angebot. Tschüss, Hundehaare!
+
+4
+00:00:13,910 --> 00:00:21,310
+2022: Fotos von Test-Saugrobotern landeten im Netz (MIT Technology Review). 2026: Gehackte Roboter zeigten Live-Kamerabilder (Tom's Hardware).
+
+5
+00:00:21,460 --> 00:00:25,600
+Warte. Mein Staubsauger hätte eine KAMERA?
+
+6
+00:00:25,750 --> 00:00:30,540
+Viele Roboter weichen Chaos aus, indem sie es fotografieren.
+
+7
+00:00:30,690 --> 00:00:38,090
+Es geht auch anders: ein rotierender Laser. LiDAR. Er misst Entfernungen. Er macht nie ein Foto.
+
+8
+00:00:38,240 --> 00:00:42,835
+Er kartiert dein Zuhause im Dunkeln. Keine Bilder.
+
+9
+00:00:42,985 --> 00:00:46,995
+Also keine Kamera, kein Problem! Meistens.
+
+10
+00:00:47,145 --> 00:00:53,430
+Er scannt auf Höhe seines Turms. Er sieht das Sofa, nicht die Socke.
+
+11
+00:00:53,580 --> 00:01:00,980
+CNET Labortest, November 13, 2026: Der kameralose Roomba 205 Combo wich 1 von 6 aus; Roomba Combo 10 Max (Kamera) wich 6 von 6 aus Quelle: CNET, beste Saugroboter 2026 (Labortest von Ajay Kumar).
+
+12
+00:01:01,130 --> 00:01:07,220
+Und kein kameraloser Roboter in unserem Guide verspricht, Tierkot auszuweichen.
+
+13
+00:01:07,370 --> 00:01:10,405
+BISCUIT IST EIN WELPE!
+
+14
+00:01:10,555 --> 00:01:17,955
+Welcher Roboter für dein Zuhause?: Ordentlicher Boden, Privatsphäre zuerst keine Kamera; Welpe, krankes Tier, Kabel Kamera-Roboter
+
+15
+00:01:18,105 --> 00:01:25,505
+Nächster Morgen. Die 30-Sekunden-Regel: Kabel und Socken vor jedem Start vom Boden räumen. Boden ist frei, Kumpel. Los geht's.
+
+16
+00:01:25,655 --> 00:01:33,055
+Noch was: Ein Laser-Roboter sendet deinen Grundriss trotzdem in die Cloud. Überspringe das Datenfreigabe-Programm in der App. Keine Fotos. Nur wir.
+
+17
+00:01:33,205 --> 00:01:36,205
+Welchen kameralosen Roboter solltest du kaufen? Sechs Favoriten unten im Vergleich. Link in der Beschreibung.
+
+18
+00:01:36,355 --> 00:01:39,155
+Verdict Picks Toon: Ein warmes Zimmer für Oma June
+
+19
+00:01:39,305 --> 00:01:44,810
+Der erste Schnee des Jahres. Jos Oma lebt allein.
+
+20
+00:01:44,960 --> 00:01:49,295
+Mach dir keine Sorgen, Liebes. Ich habe meinen alten Heizlüfter.
+
+21
+00:01:49,445 --> 00:01:54,105
+Oma... wo ist dieser Heizlüfter eigentlich eingesteckt?
+
+22
+00:01:54,255 --> 00:02:00,735
+CPSC: Einen Heizlüfter nie an ein Verlängerungskabel oder eine Mehrfachsteckdose anschließen.
+
+23
+00:02:00,885 --> 00:02:04,830
+Sie bekommt einen neuen. Heute Abend.
+
+24
+00:02:04,980 --> 00:02:10,615
+Gute Idee. Ein Check vor dem Heizlüfter-Kauf in diesem Winter.
+
+25
+00:02:10,765 --> 00:02:17,310
+Finde die Modellnummer auf dem Etikett und suche sie in der Rückrufmeldung.
+
+26
+00:02:17,460 --> 00:02:24,860
+CPSC Rückruf, October 29, 2026: Dreo DR-HSH015 (schwarz, Fernbedienung) zurückgerufen; ca. 338,800 units in den USA; Brand- und Verbrennungsgefahr. Quelle: CPSC notice 27-054. Der Dreo im Test ist ein anderes Modell; gleiche deinen mit der Meldung ab.
+
+27
+00:02:25,010 --> 00:02:29,735
+Du bist extra hergefahren? Das bist du mir wert.
+
+28
+00:02:29,885 --> 00:02:36,950
+Direkt in die Wandsteckdose. Three feet Abstand zu Vorhängen, Möbeln und Bettzeug (CPSC).
+
+29
+00:02:37,100 --> 00:02:44,035
+Stell ihn auf etwa 68°F. Im Eco-Modus hört er auf zu heizen, sobald der Raum das erreicht hat (Dreo).
+
+30
+00:02:44,185 --> 00:02:46,830
+Endlich warm.
+
+31
+00:02:46,980 --> 00:02:53,655
+Ausschalten, wenn man schläft oder geht: Sagen sowohl CPSC als auch NFPA. Gute Nacht, Oma.
+
+32
+00:02:53,805 --> 00:02:56,805
+Ist der Dreo Heizlüfter der richtige für deinen Raum? Unser kompletter Test ist unten. Link in der Beschreibung.
+
+33
+00:02:56,955 --> 00:02:59,755
+Verdict Picks Toon: Wer ist an der Tür, Oma?
+
+34
+00:02:59,905 --> 00:03:04,305
+Oma Junes Veranda. Dienstag, 2:10 p.m.
+
+35
+00:03:04,455 --> 00:03:07,815
+War jemand an der Tür?
+
+36
+00:03:07,965 --> 00:03:12,365
+Oma, wir besorgen dir eine Videotürklingel.
+
+37
+00:03:12,515 --> 00:03:18,475
+Der Haken: Viele Klingeln speichern Videos nur, wenn man für ein Abo bezahlt.
+
+38
+00:03:18,625 --> 00:03:26,025
+Eine Ring ohne Plan ist eine Live-Kamera, kein Rekorder. Gespeicherte Videos kosten extra: Ring Solo kostet $49.99 im Jahr (ring.com).
+
+39
+00:03:26,175 --> 00:03:33,575
+Was es über drei Jahre kostet: eufy E340, kein Abo nötig $119.99; Ring mit Solo-Plan $189.96; Nest mit Premium $499.99; Ring mit Pro-Plan $639.96. Preis der Klingel plus drei Jahre Abogebühren aus unserem Leitfaden unten (Target und Herstellerpreise, November 11, 2026).
+
+40
+00:03:33,725 --> 00:03:37,735
+$639.96, um Omas Veranda zu sehen?!
+
+41
+00:03:37,885 --> 00:03:44,625
+Die eufy E340 speichert ca. 90 Tage an Clips auf 8 GB im Gerät. Keine Gebühren (eufy).
+
+42
+00:03:44,775 --> 00:03:48,655
+Sieh dich an, mein kleiner Ingenieur.
+
+43
+00:03:48,805 --> 00:03:52,295
+Ich kann die ganze Veranda sehen!
+
+44
+00:03:52,445 --> 00:03:59,845
+Der Haken bei jeder Akku-Türklingel: An einer viel genutzten Tür hält der Akku Wochen, nicht Monate. Ich lade sie sonntags auf, wenn ich zu Besuch komme.
+
+45
+00:03:59,995 --> 00:04:03,550
+Ich weiß genau, wer das ist.
+
+46
+00:04:03,700 --> 00:04:06,700
+Welche Türklingel funktioniert ohne Abo? Sechs Empfehlungen und die Drei-Jahres-Kosten stehen unten. Link in der Beschreibung.
+
+47
+00:04:06,850 --> 00:04:12,250
+Lesen Sie die vollständigen Ratgeber Jede Zahl in diesen Geschichten hat eine Quelle. Links in der Beschreibung. Jede Woche neue Episoden.
+
