@@ -71,9 +71,9 @@
           "Costco",
           "$79.99 online",
           "Feb 11, 2026",
-          "A different Dreo (DR-HSH015); $50 in store was a one-off find"
+          "A different Dreo (DR-HSH015), recalled Oct 29, 2026 (CPSC 27-054): do not buy"
         ],
-        "verdict": "ok"
+        "verdict": "no"
       },
       {
         "cells": [
