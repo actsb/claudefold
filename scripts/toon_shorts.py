@@ -121,8 +121,8 @@ def main(d, out, translate=True):
     if translate:
         for lang, name in LANGS.items():
             if lang == "en": continue
-            r = gemini_json(f"Translate this YouTube Short's metadata and subtitles from English into {name}. Keep product names, model numbers, prices, dates, "
-                            f"units, URLs, hashtags and source names (CPSC, NFPA, CNET, ring.com) exactly as written; keep it natural and short, as a native "
+            r = gemini_json(f"Translate this YouTube Short's metadata and subtitles from English into {name}. Keep product names, model numbers, prices, "
+                            f"units, URLs, hashtags and source names (CPSC, NFPA, CNET, ring.com) exactly as written; translate dates naturally; 'space heater' means an electric room heater; keep it natural and short, as a native "
                             f"speaker would write subtitles. Return JSON {{\"title\": str (max 100 characters, keep #Shorts), \"description\": str, \"subtitles\": [str, ...] "
                             f"(same count and order)}}.\n\n" + json.dumps({"title": yt["title"], "description": yt["description"], "subtitles": subs["en"]}, ensure_ascii=False))
             if len(r.get("subtitles", [])) != len(cues): raise SystemExit(f"{lang}: subtitle count mismatch")
@@ -133,6 +133,7 @@ def main(d, out, translate=True):
     (out / f"{sid}-youtube.json").write_text(json.dumps({"video": mp4.name, "seconds": round(total, 1), "default_language": "en", "made_for_kids": False,
         "category": "Howto & Style", "altered_content": "No (stylised cartoon, not realistic)", "paid_promotion": False,
         "languages": LANGS, "metadata": meta}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    import shutil; shutil.rmtree(work, ignore_errors=True)
     print(f"{mp4} ({mp4.stat().st_size // 1024} KB, {total:.1f} s, {len(clips)} shots); subtitles: {', '.join(subs)}")
 
 if __name__ == "__main__":
