@@ -1,0 +1,416 @@
+{
+ "id": "ep4",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 4 · Best robot vacuums of 2026",
+ "ai_art": true,
+ "title": "The Biggest Number on the Box",
+ "subtitle": "Sam is shopping Black Friday robot vacuums by one number. Biscuit is not impressed.",
+ "end": "Which robot fits your floors? Fourteen picks, compared below.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Evening in a cozy small apartment living room, warm lamp light, one continuous scene. Sam sits cross-legged on the rug with an open laptop on his knees, seen from the side so we see its screen glow on his face; the back of the lid is matte plain gray with no emblem, no light and no shape on it, eyes sparkling with excitement at the blank glowing screen. Biscuit sits beside him on a rug covered in tufts of shed dog hair, head tilted. Medium-wide shot from slightly above, with a tall warm-toned wall and ceiling filling the upper part of the same scene. Full-bleed single image, edge to edge, no split frames, no bands."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Black Friday week. Every robot vacuum ad shouts one number.",
+     "x": 30,
+     "y": 30,
+     "w": 460,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "This one says 30,000 Pa. Biggest number wins, right?",
+     "x": 560,
+     "y": 150,
+     "w": 400
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Close-up at floor level of a hardwood floor and the edge of a gray rug covered in fluffy tufts of beagle hair, crumbs and a single sock, lit by warm lamp light. Shallow depth of field. No people. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Pa is suction pressure, measured in a sealed lab setup. It is the biggest number in every ad.",
+     "x": 30,
+     "y": 24,
+     "w": 620
+    }
+   ]
+  },
+  {
+   "gap": 560,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Dynamic comedic action shot in the living room: a generic white round robot vacuum is wedged under a low gray sofa, only its back half sticking out, a sock tangled under it. Sam is on hands and knees beside it, reaching under the sofa with an exasperated face, dramatic speed lines behind him. Unbranded robot. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "sfx",
+     "text": "BEEP BEEP",
+     "x": 600,
+     "y": 330,
+     "size": 64,
+     "rot": -8
+    },
+    {
+     "t": "narr",
+     "text": "Three days later, in his imagination.",
+     "x": 30,
+     "y": 30,
+     "w": 360,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera makes a confident entrance in a bright, clean living room, one hand raised presenting a glowing holographic diagram of a round robot vacuum surrounded by small floating outlines of a sock, a cable and a shoe. Dynamic pose, sparkles of light, upbeat. The top third of the frame is plain bright wall for lettering. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Owners don't send robots back for weak suction.",
+     "x": 420,
+     "y": 50,
+     "w": 460
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "They send them back because they get stuck.",
+     "x": 440,
+     "y": 220,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 360,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "Vacuum Wars 24-object obstacle course, 2026",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "Roborock Saros 10R",
+       "24 of 24",
+       "#1E8E5A"
+      ],
+      [
+       "eufy Omni S2",
+       "24 of 24",
+       "#1E8E5A"
+      ],
+      [
+       "Several mid-range camera robots",
+       "in the teens",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: Vacuum Wars obstacle tests, as summarized in our guide.",
+     "x": 360,
+     "y": 280,
+     "w": 620,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam",
+     "vera"
+    ],
+    "prompt": "Sam scratches his head, puzzled, holding his laptop under one arm; Vera stands beside him with a calm half-smile, pointing one finger up as if making a point. Bright living room. The top third of the frame is plain wall for lettering. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "So I skip the suction number?",
+     "x": 210,
+     "y": 14,
+     "w": 360
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Read the pickup tests. The Pa on the box has inflated 15-fold in five years.",
+     "x": 590,
+     "y": 14,
+     "w": 380,
+     "size": 26
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Later that night, Sam sits on the sofa with his laptop, grinning widely at the blank glowing screen as if he found a great deal, Biscuit asleep against his leg. Cool blue night light from the window, warm screen glow on his face. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "11:30 p.m.",
+     "x": 30,
+     "y": 30,
+     "w": 200,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "33% off! That has to be the deal.",
+     "x": 600,
+     "y": 60,
+     "w": 360
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 400,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "A robot vacuum \"deal,\" in dollars",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "List price",
+       "$1,999",
+       "#555555"
+      ],
+      [
+       "What it really sold for",
+       "about $1,400",
+       "#1B2A41"
+      ],
+      [
+       "The \"33% off\" deal",
+       "$1,349",
+       "#C1121F"
+      ],
+      [
+       "What you actually save",
+       "about $50",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: RobovacGuide's Black Friday playbook, July 11, 2026 (its worked example).",
+     "x": 360,
+     "y": 330,
+     "w": 640,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Comedic super-deformed chibi version of Sam in shock, jaw dropped to the floor, eyes as huge white circles, tiny body, bright yellow background with radiating burst lines. Funny reaction panel. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "kind": "shout",
+     "text": "FIFTY DOLLARS?!",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera sits at a tidy desk with a notebook and a calculator, explaining with an open palm, friendly and patient. Beside the desk on the floor stand a plain white robot vacuum dock and a small stack of plain white boxes and a blank bottle, all unbranded. Soft daylight. The top third is plain wall for lettering. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "And the box price isn't the whole price.",
+     "x": 560,
+     "y": 30,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Bags, filters, brushes, mop solution: they add up.",
+     "x": 560,
+     "y": 170,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 360,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "Consumables over three years",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "Self-empty robot",
+       "$100–$200",
+       "#1E8E5A"
+      ],
+      [
+       "Omni robot (washes its mop)",
+       "$250–$400",
+       "#C9781B"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: our estimate from 2026 maker accessory prices; daily runs, about 1,500 sq ft.",
+     "x": 360,
+     "y": 250,
+     "w": 640,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 560,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "Bright Saturday morning sunlight in the apartment. Close medium shot at floor level: Sam lies flat on his stomach right in front of a low gray sofa, sliding a plain yellow tape measure into the narrow gap under the sofa to measure its height, concentrating, tongue slightly out. Biscuit lies beside him nose to the floor, copying him. Warm, hopeful colors. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Next morning. Step one: measure under the sofa.",
+     "x": 30,
+     "y": 30,
+     "w": 480,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "3.5 inches. Turret robots start at about 3.8 (maker specs).",
+     "x": 560,
+     "y": 200,
+     "w": 400
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam",
+     "biscuit",
+     "vera"
+    ],
+    "prompt": "Warm closing shot: Sam and Vera sit on the sofa looking at a laptop together, Sam smiling and relaxed, Biscuit curled in Sam's lap. Golden afternoon light from a big window, peaceful and friendly. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The tip: measure your clearance, buy the robot that gets stuck least, and judge a deal in dollars.",
+     "x": 30,
+     "y": 24,
+     "w": 740
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "Fits under the sofa, doesn't get stuck. Deal.",
+     "x": 660,
+     "y": 360,
+     "w": 260,
+     "size": 24
+    }
+   ]
+  }
+ ]
+}

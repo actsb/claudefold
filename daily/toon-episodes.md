@@ -7,6 +7,7 @@ Art: Google Gemini (gemini-2.5-flash-image) from our scripts, via `scripts/toon_
 | 1 | The Robot That Can't See You | posts/2026-11-robot-vacuums-without-a-camera | 14 | 2026-11-23 (redrawn 11-24) |
 | 2 | A Warm Room for Grandma June | posts/2026-10-dreo-space-heater | 13 | 2026-11-23 (redrawn 11-24) |
 | 3 | Who's at the Door, Grandma? | posts/2026-11-video-doorbells-without-a-subscription | 12 | 2026-11-23 (redrawn 11-24) |
+| 4 | The Biggest Number on the Box | posts/2026-09-best-robot-vacuums | 13 | 2026-11-24 (improve day) |
 
 Videos (shorts/): ep1.mp4, ep2.mp4, ep3.mp4 (YouTube Shorts, 1080x1920) and season1.mp4 (episodes 1-3, 1920x1080, 4:13, chapters), each with 11-language subtitles and metadata; Blogger page "Verdict Picks Toon" (brand/pages/toon.html, scripts/toon_page.py).
 

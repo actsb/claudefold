@@ -1,0 +1,115 @@
+{
+ "id": "ep4",
+ "title": "The Biggest Number on the Box",
+ "panels": 13,
+ "ai_art": true,
+ "series": "Verdict Picks Toon",
+ "slices": [
+  {
+   "file": "ep4-1.webp",
+   "w": 800,
+   "h": 620,
+   "alt": "Comic, part 1 of 13: Verdict Picks Toon: The Biggest Number on the Box"
+  },
+  {
+   "file": "ep4-2.webp",
+   "w": 800,
+   "h": 1362,
+   "alt": "Comic, part 2 of 13: Caption: Black Friday week. Every robot vacuum ad shouts one number. Sam: This one says 30,000 Pa. Biggest number wins, right?"
+  },
+  {
+   "file": "ep4-3.webp",
+   "w": 800,
+   "h": 927,
+   "alt": "Comic, part 3 of 13: Caption: Pa is suction pressure, measured in a sealed lab setup. It is the biggest number in every ad."
+  },
+  {
+   "file": "ep4-4.webp",
+   "w": 800,
+   "h": 897,
+   "alt": "Comic, part 4 of 13: (Sound: BEEP BEEP) Caption: Three days later, in his imagination."
+  },
+  {
+   "file": "ep4-5.webp",
+   "w": 800,
+   "h": 1352,
+   "alt": "Comic, part 5 of 13: Vera: Owners don't send robots back for weak suction. Vera: They send them back because they get stuck."
+  },
+  {
+   "file": "ep4-6.webp",
+   "w": 800,
+   "h": 520,
+   "alt": "Comic, part 6 of 13: Board, Vacuum Wars 24-object obstacle course, 2026: Roborock Saros 10R 24 of 24; eufy Omni S2 24 of 24; Several mid-range camera robots in the teens Source: Vacuum Wars obstacle tests, as summarized in our guide."
+  },
+  {
+   "file": "ep4-7.webp",
+   "w": 800,
+   "h": 1140,
+   "alt": "Comic, part 7 of 13: Sam: So I skip the suction number? Vera: Read the pickup tests. The Pa on the box has inflated 15-fold in five years."
+  },
+  {
+   "file": "ep4-8.webp",
+   "w": 800,
+   "h": 877,
+   "alt": "Comic, part 8 of 13: Caption: 11:30 p.m. Sam: 33% off! That has to be the deal."
+  },
+  {
+   "file": "ep4-9.webp",
+   "w": 800,
+   "h": 540,
+   "alt": "Comic, part 9 of 13: Board, A robot vacuum \"deal,\" in dollars: List price $1,999; What it really sold for about $1,400; The \"33% off\" deal $1,349; What you actually save about $50 Source: RobovacGuide's Black Friday playbook, July 11, 2026 (its worked example)."
+  },
+  {
+   "file": "ep4-10.webp",
+   "w": 800,
+   "h": 940,
+   "alt": "Comic, part 10 of 13: Sam: FIFTY DOLLARS?!"
+  },
+  {
+   "file": "ep4-11.webp",
+   "w": 800,
+   "h": 1417,
+   "alt": "Comic, part 11 of 13: Vera: And the box price isn't the whole price. Vera: Bags, filters, brushes, mop solution: they add up. Board, Consumables over three years: Self-empty robot $100–$200; Omni robot (washes its mop) $250–$400 Source: our estimate from 2026 maker accessory prices; daily runs, about 1,500 sq ft."
+  },
+  {
+   "file": "ep4-12.webp",
+   "w": 800,
+   "h": 1582,
+   "alt": "Comic, part 12 of 13: Caption: Next morning. Step one: measure under the sofa. Sam: 3.5 inches. Turret robots start at about 3.8 (maker specs)."
+  },
+  {
+   "file": "ep4-13.webp",
+   "w": 800,
+   "h": 1095,
+   "alt": "Comic, part 13 of 13: Caption: The tip: measure your clearance, buy the robot that gets stuck least, and judge a deal in dollars. Sam: Fits under the sofa, doesn't get stuck. Deal. Which robot fits your floors? Fourteen picks, compared below."
+  }
+ ],
+ "transcript": [
+  "Verdict Picks Toon: The Biggest Number on the Box",
+  "Caption: Black Friday week. Every robot vacuum ad shouts one number.",
+  "Sam: This one says 30,000 Pa. Biggest number wins, right?",
+  "Caption: Pa is suction pressure, measured in a sealed lab setup. It is the biggest number in every ad.",
+  "(Sound: BEEP BEEP)",
+  "Caption: Three days later, in his imagination.",
+  "Vera: Owners don't send robots back for weak suction.",
+  "Vera: They send them back because they get stuck.",
+  "Board, Vacuum Wars 24-object obstacle course, 2026: Roborock Saros 10R 24 of 24; eufy Omni S2 24 of 24; Several mid-range camera robots in the teens",
+  "Source: Vacuum Wars obstacle tests, as summarized in our guide.",
+  "Sam: So I skip the suction number?",
+  "Vera: Read the pickup tests. The Pa on the box has inflated 15-fold in five years.",
+  "Caption: 11:30 p.m.",
+  "Sam: 33% off! That has to be the deal.",
+  "Board, A robot vacuum \"deal,\" in dollars: List price $1,999; What it really sold for about $1,400; The \"33% off\" deal $1,349; What you actually save about $50",
+  "Source: RobovacGuide's Black Friday playbook, July 11, 2026 (its worked example).",
+  "Sam: FIFTY DOLLARS?!",
+  "Vera: And the box price isn't the whole price.",
+  "Vera: Bags, filters, brushes, mop solution: they add up.",
+  "Board, Consumables over three years: Self-empty robot $100–$200; Omni robot (washes its mop) $250–$400",
+  "Source: our estimate from 2026 maker accessory prices; daily runs, about 1,500 sq ft.",
+  "Caption: Next morning. Step one: measure under the sofa.",
+  "Sam: 3.5 inches. Turret robots start at about 3.8 (maker specs).",
+  "Caption: The tip: measure your clearance, buy the robot that gets stuck least, and judge a deal in dollars.",
+  "Sam: Fits under the sofa, doesn't get stuck. Deal.",
+  "Which robot fits your floors? Fourteen picks, compared below."
+ ]
+}
