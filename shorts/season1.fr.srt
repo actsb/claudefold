@@ -1,0 +1,224 @@
+1
+00:00:00,150 --> 00:00:05,050
+Saison 1 Trois histoires, puis les faits derrière elles : aspirateurs robots, radiateurs électriques et sonnettes vidéo.
+
+2
+00:00:05,200 --> 00:00:09,600
+Épisode 1. Sam veut un aspirateur robot. Il ne veut pas de caméra chez lui.
+
+3
+00:00:09,750 --> 00:00:15,790
+Semaine du Black Friday. 23h48. Les aspirateurs robots sont en promo. Adieu, poils de chien !
+
+4
+00:00:15,940 --> 00:00:22,840
+2022 : des photos prises par des robots en test sont publiées en ligne (MIT Technology Review). 2026 : des robots piratés diffusent des vidéos en direct (Tom's Hardware).
+
+5
+00:00:22,990 --> 00:00:26,750
+Attendez. Mon aspirateur aurait une CAMÉRA ?
+
+6
+00:00:26,900 --> 00:00:31,260
+Beaucoup de robots évitent le désordre en le photographiant.
+
+7
+00:00:31,410 --> 00:00:38,310
+Il existe une autre méthode : un laser rotatif. LiDAR. Il mesure la distance. Il ne prend jamais de photo.
+
+8
+00:00:38,460 --> 00:00:42,640
+Il cartographie votre maison dans le noir. Pas d'images.
+
+9
+00:00:42,790 --> 00:00:46,430
+Donc sans caméra, pas de problème ! Ou presque.
+
+10
+00:00:46,580 --> 00:00:52,320
+Il balaie à la hauteur de sa tourelle. Il voit le canapé, pas la chaussette.
+
+11
+00:00:52,470 --> 00:00:59,370
+Test labo CNET, 13 novembre 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max (avec caméra) a évité 6 sur 6. Source : CNET, meilleurs aspirateurs robots de 2026 (test labo d'Ajay Kumar).
+
+12
+00:00:59,520 --> 00:01:05,080
+Et aucun robot sans caméra de notre guide ne promet d'éviter les excréments d'animaux.
+
+13
+00:01:05,230 --> 00:01:07,970
+BISCUIT EST UN CHIOT !
+
+14
+00:01:08,120 --> 00:01:15,020
+Quel robot pour chez vous ? : Sol rangé, vie privée d'abord : sans caméra ; Chiot, animal malade, câbles : robot avec caméra
+
+15
+00:01:15,170 --> 00:01:22,070
+Le lendemain. La règle des 30 secondes : ramasser câbles et chaussettes avant chaque passage. Le sol est dégagé, mon grand. C'est parti.
+
+16
+00:01:22,220 --> 00:01:29,120
+Encore une chose : un robot laser envoie quand même votre plan sur le cloud. Ignorez le programme de partage de données dans l'application. Pas de photos. Juste nous.
+
+17
+00:01:29,270 --> 00:01:39,670
+Comment un robot voit sans caméra : LiDAR : un laser rotatif mesure la distance et fonctionne dans l'obscurité ; Il balaie à hauteur de tourelle : il voit le canapé, pas la chaussette ; La lumière structurée lit un motif infrarouge ; « pas de caméra RGB » est l'affirmation exacte (Source: Pages de produit et d'assistance des fabricants (23 novembre 2026) ; RTINGS)
+
+18
+00:01:39,820 --> 00:01:50,220
+Ce qui pose problème sans caméra : Se heurte ou traîne les cordons — 7 robots sur 8 ; Mange ou pousse les chaussettes — 4 sur 8 ; Se bloque sur les tapis ou les franges — 4 sur 8 ; Erreurs de navigation ou de retour à la base — 4 sur 8 ; A roulé sur des excréments d'animaux lors d'un test — 2 sur 8 (Source: Notre lecture de RTINGS, TechGearLab, T3, Tom's Guide, avis de propriétaires Best Buy et le forum TP-Link)
+
+19
+00:01:50,370 --> 00:02:00,770
+Toutes les fuites de photos trouvées impliquaient une caméra : Déc 2022 — Photos de Roomba de test publiées en ligne ; Août 2024 — Robots Ecovacs piratés via Bluetooth ; Oct 2024 — Robots Ecovacs détournés dans des foyers américains ; Sept 2025 — Une caméra Dreame activée à distance ; Fév 2026 — Environ 7 000 robots DJI accessibles (Source: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), Tom's Hardware)
+
+20
+00:02:00,920 --> 00:02:11,320
+Quel robot pour votre maison ? : Le meilleur dans l'ensemble, sans caméra — Roborock Q10 S5+ ; Prix le plus bas, sol bien rangé — Roborock Q7 M5+ ; Le choix économique des sites de test — Tapo RV30 Max Plus ; Sols durs, pas de place pour une station — Roomba 205 DustCompactor ; Une station qui lave les serpillières — Deebot N30 Pro Omni ; Chiot, animal malade, cordons partout — un robot avec caméra (Source: Notre guide, avec CNET, RTINGS, The Verge et PCMag)
+
+21
+00:02:11,470 --> 00:02:15,870
+Épisode 2. La première neige. Grand-mère June dit qu'elle va bien.
+
+22
+00:02:16,020 --> 00:02:21,040
+Première neige de l'année. La grand-mère de Jo vit seule.
+
+23
+00:02:21,190 --> 00:02:25,130
+Ne t'en fais pas, chérie. J'ai mon vieux radiateur.
+
+24
+00:02:25,280 --> 00:02:29,520
+Mamie... sur quoi ce radiateur est-il branché ?
+
+25
+00:02:29,670 --> 00:02:35,590
+CPSC : ne jamais brancher un radiateur d'appoint sur une rallonge ou une multiprise.
+
+26
+00:02:35,740 --> 00:02:39,320
+Elle va en avoir un nouveau. Ce soir.
+
+27
+00:02:39,470 --> 00:02:44,610
+Bonne idée. Une vérification avant d'acheter un radiateur cet hiver.
+
+28
+00:02:44,760 --> 00:02:50,740
+Cherchez le numéro de modèle sur l'étiquette, puis vérifiez les avis de rappel.
+
+29
+00:02:50,890 --> 00:02:57,790
+Rappel CPSC, 29 octobre 2026 : Dreo DR-HSH015 (noir, télécommande) rappelé ; environ 338,800 units aux États-Unis ; Risque d'incendie et de brûlure. Source : avis CPSC 27-054. Le Dreo de notre test est un modèle différent ; vérifiez le vôtre avec l'avis.
+
+30
+00:02:57,940 --> 00:03:02,240
+Tu as fait toute cette route ? Tu en vaux la peine.
+
+31
+00:03:02,390 --> 00:03:08,850
+Directement sur une prise murale. À trois pieds des rideaux, des meubles et de la literie (CPSC).
+
+32
+00:03:09,000 --> 00:03:15,340
+Réglez-le autour de 68°F. En mode Eco, il s'arrête de chauffer une fois la pièce à bonne température (Dreo).
+
+33
+00:03:15,490 --> 00:03:17,890
+Enfin au chaud.
+
+34
+00:03:18,040 --> 00:03:24,140
+Éteignez-le pour dormir ou sortir : la CPSC et la NFPA l'exigent. Bonne nuit, Mamie.
+
+35
+00:03:24,290 --> 00:03:34,690
+Un radiateur de 1500 W est-il suffisant ? : Environ 150 à 200 pieds carrés : une pièce, pas la maison ; Un propriétaire : un radiateur vendu pour 1 000 pieds carrés couvrait à peine 500 ; L'oscillation est le réglage le plus bruyant (Consumer Reports, oct. 2025) (Source: Notre test du Dreo ; Consumer Reports)
+
+36
+00:03:34,840 --> 00:03:45,240
+Six habitudes importantes : Prise — directement au mur ; Dégagement — 3 pieds des rideaux, meubles, literie ; Thermostat — environ 68°F ; Sessions longues — mode Éco ; Dormir ou partir — l'éteindre ; À chaque saison — débrancher, laisser refroidir, dépoussiérer l'entrée d'air (Source: CPSC, NFPA et pages d'assistance Dreo)
+
+37
+00:03:45,390 --> 00:03:55,790
+Vérification de rappel : 29 octobre 2026 : Modèle — Dreo DR-HSH015 (noir, télécommande) ; Unités aux États-Unis — environ 338 800 ; Danger — incendie et brûlure ; Si le vôtre correspond — arrêtez de l'utiliser ; suivez l'avis (Source: CPSC recall notice 27-054. Le Dreo de notre test est un modèle différent.)
+
+38
+00:03:55,940 --> 00:04:06,340
+Acheter, attendre ou passer ? : Acheter — une pièce, quelques heures, télécommande et thermostat ; Attendre — offres Walmart : $29.99 à $43.99 l'hiver dernier ; Passer — chauffer toute une maison (Source: Notre test ; publications d'offres Walmart, nov. 2025 à janv. 2026)
+
+39
+00:04:06,490 --> 00:04:10,890
+Épisode 3. Grand-mère June ne peut pas voir son porche.
+
+40
+00:04:11,040 --> 00:04:15,040
+Le porche de Mamie June. Mardi, 14h10.
+
+41
+00:04:15,190 --> 00:04:18,230
+Il y avait quelqu'un à la porte ?
+
+42
+00:04:18,380 --> 00:04:22,380
+Mamie, on va t'installer une sonnette vidéo.
+
+43
+00:04:22,530 --> 00:04:27,970
+Le hic : beaucoup de sonnettes n'enregistrent la vidéo qu'avec un abonnement.
+
+44
+00:04:28,120 --> 00:04:35,020
+Ring sans abonnement filme en direct mais n'enregistre pas. Sauvegarder coûte plus cher : Ring Solo est à $49.99 par an (ring.com).
+
+45
+00:04:35,170 --> 00:04:42,070
+Coût sur trois ans : eufy E340, sans abonnement $119.99 ; Ring avec l'abonnement Solo $189.96 ; Nest avec Premium $499.99 ; Ring avec l'abonnement Pro $639.96. Prix de la sonnette plus trois ans d'abonnement, d'après notre guide (prix Target et fabricants, 11 novembre 2026).
+
+46
+00:04:42,220 --> 00:04:45,860
+$639.96 pour surveiller le porche de Mamie ?!
+
+47
+00:04:46,010 --> 00:04:52,170
+La eufy E340 sauvegarde environ 90 jours de clips sur ses 8 GB internes. Sans frais (eufy).
+
+48
+00:04:52,320 --> 00:04:55,840
+Regarde-toi, mon petit ingénieur.
+
+49
+00:04:55,990 --> 00:04:59,150
+Je peux voir tout le porche !
+
+50
+00:04:59,300 --> 00:05:06,200
+Le hic des sonnettes sur batterie : avec beaucoup de passage, la charge dure des semaines, pas des mois. Je la chargerai le dimanche quand je viendrai.
+
+51
+00:05:06,350 --> 00:05:09,570
+Je sais exactement qui c'est.
+
+52
+00:05:09,720 --> 00:05:19,855
+Une Ring sans abonnement : Vidéo en direct — gratuit ; Conversation bidirectionnelle — gratuit ; Alertes de mouvement — gratuit ; Vidéo enregistrée — abonnement requis ; Alertes de personne — abonnement requis (Source: ring.com ; Ring Solo est à $49.99 par an)
+
+53
+00:05:20,005 --> 00:05:30,405
+Coût sur trois ans : eufy E340, sans abonnement — $119.99 ; Tapo D225 + microSD — $130 à $160 ; Reolink PoE + microSD — $150 à $180 ; Aqara G410 + microSD — $175 à $205 ; Ring + abonnement Solo — $189.96 ; Nest + Premium — $499.99 ; Ring + abonnement Pro — $639.96 (Source: Prix Target et fabricants, 11 novembre 2026)
+
+54
+00:05:30,555 --> 00:05:40,955
+Choisissez selon votre maison : Enregistrements, sans abonnement, sans carte — eufy E340 ; Home Assistant ou un NVR Reolink — Reolink PoE ; iPhone et Apple Home — Aqara G410 ; Coût le plus bas avec une carte — Tapo D225 ; Vous payez déjà pour Ring — Ring Battery 2K ; Une maison Google — Nest Doorbell (Source: Notre guide ; PCMag, TechRadar, les fabricants)
+
+55
+00:05:41,105 --> 00:05:51,505
+Le piège de la batterie : Portes très fréquentées : les propriétaires ont une autonomie de semaines, pas de mois ; Le mode « câblé » sur les modèles à batterie eufy, Ring et Aqara ne fournit qu'une charge d'entretien ; Solutions : un point WiFi plus proche, un câblage, un transformateur 16 V ou plus (Source: Rapports de propriétaires recueillis dans notre guide)
+
+56
+00:05:51,655 --> 00:05:57,055
+Lisez les guides complets Chaque chiffre dans cette vidéo a une source. Liens dans la description.
+

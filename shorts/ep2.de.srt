@@ -4,47 +4,47 @@ Verdict Picks Toon: Ein warmes Zimmer für Oma June
 
 2
 00:00:02,239 --> 00:00:06,114
-Der erste Schnee des Jahres. Jos Oma lebt allein.
+Der erste Schnee des Jahres. Jos Großmutter lebt allein.
 
 3
 00:00:06,264 --> 00:00:09,261
-Mach dir keine Sorgen, Liebes. Ich habe meinen alten Heizlüfter.
+Mach dir keine Umstände, Kind. Ich habe mein altes Heizgerät.
 
 4
 00:00:09,411 --> 00:00:12,652
-Oma... wo ist dieser Heizlüfter eigentlich eingesteckt?
+Oma... woran ist das Heizgerät da angeschlossen?
 
 5
 00:00:12,802 --> 00:00:17,409
-CPSC: Einen Heizlüfter nie an ein Verlängerungskabel oder eine Mehrfachsteckdose anschließen.
+CPSC: Schließe ein Heizgerät nie an ein Verlängerungskabel oder eine Mehrfachsteckdose an.
 
 6
 00:00:17,559 --> 00:00:20,263
-Sie bekommt einen neuen. Heute Abend.
+Sie bekommt ein neues. Noch heute Abend.
 
 7
 00:00:20,413 --> 00:00:24,385
-Gute Idee. Ein Check vor dem Heizlüfter-Kauf in diesem Winter.
+Gute Idee. Ein Check, bevor du diesen Winter ein Heizgerät kaufst.
 
 8
 00:00:24,535 --> 00:00:29,191
-Finde die Modellnummer auf dem Etikett und suche sie in der Rückrufmeldung.
+Finde die Modellnummer auf dem Etikett und suche sie in den Rückrufmitteilungen.
 
 9
 00:00:29,341 --> 00:00:34,657
-CPSC Rückruf, October 29, 2026: Dreo DR-HSH015 (schwarz, Fernbedienung) zurückgerufen; ca. 338,800 units in den USA; Brand- und Verbrennungsgefahr. Quelle: CPSC notice 27-054. Der Dreo im Test ist ein anderes Modell; gleiche deinen mit der Meldung ab.
+CPSC-Rückruf, 29. Oktober 2026: Dreo DR-HSH015 (schwarz, mit Fernbedienung) zurückgerufen; ca. 338.800 Geräte in den USA; Gefahr von Brand und Verbrennung. Quelle: CPSC notice 27-054. Das Dreo in unserem Test ist ein anderes Modell; vergleiche deines mit der Mitteilung.
 
 10
 00:00:34,807 --> 00:00:38,096
-Du bist extra hergefahren? Das bist du mir wert.
+Du bist den weiten Weg gefahren? Das bist du mir wert.
 
 11
 00:00:38,246 --> 00:00:43,292
-Direkt in die Wandsteckdose. Three feet Abstand zu Vorhängen, Möbeln und Bettzeug (CPSC).
+Direkt in die Wandsteckdose. Drei Fuß Abstand zu Vorhängen, Möbeln und Bettzeug (CPSC).
 
 12
 00:00:43,442 --> 00:00:48,390
-Stell ihn auf etwa 68°F. Im Eco-Modus hört er auf zu heizen, sobald der Raum das erreicht hat (Dreo).
+Stell es auf ca. 68°F. Im Eco-Modus stoppt das Heizen, sobald der Raum die Temperatur erreicht hat (Dreo).
 
 13
 00:00:48,540 --> 00:00:50,292
@@ -52,9 +52,9 @@ Endlich warm.
 
 14
 00:00:50,442 --> 00:00:55,195
-Ausschalten, wenn man schläft oder geht: Sagen sowohl CPSC als auch NFPA. Gute Nacht, Oma.
+Ausschalten beim Schlafen oder Rausgehen: Das sagen CPSC und NFPA. Gute Nacht, Oma.
 
 15
 00:00:55,345 --> 00:00:57,846
-Ist der Dreo Heizlüfter der richtige für deinen Raum? Unser kompletter Test ist unten. Link in der Beschreibung.
+Passt das Dreo-Heizgerät in deinen Raum? Der komplette Testbericht ist unten. Link in der Beschreibung.
 

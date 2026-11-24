@@ -4,11 +4,11 @@ Verdict Picks Toon : Le robot qui ne vous voit pas
 
 2
 00:00:01,928 --> 00:00:05,969
-Semaine du Black Friday. 11:48 p.m. Les aspirateurs robots sont en promo. Adieu, poils de chien !
+Semaine du Black Friday. 23h48. Les aspirateurs robots sont en promo. Adieu, poils de chien !
 
 3
 00:00:06,119 --> 00:00:10,694
-2022 : des photos prises par des aspirateurs robots tests ont fuité en ligne (MIT Technology Review). 2026 : des robots piratés ont diffusé des flux de caméras en direct (Tom's Hardware).
+2022 : des photos prises par des robots en test sont publiées en ligne (MIT Technology Review). 2026 : des robots piratés diffusent des vidéos en direct (Tom's Hardware).
 
 4
 00:00:10,844 --> 00:00:13,267
@@ -16,31 +16,31 @@ Attendez. Mon aspirateur aurait une CAMÉRA ?
 
 5
 00:00:13,417 --> 00:00:16,266
-De nombreux robots évitent le désordre en le photographiant.
+Beaucoup de robots évitent le désordre en le photographiant.
 
 6
 00:00:16,416 --> 00:00:20,991
-Il y a une autre méthode : un laser rotatif. Le LiDAR. Il mesure la distance. Il ne prend jamais de photo.
+Il existe une autre méthode : un laser rotatif. LiDAR. Il mesure la distance. Il ne prend jamais de photo.
 
 7
 00:00:21,141 --> 00:00:23,862
-Il cartographie votre maison dans le noir. Aucune photo.
+Il cartographie votre maison dans le noir. Pas d'images.
 
 8
 00:00:24,012 --> 00:00:26,351
-Donc pas de caméra, pas de problème ! En général.
+Donc sans caméra, pas de problème ! Ou presque.
 
 9
 00:00:26,501 --> 00:00:30,329
-Il scanne à la hauteur de sa tourelle. Il voit le canapé, pas la chaussette.
+Il balaie à la hauteur de sa tourelle. Il voit le canapé, pas la chaussette.
 
 10
 00:00:30,479 --> 00:00:35,054
-Test labo CNET, November 13, 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max (caméra) 6 sur 6. Source : CNET, meilleurs aspirateurs robots de 2026 (test labo de Ajay Kumar).
+Test labo CNET, 13 novembre 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max (avec caméra) a évité 6 sur 6. Source : CNET, meilleurs aspirateurs robots de 2026 (test labo d'Ajay Kumar).
 
 11
 00:00:35,204 --> 00:00:38,904
-Et aucun robot sans caméra de notre guide ne promet d'éviter les déjections d'animaux.
+Et aucun robot sans caméra de notre guide ne promet d'éviter les excréments d'animaux.
 
 12
 00:00:39,054 --> 00:00:40,754
@@ -48,17 +48,17 @@ BISCUIT EST UN CHIOT !
 
 13
 00:00:40,904 --> 00:00:45,479
-Quel robot pour votre maison ? : Sol rangé, vie privée d'abord sans caméra ; Chiot, animal malade, câbles robot avec caméra
+Quel robot pour chez vous ? : Sol rangé, vie privée d'abord : sans caméra ; Chiot, animal malade, câbles : robot avec caméra
 
 14
 00:00:45,629 --> 00:00:50,203
-Le lendemain matin. La règle des 30 secondes : câbles et chaussettes ramassés avant chaque passage. Le sol est dégagé, mon grand. C'est parti.
+Le lendemain. La règle des 30 secondes : ramasser câbles et chaussettes avant chaque passage. Le sol est dégagé, mon grand. C'est parti.
 
 15
 00:00:50,353 --> 00:00:54,928
-Encore une chose : un robot laser envoie quand même votre carte sur le cloud. Ignorez le programme de partage de données dans l'appli. Pas de photos. Juste nous.
+Encore une chose : un robot laser envoie quand même votre plan sur le cloud. Ignorez le programme de partage de données dans l'application. Pas de photos. Juste nous.
 
 16
 00:00:55,078 --> 00:00:57,197
-Quel robot sans caméra devriez-vous acheter ? Six choix comparés ci-dessous. Lien en description.
+Quel robot sans caméra acheter ? Six choix, comparés ci-dessous. Lien en description.
 

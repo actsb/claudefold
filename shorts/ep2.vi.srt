@@ -4,11 +4,11 @@ Verdict Picks Toon: Căn phòng ấm áp cho bà June
 
 2
 00:00:02,239 --> 00:00:06,114
-Trận tuyết đầu mùa. Bà của Jo sống một mình.
+Đợt tuyết đầu tiên trong năm. Bà của Jo sống một mình.
 
 3
 00:00:06,264 --> 00:00:09,261
-Đừng lo cháu yêu. Bà có chiếc máy sưởi cũ này rồi.
+Đừng bận tâm cháu yêu. Bà có chiếc máy sưởi cũ rồi.
 
 4
 00:00:09,411 --> 00:00:12,652
@@ -16,45 +16,45 @@ Bà ơi... máy sưởi đó đang cắm vào đâu vậy?
 
 5
 00:00:12,802 --> 00:00:17,409
-CPSC: không bao giờ cắm máy sưởi vào dây nối hoặc ổ điện kéo dài.
+CPSC: đừng bao giờ cắm máy sưởi vào dây nối hoặc ổ cắm đa năng.
 
 6
 00:00:17,559 --> 00:00:20,263
-Bà sẽ có một cái mới. Ngay tối nay.
+Phải mua cho bà cái mới. Ngay tối nay.
 
 7
 00:00:20,413 --> 00:00:24,385
-Lựa chọn hay đấy. Hãy kiểm tra một điều trước khi mua bất kỳ máy sưởi nào mùa đông này.
+Quyết định chuẩn đấy. Nhớ kiểm tra kỹ trước khi mua máy sưởi mùa đông này.
 
 8
 00:00:24,535 --> 00:00:29,191
-Tìm model number trên nhãn, sau đó tra cứu trong thông báo thu hồi.
+Tìm mã model trên nhãn, rồi tra cứu trong thông báo thu hồi.
 
 9
 00:00:29,341 --> 00:00:34,657
-CPSC thu hồi, October 29, 2026: Thu hồi Dreo DR-HSH015 (màu đen, có điều khiển); Khoảng 338,800 units tại Mỹ; Nguy cơ cháy nổ và bỏng Nguồn: CPSC notice 27-054. Mẫu Dreo trong bài đánh giá của chúng tôi là model khác; hãy kiểm tra máy của bạn theo thông báo.
+Thu hồi của CPSC, ngày 29 tháng 10, 2026: Dreo DR-HSH015 (màu đen, có remote) bị thu hồi; Số lượng tại Mỹ khoảng 338,800; Nguy cơ cháy và bỏng. Nguồn: thông báo CPSC 27-054. Máy sưởi Dreo trong bài đánh giá là model khác; hãy kiểm tra máy của bạn theo thông báo.
 
 10
 00:00:34,807 --> 00:00:38,096
-Cháu lái xe suốt quãng đường này sao? Vì bà thì hoàn toàn xứng đáng.
+Cháu cất công lái xe đến tận đây sao? Vì bà thì hoàn toàn xứng đáng ạ.
 
 11
 00:00:38,246 --> 00:00:43,292
-Cắm thẳng vào tường. Đặt cách rèm cửa, đồ nội thất và giường chiếu three feet (CPSC).
+Cắm trực tiếp vào ổ tường. Cách xa rèm, đồ nội thất và giường đệm 3 feet (CPSC).
 
 12
 00:00:43,442 --> 00:00:48,390
-Cài đặt ở mức gần 68°F. Ở chế độ Eco, máy sẽ ngừng sưởi khi phòng đạt nhiệt độ đó (Dreo).
+Cài đặt ở mức 68°F. Ở chế độ Eco, máy sẽ ngừng sưởi khi phòng đạt nhiệt độ này (Dreo).
 
 13
 00:00:48,540 --> 00:00:50,292
-Cuối cùng cũng ấm áp rồi.
+Cuối cùng cũng ấm rồi.
 
 14
 00:00:50,442 --> 00:00:55,195
-Tắt máy khi ngủ hoặc rời đi: CPSC và NFPA đều khuyên vậy. Chúc bà ngủ ngon.
+Tắt máy khi ngủ hoặc ra ngoài: CPSC và NFPA đều khuyên vậy. Chúc bà ngủ ngon.
 
 15
 00:00:55,345 --> 00:00:57,846
-Máy sưởi Dreo có phù hợp với phòng của bạn? Đánh giá chi tiết ở bên dưới. Link trong phần mô tả.
+Máy sưởi Dreo có hợp với phòng bạn không? Xem đánh giá chi tiết bên dưới. Link trong phần mô tả.
 

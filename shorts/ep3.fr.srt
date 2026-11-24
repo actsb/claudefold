@@ -4,7 +4,7 @@ Verdict Picks Toon : Qui est à la porte, Mamie ?
 
 2
 00:00:02,400 --> 00:00:05,680
-Porche de Mamie June. Mardi, 2:10 p.m.
+Le porche de Mamie June. Mardi, 14h10.
 
 3
 00:00:05,830 --> 00:00:08,278
@@ -12,19 +12,19 @@ Il y avait quelqu'un à la porte ?
 
 4
 00:00:08,428 --> 00:00:11,708
-Mamie, on va t'acheter une sonnette vidéo.
+Mamie, on va t'installer une sonnette vidéo.
 
 5
 00:00:11,858 --> 00:00:16,386
-Le hic : beaucoup de sonnettes n'enregistrent que si vous payez un forfait.
+Le hic : beaucoup de sonnettes n'enregistrent la vidéo qu'avec un abonnement.
 
 6
 00:00:16,536 --> 00:00:22,236
-Une Ring sans forfait est une caméra en direct, pas un enregistreur. La vidéo sauvegardée coûte un supplément : Ring Solo est à $49.99 par an (ring.com).
+Ring sans abonnement filme en direct mais n'enregistre pas. Sauvegarder coûte plus cher : Ring Solo est à $49.99 par an (ring.com).
 
 7
 00:00:22,386 --> 00:00:28,086
-Ce que ça coûte sur trois ans : eufy E340, sans forfait $119.99 ; Ring avec le forfait Solo $189.96 ; Nest avec Premium $499.99 ; Ring avec le forfait Pro $639.96 Prix de la sonnette plus trois ans de frais, d'après notre guide ci-dessous (prix Target et fabricant, November 11, 2026).
+Coût sur trois ans : eufy E340, sans abonnement $119.99 ; Ring avec l'abonnement Solo $189.96 ; Nest avec Premium $499.99 ; Ring avec l'abonnement Pro $639.96. Prix de la sonnette plus trois ans d'abonnement, d'après notre guide (prix Target et fabricants, 11 novembre 2026).
 
 8
 00:00:28,236 --> 00:00:31,204
@@ -32,7 +32,7 @@ $639.96 pour surveiller le porche de Mamie ?!
 
 9
 00:00:31,354 --> 00:00:36,506
-La eufy E340 stocke environ 90 jours de clips sur ses 8 GB internes. Sans frais (eufy).
+La eufy E340 sauvegarde environ 90 jours de clips sur ses 8 GB internes. Sans frais (eufy).
 
 10
 00:00:36,656 --> 00:00:39,520
@@ -44,7 +44,7 @@ Je peux voir tout le porche !
 
 12
 00:00:42,372 --> 00:00:48,072
-Le problème de toutes les sonnettes sur batterie : sur une porte très fréquentée, la charge dure des semaines, pas des mois. Je la rechargerai le dimanche en venant.
+Le hic des sonnettes sur batterie : avec beaucoup de passage, la charge dure des semaines, pas des mois. Je la chargerai le dimanche quand je viendrai.
 
 13
 00:00:48,222 --> 00:00:50,826
@@ -52,5 +52,5 @@ Je sais exactement qui c'est.
 
 14
 00:00:50,976 --> 00:00:53,676
-Quelle sonnette fonctionne sans forfait ? Six choix et les coûts sur trois ans ci-dessous. Lien en description.
+Quelle sonnette marche sans abonnement ? Six choix et leurs coûts sur trois ans ci-dessous. Lien en description.
 

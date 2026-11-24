@@ -73,7 +73,7 @@ def caption_svg(bg, caption, label):
             + t(48, 62, label, 30, 800, "#FFFFFF") + t(VW - 48, 62, "VERDICT PICKS TOON", 24, 800, "#7FD1A8", "end") + '</svg>')
 
 def still_clip(png, D, out, zoom=0.04):
-    TS.run(FF, "-y", "-loop", "1", "-t", f"{D:.3f}", "-i", png, "-filter_complex",
+    TS.run(FF, "-y", "-framerate", "30", "-loop", "1", "-t", f"{D:.3f}", "-i", png, "-filter_complex",
            f"[0:v]scale={VW*2}:{VH*2},zoompan=z='1+{zoom}*on/({D*30:.0f})':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={VW}x{VH}:fps=30,format=yuv420p[v]",
            "-map", "[v]", "-t", f"{D:.3f}", "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", out)
 
@@ -130,14 +130,18 @@ def main(cfg_path, out):
     chap = "\n".join(f"{ts(starts[i])} {name}" for name, i in chapters)
     desc_en = cfg["description"].replace("{chapters}", chap)
     meta, newt = {"en": {"title": cfg["title"], "description": desc_en}}, {"en": new_lines}
+    cache_f = out / f"{sid}-i18n-cache.json"; key = __import__("hashlib").sha1(json.dumps([cfg["title"], desc_en, new_lines]).encode()).hexdigest()
+    cache = json.loads(cache_f.read_text(encoding="utf-8")) if cache_f.exists() else {}
+    if cache.get("key") == key: meta, newt = cache["meta"], cache["newt"]
     for lang, name in TS.LANGS.items():
-        if lang == "en": continue
+        if lang == "en" or lang in meta: continue
         r = TS.gemini_json(f"Translate this YouTube video's title, description and on-screen lines from English into {name}. Keep product names, model numbers, prices, "
                            f"URLs, hashtags, chapter timestamps and source names exactly; translate dates naturally; 'space heater' is an electric room heater. "
                            f"Return JSON {{\"title\": str (max 100 characters), \"description\": str, \"lines\": [str, ...] (same count and order)}}.\n\n"
                            + json.dumps({"title": cfg["title"], "description": desc_en, "lines": new_lines}, ensure_ascii=False))
         if len(r.get("lines", [])) != len(new_lines): raise SystemExit(f"{lang}: line count mismatch")
         meta[lang] = {"title": r["title"][:100], "description": r["description"]}; newt[lang] = r["lines"]; print("translated", lang)
+        cache_f.write_text(json.dumps({"key": key, "meta": meta, "newt": newt}, ensure_ascii=False), encoding="utf-8")
     for lang in TS.LANGS:
         ep = {}
         lines = []

@@ -4,11 +4,11 @@ Verdict Picks Toon: Wer ist an der Tür, Oma?
 
 2
 00:00:02,400 --> 00:00:05,680
-Oma Junes Veranda. Dienstag, 2:10 p.m.
+Oma Junes Veranda. Dienstag, 14:10 Uhr.
 
 3
 00:00:05,830 --> 00:00:08,278
-War jemand an der Tür?
+War da jemand an der Tür?
 
 4
 00:00:08,428 --> 00:00:11,708
@@ -16,23 +16,23 @@ Oma, wir besorgen dir eine Videotürklingel.
 
 5
 00:00:11,858 --> 00:00:16,386
-Der Haken: Viele Klingeln speichern Videos nur, wenn man für ein Abo bezahlt.
+Der Haken: Viele Klingeln speichern Videos nur, wenn man für ein Abo zahlt.
 
 6
 00:00:16,536 --> 00:00:22,236
-Eine Ring ohne Plan ist eine Live-Kamera, kein Rekorder. Gespeicherte Videos kosten extra: Ring Solo kostet $49.99 im Jahr (ring.com).
+Eine Ring ohne Abo ist eine Live-Kamera, kein Rekorder. Gespeicherte Videos kosten extra: Ring Solo für $49.99 pro Jahr (ring.com).
 
 7
 00:00:22,386 --> 00:00:28,086
-Was es über drei Jahre kostet: eufy E340, kein Abo nötig $119.99; Ring mit Solo-Plan $189.96; Nest mit Premium $499.99; Ring mit Pro-Plan $639.96. Preis der Klingel plus drei Jahre Abogebühren aus unserem Leitfaden unten (Target und Herstellerpreise, November 11, 2026).
+Was es über drei Jahre kostet: eufy E340, kein Abo nötig $119.99; Ring mit Solo-Abo $189.96; Nest with Premium $499.99; Ring mit Pro-Abo $639.96. Preis der Klingel plus drei Jahre Abogebühren aus unserem Guide unten (Target- und Herstellerpreise, 11. November 2026).
 
 8
 00:00:28,236 --> 00:00:31,204
-$639.96, um Omas Veranda zu sehen?!
+$639.96, um Omas Veranda zu überwachen?!
 
 9
 00:00:31,354 --> 00:00:36,506
-Die eufy E340 speichert ca. 90 Tage an Clips auf 8 GB im Gerät. Keine Gebühren (eufy).
+Die eufy E340 speichert etwa 90 Tage an Clips auf internen 8 GB. Keine Gebühren (eufy).
 
 10
 00:00:36,656 --> 00:00:39,520
@@ -44,7 +44,7 @@ Ich kann die ganze Veranda sehen!
 
 12
 00:00:42,372 --> 00:00:48,072
-Der Haken bei jeder Akku-Türklingel: An einer viel genutzten Tür hält der Akku Wochen, nicht Monate. Ich lade sie sonntags auf, wenn ich zu Besuch komme.
+Der Haken bei jeder Akku-Klingel: An einer viel genutzten Tür hält der Akku eher Wochen als Monate. Ich lade sie sonntags auf, wenn ich zu Besuch bin.
 
 13
 00:00:48,222 --> 00:00:50,826
@@ -52,5 +52,5 @@ Ich weiß genau, wer das ist.
 
 14
 00:00:50,976 --> 00:00:53,676
-Welche Türklingel funktioniert ohne Abo? Sechs Empfehlungen und die Drei-Jahres-Kosten stehen unten. Link in der Beschreibung.
+Welche Türklingel funktioniert ohne Abo? Sechs Empfehlungen und die 3-Jahres-Kosten gibt's unten. Link in der Beschreibung.
 

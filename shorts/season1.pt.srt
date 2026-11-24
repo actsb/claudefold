@@ -1,0 +1,224 @@
+1
+00:00:00,150 --> 00:00:05,050
+Temporada 1 Três histórias, seguidas pelos fatos por trás delas: robôs aspiradores, aquecedores de ambiente e campainhas de vídeo.
+
+2
+00:00:05,200 --> 00:00:09,600
+Episódio 1. Sam quer um robô aspirador. Ele não quer uma câmera na sua casa.
+
+3
+00:00:09,750 --> 00:00:15,790
+Semana de Black Friday. 23:48. Robôs aspiradores em promoção. Adeus, pelo de cachorro!
+
+4
+00:00:15,940 --> 00:00:22,840
+2022: fotos tiradas por robôs em teste foram postadas online (MIT Technology Review). 2026: robôs hackeados mostraram a câmera ao vivo (Tom's Hardware).
+
+5
+00:00:22,990 --> 00:00:26,750
+Espera. Meu aspirador teria uma CÂMERA?
+
+6
+00:00:26,900 --> 00:00:31,260
+Muitos robôs desviam da bagunça fotografando-a.
+
+7
+00:00:31,410 --> 00:00:38,310
+Existe outro jeito: um laser giratório. LiDAR. Ele mede a distância. Nunca tira fotos.
+
+8
+00:00:38,460 --> 00:00:42,640
+Ele mapeia sua casa no escuro. Sem fotos.
+
+9
+00:00:42,790 --> 00:00:46,430
+Então, sem câmera, sem problema! Na maioria das vezes.
+
+10
+00:00:46,580 --> 00:00:52,320
+Ele escaneia na altura de sua torre. Ele vê o sofá, não a meia.
+
+11
+00:00:52,470 --> 00:00:59,370
+Teste de laboratório da CNET, 13 de novembro de 2026: Roomba 205 Combo sem câmera desviou de 1 de 6; Roomba Combo 10 Max (câmera) desviou de 6 de 6. Fonte: CNET, melhores robôs aspiradores de 2026 (teste por Ajay Kumar).
+
+12
+00:00:59,520 --> 00:01:05,080
+E nenhum robô sem câmera no nosso guia promete desviar de dejetos de pets.
+
+13
+00:01:05,230 --> 00:01:07,970
+BISCUIT É UM FILHOTE!
+
+14
+00:01:08,120 --> 00:01:15,020
+Qual robô para a sua casa?: Chão arrumado, privacidade primeiro sem câmera; Filhote, pet doente, fios robô com câmera
+
+15
+00:01:15,170 --> 00:01:22,070
+Manhã seguinte. Regra dos 30 segundos: tire fios e meias do chão antes de usar. Chão livre, amigão. Vamos lá.
+
+16
+00:01:22,220 --> 00:01:29,120
+Mais uma coisa: um robô a laser ainda envia o mapa da sua casa para a nuvem. Pule o programa de dados no app. Sem fotos. Só nós.
+
+17
+00:01:29,270 --> 00:01:39,670
+Como um robô enxerga sem câmera: LiDAR: um laser giratório mede a distância e funciona no escuro; Ele escaneia na altura da torre: vê o sofá, não a meia; Luz estruturada lê um padrão infravermelho; "nenhuma câmera RGB" é a afirmação precisa (Fonte: Páginas de produto e suporte do fabricante (23 de novembro de 2026); RTINGS)
+
+18
+00:01:39,820 --> 00:01:50,220
+O que dá errado sem uma câmera: Bate em ou arrasta fios — 7 de 8 robôs; Engole ou empurra meias — 4 de 8; Fica preso em tapetes ou franjas — 4 de 8; Erros de navegação ou ancoragem — 4 de 8; Passou por cima de fezes de animais em um teste — 2 de 8 (Fonte: Nossa leitura de RTINGS, TechGearLab, T3, Tom's Guide, proprietários da Best Buy e do fórum TP-Link)
+
+19
+00:01:50,370 --> 00:02:00,770
+Todo vazamento de fotos que encontramos tinha uma câmera: Dez 2022 — Fotos de teste do Roomba publicadas online; Ago 2024 — Robôs Ecovacs controlados por Bluetooth; Out 2024 — Robôs Ecovacs invadidos em lares nos EUA; Set 2025 — Uma câmera Dreame ligada remotamente; Fev 2026 — Cerca de 7.000 robôs DJI acessíveis (Fonte: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), Tom's Hardware)
+
+20
+00:02:00,920 --> 00:02:11,320
+Qual robô para a sua casa?: Melhor no geral, sem câmera — Roborock Q10 S5+; Menor preço, piso arrumado — Roborock Q7 M5+; Escolha econômica dos sites de teste — Tapo RV30 Max Plus; Pisos duros, sem espaço para doca — Roomba 205 DustCompactor; Uma doca que lava os esfregões — Deebot N30 Pro Omni; Filhote de cachorro, animal doente, fios por toda parte — um robô com câmera (Fonte: Nosso guia, com CNET, RTINGS, The Verge e PCMag)
+
+21
+00:02:11,470 --> 00:02:15,870
+Episódio 2. A primeira neve. A Vovó June diz que está bem.
+
+22
+00:02:16,020 --> 00:02:21,040
+A primeira neve do ano. A avó da Jo mora sozinha.
+
+23
+00:02:21,190 --> 00:02:25,130
+Não se preocupe, querida. Tenho meu aquecedor antigo.
+
+24
+00:02:25,280 --> 00:02:29,520
+Vó... onde esse aquecedor está ligado?
+
+25
+00:02:29,670 --> 00:02:35,590
+CPSC: nunca ligue um aquecedor elétrico a uma extensão ou filtro de linha.
+
+26
+00:02:35,740 --> 00:02:39,320
+Ela vai ganhar um novo. Hoje à noite.
+
+27
+00:02:39,470 --> 00:02:44,610
+Boa ideia. Uma verificação antes de comprar qualquer aquecedor neste inverno.
+
+28
+00:02:44,760 --> 00:02:50,740
+Encontre o número do modelo na etiqueta e busque-o no aviso de recall.
+
+29
+00:02:50,890 --> 00:02:57,790
+Recall da CPSC, 29 de outubro de 2026: Dreo DR-HSH015 (preto, com controle) em recall; Cerca de 338,800 unidades nos EUA; Risco de incêndio e queimaduras. Fonte: CPSC notice 27-054. O Dreo na nossa análise é um modelo diferente; verifique o seu no aviso.
+
+30
+00:02:57,940 --> 00:03:02,240
+Você dirigiu até aqui? Você vale a viagem.
+
+31
+00:03:02,390 --> 00:03:08,850
+Direto na tomada. A três pés de distância de cortinas, móveis e roupas de cama (CPSC).
+
+32
+00:03:09,000 --> 00:03:15,340
+Ajuste perto de 68°F. No modo Eco ele para de aquecer quando o quarto atinge a temperatura (Dreo).
+
+33
+00:03:15,490 --> 00:03:17,890
+Finalmente quentinho.
+
+34
+00:03:18,040 --> 00:03:24,140
+Desligado ao dormir ou sair: CPSC e NFPA recomendam. Boa noite, Vó.
+
+35
+00:03:24,290 --> 00:03:34,690
+Um aquecedor de ambiente de 1500 W é o bastante?: Aproximadamente 150 a 200 pés quadrados: um cômodo, não a casa; Um proprietário: um aquecedor vendido para 1.000 sq ft mal deu conta de 500; A oscilação é a configuração mais barulhenta (Consumer Reports, Out 2025) (Fonte: Nossa análise do Dreo; Consumer Reports)
+
+36
+00:03:34,840 --> 00:03:45,240
+Seis hábitos que importam: Tomada — direto na parede; Espaço livre — 3 pés de cortinas, móveis, roupas de cama; Termostato — cerca de 68°F; Sessões longas — modo Eco; Dormir ou sair — desligue; Cada estação — tire da tomada, esfrie, tire o pó da entrada (Fonte: CPSC, NFPA e páginas de suporte da Dreo)
+
+37
+00:03:45,390 --> 00:03:55,790
+Verificação de recall: 29 de outubro de 2026: Modelo — Dreo DR-HSH015 (preto, controle remoto); Unidades nos EUA — cerca de 338.800; Risco — incêndio e queimadura; Se o seu corresponder — pare de usá-lo; siga o aviso (Fonte: Aviso de recall da CPSC 27-054. O Dreo na nossa análise é um modelo diferente.)
+
+38
+00:03:55,940 --> 00:04:06,340
+Comprar, esperar ou pular?: Comprar — um cômodo, algumas horas, controle remoto e termostato; Esperar — promoções do Walmart: $29.99 a $43.99 no inverno passado; Pular — aquecer uma casa inteira (Fonte: Nossa análise; publicações de promoções do Walmart, Nov 2025 a Jan 2026)
+
+39
+00:04:06,490 --> 00:04:10,890
+Episódio 3. A Vovó June não consegue ver a sua varanda.
+
+40
+00:04:11,040 --> 00:04:15,040
+Varanda da Vovó June. Terça-feira, 14h10.
+
+41
+00:04:15,190 --> 00:04:18,230
+Tinha alguém na porta?
+
+42
+00:04:18,380 --> 00:04:22,380
+Vovó, vamos instalar uma campainha de vídeo para você.
+
+43
+00:04:22,530 --> 00:04:27,970
+O problema: muitas campainhas só salvam o vídeo se você pagar um plano.
+
+44
+00:04:28,120 --> 00:04:35,020
+O Ring sem plano é uma câmera ao vivo, não um gravador. Vídeo salvo custa a mais: Ring Solo é $49.99 por ano (ring.com).
+
+45
+00:04:35,170 --> 00:04:42,070
+O custo em três anos: eufy E340, sem plano $119.99; Ring com plano Solo $189.96; Nest com Premium $499.99; Ring com plano Pro $639.96. Preço da campainha mais três anos de taxas de plano, do nosso guia abaixo (preços da Target e fabricantes, 11 de novembro de 2026).
+
+46
+00:04:42,220 --> 00:04:45,860
+$639.96 para vigiar a varanda da Vovó?!
+
+47
+00:04:46,010 --> 00:04:52,170
+A eufy E340 salva cerca de 90 dias de clipes em 8 GB internos. Sem mensalidade (eufy).
+
+48
+00:04:52,320 --> 00:04:55,840
+Olha só para você, meu pequeno engenheiro.
+
+49
+00:04:55,990 --> 00:04:59,150
+Consigo ver a varanda toda!
+
+50
+00:04:59,300 --> 00:05:06,200
+O problema de toda campainha a bateria: em portas movimentadas, a carga dura semanas, não meses. Vou carregar aos domingos, quando vier visitar.
+
+51
+00:05:06,350 --> 00:05:09,570
+Eu sei exatamente quem é.
+
+52
+00:05:09,720 --> 00:05:19,855
+Um Ring sem plano: Exibição ao vivo — grátis; Áudio bidirecional — grátis; Alertas de movimento — grátis; Vídeo salvo — plano necessário; Alertas de pessoa — plano necessário (Fonte: ring.com; Ring Solo é $49.99 por ano)
+
+53
+00:05:20,005 --> 00:05:30,405
+Custo para três anos: eufy E340, sem plano — $119.99; Tapo D225 + microSD — $130 a $160; Reolink PoE + microSD — $150 a $180; Aqara G410 + microSD — $175 a $205; Ring + plano Solo — $189.96; Nest + Premium — $499.99; Ring + plano Pro — $639.96 (Fonte: Preços da Target e dos fabricantes, 11 de novembro de 2026)
+
+54
+00:05:30,555 --> 00:05:40,955
+Escolha pela sua casa: Gravações, sem plano, sem cartão — eufy E340; Home Assistant ou um Reolink NVR — Reolink PoE; iPhone e Apple Home — Aqara G410; Menor custo com um cartão — Tapo D225; Já paga pelo Ring — Ring Battery 2K; Uma casa com Google — Nest Doorbell (Fonte: Nosso guia; PCMag, TechRadar, os fabricantes)
+
+55
+00:05:41,105 --> 00:05:51,505
+O problema da bateria: Portas movimentadas: proprietários conseguem semanas, não meses; O modo "Com fio" nos modelos a bateria eufy, Ring e Aqara apenas fornece carga lenta; Soluções: um ponto WiFi mais próximo, fiação, um transformador de 16 V ou maior (Fonte: Relatos de proprietários coletados no nosso guia)
+
+56
+00:05:51,655 --> 00:05:57,055
+Leia os guias completos Cada número neste vídeo tem uma fonte. Links na descrição.
+

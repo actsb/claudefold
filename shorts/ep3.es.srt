@@ -1,6 +1,6 @@
 1
 00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: ¿Quién llama a la puerta, abuela?
+Verdict Picks Toon: ¿Quién está en la puerta, abuela?
 
 2
 00:00:02,400 --> 00:00:05,680
@@ -8,31 +8,31 @@ Porche de la abuela June. Martes, 2:10 p.m.
 
 3
 00:00:05,830 --> 00:00:08,278
-¿Alguien llamó a la puerta?
+¿Había alguien en la puerta?
 
 4
 00:00:08,428 --> 00:00:11,708
-Abuela, vamos a ponerte un timbre con video.
+Abuela, vamos a comprarte un timbre con video.
 
 5
 00:00:11,858 --> 00:00:16,386
-El problema: muchos timbres solo guardan video si pagas un plan.
+La trampa: muchos timbres guardan el video solo si pagas un plan.
 
 6
 00:00:16,536 --> 00:00:22,236
-Un Ring sin plan es una cámara en vivo, no graba. Guardar video cuesta extra: Ring Solo vale $49.99 al año (ring.com).
+Un Ring sin plan es una cámara en vivo, no graba. Guardar el video cuesta extra: Ring Solo es $49.99 al año (ring.com).
 
 7
 00:00:22,386 --> 00:00:28,086
-Costo a tres años: eufy E340 sin plan necesario $119.99; Ring con plan Solo $189.96; Nest con Premium $499.99; Ring con plan Pro $639.96 Precio del timbre más tres años de plan, de nuestra guía abajo (precios de Target y fabricantes, November 11, 2026).
+Costo a tres años: eufy E340, sin plan $119.99; Ring con plan Solo $189.96; Nest con Premium $499.99; Ring con plan Pro $639.96. Precio del timbre más tres años de plan, según nuestra guía abajo (precios de Target y fabricantes, 11 de noviembre de 2026).
 
 8
 00:00:28,236 --> 00:00:31,204
-¡¿$639.96 por vigilar el porche de la abuela?!
+¡¿$639.96 para vigilar el porche de la abuela?!
 
 9
 00:00:31,354 --> 00:00:36,506
-El eufy E340 guarda unos 90 días de clips en sus 8 GB internos. Sin tarifas (eufy).
+El eufy E340 guarda unos 90 días de clips en sus 8 GB internos. Sin cuotas (eufy).
 
 10
 00:00:36,656 --> 00:00:39,520
@@ -44,7 +44,7 @@ Mírate, mi pequeño ingeniero.
 
 12
 00:00:42,372 --> 00:00:48,072
-El problema con los timbres a batería: en puertas muy concurridas, la carga dura semanas, no meses. Lo cargaré los domingos que te visite.
+La trampa de los timbres con batería: en puertas muy usadas, la carga dura semanas, no meses. Lo cargaré los domingos cuando te visite.
 
 13
 00:00:48,222 --> 00:00:50,826
@@ -52,5 +52,5 @@ Sé exactamente quién es.
 
 14
 00:00:50,976 --> 00:00:53,676
-¿Qué timbre funciona sin plan? Seis opciones y sus costos a tres años a continuación. Enlace en la descripción.
+¿Qué timbre funciona sin un plan? Abajo tienes seis opciones y los costos a tres años. Enlace en la descripción.
 

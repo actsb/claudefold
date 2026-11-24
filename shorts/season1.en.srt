@@ -1,0 +1,224 @@
+1
+00:00:00,150 --> 00:00:05,050
+Season 1 Three stories, then the facts behind them: robot vacuums, space heaters and video doorbells.
+
+2
+00:00:05,200 --> 00:00:09,600
+Episode 1. Sam wants a robot vacuum. He doesn't want a camera in his home.
+
+3
+00:00:09,750 --> 00:00:15,790
+Black Friday week. 11:48 p.m. Robot vacuums are on sale. Goodbye, dog hair!
+
+4
+00:00:15,940 --> 00:00:22,840
+2022: photos taken by test robot vacuums were posted online (MIT Technology Review). 2026: hacked robots showed live camera feeds (Tom's Hardware).
+
+5
+00:00:22,990 --> 00:00:26,750
+Wait. My vacuum would have a CAMERA?
+
+6
+00:00:26,900 --> 00:00:31,260
+Many robots dodge clutter by photographing it.
+
+7
+00:00:31,410 --> 00:00:38,310
+There's another way: a spinning laser. LiDAR. It measures distance. It never takes a photo.
+
+8
+00:00:38,460 --> 00:00:42,640
+It maps your home in the dark. No pictures.
+
+9
+00:00:42,790 --> 00:00:46,430
+Then no camera, no problem! Mostly.
+
+10
+00:00:46,580 --> 00:00:52,320
+It scans at the height of its turret. It sees the sofa, not the sock.
+
+11
+00:00:52,470 --> 00:00:59,370
+CNET lab test, November 13, 2026: Camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max (camera) avoided 6 of 6 Source: CNET, best robot vacuums of 2026 (lab test by Ajay Kumar).
+
+12
+00:00:59,520 --> 00:01:05,080
+And no camera-free robot in our guide promises to avoid pet waste.
+
+13
+00:01:05,230 --> 00:01:07,970
+BISCUIT IS A PUPPY!
+
+14
+00:01:08,120 --> 00:01:15,020
+Which robot for your home?: Tidy floor, privacy first no camera; Puppy, sick pet, cords camera robot
+
+15
+00:01:15,170 --> 00:01:22,070
+Next morning. The 30-second rule: cords and socks off the floor before every run. Floor's clear, buddy. Let's go.
+
+16
+00:01:22,220 --> 00:01:29,120
+One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app. No photos. Just us.
+
+17
+00:01:29,270 --> 00:01:39,670
+How a robot sees without a camera: LiDAR: a spinning laser measures distance and works in the dark; It scans at turret height: it sees the sofa, not the sock; Structured light reads an infrared pattern; "no RGB camera" is the accurate claim (Source: Maker product and support pages (November 23, 2026); RTINGS)
+
+18
+00:01:39,820 --> 00:01:50,220
+What goes wrong without a camera: Runs into or drags cords — 7 of 8 robots; Eats or pushes socks — 4 of 8; Stuck on rugs or tassels — 4 of 8; Navigation or docking errors — 4 of 8; Ran over pet waste in a test — 2 of 8 (Source: Our reading of RTINGS, TechGearLab, T3, Tom's Guide, Best Buy owners and the TP-Link forum)
+
+19
+00:01:50,370 --> 00:02:00,770
+Every photo leak we found had a camera: Dec 2022 — Test Roomba photos posted online; Aug 2024 — Ecovacs robots taken over by Bluetooth; Oct 2024 — Hijacked Ecovacs robots in US homes; Sept 2025 — A Dreame camera switched on remotely; Feb 2026 — About 7,000 DJI robots reachable (Source: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), Tom's Hardware)
+
+20
+00:02:00,920 --> 00:02:11,320
+Which robot for your home?: Best all-round, no camera — Roborock Q10 S5+; Lowest price, tidy floor — Roborock Q7 M5+; Test sites' budget pick — Tapo RV30 Max Plus; Hard floors, no room for a dock — Roomba 205 DustCompactor; A dock that washes the mops — Deebot N30 Pro Omni; Puppy, sick pet, cords everywhere — a camera robot (Source: Our guide, with CNET, RTINGS, The Verge and PCMag)
+
+21
+00:02:11,470 --> 00:02:15,870
+Episode 2. The first snow. Grandma June says she's fine.
+
+22
+00:02:16,020 --> 00:02:21,040
+The first snow of the year. Jo's grandmother lives alone.
+
+23
+00:02:21,190 --> 00:02:25,130
+Don't fuss, dear. I have my old heater.
+
+24
+00:02:25,280 --> 00:02:29,520
+Grandma... what is that heater plugged into?
+
+25
+00:02:29,670 --> 00:02:35,590
+CPSC: never plug a space heater into an extension cord or a power strip.
+
+26
+00:02:35,740 --> 00:02:39,320
+She's getting a new one. Tonight.
+
+27
+00:02:39,470 --> 00:02:44,610
+Good call. One check before you buy any heater this winter.
+
+28
+00:02:44,760 --> 00:02:50,740
+Find the model number on the label, then look it up in the recall notice.
+
+29
+00:02:50,890 --> 00:02:57,790
+CPSC recall, October 29, 2026: Dreo DR-HSH015 (black, remote) recalled; Units in the US about 338,800; Hazard fire and burn Source: CPSC notice 27-054. The Dreo in our review is a different model; check yours against the notice.
+
+30
+00:02:57,940 --> 00:03:02,240
+You drove all this way? You're worth the trip.
+
+31
+00:03:02,390 --> 00:03:08,850
+Straight into the wall. Three feet clear of drapes, furniture and bedding (CPSC).
+
+32
+00:03:09,000 --> 00:03:15,340
+Set it near 68°F. In Eco mode it stops heating once the room gets there (Dreo).
+
+33
+00:03:15,490 --> 00:03:17,890
+Warm at last.
+
+34
+00:03:18,040 --> 00:03:24,140
+Off when you sleep or leave: CPSC and NFPA both say so. Goodnight, Grandma.
+
+35
+00:03:24,290 --> 00:03:34,690
+Is one 1500 W heater enough?: Roughly 150 to 200 square feet: one room, not the house; One owner: a heater sold for 1,000 sq ft barely managed 500; Oscillation is the noisiest setting (Consumer Reports, Oct 2025) (Source: Our Dreo review; Consumer Reports)
+
+36
+00:03:34,840 --> 00:03:45,240
+Six habits that matter: Plug — straight into the wall; Clearance — 3 feet from drapes, furniture, bedding; Thermostat — about 68°F; Long sessions — Eco mode; Sleep or leave — turn it off; Each season — unplug, cool, dust the inlet (Source: CPSC, NFPA and Dreo's support pages)
+
+37
+00:03:45,390 --> 00:03:55,790
+Recall check: October 29, 2026: Model — Dreo DR-HSH015 (black, remote); Units in the US — about 338,800; Hazard — fire and burn; If yours matches — stop using it; follow the notice (Source: CPSC recall notice 27-054. The Dreo in our review is a different model.)
+
+38
+00:03:55,940 --> 00:04:06,340
+Buy, wait or skip?: Buy — one room, a few hours, remote and thermostat; Wait — Walmart deals: $29.99 to $43.99 last winter; Skip — heating a whole house (Source: Our review; Walmart deal posts, Nov 2025 to Jan 2026)
+
+39
+00:04:06,490 --> 00:04:10,890
+Episode 3. Grandma June can't see her porch.
+
+40
+00:04:11,040 --> 00:04:15,040
+Grandma June's porch. Tuesday, 2:10 p.m.
+
+41
+00:04:15,190 --> 00:04:18,230
+Was someone at the door?
+
+42
+00:04:18,380 --> 00:04:22,380
+Grandma, let's get you a video doorbell.
+
+43
+00:04:22,530 --> 00:04:27,970
+The catch: many doorbells save video only if you pay for a plan.
+
+44
+00:04:28,120 --> 00:04:35,020
+A Ring with no plan is a live camera, not a recorder. Saved video costs extra: Ring Solo is $49.99 a year (ring.com).
+
+45
+00:04:35,170 --> 00:04:42,070
+What it costs over three years: eufy E340, no plan needed $119.99; Ring with the Solo plan $189.96; Nest with Premium $499.99; Ring with the Pro plan $639.96 Doorbell price plus three years of plan fees, from our guide below (Target and maker prices, November 11, 2026).
+
+46
+00:04:42,220 --> 00:04:45,860
+$639.96 to watch Grandma's porch?!
+
+47
+00:04:46,010 --> 00:04:52,170
+The eufy E340 saves about 90 days of clips on 8 GB inside it. No fee (eufy).
+
+48
+00:04:52,320 --> 00:04:55,840
+Look at you, my little engineer.
+
+49
+00:04:55,990 --> 00:04:59,150
+I can see the whole porch!
+
+50
+00:04:59,300 --> 00:05:06,200
+The catch with every battery doorbell: at a busy door, owners get weeks of charge, not months. I'll charge it on Sundays, when I visit.
+
+51
+00:05:06,350 --> 00:05:09,570
+I know exactly who that is.
+
+52
+00:05:09,720 --> 00:05:19,855
+A Ring with no plan: Live view — free; Two-way talk — free; Motion alerts — free; Saved video — plan needed; Person alerts — plan needed (Source: ring.com; Ring Solo is $49.99 a year)
+
+53
+00:05:20,005 --> 00:05:30,405
+Three-year cost: eufy E340, no plan — $119.99; Tapo D225 + microSD — $130 to $160; Reolink PoE + microSD — $150 to $180; Aqara G410 + microSD — $175 to $205; Ring + Solo plan — $189.96; Nest + Premium — $499.99; Ring + Pro plan — $639.96 (Source: Target and maker prices, November 11, 2026)
+
+54
+00:05:30,555 --> 00:05:40,955
+Pick by your home: Recordings, no plan, no card — eufy E340; Home Assistant or a Reolink NVR — Reolink PoE; iPhone and Apple Home — Aqara G410; Lowest cost with a card — Tapo D225; Already pay for Ring — Ring Battery 2K; A Google home — Nest Doorbell (Source: Our guide; PCMag, TechRadar, the makers)
+
+55
+00:05:41,105 --> 00:05:51,505
+The battery catch: Busy doors: owners get weeks, not months; "Wired" mode on eufy, Ring and Aqara battery models only trickle-charges; Fixes: a closer WiFi point, wiring, a 16 V or larger transformer (Source: Owner reports collected in our guide)
+
+56
+00:05:51,655 --> 00:05:57,055
+Read the full guides Every number in this video has a source. Links in the description.
+
