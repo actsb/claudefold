@@ -417,6 +417,28 @@ PAGES_BASE = "https://actsb.github.io/claudefold/"
 EMBED_WIDTH = {"pin.png": 440}   # px of the embedded JPEG (shown at 220 px wide, so 2x). The cover is NOT embedded: it must stay a real URL (cover.jpg) so Google can crawl it, index it and use it as og:image.
 EMBED_LIMIT = 700_000                               # chars of post HTML; above this keep the GitHub Pages URLs instead
 
+TOON_SHORT_TITLES = {"ep1": "Is Your Robot Vacuum Filming You?", "ep2": "Grandma's Heater Was Plugged Into a Power Strip",
+                     "ep3": "$639.96 to See Grandma's Porch?"}
+def top_short(key, html):
+    """Put the post's Verdict Picks Toon Short (YouTube, Prof H Lab) first in the post. IDs live in shorts/youtube-ids.json."""
+    ids_f = pathlib.Path(__file__).resolve().parent.parent / "shorts" / "youtube-ids.json"
+    if not ids_f.exists() or 'id="vp-toon-short"' in html:
+        return html
+    ids = json.loads(ids_f.read_text(encoding="utf-8"))
+    ep = next((k for k, v in ids.items() if isinstance(v, dict) and v.get("post") == key), None)
+    m = re.match(r'\s*<div class="vp-post"[^>]*>', html)
+    if not ep or not m:
+        return html
+    vid, n = ids[ep]["id"], ep[2:]
+    block = (f'\n<div id="vp-toon-short" style="margin:0 0 1.2em;text-align:center;">'
+             f'<iframe src="https://www.youtube.com/embed/{vid}?rel=0" title="Verdict Picks Toon Ep.{n}: {TOON_SHORT_TITLES.get(ep, "")}" '
+             f'style="display:block;width:100%;max-width:340px;aspect-ratio:9/16;height:auto;margin:0 auto;border:0;border-radius:12px;background:#000;" '
+             f'loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+             f'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+             f'<p style="font-size:15px;color:#555;margin:.5em 0 0;">Verdict Picks Toon, Episode {n}: the 60-second comic version of this guide. '
+             f'<a href="https://youtube.com/shorts/{vid}">Watch on YouTube</a> (subtitles in 11 languages).</p></div>')
+    return html[:m.end()] + block + html[m.end():]
+
 def inline_images(html):
     """Blogger has no image-upload API, so decorative .png images that live on GitHub Pages (the pin thumbnail) are embedded as
     compressed JPEG data: URIs (ImageMagick `convert`). The post then renders even if Pages is down. Anything that
@@ -481,7 +503,7 @@ posts_by_url = {p["url"]: p for p in live.get("items", []) if p.get("url")}
 for key, P in POSTS.items():
     if ONLY and key != ONLY:
         continue
-    content = inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8")))
+    content = top_short(key, inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8"))))
     if re.search(r"\bWRITE\b", content):
         print(f"post {key} skipped: {P['dir']}/post.html still has a WRITE marker"); continue
     # a live post is found by its URL first, so a changed title never creates a duplicate post
