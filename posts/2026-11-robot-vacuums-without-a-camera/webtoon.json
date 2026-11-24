@@ -16,7 +16,7 @@
      "sam",
      "biscuit"
     ],
-    "prompt": "Late at night in a cozy small apartment living room lit by a warm floor lamp and blue moonlight from a big window. Sam sits on a gray sofa grinning at his smartphone, its glow on his face. Biscuit sleeps curled on a round cushion beside him. Medium-wide shot. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Late at night in a cozy small apartment living room lit by a warm floor lamp and blue moonlight from a big window. Sam sits on a gray sofa grinning at his smartphone, its glow on his face. Biscuit sleeps curled on a round cushion beside him. Medium-wide shot. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -45,7 +45,7 @@
     "cast": [
      "sam"
     ],
-    "prompt": "Over-the-shoulder close-up in a dark room: Sam's hand holds a smartphone whose screen shows a blurry, grainy photo of someone's living room taken from floor level, as if leaked. The cold screen light contrasts with the dark. Unease. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Over-the-shoulder close-up in a dark room: Sam's hand holds a smartphone whose screen shows a blurry, grainy photo of someone's living room taken from floor level, as if leaked. The cold screen light contrasts with the dark. Unease. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -65,7 +65,7 @@
     "cast": [
      "sam"
     ],
-    "prompt": "Dramatic extreme close-up of Sam's shocked face, eyes wide, mouth open, sweat drop, intense dramatic lighting from below, radiating manga speed lines in the background. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Dramatic extreme close-up of Sam's shocked face, eyes wide, mouth open, sweat drop, intense dramatic lighting from below, radiating manga speed lines in the background. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -92,7 +92,7 @@
    "full": true,
    "art": {
     "size": "1536x1024",
-    "prompt": "Eerie low-angle wide shot at floor level in a dark living room: a sleek white round robot vacuum seen from the front, with a small glowing lens on its front bumper like an eye, looking toward the viewer. Moody blue shadows, a thin beam of light. Thriller atmosphere. The robot is generic and unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Eerie low-angle wide shot at floor level in a dark living room: a sleek white round robot vacuum seen from the front, with a small glowing lens on its front bumper like an eye, looking toward the viewer. Moody blue shadows, a thin beam of light. Thriller atmosphere. The robot is generic and unbranded. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -113,7 +113,7 @@
     "cast": [
      "vera"
     ],
-    "prompt": "Vera makes a confident entrance in a bright, clean space, one hand raised presenting a glowing holographic diagram of a round robot with red laser lines radiating out from a small turret on top. Dynamic pose, wind in her hair, sparkles of light. Heroic, upbeat. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Vera makes a confident entrance in a bright, clean space, one hand raised presenting a glowing holographic diagram of a round robot with red laser lines radiating out from a small turret on top. Dynamic pose, wind in her hair, sparkles of light. Heroic, upbeat. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -139,7 +139,7 @@
    "full": true,
    "art": {
     "size": "1536x1024",
-    "prompt": "A generic white round robot vacuum with a small dark turret on top glides across a dark living room floor at night; thin red laser lines sweep out from the turret across walls and furniture like a lighthouse, beautiful and calm. No camera on the robot. Unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "A generic white round robot vacuum with a small dark turret on top glides across a dark living room floor at night; thin red laser lines sweep out from the turret across walls and furniture like a lighthouse, beautiful and calm. No camera on the robot. Unbranded. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -160,7 +160,7 @@
      "sam",
      "vera"
     ],
-    "prompt": "Sam pumps his fist, beaming with relief, in his apartment; Vera stands slightly behind him with arms crossed and a knowing half-smile, one eyebrow raised. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Sam pumps his fist, beaming with relief, in his apartment; Vera stands slightly behind him with arms crossed and a knowing half-smile, one eyebrow raised. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -186,7 +186,7 @@
    "full": true,
    "art": {
     "size": "1536x1024",
-    "prompt": "Dynamic action shot at floor level: a generic white round robot vacuum charges forward across a wooden floor, dragging a black phone charging cable and pushing a red sock, motion blur and speed lines, dust flying, comic energy. Unbranded. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Dynamic action shot at floor level: a generic white round robot vacuum charges forward across a wooden floor, dragging a black phone charging cable and pushing a red sock, motion blur and speed lines, dust flying, comic energy. Unbranded. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -251,7 +251,7 @@
     "cast": [
      "biscuit"
     ],
-    "prompt": "Tense floor-level shot: Biscuit stands frozen with big worried eyes and ears perked as a white round robot vacuum slowly approaches from the right across a wooden floor. Dramatic shallow depth of field, suspense. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Tense floor-level shot: Biscuit stands frozen with big worried eyes and ears perked as a white round robot vacuum slowly approaches from the right across a wooden floor. Dramatic shallow depth of field, suspense. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -273,7 +273,7 @@
     "cast": [
      "sam"
     ],
-    "prompt": "Comedic super-deformed chibi version of Sam panicking, both hands on his head, eyes as huge white circles, tiny body, bright pink background with radiating burst lines. Funny reaction panel. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Comedic super-deformed chibi version of Sam panicking, both hands on his head, eyes as huge white circles, tiny body, bright pink background with radiating burst lines. Funny reaction panel. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -297,7 +297,7 @@
      "vera",
      "biscuit"
     ],
-    "prompt": "Warm moment: Vera kneels on a living-room rug and gently scratches Biscuit behind the ears; the puppy leans into her hand, happy. Soft afternoon light. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Warm moment: Vera kneels on a living-room rug and gently scratches Biscuit behind the ears; the puppy leans into her hand, happy. Soft afternoon light. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -331,7 +331,7 @@
      "sam",
      "biscuit"
     ],
-    "prompt": "Bright morning sunlight floods the apartment. Sam kneels on the floor coiling a charging cable and picking up a red sock, smiling; Biscuit wags his tail beside him; a white round robot vacuum waits on its dock in the background. Hopeful, warm colors. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Bright morning sunlight floods the apartment. Sam kneels on the floor coiling a charging cable and picking up a red sock, smiling; Biscuit wags his tail beside him; a white round robot vacuum waits on its dock in the background. Hopeful, warm colors. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {
@@ -361,7 +361,7 @@
      "sam",
      "biscuit"
     ],
-    "prompt": "Quiet, emotional closing shot from behind: Sam sits on the floor by a big sunny window with Biscuit in his lap, both watching a white round robot vacuum glide across the clean floor. Golden light, peaceful, heartwarming. Composition: keep the top third of the frame as simple, uncluttered background (wall, ceiling, sky or soft gradient) with no faces in it, for lettering."
+    "prompt": "Quiet, emotional closing shot from behind: Sam sits on the floor by a big sunny window with Biscuit in his lap, both watching a white round robot vacuum glide across the clean floor. Golden light, peaceful, heartwarming. Full-bleed single image, edge to edge, no split frames."
    },
    "items": [
     {

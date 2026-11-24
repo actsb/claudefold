@@ -16,7 +16,7 @@ import base64, json, os, pathlib, subprocess, sys, time, urllib.request, urllib.
 
 URL = "https://generativelanguage.googleapis.com/v1beta/openai/images/generations"
 MODEL = "gemini-2.5-flash-image"
-STYLE = ("Professional Korean-style vertical webtoon panel, full-color digital illustration, crisp clean line art, soft cel shading, "
+STYLE = ("One single full-color digital illustration in professional Korean webtoon style (one continuous scene, not a comic page, not several panels), crisp clean line art, soft cel shading, "
          "cinematic composition and lighting, expressive faces, consistent character design. ")
 NO_TEXT = (" Absolutely no text, letters, numbers, captions, speech bubbles, signatures, watermarks, logos or brand names anywhere in the image (phones and laptops are plain, with no maker logo on the back or lid); "
            "screens and labels are blank or abstract. No panel border, no white margins or letterboxing: the art fills the whole frame edge to edge.")
@@ -62,14 +62,14 @@ def gen(prompt, size, refs=()):
     raise SystemExit("image generation failed")
 
 def trim(f):
-    """The model sometimes adds a white or coloured margin and a frame line: trim flat edges until nothing changes, then shave the line."""
-    size = lambda: subprocess.run(["identify", "-format", "%wx%h", str(f)], capture_output=True, text=True).stdout
-    before = size()
-    for _ in range(4):
-        prev = size()
-        subprocess.run(["mogrify", "-fuzz", "12%", "-trim", "+repage", str(f)], check=True)
-        if size() == prev: break
-    if size() != before: subprocess.run(["mogrify", "-shave", "5x5", "+repage", str(f)], check=True)
+    """Remove a flat white or coloured margin the model sometimes adds, but never more than 10% of a side (dark night scenes are not margins)."""
+    w, h = [int(v) for v in subprocess.run(["identify", "-format", "%w %h", str(f)], capture_output=True, text=True).stdout.split()]
+    box = subprocess.run(["convert", str(f), "-fuzz", "8%", "-format", "%@", "info:"], capture_output=True, text=True).stdout.strip()
+    m = __import__("re").match(r"(\d+)x(\d+)\+(\d+)\+(\d+)", box)
+    if not m: return
+    bw, bh, x, y = map(int, m.groups())
+    if (bw, bh) != (w, h) and bw >= 0.9 * w and bh >= 0.9 * h:
+        subprocess.run(["mogrify", "-crop", f"{bw}x{bh}+{x}+{y}", "+repage", "-shave", "4x4", "+repage", str(f)], check=True)
 
 def main(d, only=None, force=False):
     d = pathlib.Path(d); spec = json.loads((d / "webtoon.json").read_text(encoding="utf-8")); sid = spec["id"]
@@ -84,7 +84,7 @@ def main(d, only=None, force=False):
         who = " ".join(cast[c] for c in a.get("cast", []))
         prompt = STYLE + spec.get("style", "") + (" Characters: " + who + " " if who else " ") + "Scene: " + a["prompt"] + NO_TEXT
         refs = [pathlib.Path(__file__).resolve().parent.parent / r for r in a.get("refs", []) + [f"brand/toon-cast/{c}.jpg" for c in a.get("cast", []) if (pathlib.Path(__file__).resolve().parent.parent / f"brand/toon-cast/{c}.jpg").exists()]]
-        if refs: prompt += " Match the character designs in the attached reference images exactly (face, hair, outfit), but not their pose or background."
+        if refs: prompt += " The attached images are character model sheets: use them only for each character's face, hair, colors and outfit. Draw ONE single scene; never copy the sheets' layout, never split the image into several views or panels."
         t = time.time(); png = gen(prompt, a.get("size", "1536x1024"), refs)
         tmp = out / f".{f.stem}.png"; tmp.write_bytes(png)
         trim(tmp)

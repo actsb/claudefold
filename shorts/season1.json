@@ -1,26 +1,359 @@
 {
  "id": "season1",
+ "orient": "landscape",
  "music_seed": 5,
- "title": "Verdict Picks Toon, Season 1: Robot Vacuums, Space Heaters and Video Doorbells (Webtoon Guides)",
- "intro_card": [
-  "Season 1"
- ],
- "intro_sub": [
-  "Three short stories about buying smarter:",
-  "robot vacuums, space heaters and video doorbells."
- ],
- "outro_card": [
-  "Read the full guides"
- ],
- "outro_sub": [
-  "Every number in these stories has a source.",
-  "Links in the description. New episodes every week."
- ],
+ "title": "Verdict Picks Toon, Season 1: Robot Vacuums, Space Heaters and Video Doorbells, Explained",
+ "intro": {
+  "art": "A cozy snowy small-town street at blue hour with warm lit windows; in the foreground Vera, Sam holding Biscuit, Jo and Grandma June stand together smiling toward the viewer, friendly ensemble key art. Wide cinematic 16:9 composition, one single continuous scene.",
+  "cast": [
+   "vera",
+   "sam",
+   "biscuit",
+   "jo",
+   "june"
+  ],
+  "card": [
+   "Season 1"
+  ],
+  "sub": [
+   "Three stories, then the facts behind them:",
+   "robot vacuums, space heaters and video doorbells."
+  ]
+ },
+ "outro": {
+  "card": [
+   "Read the full guides"
+  ],
+  "sub": [
+   "Every number in this video has a source.",
+   "Links in the description."
+  ]
+ },
  "episodes": [
-  "posts/2026-11-robot-vacuums-without-a-camera",
-  "posts/2026-10-dreo-space-heater",
-  "posts/2026-11-video-doorbells-without-a-subscription"
+  {
+   "dir": "posts/2026-11-robot-vacuums-without-a-camera",
+   "open": {
+    "art": "Night, a dark living room seen from floor level: a white round robot vacuum's small red laser turret glows as thin red beams sweep the walls; Sam's silhouette on the sofa holds a glowing phone, his beagle asleep beside him. Moody blue and red light. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "caption": "Episode 1. Sam wants a robot vacuum. He doesn't want a camera in his home."
+   },
+   "board": {
+    "art": "Vera stands at the left third of a bright modern studio beside a large blank whiteboard that fills the right 60 percent of the frame, gesturing toward it with an open hand, confident smile. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "vera"
+    ]
+   },
+   "slides": [
+    {
+     "title": "How a robot sees without a camera",
+     "bullets": [
+      "LiDAR: a spinning laser measures distance and works in the dark",
+      "It scans at turret height: it sees the sofa, not the sock",
+      "Structured light reads an infrared pattern; \"no RGB camera\" is the accurate claim"
+     ],
+     "source": "Maker product and support pages (November 23, 2026); RTINGS"
+    },
+    {
+     "title": "What goes wrong without a camera",
+     "rows": [
+      [
+       "Runs into or drags cords",
+       "7 of 8 robots"
+      ],
+      [
+       "Eats or pushes socks",
+       "4 of 8"
+      ],
+      [
+       "Stuck on rugs or tassels",
+       "4 of 8"
+      ],
+      [
+       "Navigation or docking errors",
+       "4 of 8"
+      ],
+      [
+       "Ran over pet waste in a test",
+       "2 of 8"
+      ]
+     ],
+     "source": "Our reading of RTINGS, TechGearLab, T3, Tom's Guide, Best Buy owners and the TP-Link forum"
+    },
+    {
+     "title": "Every photo leak we found had a camera",
+     "rows": [
+      [
+       "Dec 2022",
+       "Test Roomba photos posted online"
+      ],
+      [
+       "Aug 2024",
+       "Ecovacs robots taken over by Bluetooth"
+      ],
+      [
+       "Oct 2024",
+       "Hijacked Ecovacs robots in US homes"
+      ],
+      [
+       "Sept 2025",
+       "A Dreame camera switched on remotely"
+      ],
+      [
+       "Feb 2026",
+       "About 7,000 DJI robots reachable"
+      ]
+     ],
+     "source": "MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), Tom's Hardware"
+    },
+    {
+     "title": "Which robot for your home?",
+     "rows": [
+      [
+       "Best all-round, no camera",
+       "Roborock Q10 S5+"
+      ],
+      [
+       "Lowest price, tidy floor",
+       "Roborock Q7 M5+"
+      ],
+      [
+       "Test sites' budget pick",
+       "Tapo RV30 Max Plus"
+      ],
+      [
+       "Hard floors, no room for a dock",
+       "Roomba 205 DustCompactor"
+      ],
+      [
+       "A dock that washes the mops",
+       "Deebot N30 Pro Omni"
+      ],
+      [
+       "Puppy, sick pet, cords everywhere",
+       "a camera robot"
+      ]
+     ],
+     "source": "Our guide, with CNET, RTINGS, The Verge and PCMag"
+    }
+   ]
+  },
+  {
+   "dir": "posts/2026-10-dreo-space-heater",
+   "open": {
+    "art": "Snow falling at night over a small gray wooden one-story house with a pitched snowy roof and a front porch; inside the single lit window Grandma June sits wrapped in a blanket next to an old glowing heater. Lonely and tender. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "june"
+    ],
+    "caption": "Episode 2. The first snow. Grandma June says she's fine."
+   },
+   "board": {
+    "art": "Vera stands at the left third of a warm cozy living-room studio beside a large blank whiteboard that fills the right 60 percent of the frame, snow visible through a window, pointing at the board. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "vera"
+    ]
+   },
+   "slides": [
+    {
+     "title": "Is one 1500 W heater enough?",
+     "bullets": [
+      "Roughly 150 to 200 square feet: one room, not the house",
+      "One owner: a heater sold for 1,000 sq ft barely managed 500",
+      "Oscillation is the noisiest setting (Consumer Reports, Oct 2025)"
+     ],
+     "source": "Our Dreo review; Consumer Reports"
+    },
+    {
+     "title": "Six habits that matter",
+     "rows": [
+      [
+       "Plug",
+       "straight into the wall"
+      ],
+      [
+       "Clearance",
+       "3 feet from drapes, furniture, bedding"
+      ],
+      [
+       "Thermostat",
+       "about 68°F"
+      ],
+      [
+       "Long sessions",
+       "Eco mode"
+      ],
+      [
+       "Sleep or leave",
+       "turn it off"
+      ],
+      [
+       "Each season",
+       "unplug, cool, dust the inlet"
+      ]
+     ],
+     "source": "CPSC, NFPA and Dreo's support pages"
+    },
+    {
+     "title": "Recall check: October 29, 2026",
+     "rows": [
+      [
+       "Model",
+       "Dreo DR-HSH015 (black, remote)"
+      ],
+      [
+       "Units in the US",
+       "about 338,800"
+      ],
+      [
+       "Hazard",
+       "fire and burn"
+      ],
+      [
+       "If yours matches",
+       "stop using it; follow the notice"
+      ]
+     ],
+     "source": "CPSC recall notice 27-054. The Dreo in our review is a different model."
+    },
+    {
+     "title": "Buy, wait or skip?",
+     "rows": [
+      [
+       "Buy",
+       "one room, a few hours, remote and thermostat"
+      ],
+      [
+       "Wait",
+       "Walmart deals: $29.99 to $43.99 last winter"
+      ],
+      [
+       "Skip",
+       "heating a whole house"
+      ]
+     ],
+     "source": "Our review; Walmart deal posts, Nov 2025 to Jan 2026"
+    }
+   ]
+  },
+  {
+   "dir": "posts/2026-11-video-doorbells-without-a-subscription",
+   "open": {
+    "art": "Daytime winter street: the small gray wooden house with a snowy roof and porch; a delivery box sits by the door while Grandma June peers worriedly through lace curtains in the front window. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "june"
+    ],
+    "caption": "Episode 3. Grandma June can't see her porch."
+   },
+   "board": {
+    "art": "Vera stands at the left third of a bright winter studio beside a large blank whiteboard that fills the right 60 percent of the frame, holding a generic unbranded video doorbell up in one hand. Wide cinematic 16:9 composition, one single continuous scene.",
+    "cast": [
+     "vera"
+    ]
+   },
+   "slides": [
+    {
+     "title": "A Ring with no plan",
+     "rows": [
+      [
+       "Live view",
+       "free"
+      ],
+      [
+       "Two-way talk",
+       "free"
+      ],
+      [
+       "Motion alerts",
+       "free"
+      ],
+      [
+       "Saved video",
+       "plan needed"
+      ],
+      [
+       "Person alerts",
+       "plan needed"
+      ]
+     ],
+     "source": "ring.com; Ring Solo is $49.99 a year"
+    },
+    {
+     "title": "Three-year cost",
+     "rows": [
+      [
+       "eufy E340, no plan",
+       "$119.99"
+      ],
+      [
+       "Tapo D225 + microSD",
+       "$130 to $160"
+      ],
+      [
+       "Reolink PoE + microSD",
+       "$150 to $180"
+      ],
+      [
+       "Aqara G410 + microSD",
+       "$175 to $205"
+      ],
+      [
+       "Ring + Solo plan",
+       "$189.96"
+      ],
+      [
+       "Nest + Premium",
+       "$499.99"
+      ],
+      [
+       "Ring + Pro plan",
+       "$639.96"
+      ]
+     ],
+     "source": "Target and maker prices, November 11, 2026"
+    },
+    {
+     "title": "Pick by your home",
+     "rows": [
+      [
+       "Recordings, no plan, no card",
+       "eufy E340"
+      ],
+      [
+       "Home Assistant or a Reolink NVR",
+       "Reolink PoE"
+      ],
+      [
+       "iPhone and Apple Home",
+       "Aqara G410"
+      ],
+      [
+       "Lowest cost with a card",
+       "Tapo D225"
+      ],
+      [
+       "Already pay for Ring",
+       "Ring Battery 2K"
+      ],
+      [
+       "A Google home",
+       "Nest Doorbell"
+      ]
+     ],
+     "source": "Our guide; PCMag, TechRadar, the makers"
+    },
+    {
+     "title": "The battery catch",
+     "bullets": [
+      "Busy doors: owners get weeks, not months",
+      "\"Wired\" mode on eufy, Ring and Aqara battery models only trickle-charges",
+      "Fixes: a closer WiFi point, wiring, a 16 V or larger transformer"
+     ],
+     "source": "Owner reports collected in our guide"
+    }
+   ]
+  }
  ],
- "description": "Three short webtoon stories about buying smarter this winter: a robot vacuum that can't see you, a space heater that keeps Grandma warm and safe, and a video doorbell without a monthly bill.\n\nChapters\n{chapters}\n\nThe full guides, with every source:\nEpisode 1, robot vacuums without a camera: https://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\nEpisode 2, Dreo space heater review and safety: https://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\nEpisode 3, video doorbells without a subscription: https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html\n\nSources named in the video: MIT Technology Review (2022), Tom's Hardware (2026), CNET lab test (November 13, 2026), CPSC and NFPA safety guidance, CPSC recall notice 27-054 (October 29, 2026), ring.com, eufy, Target and maker prices (November 11, 2026).\n\nCharacters and scenes are fictional. Art generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Webtoon #SmartHome #RobotVacuum #SpaceHeater #VideoDoorbell #BuyingGuide",
- "orient": "landscape"
+ "description": "Three short webtoon stories, then the facts behind each one: a robot vacuum that can't see you, a space heater that keeps Grandma warm and safe, and a video doorbell without a monthly bill. After each story, Vera's whiteboard explains the comparison, the cost and the checklist, with sources.\n\nChapters\n{chapters}\n\nThe full guides, with every source:\nEpisode 1, robot vacuums without a camera: https://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\nEpisode 2, Dreo space heater review and safety: https://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\nEpisode 3, video doorbells without a subscription: https://acts39.blogspot.com/2026/11/video-doorbells-without-subscription.html\n\nCharacters and scenes are fictional. Art generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Webtoon #SmartHome #RobotVacuum #SpaceHeater #VideoDoorbell #BuyingGuide"
 }
