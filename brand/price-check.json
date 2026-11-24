@@ -248,13 +248,13 @@
     "saros-10r"
    ],
    "model": "Saros 10R (the Saros 20 replaced it on March 23, 2026; the Saros 10 without the R is a different robot).",
-   "street": "List $1,599.99. New units are gone from Roborock's US store (the old page now shows the Saros 20); certified refurbished $899.99 there, sold out (Nov 14, 2026). Last new price seen: $899.99 at Roborock (Oct 14, 2026)",
+   "street": "List $1,599.99. Not sold new in the US: Roborock's product page redirects (HTTP 301) to the Saros 20, and no new unit was listed at Best Buy, Walmart, Target or Costco (Nov 24, 2026). Certified refurbished $899.99 at Roborock, sold out (Nov 14, 2026). Last new price seen: $899.99 at Roborock (Oct 14, 2026)",
    "good": "$900 or less",
    "great": "under $850",
    "verdict": "ok",
-   "why": "Roborock no longer lists a new Saros 10R, and its Black Friday sale (Nov 19 to 30, 2026) showed none on Nov 14. If another store still has a new one at $900 or less, that is a fair price for a replaced model; Roborock had the Saros 20 that replaced it at $989.99 on Nov 14.",
-   "sources": "Roborock store and its deals page, Nov 14, 2026; Roborock store, Oct 14, 2026; 9to5Google, Black Friday 2025",
-   "checked": "2026-11-14",
+   "why": "No new Saros 10R is for sale at the US stores we checked on Nov 24, 2026. If one turns up new at $900 or less, it is still a fair price; otherwise our guide's top pick this week is the Dreame X50 Ultra ($799.99 at Dreame).",
+   "sources": "Roborock store (redirect) and deals page, Best Buy, Walmart, Target and Costco searches, Nov 24, 2026; Roborock store, Oct 14 and Nov 14, 2026",
+   "checked": "2026-11-24",
    "stores": [
     {
      "name": "Roborock (refurbished)",
@@ -273,23 +273,103 @@
     "x50"
    ],
    "model": "X50 Ultra (the X60 Max Ultra Complete replaced it in February 2026).",
-   "street": "List $1,599.99; Dreame's store $999.99 and Target $1,199.99 (Nov 16, 2026). The X50 Ultra Complete was $899.99 at Dreame the same day",
+   "street": "List $1,599.99; $799.99 at Dreame's store, Black Friday sale Nov 19–30 (Nov 24, 2026); the X50 Ultra Complete $899.99 (list $1,699.99) the same day. Dreame showed $999.99 on Nov 14 and Target $1,199.99 on Nov 16, 2026",
    "good": "under $850",
    "great": "$800 or less",
-   "verdict": "wait",
-   "why": "Dreame's store ran it at $799.99 (50% off) from November 20 to December 1, 2025. On Nov 14, 2026 its \"Black Friday Prices Early\" price was $999.99, $200 above that, and the Complete bundle was cheaper than the plain robot. Wait for under $850.",
-   "sources": "Dreame store and Target, Nov 16, 2026; Dreame Black Friday 2025 post (search snippet)",
-   "checked": "2026-11-16",
+   "verdict": "buy",
+   "why": "$799.99 at Dreame on Nov 24, 2026 is our great line and equals Dreame's own Black Friday 2025 price ($799.99, Nov 20 to Dec 1, 2025). Buy before Nov 30.",
+   "sources": "Dreame store, Nov 24, 2026; Dreame and Target, Nov 14–16, 2026; Dreame Black Friday 2025 post (search snippet)",
+   "checked": "2026-11-24",
    "stores": [
     {
      "name": "Dreame",
      "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
-     "seen": "$999.99 (list $1,599.99), Nov 14, 2026"
+     "seen": "$799.99 (list $1,599.99), Nov 24, 2026"
     },
     {
      "name": "Target",
      "url": "https://www.target.com/p/dreame-x50-ultra-robot-vacuum-black/-/A-95002753",
      "seen": "$1,199.99, Nov 16, 2026"
+    }
+   ]
+  },
+  {
+   "key": "roborock-qrevo-curv-2-flow",
+   "category": "cleaning",
+   "name": "Roborock Qrevo Curv 2 Flow",
+   "guide": "robot-vacuums",
+   "card": [
+    "posts/2026-09-best-robot-vacuums",
+    "curv2flow"
+   ],
+   "model": "Qrevo Curv 2 Flow (self-cleaning roller mop, omni dock). Not the Qrevo Curv or Curv 2 Pro.",
+   "street": "$599.99 at Roborock, list $999.99, Black Friday sale Nov 19–30 (Nov 24, 2026); Best Buy listed it (price not confirmed)",
+   "good": "under $650",
+   "great": "$600 or less",
+   "verdict": "buy",
+   "why": "$599.99 at Roborock on Nov 24, 2026 is $200 under the 'under $800' sale band we gave it in October. Buy before Nov 30.",
+   "sources": "Roborock store and deals page, Nov 24, 2026; 9to5Google, Nov 19, 2026",
+   "checked": "2026-11-24",
+   "stores": [
+    {
+     "name": "Roborock",
+     "url": "https://us.roborock.com/products/roborock-qrevo-curv-2-flow",
+     "seen": "$599.99 (list $999.99), Nov 24, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/roborock-qrevo-curv-2-flow-robot-vacuum-and-mop-real-time-self-cleaning-roller-mop-dual-zero-tangle-ai-obstacle-avoidance-white/JJ8F5PCTK2/sku/6668432",
+     "seen": "listed, price not confirmed, Nov 24, 2026"
+    }
+   ]
+  },
+  {
+   "key": "dreame-l50-ultra",
+   "category": "cleaning",
+   "name": "Dreame L50 Ultra",
+   "guide": "robot-vacuums",
+   "card": [
+    "posts/2026-09-best-robot-vacuums",
+    "l50"
+   ],
+   "model": "L50 Ultra (climbing legs, hot-water omni dock). Best Buy sells an \"L50 Ultra Kit\" bundle.",
+   "street": "$649.99 at Dreame, launched at $1,399.99, Black Friday sale Nov 19–30 (Nov 24, 2026); Best Buy L50 Ultra Kit listed at $749.99 in a search result (not confirmed)",
+   "good": "under $700",
+   "great": "$650 or less",
+   "verdict": "buy",
+   "why": "$649.99 at Dreame on Nov 24, 2026 is under the about-$700 Black Friday target we set in October.",
+   "sources": "Dreame store, Nov 24, 2026; Android Authority, Nov 19, 2026 (search snippet)",
+   "checked": "2026-11-24",
+   "stores": [
+    {
+     "name": "Dreame",
+     "url": "https://www.dreametech.com/products/l50-ultra-robot-vacuum",
+     "seen": "$649.99 (launched $1,399.99), Nov 24, 2026"
+    }
+   ]
+  },
+  {
+   "key": "narwal-flow-2",
+   "category": "cleaning",
+   "name": "Narwal Flow 2",
+   "guide": "robot-vacuums",
+   "card": [
+    "posts/2026-09-best-robot-vacuums",
+    "flow2"
+   ],
+   "model": "Flow 2 with the standard dock (white). Walmart lists restored units only.",
+   "street": "$949.99 at Narwal, list $1,499.99 (Nov 24, 2026); Narwal's sale phases: $999.99 Nov 1–18, $949.99 Nov 19–30 and Dec 1–7 (AndroidGuys, Nov 12, 2026)",
+   "good": "under $1,000",
+   "great": "$900 or less",
+   "verdict": "ok",
+   "why": "$949.99 is a fair price and Narwal says it holds through Dec 7, so there is no rush before Cyber Monday. No new unit found at other US stores.",
+   "sources": "Narwal store, Nov 24, 2026; AndroidGuys, Nov 12, 2026",
+   "checked": "2026-11-24",
+   "stores": [
+    {
+     "name": "Narwal",
+     "url": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+     "seen": "$949.99 (list $1,499.99), Nov 24, 2026"
     }
    ]
   },
@@ -2710,6 +2790,7 @@
   }
  ],
  "changelog": [
+  "Nov 24, 2026: robot vacuum guide re-checked. Saros 10R no longer sold new in the US (Roborock's page redirects to the Saros 20); Dreame X50 Ultra $799.99 at Dreame, verdict now buy (was wait); added Qrevo Curv 2 Flow ($599.99, buy), Dreame L50 Ultra ($649.99, buy) and Narwal Flow 2 ($949.99, ok).",
   "Nov 23, 2026: six camera-free robot vacuums added for the “Robot vacuums without a camera” guide. Roborock Q10 S5+ $229.99 and Q7 M5+ $199.99 at Roborock: buy. eufy Omni C28 $379.99 on eufy's Black Friday page: buy if the cart shows it. Ecovacs Deebot N30 Pro Omni $315: ok. Roomba 205 out of stock at iRobot: ok under $250. Tapo RV30 Max Plus $289.99, only 12% off: wait. No CPSC recall found for a robot vacuum from these brands.",
   "Nov 22, 2026: Rubbermaid Brilliance 10-piece re-checked for the improve day. $18.39 at Target (regular $22.99), below Target's $23.99 in last year's Black Friday week; Walmart's page did not load. Lines now good under $20, great about $17; verdict now buy (was wait). Target sells single sizes with lids from $10.39. No CPSC recall found for Rubbermaid food storage.",
   "Week of Nov 21: five oldest entries re-checked. AirPods Pro 3: $179.99 at Target, $249 at Apple, verdict stays buy. Anker SOLIX C1000 Gen 2: $799 list at Anker's store today, $530 announced for its Early Black Friday sale (9to5Toys, Nov 10), wait. Jackery Explorer 2000 v2: $999 at Jackery, no discount, wait (last Black Friday $699). Furhaven Sofa Bed Large: Quilted $39.99 at Furhaven, Plush & Suede Full Support $54.99 at PetSmart through Nov 25, verdict stays ok. Instant Pot Duo Plus 6qt: $139.99 at Instant Pot, Target $99.99 but out of stock, wait; Target replaces Home Depot under Other places to buy. No CPSC recall found for any of the five. Recall Check: four new recalls on Nov 19, none on a model we recommend.",

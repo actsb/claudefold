@@ -1,6 +1,35 @@
-{"strips": [{"id": "saros-10r-day", "card": "saros-10r", "title": "A Tuesday with the Roborock Saros 10R", "panels": [
- {"glyph": "clock", "head": "8:00 AM — you leave", "text": "The schedule starts it after the door closes. You never think about it."},
- {"glyph": "cable", "head": "It sees the phone cable", "text": "Camera + AI steer around cables, socks and the dog's accident. No rescue call at work."},
- {"glyph": "sofa", "head": "Under the sofa: 3.14 inches", "text": "No turret on top, so it cleans where every 4-inch robot gives up."},
- {"glyph": "dock", "product": true, "host": {"pose": "thumbsup"}, "head": "Home: it empties itself", "text": "The dock does the dirty work. You touch a dust bag every 7 weeks."}
-]}]}
+{
+ "strips": [
+  {
+   "id": "x50-day",
+   "card": "x50",
+   "title": "A Tuesday with the Dreame X50 Ultra",
+   "panels": [
+    {
+     "glyph": "clock",
+     "head": "8:00 AM — you leave",
+     "text": "The schedule starts it after the door closes. Its legs lift it over the sill into the next room."
+    },
+    {
+     "glyph": "cable",
+     "head": "It sees the sock",
+     "text": "Camera + AI steer around socks and clutter. Keep short cords off the floor: TechRadar saw it miss short wires."
+    },
+    {
+     "glyph": "sofa",
+     "head": "Under the sofa: 3.5 inches",
+     "text": "The LiDAR turret lowers, so it fits under a sofa gap a 3.8-inch robot can't."
+    },
+    {
+     "glyph": "dock",
+     "product": true,
+     "host": {
+      "pose": "thumbsup"
+     },
+     "head": "Home: it washes its mop",
+     "text": "The dock empties the bin and washes and dries the pads with hot water."
+    }
+   ]
+  }
+ ]
+}

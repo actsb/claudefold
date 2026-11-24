@@ -10,6 +10,14 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict
+
+https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html
+
+```text
+Best robot vacuums of 2026, re-checked Nov 24: the Saros 10R is gone, so this week's pick is the Dreame X50 Ultra at $799.99. 14 robots compared.
+```
+
 ## Robot Vacuums Without a Camera 2026: LiDAR Models That Don't Film Your Home (and What You Give Up)
 https://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html
 
@@ -313,10 +321,3 @@ https://acts39.blogspot.com/2026/09/best-wireless-earbuds-2026.html
 Best wireless earbuds of 2026: AirPods Pro 3 for iPhone, Sony WF-1000XM6 for everyone else, and how Bose, Galaxy Buds and Pixel Buds compare.
 ```
 
-## Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict
-
-https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html
-
-```text
-Best robot vacuums of 2026: why the Roborock Saros 10R is our pick under $1,000, how every major brand compares, and which robot suits your home.
-```
