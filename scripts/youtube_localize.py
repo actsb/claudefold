@@ -18,10 +18,9 @@ import json, os, pathlib, sys, urllib.request, urllib.parse, urllib.error, uuid
 API = "https://www.googleapis.com/youtube/v3"
 
 def token():
-    need = ["BLOGGER_CLIENT_ID", "BLOGGER_CLIENT_SECRET", "YOUTUBE_REFRESH_TOKEN"]
-    miss = [n for n in need if not os.environ.get(n)]
-    if miss: sys.exit("missing environment secrets: " + ", ".join(miss) + " (see this script's docstring)")
-    d = urllib.parse.urlencode({"client_id": os.environ["BLOGGER_CLIENT_ID"], "client_secret": os.environ["BLOGGER_CLIENT_SECRET"],
+    cid = os.environ.get("YOUTUBE_CLIENT_ID") or os.environ.get("BLOGGER_CLIENT_ID"); sec = os.environ.get("YOUTUBE_CLIENT_SECRET") or os.environ.get("BLOGGER_CLIENT_SECRET")
+    if not (cid and sec and os.environ.get("YOUTUBE_REFRESH_TOKEN")): sys.exit("missing YOUTUBE_REFRESH_TOKEN (and YOUTUBE_CLIENT_ID/SECRET): see youtube_upload.py's docstring")
+    d = urllib.parse.urlencode({"client_id": cid, "client_secret": sec,
                                 "refresh_token": os.environ["YOUTUBE_REFRESH_TOKEN"], "grant_type": "refresh_token"}).encode()
     t = json.load(urllib.request.urlopen("https://oauth2.googleapis.com/token", d))
     if "youtube" not in t.get("scope", ""): sys.exit("the refresh token has no YouTube scope; mint it with youtube.force-ssl")

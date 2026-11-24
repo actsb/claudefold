@@ -1,4 +1,4 @@
-# Verdict Picks Toon 쇼츠: 유튜브 업로드 안내 (profhlab@gmail.com 채널)
+# Verdict Picks Toon 쇼츠: 유튜브 업로드 안내
 
 파일 위치: `shorts/` (GitHub Pages: https://actsb.github.io/claudefold/shorts/)
 - `ep1.mp4`, `ep2.mp4`, `ep3.mp4`: 1080×1920, 60초 미만, 음악 포함
@@ -11,7 +11,7 @@
 YouTube는 API 심사를 통과하지 않은 앱이 올린 영상을 **모두 비공개로 잠급니다**. 그래서 영상 업로드만 운영자님이 YouTube Studio에서 직접 합니다. 번역 제목·설명과 자막 11개는 아래 2단계를 한 번 해 두시면 Claude가 API로 자동으로 넣습니다.
 
 ## 1단계: 영상 업로드 (편당 3분)
-1. https://studio.youtube.com (profhlab@gmail.com) → 만들기 → 동영상 업로드 → `ep1.mp4`
+1. https://studio.youtube.com (채널 소유자 계정) → 만들기 → 동영상 업로드 → `ep1.mp4`
 2. 제목·설명: `ep1-youtube.json`의 `metadata.en`을 그대로 붙여 넣기
 3. 미리보기 이미지: `ep1-thumb.jpg` (쇼츠는 앱에서 영상 프레임을 고를 수도 있음)
 4. 시청자층: **아니요, 아동용이 아닙니다**
@@ -27,7 +27,7 @@ YouTube는 API 심사를 통과하지 않은 앱이 올린 영상을 **모두 �
 Blogger 자동 발행에 쓰는 같은 Google Cloud 프로젝트를 씁니다.
 1. Google Cloud Console → 그 프로젝트 → API 및 서비스 → 라이브러리 → **YouTube Data API v3** 사용 설정
 2. https://developers.google.com/oauthplayground → 톱니바퀴 → "Use your own OAuth credentials"에 Blogger와 같은 Client ID와 Secret 입력
-3. 왼쪽 범위 입력칸에 `https://www.googleapis.com/auth/youtube.force-ssl` 입력 → Authorize APIs → **profhlab@gmail.com**으로 로그인하고 유튜브 채널 선택 → Exchange authorization code for tokens
+3. 왼쪽 범위 입력칸에 `https://www.googleapis.com/auth/youtube.force-ssl` 입력 → Authorize APIs → **채널 소유자 계정**으로 로그인하고 유튜브 채널 선택 → Exchange authorization code for tokens
 4. 나온 **Refresh token**을 Claude 환경 설정(Settings → 환경 cloudfold → 환경 변수)에 `YOUTUBE_REFRESH_TOKEN`이라는 이름으로 저장
    - **대화창에 붙여 넣지 마세요.**
 
