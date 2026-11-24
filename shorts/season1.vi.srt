@@ -1,224 +1,316 @@
 1
-00:00:00,150 --> 00:00:05,050
-Phần 1 Ba câu chuyện, sau đó là sự thật đằng sau chúng: robot hút bụi, máy sưởi điện và chuông cửa video.
+00:00:00,300 --> 00:00:06,363
+Chào mừng đến với Mùa 1! Ba câu chuyện siêu ngắn, sau đó là những sự thật trần trụi: robot hút bụi, máy sưởi điện và chuông cửa camera.
 
 2
-00:00:05,200 --> 00:00:09,600
-Tập 1. Sam muốn một robot hút bụi. Anh ấy không muốn có camera trong nhà mình.
+00:00:06,713 --> 00:00:09,268
+Tập 1. Sam thực sự rất thèm một con robot hút bụi.
 
 3
-00:00:09,750 --> 00:00:15,790
-Tuần lễ Black Friday. 11:48 đêm. Robot hút bụi đang giảm giá. Tạm biệt lông chó nhé!
+00:00:09,418 --> 00:00:12,648
+Nhưng tôi tuyệt đối không muốn có cái camera nào quay lén trong nhà mình.
 
 4
-00:00:15,940 --> 00:00:22,840
-2022: ảnh do robot hút bụi thử nghiệm chụp bị đăng lên mạng (MIT Technology Review). 2026: robot bị hack lộ camera trực tiếp (Tom's Hardware).
+00:00:12,998 --> 00:00:14,956
+Tuần lễ Black Friday. 11:48 đêm.
 
 5
-00:00:22,990 --> 00:00:26,750
-Khoan đã. Robot hút bụi của mình có CAMERA sao?
+00:00:15,106 --> 00:00:18,802
+Ô, robot hút bụi đang giảm giá kìa! Tạm biệt lông chó mãi mãi nhé!
 
 6
-00:00:26,900 --> 00:00:31,260
-Nhiều robot né vật cản bằng cách chụp ảnh chúng.
+00:00:19,152 --> 00:00:29,597
+Vào năm 2022, ảnh chụp bởi robot hút bụi thử nghiệm đã bị tuồn lên mạng, theo MIT Technology Review. Và năm 2026, các robot bị hack đã để lộ luồng camera trực tiếp, theo Tom's Hardware.
 
 7
-00:00:31,410 --> 00:00:38,310
-Còn một cách khác: laser xoay. LiDAR. Nó đo khoảng cách. Nó không bao giờ chụp ảnh.
+00:00:29,947 --> 00:00:32,550
+Khoan đã. Cái máy hút bụi của tui sẽ có CAMERA á?
 
 8
-00:00:38,460 --> 00:00:42,640
-Nó lập bản đồ nhà bạn trong bóng tối. Không có bức ảnh nào cả.
+00:00:32,900 --> 00:00:35,543
+Chuẩn luôn! Nhiều robot né đồ đạc bừa bộn bằng cách chụp ảnh chúng đấy.
 
 9
-00:00:42,790 --> 00:00:46,430
-Không có camera thì không có vấn đề! Hầu như là vậy.
+00:00:35,893 --> 00:00:38,742
+Nhưng có một cách khác: một cảm biến laser xoay gọi là LiDAR.
 
 10
-00:00:46,580 --> 00:00:52,320
-Nó quét ở độ cao của tháp laser. Nên nó thấy ghế sofa, chứ không thấy chiếc tất.
+00:00:38,892 --> 00:00:41,820
+Nó đo khoảng cách. Nó không bao giờ chụp ảnh.
 
 11
-00:00:52,470 --> 00:00:59,370
-Thử nghiệm của CNET, ngày 13 tháng 11, 2026: Roomba 205 Combo không camera né được 1/6 vật; Roomba Combo 10 Max (camera) né được 6/6 Nguồn: CNET, robot hút bụi tốt nhất 2026 (bài thử nghiệm bởi Ajay Kumar).
+00:00:42,170 --> 00:00:44,685
+Nó vẽ bản đồ nhà bạn trong bóng tối. Không hề có bức ảnh nào.
 
 12
-00:00:59,520 --> 00:01:05,080
-Và không có robot không camera nào trong hướng dẫn của chúng tôi hứa hẹn sẽ né được phân thú cưng.
+00:00:45,035 --> 00:00:46,794
+Thế thì không có camera, không có vấn đề!
 
 13
-00:01:05,230 --> 00:01:07,970
-BISCUIT LÀ MỘT CHÚ CÚN CON MÀ!
+00:00:46,944 --> 00:00:47,412
+Đa phần là thế.
 
 14
-00:01:08,120 --> 00:01:15,020
-Chọn robot nào?: Sàn gọn gàng, ưu tiên riêng tư - robot không camera; Có cún con, thú cưng ốm, nhiều dây điện - robot có camera
+00:00:47,762 --> 00:00:51,566
+Vì nó quét ở độ cao của cái tháp laser, nên nó dễ dàng nhìn thấy ghế sofa chứ không phải chiếc tất.
 
 15
-00:01:15,170 --> 00:01:22,070
-Sáng hôm sau. Quy tắc 30 giây: dọn dây điện và tất khỏi sàn trước mỗi lần chạy. Sàn quang rồi anh bạn. Bắt đầu thôi.
+00:00:51,916 --> 00:01:05,530
+Trong một bài thử nghiệm tại phòng lab của CNET vào ngày 13 tháng 11 năm 2026, chiếc Roomba 205 Combo không camera né được 1 trong 6 chướng ngại vật. Nhưng chiếc Roomba Combo 10 Max có camera né được trọn 6/6! Nguồn là CNET, robot hút bụi tốt nhất năm 2026, thử nghiệm bởi Ajay Kumar.
 
 16
-00:01:22,220 --> 00:01:29,120
-Một điều nữa: robot laser vẫn gửi bản đồ nhà lên đám mây. Hãy bỏ qua chương trình chia sẻ dữ liệu trong app. Không ảnh chụp. Chỉ chúng ta thôi.
+00:01:05,880 --> 00:01:09,665
+Và không có con robot không camera nào trong bài hướng dẫn của chúng tôi hứa hẹn sẽ né được "bãi mìn" của thú cưng đâu.
 
 17
-00:01:29,270 --> 00:01:39,670
-Cách robot nhìn khi không có camera: LiDAR: laser quay đo khoảng cách và hoạt động trong bóng tối; Nó quét ở độ cao tháp pháo: nó thấy ghế sofa, không thấy chiếc tất; Ánh sáng có cấu trúc đọc dải hồng ngoại; "không có camera RGB" là tuyên bố chính xác (Nguồn: Maker product and support pages (23 tháng 11 năm 2026); RTINGS)
+00:01:10,015 --> 00:01:12,961
+BISCUIT LÀ MỘT CHÚ CÚN CON ĐẤY! Kiểu này thì miễn bàn!
 
 18
-00:01:39,820 --> 00:01:50,220
-Những gì có thể xảy ra khi không có camera: Đâm vào hoặc kéo lê dây điện — 7 trên 8 robot; Nuốt hoặc đẩy tất — 4 trên 8; Mắc kẹt trên thảm hoặc tua rua — 4 trên 8; Lỗi điều hướng hoặc về trạm sạc — 4 trên 8; Cán qua chất thải vật nuôi trong một thử nghiệm — 2 trên 8 (Nguồn: Bài đọc của chúng tôi từ RTINGS, TechGearLab, T3, Tom's Guide, Best Buy owners và TP-Link forum)
+00:01:13,311 --> 00:01:19,207
+Chọn robot nào cho nhà bạn? Ưu tiên sàn sạch và sự riêng tư? Robot không camera. Có cún con, thú cưng bệnh, hoặc nhiều dây điện? Robot có camera.
 
 19
-00:01:50,370 --> 00:02:00,770
-Mọi vụ rò rỉ ảnh chúng tôi tìm thấy đều có camera: Tháng 12 năm 2022 — Ảnh thử nghiệm Roomba bị đăng lên mạng; Tháng 8 năm 2024 — Robot Ecovacs bị chiếm quyền qua Bluetooth; Tháng 10 năm 2024 — Robot Ecovacs bị tin tặc tấn công tại các ngôi nhà ở Mỹ; Tháng 9 năm 2025 — Camera Dreame bị bật từ xa; Tháng 2 năm 2026 — Khoảng 7.000 robot DJI có thể bị tiếp cận (Nguồn: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), Tom's Hardware)
+00:01:19,557 --> 00:01:24,096
+Sáng hôm sau. Sam áp dụng quy tắc 30 giây: dọn sạch dây điện và tất khỏi sàn trước mỗi lần máy chạy.
 
 20
-00:02:00,920 --> 00:02:11,320
-Robot nào phù hợp cho nhà bạn?: Tốt nhất toàn diện, không camera — Roborock Q10 S5+; Giá thấp nhất, sàn nhà gọn gàng — Roborock Q7 M5+; Lựa chọn giá rẻ của các trang thử nghiệm — Tapo RV30 Max Plus; Sàn cứng, không có chỗ cho trạm sạc — Roomba 205 DustCompactor; Trạm sạc tự giặt giẻ lau — Deebot N30 Pro Omni; Chó con, thú cưng bị ốm, dây điện khắp nơi — một robot có camera (Nguồn: Hướng dẫn của chúng tôi, với CNET, RTINGS, The Verge và PCMag)
+00:01:24,246 --> 00:01:25,359
+Sàn quang đãng rồi đó nhóc. Chạy thôi.
 
 21
-00:02:11,470 --> 00:02:15,870
-Tập 2. Đợt tuyết đầu tiên. Bà June nói bà vẫn ổn.
+00:01:25,709 --> 00:01:31,053
+Một điều nữa: robot laser vẫn gửi bản đồ nhà bạn lên đám mây đấy. Hãy bỏ qua chương trình chia sẻ dữ liệu trong ứng dụng nhé.
 
 22
-00:02:16,020 --> 00:02:21,040
-Đợt tuyết đầu tiên trong năm. Bà của Jo sống một mình.
+00:01:31,203 --> 00:01:32,513
+Không chụp ảnh. Chỉ có chúng ta thôi.
 
 23
-00:02:21,190 --> 00:02:25,130
-Đừng bận tâm cháu yêu. Bà có chiếc máy sưởi cũ rồi.
+00:01:32,863 --> 00:01:40,991
+Cùng ôn lại nào! LiDAR là cảm biến laser xoay đo khoảng cách và hoạt động trong bóng tối. Nó quét ở độ cao của tháp nên thấy được sofa, không thấy được chiếc tất.
 
 24
-00:02:25,280 --> 00:02:29,520
-Bà ơi... máy sưởi đó đang cắm vào đâu vậy?
+00:01:41,141 --> 00:01:50,155
+Ánh sáng cấu trúc đọc luồng hồng ngoại, và 'không có camera RGB' là một khẳng định chính xác. Nguồn: Trang sản phẩm và hỗ trợ của nhà sản xuất từ ngày 23 tháng 11 năm 2026, và RTINGS.
 
 25
-00:02:29,670 --> 00:02:35,590
-CPSC: đừng bao giờ cắm máy sưởi vào dây nối hoặc ổ cắm đa năng.
+00:01:50,505 --> 00:02:01,589
+Không có camera thì mọi chuyện khá rắc rối. 7 trong 8 robot tông vào hoặc kéo lê dây điện. 4 trong 8 con nuốt tất, kẹt trên thảm hoặc tua rua, hoặc bị lỗi điều hướng hay lỗi trạm sạc.
 
 26
-00:02:35,740 --> 00:02:39,320
-Phải mua cho bà cái mới. Ngay tối nay.
+00:02:01,739 --> 00:02:09,512
+Và 2 trong 8 con đã cán qua "mìn" của thú cưng trong lúc thử nghiệm! Nguồn: chúng tôi đọc từ RTINGS, TechGearLab, T3, Tom's Guide, người dùng Best Buy và diễn đàn TP-Link.
 
 27
-00:02:39,470 --> 00:02:44,610
-Quyết định chuẩn đấy. Nhớ kiểm tra kỹ trước khi mua máy sưởi mùa đông này.
+00:02:09,862 --> 00:02:19,376
+Mọi vụ rò rỉ ảnh chúng tôi tìm thấy đều do camera. Tháng 12 năm 2022, ảnh thử nghiệm của Roomba bị đăng lên mạng. Tháng 8 năm 2024, robot Ecovacs bị chiếm quyền điều khiển qua Bluetooth.
 
 28
-00:02:44,760 --> 00:02:50,740
-Tìm mã model trên nhãn, rồi tra cứu trong thông báo thu hồi.
+00:02:19,526 --> 00:02:36,331
+Tháng 10 năm 2024, các robot Ecovacs bị chiếm quyền điều khiển ngay trong các gia đình ở Mỹ! Tháng 9 năm 2025, một camera Dreame bị bật từ xa. Tháng 2 năm 2026, khoảng 7.000 robot DJI có thể bị truy cập trái phép. Nguồn: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Hàn Quốc) và Tom's Hardware.
 
 29
-00:02:50,890 --> 00:02:57,790
-Thu hồi của CPSC, ngày 29 tháng 10, 2026: Dreo DR-HSH015 (màu đen, có remote) bị thu hồi; Số lượng tại Mỹ khoảng 338,800; Nguy cơ cháy và bỏng. Nguồn: thông báo CPSC 27-054. Máy sưởi Dreo trong bài đánh giá là model khác; hãy kiểm tra máy của bạn theo thông báo.
+00:02:36,681 --> 00:02:45,721
+Chọn robot nào cho nhà bạn? Toàn diện nhất, không camera là Roborock Q10 S5+. Giá rẻ nhất để có sàn nhà sạch là Roborock Q7 M5+.
 
 30
-00:02:57,940 --> 00:03:02,240
-Cháu cất công lái xe đến tận đây sao? Vì bà thì hoàn toàn xứng đáng ạ.
+00:02:45,871 --> 00:03:00,590
+Lựa chọn giá rẻ của các trang đánh giá là Tapo RV30 Max Plus. Sàn cứng, không có chỗ để trạm sạc? Roomba 205 DustCompactor. Cần trạm sạc tự giặt giẻ lau? Deebot N30 Pro Omni. Có cún con, thú cưng bệnh, dây điện rải rác khắp nơi? Mua robot có camera đi. Nguồn: Bài hướng dẫn của chúng tôi, với CNET, RTINGS, The Verge và PCMag.
 
 31
-00:03:02,390 --> 00:03:08,850
-Cắm trực tiếp vào ổ tường. Cách xa rèm, đồ nội thất và giường đệm 3 feet (CPSC).
+00:03:00,940 --> 00:03:04,558
+Tập 2. Trận tuyết đầu mùa. Bà June bảo bà hoàn toàn ổn.
 
 32
-00:03:09,000 --> 00:03:15,340
-Cài đặt ở mức 68°F. Ở chế độ Eco, máy sẽ ngừng sưởi khi phòng đạt nhiệt độ này (Dreo).
+00:03:04,908 --> 00:03:08,154
+Trận tuyết đầu tiên trong năm, và bà của Jo lại sống một mình.
 
 33
-00:03:15,490 --> 00:03:17,890
-Cuối cùng cũng ấm rồi.
+00:03:08,504 --> 00:03:12,286
+Ối dào, đừng làm quá lên cháu yêu. Bà có cái máy sưởi cũ đáng tin cậy này rồi.
 
 34
-00:03:18,040 --> 00:03:24,140
-Tắt máy khi ngủ hoặc ra ngoài: CPSC và NFPA đều khuyên vậy. Chúc bà ngủ ngon.
+00:03:12,636 --> 00:03:16,015
+Bà ơi... cái máy sưởi đó đang cắm vào cái gì thế ạ?
 
 35
-00:03:24,290 --> 00:03:34,690
-Một máy sưởi điện 1500 W có đủ không?: Khoảng 150 đến 200 foot vuông: một căn phòng, không phải cả ngôi nhà; Một chủ sở hữu: máy sưởi được bán cho 1,000 sq ft chỉ sưởi ấm vừa đủ cho 500; Chế độ xoay là cài đặt ồn nhất (Consumer Reports, tháng 10 năm 2025) (Nguồn: Bài đánh giá Dreo của chúng tôi; Consumer Reports)
+00:03:16,365 --> 00:03:20,435
+Theo CPSC, đừng bao giờ cắm máy sưởi điện vào dây nối dài hay ổ cắm điện nhiều lỗ!
 
 36
-00:03:34,840 --> 00:03:45,240
-Sáu thói quen quan trọng: Cắm điện — cắm trực tiếp vào ổ cắm trên tường; Khoảng cách an toàn — 3 foot tính từ rèm cửa, đồ nội thất, bộ đồ giường; Máy điều nhiệt — khoảng 68°F; Sử dụng trong thời gian dài — chế độ Eco; Khi ngủ hoặc rời đi — tắt máy; Mỗi mùa — rút phích cắm, để nguội, hút bụi cửa hút gió (Nguồn: CPSC, NFPA và Dreo's support pages)
+00:03:20,785 --> 00:03:23,243
+Đúng rồi. Bà sẽ có một cái máy mới. Ngay tối nay.
 
 37
-00:03:45,390 --> 00:03:55,790
-Kiểm tra thu hồi: 29 tháng 10 năm 2026: Model — Dreo DR-HSH015 (màu đen, có điều khiển từ xa); Số lượng thiết bị ở Mỹ — khoảng 338.800; Mối nguy hiểm — hỏa hoạn và bỏng; Nếu thiết bị của bạn trùng khớp — ngừng sử dụng; làm theo thông báo (Nguồn: Thông báo thu hồi của CPSC 27-054. Máy sưởi Dreo trong bài đánh giá của chúng tôi là một model khác.)
+00:03:23,593 --> 00:03:27,589
+Quyết định chuẩn đấy, Jo! Nhưng hãy kiểm tra nhanh một chút trước khi mua bất kỳ máy sưởi nào trong mùa đông này nhé.
 
 38
-00:03:55,940 --> 00:04:06,340
-Mua, chờ hay bỏ qua?: Mua — một phòng, dùng vài giờ, có điều khiển từ xa và máy điều nhiệt; Chờ — các ưu đãi của Walmart: $29.99 đến $43.99 vào mùa đông năm ngoái; Bỏ qua — sưởi ấm cả ngôi nhà (Nguồn: Bài đánh giá của chúng tôi; Các bài đăng ưu đãi của Walmart, tháng 11 năm 2025 đến tháng 1 năm 2026)
+00:03:27,939 --> 00:03:30,942
+Tìm số model trên nhãn, sau đó tra cứu trong thông báo thu hồi.
 
 39
-00:04:06,490 --> 00:04:10,890
-Tập 3. Bà June không thể nhìn thấy hiên nhà mình.
+00:03:31,292 --> 00:03:46,949
+Lệnh thu hồi của CPSC ngày 29 tháng 10 năm 2026 áp dụng cho mẫu Dreo DR-HSH015, màu đen có điều khiển từ xa. Có khoảng 338.800 máy tại Mỹ có nguy cơ gây hỏa hoạn và bỏng. Nguồn: Thông báo CPSC 27-054. Máy Dreo trong bài đánh giá của chúng tôi là mẫu khác; hãy đối chiếu máy của bạn với thông báo nhé.
 
 40
-00:04:11,040 --> 00:04:15,040
-Hiên nhà bà June. 2:10 chiều thứ Ba.
+00:03:47,299 --> 00:03:49,813
+Cháu lội tuyết lái xe xa thế này tới đây á?
 
 41
-00:04:15,190 --> 00:04:18,230
-Có ai ở ngoài cửa phải không?
+00:03:49,963 --> 00:03:51,328
+Được gặp bà thì xa mấy cũng bõ công mà.
 
 42
-00:04:18,380 --> 00:04:22,380
-Bà ơi, để cháu mua cho bà chuông cửa camera nhé.
+00:03:51,678 --> 00:03:56,471
+Cắm thẳng vào ổ cắm tường, và để cách rèm cửa, đồ nội thất cùng giường chiếu ba feet, CPSC khuyên thế.
 
 43
-00:04:22,530 --> 00:04:27,970
-Vấn đề là: nhiều chuông cửa chỉ lưu video khi bạn trả tiền gói cước.
+00:03:56,821 --> 00:04:01,212
+Chỉnh nhiệt độ quanh mức 68°F. Dreo cho biết ở chế độ Eco, máy sẽ tự ngắt sưởi khi phòng đạt mức nhiệt này.
 
 44
-00:04:28,120 --> 00:04:35,020
-Ring không có gói cước chỉ là camera trực tiếp, không ghi hình. Muốn lưu video phải trả thêm: Ring Solo giá $49.99 một năm (ring.com).
+00:04:01,562 --> 00:04:03,598
+A, cuối cùng cũng ấm rồi.
 
 45
-00:04:35,170 --> 00:04:42,070
-Chi phí trong 3 năm: eufy E340, không cần gói cước là $119.99; Ring kèm gói Solo là $189.96; Nest kèm gói Premium là $499.99; Ring kèm gói Pro là $639.96. Giá chuông cộng 3 năm phí dịch vụ, từ hướng dẫn bên dưới (giá của Target và nhà sản xuất, ngày 11 tháng 11 năm 2026).
+00:04:03,948 --> 00:04:08,699
+Và hãy tắt máy khi bà đi ngủ hoặc ra ngoài nhé: cả CPSC và NFPA đều dặn thế. Chúc bà ngủ ngon.
 
 46
-00:04:42,220 --> 00:04:45,860
-Tốn $639.96 để xem hiên nhà bà sao?!
+00:04:09,049 --> 00:04:16,246
+Một máy sưởi 1500 W liệu có đủ? Nó gánh được tầm 150 đến 200 feet vuông. Đó là diện tích một căn phòng, chứ không phải cả căn nhà đâu!
 
 47
-00:04:46,010 --> 00:04:52,170
-Chiếc eufy E340 lưu được khoảng 90 ngày video trên bộ nhớ trong 8 GB. Không tốn phí (eufy).
+00:04:16,396 --> 00:04:26,782
+Một người dùng phàn nàn máy sưởi quảng cáo cân 1.000 sq ft nhưng sưởi 500 còn chật vật. Hơn nữa, chế độ xoay là ồn nhất, theo Consumer Reports, tháng 10 năm 2025. Nguồn: Đánh giá Dreo của chúng tôi; Consumer Reports.
 
 48
-00:04:52,320 --> 00:04:55,840
-Kỹ sư nhỏ của bà giỏi quá.
+00:04:27,132 --> 00:04:32,990
+Sáu thói quen quan trọng! Cắm thẳng vào ổ cắm tường. Để cách rèm cửa, nội thất và giường chiếu 3 feet.
 
 49
-00:04:55,990 --> 00:04:59,150
-Bà có thể nhìn thấy toàn bộ hiên nhà rồi!
+00:04:33,140 --> 00:04:42,947
+Đặt nhiệt độ phòng khoảng 68°F, dùng chế độ Eco nếu bật lâu, tắt máy khi ngủ hoặc ra ngoài, và mỗi mùa: rút điện, để nguội và hút bụi cửa gió! Nguồn: CPSC, NFPA và các trang hỗ trợ của Dreo.
 
 50
-00:04:59,300 --> 00:05:06,200
-Nhược điểm của mọi chuông cửa dùng pin: ở cửa ra vào nhiều, pin chỉ dùng được vài tuần, không phải vài tháng. Cháu sẽ sạc nó vào các ngày Chủ nhật khi đến thăm bà.
+00:04:43,297 --> 00:04:49,986
+Kiểm tra lệnh thu hồi vào ngày 29 tháng 10 năm 2026! Model: Dreo DR-HSH015, màu đen có điều khiển từ xa.
 
 51
-00:05:06,350 --> 00:05:09,570
-Bà biết chính xác đó là ai rồi.
+00:04:50,136 --> 00:04:59,953
+Có khoảng 338.800 máy tại Mỹ có nguy cơ hỏa hoạn và gây bỏng. Nếu máy của bạn trùng khớp, ngừng sử dụng và làm theo thông báo. Nguồn: Thông báo thu hồi 27-054 của CPSC. Máy Dreo trong đánh giá của chúng tôi là model khác.
 
 52
-00:05:09,720 --> 00:05:19,855
-Chuông cửa Ring không có gói cước: Xem trực tiếp — miễn phí; Đàm thoại hai chiều — miễn phí; Cảnh báo chuyển động — miễn phí; Lưu video — cần có gói cước; Cảnh báo có người — cần có gói cước (Nguồn: ring.com; Ring Solo là $49.99 một năm)
+00:05:00,303 --> 00:05:05,769
+Mua, chờ hay bỏ qua? Mua nếu bạn cần dùng cho một phòng, trong vài giờ, có điều khiển và cảm biến nhiệt.
 
 53
-00:05:20,005 --> 00:05:30,405
-Chi phí trong ba năm: eufy E340, không gói cước — $119.99; Tapo D225 + microSD — $130 đến $160; Reolink PoE + microSD — $150 đến $180; Aqara G410 + microSD — $175 đến $205; Ring + gói Solo — $189.96; Nest + Premium — $499.99; Ring + gói Pro — $639.96 (Nguồn: Giá của Target và nhà sản xuất, 11 tháng 11 năm 2026)
+00:05:05,919 --> 00:05:14,676
+Đợi các đợt sale của Walmart, mùa đông năm ngoái giá dao động từ $29.99 đến $43.99, và dẹp ngay ý định sưởi cả nhà đi nhé! Nguồn: bài đánh giá của chúng tôi và các bài đăng khuyến mãi của Walmart, tháng 11/2025 đến tháng 1/2026.
 
 54
-00:05:30,555 --> 00:05:40,955
-Lựa chọn theo ngôi nhà của bạn: Ghi hình, không gói cước, không thẻ nhớ — eufy E340; Home Assistant hoặc đầu ghi Reolink NVR — Reolink PoE; iPhone và Apple Home — Aqara G410; Chi phí thấp nhất với thẻ nhớ — Tapo D225; Đã thanh toán cho Ring — Ring Battery 2K; Nhà thông minh Google — Nest Doorbell (Nguồn: Hướng dẫn của chúng tôi; PCMag, TechRadar, các nhà sản xuất)
+00:05:15,026 --> 00:05:17,637
+Tập 3. Bà June không nhìn thấy hiên nhà mình.
 
 55
-00:05:41,105 --> 00:05:51,505
-Vấn đề về pin: Những cánh cửa bận rộn: chủ nhà chỉ dùng được vài tuần, thay vì vài tháng; Chế độ "Wired" trên các mẫu dùng pin của eufy, Ring và Aqara chỉ sạc nhỏ giọt; Cách khắc phục: điểm phát WiFi gần hơn, đi dây, bộ biến áp 16 V hoặc lớn hơn (Nguồn: Báo cáo của chủ sở hữu được thu thập trong hướng dẫn của chúng tôi)
+00:05:17,987 --> 00:05:20,126
+Hiên nhà bà June. 2:10 chiều thứ Ba.
 
 56
-00:05:51,655 --> 00:05:57,055
-Đọc các hướng dẫn đầy đủ. Mọi con số trong video này đều có nguồn tham khảo. Có các liên kết trong phần mô tả.
+00:05:20,476 --> 00:05:23,758
+Có ai ngoài cửa không nhỉ? Đôi tai già cỗi của tôi không còn được như xưa nữa.
+
+57
+00:05:24,108 --> 00:05:26,262
+Bà ơi, sắm một cái chuông cửa camera cho bà nhé.
+
+58
+00:05:26,612 --> 00:05:29,893
+Điểm kẹt là: nhiều chuông cửa chỉ lưu video nếu bà trả tiền mua gói dịch vụ.
+
+59
+00:05:30,243 --> 00:05:33,685
+Chuông Ring không đăng ký gói thì chỉ là camera xem trực tiếp chứ không phải máy ghi hình.
+
+60
+00:05:33,835 --> 00:05:37,893
+Lưu video thì tốn thêm tiền: gói Ring Solo giá $49.99 một năm, theo ring.com.
+
+61
+00:05:38,243 --> 00:05:50,843
+Chi phí phải bỏ ra trong ba năm: eufy E340 không cần mua gói là $119.99. Ring kèm gói Solo là $189.96. Nest kèm gói Premium là $499.99. Ring kèm gói Pro lên tới $639.96.
+
+62
+00:05:50,993 --> 00:05:56,815
+Đó là giá mua chuông cửa cộng với phí 3 năm dùng gói, lấy từ bài hướng dẫn bên dưới của chúng tôi, dùng giá từ Target và các hãng tính đến ngày 11 tháng 11 năm 2026.
+
+63
+00:05:57,165 --> 00:06:02,248
+$639.96 chỉ để ngắm hiên nhà của bà thôi á?! Đừng hòng.
+
+64
+00:06:02,598 --> 00:06:08,213
+Thay vào đó, eufy bảo là eufy E340 lưu được khoảng 90 ngày clip vào bộ nhớ trong 8 GB. Không tốn phí.
+
+65
+00:06:08,563 --> 00:06:11,903
+Xem cháu kìa, cô kỹ sư nhỏ của bà.
+
+66
+00:06:12,253 --> 00:06:15,369
+Chà, bà có thể nhìn thấy cả cái hiên nhà luôn này!
+
+67
+00:06:15,719 --> 00:06:21,187
+Yếu điểm của mọi chuông cửa dùng pin: ở một cánh cửa có người qua lại nhiều thì thời lượng pin chỉ tính bằng tuần, chứ không phải tháng.
+
+68
+00:06:21,337 --> 00:06:23,598
+Đừng lo, cháu sẽ sạc nó vào Chủ nhật, mỗi khi tới thăm bà.
+
+69
+00:06:23,948 --> 00:06:26,974
+Đing đoong! Bà biết thừa ai ngoài đó luôn.
+
+70
+00:06:27,324 --> 00:06:32,597
+Tóm tắt lại về chuông Ring không mua gói nào. Xem trực tiếp, đàm thoại hai chiều và cảnh báo chuyển động là miễn phí.
+
+71
+00:06:32,747 --> 00:06:38,323
+Nhưng lưu video và cảnh báo có người? Cần mua gói đấy. Nguồn: ring.com; Ring Solo là $49.99 một năm.
+
+72
+00:06:38,673 --> 00:06:53,238
+Chi phí dùng trong ba năm! eufy E340, không gói, là $119.99. Tapo D225 kèm thẻ microSD tốn khoảng $130 đến $160. Reolink PoE kèm thẻ microSD tốn $150 đến $180.
+
+73
+00:06:53,388 --> 00:07:06,506
+Aqara G410 cộng thẻ microSD là $175 đến $205. Ring cộng gói Solo là $189.96. Nest cộng gói Premium là $499.99, và Ring cộng gói Pro là $639.96. Nguồn: Giá của Target và các hãng, ngày 11 tháng 11 năm 2026.
+
+74
+00:07:06,856 --> 00:07:18,132
+Chọn theo ngôi nhà của bạn! Để ghi hình, không tốn cước, không cần thẻ nhớ, quất eufy E340. Dùng Home Assistant hay Reolink NVR thì mua Reolink PoE. Dùng iPhone và Apple Home? Chọn Aqara G410.
+
+75
+00:07:18,282 --> 00:07:27,320
+Chi phí thấp nhất khi dùng thẻ nhớ là Tapo D225. Nếu bạn đang trả tiền cước Ring rồi thì sắm Ring Battery 2K, và với ngôi nhà dùng hệ sinh thái Google thì mua Nest Doorbell. Nguồn: Hướng dẫn của chúng tôi; PCMag, TechRadar, các nhà sản xuất.
+
+76
+00:07:27,670 --> 00:07:36,251
+Yếu điểm của pin đây! Tại các cửa ra vào bận rộn, người dùng chỉ xài được tính bằng tuần, không phải tháng. Chế độ "cắm dây" trên các model dùng pin của eufy, Ring và Aqara chỉ là sạc nhỏ giọt thôi.
+
+77
+00:07:36,401 --> 00:07:42,412
+Cách khắc phục bao gồm đặt cục WiFi gần hơn, chạy lại đường dây hoặc dùng biến áp 16 V trở lên. Nguồn: Phản hồi từ người dùng được tổng hợp trong hướng dẫn của chúng tôi.
+
+78
+00:07:42,762 --> 00:07:45,141
+Mọi con số trong video này đều có nguồn gốc rõ ràng.
+
+79
+00:07:45,291 --> 00:07:47,737
+Đọc trọn bộ hướng dẫn nhé! Link dẫn tới các bài hướng dẫn chi tiết nằm ở phần mô tả.
 

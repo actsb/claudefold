@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add the 11-language titles, descriptions and subtitle tracks to a YouTube video the owner uploaded.
+"""Add the 11-language titles, descriptions, tags, subtitle tracks and the custom thumbnail to a YouTube video the owner uploaded.
 
   python3 scripts/youtube_localize.py VIDEO_ID shorts/ep1-youtube.json [--check]
 
@@ -42,6 +42,11 @@ def main(vid, meta_path, check=False):
     print(f"{vid}: {v['snippet']['title']!r} ({v['status']['privacyStatus']}); localizations: {sorted(v.get('localizations', {}))}; captions: {sorted(have)}")
     if check: return
     sn = v["snippet"]; sn["defaultLanguage"] = "en"
+    tags, n = [], 0      # YouTube keeps one tag list per video (max 500 characters): English first, then each language's top terms
+    for lang in ["en"] + [l for l in m["metadata"] if l != "en"]:
+        for tg in m["metadata"][lang].get("tags", [])[: (15 if lang == "en" else 3)]:
+            if tg not in tags and n + len(tg) + 3 <= 480: tags.append(tg); n += len(tg) + 3
+    sn["tags"] = tags; sn["title"] = m["metadata"]["en"]["title"]; sn["description"] = m["metadata"]["en"]["description"]
     loc = {lang: {"title": x["title"][:100], "description": x["description"][:5000]} for lang, x in m["metadata"].items() if lang != "en"}
     call(tok, "PUT", f"{API}/videos?part=snippet,localizations", json.dumps({"id": vid, "snippet": {k: sn[k] for k in ("title", "description", "categoryId", "tags", "defaultLanguage") if k in sn}, "localizations": loc}).encode())
     print(f"localized title and description: {', '.join(sorted(loc))}")
@@ -53,6 +58,12 @@ def main(vid, meta_path, check=False):
                 + f"\r\n--{b}\r\nContent-Type: application/octet-stream\r\n\r\n").encode() + srt.read_bytes() + f"\r\n--{b}--\r\n".encode()
         call(tok, "POST", "https://www.googleapis.com/upload/youtube/v3/captions?uploadType=multipart&part=snippet", body, f"multipart/related; boundary={b}")
         print(f"captions: {lang} added")
+    th = meta_path.parent / m.get("thumbnail", "")
+    if m.get("thumbnail") and th.exists():   # custom thumbnails need a verified channel (phone verification in YouTube Studio)
+        req = urllib.request.Request(f"https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId={vid}", data=th.read_bytes(), method="POST",
+                                     headers={"Authorization": f"Bearer {tok}", "Content-Type": "image/jpeg"})
+        try: urllib.request.urlopen(req, timeout=120); print("thumbnail set")
+        except urllib.error.HTTPError as e: print(f"thumbnail not set: HTTP {e.code} {e.read().decode()[:200]}")
 
 if __name__ == "__main__":
     a = sys.argv[1:]

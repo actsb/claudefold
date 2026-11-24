@@ -1,0 +1,430 @@
+[
+ [
+  {
+   "who": "narrator",
+   "text": "Welcome to Season 1! Three quick stories, then the cold hard facts: robot vacuums, space heaters and video doorbells."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Episode 1. Sam really wants a robot vacuum."
+  },
+  {
+   "who": "sam",
+   "text": "But I absolutely do not want a camera rolling in my house."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Black Friday week. 11:48 p.m."
+  },
+  {
+   "who": "sam",
+   "text": "Ooh, robot vacuums are on sale! Goodbye forever, dog hair!"
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "In 2022, photos taken by test robot vacuums were posted online, says MIT Technology Review. And in 2026, hacked robots showed live camera feeds, according to Tom's Hardware."
+  }
+ ],
+ [
+  {
+   "who": "sam",
+   "text": "Wait. My vacuum would have a CAMERA?"
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Yep! Many robots dodge your clutter by photographing it."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "But there's another way: a spinning laser called LiDAR."
+  },
+  {
+   "who": "vera",
+   "text": "It measures distance. It never takes a photo."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "It maps your home in the dark. No pictures."
+  }
+ ],
+ [
+  {
+   "who": "sam",
+   "text": "Then no camera, no problem!"
+  },
+  {
+   "who": "vera",
+   "text": "Mostly."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Because it scans at the height of its turret, it easily sees the sofa, not the sock."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "In a CNET lab test from November 13, 2026, the camera-free Roomba 205 Combo avoided 1 of 6 hazards. But the Roomba Combo 10 Max with a camera avoided 6 of 6! Source is CNET, best robot vacuums of 2026, lab test by Ajay Kumar."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "And no camera-free robot in our guide promises to avoid pet waste."
+  }
+ ],
+ [
+  {
+   "who": "sam",
+   "text": "BISCUIT IS A PUPPY! That's a dealbreaker!"
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Which robot for your home? Tidy floor and privacy first? No camera. Puppy, sick pet, or cords? Camera robot."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Next morning. Sam adopts the 30-second rule: cords and socks off the floor before every run."
+  },
+  {
+   "who": "sam",
+   "text": "Floor's clear, buddy. Let's go."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app."
+  },
+  {
+   "who": "sam",
+   "text": "No photos. Just us."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Let's review! LiDAR is a spinning laser that measures distance and works in the dark. It scans at turret height to see the sofa, not the sock."
+  },
+  {
+   "who": "narrator",
+   "text": "Structured light reads an infrared pattern, and 'no RGB camera' is the accurate claim. Source: Maker product and support pages from November 23, 2026, and RTINGS."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Without a camera, things get messy. 7 of 8 robots run into or drag cords. 4 of 8 eat socks, get stuck on rugs or tassels, or have navigation or docking errors."
+  },
+  {
+   "who": "narrator",
+   "text": "And 2 of 8 ran over pet waste in a test! Source: our reading of RTINGS, TechGearLab, T3, Tom's Guide, Best Buy owners and the TP-Link forum."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Every photo leak we found had a camera. Dec 2022, test Roomba photos posted online. Aug 2024, Ecovacs robots taken over by Bluetooth."
+  },
+  {
+   "who": "narrator",
+   "text": "Oct 2024, hijacked Ecovacs robots in US homes! Sept 2025, a Dreame camera switched on remotely. Feb 2026, about 7,000 DJI robots reachable. Source: MIT Technology Review, TechCrunch (DEF CON), ABC Australia, KISA (Korea), and Tom's Hardware."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Which robot for your home? Best all-round, no camera is the Roborock Q10 S5+. Lowest price for a tidy floor is Roborock Q7 M5+."
+  },
+  {
+   "who": "narrator",
+   "text": "Test sites' budget pick is the Tapo RV30 Max Plus. Hard floors, no room for a dock? Roomba 205 DustCompactor. A dock that washes the mops? Deebot N30 Pro Omni. Puppy, sick pet, cords everywhere? Get a camera robot. Source: Our guide, with CNET, RTINGS, The Verge and PCMag."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Episode 2. The first snow. Grandma June says she's perfectly fine."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "The first snow of the year, and Jo's grandmother lives all alone."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Oh, don't fuss, dear. I have my trusty old heater."
+  }
+ ],
+ [
+  {
+   "who": "jo",
+   "text": "Grandma... what exactly is that heater plugged into?"
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "According to the CPSC, never plug a space heater into an extension cord or a power strip!"
+  }
+ ],
+ [
+  {
+   "who": "jo",
+   "text": "Right. You're getting a new one. Tonight."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Good call, Jo! But make one quick check before you buy any heater this winter."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Find the model number on the label, then look it up in the recall notice."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "The October 29, 2026 CPSC recall covers the Dreo DR-HSH015, black with a remote. Units in the US were about 338,800, with a fire and burn hazard. Source: CPSC notice 27-054. The Dreo in our review is a different model; check yours against the notice."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "You drove all this way in the snow?"
+  },
+  {
+   "who": "jo",
+   "text": "You're worth the trip, Grandma."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Plug it straight into the wall, and keep it three feet clear of drapes, furniture, and bedding, says the CPSC."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Set it near 68°F. Dreo says in Eco mode it stops heating once the room gets there."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Ah, warm at last."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "And turn it off when you sleep or leave: the CPSC and NFPA both say so. Goodnight, Grandma."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Is one 1500 W heater enough? It handles roughly 150 to 200 square feet. That's one room, not the house!"
+  },
+  {
+   "who": "narrator",
+   "text": "One owner found a heater sold for 1,000 sq ft barely managed 500. Also, oscillation is the noisiest setting, says Consumer Reports, Oct 2025. Source: Our Dreo review; Consumer Reports."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Six habits that matter! Plug straight into the wall. Give it 3 feet of clearance from drapes, furniture, and bedding."
+  },
+  {
+   "who": "narrator",
+   "text": "Keep the thermostat about 68°F, use Eco mode for long sessions, turn it off to sleep or leave, and each season: unplug, cool, and dust the inlet! Source: CPSC, NFPA and Dreo's support pages."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Recall check on October 29, 2026! Model: Dreo DR-HSH015, black with remote."
+  },
+  {
+   "who": "narrator",
+   "text": "Units in the US are about 338,800, with a fire and burn hazard. If yours matches, stop using it and follow the notice. Source: CPSC recall notice 27-054. The Dreo in our review is a different model."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Buy, wait or skip? Buy if you need it for one room, a few hours, with a remote and thermostat."
+  },
+  {
+   "who": "narrator",
+   "text": "Wait for Walmart deals, which were $29.99 to $43.99 last winter, and skip heating a whole house! Source: our review and Walmart deal posts, Nov 2025 to Jan 2026."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Episode 3. Grandma June can't see her porch."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Grandma June's porch. Tuesday, 2:10 p.m."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Was someone at the door? My old ears aren't what they used to be."
+  }
+ ],
+ [
+  {
+   "who": "jo",
+   "text": "Grandma, let's get you a video doorbell."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "The catch: many doorbells save video only if you pay for a plan."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "A Ring with no plan is a live camera, not a recorder."
+  },
+  {
+   "who": "narrator",
+   "text": "Saved video costs extra: Ring Solo is $49.99 a year, says ring.com."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "What it costs over three years: eufy E340, no plan needed, is $119.99. Ring with the Solo plan is $189.96. Nest with Premium is $499.99. Ring with the Pro plan is $639.96."
+  },
+  {
+   "who": "narrator",
+   "text": "That's the doorbell price plus three years of plan fees, from our guide below, using Target and maker prices from November 11, 2026."
+  }
+ ],
+ [
+  {
+   "who": "jo",
+   "text": "$639.96 to watch Grandma's porch?! No way."
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "Instead, eufy says the eufy E340 saves about 90 days of clips on 8 GB inside it. No fee."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Look at you, my little engineer."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Wow, I can see the whole porch!"
+  }
+ ],
+ [
+  {
+   "who": "narrator",
+   "text": "The catch with every battery doorbell: at a busy door, owners get weeks of charge, not months."
+  },
+  {
+   "who": "jo",
+   "text": "Don't worry, I'll charge it on Sundays, when I visit."
+  }
+ ],
+ [
+  {
+   "who": "june",
+   "text": "Ding dong! I know exactly who that is."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Let's recap a Ring with no plan. Live view, two-way talk, and motion alerts are free."
+  },
+  {
+   "who": "narrator",
+   "text": "But saved video and person alerts? Plan needed. Source: ring.com; Ring Solo is $49.99 a year."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Three-year cost! eufy E340, no plan, is $119.99. Tapo D225 plus microSD is $130 to $160. Reolink PoE plus microSD is $150 to $180."
+  },
+  {
+   "who": "narrator",
+   "text": "Aqara G410 plus microSD is $175 to $205. Ring plus Solo plan is $189.96. Nest plus Premium is $499.99, and Ring plus Pro plan is $639.96. Source: Target and maker prices, November 11, 2026."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Pick by your home! For recordings, no plan, no card, get the eufy E340. For Home Assistant or a Reolink NVR, the Reolink PoE. iPhone and Apple Home? Aqara G410."
+  },
+  {
+   "who": "narrator",
+   "text": "Lowest cost with a card is Tapo D225. If you already pay for Ring, get the Ring Battery 2K, and for a Google home, the Nest Doorbell. Source: Our guide; PCMag, TechRadar, the makers."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "The battery catch! At busy doors, owners get weeks, not months. 'Wired' mode on eufy, Ring and Aqara battery models only trickle-charges."
+  },
+  {
+   "who": "narrator",
+   "text": "Fixes include a closer WiFi point, wiring, or a 16 V or larger transformer. Source: Owner reports collected in our guide."
+  }
+ ],
+ [
+  {
+   "who": "vera",
+   "text": "Every number in this video has a source."
+  },
+  {
+   "who": "narrator",
+   "text": "Read the full guides! Links to the full guides are in the description."
+  }
+ ]
+]
