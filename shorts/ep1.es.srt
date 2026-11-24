@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: El robot que no puede verte
+00:00:00,150 --> 00:00:03,584
+Sam quiere un robot aspirador este Black Friday. Pero, ¿te está grabando?
 
 2
-00:00:01,928 --> 00:00:05,969
-Semana de Black Friday. 11:48 p.m. Los robots aspiradores están en oferta. ¡Adiós a los pelos de perro!
+00:00:04,084 --> 00:00:06,966
+11:48 p.m. ¡Adiós, pelos de perro!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: fotos tomadas por robots aspiradores de prueba se publicaron en línea (MIT Technology Review). 2026: robots hackeados mostraron videos en vivo (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022: fotos tomadas por robots aspiradores de prueba se publican en internet, según MIT Technology Review. 2026: robots hackeados mostraron transmisiones de cámara en vivo, según Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
-Espera. ¿Mi aspirador tendría CÁMARA?
+00:00:16,573 --> 00:00:19,175
+Espera. ¿Mi aspiradora tendría una CÁMARA?
 
 5
-00:00:13,417 --> 00:00:16,266
-Muchos robots esquivan el desorden fotografiándolo.
+00:00:19,575 --> 00:00:21,322
+Muchos esquivan el desorden fotografiándolo.
 
 6
-00:00:16,416 --> 00:00:20,991
-Hay otra forma: un láser giratorio. LiDAR. Mide la distancia. Nunca toma fotos.
+00:00:21,722 --> 00:00:26,099
+El LiDAR es un láser giratorio. Mide distancias, nunca toma fotos.
 
 7
-00:00:21,141 --> 00:00:23,862
-Mapea tu casa en la oscuridad. Sin fotos.
+00:00:26,499 --> 00:00:28,159
+Mapea en la oscuridad. Sin fotos.
 
 8
-00:00:24,012 --> 00:00:26,351
-Entonces, sin cámara, ¡no hay problema! Más o menos.
+00:00:28,559 --> 00:00:30,199
+Sin cámara, ¡cero problemas!
 
 9
-00:00:26,501 --> 00:00:30,329
-Escanea a la altura de su torreta. Ve el sofá, no el calcetín.
+00:00:30,319 --> 00:00:30,787
+Casi siempre.
 
 10
-00:00:30,479 --> 00:00:35,054
-Prueba de laboratorio de CNET, 13 de noviembre de 2026: el Roomba 205 Combo sin cámara esquivó 1 de 6; el Roomba Combo 10 Max (cámara) esquivó 6 de 6. Fuente: CNET, mejores robots aspiradores de 2026 (prueba por Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Ve el sofá, no el calcetín.
 
 11
-00:00:35,204 --> 00:00:38,904
-Y ningún robot sin cámara de nuestra guía promete evitar los excrementos de mascotas.
+00:00:33,511 --> 00:00:42,063
+Según CNET, una prueba de laboratorio del 13 de noviembre de 2026 halló que el Roomba 205 Combo sin cámara esquivó 1 de 6; el Roomba Combo 10 Max esquivó 6 de 6.
 
 12
-00:00:39,054 --> 00:00:40,754
-¡BISCUIT ES UN CACHORRO!
+00:00:42,463 --> 00:00:45,798
+Ningún robot sin cámara promete esquivar los desechos de tus mascotas.
 
 13
-00:00:40,904 --> 00:00:45,479
-¿Qué robot para tu casa?: Suelo ordenado, prioridad privacidad: sin cámara; cachorro, mascota enferma, cables: robot con cámara.
+00:00:46,198 --> 00:00:47,408
+¡BISCUIT ES UN CACHORRO!
 
 14
-00:00:45,629 --> 00:00:50,203
-A la mañana siguiente. La regla de 30 segundos: quitar cables y calcetines del suelo antes de usarlo. Suelo despejado, amigo. Vamos.
+00:00:47,808 --> 00:00:51,405
+¿Suelo ordenado? La privacidad es lo primero, sin cámara. ¿Cachorro? Robot con cámara.
 
 15
-00:00:50,353 --> 00:00:54,928
-Una cosa más: los robots láser también envían el mapa de tu suelo a la nube. Omite el programa para compartir datos en la app. Sin fotos. Solo nosotros.
+00:00:51,805 --> 00:00:54,127
+Regla de los 30 segundos: cables fuera del suelo. Vamos.
 
 16
-00:00:55,078 --> 00:00:57,197
-¿Qué robot sin cámara deberías comprar? Seis opciones comparadas abajo. Enlace en la descripción.
+00:00:54,527 --> 00:00:57,667
+Los mapas del suelo van a la nube. ¡Sáltate el programa de compartir datos en la app!
+
+17
+00:00:58,067 --> 00:00:59,794
+Guía completa y fuentes: enlace en la descripción.
 

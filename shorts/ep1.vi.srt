@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: Chú robot không thể nhìn thấy bạn
+00:00:00,150 --> 00:00:03,584
+Sam muốn tậu một em robot hút bụi dịp Black Friday này. Nhưng nó có đang quay lén bạn không?
 
 2
-00:00:01,928 --> 00:00:05,969
-Tuần lễ Black Friday. 11:48 đêm. Robot hút bụi đang giảm giá. Tạm biệt lông chó nhé!
+00:00:04,084 --> 00:00:06,966
+11:48 p.m. Tạm biệt nhé lông chó!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: ảnh do robot hút bụi thử nghiệm chụp bị đăng lên mạng (MIT Technology Review). 2026: robot bị hack lộ camera trực tiếp (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+Năm 2022: MIT Technology Review cho biết ảnh chụp bởi robot hút bụi thử nghiệm bị đăng lên mạng. Năm 2026: Tom's Hardware cho biết robot bị hack đã phát hình ảnh camera trực tiếp.
 
 4
-00:00:10,844 --> 00:00:13,267
-Khoan đã. Robot hút bụi của mình có CAMERA sao?
+00:00:16,573 --> 00:00:19,175
+Khoan đã. Robot nhà mình cũng có CAMERA á?
 
 5
-00:00:13,417 --> 00:00:16,266
-Nhiều robot né vật cản bằng cách chụp ảnh chúng.
+00:00:19,575 --> 00:00:21,322
+Nhiều loại né đồ đạc bằng cách chụp ảnh chúng lại.
 
 6
-00:00:16,416 --> 00:00:20,991
-Còn một cách khác: laser xoay. LiDAR. Nó đo khoảng cách. Nó không bao giờ chụp ảnh.
+00:00:21,722 --> 00:00:26,099
+Cảm biến LiDAR là tia laser xoay. Nó đo khoảng cách chứ không bao giờ chụp ảnh.
 
 7
-00:00:21,141 --> 00:00:23,862
-Nó lập bản đồ nhà bạn trong bóng tối. Không có bức ảnh nào cả.
+00:00:26,499 --> 00:00:28,159
+Vẽ bản đồ ngay cả trong bóng tối. Không cần chụp hình.
 
 8
-00:00:24,012 --> 00:00:26,351
-Không có camera thì không có vấn đề! Hầu như là vậy.
+00:00:28,559 --> 00:00:30,199
+Không camera, khỏi lo nha!
 
 9
-00:00:26,501 --> 00:00:30,329
-Nó quét ở độ cao của tháp laser. Nên nó thấy ghế sofa, chứ không thấy chiếc tất.
+00:00:30,319 --> 00:00:30,787
+Thường là vậy.
 
 10
-00:00:30,479 --> 00:00:35,054
-Thử nghiệm của CNET, ngày 13 tháng 11, 2026: Roomba 205 Combo không camera né được 1/6 vật; Roomba Combo 10 Max (camera) né được 6/6 Nguồn: CNET, robot hút bụi tốt nhất 2026 (bài thử nghiệm bởi Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Nó thấy cái sofa, nhưng cái tất thì không.
 
 11
-00:00:35,204 --> 00:00:38,904
-Và không có robot không camera nào trong hướng dẫn của chúng tôi hứa hẹn sẽ né được phân thú cưng.
+00:00:33,511 --> 00:00:42,063
+Theo CNET, bài kiểm tra ngày 13 tháng 11 năm 2026 cho thấy mẫu Roomba 205 Combo không camera né được 1/6 vật cản; Roomba Combo 10 Max thì né được 6/6.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT LÀ MỘT CHÚ CÚN CON MÀ!
+00:00:42,463 --> 00:00:45,798
+Không con robot không camera nào dám hứa hẹn né được "bãi mìn" của thú cưng đâu.
 
 13
-00:00:40,904 --> 00:00:45,479
-Chọn robot nào?: Sàn gọn gàng, ưu tiên riêng tư - robot không camera; Có cún con, thú cưng ốm, nhiều dây điện - robot có camera
+00:00:46,198 --> 00:00:47,408
+BISCUIT LÀ CÚN CON MÀ!
 
 14
-00:00:45,629 --> 00:00:50,203
-Sáng hôm sau. Quy tắc 30 giây: dọn dây điện và tất khỏi sàn trước mỗi lần chạy. Sàn quang rồi anh bạn. Bắt đầu thôi.
+00:00:47,808 --> 00:00:51,405
+Sàn nhà gọn gàng? Ưu tiên bảo mật, chọn loại không camera. Nhà có cún con? Chơi luôn robot camera.
 
 15
-00:00:50,353 --> 00:00:54,928
-Một điều nữa: robot laser vẫn gửi bản đồ nhà lên đám mây. Hãy bỏ qua chương trình chia sẻ dữ liệu trong app. Không ảnh chụp. Chỉ chúng ta thôi.
+00:00:51,805 --> 00:00:54,127
+Quy tắc 30 giây: dọn sạch dây điện khỏi sàn. Triển thôi.
 
 16
-00:00:55,078 --> 00:00:57,197
-Nên mua robot không camera nào? 6 lựa chọn so sánh ở dưới. Link trong phần mô tả.
+00:00:54,527 --> 00:00:57,667
+Bản đồ sàn nhà sẽ được lưu trên đám mây. Hãy bỏ qua chương trình chia sẻ dữ liệu trong app nha!
+
+17
+00:00:58,067 --> 00:00:59,794
+Hướng dẫn chi tiết và nguồn: link dưới phần mô tả.
 

@@ -1,11 +1,14 @@
 {
  "video": "ep2.mp4",
- "seconds": 58.5,
+ "thumbnail": "ep2-thumb.jpg",
+ "orientation": "1080x1920",
+ "seconds": 58.9,
  "default_language": "en",
  "made_for_kids": false,
  "category": "Howto & Style",
  "altered_content": "No (stylised cartoon, not realistic)",
  "paid_promotion": false,
+ "voices": "Google Gemini TTS (AI voices)",
  "languages": {
   "en": "English",
   "es": "Spanish",
@@ -22,47 +25,209 @@
  "metadata": {
   "en": {
    "title": "Grandma's Heater Was Plugged Into a Power Strip 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "The first snow falls. Grandma June says she's fine. Her old heater, plugged into a power strip, says otherwise.\n\nVerdict Picks Toon, Episode 2. Our full Dreo space heater review, with the safety rules and the recall check:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFacts in this Short: CPSC says never plug a space heater into an extension cord or power strip, keep it three feet from drapes, furniture and bedding, and turn it off when you sleep or leave (CPSC, NFPA). CPSC recall notice 27-054, October 29, 2026: Dreo DR-HSH015, about 338,800 units, fire and burn hazard.\n\nCharacters and scenes are fictional. Art generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "description": "The first snow falls. Grandma June says she's fine. Her old heater, plugged into a power strip, says otherwise.\n\nVerdict Picks Toon, Episode 2. Our full Dreo space heater review, with the safety rules and the recall check:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFacts in this Short: CPSC says never plug a space heater into an extension cord or power strip, keep it three feet from drapes, furniture and bedding, and turn it off when you sleep or leave (CPSC, NFPA). CPSC recall notice 27-054, October 29, 2026: Dreo DR-HSH015, about 338,800 units, fire and burn hazard.\n\nCharacters and scenes are fictional. Art and voices generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "space heater safety",
+    "space heater",
+    "Dreo heater",
+    "heater recall",
+    "winter safety",
+    "power strip",
+    "CPSC",
+    "webtoon",
+    "animated story",
+    "buying guide",
+    "전기히터",
+    "電気ヒーター",
+    "calefactor",
+    "radiateur électrique",
+    "Heizlüfter",
+    "aquecedor elétrico",
+    "取暖器"
+   ]
   },
   "es": {
-   "title": "El calefactor de la abuela en una regleta 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "Cae la primera nevada. La abuela June dice que está bien. Su viejo calefactor, enchufado a una regleta, dice lo contrario.\n\nVerdict Picks Toon, Episodio 2. Nuestra reseña completa del calefactor Dreo, con reglas de seguridad y revisión de retiros del mercado:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nDatos en este Short: La CPSC indica que nunca se debe enchufar un calefactor a un cable de extensión o regleta, mantenerlo a tres pies de cortinas, muebles y ropa de cama, y apagarlo al dormir o salir (CPSC, NFPA). Aviso de retiro de la CPSC 27-054, 29 de octubre de 2026: Dreo DR-HSH015, alrededor de 338,800 unidades, riesgo de incendio y quemaduras.\n\nLos personajes y escenas son ficticios. Arte generado con Google Gemini (IA); historia, rotulación y datos por Verdict Picks. No patrocinado por ninguna marca. Nuestras guías contienen enlaces de afiliados: como Asociados de Amazon, ganamos con las compras que califiquen.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "El calefactor de la abuela estaba en una regleta 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Cae la primera nevada. La abuela June dice que está bien. Su viejo calefactor, conectado a una regleta, dice lo contrario.\n\nVerdict Picks Toon, Episodio 2. Nuestra reseña completa del calefactor Dreo, con las reglas de seguridad y la revisión de retiros del mercado (recalls):\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nDatos en este Short: La CPSC dice que nunca conectes un calefactor a un cable de extensión o regleta, mantenlo a tres pies de distancia de cortinas, muebles y ropa de cama, y apágalo cuando duermas o salgas de casa (CPSC, NFPA). Aviso de retiro de la CPSC 27-054, 29 de octubre de 2026: Dreo DR-HSH015, aproximadamente 338,800 unidades, riesgo de incendio y quemaduras.\n\nLos personajes y escenarios son ficticios. Arte y voces generados con Google Gemini (IA); historia, textos y datos por Verdict Picks. No patrocinado por ninguna marca. Nuestras guías contienen enlaces de afiliados: como Afiliado de Amazon, ganamos por compras elegibles.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "calefactor eléctrico",
+    "estufa eléctrica",
+    "seguridad calefactor",
+    "calefactor Dreo",
+    "retiro del mercado",
+    "seguridad en invierno",
+    "regleta",
+    "zapatilla eléctrica",
+    "CPSC",
+    "webtoon español",
+    "historia animada",
+    "guía de compra",
+    "calentador de ambiente"
+   ]
   },
   "pt": {
-   "title": "O Aquecedor da Vovó Estava num Filtro de Linha 🔥 | Verdict Picks Toon Ep. 2 #Shorts",
-   "description": "A primeira neve cai. A Vó June diz que está bem. Seu aquecedor antigo, ligado a um filtro de linha, diz o contrário.\n\nVerdict Picks Toon, Episódio 2. Nossa análise completa do aquecedor elétrico Dreo, com as regras de segurança e a verificação de recall:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFatos neste Short: A CPSC diz para nunca ligar um aquecedor elétrico a uma extensão ou filtro de linha, mantê-lo a três pés de distância de cortinas, móveis e roupas de cama, e desligá-lo quando for dormir ou sair (CPSC, NFPA). Aviso de recall da CPSC 27-054, 29 de outubro de 2026: Dreo DR-HSH015, cerca de 338,800 unidades, risco de incêndio e queimaduras.\n\nPersonagens e cenas são fictícios. Arte gerada com Google Gemini (IA); história, letreiros e fatos por Verdict Picks. Não patrocinado por nenhuma marca. Nossos guias contêm links de afiliados: como Associados da Amazon, ganhamos com compras qualificadas.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "O Aquecedor da Vó Tava Num Filtro de Linha 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Cai a primeira neve. A Vó June diz que está ótima. O aquecedor velho dela, ligado num filtro de linha, diz o contrário.\n\nVerdict Picks Toon, Episódio 2. Nossa avaliação completa do aquecedor elétrico Dreo, com regras de segurança e checagem de recall:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFatos neste Short: A CPSC diz para nunca ligar um aquecedor elétrico em uma extensão ou filtro de linha, mantê-lo a 90 cm (três pés) de cortinas, móveis e roupas de cama, e desligá-lo ao dormir ou sair (CPSC, NFPA). Aviso de recall da CPSC 27-054, 29 de outubro de 2026: Dreo DR-HSH015, cerca de 338.800 unidades, risco de incêndio e queimaduras.\n\nPersonagens e cenas são fictícios. Arte e vozes geradas com Google Gemini (IA); roteiro, textos e fatos por Verdict Picks. Não patrocinado por nenhuma marca. Nossos guias contêm links de afiliados: como Associados da Amazon, ganhamos com compras qualificadas.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "aquecedor elétrico",
+    "aquecedor de ambiente",
+    "segurança aquecedor",
+    "aquecedor Dreo",
+    "recall aquecedor",
+    "segurança no inverno",
+    "filtro de linha",
+    "CPSC",
+    "webtoon",
+    "história animada",
+    "guia de compras",
+    "dicas de segurança"
+   ]
   },
   "fr": {
-   "title": "Le radiateur de mamie branché sur une multiprise 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "Les premières neiges tombent. Mamie June dit qu'elle va bien. Son vieux radiateur, branché sur une multiprise, prouve le contraire.\n\nVerdict Picks Toon, Épisode 2. Notre test complet du radiateur d'appoint Dreo, avec les règles de sécurité et les avis de rappel :\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFaits dans ce Short : la CPSC indique de ne jamais brancher un radiateur d'appoint sur une rallonge ou une multiprise, de le tenir à trois pieds des rideaux, des meubles et de la literie, et de l'éteindre quand vous dormez ou partez (CPSC, NFPA). Avis de rappel CPSC 27-054, 29 octobre 2026 : Dreo DR-HSH015, environ 338,800 units, risque d'incendie et de brûlure.\n\nLes personnages et les scènes sont fictifs. Illustrations générées avec Google Gemini (IA) ; histoire, lettrage et faits par Verdict Picks. Non sponsorisé par une marque. Nos guides contiennent des liens affiliés : en tant que Partenaire Amazon, nous percevons une commission sur les achats éligibles.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "Le radiateur de Mamie était sur une multiprise 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Les premières neiges tombent. Mamie June dit qu'elle va bien. Son vieux radiateur électrique, branché sur une multiprise, n'est pas du même avis.\n\nVerdict Picks Toon, Épisode 2. Notre test complet du radiateur électrique Dreo, avec les consignes de sécurité et la vérification des rappels :\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFaits dans ce Short : la CPSC indique de ne jamais brancher un radiateur électrique sur une rallonge ou une multiprise, de le garder à près d'un mètre (trois pieds) des rideaux, meubles et de la literie, et de l'éteindre quand vous dormez ou partez (CPSC, NFPA). Avis de rappel de la CPSC 27-054, 29 octobre 2026 : Dreo DR-HSH015, environ 338 800 unités, risque d'incendie et de brûlure.\n\nLes personnages et les scènes sont fictifs. Illustrations et voix générées avec Google Gemini (IA) ; histoire, lettrage et faits par Verdict Picks. Non sponsorisé par aucune marque. Nos guides contiennent des liens affiliés : en tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "radiateur électrique",
+    "chauffage d'appoint",
+    "radiateur Dreo",
+    "rappel radiateur",
+    "sécurité hiver",
+    "sécurité maison",
+    "multiprise",
+    "CPSC",
+    "webtoon",
+    "histoire animée",
+    "guide d'achat",
+    "chauffage électrique"
+   ]
   },
   "de": {
-   "title": "Omas Heizgerät steckte in einer Mehrfachsteckdose 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "Der erste Schnee fällt. Oma June sagt, es geht ihr gut. Ihr altes Heizgerät, das in einer Mehrfachsteckdose steckt, sagt etwas anderes.\n\nVerdict Picks Toon, Episode 2. Unser vollständiger Testbericht zum Dreo-Heizgerät mit Sicherheitsregeln und Rückruf-Check:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFakten in diesem Short: CPSC sagt, man solle ein Heizgerät niemals an ein Verlängerungskabel oder eine Mehrfachsteckdose anschließen, einen Abstand von drei Fuß zu Vorhängen, Möbeln und Bettzeug einhalten und es ausschalten, wenn man schläft oder das Haus verlässt (CPSC, NFPA). CPSC-Rückrufmitteilung 27-054, 29. Oktober 2026: Dreo DR-HSH015, ca. 338.800 Einheiten, Brand- und Verbrennungsgefahr.\n\nCharaktere und Szenen sind fiktiv. Bilder mit Google Gemini (KI) generiert; Geschichte, Lettering und Fakten von Verdict Picks. Von keiner Marke gesponsert. Unsere Ratgeber enthalten Affiliate-Links: Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "Omas Heizlüfter steckte in einer Mehrfachsteckdose 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Der erste Schnee fällt. Oma June sagt, es geht ihr gut. Ihr alter Heizlüfter, der in einer Mehrfachsteckdose steckt, behauptet das Gegenteil.\n\nVerdict Picks Toon, Episode 2. Unser vollständiger Testbericht zum Dreo Heizlüfter mit Sicherheitsregeln und Rückruf-Check:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFakten in diesem Short: Laut CPSC darf ein Heizlüfter niemals an ein Verlängerungskabel oder eine Mehrfachsteckdose angeschlossen werden. Halte ihn mindestens drei Fuß (ca. 1 Meter) von Vorhängen, Möbeln und Bettzeug entfernt und schalte ihn aus, wenn du schläfst oder den Raum verlässt (CPSC, NFPA). CPSC Rückrufmeldung 27-054, 29. Oktober 2026: Dreo DR-HSH015, ca. 338.800 Einheiten, Brand- und Verbrennungsgefahr.\n\nCharaktere und Szenen sind fiktiv. Kunst und Stimmen wurden mit Google Gemini (KI) generiert; Geschichte, Texte und Fakten von Verdict Picks. Von keiner Marke gesponsert. Unsere Ratgeber enthalten Affiliate-Links: Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "Heizlüfter",
+    "Elektroheizung",
+    "Heizlüfter Sicherheit",
+    "Dreo Heizlüfter",
+    "Heizung Rückruf",
+    "Winter Sicherheit",
+    "Mehrfachsteckdose",
+    "CPSC",
+    "Webtoon",
+    "animierte Geschichte",
+    "Kaufberatung",
+    "Dreo",
+    "Heizstrahler"
+   ]
   },
   "ja": {
-   "title": "おばあちゃんのヒーターが電源タップに繋がれていた 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "初雪が降る日。ジューンおばあちゃんは大丈夫だと言いますが、電源タップに繋がれた古いヒーターはそうは言っていません。\n\nVerdict Picks Toon、第2話。安全な使用方法とリコール確認を含む、Dreo電気ヒーターの完全なレビューはこちら：\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nこの動画の事実：CPSCは、電気ヒーターを延長コードや電源タップには絶対に接続せず、カーテンや家具、寝具から3フィート離し、就寝時や外出時には電源を切るよう呼びかけています（CPSC、NFPA）。CPSCリコール通知 27-054（2026年10月29日）：Dreo DR-HSH015、約338,800 units、火災および火傷の危険。\n\n登場人物やシーンは架空のものです。アートはGoogle Gemini (AI) によって生成され、ストーリー、文字入れ、事実はVerdict Picksによるものです。特定のブランドのスポンサーは受けていません。当ガイドにはアフィリエイトリンクが含まれており、Amazonアソシエイトとして適格販売により収入を得ています。\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "おばあちゃんのヒーターが電源タップに繋がれてる🔥 | Verdict Picks Toon 第2話 #Shorts",
+   "description": "初雪が降る。ジューンおばあちゃんは「大丈夫よ」と言うけれど、電源タップに繋がれた彼女の古いヒーターはそうは言ってないみたい。\n\nVerdict Picks Toon 第2話。安全ルールやリコール確認も網羅した、Dreo電気ヒーターの完全版レビューはこちら：\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nこのShortsの事実確認：CPSCは、電気ヒーターを延長コードや電源タップに絶対に繋がないこと、カーテンや家具、寝具から3フィート（約90cm）離すこと、そして就寝時や外出時には電源を切ることを推奨しています（CPSC、NFPA）。CPSCリコール通知 27-054（2026年10月29日）：Dreo DR-HSH015、約338,800台、火災および火傷の危険。\n\n登場人物および設定はフィクションです。イラストと音声はGoogle Gemini（AI）によって生成されました。ストーリー、文字、事実確認はVerdict Picksによるものです。特定のブランドの提供ではありません。私たちのガイドにはアフィリエイトリンクが含まれており、Amazonアソシエイトとして適格販売により収入を得ています。\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "電気ヒーター",
+    "セラミックヒーター",
+    "Dreo ヒーター",
+    "暖房器具",
+    "電源タップ",
+    "リコール情報",
+    "冬の安全対策",
+    "火災予防",
+    "CPSC",
+    "家電レビュー",
+    "アニメーション",
+    "ウェブトゥーン"
+   ]
   },
   "ko": {
    "title": "할머니의 히터가 멀티탭에 꽂혀 있었어요 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "첫눈이 내립니다. June 할머니는 괜찮다고 하시네요. 하지만 멀티탭에 꽂혀 있는 낡은 히터는 그렇지 않아 보입니다.\n\nVerdict Picks Toon, 에피소드 2. 안전 수칙과 리콜 확인이 포함된 Dreo 전기 히터 전체 리뷰를 확인하세요:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\n이 쇼츠의 팩트: CPSC는 전기 히터를 연장 코드나 멀티탭에 꽂지 말고, 커튼, 가구, 침구류에서 3피트 떨어뜨려 놓으며, 자거나 외출할 때는 반드시 끄라고 권고합니다 (CPSC, NFPA). CPSC 리콜 공지 27-054, 2026년 10월 29일: Dreo DR-HSH015, 약 338,800 units, 화재 및 화상 위험.\n\n등장인물과 장면은 허구입니다. 아트워크는 Google Gemini (AI)로 생성되었으며, 스토리, 레터링 및 팩트 체크는 Verdict Picks에서 담당했습니다. 어떤 브랜드의 협찬도 받지 않았습니다. 저희 가이드에는 제휴 링크가 포함되어 있으며, Amazon Associate로서 적격 구매를 통해 수익을 창출합니다.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "description": "첫눈이 내립니다. 준(June) 할머니는 괜찮다고 하시네요. 하지만 멀티탭에 꽂혀 있는 할머니의 낡은 히터는 비명을 지르고 있습니다.\n\nVerdict Picks Toon, 에피소드 2. 안전 수칙 및 리콜 확인을 포함한 Dreo 전기 히터(온풍기) 전체 리뷰:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\n이번 쇼츠 팩트 체크: CPSC는 전기 히터를 멀티탭이나 연장 코드에 절대 꽂지 말고, 커튼, 가구, 침구류로부터 3피트 이상 떨어뜨려 놓아야 하며, 잠을 자거나 외출할 때는 반드시 전원을 끄라고 권고합니다(CPSC, NFPA). CPSC 리콜 공지 27-054, 2026년 10월 29일: Dreo DR-HSH015, 화재 및 화상 위험으로 약 338,800대 리콜.\n\n등장인물과 장면은 허구입니다. 아트와 목소리는 Google Gemini(AI)로 생성되었으며, 스토리, 레터링 및 팩트 체크는 Verdict Picks에서 제작했습니다. 어떠한 브랜드의 협찬도 받지 않았습니다. 저희 가이드에는 제휴 링크가 포함되어 있으며, 아마존 어소시에이트(Amazon Associate)로서 적격 구매를 통해 수수료를 제공받을 수 있습니다.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "전기히터 안전",
+    "전기히터",
+    "Dreo 히터",
+    "히터 리콜",
+    "겨울철 안전",
+    "멀티탭 화재",
+    "CPSC",
+    "웹툰",
+    "애니메이션 스토리",
+    "온풍기 추천",
+    "겨울 난방",
+    "가정용 온풍기"
+   ]
   },
   "zh-Hans": {
-   "title": "奶奶的电暖器居然插在插线板上 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "初雪降临。June奶奶说她很好。但她那台插在插线板上的旧电暖器可不这么想。\n\nVerdict Picks Toon，第2集。我们的完整 Dreo 电暖器评测，包含安全指南和召回查询：\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\n本短片事实：CPSC 提醒绝对不要将电暖器插在延长线或插线板上，使其与窗帘、家具和床上用品保持 3 feet 的距离，并在睡觉或离开时将其关闭（CPSC，NFPA）。CPSC 召回通知 27-054，2026年10月29日：Dreo DR-HSH015，约 338,800 units，存在火灾和烧伤危险。\n\n角色和场景纯属虚构。插画由 Google Gemini (AI) 生成；故事、字幕和事实由 Verdict Picks 提供。未获任何品牌赞助。我们的指南包含联盟链接：作为 Amazon 联盟成员，我们从符合条件的购买中赚取收益。\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "奶奶的取暖器竟然插在排插上🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "初雪降临。June奶奶说她没问题。但她那个插在排插上的旧取暖器可不这么想。\n\nVerdict Picks Toon 第2集。我们完整的 Dreo 取暖器评测，包含安全守则和召回检查：\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\n本期短片科普：CPSC表示，绝对不要把取暖器插在延长线或排插上，请使其与窗帘、家具和床上用品保持三英尺的距离，并在睡觉或离开时将其关闭 (CPSC, NFPA)。CPSC 召回通知 27-054，2026年10月29日：Dreo DR-HSH015，约338,800台，存在火灾和烫伤隐患。\n\n角色和场景纯属虚构。美术和配音由 Google Gemini (AI) 生成；故事、字幕和事实由 Verdict Picks 制作。未受任何品牌赞助。我们的指南包含联盟链接：作为 Amazon Associate，我们从符合条件的购买中赚取收益。\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "取暖器安全",
+    "电暖器",
+    "取暖器",
+    "Dreo取暖器",
+    "取暖器召回",
+    "冬季安全",
+    "居家安全",
+    "排插",
+    "CPSC",
+    "条漫",
+    "动画故事",
+    "选购指南"
+   ]
   },
   "hi": {
    "title": "दादी का हीटर पावर स्ट्रिप में लगा था 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "पहली बर्फबारी होती है। दादी जून कहती हैं कि वह ठीक हैं। लेकिन उनका पुराना रूम हीटर, जो एक पावर स्ट्रिप में लगा है, कुछ और ही कहता है।\n\nVerdict Picks Toon, Episode 2. सुरक्षा नियमों और रिकॉल चेक के साथ हमारा पूरा Dreo रूम हीटर रिव्यू:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nइस शॉर्ट में तथ्य: CPSC का कहना है कि रूम हीटर को कभी भी एक्सटेंशन कॉर्ड या पावर स्ट्रिप में प्लग न करें, इसे पर्दों, फर्नीचर और बिस्तर से तीन फीट दूर रखें, और सोते समय या बाहर जाते समय इसे बंद कर दें (CPSC, NFPA)। CPSC रिकॉल नोटिस 27-054, 29 अक्टूबर 2026: Dreo DR-HSH015, लगभग 338,800 units, आग और जलने का खतरा।\n\nपात्र और दृश्य काल्पनिक हैं। कला Google Gemini (AI) द्वारा जनरेट की गई है; कहानी, लेटरिंग और तथ्य Verdict Picks द्वारा। किसी भी ब्रांड द्वारा प्रायोजित नहीं। हमारे गाइड में एफिलिएट लिंक हैं: एक Amazon Associate के रूप में हम योग्य खरीदारी से कमाते हैं।\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "description": "पहली बर्फबारी शुरू। दादी जून कहती हैं वो ठीक हैं। लेकिन उनका पुराना हीटर, जो एक पावर स्ट्रिप में लगा है, कुछ और ही कह रहा है।\n\nVerdict Picks Toon, एपिसोड 2. सुरक्षा नियमों और रिकॉल चेक के साथ हमारा पूरा Dreo रूम हीटर रिव्यू:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nइस Short के तथ्य: CPSC का कहना है कि रूम हीटर को कभी भी एक्सटेंशन कॉर्ड या पावर स्ट्रिप में न लगाएं, इसे पर्दे, फर्नीचर और बिस्तर से तीन फीट दूर रखें, और सोते समय या कमरे से बाहर जाते समय इसे बंद कर दें (CPSC, NFPA)। CPSC रिकॉल नोटिस 27-054, 29 अक्टूबर 2026: Dreo DR-HSH015, लगभग 338,800 यूनिट्स, आग और जलने का खतरा।\n\nपात्र और दृश्य काल्पनिक हैं। आर्ट और आवाज़ें Google Gemini (AI) से जनरेट की गई हैं; कहानी, लेटरिंग और तथ्य Verdict Picks द्वारा। किसी ब्रांड द्वारा प्रायोजित नहीं। हमारे गाइड्स में एफिलिएट लिंक्स हैं: एक Amazon Associate के रूप में हम योग्य खरीदारी से कमाते हैं।\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "रूम हीटर",
+    "इलेक्ट्रिक हीटर",
+    "room heater hindi",
+    "Dreo heater",
+    "हीटर सुरक्षा",
+    "सर्दियों की सेफ्टी",
+    "पावर स्ट्रिप",
+    "CPSC",
+    "वेबटून",
+    "एनिमेटेड कहानी",
+    "स्पेस हीटर",
+    "हीटर रिकॉल",
+    "buying guide hindi"
+   ]
   },
   "id": {
-   "title": "Pemanas Nenek Dicolok ke Stopkontak Cabang 🔥 | Verdict Picks Toon Ep.2 #Shorts",
-   "description": "Salju pertama turun. Nenek June bilang dia baik-baik saja. Pemanas ruangan lamanya, yang dicolokkan ke stopkontak cabang, berkata sebaliknya.\n\nVerdict Picks Toon, Episode 2. Ulasan lengkap pemanas ruangan listrik Dreo kami, dengan aturan keselamatan dan cek penarikan produk:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFakta di Short ini: CPSC melarang mencolokkan pemanas ruangan listrik ke kabel ekstensi atau stopkontak cabang, pastikan jaraknya tiga kaki dari tirai, furnitur, dan tempat tidur, serta matikan saat Anda tidur atau bepergian (CPSC, NFPA). Pemberitahuan penarikan CPSC 27-054, 29 Oktober 2026: Dreo DR-HSH015, sekitar 338,800 unit, bahaya kebakaran dan luka bakar.\n\nKarakter dan adegan hanyalah fiktif. Gambar dibuat dengan Google Gemini (AI); cerita, teks, dan fakta oleh Verdict Picks. Tidak disponsori oleh merek apa pun. Panduan kami berisi tautan afiliasi: sebagai Amazon Associate, kami mendapat komisi dari pembelian yang memenuhi syarat.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "Pemanas Nenek Dicolok ke Kabel Rol 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Salju pertama turun. Nenek June bilang dia baik-baik saja. Pemanas ruangan lamanya, yang dicolokkan ke kabel rol, seolah bilang sebaliknya.\n\nVerdict Picks Toon, Episode 2. Ulasan lengkap pemanas ruangan listrik Dreo dari kami, beserta aturan keselamatan dan cek penarikan produk (recall):\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nFakta dalam Short ini: CPSC melarang keras mencolokkan pemanas ruangan listrik ke kabel ekstensi atau kabel rol, jauhkan dengan jarak tiga kaki dari gorden, furnitur, dan seprai, serta matikan saat kamu tidur atau pergi (CPSC, NFPA). Pemberitahuan penarikan CPSC 27-054, 29 Oktober 2026: Dreo DR-HSH015, sekitar 338.800 unit, bahaya kebakaran dan luka bakar.\n\nKarakter dan adegan hanyalah fiktif. Gambar dan suara dibuat dengan Google Gemini (AI); cerita, teks, dan fakta oleh Verdict Picks. Tidak disponsori oleh merek apa pun. Panduan kami berisi tautan afiliasi: sebagai Amazon Associate kami mendapat penghasilan dari pembelian yang memenuhi syarat.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "keselamatan pemanas ruangan",
+    "pemanas ruangan listrik",
+    "pemanas ruangan",
+    "pemanas Dreo",
+    "recall pemanas",
+    "keselamatan musim dingin",
+    "kabel rol",
+    "CPSC",
+    "webtoon",
+    "cerita animasi",
+    "panduan beli",
+    "bahaya kebakaran"
+   ]
   },
   "vi": {
-   "title": "Máy sưởi của bà cắm vào ổ điện nối dài 🔥 | Verdict Picks Toon Tập 2 #Shorts",
-   "description": "Đợt tuyết đầu mùa rơi. Bà June bảo bà vẫn ổn. Nhưng chiếc máy sưởi cũ cắm vào ổ điện nối dài của bà lại nói lên điều ngược lại.\n\nVerdict Picks Toon, Tập 2. Bài đánh giá chi tiết máy sưởi Dreo của chúng tôi, cùng các quy tắc an toàn và kiểm tra thu hồi sản phẩm:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nThông tin trong Video ngắn này: CPSC khuyên tuyệt đối không cắm máy sưởi vào dây nguồn nối dài hoặc ổ điện đa năng, giữ khoảng cách 3 feet với rèm cửa, đồ nội thất và chăn ga gối đệm, đồng thời tắt máy khi đi ngủ hoặc đi ra ngoài (CPSC, NFPA). Thông báo thu hồi của CPSC 27-054, ngày 29 tháng 10 năm 2026: Dreo DR-HSH015, khoảng 338,800 sản phẩm, nguy cơ hỏa hoạn và bỏng.\n\nCác nhân vật và bối cảnh đều là hư cấu. Hình ảnh được tạo bởi Google Gemini (AI); cốt truyện, chữ viết và thông tin thực tế bởi Verdict Picks. Không được tài trợ bởi bất kỳ thương hiệu nào. Các bài hướng dẫn của chúng tôi có chứa liên kết tiếp thị: với tư cách là Cộng tác viên Amazon, chúng tôi kiếm được hoa hồng từ các giao dịch mua đủ điều kiện.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon"
+   "title": "Máy Sưởi Của Bà Cắm Vào Ổ Nối Dài 🔥 | Verdict Picks Toon Ep.2 #Shorts",
+   "description": "Đợt tuyết đầu mùa rơi. Bà June bảo bà vẫn ổn. Nhưng chiếc máy sưởi cũ của bà, cắm vào ổ điện nối dài, thì không hề ổn chút nào.\n\nVerdict Picks Toon, Tập 2. Bài đánh giá toàn diện về máy sưởi điện Dreo của chúng tôi, kèm theo các quy tắc an toàn và kiểm tra thu hồi sản phẩm:\nhttps://acts39.blogspot.com/2026/10/dreo-space-heater-review-2026.html\n\nThông tin thực tế trong video Short này: CPSC khuyến cáo không bao giờ được cắm máy sưởi điện vào dây nối dài hoặc ổ cắm nhiều lỗ, đặt cách xa rèm cửa, đồ nội thất và giường ngủ khoảng 3 feet (gần 1 mét), và tắt máy khi đi ngủ hoặc ra ngoài (theo CPSC, NFPA). Thông báo thu hồi số 27-054 của CPSC, ngày 29 tháng 10 năm 2026: Dreo DR-HSH015, khoảng 338.800 sản phẩm, do nguy cơ cháy nổ và bỏng.\n\nCác nhân vật và cảnh vật đều là hư cấu. Hình ảnh và giọng nói được tạo bởi Google Gemini (AI); cốt truyện, chữ và thông tin thực tế bởi Verdict Picks. Không được tài trợ bởi bất kỳ thương hiệu nào. Các bài hướng dẫn của chúng tôi có chứa liên kết tiếp thị: với tư cách là Cộng tác viên của Amazon, chúng tôi kiếm được tiền hoa hồng từ các giao dịch mua đủ điều kiện.\n\n#Shorts #SpaceHeater #WinterSafety #HomeSafety #Webtoon",
+   "tags": [
+    "máy sưởi điện",
+    "quạt sưởi ấm",
+    "an toàn máy sưởi",
+    "máy sưởi Dreo",
+    "Dreo heater",
+    "thu hồi máy sưởi",
+    "an toàn mùa đông",
+    "ổ cắm điện nối dài",
+    "CPSC",
+    "webtoon",
+    "truyện tranh mạng",
+    "kinh nghiệm mua máy sưởi"
+   ]
   }
  }
 }

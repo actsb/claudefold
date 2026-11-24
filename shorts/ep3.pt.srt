@@ -1,56 +1,60 @@
 1
-00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: Quem está na porta, Vovó?
+00:00:00,150 --> 00:00:04,351
+A Vó June não consegue ver a varanda. Jo quer resolver isso sem pagar mensalidade.
 
 2
-00:00:02,400 --> 00:00:05,680
-Varanda da Vovó June. Terça-feira, 14h10.
+00:00:04,851 --> 00:00:06,013
+Terça-feira, 14h10.
 
 3
-00:00:05,830 --> 00:00:08,278
+00:00:06,413 --> 00:00:07,993
 Tinha alguém na porta?
 
 4
-00:00:08,428 --> 00:00:11,708
-Vovó, vamos instalar uma campainha de vídeo para você.
+00:00:08,393 --> 00:00:10,547
+Vó, vamos colocar uma campainha com vídeo pra senhora.
 
 5
-00:00:11,858 --> 00:00:16,386
-O problema: muitas campainhas só salvam o vídeo se você pagar um plano.
+00:00:10,947 --> 00:00:14,228
+O problema: muitas campainhas só salvam os vídeos se você pagar um plano.
 
 6
-00:00:16,536 --> 00:00:22,236
-O Ring sem plano é uma câmera ao vivo, não um gravador. Vídeo salvo custa a mais: Ring Solo é $49.99 por ano (ring.com).
+00:00:14,628 --> 00:00:19,516
+Vídeos salvos custam a mais. O Ring Solo sai por $49.99 ao ano, diz o ring.com.
 
 7
-00:00:22,386 --> 00:00:28,086
-O custo em três anos: eufy E340, sem plano $119.99; Ring com plano Solo $189.96; Nest com Premium $499.99; Ring com plano Pro $639.96. Preço da campainha mais três anos de taxas de plano, do nosso guia abaixo (preços da Target e fabricantes, 11 de novembro de 2026).
+00:00:19,916 --> 00:00:26,353
+Ao longo de três anos, o Ring com o plano Pro fica em $639.96 baseado nos preços da Target e fabricante, 11 de novembro de 2026.
 
 8
-00:00:28,236 --> 00:00:31,204
-$639.96 para vigiar a varanda da Vovó?!
+00:00:26,753 --> 00:00:30,286
+$639.96 só pra vigiar a varanda da Vó?!
 
 9
-00:00:31,354 --> 00:00:36,506
-A eufy E340 salva cerca de 90 dias de clipes em 8 GB internos. Sem mensalidade (eufy).
+00:00:30,686 --> 00:00:35,406
+A eufy E340 salva uns 90 dias de vídeos nos 8 GB de espaço interno. Sem mensalidade, segundo a eufy.
 
 10
-00:00:36,656 --> 00:00:39,520
-Olha só para você, meu pequeno engenheiro.
+00:00:35,806 --> 00:00:39,146
+Olha só pra você, meu pequeno engenheiro.
 
 11
-00:00:39,670 --> 00:00:42,222
-Consigo ver a varanda toda!
+00:00:39,546 --> 00:00:41,389
+Consigo ver a varanda inteirinha!
 
 12
-00:00:42,372 --> 00:00:48,072
-O problema de toda campainha a bateria: em portas movimentadas, a carga dura semanas, não meses. Vou carregar aos domingos, quando vier visitar.
+00:00:41,789 --> 00:00:44,555
+Em uma porta movimentada, a bateria dura semanas, não meses.
 
 13
-00:00:48,222 --> 00:00:50,826
-Eu sei exatamente quem é.
+00:00:44,675 --> 00:00:46,346
+Eu recarrego aos domingos, quando vier visitar.
 
 14
-00:00:50,976 --> 00:00:53,676
-Qual campainha funciona sem plano? Seis opções e os custos para três anos estão abaixo. Link na descrição.
+00:00:46,746 --> 00:00:48,649
+Eu sei direitinho quem é.
+
+15
+00:00:49,049 --> 00:00:52,454
+Qual campainha funciona sem plano? Guia completo e fontes: link na descrição.
 

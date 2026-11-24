@@ -1,56 +1,60 @@
 1
-00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: ¿Quién está en la puerta, abuela?
+00:00:00,150 --> 00:00:04,351
+La abuela June no puede ver su porche. Jo quiere solucionarlo sin pagar una cuota mensual.
 
 2
-00:00:02,400 --> 00:00:05,680
-Porche de la abuela June. Martes, 2:10 p.m.
+00:00:04,851 --> 00:00:06,013
+Martes, 2:10 p.m.
 
 3
-00:00:05,830 --> 00:00:08,278
+00:00:06,413 --> 00:00:07,993
 ¿Había alguien en la puerta?
 
 4
-00:00:08,428 --> 00:00:11,708
-Abuela, vamos a comprarte un timbre con video.
+00:00:08,393 --> 00:00:10,547
+Abuela, vamos a ponerte un timbre con cámara.
 
 5
-00:00:11,858 --> 00:00:16,386
-La trampa: muchos timbres guardan el video solo si pagas un plan.
+00:00:10,947 --> 00:00:14,228
+El problema: muchos timbres solo guardan el video si pagas un plan.
 
 6
-00:00:16,536 --> 00:00:22,236
-Un Ring sin plan es una cámara en vivo, no graba. Guardar el video cuesta extra: Ring Solo es $49.99 al año (ring.com).
+00:00:14,628 --> 00:00:19,516
+Guardar video cuesta extra. Ring Solo vale $49.99 al año, según ring.com.
 
 7
-00:00:22,386 --> 00:00:28,086
-Costo a tres años: eufy E340, sin plan $119.99; Ring con plan Solo $189.96; Nest con Premium $499.99; Ring con plan Pro $639.96. Precio del timbre más tres años de plan, según nuestra guía abajo (precios de Target y fabricantes, 11 de noviembre de 2026).
+00:00:19,916 --> 00:00:26,353
+En tres años, Ring con el plan Pro suma $639.96 según precios de Target y fabricantes al 11 de noviembre de 2026.
 
 8
-00:00:28,236 --> 00:00:31,204
+00:00:26,753 --> 00:00:30,286
 ¡¿$639.96 para vigilar el porche de la abuela?!
 
 9
-00:00:31,354 --> 00:00:36,506
-El eufy E340 guarda unos 90 días de clips en sus 8 GB internos. Sin cuotas (eufy).
+00:00:30,686 --> 00:00:35,406
+El eufy E340 guarda unos 90 días de clips en sus 8 GB de memoria. Sin cuotas, según eufy.
 
 10
-00:00:36,656 --> 00:00:39,520
-Mírate, mi pequeño ingeniero.
+00:00:35,806 --> 00:00:39,146
+Pero mírate, mi pequeña ingeniera.
 
 11
-00:00:39,670 --> 00:00:42,222
+00:00:39,546 --> 00:00:41,389
 ¡Puedo ver todo el porche!
 
 12
-00:00:42,372 --> 00:00:48,072
-La trampa de los timbres con batería: en puertas muy usadas, la carga dura semanas, no meses. Lo cargaré los domingos cuando te visite.
+00:00:41,789 --> 00:00:44,555
+En una puerta muy concurrida, la batería dura semanas, no meses.
 
 13
-00:00:48,222 --> 00:00:50,826
-Sé exactamente quién es.
+00:00:44,675 --> 00:00:46,346
+Lo cargaré los domingos, cuando venga a visitarte.
 
 14
-00:00:50,976 --> 00:00:53,676
-¿Qué timbre funciona sin un plan? Abajo tienes seis opciones y los costos a tres años. Enlace en la descripción.
+00:00:46,746 --> 00:00:48,649
+Sé exactamente quién es.
+
+15
+00:00:49,049 --> 00:00:52,454
+¿Qué timbre funciona sin un plan? Guía completa y fuentes: enlace en la descripción.
 

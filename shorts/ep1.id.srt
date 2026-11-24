@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: Robot yang Tak Bisa Melihat Anda
+00:00:00,150 --> 00:00:03,584
+Sam pengen beli robot vacuum di Black Friday ini. Tapi apa robotnya merekammu?
 
 2
-00:00:01,928 --> 00:00:05,969
-Minggu Black Friday. Pukul 23.48. Robot vacuum lagi diskon. Selamat tinggal, bulu anjing!
+00:00:04,084 --> 00:00:06,966
+23:48. Selamat tinggal, bulu anjing!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: foto dari robot vacuum uji coba tersebar online (MIT Technology Review). 2026: robot yang diretas tampilkan siaran kamera langsung (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022: foto yang diambil oleh robot vacuum uji coba tersebar online, kata MIT Technology Review. 2026: robot yang diretas nampilin siaran kamera langsung, kata Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
-Tunggu. Vacuum-ku punya KAMERA?
+00:00:16,573 --> 00:00:19,175
+Tunggu. Vacuum-ku bakal punya KAMERA?
 
 5
-00:00:13,417 --> 00:00:16,266
-Banyak robot menghindari barang yang berantakan dengan memotretnya.
+00:00:19,575 --> 00:00:21,322
+Banyak yang hindari barang berantakan dengan cara memfotonya.
 
 6
-00:00:16,416 --> 00:00:20,991
-Ada cara lain: laser berputar. LiDAR. Ia mengukur jarak. Tak pernah memotret.
+00:00:21,722 --> 00:00:26,099
+LiDAR itu laser berputar. Cuma ngukur jarak, nggak pernah ambil foto.
 
 7
-00:00:21,141 --> 00:00:23,862
-Ia memetakan rumah Anda di tempat gelap. Tanpa gambar.
+00:00:26,499 --> 00:00:28,159
+Bisa memetakan ruangan dalam gelap. Tanpa gambar.
 
 8
-00:00:24,012 --> 00:00:26,351
-Tanpa kamera, tanpa masalah! Hampir selalu.
+00:00:28,559 --> 00:00:30,199
+Nggak ada kamera, nggak masalah dong!
 
 9
-00:00:26,501 --> 00:00:30,329
-Ia memindai setinggi turret-nya. Ia melihat sofa, bukan kaus kaki.
+00:00:30,319 --> 00:00:30,787
+Sebagian besar sih gitu.
 
 10
-00:00:30,479 --> 00:00:35,054
-Uji lab CNET, 13 November 2026: Roomba 205 Combo tanpa kamera hindari 1 dari 6; Roomba Combo 10 Max (kamera) hindari 6 dari 6. Sumber: CNET, best robot vacuums of 2026 (uji lab oleh Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Dia bisa lihat sofa, tapi nggak lihat kaus kaki.
 
 11
-00:00:35,204 --> 00:00:38,904
-Dan tak ada robot tanpa kamera di panduan kami yang menjanjikan bisa hindari kotoran hewan peliharaan.
+00:00:33,511 --> 00:00:42,063
+Kata CNET, uji lab 13 November 2026 nemuin Roomba 205 Combo tanpa kamera cuma bisa hindari 1 dari 6 objek; Roomba Combo 10 Max berhasil hindari 6 dari 6 objek.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT ITU ANAK ANJING!
+00:00:42,463 --> 00:00:45,798
+Nggak ada robot tanpa kamera yang janji bisa hindari kotoran hewan peliharaan.
 
 13
-00:00:40,904 --> 00:00:45,479
-Robot mana untuk rumah Anda?: Lantai rapi, privasi utama robot tanpa kamera; Anak anjing, hewan peliharaan sakit, kabel robot dengan kamera
+00:00:46,198 --> 00:00:47,408
+BISCUIT ITU MASIH ANAK ANJING!
 
 14
-00:00:45,629 --> 00:00:50,203
-Keesokan paginya. Aturan 30 detik: singkirkan kabel dan kaus kaki dari lantai sebelum mulai. Lantai sudah bersih, kawan. Ayo.
+00:00:47,808 --> 00:00:51,405
+Lantai rapi? Utamakan privasi, tanpa kamera. Punya anak anjing? Pilih robot berkamera.
 
 15
-00:00:50,353 --> 00:00:54,928
-Satu hal lagi: robot laser tetap mengirim peta lantai Anda ke cloud. Lewati program berbagi data di aplikasinya. Tanpa foto. Hanya kita.
+00:00:51,805 --> 00:00:54,127
+Aturan 30 detik: singkirkan kabel dari lantai. Ayo jalan.
 
 16
-00:00:55,078 --> 00:00:57,197
-Robot tanpa kamera mana yang harus Anda beli? Enam pilihan dibandingkan di bawah. Tautan di deskripsi.
+00:00:54,527 --> 00:00:57,667
+Peta lantai disimpan di cloud. Lewati aja program bagi-bagi data di aplikasinya!
+
+17
+00:00:58,067 --> 00:00:59,794
+Panduan lengkap dan sumber: cek link di deskripsi.
 

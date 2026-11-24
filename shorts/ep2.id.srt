@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon: Ruangan Hangat untuk Nenek June
+00:00:00,150 --> 00:00:02,889
+Salju pertama turun. Pemanas lama Nenek seolah bilang GAK.
 
 2
-00:00:02,239 --> 00:00:06,114
-Salju pertama tahun ini. Nenek Jo tinggal sendirian.
+00:00:03,389 --> 00:00:04,842
+Neneknya Jo tinggal sendirian.
 
 3
-00:00:06,264 --> 00:00:09,261
-Jangan khawatir, Nak. Nenek punya pemanas lama.
+00:00:05,242 --> 00:00:08,281
+Gak usah repot. Nenek punya pemanas yang lama.
 
 4
-00:00:09,411 --> 00:00:12,652
-Nenek... pemanas itu dicolok ke mana?
+00:00:08,681 --> 00:00:10,818
+Nenek... itu dicolok ke mana?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC: jangan pernah mencolokkan pemanas ruangan listrik ke kabel ekstensi atau stopkontak cabang.
+00:00:11,218 --> 00:00:15,212
+Jangan pernah colok pemanas ruangan listrik ke kabel ekstensi atau kabel rol, kata CPSC!
 
 6
-00:00:17,559 --> 00:00:20,263
-Nenek akan dapat yang baru. Malam ini juga.
+00:00:15,612 --> 00:00:17,455
+Dia bakal dapat yang baru. Malam ini juga.
 
 7
-00:00:20,413 --> 00:00:24,385
-Keputusan tepat. Satu hal yang harus dicek sebelum beli pemanas musim dingin ini.
+00:00:17,855 --> 00:00:20,778
+Keputusan bagus. Cek dulu sebelum beli pemanas apa pun.
 
 8
-00:00:24,535 --> 00:00:29,191
-Cari nomor model di label, lalu cek di daftar penarikan produk (recall).
+00:00:21,178 --> 00:00:23,056
+Cari nomor modelnya, cek pemberitahuan penarikan produk (recall).
 
 9
-00:00:29,341 --> 00:00:34,657
-Penarikan CPSC, 29 Oktober 2026: Dreo DR-HSH015 (hitam, remote) ditarik; Unit di AS sekitar 338,800; Bahaya kebakaran dan luka bakar. Sumber: CPSC notice 27-054. Dreo di ulasan kami adalah model yang berbeda; pastikan untuk mengecek model Anda dengan pemberitahuan tersebut.
+00:00:23,456 --> 00:00:34,928
+Pemberitahuan CPSC 27-054, 29 Oktober 2026: Dreo DR-HSH015, hitam, pakai remot, ditarik karena bahaya api dan luka bakar. Ada sekitar 338.800 unit di AS.
 
 10
-00:00:34,807 --> 00:00:38,096
-Kamu nyetir jauh-jauh ke sini? Nenek berharga buatku.
+00:00:35,328 --> 00:00:37,503
+Kamu nyetir jauh-jauh ke sini?
 
 11
-00:00:38,246 --> 00:00:43,292
-Langsung colok ke stopkontak dinding. Beri jarak tiga kaki dari tirai, furnitur, dan tempat tidur (CPSC).
+00:00:37,623 --> 00:00:38,696
+Demi Nenek, semuanya sepadan.
 
 12
-00:00:43,442 --> 00:00:48,390
-Atur di sekitar 68°F. Di mode Eco, alat berhenti memanas begitu ruangan mencapai suhu tersebut (Dreo).
+00:00:39,096 --> 00:00:43,397
+Colok langsung ke dinding! Beri jarak tiga kaki dari gorden, furnitur, dan seprai, menurut CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Akhirnya hangat.
+00:00:43,798 --> 00:00:48,256
+Atur di sekitar 68°F. Mode Eco bakal berhenti memanaskan kalau suhu ruangan udah pas, kata Dreo.
 
 14
-00:00:50,442 --> 00:00:55,195
-Matikan saat tidur atau pergi: CPSC dan NFPA menyarankan ini. Selamat malam, Nenek.
+00:00:48,656 --> 00:00:50,740
+Akhirnya hangat juga.
 
 15
-00:00:55,345 --> 00:00:57,846
-Apakah pemanas Dreo cocok untuk ruangan Anda? Ulasan lengkap kami ada di bawah. Link di deskripsi.
+00:00:51,140 --> 00:00:55,670
+Matikan saat tidur atau pergi, pesan CPSC dan NFPA. Selamat tidur, Nenek!
+
+16
+00:00:56,070 --> 00:00:58,434
+Panduan lengkap dan sumber: cek link di deskripsi!
 

@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon: Căn phòng ấm áp cho bà June
+00:00:00,150 --> 00:00:02,889
+Tuyết đầu mùa rơi. Nhưng máy sưởi cũ của bà lại "dở chứng".
 
 2
-00:00:02,239 --> 00:00:06,114
-Đợt tuyết đầu tiên trong năm. Bà của Jo sống một mình.
+00:00:03,389 --> 00:00:04,842
+Bà của Jo đang sống một mình.
 
 3
-00:00:06,264 --> 00:00:09,261
-Đừng bận tâm cháu yêu. Bà có chiếc máy sưởi cũ rồi.
+00:00:05,242 --> 00:00:08,281
+Đừng lo quá. Bà có cái máy sưởi cũ này rồi.
 
 4
-00:00:09,411 --> 00:00:12,652
-Bà ơi... máy sưởi đó đang cắm vào đâu vậy?
+00:00:08,681 --> 00:00:10,818
+Bà ơi... nó đang được cắm vào cái gì thế?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC: đừng bao giờ cắm máy sưởi vào dây nối hoặc ổ cắm đa năng.
+00:00:11,218 --> 00:00:15,212
+CPSC cảnh báo không bao giờ được cắm máy sưởi điện vào dây dẫn kéo dài hay ổ cắm nhiều lỗ đâu!
 
 6
-00:00:17,559 --> 00:00:20,263
-Phải mua cho bà cái mới. Ngay tối nay.
+00:00:15,612 --> 00:00:17,455
+Bà phải mua cái mới thôi. Ngay tối nay.
 
 7
-00:00:20,413 --> 00:00:24,385
-Quyết định chuẩn đấy. Nhớ kiểm tra kỹ trước khi mua máy sưởi mùa đông này.
+00:00:17,855 --> 00:00:20,778
+Quyết định chuẩn đấy. Nhớ kiểm tra kỹ trước khi mua bất kỳ máy sưởi nào.
 
 8
-00:00:24,535 --> 00:00:29,191
-Tìm mã model trên nhãn, rồi tra cứu trong thông báo thu hồi.
+00:00:21,178 --> 00:00:23,056
+Tìm số kiểu máy, kiểm tra thông báo thu hồi.
 
 9
-00:00:29,341 --> 00:00:34,657
-Thu hồi của CPSC, ngày 29 tháng 10, 2026: Dreo DR-HSH015 (màu đen, có remote) bị thu hồi; Số lượng tại Mỹ khoảng 338,800; Nguy cơ cháy và bỏng. Nguồn: thông báo CPSC 27-054. Máy sưởi Dreo trong bài đánh giá là model khác; hãy kiểm tra máy của bạn theo thông báo.
+00:00:23,456 --> 00:00:34,928
+Thông báo CPSC 27-054, ngày 29 tháng 10 năm 2026: Dreo DR-HSH015, màu đen, có remote, bị thu hồi do nguy cơ cháy và bỏng. Khoảng 338.800 máy tại Mỹ.
 
 10
-00:00:34,807 --> 00:00:38,096
-Cháu cất công lái xe đến tận đây sao? Vì bà thì hoàn toàn xứng đáng ạ.
+00:00:35,328 --> 00:00:37,503
+Cháu cất công lái xe đến tận đây sao?
 
 11
-00:00:38,246 --> 00:00:43,292
-Cắm trực tiếp vào ổ tường. Cách xa rèm, đồ nội thất và giường đệm 3 feet (CPSC).
+00:00:37,623 --> 00:00:38,696
+Vì bà xứng đáng mà.
 
 12
-00:00:43,442 --> 00:00:48,390
-Cài đặt ở mức 68°F. Ở chế độ Eco, máy sẽ ngừng sưởi khi phòng đạt nhiệt độ này (Dreo).
+00:00:39,096 --> 00:00:43,397
+Cắm trực tiếp vào tường luôn! Tránh xa rèm cửa, đồ nội thất và giường ngủ 3 feet, theo CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Cuối cùng cũng ấm rồi.
+00:00:43,798 --> 00:00:48,256
+Cài đặt tầm 68°F nhé. Theo Dreo, chế độ Eco sẽ tự ngắt khi phòng đạt đủ độ ấm.
 
 14
-00:00:50,442 --> 00:00:55,195
-Tắt máy khi ngủ hoặc ra ngoài: CPSC và NFPA đều khuyên vậy. Chúc bà ngủ ngon.
+00:00:48,656 --> 00:00:50,740
+Cuối cùng cũng ấm rồi.
 
 15
-00:00:55,345 --> 00:00:57,846
-Máy sưởi Dreo có hợp với phòng bạn không? Xem đánh giá chi tiết bên dưới. Link trong phần mô tả.
+00:00:51,140 --> 00:00:55,670
+Nhớ tắt khi bà ngủ hoặc đi ra ngoài nhé, CPSC và NFPA bảo thế. Chúc bà ngủ ngon!
+
+16
+00:00:56,070 --> 00:00:58,434
+Xem trọn bộ hướng dẫn và nguồn: link dưới phần mô tả nhé!
 

@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: O robô que não pode te ver
+00:00:00,150 --> 00:00:03,584
+O Sam quer um robô aspirador nesta Black Friday. Mas será que ele tá te filmando?
 
 2
-00:00:01,928 --> 00:00:05,969
-Semana de Black Friday. 23:48. Robôs aspiradores em promoção. Adeus, pelo de cachorro!
+00:00:04,084 --> 00:00:06,966
+23:48. Adeus, pelos de cachorro!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: fotos tiradas por robôs em teste foram postadas online (MIT Technology Review). 2026: robôs hackeados mostraram a câmera ao vivo (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022: fotos tiradas por robôs aspiradores em teste vazam online, diz o MIT Technology Review. 2026: robôs hackeados mostraram imagens da câmera ao vivo, diz o Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
-Espera. Meu aspirador teria uma CÂMERA?
+00:00:16,573 --> 00:00:19,175
+Peraí. Meu aspirador vai ter uma CÂMERA?
 
 5
-00:00:13,417 --> 00:00:16,266
-Muitos robôs desviam da bagunça fotografando-a.
+00:00:19,575 --> 00:00:21,322
+Muitos desviam da bagunça tirando foto dela.
 
 6
-00:00:16,416 --> 00:00:20,991
-Existe outro jeito: um laser giratório. LiDAR. Ele mede a distância. Nunca tira fotos.
+00:00:21,722 --> 00:00:26,099
+O LiDAR é um laser giratório. Ele mede a distância e nunca tira foto.
 
 7
-00:00:21,141 --> 00:00:23,862
-Ele mapeia sua casa no escuro. Sem fotos.
+00:00:26,499 --> 00:00:28,159
+Mapeia no escuro. Zero fotos.
 
 8
-00:00:24,012 --> 00:00:26,351
-Então, sem câmera, sem problema! Na maioria das vezes.
+00:00:28,559 --> 00:00:30,199
+Sem câmera, sem problema!
 
 9
-00:00:26,501 --> 00:00:30,329
-Ele escaneia na altura de sua torre. Ele vê o sofá, não a meia.
+00:00:30,319 --> 00:00:30,787
+Na maioria das vezes.
 
 10
-00:00:30,479 --> 00:00:35,054
-Teste de laboratório da CNET, 13 de novembro de 2026: Roomba 205 Combo sem câmera desviou de 1 de 6; Roomba Combo 10 Max (câmera) desviou de 6 de 6. Fonte: CNET, melhores robôs aspiradores de 2026 (teste por Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Ele enxerga o sofá, não a meia.
 
 11
-00:00:35,204 --> 00:00:38,904
-E nenhum robô sem câmera no nosso guia promete desviar de dejetos de pets.
+00:00:33,511 --> 00:00:42,063
+Segundo a CNET, num teste de laboratório em 13 de novembro de 2026, o Roomba 205 Combo sem câmera evitou 1 de 6 objetos; o Roomba Combo 10 Max evitou 6 de 6.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT É UM FILHOTE!
+00:00:42,463 --> 00:00:45,798
+Nenhum robô sem câmera promete desviar do 'presentinho' do pet.
 
 13
-00:00:40,904 --> 00:00:45,479
-Qual robô para a sua casa?: Chão arrumado, privacidade primeiro sem câmera; Filhote, pet doente, fios robô com câmera
+00:00:46,198 --> 00:00:47,408
+O BISCUIT É SÓ UM FILHOTE!
 
 14
-00:00:45,629 --> 00:00:50,203
-Manhã seguinte. Regra dos 30 segundos: tire fios e meias do chão antes de usar. Chão livre, amigão. Vamos lá.
+00:00:47,808 --> 00:00:51,405
+Chão arrumado? Privacidade em 1º lugar sem câmera. Tem filhote? Robô com câmera.
 
 15
-00:00:50,353 --> 00:00:54,928
-Mais uma coisa: um robô a laser ainda envia o mapa da sua casa para a nuvem. Pule o programa de dados no app. Sem fotos. Só nós.
+00:00:51,805 --> 00:00:54,127
+Regra de 30 segundos: fios fora do chão. Bora.
 
 16
-00:00:55,078 --> 00:00:57,197
-Qual robô sem câmera comprar? Seis opções comparadas abaixo. Link na descrição.
+00:00:54,527 --> 00:00:57,667
+Os mapas do chão vão pra nuvem. Pule o programa de compartilhamento de dados no app!
+
+17
+00:00:58,067 --> 00:00:59,794
+Guia completo e fontes: link na descrição.
 

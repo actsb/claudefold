@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon : Le robot qui ne vous voit pas
+00:00:00,150 --> 00:00:03,584
+Sam veut un aspirateur robot pour ce Black Friday. Mais est-ce qu'il vous filme ?
 
 2
-00:00:01,928 --> 00:00:05,969
-Semaine du Black Friday. 23h48. Les aspirateurs robots sont en promo. Adieu, poils de chien !
+00:00:04,084 --> 00:00:06,966
+23h48. Adieu, poils de chien !
 
 3
-00:00:06,119 --> 00:00:10,694
-2022 : des photos prises par des robots en test sont publiées en ligne (MIT Technology Review). 2026 : des robots piratés diffusent des vidéos en direct (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022 : des photos prises par des aspirateurs robots de test sont publiées en ligne, selon le MIT Technology Review. 2026 : des robots piratés ont diffusé des vidéos en direct, selon Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
-Attendez. Mon aspirateur aurait une CAMÉRA ?
+00:00:16,573 --> 00:00:19,175
+Attends. Mon aspirateur aurait une CAMÉRA ?
 
 5
-00:00:13,417 --> 00:00:16,266
-Beaucoup de robots évitent le désordre en le photographiant.
+00:00:19,575 --> 00:00:21,322
+Beaucoup évitent les objets qui traînent en les photographiant.
 
 6
-00:00:16,416 --> 00:00:20,991
-Il existe une autre méthode : un laser rotatif. LiDAR. Il mesure la distance. Il ne prend jamais de photo.
+00:00:21,722 --> 00:00:26,099
+Le LiDAR est un laser rotatif. Il mesure les distances, il ne prend jamais de photo.
 
 7
-00:00:21,141 --> 00:00:23,862
-Il cartographie votre maison dans le noir. Pas d'images.
+00:00:26,499 --> 00:00:28,159
+Il cartographie dans le noir. Pas d'images.
 
 8
-00:00:24,012 --> 00:00:26,351
-Donc sans caméra, pas de problème ! Ou presque.
+00:00:28,559 --> 00:00:30,199
+Pas de caméra, pas de problème !
 
 9
-00:00:26,501 --> 00:00:30,329
-Il balaie à la hauteur de sa tourelle. Il voit le canapé, pas la chaussette.
+00:00:30,319 --> 00:00:30,787
+Ou presque.
 
 10
-00:00:30,479 --> 00:00:35,054
-Test labo CNET, 13 novembre 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max (avec caméra) a évité 6 sur 6. Source : CNET, meilleurs aspirateurs robots de 2026 (test labo d'Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Il voit le canapé, pas la chaussette.
 
 11
-00:00:35,204 --> 00:00:38,904
-Et aucun robot sans caméra de notre guide ne promet d'éviter les excréments d'animaux.
+00:00:33,511 --> 00:00:42,063
+Selon CNET, un test en labo du 13 novembre 2026 montre que le Roomba 205 Combo sans caméra a évité 1 objet sur 6 ; le Roomba Combo 10 Max en a évité 6 sur 6.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT EST UN CHIOT !
+00:00:42,463 --> 00:00:45,798
+Aucun robot sans caméra ne promet d'éviter les crottes d'animaux.
 
 13
-00:00:40,904 --> 00:00:45,479
-Quel robot pour chez vous ? : Sol rangé, vie privée d'abord : sans caméra ; Chiot, animal malade, câbles : robot avec caméra
+00:00:46,198 --> 00:00:47,408
+BISCUIT EST UN CHIOT !
 
 14
-00:00:45,629 --> 00:00:50,203
-Le lendemain. La règle des 30 secondes : ramasser câbles et chaussettes avant chaque passage. Le sol est dégagé, mon grand. C'est parti.
+00:00:47,808 --> 00:00:51,405
+Un sol rangé ? La vie privée d'abord, pas de caméra. Un chiot ? Robot avec caméra.
 
 15
-00:00:50,353 --> 00:00:54,928
-Encore une chose : un robot laser envoie quand même votre plan sur le cloud. Ignorez le programme de partage de données dans l'application. Pas de photos. Juste nous.
+00:00:51,805 --> 00:00:54,127
+La règle des 30 secondes : pas de câbles au sol. C'est parti.
 
 16
-00:00:55,078 --> 00:00:57,197
-Quel robot sans caméra acheter ? Six choix, comparés ci-dessous. Lien en description.
+00:00:54,527 --> 00:00:57,667
+Les cartes de la maison vont sur le cloud. Refusez le programme de partage de données dans l'appli !
+
+17
+00:00:58,067 --> 00:00:59,794
+Guide complet et sources : lien dans la description.
 

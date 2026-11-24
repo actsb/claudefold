@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon: Ein warmes Zimmer für Oma June
+00:00:00,150 --> 00:00:02,889
+Der erste Schnee fällt. Omas alter Heizlüfter sagt NEIN.
 
 2
-00:00:02,239 --> 00:00:06,114
-Der erste Schnee des Jahres. Jos Großmutter lebt allein.
+00:00:03,389 --> 00:00:04,842
+Jos Oma lebt allein.
 
 3
-00:00:06,264 --> 00:00:09,261
-Mach dir keine Umstände, Kind. Ich habe mein altes Heizgerät.
+00:00:05,242 --> 00:00:08,281
+Mach keinen Aufstand. Ich habe meinen alten Heizlüfter.
 
 4
-00:00:09,411 --> 00:00:12,652
-Oma... woran ist das Heizgerät da angeschlossen?
+00:00:08,681 --> 00:00:10,818
+Oma... woran ist der denn angeschlossen?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC: Schließe ein Heizgerät nie an ein Verlängerungskabel oder eine Mehrfachsteckdose an.
+00:00:11,218 --> 00:00:15,212
+Steck einen Heizlüfter niemals in ein Verlängerungskabel oder eine Mehrfachsteckdose, sagt die CPSC!
 
 6
-00:00:17,559 --> 00:00:20,263
-Sie bekommt ein neues. Noch heute Abend.
+00:00:15,612 --> 00:00:17,455
+Sie bekommt einen neuen. Noch heute Abend.
 
 7
-00:00:20,413 --> 00:00:24,385
-Gute Idee. Ein Check, bevor du diesen Winter ein Heizgerät kaufst.
+00:00:17,855 --> 00:00:20,778
+Gute Entscheidung. Vor jedem Heizlüfter-Kauf erst prüfen.
 
 8
-00:00:24,535 --> 00:00:29,191
-Finde die Modellnummer auf dem Etikett und suche sie in den Rückrufmitteilungen.
+00:00:21,178 --> 00:00:23,056
+Modellnummer suchen, Rückrufmeldung checken.
 
 9
-00:00:29,341 --> 00:00:34,657
-CPSC-Rückruf, 29. Oktober 2026: Dreo DR-HSH015 (schwarz, mit Fernbedienung) zurückgerufen; ca. 338.800 Geräte in den USA; Gefahr von Brand und Verbrennung. Quelle: CPSC notice 27-054. Das Dreo in unserem Test ist ein anderes Modell; vergleiche deines mit der Mitteilung.
+00:00:23,456 --> 00:00:34,928
+CPSC-Meldung 27-054, 29. Oktober 2026: Dreo DR-HSH015, schwarz, Fernbedienung, zurückgerufen wegen Brand- und Verbrennungsgefahr. Etwa 338.800 Geräte in den USA.
 
 10
-00:00:34,807 --> 00:00:38,096
-Du bist den weiten Weg gefahren? Das bist du mir wert.
+00:00:35,328 --> 00:00:37,503
+Du bist den ganzen Weg gefahren?
 
 11
-00:00:38,246 --> 00:00:43,292
-Direkt in die Wandsteckdose. Drei Fuß Abstand zu Vorhängen, Möbeln und Bettzeug (CPSC).
+00:00:37,623 --> 00:00:38,696
+Du bist mir den Weg wert.
 
 12
-00:00:43,442 --> 00:00:48,390
-Stell es auf ca. 68°F. Im Eco-Modus stoppt das Heizen, sobald der Raum die Temperatur erreicht hat (Dreo).
+00:00:39,096 --> 00:00:43,397
+Direkt in die Wandsteckdose! Drei Fuß Abstand zu Vorhängen, Möbeln und Bettzeug, laut CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Endlich warm.
+00:00:43,798 --> 00:00:48,256
+Auf etwa 68°F einstellen. Der Eco-Modus stoppt das Heizen, sobald der Raum das erreicht hat, sagt Dreo.
 
 14
-00:00:50,442 --> 00:00:55,195
-Ausschalten beim Schlafen oder Rausgehen: Das sagen CPSC und NFPA. Gute Nacht, Oma.
+00:00:48,656 --> 00:00:50,740
+Endlich warm.
 
 15
-00:00:55,345 --> 00:00:57,846
-Passt das Dreo-Heizgerät in deinen Raum? Der komplette Testbericht ist unten. Link in der Beschreibung.
+00:00:51,140 --> 00:00:55,670
+Ausschalten, wenn du schläfst oder gehst, sagen CPSC und NFPA. Gute Nacht, Oma!
+
+16
+00:00:56,070 --> 00:00:58,434
+Kompletter Ratgeber und Quellen: Link in der Beschreibung!
 

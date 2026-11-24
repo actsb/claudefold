@@ -1,11 +1,14 @@
 {
  "video": "ep1.mp4",
- "seconds": 58.5,
+ "thumbnail": "ep1-thumb.jpg",
+ "orientation": "1080x1920",
+ "seconds": 60.3,
  "default_language": "en",
  "made_for_kids": false,
  "category": "Howto & Style",
  "altered_content": "No (stylised cartoon, not realistic)",
  "paid_promotion": false,
+ "voices": "Google Gemini TTS (AI voices)",
  "languages": {
   "en": "English",
   "es": "Spanish",
@@ -22,47 +25,210 @@
  "metadata": {
   "en": {
    "title": "Is Your Robot Vacuum Filming You? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam wants a robot vacuum for Black Friday. Then he reads the news about robot-vacuum photos leaking online.\n\nVerdict Picks Toon, Episode 1. The full guide, with every source and six camera-free (LiDAR) robot vacuums compared:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFacts in this Short: MIT Technology Review (2022) and Tom's Hardware (2026) on leaked robot-vacuum images; CNET lab test, November 13, 2026: the camera-free Roomba 205 Combo avoided 1 of 6 objects, the camera Roomba Combo 10 Max 6 of 6.\n\nCharacters and scenes are fictional. Art generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "description": "Sam wants a robot vacuum for Black Friday. Then he reads the news about robot-vacuum photos leaking online.\n\nVerdict Picks Toon, Episode 1. The full guide, with every source and six camera-free (LiDAR) robot vacuums compared:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFacts in this Short: MIT Technology Review (2022) and Tom's Hardware (2026) on leaked robot-vacuum images; CNET lab test, November 13, 2026: the camera-free Roomba 205 Combo avoided 1 of 6 objects, the camera Roomba Combo 10 Max 6 of 6.\n\nCharacters and scenes are fictional. Art and voices generated with Google Gemini (AI); story, lettering and facts by Verdict Picks. Not sponsored by any brand. Our guides contain affiliate links: as an Amazon Associate we earn from qualifying purchases.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robot vacuum",
+    "robot vacuum privacy",
+    "robot vacuum without camera",
+    "LiDAR robot vacuum",
+    "smart home privacy",
+    "Roborock",
+    "webtoon",
+    "animated story",
+    "buying guide",
+    "Black Friday 2026",
+    "로봇청소기",
+    "ロボット掃除機",
+    "aspiradora robot",
+    "robot aspirateur",
+    "Saugroboter",
+    "robô aspirador",
+    "扫地机器人"
+   ]
   },
   "es": {
-   "title": "¿Te está grabando tu robot aspirador? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam quiere un robot aspirador para el Black Friday. Luego lee las noticias sobre fotos de robots aspiradores filtradas en internet.\n\nVerdict Picks Toon, Episodio 1. La guía completa, con cada fuente y seis robots aspiradores sin cámara (LiDAR) comparados:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nDatos de este Short: MIT Technology Review (2022) y Tom's Hardware (2026) sobre imágenes filtradas de robots aspiradores; prueba de laboratorio de CNET, 13 de noviembre de 2026: el Roomba 205 Combo sin cámara esquivó 1 de 6 objetos, el Roomba Combo 10 Max con cámara, 6 de 6.\n\nLos personajes y escenas son ficticios. Arte generado con Google Gemini (IA); historia, rotulación y datos por Verdict Picks. No patrocinado por ninguna marca. Nuestras guías contienen enlaces de afiliados: como Amazon Associate ganamos con las compras adscritas.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "¿Tu robot aspirador te graba? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "Sam quiere un robot aspirador para el Black Friday. Pero luego lee las noticias sobre fotos de robots aspiradores filtradas en internet.\n\nVerdict Picks Toon, Episodio 1. La guía completa, con todas las fuentes y la comparativa de seis robots aspiradores sin cámara (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nDatos de este Short: MIT Technology Review (2022) y Tom's Hardware (2026) sobre imágenes filtradas de robots aspiradores; prueba de laboratorio de CNET, 13 de noviembre de 2026: el Roomba 205 Combo sin cámara esquivó 1 de 6 objetos, el Roomba Combo 10 Max con cámara 6 de 6.\n\nLos personajes y escenas son ficticios. Arte y voces generados con Google Gemini (IA); historia, rotulación y datos por Verdict Picks. No patrocinado por ninguna marca. Nuestras guías contienen enlaces de afiliados: como Afiliado de Amazon, obtenemos ingresos por compras adscritas.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robot aspirador",
+    "aspiradora robot",
+    "robot aspirador sin cámara",
+    "privacidad robot aspirador",
+    "robot aspirador LiDAR",
+    "Roborock",
+    "Roomba",
+    "guía de compra",
+    "Black Friday 2026",
+    "hogar inteligente",
+    "historia animada",
+    "webtoon",
+    "cámara robot aspirador"
+   ]
   },
   "pt": {
-   "title": "Seu robô aspirador está te gravando? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam quer um robô aspirador na Black Friday. Então ele lê as notícias sobre vazamentos online de fotos de robôs aspiradores.\n\nVerdict Picks Toon, Episódio 1. O guia completo, com todas as fontes e comparação de seis robôs aspiradores sem câmera (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFatos neste Short: MIT Technology Review (2022) e Tom's Hardware (2026) sobre imagens vazadas de robôs aspiradores; teste de laboratório da CNET, 13 de novembro de 2026: o Roomba 205 Combo sem câmera desviou de 1 de 6 objetos, o Roomba Combo 10 Max com câmera desviou de 6 de 6.\n\nPersonagens e cenas são fictícios. Arte gerada com Google Gemini (IA); história, roteiro e fatos por Verdict Picks. Não patrocinado por nenhuma marca. Nossos guias contêm links de afiliados: como Associados da Amazon, ganhamos com compras qualificadas.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "Seu Robô Aspirador Tá Te Filmando? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "O Sam quer um robô aspirador nesta Black Friday. Mas aí ele lê as notícias sobre o vazamento de fotos de robôs aspiradores na internet.\n\nVerdict Picks Toon, Episódio 1. O guia completo, com todas as fontes e comparativo de seis robôs aspiradores sem câmera (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFatos neste Short: MIT Technology Review (2022) e Tom's Hardware (2026) sobre o vazamento de imagens de robôs aspiradores; teste de laboratório da CNET em 13 de novembro de 2026: o Roomba 205 Combo sem câmera desviou de 1 entre 6 objetos, e o Roomba Combo 10 Max com câmera desviou de 6 entre 6.\n\nPersonagens e cenas são fictícios. Arte e vozes geradas com Google Gemini (IA); história, letreiramento e fatos por Verdict Picks. Não patrocinado por nenhuma marca. Nossos guias contêm links de afiliados: como Associados da Amazon, ganhamos com compras qualificadas.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robô aspirador",
+    "robo aspirador de pó",
+    "robô aspirador sem câmera",
+    "privacidade casa inteligente",
+    "robô aspirador LiDAR",
+    "Roomba",
+    "Roborock",
+    "guia de compra",
+    "melhor robô aspirador",
+    "Black Friday 2026",
+    "automação residencial",
+    "webtoon brasil"
+   ]
   },
   "fr": {
-   "title": "Votre aspirateur robot vous filme-t-il ? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam veut un aspirateur robot pour le Black Friday. Puis, il lit des articles sur des fuites de photos d'aspirateurs robots en ligne.\n\nVerdict Picks Toon, Épisode 1. Le guide complet, avec toutes les sources et le comparatif de six aspirateurs robots sans caméra (LiDAR) :\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFaits dans ce Short : MIT Technology Review (2022) et Tom's Hardware (2026) sur les images divulguées d'aspirateurs robots ; test en laboratoire de CNET, 13 novembre 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6, le Roomba Combo 10 Max avec caméra 6 sur 6.\n\nLes personnages et les scènes sont fictifs. Illustrations générées avec Google Gemini (IA) ; histoire, lettrage et faits par Verdict Picks. Non sponsorisé par aucune marque. Nos guides contiennent des liens d'affiliation : en tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "Votre aspirateur robot vous filme ? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "Sam veut un aspirateur robot pour le Black Friday. Puis, il lit les infos sur des photos d'aspirateurs robots qui ont fuité en ligne.\n\nVerdict Picks Toon, Épisode 1. Le guide complet, avec toutes les sources et le comparatif de six aspirateurs robots sans caméra (LiDAR) :\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFaits dans ce Short : MIT Technology Review (2022) et Tom's Hardware (2026) sur les fuites d'images d'aspirateurs robots ; Test en laboratoire CNET, 13 novembre 2026 : le Roomba 205 Combo sans caméra a évité 1 objet sur 6, le Roomba Combo 10 Max avec caméra 6 sur 6.\n\nLes personnages et les scènes sont fictifs. Images et voix générées avec Google Gemini (IA) ; histoire, lettrage et faits par Verdict Picks. Non sponsorisé par une quelconque marque. Nos guides contiennent des liens affiliés : en tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "aspirateur robot",
+    "aspirateur robot sans caméra",
+    "vie privée domotique",
+    "aspirateur robot LiDAR",
+    "maison connectée",
+    "Roborock",
+    "Roomba",
+    "webtoon français",
+    "histoire animée",
+    "guide d'achat",
+    "Black Friday 2026",
+    "comparatif aspirateur",
+    "robot aspirateur"
+   ]
   },
   "de": {
    "title": "Filmt dich dein Saugroboter? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam möchte einen Saugroboter zum Black Friday. Dann liest er die Nachrichten über im Internet geleakte Fotos von Saugrobotern.\n\nVerdict Picks Toon, Episode 1. Der vollständige Ratgeber mit allen Quellen und sechs verglichenen kameralosen (LiDAR) Saugrobotern:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFakten in diesem Short: MIT Technology Review (2022) und Tom's Hardware (2026) über geleakte Saugroboter-Bilder; CNET-Labortest, 13. November 2026: Der kameralose Roomba 205 Combo wich 1 von 6 Objekten aus, der Kamera-Roomba Combo 10 Max 6 von 6.\n\nCharaktere und Szenen sind fiktiv. Bilder erstellt mit Google Gemini (KI); Geschichte, Lettering und Fakten von Verdict Picks. Nicht von Marken gesponsert. Unsere Ratgeber enthalten Affiliate-Links: Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "description": "Sam will am Black Friday einen Saugroboter kaufen. Doch dann liest er in den Nachrichten von geleakten Saugroboter-Fotos im Internet.\n\nVerdict Picks Toon, Episode 1. Der komplette Ratgeber mit allen Quellen und dem Vergleich von sechs kamerafreien (LiDAR) Saugrobotern:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFakten in diesem Short: MIT Technology Review (2022) und Tom's Hardware (2026) über geleakte Saugroboter-Bilder; CNET-Labortest vom 13. November 2026: Der kamerafreie Roomba 205 Combo wich 1 von 6 Objekten aus, der Roomba Combo 10 Max mit Kamera 6 von 6.\n\nCharaktere und Szenen sind fiktiv. Bilder und Stimmen wurden mit Google Gemini (KI) generiert; Story, Texte und Fakten stammen von Verdict Picks. Von keiner Marke gesponsert. Unsere Ratgeber enthalten Affiliate-Links: Als Amazon-Partner verdienen wir an qualifizierten Verkäufen.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "Saugroboter",
+    "Saugroboter Kamera",
+    "Saugroboter ohne Kamera",
+    "LiDAR Saugroboter",
+    "Smart Home Datenschutz",
+    "Roborock",
+    "Webtoon",
+    "Saugroboter Test",
+    "Kaufberatung",
+    "Black Friday 2026",
+    "Saugroboter Sicherheit",
+    "Roomba"
+   ]
   },
   "ja": {
-   "title": "ロボット掃除機に撮影されてる？ 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "サムはブラックフライデーでロボット掃除機が欲しいと思っています。しかし、ロボット掃除機の写真がネット上に流出したというニュースを読んでしまいます。\n\nVerdict Picks Toon、エピソード1。情報源の詳細や、カメラなし（LiDAR）ロボット掃除機6機種を比較した完全版ガイドはこちら：\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\n本ショート動画の事実情報：ロボット掃除機の画像流出について、MIT Technology Review (2022) および Tom's Hardware (2026) より。CNETによる2026年11月13日のラボテスト：カメラなしのRoomba 205 Comboは6つの障害物のうち1つを回避、カメラありのRoomba Combo 10 Maxは6つすべてを回避。\n\n登場人物とシーンはフィクションです。アートはGoogle Gemini (AI) で生成され、ストーリー、文字入れ、事実確認はVerdict Picksによるものです。ブランドからのスポンサー提供はありません。当ガイドにはアフィリエイトリンクが含まれています：Amazonアソシエイトとして、適格販売により紹介料を獲得しています。\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "ロボット掃除機に監視されてる？ 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "サムはブラックフライデーにロボット掃除機を買おうと考えていました。しかし、ロボット掃除機が撮影した写真がネットに流出したというニュースを読んでしまい…。\n\nVerdict Picks Toon 第1話。すべての情報源と、カメラなし（LiDAR）ロボット掃除機6台の比較をまとめた完全版ガイドはこちら：\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nこの動画の事実情報：流出したロボット掃除機の画像に関するMIT Technology Review (2022) および Tom's Hardware (2026) の記事。CNETのラボテスト（2026年11月13日）：カメラなしのRoomba 205 Comboは6つの障害物のうち1つを回避、カメラありのRoomba Combo 10 Maxは6つ中6つを回避。\n\n登場人物やシーンは架空のものです。アートと音声はGoogle Gemini (AI) で生成されました。ストーリー、レタリング、事実情報はVerdict Picksによるものです。特定のブランドのスポンサー動画ではありません。当ガイドにはアフィリエイトリンクが含まれており、Amazonアソシエイトとして適格販売により収入を得ています。\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "ロボット掃除機",
+    "ロボット掃除機 プライバシー",
+    "ロボット掃除機 カメラなし",
+    "LiDAR ロボット掃除機",
+    "スマートホーム プライバシー",
+    "Roborock",
+    "Roomba",
+    "ウェブトゥーン",
+    "アニメーション",
+    "購入ガイド",
+    "ブラックフライデー 2026",
+    "家電 おすすめ"
+   ]
   },
   "ko": {
-   "title": "로봇 청소기가 당신을 촬영하고 있다고요? 🤖📷 | Verdict Picks Toon 1화 #Shorts",
-   "description": "블랙프라이데이를 맞아 로봇 청소기를 사려던 Sam. 그러다 로봇 청소기가 찍은 사진이 온라인에 유출되었다는 뉴스를 읽게 됩니다.\n\nVerdict Picks Toon 1화. 모든 출처 및 6가지 카메라 없는(LiDAR) 로봇 청소기를 비교한 전체 가이드:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\n이 Short의 팩트: 로봇 청소기 이미지 유출에 관한 MIT Technology Review(2022년) 및 Tom's Hardware(2026년) 기사; CNET 랩 테스트, 2026년 11월 13일: 카메라가 없는 Roomba 205 Combo는 장애물 6개 중 1개를 피했고, 카메라가 있는 Roomba Combo 10 Max는 6개 중 6개를 피함.\n\n등장인물과 장면은 허구입니다. 아트는 Google Gemini(AI)로 생성되었으며, 스토리, 레터링, 팩트는 Verdict Picks에서 제작했습니다. 어떤 브랜드의 스폰서도 받지 않았습니다. 저희 가이드에는 제휴 링크가 포함되어 있으며, Amazon 어소시에이트로서 적격 판매를 통해 수입을 얻습니다.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "로봇청소기가 당신을 몰래 찍고 있다고요? 🤖📷 | Verdict Picks 툰 Ep.1 #Shorts",
+   "description": "샘은 이번 블랙 프라이데이에 로봇청소기를 장만하려고 합니다. 그러다 로봇청소기가 찍은 사진들이 온라인에 유출됐다는 뉴스를 보게 되는데...\n\nVerdict Picks 툰, 에피소드 1. 모든 출처와 카메라 없는(LiDAR) 로봇청소기 6종 비교 가이드 전문은 여기서 확인하세요:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\n이 쇼츠에 등장하는 사실들: 유출된 로봇청소기 이미지에 대한 MIT Technology Review (2022) 및 Tom's Hardware (2026) 보도; 2026년 11월 13일 CNET 랩 테스트 결과: 카메라가 없는 Roomba 205 Combo는 6개 장애물 중 1개를 피했고, 카메라가 있는 Roomba Combo 10 Max는 6개 중 6개를 피했습니다.\n\n등장인물과 장면은 허구입니다. 아트와 음성은 Google Gemini (AI)로 생성되었으며, 스토리, 레터링 및 팩트 체크는 Verdict Picks가 담당했습니다. 어떤 브랜드의 협찬도 받지 않았습니다. 저희 가이드에는 제휴 링크가 포함되어 있으며, 아마존 어소시에이트로서 적격 구매를 통해 수익을 창출합니다.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "로봇청소기",
+    "로봇청소기 추천",
+    "로봇청소기 사생활",
+    "카메라 없는 로봇청소기",
+    "라이다 로봇청소기",
+    "스마트홈 해킹",
+    "Roborock",
+    "로보락",
+    "Roomba",
+    "블랙프라이데이 로봇청소기",
+    "웹툰",
+    "애니메이션"
+   ]
   },
   "zh-Hans": {
-   "title": "你的扫地机器人在拍你吗？🤖📷 | Verdict Picks 漫画第一集 #Shorts",
-   "description": "黑色星期五，Sam 想买一台扫地机器人。随后，他看到了关于扫地机器人泄露照片在网上疯传的新闻。\n\nVerdict Picks 漫画，第一集。完整指南包含所有信息来源，并对比了六款无摄像头 (LiDAR) 扫地机器人：\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\n本视频事实依据：MIT Technology Review（2022年）和 Tom's Hardware（2026年）关于扫地机器人泄露图像的报道；2026年11月13日的 CNET 实验室测试：无摄像头的 Roomba 205 Combo 避开了6个障碍物中的1个，带摄像头的 Roomba Combo 10 Max 避开了6个中的6个。\n\n角色和场景纯属虚构。画面由 Google Gemini (AI) 生成；故事、字幕和事实由 Verdict Picks 提供。未受任何品牌赞助。我们的指南包含分销链接：作为 Amazon Associate，我们会从符合条件的购买中赚取佣金。\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "你的扫地机器人正在偷拍你吗？🤖📷 | Verdict Picks Toon 第1集 #Shorts",
+   "description": "Sam想在今年黑五买台扫地机器人。然后他看到了扫地机器人偷拍照片在网上泄露的新闻。\n\nVerdict Picks Toon，第1集。完整指南包含所有资料来源，并横评对比了6款无摄像头（LiDAR）扫地机器人：\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\n本期Shorts视频事实依据：MIT Technology Review（2022）和 Tom's Hardware（2026）关于扫地机器人图像泄露的报道；CNET实验室测试，2026年11月13日：无摄像头的 Roomba 205 Combo 成功避开了6个障碍物中的1个，带摄像头的 Roomba Combo 10 Max 成功避开了6个中的6个。\n\n人物与场景纯属虚构。美术和配音由 Google Gemini (AI) 生成；故事、排版和事实依据由 Verdict Picks 提供。未获任何品牌赞助。我们的指南包含联盟链接：作为 Amazon Associate，我们会从符合条件的购买中获得收益。\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "扫地机器人",
+    "扫地机器人隐私",
+    "无摄像头扫地机器人",
+    "激光导航扫地机器人",
+    "智能家居隐私",
+    "Roborock",
+    "Roomba",
+    "扫地机器人推荐",
+    "黑五购物攻略",
+    "避障测试",
+    "扫地机器人评测",
+    "智能家居",
+    "漫画"
+   ]
   },
   "hi": {
-   "title": "क्या आपका Robot Vacuum आपकी वीडियो बना रहा है? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam को Black Friday पर एक robot vacuum चाहिए। फिर वह इंटरनेट पर robot-vacuum की फ़ोटो लीक होने की ख़बरें पढ़ता है।\n\nVerdict Picks Toon, एपिसोड 1। हर सोर्स और छह बिना कैमरे वाले (LiDAR) robot vacuums की तुलना के साथ पूरी गाइड:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nइस Short के तथ्य: MIT Technology Review (2022) और Tom's Hardware (2026) में लीक हुई robot-vacuum की तस्वीरों पर रिपोर्ट; CNET लैब टेस्ट, 13 नवंबर 2026: बिना कैमरे वाले Roomba 205 Combo ने 6 में से 1 चीज़ से बचाव किया, कैमरे वाले Roomba Combo 10 Max ने 6 में से 6 से।\n\nपात्र और दृश्य काल्पनिक हैं। आर्ट Google Gemini (AI) से बनाया गया है; कहानी, शब्द और तथ्य Verdict Picks द्वारा। किसी भी ब्रांड द्वारा स्पॉन्सर्ड नहीं। हमारी गाइड्स में एफिलिएट लिंक्स हैं: एक Amazon Associate के तौर पर हम योग्य खरीदारी से कमाते हैं।\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "क्या Robot Vacuum आपको रिकॉर्ड कर रहा है? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "सैम इस Black Friday एक रोबोट वैक्यूम खरीदना चाहता है। लेकिन फिर वह ऑनलाइन रोबोट वैक्यूम की तस्वीरें लीक होने की खबर पढ़ता है।\n\nVerdict Picks Toon, Episode 1. हर सोर्स और बिना कैमरे वाले 6 (LiDAR) रोबोट वैक्यूम की तुलना के साथ पूरी गाइड यहाँ देखें:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nइस Short के फैक्ट्स: MIT Technology Review (2022) और Tom's Hardware (2026) ने रोबोट-वैक्यूम की लीक हुई तस्वीरों पर रिपोर्ट दी; CNET लैब टेस्ट, 13 नवंबर 2026: बिना कैमरे वाला Roomba 205 Combo 6 में से 1 चीज़ से बचा (टाल दिया), जबकि कैमरे वाले Roomba Combo 10 Max ने 6 में से 6 को टाल दिया।\n\nकिरदार और दृश्य काल्पनिक हैं। आर्ट और आवाज़ें Google Gemini (AI) से बनाई गई हैं; कहानी, लेटरिंग और फैक्ट्स Verdict Picks के हैं। यह किसी भी ब्रांड द्वारा स्पॉन्सर्ड नहीं है। हमारी गाइड्स में एफिलिएट लिंक्स होते हैं: एक Amazon Associate के तौर पर हम योग्य खरीदारी से कमाई करते हैं।\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robot vacuum",
+    "robot vacuum cleaner",
+    "best robot vacuum",
+    "robot vacuum privacy",
+    "robot vacuum without camera",
+    "LiDAR robot vacuum",
+    "Roborock",
+    "Roomba",
+    "smart home gadgets",
+    "robot vacuum review hindi",
+    "Black Friday 2026",
+    "रोबोट वैक्यूम क्लीनर"
+   ]
   },
   "id": {
-   "title": "Apakah Robot Vacuum Merekam Anda? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
-   "description": "Sam ingin membeli robot vacuum di Black Friday. Lalu ia membaca berita tentang foto-foto dari robot vacuum yang bocor di internet.\n\nVerdict Picks Toon, Episode 1. Panduan lengkap, dengan semua sumber dan perbandingan enam robot vacuum tanpa kamera (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFakta di Short ini: MIT Technology Review (2022) dan Tom's Hardware (2026) tentang bocornya gambar robot vacuum; Uji lab CNET, 13 November 2026: Roomba 205 Combo tanpa kamera menghindari 1 dari 6 objek, Roomba Combo 10 Max dengan kamera menghindari 6 dari 6.\n\nKarakter dan adegan adalah fiksi. Gambar dibuat dengan Google Gemini (AI); cerita, penulisan, dan fakta oleh Verdict Picks. Tidak disponsori oleh merek mana pun. Panduan kami berisi tautan afiliasi: sebagai Amazon Associate, kami mendapat komisi dari pembelian yang memenuhi syarat.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "Apakah Robot Vacuum Kamu Merekammu? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "Sam pengen beli robot vacuum pas Black Friday. Terus dia baca berita soal foto-foto dari robot vacuum yang bocor di internet.\n\nVerdict Picks Toon, Episode 1. Panduan lengkapnya, beserta semua sumber dan perbandingan enam robot vacuum tanpa kamera (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nFakta di Short ini: MIT Technology Review (2022) dan Tom's Hardware (2026) tentang bocoran gambar dari robot vacuum; uji lab CNET, 13 November 2026: Roomba 205 Combo tanpa kamera cuma bisa hindari 1 dari 6 objek, sedangkan Roomba Combo 10 Max dengan kamera berhasil hindari 6 dari 6 objek.\n\nKarakter dan adegan hanyalah fiktif. Gambar dan suara dibuat dengan Google Gemini (AI); cerita, teks, dan fakta oleh Verdict Picks. Tidak disponsori oleh merek apa pun. Panduan kami berisi tautan afiliasi: sebagai Amazon Associate kami mendapat penghasilan dari pembelian yang memenuhi syarat.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robot vacuum",
+    "robot penyedot debu",
+    "robot vacuum tanpa kamera",
+    "privasi robot vacuum",
+    "robot vacuum LiDAR",
+    "Roborock",
+    "Roomba",
+    "smart home indonesia",
+    "rekomendasi robot vacuum",
+    "panduan beli",
+    "animasi pendek",
+    "webtoon indonesia",
+    "Black Friday 2026"
+   ]
   },
   "vi": {
-   "title": "Robot hút bụi có quay lén bạn không? 🤖📷 | Verdict Picks Toon Tập 1 #Shorts",
-   "description": "Sam muốn mua một chiếc robot hút bụi dịp Black Friday. Nhưng rồi cậu đọc tin tức về việc ảnh chụp từ robot hút bụi bị rò rỉ trên mạng.\n\nVerdict Picks Toon, Tập 1. Xem hướng dẫn chi tiết, trích dẫn mọi nguồn và so sánh sáu mẫu robot hút bụi không camera (LiDAR) tại:\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nSự thật trong video Short này: MIT Technology Review (2022) và Tom's Hardware (2026) về hình ảnh rò rỉ từ robot hút bụi; Bài kiểm tra trong phòng thí nghiệm của CNET, ngày 13 tháng 11 năm 2026: Roomba 205 Combo không camera tránh được 1 trong 6 vật cản, còn Roomba Combo 10 Max có camera tránh được 6/6 vật.\n\nCác nhân vật và bối cảnh đều là hư cấu. Hình ảnh được tạo bởi Google Gemini (AI); cốt truyện, chữ viết và dữ kiện thực tế bởi Verdict Picks. Không được tài trợ bởi bất kỳ thương hiệu nào. Các bài hướng dẫn của chúng tôi có chứa các liên kết tiếp thị: với tư cách là Cộng tác viên của Amazon, chúng tôi có thể kiếm được hoa hồng từ các giao dịch mua hàng đủ điều kiện.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon"
+   "title": "Robot hút bụi có quay lén bạn? 🤖📷 | Verdict Picks Toon Ep.1 #Shorts",
+   "description": "Sam muốn tậu một em robot hút bụi dịp Black Friday. Nhưng rồi anh chàng đọc được tin tức về việc ảnh chụp từ robot hút bụi bị rò rỉ trên mạng.\n\nVerdict Picks Toon, Tập 1. Hướng dẫn chi tiết, trích dẫn mọi nguồn và so sánh 6 mẫu robot hút bụi không camera (LiDAR):\nhttps://acts39.blogspot.com/2026/11/robot-vacuums-without-camera-2026.html\n\nThông tin thực tế trong video này: Bài viết của MIT Technology Review (2022) và Tom's Hardware (2026) về hình ảnh từ robot hút bụi bị rò rỉ; Bài kiểm tra trong phòng thí nghiệm của CNET, ngày 13 tháng 11 năm 2026: mẫu Roomba 205 Combo không camera né được 1/6 đồ vật, mẫu có camera Roomba Combo 10 Max né được 6/6 đồ vật.\n\nCác nhân vật và bối cảnh đều là hư cấu. Hình ảnh và giọng nói được tạo bởi Google Gemini (AI); cốt truyện, chữ viết và thông tin thực tế thuộc về Verdict Picks. Không được tài trợ bởi bất kỳ thương hiệu nào. Hướng dẫn của chúng tôi có chứa các liên kết tiếp thị: với tư cách là Cộng tác viên của Amazon, chúng tôi kiếm được hoa hồng từ các giao dịch mua đủ điều kiện.\n\n#Shorts #RobotVacuum #SmartHome #Privacy #Webtoon",
+   "tags": [
+    "robot hút bụi",
+    "robot hút bụi lau nhà",
+    "robot hút bụi không camera",
+    "robot hút bụi LiDAR",
+    "bảo mật nhà thông minh",
+    "Roborock",
+    "kinh nghiệm mua robot hút bụi",
+    "review robot hút bụi",
+    "Black Friday 2026",
+    "nhà thông minh",
+    "hoạt hình webtoon",
+    "Roomba"
+   ]
   }
  }
 }

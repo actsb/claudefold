@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon: Un cuarto cálido para la abuela June
+00:00:00,150 --> 00:00:02,889
+Cae la primera nevada. El viejo calefactor de la abuela dice que NO.
 
 2
-00:00:02,239 --> 00:00:06,114
-La primera nevada del año. La abuela de Jo vive sola.
+00:00:03,389 --> 00:00:04,842
+La abuela de Jo vive sola.
 
 3
-00:00:06,264 --> 00:00:09,261
-No te preocupes, cariño. Tengo mi viejo calefactor.
+00:00:05,242 --> 00:00:08,281
+No hagas alboroto. Tengo mi viejo calefactor.
 
 4
-00:00:09,411 --> 00:00:12,652
-Abuela... ¿dónde está enchufado ese calefactor?
+00:00:08,681 --> 00:00:10,818
+Abuela... ¿a dónde está conectado eso?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC: nunca enchufes un calefactor a una extensión o regleta.
+00:00:11,218 --> 00:00:15,212
+¡Nunca conectes un calefactor a un cable de extensión o a una regleta, dice la CPSC!
 
 6
-00:00:17,559 --> 00:00:20,263
-Va a tener uno nuevo. Esta noche.
+00:00:15,612 --> 00:00:17,455
+Va a tener uno nuevo. Esta misma noche.
 
 7
-00:00:20,413 --> 00:00:24,385
-Buena idea. Una revisión antes de comprar cualquier calefactor este invierno.
+00:00:17,855 --> 00:00:20,778
+Buena idea. Revisa bien antes de comprar cualquier calefactor.
 
 8
-00:00:24,535 --> 00:00:29,191
-Busca el número de modelo en la etiqueta y búscalo en el aviso de retiro.
+00:00:21,178 --> 00:00:23,056
+Busca el número de modelo, revisa el aviso de retiro.
 
 9
-00:00:29,341 --> 00:00:34,657
-Retiro de la CPSC, 29 de octubre de 2026: Dreo DR-HSH015 (negro, remoto) retirado; Unidades en EE. UU. unas 338,800; Riesgo de incendio y quemaduras. Fuente: aviso CPSC 27-054. El Dreo de nuestra reseña es otro modelo; revisa el tuyo con el aviso.
+00:00:23,456 --> 00:00:34,928
+Aviso de la CPSC 27-054, 29 de octubre de 2026: Dreo DR-HSH015, negro, con control, retirado por riesgo de incendio y quemaduras. Unas 338,800 unidades en EE. UU.
 
 10
-00:00:34,807 --> 00:00:38,096
-¿Manejaste hasta aquí? Tú vales el viaje.
+00:00:35,328 --> 00:00:37,503
+¿Manejaste hasta aquí?
 
 11
-00:00:38,246 --> 00:00:43,292
-Directo a la pared. A tres pies de distancia de cortinas, muebles y ropa de cama (CPSC).
+00:00:37,623 --> 00:00:38,696
+Por ti vale la pena el viaje.
 
 12
-00:00:43,442 --> 00:00:48,390
-Ponlo a unos 68°F. En modo Eco deja de calentar al llegar a esa temperatura (Dreo).
+00:00:39,096 --> 00:00:43,397
+¡Directo a la pared! A tres pies de cortinas, muebles y ropa de cama, según la CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Al fin, calorcito.
+00:00:43,798 --> 00:00:48,256
+Ponlo cerca de los 68°F. El modo Eco deja de calentar una vez que el cuarto llega a esa temperatura, dice Dreo.
 
 14
-00:00:50,442 --> 00:00:55,195
-Apágalo al dormir o salir: la CPSC y la NFPA lo dicen. Buenas noches, abuela.
+00:00:48,656 --> 00:00:50,740
+Al fin calorcito.
 
 15
-00:00:55,345 --> 00:00:57,846
-¿El calefactor Dreo es ideal para tu cuarto? Nuestra reseña completa está abajo. Enlace en la descripción.
+00:00:51,140 --> 00:00:55,670
+Apágalo cuando duermas o salgas, dicen la CPSC y la NFPA. ¡Buenas noches, abuela!
+
+16
+00:00:56,070 --> 00:00:58,434
+Guía completa y fuentes: ¡enlace en la descripción!
 

@@ -1,56 +1,60 @@
 1
-00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: Ai ở ngoài cửa vậy bà?
+00:00:00,150 --> 00:00:04,351
+Bà June không nhìn rõ trước hiên nhà. Jo muốn giải quyết chuyện này mà không tốn phí hàng tháng.
 
 2
-00:00:02,400 --> 00:00:05,680
-Hiên nhà bà June. 2:10 chiều thứ Ba.
+00:00:04,851 --> 00:00:06,013
+Thứ Ba, 2:10 chiều.
 
 3
-00:00:05,830 --> 00:00:08,278
-Có ai ở ngoài cửa phải không?
+00:00:06,413 --> 00:00:07,993
+Có ai ngoài cửa hả cháu?
 
 4
-00:00:08,428 --> 00:00:11,708
-Bà ơi, để cháu mua cho bà chuông cửa camera nhé.
+00:00:08,393 --> 00:00:10,547
+Bà ơi, sắm cho bà một chiếc chuông cửa có hình nhé.
 
 5
-00:00:11,858 --> 00:00:16,386
-Vấn đề là: nhiều chuông cửa chỉ lưu video khi bạn trả tiền gói cước.
+00:00:10,947 --> 00:00:14,228
+Nhưng kẹt nỗi: nhiều chuông cửa chỉ lưu video nếu bà chịu trả tiền gói cước.
 
 6
-00:00:16,536 --> 00:00:22,236
-Ring không có gói cước chỉ là camera trực tiếp, không ghi hình. Muốn lưu video phải trả thêm: Ring Solo giá $49.99 một năm (ring.com).
+00:00:14,628 --> 00:00:19,516
+Lưu video thì tốn thêm tiền. ring.com cho biết gói Ring Solo có giá $49.99 một năm.
 
 7
-00:00:22,386 --> 00:00:28,086
-Chi phí trong 3 năm: eufy E340, không cần gói cước là $119.99; Ring kèm gói Solo là $189.96; Nest kèm gói Premium là $499.99; Ring kèm gói Pro là $639.96. Giá chuông cộng 3 năm phí dịch vụ, từ hướng dẫn bên dưới (giá của Target và nhà sản xuất, ngày 11 tháng 11 năm 2026).
+00:00:19,916 --> 00:00:26,353
+Trong ba năm, Ring với gói Pro tốn tới $639.96 dựa trên giá của Target và hãng vào ngày 11 tháng 11 năm 2026.
 
 8
-00:00:28,236 --> 00:00:31,204
-Tốn $639.96 để xem hiên nhà bà sao?!
+00:00:26,753 --> 00:00:30,286
+Tới $639.96 chỉ để coi cái mái hiên của bà thôi á?!
 
 9
-00:00:31,354 --> 00:00:36,506
-Chiếc eufy E340 lưu được khoảng 90 ngày video trên bộ nhớ trong 8 GB. Không tốn phí (eufy).
+00:00:30,686 --> 00:00:35,406
+Chuông eufy E340 lưu được khoảng 90 ngày clip vào bộ nhớ trong 8 GB. Theo hãng eufy thì không hề mất phí.
 
 10
-00:00:36,656 --> 00:00:39,520
-Kỹ sư nhỏ của bà giỏi quá.
+00:00:35,806 --> 00:00:39,146
+Cháu tôi giỏi quá, đúng là kỹ sư nhí của bà.
 
 11
-00:00:39,670 --> 00:00:42,222
-Bà có thể nhìn thấy toàn bộ hiên nhà rồi!
+00:00:39,546 --> 00:00:41,389
+Bà nhìn thấy được cả cái mái hiên rồi này!
 
 12
-00:00:42,372 --> 00:00:48,072
-Nhược điểm của mọi chuông cửa dùng pin: ở cửa ra vào nhiều, pin chỉ dùng được vài tuần, không phải vài tháng. Cháu sẽ sạc nó vào các ngày Chủ nhật khi đến thăm bà.
+00:00:41,789 --> 00:00:44,555
+Ở cái cửa đông người qua lại, pin chỉ trụ được vài tuần, chứ không tới vài tháng đâu.
 
 13
-00:00:48,222 --> 00:00:50,826
-Bà biết chính xác đó là ai rồi.
+00:00:44,675 --> 00:00:46,346
+Cháu sẽ sạc nó vào Chủ nhật, mỗi khi qua thăm bà.
 
 14
-00:00:50,976 --> 00:00:53,676
-Chuông cửa nào hoạt động không cần gói cước? 6 lựa chọn và chi phí 3 năm ở bên dưới. Link trong phần mô tả.
+00:00:46,746 --> 00:00:48,649
+Bà biết tỏng là ai rồi nha.
+
+15
+00:00:49,049 --> 00:00:52,454
+Chuông cửa nào xài không cần gói cước? Hướng dẫn chi tiết và nguồn: link dưới phần mô tả nhé.
 

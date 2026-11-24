@@ -1,56 +1,60 @@
 1
-00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: Siapa di Pintu, Nek?
+00:00:00,150 --> 00:00:04,351
+Nenek June nggak bisa liat terasnya. Jo mau bantuin cari solusi tanpa tagihan bulanan.
 
 2
-00:00:02,400 --> 00:00:05,680
-Teras Nenek June. Selasa, 14:10.
+00:00:04,851 --> 00:00:06,013
+Selasa, 14:10.
 
 3
-00:00:05,830 --> 00:00:08,278
-Ada orang di pintu?
+00:00:06,413 --> 00:00:07,993
+Tadi ada orang di depan pintu ya?
 
 4
-00:00:08,428 --> 00:00:11,708
+00:00:08,393 --> 00:00:10,547
 Nek, kita pasang bel pintu video yuk.
 
 5
-00:00:11,858 --> 00:00:16,386
-Kelemahannya: banyak bel pintu hanya menyimpan video jika kita bayar paket.
+00:00:10,947 --> 00:00:14,228
+Masalahnya: banyak bel yang cuma nyimpen video kalau kita bayar langganan.
 
 6
-00:00:16,536 --> 00:00:22,236
-Ring tanpa paket itu kamera langsung, bukan perekam. Simpan video butuh biaya ekstra: Ring Solo harganya $49.99 setahun (ring.com).
+00:00:14,628 --> 00:00:19,516
+Nyimpen video ada biaya tambahannya. Ring Solo itu $49.99 setahun, kata ring.com.
 
 7
-00:00:22,386 --> 00:00:28,086
-Total biayanya selama tiga tahun: eufy E340, tanpa paket $119.99; Ring dengan paket Solo $189.96; Nest dengan Premium $499.99; Ring dengan paket Pro $639.96 Harga bel pintu ditambah biaya paket tiga tahun, dari panduan di bawah (Harga Target dan produsen, 11 November 2026).
+00:00:19,916 --> 00:00:26,353
+Dalam tiga tahun, bel Ring dengan paket Pro jatuhnya $639.96 berdasarkan harga Target dan produsen, 11 November 2026.
 
 8
-00:00:28,236 --> 00:00:31,204
-$639.96 buat lihat teras Nenek?!
+00:00:26,753 --> 00:00:30,286
+$639.96 cuma buat mantau teras Nenek?!
 
 9
-00:00:31,354 --> 00:00:36,506
-eufy E340 menyimpan klip sekitar 90 hari di memori internal 8 GB. Tanpa biaya (eufy).
+00:00:30,686 --> 00:00:35,406
+eufy E340 bisa nyimpen rekaman sekitar 90 hari di memori internal 8 GB-nya. Tanpa biaya, kata eufy.
 
 10
-00:00:36,656 --> 00:00:39,520
-Hebat banget kamu, insinyur kecilku.
+00:00:35,806 --> 00:00:39,146
+Hebat banget sih, insinyur kecilku.
 
 11
-00:00:39,670 --> 00:00:42,222
-Nenek bisa lihat seluruh teras!
+00:00:39,546 --> 00:00:41,389
+Wah, Nenek bisa liat seluruh teras!
 
 12
-00:00:42,372 --> 00:00:48,072
-Kelemahan semua bel pintu baterai: jika pintu sibuk, dayanya hanya tahan berminggu-minggu, bukan berbulan-bulan. Aku akan mengecasnya tiap Minggu saat berkunjung.
+00:00:41,789 --> 00:00:44,555
+Kalau pintunya sering dilewatin, baterainya awet mingguan, bukan bulanan.
 
 13
-00:00:48,222 --> 00:00:50,826
-Nenek tahu persis siapa itu.
+00:00:44,675 --> 00:00:46,346
+Biar aku aja yang ngecas tiap Minggu pas lagi mampir.
 
 14
-00:00:50,976 --> 00:00:53,676
-Bel pintu mana yang berfungsi tanpa paket? Enam pilihan dan biaya tiga tahun ada di bawah. Tautan di deskripsi.
+00:00:46,746 --> 00:00:48,649
+Nenek tau persis siapa itu.
+
+15
+00:00:49,049 --> 00:00:52,454
+Bel pintu mana yang bisa jalan tanpa langganan? Panduan lengkap & sumber: cek link di deskripsi.
 

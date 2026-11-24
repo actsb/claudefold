@@ -1,56 +1,60 @@
 1
-00:00:00,150 --> 00:00:02,250
-Verdict Picks Toon: Wer ist an der Tür, Oma?
+00:00:00,150 --> 00:00:04,351
+Oma June kann ihre Veranda nicht einsehen. Jo will das ändern – ohne monatliche Kosten.
 
 2
-00:00:02,400 --> 00:00:05,680
-Oma Junes Veranda. Dienstag, 14:10 Uhr.
+00:00:04,851 --> 00:00:06,013
+Dienstag, 14:10 Uhr.
 
 3
-00:00:05,830 --> 00:00:08,278
+00:00:06,413 --> 00:00:07,993
 War da jemand an der Tür?
 
 4
-00:00:08,428 --> 00:00:11,708
-Oma, wir besorgen dir eine Videotürklingel.
+00:00:08,393 --> 00:00:10,547
+Oma, wir besorgen dir eine Video-Türklingel.
 
 5
-00:00:11,858 --> 00:00:16,386
-Der Haken: Viele Klingeln speichern Videos nur, wenn man für ein Abo zahlt.
+00:00:10,947 --> 00:00:14,228
+Der Haken: Viele Türklingeln speichern Videos nur, wenn man für ein Abo zahlt.
 
 6
-00:00:16,536 --> 00:00:22,236
-Eine Ring ohne Abo ist eine Live-Kamera, kein Rekorder. Gespeicherte Videos kosten extra: Ring Solo für $49.99 pro Jahr (ring.com).
+00:00:14,628 --> 00:00:19,516
+Videos zu speichern, kostet extra. Ring Solo kostet laut ring.com $49.99 im Jahr.
 
 7
-00:00:22,386 --> 00:00:28,086
-Was es über drei Jahre kostet: eufy E340, kein Abo nötig $119.99; Ring mit Solo-Abo $189.96; Nest with Premium $499.99; Ring mit Pro-Abo $639.96. Preis der Klingel plus drei Jahre Abogebühren aus unserem Guide unten (Target- und Herstellerpreise, 11. November 2026).
+00:00:19,916 --> 00:00:26,353
+Auf drei Jahre gerechnet kostet Ring mit dem Pro-Abo $639.96, basierend auf Preisen von Target und Herstellern vom 11. November 2026.
 
 8
-00:00:28,236 --> 00:00:31,204
-$639.96, um Omas Veranda zu überwachen?!
+00:00:26,753 --> 00:00:30,286
+$639.96, nur um Omas Veranda zu sehen?!
 
 9
-00:00:31,354 --> 00:00:36,506
-Die eufy E340 speichert etwa 90 Tage an Clips auf internen 8 GB. Keine Gebühren (eufy).
+00:00:30,686 --> 00:00:35,406
+Die eufy E340 speichert Clips von etwa 90 Tagen auf den internen 8 GB. Keine Gebühren, laut eufy.
 
 10
-00:00:36,656 --> 00:00:39,520
-Sieh dich an, mein kleiner Ingenieur.
+00:00:35,806 --> 00:00:39,146
+Guck dich an, mein kleiner Ingenieur.
 
 11
-00:00:39,670 --> 00:00:42,222
+00:00:39,546 --> 00:00:41,389
 Ich kann die ganze Veranda sehen!
 
 12
-00:00:42,372 --> 00:00:48,072
-Der Haken bei jeder Akku-Klingel: An einer viel genutzten Tür hält der Akku eher Wochen als Monate. Ich lade sie sonntags auf, wenn ich zu Besuch bin.
+00:00:41,789 --> 00:00:44,555
+An einer viel genutzten Tür hält der Akku eher Wochen als Monate.
 
 13
-00:00:48,222 --> 00:00:50,826
-Ich weiß genau, wer das ist.
+00:00:44,675 --> 00:00:46,346
+Ich lade sie sonntags auf, wenn ich zu Besuch komme.
 
 14
-00:00:50,976 --> 00:00:53,676
-Welche Türklingel funktioniert ohne Abo? Sechs Empfehlungen und die 3-Jahres-Kosten gibt's unten. Link in der Beschreibung.
+00:00:46,746 --> 00:00:48,649
+Ich weiß ganz genau, wer das ist.
+
+15
+00:00:49,049 --> 00:00:52,454
+Welche Türklingel funktioniert ohne Abo? Kompletter Ratgeber und Quellen: Link in der Beschreibung.
 

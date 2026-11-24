@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon : Une chambre bien chaude pour Mamie June
+00:00:00,150 --> 00:00:02,889
+Les premières neiges tombent. Le vieux radiateur de Mamie dit NON.
 
 2
-00:00:02,239 --> 00:00:06,114
-Première neige de l'année. La grand-mère de Jo vit seule.
+00:00:03,389 --> 00:00:04,842
+La grand-mère de Jo vit seule.
 
 3
-00:00:06,264 --> 00:00:09,261
-Ne t'en fais pas, chérie. J'ai mon vieux radiateur.
+00:00:05,242 --> 00:00:08,281
+Ne t'en fais pas. J'ai mon vieux radiateur.
 
 4
-00:00:09,411 --> 00:00:12,652
-Mamie... sur quoi ce radiateur est-il branché ?
+00:00:08,681 --> 00:00:10,818
+Mamie... il est branché sur quoi, ce truc ?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC : ne jamais brancher un radiateur d'appoint sur une rallonge ou une multiprise.
+00:00:11,218 --> 00:00:15,212
+Ne branchez jamais un radiateur électrique sur une rallonge ou une multiprise, dit la CPSC !
 
 6
-00:00:17,559 --> 00:00:20,263
+00:00:15,612 --> 00:00:17,455
 Elle va en avoir un nouveau. Ce soir.
 
 7
-00:00:20,413 --> 00:00:24,385
-Bonne idée. Une vérification avant d'acheter un radiateur cet hiver.
+00:00:17,855 --> 00:00:20,778
+Bonne initiative. Vérifiez toujours avant d'acheter un radiateur.
 
 8
-00:00:24,535 --> 00:00:29,191
-Cherchez le numéro de modèle sur l'étiquette, puis vérifiez les avis de rappel.
+00:00:21,178 --> 00:00:23,056
+Trouvez le numéro de modèle, vérifiez les avis de rappel.
 
 9
-00:00:29,341 --> 00:00:34,657
-Rappel CPSC, 29 octobre 2026 : Dreo DR-HSH015 (noir, télécommande) rappelé ; environ 338,800 units aux États-Unis ; Risque d'incendie et de brûlure. Source : avis CPSC 27-054. Le Dreo de notre test est un modèle différent ; vérifiez le vôtre avec l'avis.
+00:00:23,456 --> 00:00:34,928
+Avis CPSC 27-054, 29 octobre 2026 : Dreo DR-HSH015, noir, télécommande, rappelé pour risque d'incendie et de brûlure. Environ 338 800 unités aux États-Unis.
 
 10
-00:00:34,807 --> 00:00:38,096
-Tu as fait toute cette route ? Tu en vaux la peine.
+00:00:35,328 --> 00:00:37,503
+Tu as fait toute cette route ?
 
 11
-00:00:38,246 --> 00:00:43,292
-Directement sur une prise murale. À trois pieds des rideaux, des meubles et de la literie (CPSC).
+00:00:37,623 --> 00:00:38,696
+Tu vaux bien le déplacement.
 
 12
-00:00:43,442 --> 00:00:48,390
-Réglez-le autour de 68°F. En mode Eco, il s'arrête de chauffer une fois la pièce à bonne température (Dreo).
+00:00:39,096 --> 00:00:43,397
+Directement sur une prise murale ! À près d'un mètre des rideaux, meubles et de la literie, selon la CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Enfin au chaud.
+00:00:43,798 --> 00:00:48,256
+Réglé autour de 68°F (20°C). Le mode Éco s'arrête quand la pièce atteint la température, selon Dreo.
 
 14
-00:00:50,442 --> 00:00:55,195
-Éteignez-le pour dormir ou sortir : la CPSC et la NFPA l'exigent. Bonne nuit, Mamie.
+00:00:48,656 --> 00:00:50,740
+Enfin au chaud.
 
 15
-00:00:55,345 --> 00:00:57,846
-Le radiateur Dreo convient-il à votre pièce ? Notre test complet est ci-dessous. Lien en description.
+00:00:51,140 --> 00:00:55,670
+Éteint quand on dort ou qu'on s'en va, disent la CPSC et la NFPA. Bonne nuit, Mamie !
+
+16
+00:00:56,070 --> 00:00:58,434
+Guide complet et sources : lien dans la description !
 

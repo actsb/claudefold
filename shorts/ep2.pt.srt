@@ -1,60 +1,64 @@
 1
-00:00:00,150 --> 00:00:02,089
-Verdict Picks Toon: Um Quarto Quentinho para a Vó June
+00:00:00,150 --> 00:00:02,889
+Cai a primeira neve. O aquecedor velho da Vó diz que NÃO.
 
 2
-00:00:02,239 --> 00:00:06,114
-A primeira neve do ano. A avó da Jo mora sozinha.
+00:00:03,389 --> 00:00:04,842
+A avó do Jo mora sozinha.
 
 3
-00:00:06,264 --> 00:00:09,261
-Não se preocupe, querida. Tenho meu aquecedor antigo.
+00:00:05,242 --> 00:00:08,281
+Não se preocupe. Eu tenho meu aquecedor velho.
 
 4
-00:00:09,411 --> 00:00:12,652
-Vó... onde esse aquecedor está ligado?
+00:00:08,681 --> 00:00:10,818
+Vó... onde isso tá ligado?
 
 5
-00:00:12,802 --> 00:00:17,409
-CPSC: nunca ligue um aquecedor elétrico a uma extensão ou filtro de linha.
+00:00:11,218 --> 00:00:15,212
+Nunca ligue um aquecedor elétrico numa extensão ou filtro de linha, diz a CPSC!
 
 6
-00:00:17,559 --> 00:00:20,263
-Ela vai ganhar um novo. Hoje à noite.
+00:00:15,612 --> 00:00:17,455
+Ela vai ganhar um novo. Hoje mesmo.
 
 7
-00:00:20,413 --> 00:00:24,385
-Boa ideia. Uma verificação antes de comprar qualquer aquecedor neste inverno.
+00:00:17,855 --> 00:00:20,778
+Boa ideia. Pesquise bem antes de comprar qualquer aquecedor.
 
 8
-00:00:24,535 --> 00:00:29,191
-Encontre o número do modelo na etiqueta e busque-o no aviso de recall.
+00:00:21,178 --> 00:00:23,056
+Ache o número do modelo, veja os avisos de recall.
 
 9
-00:00:29,341 --> 00:00:34,657
-Recall da CPSC, 29 de outubro de 2026: Dreo DR-HSH015 (preto, com controle) em recall; Cerca de 338,800 unidades nos EUA; Risco de incêndio e queimaduras. Fonte: CPSC notice 27-054. O Dreo na nossa análise é um modelo diferente; verifique o seu no aviso.
+00:00:23,456 --> 00:00:34,928
+Aviso da CPSC 27-054, 29 de outubro de 2026: Dreo DR-HSH015, preto, com controle, recall por risco de incêndio e queimaduras. Cerca de 338.800 unidades nos EUA.
 
 10
-00:00:34,807 --> 00:00:38,096
-Você dirigiu até aqui? Você vale a viagem.
+00:00:35,328 --> 00:00:37,503
+Você dirigiu tudo isso?
 
 11
-00:00:38,246 --> 00:00:43,292
-Direto na tomada. A três pés de distância de cortinas, móveis e roupas de cama (CPSC).
+00:00:37,623 --> 00:00:38,696
+A senhora vale a viagem.
 
 12
-00:00:43,442 --> 00:00:48,390
-Ajuste perto de 68°F. No modo Eco ele para de aquecer quando o quarto atinge a temperatura (Dreo).
+00:00:39,096 --> 00:00:43,397
+Direto na tomada da parede! A 90 cm de cortinas, móveis e roupas de cama, segundo a CPSC.
 
 13
-00:00:48,540 --> 00:00:50,292
-Finalmente quentinho.
+00:00:43,798 --> 00:00:48,256
+Ajuste para uns 68°F (20°C). O modo Eco para de aquecer quando o quarto chega lá, diz a Dreo.
 
 14
-00:00:50,442 --> 00:00:55,195
-Desligado ao dormir ou sair: CPSC e NFPA recomendam. Boa noite, Vó.
+00:00:48,656 --> 00:00:50,740
+Quentinha, finalmente.
 
 15
-00:00:55,345 --> 00:00:57,846
-O aquecedor Dreo é o certo para o seu quarto? Nossa análise completa está abaixo. Link na descrição.
+00:00:51,140 --> 00:00:55,670
+Desligue na hora de dormir ou sair, dizem a CPSC e a NFPA. Boa noite, Vó!
+
+16
+00:00:56,070 --> 00:00:58,434
+Guia completo e fontes: link na descrição!
 

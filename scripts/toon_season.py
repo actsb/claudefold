@@ -82,12 +82,14 @@ def main(cfg_path, out):
     work = out / f"{sid}-work"; png = work / "png"; shutil.rmtree(work, ignore_errors=True); png.mkdir(parents=True)
     shots, chapters, new_lines = [], [], []    # shot: (kind, file, art, band, seconds, ref); ref = ("ep", eid, idx) | ("new", k)
     def new(text): new_lines.append(text); return ("new", len(new_lines) - 1)
+    specs, open_cast = {}, {}
     # intro
     key = art(f"{sid}-intro", cfg["intro"]["art"], cfg["intro"]["cast"], out)
     (png / "intro.svg").write_text(caption_svg(key, " ".join(cfg["intro"]["card"] + cfg["intro"]["sub"]), "Season 1"), encoding="utf-8")
     shots.append(("still", png / "intro.png", None, None, 5.5, new(" ".join(cfg["intro"]["card"] + cfg["intro"]["sub"]))))
     for e in cfg["episodes"]:
         d = ROOT / e["dir"]; spec, blocks = webtoon.build(d, return_blocks=True); eid = spec["id"]; label = f"Episode {eid[2:]} · {spec['title']}"
+        specs[eid] = spec; open_cast[len(new_lines)] = [c for c in e["open"].get("cast", []) if c in ("sam", "jo", "june", "vera")]
         chapters.append((f"Episode {eid[2:]}: {spec['title']}", 0 if not chapters else len(shots)))
         op = art(f"{sid}-{eid}-open", e["open"]["art"], e["open"].get("cast", []), out)
         (png / f"{eid}-open.svg").write_text(caption_svg(op, e["open"]["caption"], label), encoding="utf-8")
@@ -109,55 +111,61 @@ def main(cfg_path, out):
     subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png)], check=True, stdout=subprocess.DEVNULL)
     for f in png.glob("*-band.svg"):
         subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png), f.name], check=True, stdout=subprocess.DEVNULL, env={**os.environ, "ALPHA": "1"})
-    clips = []
+    import toon_voice as V
+    plan = []
     for k, (kind, p, a, b, D, ref) in enumerate(shots):
+        if ref[0] == "ep":
+            pn = specs[ref[1]]["panels"][ref[2] - 1]; plan.append({"kind": f"story panel, episode {ref[1][2:]}", "text": TS.panel_lines(pn), "speakers": TS.panel_speakers(pn)})
+        elif k == 0: plan.append({"kind": "season opening over the key art", "text": [new_lines[ref[1]]], "speakers": ["narrator"]})
+        elif k == len(shots) - 1: plan.append({"kind": "outro card", "text": [new_lines[ref[1]], "Links to the full guides are in the description."], "speakers": ["narrator", "vera"]})
+        elif ref[1] in open_cast: plan.append({"kind": "episode cold open", "text": [new_lines[ref[1]]], "speakers": ["narrator"] + open_cast[ref[1]]})
+        else: plan.append({"kind": "Vera's whiteboard slide: read the key facts clearly, with one quick joke at most", "text": [new_lines[ref[1]]], "speakers": ["vera", "narrator"]})
+    script = V.write_script(plan, "6-to-7-minute landscape YouTube video: three comic stories, each followed by Vera explaining the facts on a whiteboard",
+                            out / f"{sid}-narration.json", 900,
+                            extra="Be a lively sitcom: in most story shots the narrator adds a quick joke or reaction, and characters banter. On whiteboard slides the rows are "
+                                  "already on screen, so Vera does NOT read every row: she picks the two or three that matter most, says them with energy, and the narrator "
+                                  "adds one playful line; never read the word 'Source' or dashes aloud (name the source naturally once, e.g. 'says CNET').")
+    voiced, dur = [], []
+    for k, ((kind, p, a, b, D, ref), lines) in enumerate(zip(shots, script)):
+        vs = [(l, *V.synth(l["text"], l["who"])) for l in lines]
+        speech = sum(x[2] for x in vs) + 0.15 * max(0, len(vs) - 1)
+        floor = 4.0 if kind == "still" and ref[0] == "new" and plan[k]["kind"].startswith("Vera") else 2.2
+        dur.append(max(floor, speech + 0.8)); voiced.append(vs)
+    clips = []
+    for k, ((kind, p, a, b, D, ref), D2) in enumerate(zip(shots, dur)):
         c = work / f"c{k:03d}.mp4"
-        (still_clip(p, D, c) if kind == "still" else L.clip(p, a, D, b, c)); clips.append(c)
-    dur = [s[4] for s in shots]; total = sum(dur) - XF * (len(dur) - 1)
+        (still_clip(p, D2, c) if kind == "still" else L.clip(p, a, D2, b, c)); clips.append(c)
     starts, x = [], 0.0
     for D in dur: starts.append(x); x += D - XF
+    total = x + XF
+    placed, cues = [], []
+    for k, vs in enumerate(voiced):
+        t = starts[k] + 0.3
+        for l, f, sec in vs: placed.append((t, f)); cues.append((t, t + sec, l["text"])); t += sec + 0.15
+    music = work / "music.wav"; mixed = work / "mix.wav"
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "make_music.py"), str(music), str(int(total) + 2), str(cfg.get("music_seed", 5))], check=True, stdout=subprocess.DEVNULL)
+    V.mix(placed, total, music, mixed)
     ins = []; [ins.extend(["-i", str(c)]) for c in clips]
     chain, last, off = [], "[0:v]", 0.0
     for i in range(1, len(clips)):
         off += dur[i - 1] - XF; chain.append(f"{last}[{i}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{i}]"); last = f"[x{i}]"
-    music = work / "music.wav"
-    subprocess.run([sys.executable, str(ROOT / "scripts" / "make_music.py"), str(music), str(int(total) + 2), str(cfg.get("music_seed", 5))], check=True, stdout=subprocess.DEVNULL)
     mp4 = out / f"{sid}.mp4"
-    TS.run(FF, "-y", *ins, "-i", music, "-filter_complex", ";".join(chain) + f";[{len(clips)}:a]volume=0.5,afade=t=in:d=1,afade=t=out:st={total-2.5:.2f}:d=2.5[a]",
-           "-map", last, "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p",
-           "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", mp4)
+    TS.run(FF, "-y", *ins, "-i", mixed, "-filter_complex", ";".join(chain), "-map", last, "-map", f"{len(clips)}:a", "-t", f"{total:.2f}",
+           "-c:v", "libx264", "-preset", "slow", "-crf", "24", "-maxrate", "1800k", "-bufsize", "3600k", "-pix_fmt", "yuv420p",
+           "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", mp4)
     def ts(s): s = int(s); return f"{s//60}:{s%60:02d}"
     chap = "\n".join(f"{ts(starts[i])} {name}" for name, i in chapters)
     desc_en = cfg["description"].replace("{chapters}", chap)
-    meta, newt = {"en": {"title": cfg["title"], "description": desc_en}}, {"en": new_lines}
-    cache_f = out / f"{sid}-i18n-cache.json"; key = __import__("hashlib").sha1(json.dumps([cfg["title"], desc_en, new_lines]).encode()).hexdigest()
-    cache = json.loads(cache_f.read_text(encoding="utf-8")) if cache_f.exists() else {}
-    if cache.get("key") == key: meta, newt = cache["meta"], cache["newt"]
-    for lang, name in TS.LANGS.items():
-        if lang == "en" or lang in meta: continue
-        r = TS.gemini_json(f"Translate this YouTube video's title, description and on-screen lines from English into {name}. Keep product names, model numbers, prices, "
-                           f"URLs, hashtags, chapter timestamps and source names exactly; translate dates naturally; 'space heater' is an electric room heater. "
-                           f"Return JSON {{\"title\": str (max 100 characters), \"description\": str, \"lines\": [str, ...] (same count and order)}}.\n\n"
-                           + json.dumps({"title": cfg["title"], "description": desc_en, "lines": new_lines}, ensure_ascii=False))
-        if len(r.get("lines", [])) != len(new_lines): raise SystemExit(f"{lang}: line count mismatch")
-        meta[lang] = {"title": r["title"][:100], "description": r["description"]}; newt[lang] = r["lines"]; print("translated", lang)
-        cache_f.write_text(json.dumps({"key": key, "meta": meta, "newt": newt}, ensure_ascii=False), encoding="utf-8")
-    for lang in TS.LANGS:
-        ep = {}
-        lines = []
-        for kind, p, a, b, D, ref in shots:
-            if ref[0] == "new": lines.append(newt[lang][ref[1]])
-            else:
-                if ref[1] not in ep: ep[ref[1]] = L.srt_lines(out / f"{ref[1]}.{lang}.srt")
-                lines.append(ep[ref[1]][ref[2]])
-        (out / f"{sid}.{lang}.srt").write_text("".join(f"{k+1}\n{TS.srt_time(starts[k] + 0.15)} --> {TS.srt_time(starts[k] + dur[k] - XF)}\n{l}\n\n" for k, l in enumerate(lines) if l), encoding="utf-8")
-    shutil.copy(png / "intro.png", out / f"{sid}-thumb.png")
-    subprocess.run(["convert", str(out / f"{sid}-thumb.png"), "-resize", "1280x720", "-quality", "88", str(out / f"{sid}-thumb.jpg")], check=True); (out / f"{sid}-thumb.png").unlink()
-    (out / f"{sid}-youtube.json").write_text(json.dumps({"video": mp4.name, "orientation": "1920x1080", "seconds": round(total, 1), "default_language": "en",
-        "made_for_kids": False, "category": "Howto & Style", "altered_content": "No (stylised cartoon, not realistic)", "paid_promotion": False,
-        "chapters": chap, "languages": TS.LANGS, "metadata": meta}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    meta, subs = TS.localize(sid, out, cfg["title"], desc_en, cfg.get("tags", []), [c[2] for c in cues], "video")
+    for lang, lines in subs.items():
+        (out / f"{sid}.{lang}.srt").write_text("".join(f"{k+1}\n{TS.srt_time(a)} --> {TS.srt_time(b)}\n{l}\n\n" for k, ((a, b, _), l) in enumerate(zip(cues, lines))), encoding="utf-8")
+    th = ROOT / "shorts" / "thumbs" / f"{sid}.jpg"
+    subprocess.run(["convert", str(th if th.exists() else png / "intro.png"), "-resize", "1280x720", "-quality", "90", str(out / f"{sid}-thumb.jpg")], check=True)
+    (out / f"{sid}-youtube.json").write_text(json.dumps({"video": mp4.name, "thumbnail": f"{sid}-thumb.jpg", "orientation": "1920x1080", "seconds": round(total, 1),
+        "default_language": "en", "made_for_kids": False, "category": "Howto & Style", "altered_content": "No (stylised cartoon, not realistic)", "paid_promotion": False,
+        "voices": "Google Gemini TTS (AI voices)", "chapters": chap, "languages": TS.LANGS, "metadata": meta}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     shutil.rmtree(work, ignore_errors=True)
-    print(f"{mp4} ({mp4.stat().st_size // 1024} KB, {total:.0f} s, {len(clips)} shots)\n{chap}")
+    print(f"{mp4} ({mp4.stat().st_size // 1024} KB, {total:.0f} s, {len(clips)} shots, {len(cues)} voice lines)\n{chap}")
 
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])

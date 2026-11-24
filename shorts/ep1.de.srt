@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: Der Roboter, der dich nicht sehen kann
+00:00:00,150 --> 00:00:03,584
+Sam will diesen Black Friday einen Saugroboter. Aber filmt der dich etwa?
 
 2
-00:00:01,928 --> 00:00:05,969
-Black Friday Woche. 23:48 Uhr. Saugroboter sind im Angebot. Tschüss, Hundehaare!
+00:00:04,084 --> 00:00:06,966
+23:48 Uhr. Tschüss, Hundehaare!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: Fotos von Test-Saugrobotern landeten im Netz (MIT Technology Review). 2026: Gehackte Roboter zeigten Live-Kamera-Bilder (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022: Von Test-Saugrobotern aufgenommene Fotos landen im Netz, so die MIT Technology Review. 2026: Gehackte Roboter zeigen Live-Kamerabilder, meldet Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
-Moment. Mein Sauger hätte eine KAMERA?
+00:00:16,573 --> 00:00:19,175
+Moment. Mein Staubsauger hätte eine KAMERA?
 
 5
-00:00:13,417 --> 00:00:16,266
-Viele Roboter weichen Hindernissen aus, indem sie diese fotografieren.
+00:00:19,575 --> 00:00:21,322
+Viele weichen Hindernissen aus, indem sie sie fotografieren.
 
 6
-00:00:16,416 --> 00:00:20,991
-Es geht auch anders: ein rotierender Laser. LiDAR. Er misst Entfernungen. Er macht nie ein Foto.
+00:00:21,722 --> 00:00:26,099
+LiDAR ist ein rotierender Laser. Er misst Entfernungen, macht aber nie ein Foto.
 
 7
-00:00:21,141 --> 00:00:23,862
-Er kartiert dein Zuhause im Dunkeln. Keine Bilder.
+00:00:26,499 --> 00:00:28,159
+Navigiert im Dunkeln. Ohne Bilder.
 
 8
-00:00:24,012 --> 00:00:26,351
-Also keine Kamera, kein Problem! Meistens.
+00:00:28,559 --> 00:00:30,199
+Keine Kamera, kein Problem!
 
 9
-00:00:26,501 --> 00:00:30,329
-Er scannt auf Höhe seines Turms. Er sieht das Sofa, nicht die Socke.
+00:00:30,319 --> 00:00:30,787
+Meistens.
 
 10
-00:00:30,479 --> 00:00:35,054
-CNET-Labortest, 13. November 2026: Der kameralose Roomba 205 Combo wich 1 von 6 aus; Roomba Combo 10 Max (Kamera) wich 6 von 6 aus. Quelle: CNET, beste Saugroboter 2026 (Labortest von Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+Er sieht das Sofa, aber nicht die Socke.
 
 11
-00:00:35,204 --> 00:00:38,904
-Und kein kameraloser Roboter in unserem Ratgeber verspricht, Tierkot auszuweichen.
+00:00:33,511 --> 00:00:42,063
+Laut CNET wich der kamerafreie Roomba 205 Combo in einem Labortest vom 13. November 2026 nur 1 von 6 Objekten aus; der Roomba Combo 10 Max mied 6 von 6.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT IST EIN WELPE!
+00:00:42,463 --> 00:00:45,798
+Kein Roboter ohne Kamera garantiert, dass er Tierkot ausweicht.
 
 13
-00:00:40,904 --> 00:00:45,479
-Welcher Roboter für dein Zuhause?: Aufgeräumter Boden, Privatsphäre zuerst – keine Kamera; Welpe, krankes Tier, Kabel – Kamera-Roboter
+00:00:46,198 --> 00:00:47,408
+BISCUIT IST EIN WELPE!
 
 14
-00:00:45,629 --> 00:00:50,203
-Am nächsten Morgen. Die 30-Sekunden-Regel: Kabel und Socken vor jedem Start vom Boden räumen. Boden ist frei, Kumpel. Los geht's.
+00:00:47,808 --> 00:00:51,405
+Aufgeräumter Boden? Datenschutz zuerst, keine Kamera. Welpe? Roboter mit Kamera.
 
 15
-00:00:50,353 --> 00:00:54,928
-Noch etwas: Ein Laser-Roboter sendet deinen Grundriss trotzdem in die Cloud. Überspringe die Datenfreigabe in der App. Keine Fotos. Nur wir.
+00:00:51,805 --> 00:00:54,127
+30-Sekunden-Regel: Kabel vom Boden weg. Los geht's.
 
 16
-00:00:55,078 --> 00:00:57,197
-Welchen kameralosen Roboter solltest du kaufen? Sechs Favoriten unten im Vergleich. Link in der Beschreibung.
+00:00:54,527 --> 00:00:57,667
+Die Raumpläne landen in der Cloud. Überspringt die Datenweitergabe in der App!
+
+17
+00:00:58,067 --> 00:00:59,794
+Kompletter Ratgeber und Quellen: Link in der Beschreibung.
 

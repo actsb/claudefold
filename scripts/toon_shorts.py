@@ -63,78 +63,107 @@ def gemini_json(prompt, model="gemini-3.1-pro-preview"):
 def srt_time(t):
     ms = int(round(t * 1000)); return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"
 
+def panel_speakers(p):
+    sp = {"narrator"}
+    for it in p.get("items", []) + p.get("over", []):
+        if it["t"] == "say": sp.add(it.get("who", "narrator"))
+    return sorted(sp)
+
+def still(png, D, out, W=None, H=None, zoom=0.05):
+    W, H = W or VW, H or VH
+    run(FF, "-y", "-framerate", "30", "-loop", "1", "-t", f"{D:.3f}", "-i", png, "-filter_complex",
+        f"[0:v]scale={W*2}:{H*2}:force_original_aspect_ratio=increase,crop={W*2}:{H*2},zoompan=z='1+{zoom}*on/({D*30:.0f})':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={W}x{H}:fps=30,format=yuv420p[v]",
+        "-map", "[v]", "-t", f"{D:.3f}", "-c:v", "libx264", "-crf", "18", "-pix_fmt", "yuv420p", out)
+
+def panel_clip(png, art, D, band, out):
+    w, h = [int(v) for v in subprocess.run(["identify", "-format", "%w %h", str(png)], capture_output=True, text=True).stdout.split()]
+    fw = 1000; fh = round(fw * h / w)
+    if fh > 1340: fh = 1340; fw = round(fh * w / h)
+    src = art if art is not None and art.exists() else png
+    flt = (f"[0:v]scale={VW}:{VH}:force_original_aspect_ratio=increase,crop={VW}:{VH},gblur=sigma=28,eq=brightness=-0.18:saturation=1.1[bg];"
+           f"[1:v]scale={fw}:{fh},format=rgba,scale=w='trunc({fw}*(1+0.05*t/{D:.3f})/2)*2':h=-2:eval=frame[fg];"
+           f"[bg][fg]overlay=x='(W-w)/2':y='(H-h)/2+30':eval=frame[v1];[2:v]format=rgba,scale={VW}:{VH}[band];[v1][band]overlay=0:0,fps={FPS},format=yuv420p[v]")
+    run(FF, "-y", "-loop", "1", "-t", f"{D:.3f}", "-i", src, "-loop", "1", "-t", f"{D:.3f}", "-i", png, "-loop", "1", "-t", f"{D:.3f}", "-i", band,
+        "-filter_complex", flt, "-map", "[v]", "-r", FPS, "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", out)
+
+def localize(sid, out, title, description, tags, lines, kind):
+    """Title, description, tags and the spoken subtitle lines in the 11 languages (cached per input)."""
+    import hashlib
+    cache_f = out / f"{sid}-i18n-cache.json"; key = hashlib.sha1(json.dumps([title, description, tags, lines]).encode()).hexdigest()
+    cache = json.loads(cache_f.read_text(encoding="utf-8")) if cache_f.exists() else {}
+    if cache.get("key") != key: cache = {"key": key, "meta": {}, "subs": {}}
+    cache["meta"]["en"] = {"title": title, "description": description, "tags": tags}; cache["subs"]["en"] = lines
+    for lang, name in LANGS.items():
+        if lang in cache["meta"]: continue
+        r = gemini_json(f"Translate this YouTube {kind}'s title, description, tags and spoken subtitle lines from English into {name}, natural and lively as a native "
+                        f"speaker would write them, keeping the jokes. Keep product names, model numbers, prices, URLs, hashtags, chapter timestamps and source names "
+                        f"exactly; translate dates naturally; 'space heater' is an electric room heater. Tags: 10 to 15 short search terms people in that language "
+                        f"really type (keep brand names). Return JSON {{\"title\": str (max 100 characters), \"description\": str, \"tags\": [str], "
+                        f"\"subtitles\": [str] (same count and order)}}.\n\n" + json.dumps({"title": title, "description": description, "tags": tags, "subtitles": lines}, ensure_ascii=False))
+        if len(r.get("subtitles", [])) != len(lines): raise SystemExit(f"{lang}: subtitle count mismatch")
+        cache["meta"][lang] = {"title": r["title"][:100], "description": r["description"], "tags": r["tags"]}; cache["subs"][lang] = r["subtitles"]
+        cache_f.write_text(json.dumps(cache, ensure_ascii=False), encoding="utf-8"); print("translated", lang)
+    return cache["meta"], cache["subs"]
+
 def main(d, out, translate=True):
+    import toon_voice as V
     d = pathlib.Path(d); out = pathlib.Path(out); out.mkdir(parents=True, exist_ok=True)
     spec, blocks = webtoon.build(d, return_blocks=True); sid = spec["id"]
-    yt = json.loads((d / "youtube.json").read_text(encoding="utf-8"))          # English title/description/hook written for this episode
-    work = out / f"{sid}-work"; (work / "png").mkdir(parents=True, exist_ok=True)
-    for f in (work / "png").glob("*"): f.unlink()
-    # 1. every block (title card, panels, end card) as its own lettered image
+    yt = json.loads((d / "youtube.json").read_text(encoding="utf-8"))
+    work = out / f"{sid}-work"; png = work / "png"; png.mkdir(parents=True, exist_ok=True)
+    for f in list(png.glob("*")) + list(work.glob("c*.mp4")): f.unlink()
     for i, (gap, h, svg, tr) in enumerate(blocks):
-        (work / "png" / f"b{i:02d}.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 {h}"><rect width="800" height="{h}" fill="#fff"/>{svg}</svg>', encoding="utf-8")
-    (work / "png" / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full guide and sources: link in description")), encoding="utf-8")
-    subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(work / "png")], check=True, stdout=subprocess.DEVNULL)
-    subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(work / "png"), "band.svg"], check=True, stdout=subprocess.DEVNULL, env={**os.environ, "ALPHA": "1"})
-    # 2. timing: reading time per panel, the whole Short under 59 s
-    texts = [[f'{spec.get("series", "Verdict Picks Toon")}: {spec["title"]}']] + [panel_lines(p) for p in spec["panels"]] + [[spec.get("end", ""), "Link in description."]]
-    dur = []
-    for i, tx in enumerate(texts):
-        n = sum(len(t) for t in tx)
-        board = i and i <= len(spec["panels"]) and "art" not in spec["panels"][i - 1]
-        dur.append(2.6 if i == 0 else 3.2 if i == len(texts) - 1 else min(6.2, max(4.4 if board else 2.4, 1.7 + 0.052 * n)))
-    total = sum(dur) - XF * (len(dur) - 1)
-    if total > 58.5: dur = [x * 58.5 / total for x in dur]; total = 58.5
-    # 3. one clip per block: blurred art behind, the lettered panel pushing in, the top/bottom bands
+        (png / f"b{i:02d}.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 {h}"><rect width="800" height="{h}" fill="#fff"/>{svg}</svg>', encoding="utf-8")
+    (png / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full guide and sources: link in description")), encoding="utf-8")
+    subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png)], check=True, stdout=subprocess.DEVNULL)
+    subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png), "band.svg"], check=True, stdout=subprocess.DEVNULL, env={**os.environ, "ALPHA": "1"})
+    cover = ROOT / "shorts" / "thumbs" / f"{sid}-cover.jpg"
+    # shots: the cover (or the title card), every panel, the end card
+    shots = [("still", cover if cover.exists() else png / "b00.png", None)]
+    shots += [("panel", png / f"b{i:02d}.png", d / "toon-art" / f"{sid}-p{i:02d}.jpg") for i in range(1, len(blocks) - 1)]
+    shots.append(("panel", png / f"b{len(blocks)-1:02d}.png", None))
+    plan = ([{"kind": "hook over the cover", "text": [spec["title"], spec.get("subtitle", "")] + yt["thumb"]["lines"], "speakers": ["narrator"]}]
+            + [{"kind": "panel", "text": panel_lines(p), "speakers": panel_speakers(p)} for p in spec["panels"]]
+            + [{"kind": "end card", "text": [spec.get("end", ""), "Full guide and sources: link in the description."], "speakers": ["narrator", "vera"]}])
+    script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", 160)
+    # time every shot to its voice lines
+    voiced, dur = [], []
+    for k, lines in enumerate(script):
+        vs = [(l, *V.synth(l["text"], l["who"])) for l in lines]
+        speech = sum(x[2] for x in vs) + 0.12 * max(0, len(vs) - 1)
+        board = 0 < k < len(script) - 1 and "art" not in spec["panels"][k - 1]
+        dur.append(max(3.6 if board else 1.8, speech + 0.75)); voiced.append(vs)
+    starts, x = [], 0.0
+    for D in dur: starts.append(x); x += D - XF
+    total = x + XF
     clips = []
-    for i, D in enumerate(dur):
-        png = work / "png" / f"b{i:02d}.png"; c = work / f"c{i:02d}.mp4"
-        w, h = [int(v) for v in subprocess.run(["identify", "-format", "%w %h", str(png)], capture_output=True, text=True).stdout.split()]
-        fw = 1000; fh = round(fw * h / w)
-        if fh > 1340: fh = 1340; fw = round(fh * w / h)
-        art = d / "toon-art" / f"{sid}-p{i:02d}.jpg"
-        bg_in = ["-loop", "1", "-t", f"{D:.3f}", "-i", str(art if art.exists() else png)]
-        fg = f"[1:v]scale={fw}:{fh},format=rgba,scale=w='trunc({fw}*(1+0.045*t/{D:.3f})/2)*2':h=-2:eval=frame[fg]"
-        bg = f"[0:v]scale={VW}:{VH}:force_original_aspect_ratio=increase,crop={VW}:{VH},gblur=sigma=28,eq=brightness=-0.18:saturation=1.1[bg]"
-        flt = f"{bg};{fg};[bg][fg]overlay=x='(W-w)/2':y='(H-h)/2+30':eval=frame[v1];[2:v]format=rgba,scale={VW}:{VH}[band];[v1][band]overlay=0:0,fps={FPS},format=yuv420p[v]"
-        run(FF, "-y", *bg_in, "-loop", "1", "-t", f"{D:.3f}", "-i", png, "-loop", "1", "-t", f"{D:.3f}", "-i", work / "png" / "band.png",
-            "-filter_complex", flt, "-map", "[v]", "-r", FPS, "-c:v", "libx264", "-preset", "medium", "-crf", "18", "-pix_fmt", "yuv420p", c)
-        clips.append(c)
-    # 4. crossfade the clips, add music
+    for k, ((kind, p, art), D) in enumerate(zip(shots, dur)):
+        c = work / f"c{k:02d}.mp4"
+        still(p, D, c) if kind == "still" else panel_clip(p, art, D, png / "band.png", c); clips.append(c)
+    placed, cues = [], []
+    for k, vs in enumerate(voiced):
+        t = starts[k] + (0.25 if k else 0.15)
+        for l, f, sec in vs: placed.append((t, f)); cues.append((t, t + sec, l["text"])); t += sec + 0.12
+    music = work / "music.wav"; mixed = work / "mix.wav"
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "make_music.py"), str(music), str(int(total) + 2), str(yt.get("music_seed", 7))], check=True, stdout=subprocess.DEVNULL)
+    V.mix(placed, total, music, mixed)
     ins = []; [ins.extend(["-i", str(c)]) for c in clips]
     chain, last, off = [], "[0:v]", 0.0
     for i in range(1, len(clips)):
-        off += dur[i - 1] - XF
-        chain.append(f"{last}[{i}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{i}]"); last = f"[x{i}]"
-    music = work / "music.wav"
-    subprocess.run([sys.executable, str(ROOT / "scripts" / "make_music.py"), str(music), str(int(total) + 2), str(yt.get("music_seed", 7))], check=True, stdout=subprocess.DEVNULL)
+        off += dur[i - 1] - XF; chain.append(f"{last}[{i}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{i}]"); last = f"[x{i}]"
     mp4 = out / f"{sid}.mp4"
-    run(FF, "-y", *ins, "-i", music, "-filter_complex", ";".join(chain) + f";[{len(clips)}:a]volume=0.55,afade=t=in:d=0.8,afade=t=out:st={total-1.6:.2f}:d=1.6[a]",
-        "-map", last, "-map", "[a]", "-t", f"{total:.2f}", "-c:v", "libx264", "-preset", "slow", "-crf", "21", "-maxrate", "8M", "-bufsize", "12M",
-        "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", mp4)
-    run(FF, "-y", "-ss", "1.2", "-i", mp4, "-frames:v", "1", "-q:v", "3", out / f"{sid}-thumb.jpg")
-    # 5. subtitles and metadata in 11 languages
-    starts, t = [], 0.0
-    for D in dur: starts.append(t); t += D - XF
-    cues = [(starts[i] + 0.15, starts[i] + dur[i] - XF, " ".join(tx)) for i, tx in enumerate(texts)]
-    meta = {"en": {"title": yt["title"], "description": yt["description"]}}
-    subs = {"en": [c[2] for c in cues]}
-    if translate:
-        for lang, name in LANGS.items():
-            if lang == "en": continue
-            r = gemini_json(f"Translate this YouTube Short's metadata and subtitles from English into {name}. Keep product names, model numbers, prices, "
-                            f"units, URLs, hashtags and source names (CPSC, NFPA, CNET, ring.com) exactly as written; translate dates naturally; 'space heater' means an electric room heater; keep it natural and short, as a native "
-                            f"speaker would write subtitles. Return JSON {{\"title\": str (max 100 characters, keep #Shorts), \"description\": str, \"subtitles\": [str, ...] "
-                            f"(same count and order)}}.\n\n" + json.dumps({"title": yt["title"], "description": yt["description"], "subtitles": subs["en"]}, ensure_ascii=False))
-            if len(r.get("subtitles", [])) != len(cues): raise SystemExit(f"{lang}: subtitle count mismatch")
-            meta[lang] = {"title": r["title"][:100], "description": r["description"]}; subs[lang] = r["subtitles"]
-            print("translated", lang)
+    run(FF, "-y", *ins, "-i", mixed, "-filter_complex", ";".join(chain), "-map", last, "-map", f"{len(clips)}:a", "-t", f"{total:.2f}",
+        "-c:v", "libx264", "-preset", "slow", "-crf", "21", "-maxrate", "8M", "-bufsize", "12M", "-pix_fmt", "yuv420p",
+        "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-movflags", "+faststart", mp4)
+    meta, subs = localize(sid, out, yt["title"], yt["description"], yt.get("tags", []), [c[2] for c in cues], "Short") if translate else ({"en": {"title": yt["title"], "description": yt["description"], "tags": yt.get("tags", [])}}, {"en": [c[2] for c in cues]})
     for lang, lines in subs.items():
         (out / f"{sid}.{lang}.srt").write_text("".join(f"{k+1}\n{srt_time(a)} --> {srt_time(b)}\n{line}\n\n" for k, ((a, b, _), line) in enumerate(zip(cues, lines))), encoding="utf-8")
-    (out / f"{sid}-youtube.json").write_text(json.dumps({"video": mp4.name, "seconds": round(total, 1), "default_language": "en", "made_for_kids": False,
-        "category": "Howto & Style", "altered_content": "No (stylised cartoon, not realistic)", "paid_promotion": False,
-        "languages": LANGS, "metadata": meta}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    if cover.exists(): subprocess.run(["convert", str(cover), "-quality", "90", str(out / f"{sid}-thumb.jpg")], check=True)
+    (out / f"{sid}-youtube.json").write_text(json.dumps({"video": mp4.name, "thumbnail": f"{sid}-thumb.jpg", "orientation": "1080x1920", "seconds": round(total, 1),
+        "default_language": "en", "made_for_kids": False, "category": "Howto & Style", "altered_content": "No (stylised cartoon, not realistic)",
+        "paid_promotion": False, "voices": "Google Gemini TTS (AI voices)", "languages": LANGS, "metadata": meta}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     import shutil; shutil.rmtree(work, ignore_errors=True)
-    print(f"{mp4} ({mp4.stat().st_size // 1024} KB, {total:.1f} s, {len(clips)} shots); subtitles: {', '.join(subs)}")
+    print(f"{mp4} ({mp4.stat().st_size // 1024} KB, {total:.1f} s, {len(clips)} shots, {len(cues)} voice lines); subtitles: {', '.join(subs)}")
 
 if __name__ == "__main__":
     a = sys.argv[1:]

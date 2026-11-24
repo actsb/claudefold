@@ -1,64 +1,68 @@
 1
-00:00:00,150 --> 00:00:01,778
-Verdict Picks Toon: The Robot That Can't See You
+00:00:00,150 --> 00:00:03,584
+Sam wants a robot vacuum this Black Friday. But is it filming you?
 
 2
-00:00:01,928 --> 00:00:05,969
-Black Friday week. 11:48 p.m. Robot vacuums are on sale. Goodbye, dog hair!
+00:00:04,084 --> 00:00:06,966
+11:48 p.m. Goodbye, dog hair!
 
 3
-00:00:06,119 --> 00:00:10,694
-2022: photos taken by test robot vacuums were posted online (MIT Technology Review). 2026: hacked robots showed live camera feeds (Tom's Hardware).
+00:00:07,366 --> 00:00:16,173
+2022: photos taken by test robot vacuums posted online, says MIT Technology Review. 2026: hacked robots showed live camera feeds, says Tom's Hardware.
 
 4
-00:00:10,844 --> 00:00:13,267
+00:00:16,573 --> 00:00:19,175
 Wait. My vacuum would have a CAMERA?
 
 5
-00:00:13,417 --> 00:00:16,266
-Many robots dodge clutter by photographing it.
+00:00:19,575 --> 00:00:21,322
+Many dodge clutter by photographing it.
 
 6
-00:00:16,416 --> 00:00:20,991
-There's another way: a spinning laser. LiDAR. It measures distance. It never takes a photo.
+00:00:21,722 --> 00:00:26,099
+LiDAR is a spinning laser. It measures distance, never takes a photo.
 
 7
-00:00:21,141 --> 00:00:23,862
-It maps your home in the dark. No pictures.
+00:00:26,499 --> 00:00:28,159
+Maps in the dark. No pictures.
 
 8
-00:00:24,012 --> 00:00:26,351
-Then no camera, no problem! Mostly.
+00:00:28,559 --> 00:00:30,199
+No camera, no problem!
 
 9
-00:00:26,501 --> 00:00:30,329
-It scans at the height of its turret. It sees the sofa, not the sock.
+00:00:30,319 --> 00:00:30,787
+Mostly.
 
 10
-00:00:30,479 --> 00:00:35,054
-CNET lab test, November 13, 2026: Camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max (camera) avoided 6 of 6 Source: CNET, best robot vacuums of 2026 (lab test by Ajay Kumar).
+00:00:31,187 --> 00:00:33,111
+It sees the sofa, not the sock.
 
 11
-00:00:35,204 --> 00:00:38,904
-And no camera-free robot in our guide promises to avoid pet waste.
+00:00:33,511 --> 00:00:42,063
+Says CNET, a November 13, 2026 lab test found camera-free Roomba 205 Combo avoided 1 of 6; Roomba Combo 10 Max avoided 6 of 6.
 
 12
-00:00:39,054 --> 00:00:40,754
-BISCUIT IS A PUPPY!
+00:00:42,463 --> 00:00:45,798
+No camera-free robot promises to avoid pet waste.
 
 13
-00:00:40,904 --> 00:00:45,479
-Which robot for your home?: Tidy floor, privacy first no camera; Puppy, sick pet, cords camera robot
+00:00:46,198 --> 00:00:47,408
+BISCUIT IS A PUPPY!
 
 14
-00:00:45,629 --> 00:00:50,203
-Next morning. The 30-second rule: cords and socks off the floor before every run. Floor's clear, buddy. Let's go.
+00:00:47,808 --> 00:00:51,405
+Tidy floor? Privacy first no camera. Puppy? Camera robot.
 
 15
-00:00:50,353 --> 00:00:54,928
-One more thing: a laser robot still sends your floor map to the cloud. Skip the data-sharing program in the app. No photos. Just us.
+00:00:51,805 --> 00:00:54,127
+30-second rule: cords off the floor. Let's go.
 
 16
-00:00:55,078 --> 00:00:57,197
-Which camera-free robot should you buy? Six picks, compared below. Link in description.
+00:00:54,527 --> 00:00:57,667
+Floor maps go to the cloud. Skip the data-sharing program in the app!
+
+17
+00:00:58,067 --> 00:00:59,794
+Full guide and sources: link in the description.
 
