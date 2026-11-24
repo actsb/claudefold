@@ -12,7 +12,7 @@ The API key is never read here: the session's network proxy injects it for gener
 (Google's OpenAI-compatible images endpoint). Characters are original; never ask the model for an existing series' style,
 an artist's name, a real person, a brand logo or a specific real product.
 """
-import base64, json, pathlib, subprocess, sys, time, urllib.request, urllib.error
+import base64, json, os, pathlib, subprocess, sys, time, urllib.request, urllib.error
 
 URL = "https://generativelanguage.googleapis.com/v1beta/openai/images/generations"
 MODEL = "gemini-2.5-flash-image"
@@ -28,15 +28,37 @@ CAST = {
     "june": "June: Jo's grandmother, about 80, gentle smile, short silver curly hair, rosy cheeks, lavender knit cardigan, reading glasses on a chain.",
 }
 
-def gen(prompt, size):
-    body = json.dumps({"model": MODEL, "prompt": prompt, "n": 1, "response_format": "b64_json", "size": size}).encode()
+NATIVE = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+NATIVE_MODEL = os.environ.get("TOON_IMAGE_MODEL", "gemini-3-pro-image")
+RATIO = {"1536x1024": "3:2", "1024x1536": "2:3", "1024x1024": "1:1"}
+
+def gen_native(prompt, size, refs=()):
+    """Gemini's own API (key in the x-goog-api-key header, injected by the proxy): better models and reference images."""
+    parts = [{"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(pathlib.Path(r).read_bytes()).decode()}} for r in refs]
+    parts.append({"text": prompt})
+    body = json.dumps({"contents": [{"parts": parts}], "generationConfig": {"responseModalities": ["IMAGE"], "imageConfig": {"aspectRatio": RATIO.get(size, "3:2")}}}).encode()
+    req = urllib.request.Request(NATIVE.format(model=NATIVE_MODEL), data=body, headers={"x-goog-api-key": "proxy-injected", "Content-Type": "application/json"})
+    r = json.load(urllib.request.urlopen(req, timeout=300))
+    for p in r["candidates"][0]["content"]["parts"]:
+        if "inlineData" in p: return base64.b64decode(p["inlineData"]["data"])
+    raise KeyError("no image in the response")
+
+def gen(prompt, size, refs=()):
+    """Native API first; if its key is not set up (HTTP 400/401/403), the OpenAI-compatible endpoint (Bearer key, no references)."""
+    native = True
     for attempt in range(4):
-        req = urllib.request.Request(URL, data=body, headers={"Authorization": "Bearer proxy-injected", "Content-Type": "application/json"})
         try:
+            if native: return gen_native(prompt, size, refs)
+            body = json.dumps({"model": MODEL, "prompt": prompt, "n": 1, "response_format": "b64_json", "size": size}).encode()
+            req = urllib.request.Request(URL, data=body, headers={"Authorization": "Bearer proxy-injected", "Content-Type": "application/json"})
             return base64.b64decode(json.load(urllib.request.urlopen(req, timeout=240))["data"][0]["b64_json"])
-        except (urllib.error.HTTPError, urllib.error.URLError, KeyError, TimeoutError) as e:
-            msg = e.read().decode()[:300] if isinstance(e, urllib.error.HTTPError) else str(e)
-            print(f"  retry {attempt + 1}: {msg}"); time.sleep(5 * (attempt + 1))
+        except urllib.error.HTTPError as e:
+            msg = e.read().decode()[:200]
+            if native and e.code in (400, 401, 403) and ("API key" in msg or "credential" in msg.lower() or e.code != 400):
+                print(f"  native API refused ({e.code}); using the compatible endpoint"); native = False; continue
+            print(f"  retry {attempt + 1}: HTTP {e.code} {msg}"); time.sleep(5 * (attempt + 1))
+        except (urllib.error.URLError, KeyError, IndexError, TimeoutError) as e:
+            print(f"  retry {attempt + 1}: {e}"); time.sleep(5 * (attempt + 1))
     raise SystemExit("image generation failed")
 
 def trim(f):
@@ -61,7 +83,9 @@ def main(d, only=None, force=False):
         a = p["art"]
         who = " ".join(cast[c] for c in a.get("cast", []))
         prompt = STYLE + spec.get("style", "") + (" Characters: " + who + " " if who else " ") + "Scene: " + a["prompt"] + NO_TEXT
-        t = time.time(); png = gen(prompt, a.get("size", "1536x1024"))
+        refs = [pathlib.Path(__file__).resolve().parent.parent / r for r in a.get("refs", []) + [f"brand/toon-cast/{c}.jpg" for c in a.get("cast", []) if (pathlib.Path(__file__).resolve().parent.parent / f"brand/toon-cast/{c}.jpg").exists()]]
+        if refs: prompt += " Match the character designs in the attached reference images exactly (face, hair, outfit), but not their pose or background."
+        t = time.time(); png = gen(prompt, a.get("size", "1536x1024"), refs)
         tmp = out / f".{f.stem}.png"; tmp.write_bytes(png)
         trim(tmp)
         subprocess.run(["convert", str(tmp), "-resize", "1440x", "-strip", "-quality", "88", str(f)], check=True); tmp.unlink()

@@ -9,7 +9,7 @@ plus the upload settings). Every panel is the lettered comic panel (the same fac
 copy of its art with a slow push-in, crossfaded to the next. Music is synthesised by scripts/make_music.py (no samples).
 Needs FFMPEG (scripts/bootstrap.sh) and Playwright (scripts/render_png.mjs).
 """
-import json, os, pathlib, re, subprocess, sys, urllib.request, html
+import json, os, pathlib, re, subprocess, sys, urllib.request, urllib.error, html
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import webtoon
 
@@ -44,11 +44,20 @@ def band_svg(top, bottom):
             + t(VW / 2, VH - 72, "Characters are fictional · art made with Google Gemini (AI)", 24, 500, "#C9D4E5")
             + '</svg>')
 
-def gemini_json(prompt):
-    body = json.dumps({"model": "gemini-3.1-pro-preview", "messages": [{"role": "user", "content": prompt}], "response_format": {"type": "json_object"}}).encode()
-    req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", data=body,
-                                 headers={"Authorization": "Bearer proxy-injected", "Content-Type": "application/json"})
-    txt = json.load(urllib.request.urlopen(req, timeout=600))["choices"][0]["message"]["content"]
+def gemini_json(prompt, model="gemini-3.1-pro-preview"):
+    """Native Gemini API (x-goog-api-key) first, the OpenAI-compatible endpoint (Bearer) if that key is not set up."""
+    try:
+        body = json.dumps({"contents": [{"parts": [{"text": prompt}]}], "generationConfig": {"responseMimeType": "application/json"}}).encode()
+        req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent", data=body,
+                                     headers={"x-goog-api-key": "proxy-injected", "Content-Type": "application/json"})
+        r = json.load(urllib.request.urlopen(req, timeout=600))
+        txt = "".join(p.get("text", "") for p in r["candidates"][0]["content"]["parts"] if not p.get("thought"))
+    except urllib.error.HTTPError as e:
+        if e.code not in (400, 401, 403): raise
+        body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}], "response_format": {"type": "json_object"}}).encode()
+        req = urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", data=body,
+                                     headers={"Authorization": "Bearer proxy-injected", "Content-Type": "application/json"})
+        txt = json.load(urllib.request.urlopen(req, timeout=600))["choices"][0]["message"]["content"]
     return json.loads(re.sub(r"^```(json)?|```$", "", txt.strip(), flags=re.M))
 
 def srt_time(t):
