@@ -15,7 +15,7 @@ Prof H Lab 유튜브 채널(소유자 계정과 관리자 계정이 있음)에 �
 2. 그 프로젝트의 OAuth 클라이언트로 **채널 소유자 계정의 Prof H Lab 채널** 토큰을 새로 받아 주세요.
    - 범위: `https://www.googleapis.com/auth/youtube.upload`, `https://www.googleapis.com/auth/youtube.force-ssl`
    - 브라우저 동의 화면에서 채널 소유자 계정 → Prof H Lab 채널을 고르면 됩니다.
-3. 그 토큰으로 `channels.list?part=status&mine=true`를 호출해 Prof H Lab 채널의 `longUploadsStatus`를 알려 주세요. `allowed`면 전화 인증이 된 것이고, `eligible`이면 아직입니다.
+3. (전화 인증은 2026-11-24에 운영자가 확인함: youtube.com/verify에서 "Phone number verified", 기능 사용 자격요건 "사용 설정됨". 맞춤 썸네일을 API로 설정할 수 있음.)
 4. 다음 중 하나를 해 주세요.
    - **(가) 이 세션이 직접 업로드:** 영상과 자료는 아래 주소에 있습니다. 각 json의 `metadata`에는 11개 언어 제목·설명·태그가 있고, 같은 이름의 `.srt` 11개는 언어별 자막입니다.
      - https://actsb.github.io/claudefold/shorts/ep1.mp4 · ep2.mp4 · ep3.mp4 (쇼츠, 세로) · season1.mp4 (롱폼, 가로)
