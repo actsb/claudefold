@@ -1,0 +1,218 @@
+{
+ "id": "ep7",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 7 · Pressure cookers",
+ "ai_art": true,
+ "title": "Grandma June's All-Day Stew",
+ "subtitle": "Thanksgiving in a closet-sized kitchen. Grandma's bean stew takes all day. Jo has until five.",
+ "end": "Is the Instant Pot Duo worth it this Black Friday? Our full review and the price to wait for are below.",
+ "style": "Autumn holiday palette: warm amber and cranberry kitchen light, brushed-steel highlights, cozy golden evening.",
+ "cast": {},
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Thanksgiving morning in a tiny city apartment kitchen barely wider than a closet: Jo, flour on her glasses and apron, stirs one pot while all four stove burners are crammed with bubbling pots, a roasting turkey fills the small oven behind its glowing window, cutting boards balance across the sink and blank sticky notes cover the cabinets. Comic chaos, warm amber morning light. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Thanksgiving. Jo's first time hosting. Her kitchen is closet-sized.",
+     "x": 30,
+     "y": 30,
+     "w": 520,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "June in her own cozy kitchen on a video call, proudly holding up a worn handwritten recipe card (the writing abstract and unreadable) and a big wooden spoon, beaming; an old enamel stew pot simmers on the stove behind her. Warm autumn light through a lace curtain. The phone is out of frame. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Don't forget my bean stew, dear. It simmers all day!",
+     "x": 420,
+     "y": 60,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Comedic shock close-up of Jo in her tiny kitchen, glasses askew, eyes huge, jaw dropped, manga shock lines radiating behind her; a pot lid flies off the crowded stove and a small saucepan is balanced precariously on top of a toaster; steam everywhere. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "All day?! You're coming at five!",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 30
+    },
+    {
+     "t": "sfx",
+     "text": "CLANG",
+     "x": 640,
+     "y": 300,
+     "size": 70,
+     "rot": -10,
+     "color": "#E63946"
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo on tiptoe on a small step stool, reaching into a high kitchen cupboard and pulling down a dusty, unopened plain cardboard box tied with a faded red gift ribbon; a beam of light catches the floating dust; her face lights up in a hopeful, comic eureka moment. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Grandma's gift from last Christmas. Still in the box.",
+     "x": 420,
+     "y": 60,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "In the tiny kitchen, a gleaming stainless electric pressure cooker with a black lid and a small blank front control panel sits on the one clear corner of the counter, lid locked, a calm glow around it, while the crowded stove still bubbles behind; in the foreground Jo has finally sat down on a kitchen stool, eyes closed, holding a mug of tea with both hands, blissfully relieved. Warm golden light. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Owners praise its speed: one pot for rice, beans, stews, soup, yogurt.",
+     "x": 30,
+     "y": 30,
+     "w": 580
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera leans into the scene beside a gleaming stainless electric pressure cooker with a black lid, one hand raised like a friendly teacher sharing a secret with the viewer, a soft autumn-gold glow and a few drifting maple leaves around her; calm, confident, warm. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Want one? List is $109.99. Last Black Friday: about 36% off.",
+     "x": 420,
+     "y": 50,
+     "w": 480
+    },
+    {
+     "t": "narr",
+     "text": "Instant Pot's store, Nov 17, 2026; Bob Vila, Nov 28, 2025.",
+     "x": 30,
+     "y": 200,
+     "w": 560,
+     "size": 22,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Evening at the apartment door: Jo, apron on and a little flushed but smiling, opens the door; June stands in the hallway in a lavender coat holding a pie, sniffing the air with delighted surprise; behind Jo in the tiny kitchen the stainless electric pressure cooker sits on the counter with its lid on and a gentle wisp of steam. Warm golden light spilling into the hall. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Is that... my bean stew?",
+     "x": 400,
+     "y": 60,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Made in your present, Grandma.",
+     "x": 460,
+     "y": 200,
+     "w": 400
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Heartwarming Thanksgiving night: Jo and June sit side by side at a small candlelit table in the tiny apartment, crowded with a roast turkey, a pie and bowls of steaming bean stew; June rests her hand over Jo's and both laugh warmly; city lights twinkle at dusk through the window. Cozy amber and cranberry glow. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "I always spent Thanksgiving stirring that pot.",
+     "x": 560,
+     "y": 40,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "This year, you just sit with me.",
+     "x": 600,
+     "y": 180,
+     "w": 400
+    }
+   ]
+  }
+ ]
+}
