@@ -10,6 +10,14 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Rechargeable Hand Warmers: 1.58 Million Recalled in 2026. 8 Model Numbers to Check Before You Charge One
+
+https://acts39.blogspot.com/2026/11/rechargeable-hand-warmer-recalls-2026.html
+
+```text
+Is your hand warmer recalled? Read the number on the bottom: 8 model numbers from 3 CPSC recalls in 2026, the refund steps and safer picks we'd buy.
+```
+
 ## Best Robot Vacuums of 2026: Every Brand Compared, One Clear Verdict
 
 https://acts39.blogspot.com/2026/09/best-robot-vacuums-2026_0205504732.html

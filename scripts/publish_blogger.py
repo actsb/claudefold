@@ -338,6 +338,7 @@ POSTS = {
     },
     "hand-warmer-recalls": {
         "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+        "url": "https://acts39.blogspot.com/2026/11/rechargeable-hand-warmer-recalls-2026.html",
         "title": "Rechargeable Hand Warmers: 1.58 Million Recalled in 2026. 8 Model Numbers to Check Before You Charge One",
         "slug_title": "Rechargeable Hand Warmer Recalls 2026",
         "labels": ["Winter", "Hand Warmers", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],
