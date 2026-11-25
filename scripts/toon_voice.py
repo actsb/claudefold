@@ -42,7 +42,7 @@ def write_script(shots, context, path, words, extra=""):
               f"Characters may say their balloon lines, tightened or punched up, but keep their meaning. The narrator links the scenes. "
               f"HARD RULES: add no new facts; every number, price, date, model name and source must be one that appears in the shot texts, "
               f"written the same way; keep source names when a number is said (say 'says CNET'); no Amazon ratings or prices; do not say the characters "
-              f"used or tested a product. The last shot ends by sending viewers to the full guide in the description. "
+              f"used or tested a product. The last shot ends by sending viewers to the full review on Verdict Picks (say 'Verdict Picks'; never 'link in the description': Shorts links are not clickable). "
               f"Return JSON: {{\"shots\": [[{{\"who\": str, \"text\": str}}, ...], ...]}} with exactly {len(shots)} entries in order.\n\n"
               + json.dumps([{"shot": i, "kind": x["kind"], "speakers": x["speakers"], "texts": x["text"]} for i, x in enumerate(shots)], ensure_ascii=False))
     for attempt in range(3):

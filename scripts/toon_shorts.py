@@ -124,7 +124,7 @@ def main(d, out, translate=True):
     shots.append(("panel", png / f"b{len(blocks)-1:02d}.png", None))
     plan = ([{"kind": "hook over the cover", "text": [spec["title"], spec.get("subtitle", "")] + yt["thumb"]["lines"], "speakers": ["narrator"]}]
             + [{"kind": "panel", "text": panel_lines(p), "speakers": panel_speakers(p)} for p in spec["panels"]]
-            + [{"kind": "end card", "text": [spec.get("end", ""), "Full guide and sources: link in the description."], "speakers": ["narrator", "vera"]}])
+            + [{"kind": "end card", "text": [spec.get("end", ""), "The full review, today's price and the sources are on Verdict Picks: search Verdict Picks, or acts39.blogspot.com. Never say the link is in the description (Shorts links are not clickable)."], "speakers": ["narrator", "vera"]}])
     script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", yt.get("words", 160))
     # time every shot to its voice lines
     voiced, dur = [], []
