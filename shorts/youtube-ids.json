@@ -34,11 +34,22 @@
  "ep5": {
   "id": null,
   "post": "kindle-models",
-  "title": "Grandma Reads in the Bath With Kitchen Tongs"
+  "title": "Grandma Reads in the Bath With Kitchen Tongs",
+  "caption": "Verdict Picks Toon, Episode 5: Grandma June trades her bath-book tongs for a Paperwhite, in 40 seconds.",
+  "seconds": 40.1
  },
  "ep7": {
   "id": null,
   "post": "instant-pot-duo",
-  "title": "Grandma's All-Day Stew vs. a Closet-Sized Kitchen"
+  "title": "Grandma's All-Day Stew vs. a Closet-Sized Kitchen",
+  "caption": "Verdict Picks Toon, Episode 7: Grandma June's all-day stew, made by five, in 40 seconds.",
+  "seconds": 37.9
+ },
+ "ep6": {
+  "id": null,
+  "post": "noco-gb40",
+  "title": "Coldest Morning, Dead Battery, Grandma's Gift",
+  "caption": "Verdict Picks Toon, Episode 6: the coldest morning, a dead battery and Grandma June's present, in 40 seconds.",
+  "seconds": 39.0
  }
 }

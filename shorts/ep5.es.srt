@@ -1,6 +1,6 @@
 1
 00:00:00,150 --> 00:00:04,637
-¡La abuela June lee con una linterna de pesca y pinzas de cocina! Jo tiene una idea para regalar.
+¡La abuela June lee con una linterna de pesca y pinzas de cocina! Jo tiene un regalo en mente.
 
 2
 00:00:05,137 --> 00:00:08,307
@@ -8,7 +8,7 @@
 
 3
 00:00:08,707 --> 00:00:12,199
-Bolsa para congelar, pinzas de cocina. ¡Funciona perfecto!
+Bolsa de congelación, pinzas de cocina. ¡Funciona perfecto!
 
 4
 00:00:12,599 --> 00:00:15,085
@@ -20,15 +20,15 @@ Abuela, ya sé exactamente qué te voy a regalar este año.
 
 6
 00:00:17,064 --> 00:00:21,187
-La elección de TechRadar para la mayoría está a $199.99 en Target, el 13 de nov.
+La opción recomendada por TechRadar para la mayoría cuesta $199.99 en Target, 13 de nov.
 
 7
 00:00:21,587 --> 00:00:24,135
-¡Luz cálida para la cama, resistente al agua para la bañera!
+¡Luz cálida para la cama y resistente al agua para la bañera!
 
 8
 00:00:24,535 --> 00:00:27,681
-¡Ay, madre! ¿Pero a dónde van las páginas?
+¡Madre mía! ¿Pero a dónde van las páginas?
 
 9
 00:00:27,801 --> 00:00:28,625
@@ -47,6 +47,6 @@ La elección de TechRadar para la mayoría está a $199.99 en Target, el 13 de n
 Siempre, abuela.
 
 13
-00:00:35,255 --> 00:00:39,542
-Para los anuncios, precios de Black Friday, la opción Kobo y la guía completa, ¡revisa el enlace en la descripción!
+00:00:35,255 --> 00:00:39,588
+¿Anuncios, precios de Black Friday y la opción de Kobo? ¡Reseña completa en Verdict Picks!
 
