@@ -114,7 +114,7 @@ def main(d, out, translate=True):
     for f in list(png.glob("*")) + list(work.glob("c*.mp4")): f.unlink()
     for i, (gap, h, svg, tr) in enumerate(blocks):
         (png / f"b{i:02d}.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 {h}"><rect width="800" height="{h}" fill="#fff"/>{svg}</svg>', encoding="utf-8")
-    (png / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full guide and sources: link in description")), encoding="utf-8")
+    (png / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full review & today's price: acts39.blogspot.com")), encoding="utf-8")
     subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png)], check=True, stdout=subprocess.DEVNULL)
     subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png), "band.svg"], check=True, stdout=subprocess.DEVNULL, env={**os.environ, "ALPHA": "1"})
     cover = ROOT / "shorts" / "thumbs" / f"{sid}-cover.jpg"
