@@ -1,0 +1,407 @@
+{
+ "id": "ep5",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 5 · Rechargeable hand warmer recalls",
+ "ai_art": true,
+ "title": "The Number on the Bottom",
+ "subtitle": "Grandma June loves her pocket hand warmer. Jo reads the recall list before June plugs it in.",
+ "end": "Is yours on the list? The model numbers, the refund steps and the warmers we would buy instead are below.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "jo"
+    ],
+    "prompt": "Cozy small kitchen on a snowy winter morning, soft blue window light and warm lamp light. June stands by the counter, happily holding a small plain gray rounded rechargeable hand warmer (a generic smooth pebble-shaped gadget, no logo, no buttons visible) in one hand and a white charging cable in the other, about to plug it in. Jo sits at the kitchen table in the background with a mug, looking at her smartphone. Snow falls outside the window. Medium-wide shot, calm and warm. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "December. June's favorite gadget comes out of the drawer.",
+     "x": 20,
+     "y": 440,
+     "w": 430,
+     "size": 23,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "One quick charge, and my pocket stays toasty all walk.",
+     "x": 600,
+     "y": 20,
+     "w": 380
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Close-up of Jo at the kitchen table, lit by the cool glow of her smartphone (the screen faces away from the viewer), her eyes narrowing as she reads, eyebrows rising, one hand frozen halfway to her coffee mug. Soft morning light, quiet tension. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "July 30, 2026: the CPSC recalled about 1.5 million OCOOPA rechargeable hand warmers (recall 26-659).",
+     "x": 30,
+     "y": 24,
+     "w": 740
+    }
+   ]
+  },
+  {
+   "gap": 140,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Dramatic close-up of Jo jumping up from her chair, one arm stretched out toward the viewer as if to stop someone, eyes wide behind her round glasses, mouth open in alarm, hair flying, radiating manga speed lines in the background, intense lighting. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "Grandma, WAIT! Don't plug it in!",
+     "x": 400,
+     "y": 34,
+     "w": 720,
+     "size": 28
+    },
+    {
+     "t": "sfx",
+     "text": "!!",
+     "x": 690,
+     "y": 430,
+     "size": 110
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Moody close-up still life at night: a small plain gray rounded generic hand warmer (no logo) lies on a dark wooden kitchen counter next to a coiled white charging cable; a faint orange heat glow and a thin wisp of smoke rise from it, ominous shadows, cinematic thriller lighting. Unbranded. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The CPSC counted 1,480 overheating reports, 15 fires, 350 burn injuries and one death.",
+     "x": 30,
+     "y": 24,
+     "w": 600,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera makes a confident entrance in a bright, clean space, one hand raised presenting a large glowing holographic outline of a small rounded hand warmer turned upside down, with a softly glowing rectangle on its underside where a label would be (the rectangle is blank). Dynamic pose, sparkles of light, upbeat. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Don't go by the brand. Flip it over.",
+     "x": 420,
+     "y": 50,
+     "w": 460
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "The model number is printed on the bottom.",
+     "x": 440,
+     "y": 220,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 480,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 20,
+     "y": 30,
+     "w": 680,
+     "size": 20,
+     "title": "The recalled model numbers (CPSC, 2026)",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "OCOOPA (26-659)",
+       "UT3053 · UT3056",
+       "#C1121F"
+      ],
+      [
+       "OCOOPA (26-659)",
+       "H01 · H01(PD)",
+       "#C1121F"
+      ],
+      [
+       "OCOOPA (26-659)",
+       "ZLS-118 · 118S · 118D",
+       "#C1121F"
+      ],
+      [
+       "HotHands electric (27-011)",
+       "H163650",
+       "#C1121F"
+      ],
+      [
+       "Gobi Heat (27-009)",
+       "UT3053",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Sources: CPSC recalls 26-659 (July 30), 27-011 and 27-009 (Oct 1, 2026).",
+     "x": 360,
+     "y": 410,
+     "w": 680,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "jo"
+    ],
+    "prompt": "June sits at the kitchen table holding the small plain gray rounded hand warmer upside down close to her face, peering at its underside through her reading glasses with a puzzled squint; Jo leans in beside her, pointing at the bottom of the gadget. Warm lamp light, a little comic. The gadget's underside is blank and plain. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "This isn't even that brand, dear.",
+     "x": 220,
+     "y": 30,
+     "w": 380
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "The number counts. UT3053 was recalled under two brands.",
+     "x": 620,
+     "y": 370,
+     "w": 340
+    }
+   ]
+  },
+  {
+   "gap": 120,
+   "h": 260,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 20,
+     "y": 30,
+     "w": 680,
+     "size": 20,
+     "title": "Same model number, two brands",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "UT3053 as OCOOPA",
+       "recalled July 30",
+       "#C1121F"
+      ],
+      [
+       "UT3053 as Gobi Heat",
+       "recalled Oct 1",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: CPSC recalls 26-659 and 27-009.",
+     "x": 360,
+     "y": 205,
+     "w": 680,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 140,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Comedic super-deformed chibi version of June, both hands on her cheeks, eyes as huge white circles, tiny body in her lavender cardigan, reading glasses bouncing on their chain, bright pink background with radiating burst lines. Funny reaction panel. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "shout",
+     "text": "It's been in my coat pocket all week!",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 34
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera stands calmly beside a kitchen counter, explaining with an open palm; on the counter a small plain gray rounded hand warmer sits unplugged next to a pen and a smartphone (screen dark, no logo). Clear daylight, reassuring mood. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "card",
+     "x": 300,
+     "y": 24,
+     "w": 480,
+     "size": 20,
+     "title": "If the number matches",
+     "rows": [
+      [
+       "Stop using it",
+       "don't charge it",
+       "#C1121F"
+      ],
+      [
+       "Claim the refund",
+       "steps in the CPSC notice",
+       "#1B2A41"
+      ],
+      [
+       "Battery, not trash",
+       "hazardous-waste drop-off",
+       "#1E8E5A"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Jo and June sit side by side at the kitchen table, relaxed now, looking at a sheet of paper together and smiling; a small open box of plain white air-activated heat packets (no logo, no text) sits on the table between them. Warm morning light, a sense of relief. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "A few cold walks a season? Plain packs need no battery.",
+     "x": 400,
+     "y": 10,
+     "w": 560
+    },
+    {
+     "t": "narr",
+     "text": "Our guide: buy a rechargeable only if you use one most cold days, and its number is not on the list.",
+     "x": 30,
+     "y": 380,
+     "w": 520
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera crouches by a clean, empty hard kitchen countertop next to a wall outlet, pointing at a clear spot on the counter where a small device would charge, with a soft-focus bed and pillow far in the background marked by her other hand making a gentle stop gesture. Bright daylight, friendly tutorial mood. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Whatever you buy: charge it while you're awake and nearby.",
+     "x": 200,
+     "y": 20,
+     "w": 360
+    },
+    {
+     "t": "narr",
+     "text": "Never overnight, never on a bed or under a pillow. Charge on a hard surface (CPSC battery advice).",
+     "x": 30,
+     "y": 400,
+     "w": 460,
+     "size": 22
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "jo"
+    ],
+    "prompt": "Quiet closing shot from behind: June and Jo walk arm in arm down a snowy tree-lined sidewalk in soft golden winter light, June's free hand tucked in her coat pocket, footprints behind them, gentle falling snow. Peaceful, heartwarming. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Two minutes to read a number. Then the walk.",
+     "x": 30,
+     "y": 14,
+     "w": 440,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Next time, I check the bottom first.",
+     "x": 650,
+     "y": 330,
+     "w": 280
+    }
+   ]
+  }
+ ]
+}

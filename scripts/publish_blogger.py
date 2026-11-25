@@ -336,6 +336,12 @@ POSTS = {
         "slug_title": "Robot Vacuums Without a Camera 2026",
         "labels": ["Robot Vacuums", "Privacy", "Smart Home", "Comparison", "Buying Guide", "Amazon Finds"],
     },
+    "hand-warmer-recalls": {
+        "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+        "title": "Rechargeable Hand Warmers: 1.58 Million Recalled in 2026. 8 Model Numbers to Check Before You Charge One",
+        "slug_title": "Rechargeable Hand Warmer Recalls 2026",
+        "labels": ["Winter", "Hand Warmers", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),

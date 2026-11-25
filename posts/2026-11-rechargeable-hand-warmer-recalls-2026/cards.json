@@ -1,0 +1,115 @@
+{
+  "category": "generic",
+  "buy_title": "The hand warmers to order after you check the recall list",
+  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "cards": [
+    {
+      "id": "thaw-2k",
+      "category": "generic",
+      "name": "THAW 2K Rechargeable Hand Warmer, 2-pack",
+      "short": "THAW 2K 2-pack",
+      "badge": "Our pick · no CPSC recall found · US brand at big-box stores",
+      "chip": "2,000 mAh each · up to 4 hours · 113°F max",
+      "art": {
+        "shape": "tile",
+        "label": "THAW 2K 2-pack"
+      },
+      "price": "$24.99 at Target (read on Target's page, Nov 25, 2026); $29.99 list at THAW's own store. The button shows today's price.",
+      "buy_if": "you want one warmer per pocket from a US company sold at Target, Home Depot and Dick's, with a gentle 113°F top temperature and a one-year warranty at Target.",
+      "skip_if": "you need a full day of heat (THAW says up to 4 hours, and Target reviewers report less) or you use warmers only a few days a year (disposables are cheaper).",
+      "owners": "Target's 2-pack page showed 4.43 out of 5 from 26 reviews on Nov 25, 2026. The repeated complaint is runtime: one reviewer reports about an hour and a half (Nov 14, 2026), another about 3 hours (Jan 3, 2026). Others dislike one button for both light and heat.",
+      "cta": "https://www.amazon.com/s?k=THAW+2K+rechargeable+hand+warmer+2+pack&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The pick",
+        "pick": "THAW 2K Rechargeable Hand Warmer 2-pack (item THA-HND-0022), not a look-alike magnetic pair",
+        "check": "Brand THAW on the listing and the unit; sold by THAW or the store itself; 2,000 mAh, 113°F and USB-C in the specs",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "zippo-9s",
+      "category": "generic",
+      "name": "Zippo HeatBank 9s Rechargeable Hand Warmer (Silver)",
+      "short": "Zippo HeatBank 9s",
+      "badge": "Longest runtime claim · no CPSC recall found · stock is thin",
+      "chip": "5,200 mAh · up to 9 hours · 120°F max",
+      "art": {
+        "shape": "tile",
+        "label": "Zippo HeatBank 9s"
+      },
+      "price": "$37.46–$44.96 on sale at zippo.com (list $49.95–$59.95, most colors sold out, Nov 25, 2026). The button shows today's price.",
+      "buy_if": "you spend long days outside (hunting, ski lifts, game days), want one unit that doubles as a phone power bank, and like a brand with a US support line.",
+      "skip_if": "you want two hands warm for under $30 (the THAW pair), or you expect the full 9 hours on a cold day: Bob Vila's freezer test got about 5.",
+      "owners": "Bob Vila's testers (Feb 19, 2026) liked the shape and fast warm-up but measured about 5 hours against the 9-hour claim. Older REI reviews in search snippets mention units that stopped charging (undated, unverified).",
+      "cta": "https://www.amazon.com/dp/B07Q6GQM9D?tag=verdictpicks-20",
+      "video": "uNW8DEkCm1E",
+      "video_title": "Zippo HeatBank 9s Rechargeable Hand Warmer Review",
+      "video_channel": "PNW Outdoor Reviews",
+      "video_why": "An owner's look at the 9s: the buttons, the heat levels and the size in a hand. We could not confirm the upload date.",
+      "buy": {
+        "tier": "Longer runtime",
+        "pick": "Zippo HeatBank 9s, Silver (5,200 mAh), not the discontinued 9s Plus",
+        "check": "Sold by Zippo or the store itself; 'HeatBank 9s' and 5,200 mAh in the title; skip sites selling it far below Zippo's sale price",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "thaw-5k",
+      "category": "generic",
+      "name": "THAW 5K Rechargeable Hand Warmer",
+      "short": "THAW 5K",
+      "badge": "Hotter and longer · same US brand · no CPSC recall found",
+      "chip": "5,000 mAh · 3 heat levels · 3.5 to 7 hours",
+      "art": {
+        "shape": "tile",
+        "label": "THAW 5K"
+      },
+      "price": "$39.99 at THAW's own store for the 5K+ (Nov 25, 2026); about $31–$35 at Walmart and Dick's in search snippets we could not open. The button shows today's price.",
+      "buy_if": "you want one stronger warmer with three heat levels and a one-year warranty, from the same company as our pick.",
+      "skip_if": "the warmer will sit against bare skin or go to a child or someone with numb hands: the original 5K reaches 140°F on high, well inside the burn range.",
+      "owners": "We found no dated owner reports outside Amazon for the 5K. A YouTube family review of a THAW warmer complains of short battery life and low heat (model not confirmed).",
+      "cta": "https://www.amazon.com/s?k=THAW+5K+rechargeable+hand+warmer&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Hotter",
+        "pick": "THAW 5K or 5K+ Rechargeable Hand Warmer (the 5K+ tops out at 120°F, the older 5K at 140°F)",
+        "check": "Brand THAW; 5,000 or 5,100 mAh; read which version the listing is before you buy",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "hothands",
+      "category": "generic",
+      "name": "HotHands Hand Warmers, air-activated (10-pair pack)",
+      "short": "HotHands disposables",
+      "badge": "No battery · cheapest for a few cold days",
+      "chip": "Up to 10 hours · about 135°F · no charging",
+      "art": {
+        "shape": "tile",
+        "label": "HotHands disposables"
+      },
+      "price": "$7.49 for 10 pairs at Target (Nov 25, 2026), about 75 cents a pair. The button shows today's price.",
+      "buy_if": "you need warm hands on a handful of days a season, for a car kit, a stadium or a kid's ski trip, and want nothing that charges.",
+      "skip_if": "you are out most cold days (a rechargeable pays for itself after about 33 pairs), or you dislike throwing a packet away every time.",
+      "owners": "Target's 10-pair page showed 4.81 out of 5 from 212 ratings on Nov 25, 2026. Expired packs can be duds: HotHands gives a shelf life of 3 to 4 years.",
+      "cta": "https://www.amazon.com/s?k=HotHands+hand+warmers+10+pair&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "No battery",
+        "pick": "HotHands air-activated Hand Warmers, 10-pair or 40-pair pack (not the recalled rechargeable HotHands H163650)",
+        "check": "Air-activated packets, not an electric unit; a far-off expiration date on the box",
+        "label": "See today's price"
+      }
+    }
+  ]
+}

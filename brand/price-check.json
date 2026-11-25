@@ -2787,9 +2787,150 @@
      "seen": "C28 bundles $429.99 to $479.99 in search result, Nov 2026"
     }
    ]
+  },
+  {
+   "key": "thaw-2k-2pack",
+   "category": "comfort",
+   "name": "THAW 2K Rechargeable Hand Warmer, 2-pack",
+   "guide": "hand-warmer-recalls",
+   "card": [
+    "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "thaw-2k"
+   ],
+   "model": "THAW 2K 2-pack (THA-HND-0022), 2,000 mAh each, 113°F, up to 4 h. Not the THAW 5K or the single 2K.",
+   "street": "$24.99 at Target (Nov 25, 2026, read on Target's page); $29.99 list at THAW's store with a BOGO2026 code; Dick's $29.99 and Home Depot $24.99 in search snippets",
+   "good": "$25 or less",
+   "great": "about $20",
+   "verdict": "buy",
+   "why": "$24.99 at Target on Nov 25, 2026 is about 17% under THAW's $29.99 list and the lowest price we could read on a store page; no CPSC recall found for THAW.",
+   "sources": "Target product page and THAW store, Nov 25, 2026; Dick's and Home Depot search snippets, Nov 2026",
+   "checked": "2026-11-25",
+   "stores": [
+    {
+     "name": "THAW",
+     "url": "https://thaw.acgbrands.com/en_US/rc-2k-hand-warmer-2pk.html",
+     "seen": "$29.99 list, BOGO2026 code shown, Nov 25, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/thaw-2pk-rechargeable-hand-warmers/-/A-95288258",
+     "seen": "$24.99, in stock, Nov 25, 2026"
+    },
+    {
+     "name": "Dick's Sporting Goods",
+     "url": "https://www.dickssportinggoods.com/p/thaw-2k-rechargeable-hand-warmer-2-pack-25thaucasu2kwrmr2pefc/25thaucasu2kwrmr2pefc",
+     "seen": "$29.99 in search snippet, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "zippo-heatbank-9s",
+   "category": "comfort",
+   "name": "Zippo HeatBank 9s Rechargeable Hand Warmer",
+   "guide": "hand-warmer-recalls",
+   "card": [
+    "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "zippo-9s"
+   ],
+   "model": "HeatBank 9s (SKU 40582 black; silver on Amazon), 5,200 mAh, up to 9 h, 120°F. Not the 9s Plus (page gone at Zippo) or the 6+ Pro.",
+   "street": "$37.46-$44.96 on sale at zippo.com, list $49.95-$59.95, most colors sold out (Nov 25, 2026); Academy $39.99 and Ace $49.99 in search snippets; REI lists it as discontinued",
+   "good": "about $40 or less",
+   "great": "about $35",
+   "verdict": "ok",
+   "why": "25% off at zippo.com on Nov 25, 2026, but most colors were sold out; buy at about $40 or less if you need the runtime, and do not chase it.",
+   "sources": "zippo.com product page, Nov 25, 2026; Academy, Ace and REI search snippets, Nov 2026",
+   "checked": "2026-11-25",
+   "stores": [
+    {
+     "name": "Zippo",
+     "url": "https://www.zippo.com/products/heatbank-9s-rechargeable-hand-warmer-box",
+     "seen": "$37.46-$44.96 sale (list $49.95-$59.95), mostly sold out, Nov 25, 2026"
+    },
+    {
+     "name": "Academy Sports",
+     "url": "https://www.academy.com/p/zippo-heatbank-9s-rechargeable-hand-warmer",
+     "seen": "$39.99 in search snippet, Nov 2026"
+    },
+    {
+     "name": "Ace Hardware",
+     "url": "https://www.acehardware.com/p/9064686",
+     "seen": "$49.99 in search snippet, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "thaw-5k",
+   "category": "comfort",
+   "name": "THAW 5K Rechargeable Hand Warmer",
+   "guide": "hand-warmer-recalls",
+   "card": [
+    "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "thaw-5k"
+   ],
+   "model": "THAW 5K (THA-HND-0009; 140°F high) or the newer 5K+ (5,100 mAh, 105-120°F). Read which version the listing is.",
+   "street": "$39.99 for the 5K+ at THAW's store (Nov 25, 2026); Walmart about $31.49 and Dick's $34.99 in search snippets",
+   "good": "$35 or less",
+   "great": "about $30",
+   "verdict": "ok",
+   "why": "THAW's own price is $39.99 with a buy-one-get-one code on Nov 25, 2026; other stores in snippets were $31-$35. Fine under $35.",
+   "sources": "THAW store, Nov 25, 2026; Walmart and Dick's search snippets, Nov 2026",
+   "checked": "2026-11-25",
+   "stores": [
+    {
+     "name": "THAW",
+     "url": "https://thaw.acgbrands.com/en_US/5k-rechargeable-hand-warmer-plus.html",
+     "seen": "$39.99 (5K+), BOGO2026 code shown, Nov 25, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/THAW-5K-Rechargeable-Hand-Warmer/14702010648",
+     "seen": "about $31.49 in search snippet, Nov 2026; check the seller"
+    },
+    {
+     "name": "Dick's Sporting Goods",
+     "url": "https://www.dickssportinggoods.com/p/thaw-5k-warmerlight-portable-and-rechargeable-hand-warmer-25thaucasu5kwrmrlgbeb/25thaucasu5kwrmrlgbeb",
+     "seen": "$34.99 in search snippet, Nov 2026"
+    }
+   ]
+  },
+  {
+   "key": "hothands-hand-warmers",
+   "category": "comfort",
+   "name": "HotHands Hand Warmers (air-activated)",
+   "guide": "hand-warmer-recalls",
+   "card": [
+    "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "hothands"
+   ],
+   "model": "Air-activated HotHands Hand Warmers, 10-pair or 40-pair. Not the recalled rechargeable HotHands H163650.",
+   "street": "$7.49 for 10 pairs at Target (Nov 25, 2026), about $0.75 a pair; Walmart 40 pairs about $22.99 in search snippets (about $0.57 a pair)",
+   "good": "$0.75 a pair or less",
+   "great": "$0.55 a pair or less",
+   "verdict": "buy",
+   "why": "$7.49 for 10 pairs at Target on Nov 25, 2026 is an everyday price; the bigger Walmart box works out cheaper per pair if it shows near $23.",
+   "sources": "Target product page, Nov 25, 2026; Walmart search snippet, Nov 2026",
+   "checked": "2026-11-25",
+   "stores": [
+    {
+     "name": "HotHands",
+     "url": "https://hothands.com/shop/hand-warmer/hothands-hand-warmer-value-pack-10-pairs",
+     "seen": "no price on the maker's page, Nov 25, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/hothands-10-pair-hand-warmers/-/A-51870672",
+     "seen": "$7.49 for 10 pairs, Nov 25, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/HotHands-Hand-Warmers-40-Pair-Value-Pack/2591961912",
+     "seen": "about $22.99 for 40 pairs in search snippet, Nov 2026"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 25, 2026: four hand warmers added for the rechargeable hand warmer recalls guide. THAW 2K 2-pack $24.99 at Target: buy. Zippo HeatBank 9s $37.46-$44.96 on sale at zippo.com but mostly sold out: ok. THAW 5K $39.99 at THAW: ok under $35. HotHands 10 pairs $7.49 at Target: buy. No CPSC recall found for these; the rechargeable HotHands H163650 is recalled.",
   "Nov 24, 2026: robot vacuum guide re-checked. Saros 10R no longer sold new in the US (Roborock's page redirects to the Saros 20); Dreame X50 Ultra $799.99 at Dreame, verdict now buy (was wait); added Qrevo Curv 2 Flow ($599.99, buy), Dreame L50 Ultra ($649.99, buy) and Narwal Flow 2 ($949.99, ok).",
   "Nov 23, 2026: six camera-free robot vacuums added for the “Robot vacuums without a camera” guide. Roborock Q10 S5+ $229.99 and Q7 M5+ $199.99 at Roborock: buy. eufy Omni C28 $379.99 on eufy's Black Friday page: buy if the cart shows it. Ecovacs Deebot N30 Pro Omni $315: ok. Roomba 205 out of stock at iRobot: ok under $250. Tapo RV30 Max Plus $289.99, only 12% off: wait. No CPSC recall found for a robot vacuum from these brands.",
   "Nov 22, 2026: Rubbermaid Brilliance 10-piece re-checked for the improve day. $18.39 at Target (regular $22.99), below Target's $23.99 in last year's Black Friday week; Walmart's page did not load. Lines now good under $20, great about $17; verdict now buy (was wait). Target sells single sizes with lids from $10.39. No CPSC recall found for Rubbermaid food storage.",

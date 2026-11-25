@@ -1019,7 +1019,7 @@
    "key": "hand-warmer-recalls",
    "slug": "rechargeable-hand-warmer-recalls-2026",
    "date": "2026-11-25",
-   "status": "queued",
+   "status": "writing",
    "format": "roundup",
    "model": "posts/2026-10-best-bidet-2026",
    "name": "Rechargeable hand warmer recalls and safer picks",
@@ -1043,7 +1043,9 @@
    "hook": "three 2026 CPSC recalls (OCOOPA 26-659 about 1.5 million incl. one death; HotHands 27-011; Gobi Heat 27-009); top-ranking pages still lead with recalled OCOOPA models; one model number (UT3053) sold under two brands and rebranded units on sale, so the model number is what to check",
    "picks": "the recall table (8 model numbers, units, incidents, remedy, CPSC links), where the model number is printed, what to do if it matches, then safer picks from the brief (Zippo HeatBank 9s, Thaw, Unihand) checked against Recall Check, with disposable HotHands as the no-battery benchmark; battery and charging safety from CPSC/UL guidance; use the fallback title unless the UL claim is verified in UL's database. STYLE (owner's example posts, gaseongbi-living.tistory.com/249 and /244): open with a concrete scene, then a 'What we checked' box of three dated numbers; for every claim separate 'in the listing title' from 'verified in the spec, certificate or official record'; show the math, the sample size and the date; say plainly what could not be verified; end with who should buy / wait / skip and FAQ written as real searches. BLUEPRINT: research/winter-products-2026-11.md section 3.1.",
    "cluster": "comfort",
-   "source": "research/winter-products-2026-11.md (owner request 2026-11-23: winter products)"
+   "source": "research/winter-products-2026-11.md (owner request 2026-11-23: winter products)",
+   "url": "https://acts39.blogspot.com/2026/11/rechargeable-hand-warmer-recalls-2026.html",
+   "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026"
   },
   {
    "key": "kitchenaid-mixers",

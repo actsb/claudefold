@@ -1,0 +1,15 @@
+{
+  "strips": [
+    {
+      "id": "in-real-life",
+      "card": "thaw-2k",
+      "title": "A cold week with a rechargeable warmer — in real life",
+      "panels": [
+        {"glyph": "clock", "head": "Flip it over", "text": "Read the model number on the bottom and match it to the list before the first charge.", "host": {"pose": "present"}},
+        {"glyph": "check", "product": true, "head": "Charge while awake", "text": "Use the cable it came with, on a hard surface, and stay nearby (CPSC battery advice)."},
+        {"glyph": "warning", "head": "Keep a layer", "text": "Glove or pocket between warmer and skin; low heat burns over hours."},
+        {"glyph": "sun", "head": "Retire it right", "text": "Swollen or hot when off? Stop. Batteries go to hazardous-waste drop-off, not the trash.", "host": {"pose": "thumbsup"}}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "post": "hand-warmer-recalls",
+    "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "id": "zippo-9s",
+    "name": "Zippo HeatBank 9s Rechargeable Hand Warmer (Silver)",
+    "asin": "B07Q6GQM9D",
+    "variant": "Silver",
+    "confidence": "high",
+    "evidence": [
+      "https://www.amazon.com/Zippo-Silver-HeatBank-Rechargeable-Warmer/dp/B07Q6GQM9D",
+      "https://www.bobvila.com/reviews/best-rechargeable-hand-warmers-for-warmth/"
+    ],
+    "notes": "Amazon search-result URL titled 'Zippo Silver HeatBank 9s Rechargeable Hand Warmer' (read from the URL, page not opened) plus Bob Vila's 2026-02-19 link to amazon.com/dp/B07Q6GQM9D for the HeatBank 9s. Two sources: dp link used."
+  },
+  {
+    "post": "hand-warmer-recalls",
+    "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "id": "unihand",
+    "name": "UNIHAND rechargeable hand warmers, 2-pack",
+    "asin": "B0CG65PYBV",
+    "variant": "2-pack",
+    "confidence": "medium",
+    "evidence": [
+      "https://www.outdoorlife.com/gear/best-rechargeable-hand-warmers/",
+      "https://gearjunkie.com/winter/best-hand-warmers"
+    ],
+    "notes": "Two review sites link this ASIN, but no Amazon search-result URL naming the variant was seen, so the README rule is not met: search link used."
+  },
+  {
+    "post": "hand-warmer-recalls",
+    "dir": "posts/2026-11-rechargeable-hand-warmer-recalls-2026",
+    "id": "thaw-2k",
+    "name": "THAW 2K Rechargeable Hand Warmer 2-pack",
+    "asin": "",
+    "variant": "2-pack",
+    "confidence": "none",
+    "evidence": [],
+    "notes": "Several candidate ASINs (B0GKHWRRKF, B0FW1YL6RN, B0FY3TX2BH) in snippets, none confirmed: search link."
+  }
+]

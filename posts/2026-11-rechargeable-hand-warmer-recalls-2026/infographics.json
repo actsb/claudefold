@@ -1,0 +1,31 @@
+[
+  {
+    "type": "steps",
+    "name": "howto",
+    "title": "Is your hand warmer recalled? Six steps",
+    "sub": "From the model number to the refund",
+    "footer": "CPSC recalls 26-659, 27-011, 27-009; OCOOPA and HotHands recall pages; CPSC battery advice",
+    "items": [
+      {"head": "Flip it over", "body": "Model number on the underside"},
+      {"head": "Match the list", "body": "8 numbers, any brand name"},
+      {"head": "Stop if it matches", "body": "Do not charge it again"},
+      {"head": "Mark it", "body": "Write RECALLED in marker"},
+      {"head": "Send the photo", "body": "Mark, model and batch number"},
+      {"head": "Drop it off", "body": "Household hazardous waste"}
+    ]
+  },
+  {
+    "type": "stores",
+    "name": "stores",
+    "title": "Where the picks were seen",
+    "sub": "November 25, 2026; pages we opened, plus snippets marked",
+    "footer": "Target, zippo.com and THAW pages read Nov 25, 2026; Walmart and Dick's from search snippets. The buttons show today's price.",
+    "rows": [
+      {"store": "Amazon", "price": "See today's price", "ship": "Prime shipping on many", "returns": "Check the seller", "note": "All three recalls were sold there: buy sold by the brand", "verdict": "ok"},
+      {"store": "Target", "price": "THAW 2K pair $24.99; HotHands 10 pairs $7.49", "ship": "Pickup or shipping", "returns": "90 days, in store", "note": "Lowest THAW pair price we read", "verdict": "win"},
+      {"store": "Brand store", "price": "Zippo 9s $37–$45 sale; THAW 2K $29.99", "ship": "Varies", "returns": "Varies", "note": "Zippo mostly sold out; THAW BOGO code", "verdict": "ok"},
+      {"store": "Walmart", "price": "THAW 5K ~$31; HotHands 40 pairs ~$23", "ship": "Pickup or shipping", "returns": "Holiday returns to Jan 31", "note": "Snippets only; check the seller", "verdict": "ok"},
+      {"store": "Temu / look-alikes", "price": "$12–$20 a pair (snippets)", "ship": "Slow", "returns": "Unclear", "note": "Same magnetic shape as the recalled pairs", "verdict": "no"}
+    ]
+  }
+]
