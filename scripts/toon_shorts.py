@@ -114,7 +114,7 @@ def main(d, out, translate=True):
     for f in list(png.glob("*")) + list(work.glob("c*.mp4")): f.unlink()
     for i, (gap, h, svg, tr) in enumerate(blocks):
         (png / f"b{i:02d}.svg").write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 {h}"><rect width="800" height="{h}" fill="#fff"/>{svg}</svg>', encoding="utf-8")
-    (png / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full guide and sources: link in description")), encoding="utf-8")
+    (png / "band.svg").write_text(band_svg((f'VERDICT PICKS TOON · EP {sid[2:]}', spec["title"]), yt.get("band", "Full review & today's price: acts39.blogspot.com")), encoding="utf-8")
     subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png)], check=True, stdout=subprocess.DEVNULL)
     subprocess.run(["node", str(ROOT / "scripts" / "render_png.mjs"), str(png), "band.svg"], check=True, stdout=subprocess.DEVNULL, env={**os.environ, "ALPHA": "1"})
     cover = ROOT / "shorts" / "thumbs" / f"{sid}-cover.jpg"
@@ -124,8 +124,8 @@ def main(d, out, translate=True):
     shots.append(("panel", png / f"b{len(blocks)-1:02d}.png", None))
     plan = ([{"kind": "hook over the cover", "text": [spec["title"], spec.get("subtitle", "")] + yt["thumb"]["lines"], "speakers": ["narrator"]}]
             + [{"kind": "panel", "text": panel_lines(p), "speakers": panel_speakers(p)} for p in spec["panels"]]
-            + [{"kind": "end card", "text": [spec.get("end", ""), "Full guide and sources: link in the description."], "speakers": ["narrator", "vera"]}])
-    script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", 160)
+            + [{"kind": "end card", "text": [spec.get("end", ""), "The full review, today's price and the sources are on Verdict Picks: search Verdict Picks, or acts39.blogspot.com. Never say the link is in the description (Shorts links are not clickable)."], "speakers": ["narrator", "vera"]}])
+    script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", yt.get("words", 160))
     # time every shot to its voice lines
     voiced, dur = [], []
     for k, lines in enumerate(script):

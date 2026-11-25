@@ -424,6 +424,37 @@ PAGES_BASE = "https://actsb.github.io/claudefold/"
 EMBED_WIDTH = {"pin.png": 440}   # px of the embedded JPEG (shown at 220 px wide, so 2x). The cover is NOT embedded: it must stay a real URL (cover.jpg) so Google can crawl it, index it and use it as og:image.
 EMBED_LIMIT = 700_000                               # chars of post HTML; above this keep the GitHub Pages URLs instead
 
+CHANNEL_SUB = "https://www.youtube.com/channel/UC_U8SBTCVsVrJc-yyBuv4-Q?sub_confirmation=1"   # Prof H Lab
+def top_short(key, html):
+    """Put the post's Verdict Picks Toon Short (YouTube, Prof H Lab) first in the post, with its VideoObject JSON-LD,
+    a Watch-on-YouTube link and a subscribe link. Entries live in shorts/youtube-ids.json; one with "id": null (built,
+    not uploaded yet) is skipped, so the post opens with its cover until the Short is live."""
+    ids_f = pathlib.Path(__file__).resolve().parent.parent / "shorts" / "youtube-ids.json"
+    if not ids_f.exists() or 'id="vp-toon-short"' in html:
+        return html
+    ids = json.loads(ids_f.read_text(encoding="utf-8"))
+    ep = next((k for k, v in ids.items() if isinstance(v, dict) and v.get("post") == key and v.get("id")), None)
+    m = re.match(r'\s*<div class="vp-post"[^>]*>', html)
+    if not ep or not m:
+        return html
+    e = ids[ep]; vid, n = e["id"], ep[2:]
+    title = e.get("title", "")
+    ld = {"@context": "https://schema.org", "@type": "VideoObject", "name": f"{title} | Verdict Picks Toon Ep.{n}",
+          "description": e.get("caption") or f"Verdict Picks Toon, Episode {n}: the comic version of this guide.",
+          "thumbnailUrl": f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg", "uploadDate": e.get("uploaded", ids.get("uploaded", "")),
+          "embedUrl": f"https://www.youtube.com/embed/{vid}", "contentUrl": f"https://youtube.com/shorts/{vid}"}
+    if e.get("seconds"): ld["duration"] = f"PT{int(round(e['seconds']))}S"
+    block = (f'\n<div id="vp-toon-short" style="margin:0 0 1.2em;text-align:center;">'
+             f'<iframe src="https://www.youtube.com/embed/{vid}?rel=0" title="Verdict Picks Toon Ep.{n}: {title.replace(chr(34), "&quot;")}" '
+             f'style="display:block;width:100%;max-width:340px;aspect-ratio:9/16;height:auto;margin:0 auto;border:0;border-radius:12px;background:#000;" '
+             f'loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+             f'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
+             f'<p style="font-size:15px;color:#555;margin:.5em 0 0;">{e.get("caption") or f"Verdict Picks Toon, Episode {n}: the 60-second comic version of this guide."} '
+             f'<a href="https://youtube.com/shorts/{vid}">Watch on YouTube</a> (subtitles in 11 languages) · '
+             f'<a href="{CHANNEL_SUB}">Subscribe to Prof H Lab</a> · <a href="/p/verdict-picks-toon.html">All episodes</a></p>'
+             f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False, separators=(",", ":"))}</script></div>')
+    return html[:m.end()] + block + html[m.end():]
+
 def inline_images(html):
     """Blogger has no image-upload API, so decorative .png images that live on GitHub Pages (the pin thumbnail) are embedded as
     compressed JPEG data: URIs (ImageMagick `convert`). The post then renders even if Pages is down. Anything that
@@ -488,7 +519,7 @@ posts_by_url = {p["url"]: p for p in live.get("items", []) if p.get("url")}
 for key, P in POSTS.items():
     if ONLY and key != ONLY:
         continue
-    content = inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8")))
+    content = top_short(key, inline_images(strip_comments((pathlib.Path(P["dir"]) / "post.html").read_text(encoding="utf-8"))))
     if re.search(r"\bWRITE\b", content):
         print(f"post {key} skipped: {P['dir']}/post.html still has a WRITE marker"); continue
     # a live post is found by its URL first, so a changed title never creates a duplicate post

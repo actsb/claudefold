@@ -1,0 +1,234 @@
+{
+ "id": "ep5",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 5 · E-readers",
+ "ai_art": true,
+ "title": "Grandma June's Bath Book",
+ "subtitle": "Grandma June reads by Grandpa's fishing headlamp, and in the bath with kitchen tongs. Jo has a gift idea.",
+ "end": "Is the Paperwhite the right gift for your reader? Ads, Black Friday prices and the Kobo option: full review on Verdict Picks (acts39.blogspot.com).",
+ "style": "Cozy holiday palette: deep blue winter nights, warm amber lamplight, soft lavender and cream.",
+ "cast": {},
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Night in a small cozy bedroom with a patchwork quilt: June sits up in bed wearing an oversized old fishing headlamp strapped over her silver curls, its harsh white beam blasting across a thick paperback she holds at arm's length; she squints proudly; a moth circles in the beam and a tall stack of worn paperbacks with bookmarks leans on the nightstand. Comic, warm, deep blue shadows. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Grandma June has read in bed every night for sixty years.",
+     "x": 30,
+     "y": 30,
+     "w": 560,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Grandpa's fishing headlamp still works!",
+     "x": 420,
+     "y": 200,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "A small old-fashioned bathroom with a clawfoot tub full of bubbles: June sits in the bath with bubbles up to her shoulders and a floral shower cap on, holding a paperback sealed inside a plastic freezer bag with long kitchen tongs, very pleased with her system; a second wavy, water-wrinkled paperback dries on the radiator; a paperback has just slipped and splashes into the bubbles. Slapstick, warm steamy light. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "My bath book. Freezer bag, kitchen tongs. Works fine!",
+     "x": 420,
+     "y": 60,
+     "w": 460
+    },
+    {
+     "t": "sfx",
+     "text": "PLOP",
+     "x": 560,
+     "y": 820,
+     "size": 72,
+     "rot": -10,
+     "color": "#4DA3FF"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo in her city apartment on a video call (the phone is out of frame), laughing with one hand over her mouth and her eyes soft with love, a small holiday string of lights and a mug of cocoa behind her. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Grandma, I know exactly what you're getting this year.",
+     "x": 420,
+     "y": 50,
+     "w": 480
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera stands confidently in soft blue light beside three floating generic unbranded e-readers with blank screens: a small plain black one, a slim black one glowing gently in the middle, and one with a softly colourful blank screen; she taps the slim black one in the middle like a teacher choosing the answer. Clean, hopeful. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Paperwhite: $199.99 at Target, Nov 13. TechRadar's pick for most people.",
+     "x": 30,
+     "y": 30,
+     "w": 600
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Mostly novels? Get the Kindle Paperwhite. It's our top pick.",
+     "x": 430,
+     "y": 220,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Comedic triumphant close-up of Jo, glasses flashing, pumping her fist with a huge grin; behind her a cartoon daydream bubble shows an old fishing headlamp and a pair of kitchen tongs waving goodbye and walking off into a sunset. Bright, funny, sparkles. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Warm light for reading in bed. Waterproof for the bath.",
+     "x": 30,
+     "y": 30,
+     "w": 560
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "The headlamp can finally retire!",
+     "x": 420,
+     "y": 220,
+     "w": 520,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Holiday evening in June's cozy living room with a small decorated tree and snow outside the window: June on the sofa has just unwrapped a small gift and holds a slim generic black e-reader with a blank screen in both hands, amazed, turning it over; Jo sits beside her with an arm around her shoulders, beaming; torn wrapping paper and ribbon in her lap. Warm amber light. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Oh my. But where do the pages go?",
+     "x": 400,
+     "y": 50,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Tap the screen. Next page.",
+     "x": 460,
+     "y": 200,
+     "w": 360
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june"
+    ],
+    "prompt": "The same old-fashioned bathroom with the clawfoot tub full of bubbles: June in her floral shower cap, bubbles up to her shoulders, proudly holds a slim generic black e-reader with a blank screen in one hand above the water, calling toward the closed door with a delighted grin; the kitchen tongs and the empty freezer bag lie retired on a little stool beside a rubber duck. Funny and sweet. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "shout",
+     "text": "Jo! Look! No tongs!",
+     "x": 420,
+     "y": 60,
+     "w": 460,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Heartwarming night scene in June's bedroom: June sits up in bed under the patchwork quilt reading aloud from a slim generic e-reader whose soft warm amber glow lights both faces; Jo, in pajamas, is curled up beside her on top of the quilt listening like a little girl, eyes half closed and smiling; the old fishing headlamp hangs retired on the bedpost; snow falls past the window. Tender, golden. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "One more chapter, like when you were little?",
+     "x": 560,
+     "y": 40,
+     "w": 440
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Always, Grandma.",
+     "x": 460,
+     "y": 200,
+     "w": 300
+    }
+   ]
+  }
+ ]
+}

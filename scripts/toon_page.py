@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Write brand/pages/toon.html, the "Verdict Picks Toon" page: the season video, every episode's Short and comic, and
-the guide each one belongs to. Episodes are the posts with a webtoon.json; videos come from shorts/ on GitHub Pages.
+the guide each one belongs to. Episodes are the posts with a webtoon.json; videos are the YouTube uploads listed in
+shorts/youtube-ids.json (Prof H Lab), else the mp4 in shorts/ on GitHub Pages.
   python3 scripts/toon_page.py   then   python3 scripts/publish_blogger.py --page "Verdict Picks Toon"
 """
 import json, pathlib, re, html
@@ -13,7 +14,16 @@ def post_url(d):
     m = re.search(r'"dir": "' + re.escape(d) + r'",\s*"url": "([^"]+)"', src)
     return m.group(1) if m else ""
 
+YT_IFRAME = ('<iframe src="https://www.youtube.com/embed/{id}?rel=0" title="{title}" style="{style}" loading="lazy" '
+             'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" '
+             'referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>')
+
+def yt_ids():
+    f = ROOT / "shorts" / "youtube-ids.json"
+    return json.loads(f.read_text(encoding="utf-8")) if f.exists() else {}
+
 def main():
+    ids = yt_ids()
     eps = []
     for wj in sorted(ROOT.glob("posts/*/webtoon.json")):
         spec = json.loads(wj.read_text(encoding="utf-8")); d = wj.parent.relative_to(ROOT).as_posix()
@@ -26,7 +36,14 @@ def main():
            'The characters and scenes are fictional; every number in a balloon comes from the guide, where its source is named.</p>',
            '<p style="font-size:15px;color:#555;">The art is generated with Google Gemini (AI) from our scripts; the story, the lettering and the facts are ours. '
            'Not sponsored by any brand. The guides contain Amazon links, which are paid links: as an Amazon Associate we earn from qualifying purchases.</p>']
-    if (ROOT / "shorts" / "season1.mp4").exists():
+    if "season1" in ids:
+        sid = ids["season1"]["id"]
+        out += ['<h2 style="color:#1B2A41;font-size:1.5em;margin:1.2em 0 .4em;">Season 1 in one video</h2>',
+                YT_IFRAME.format(id=sid, title="Verdict Picks Toon, Season 1: Robot Vacuums, Space Heaters and Video Doorbells, Explained",
+                                 style="display:block;width:100%;aspect-ratio:16/9;height:auto;border:0;border-radius:10px;background:#000;"),
+                f'<p style="font-size:15px;color:#555;margin:.4em 0 0;">7 minutes 48 seconds: the three stories, then the facts behind each one. '
+                f'<a href="https://youtu.be/{sid}">Watch on YouTube</a> for subtitles in 11 languages.</p>']
+    elif (ROOT / "shorts" / "season1.mp4").exists():
         out += ['<h2 style="color:#1B2A41;font-size:1.5em;margin:1.2em 0 .4em;">Season 1 in one video</h2>',
                 f'<video controls preload="none" playsinline poster="{PAGES}shorts/season1-thumb.jpg" style="width:100%;height:auto;border-radius:10px;background:#000;display:block;">'
                 f'<source src="{PAGES}shorts/season1.mp4" type="video/mp4">Your browser cannot play this video.</video>',
@@ -36,7 +53,10 @@ def main():
         url = post_url(d); first = f"{PAGES}{d}/images/toon/{spec['id']}-2.webp"
         vid = ROOT / "shorts" / f"{spec['id']}.mp4"
         out.append('<div style="display:flex;flex-wrap:wrap;gap:18px;border:1px solid #ddd;border-radius:14px;padding:16px;background:#fff;margin:0 0 1.2em;">')
-        if vid.exists():
+        if spec["id"] in ids:
+            out.append(YT_IFRAME.format(id=ids[spec["id"]]["id"], title=html.escape(f'Verdict Picks Toon Ep.{n}: {spec["title"]}', quote=True),
+                                        style="flex:0 0 200px;width:200px;height:356px;border:0;border-radius:10px;background:#000;"))
+        elif vid.exists():
             out.append(f'<video controls preload="none" playsinline poster="{PAGES}shorts/{spec["id"]}-thumb.jpg" style="flex:0 0 200px;width:200px;height:356px;border-radius:10px;background:#000;">'
                        f'<source src="{PAGES}shorts/{spec["id"]}.mp4" type="video/mp4"></video>')
         else:
