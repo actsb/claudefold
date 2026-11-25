@@ -125,7 +125,7 @@ def main(d, out, translate=True):
     plan = ([{"kind": "hook over the cover", "text": [spec["title"], spec.get("subtitle", "")] + yt["thumb"]["lines"], "speakers": ["narrator"]}]
             + [{"kind": "panel", "text": panel_lines(p), "speakers": panel_speakers(p)} for p in spec["panels"]]
             + [{"kind": "end card", "text": [spec.get("end", ""), "Full guide and sources: link in the description."], "speakers": ["narrator", "vera"]}])
-    script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", 160)
+    script = V.write_script(plan, f"YouTube Short (about 60 to 75 seconds) of the comic '{spec['title']}'", d / "narration-short.json", yt.get("words", 160))
     # time every shot to its voice lines
     voiced, dur = [], []
     for k, lines in enumerate(script):

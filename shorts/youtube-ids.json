@@ -1,8 +1,26 @@
 {
-  "channel": "Prof H Lab",
-  "uploaded": "2026-11-24",
-  "ep1": {"id": "-QpIRKTADXw", "url": "https://youtube.com/shorts/-QpIRKTADXw", "post": "robot-vacuums-no-camera"},
-  "ep2": {"id": "Cx54-DoZS0g", "url": "https://youtube.com/shorts/Cx54-DoZS0g", "post": "dreo-heater"},
-  "ep3": {"id": "BHhCXHFNCfo", "url": "https://youtube.com/shorts/BHhCXHFNCfo", "post": "doorbell-no-subscription"},
-  "season1": {"id": "VXqBhjOERLk", "url": "https://youtu.be/VXqBhjOERLk"}
+ "channel": "Prof H Lab",
+ "uploaded": "2026-11-24",
+ "ep1": {
+  "id": "-QpIRKTADXw",
+  "url": "https://youtube.com/shorts/-QpIRKTADXw",
+  "post": "robot-vacuums-no-camera",
+  "title": "Is Your Robot Vacuum Filming You?"
+ },
+ "ep2": {
+  "id": "Cx54-DoZS0g",
+  "url": "https://youtube.com/shorts/Cx54-DoZS0g",
+  "post": "dreo-heater",
+  "title": "Grandma's Heater Was Plugged Into a Power Strip"
+ },
+ "ep3": {
+  "id": "BHhCXHFNCfo",
+  "url": "https://youtube.com/shorts/BHhCXHFNCfo",
+  "post": "doorbell-no-subscription",
+  "title": "$639.96 to See Grandma's Porch?"
+ },
+ "season1": {
+  "id": "VXqBhjOERLk",
+  "url": "https://youtu.be/VXqBhjOERLk"
+ }
 }
