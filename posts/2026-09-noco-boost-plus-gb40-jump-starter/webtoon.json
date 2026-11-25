@@ -1,0 +1,259 @@
+{
+ "id": "ep6",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 6 · Jump starters",
+ "ai_art": true,
+ "title": "Grandma June's Present",
+ "subtitle": "The coldest morning of the year. Jo's car won't start, and Grandma June is waiting.",
+ "end": "Is the NOCO GB40 right for your car? Our full review and the price to wait for are below.",
+ "style": "Winter morning palette: icy blue snow and pale dawn sky against warm amber headlights and cozy kitchen light.",
+ "cast": {},
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Dawn in a snowy, nearly empty supermarket parking lot on a bitterly cold morning: frost on every windshield, snow piled at the edges, breath clouds in the air. Inside a small snow-dusted hatchback, Jo in a puffy winter coat over her teal cardigan turns the key, wincing; the dashboard is dim; a homemade pie in a dish sits on the passenger seat and a ribbon-wrapped gift box rides on the back seat. Cold blue light, comic tension. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Coldest morning of the year. Jo is due at Grandma June's.",
+     "x": 30,
+     "y": 30,
+     "w": 540,
+     "dark": true
+    },
+    {
+     "t": "sfx",
+     "text": "click... click",
+     "x": 560,
+     "y": 300,
+     "size": 60,
+     "rot": -8,
+     "color": "#8ECAE6"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Comedic despair close-up inside the cold car: Jo flops her forehead dramatically onto the steering wheel, glasses pushed up crooked, one mittened hand clutching the pie dish protectively; frost creeping across the windshield behind her; manga gloom lines above her head. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "Not today! I have a pie!",
+     "x": 400,
+     "y": 40,
+     "w": 520,
+     "size": 30
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam",
+     "biscuit",
+     "jo"
+    ],
+    "prompt": "Wide comic scene in the snowy parking lot: Sam, a puffy jacket over his mustard hoodie, waves a tangle of red and black jumper cables hopefully at a car that drives straight past spraying slush; Biscuit the beagle puppy in a tiny knitted sweater tugs the other end of the cables like a leash and howls at the sky; Jo stands by her open car door, arms folded, deadpan. Cold morning light, slapstick energy. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "No problem! We just need someone with a second car!",
+     "x": 380,
+     "y": 40,
+     "w": 520
+    },
+    {
+     "t": "sfx",
+     "text": "AROOO",
+     "x": 640,
+     "y": 300,
+     "size": 64,
+     "rot": 8,
+     "color": "#F4A261"
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo leans into the back seat of her car and freezes, eyes wide behind her glasses in a comic eureka moment, staring at the ribbon-wrapped gift box; a soft golden glow seems to shine from the box as if it were treasure; snow falling outside the rear window. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Wait. Grandma's present... is a jump starter.",
+     "x": 420,
+     "y": 60,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "prompt": "Close-up under the open hood of a snow-dusted car: gloved hands attach a red clamp to the battery's positive post and a black clamp to a bare metal bracket; the clamps lead to a compact dark-gray jump starter pack about the size of a hardcover book, with short cables and one small glowing white indicator light. Torn gift ribbon draped over the fender. Crisp cold light, calm and clear. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Red clamp to positive, black to bare metal. Press Power.",
+     "x": 30,
+     "y": 30,
+     "w": 540,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "The small hatchback roars to life in the snowy lot, headlights blazing warm amber and a puff of exhaust in the frozen air; Jo throws both fists up in triumph beside it; Sam stands nearby still holding his useless jumper cables, mouth open, while Biscuit wags wildly in the snow. Joyful, funny, dawn light breaking through. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "sfx",
+     "text": "VROOM",
+     "x": 220,
+     "y": 300,
+     "size": 76,
+     "rot": -10,
+     "color": "#E63946"
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "...I'll just hold these, then.",
+     "x": 560,
+     "y": 50,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera leans into the scene on a snowy roadside, holding up a compact dark-gray jump starter pack in one hand like a friendly teacher sharing a secret with the viewer; a tow truck's amber lights blur far in the background; soft falling snow and warm rim light around her. Calm, confident, warm. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "One paid roadside jump: about $50–$120. The GB40 lists at $99.95.",
+     "x": 420,
+     "y": 50,
+     "w": 500
+    },
+    {
+     "t": "narr",
+     "text": "Roadside: third-party estimates, 2026. List price: NOCO's store, Nov 2026.",
+     "x": 30,
+     "y": 220,
+     "w": 580,
+     "size": 22,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Grandma's snowy front porch: June opens the door in her lavender cardigan, eyes shining; Jo, cheeks pink from the cold, holds out the pie and the gift box with its ribbon re-tied in a slightly crooked bow. Warm amber light spills from the house onto the snow. Tender, a little funny. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "You remembered my hour in the cold last winter.",
+     "x": 400,
+     "y": 60,
+     "w": 440
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Never again, Grandma. This one's yours.",
+     "x": 460,
+     "y": 220,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "june"
+    ],
+    "prompt": "Heartwarming scene in June's cozy kitchen: June proudly plugs the compact dark-gray jump starter into a small USB charger on the counter, Jo beside her laughing with two slices of pie on plates; snow falls past the window, steam rises from two mugs of tea. Warm amber glow. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "And I'll charge it every few months, like you said.",
+     "x": 560,
+     "y": 40,
+     "w": 460
+    },
+    {
+     "t": "narr",
+     "text": "Full GB40 review on Verdict Picks: acts39.blogspot.com",
+     "x": 30,
+     "y": 200,
+     "w": 600,
+     "dark": true
+    }
+   ]
+  }
+ ]
+}
