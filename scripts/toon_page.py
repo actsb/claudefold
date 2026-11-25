@@ -36,7 +36,7 @@ def main():
            'The characters and scenes are fictional; every number in a balloon comes from the guide, where its source is named.</p>',
            '<p style="font-size:15px;color:#555;">The art is generated with Google Gemini (AI) from our scripts; the story, the lettering and the facts are ours. '
            'Not sponsored by any brand. The guides contain Amazon links, which are paid links: as an Amazon Associate we earn from qualifying purchases.</p>']
-    if "season1" in ids:
+    if ids.get("season1", {}).get("id"):
         sid = ids["season1"]["id"]
         out += ['<h2 style="color:#1B2A41;font-size:1.5em;margin:1.2em 0 .4em;">Season 1 in one video</h2>',
                 YT_IFRAME.format(id=sid, title="Verdict Picks Toon, Season 1: Robot Vacuums, Space Heaters and Video Doorbells, Explained",
@@ -53,7 +53,7 @@ def main():
         url = post_url(d); first = f"{PAGES}{d}/images/toon/{spec['id']}-2.webp"
         vid = ROOT / "shorts" / f"{spec['id']}.mp4"
         out.append('<div style="display:flex;flex-wrap:wrap;gap:18px;border:1px solid #ddd;border-radius:14px;padding:16px;background:#fff;margin:0 0 1.2em;">')
-        if spec["id"] in ids:
+        if ids.get(spec["id"], {}).get("id"):
             out.append(YT_IFRAME.format(id=ids[spec["id"]]["id"], title=html.escape(f'Verdict Picks Toon Ep.{n}: {spec["title"]}', quote=True),
                                         style="flex:0 0 200px;width:200px;height:356px;border:0;border-radius:10px;background:#000;"))
         elif vid.exists():

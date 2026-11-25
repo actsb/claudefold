@@ -8,9 +8,13 @@ Art: Google Gemini (gemini-2.5-flash-image) from our scripts, via `scripts/toon_
 | 2 | A Warm Room for Grandma June | posts/2026-10-dreo-space-heater | 13 | 2026-11-23 (redrawn 11-24) |
 | 3 | Who's at the Door, Grandma? | posts/2026-11-video-doorbells-without-a-subscription | 12 | 2026-11-23 (redrawn 11-24) |
 | 4 | The Biggest Number on the Box | posts/2026-09-best-robot-vacuums | 13 | 2026-11-24 (improve day) |
+| 5 | Grandma June's Bath Book (Short first) | posts/2026-11-kindle-vs-paperwhite-vs-colorsoft-vs-kobo | 8 | Short 2026-11-25 |
+| 6 | Grandma June's Present (Short first) | posts/2026-09-noco-boost-plus-gb40-jump-starter | 9 | Short 2026-11-25 |
+| 7 | Grandma June's All-Day Stew (Short first) | posts/2026-10-instant-pot-duo-6-quart | 8 | Short 2026-11-25 |
+| 8 | The Number on the Bottom | posts/2026-11-rechargeable-hand-warmer-recalls-2026 | 12 | 2026-11-25 (renumbered from 5 on 11-25: 5–7 went to the Shorts made the same day) |
 | 5 | The Number on the Bottom | posts/2026-11-rechargeable-hand-warmer-recalls-2026 | 13 | 2026-11-25 |
 
-Videos (shorts/): ep1.mp4, ep2.mp4, ep3.mp4 (YouTube Shorts, 1080x1920) and season1.mp4 (episodes 1-3, 1920x1080, 4:13, chapters), each with 11-language subtitles and metadata; Blogger page "Verdict Picks Toon" (brand/pages/toon.html, scripts/toon_page.py).
+Videos (shorts/): ep1.mp4, ep2.mp4, ep3.mp4, ep5.mp4, ep6.mp4, ep7.mp4 (YouTube IDs in shorts/youtube-ids.json) (YouTube Shorts, 1080x1920) and season1.mp4 (episodes 1-3, 1920x1080, 4:13, chapters), each with 11-language subtitles and metadata; Blogger page "Verdict Picks Toon" (brand/pages/toon.html, scripts/toon_page.py).
 
 ## 규칙 (운영자 지시, 2026-11-24)
 - 쇼츠는 세로(1080×1920), 롱폼은 가로(1920×1080)로 따로 만든다.
