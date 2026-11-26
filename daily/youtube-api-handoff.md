@@ -1,5 +1,8 @@
 # Prof H Lab 유튜브 API 업로드: 다른 채널 세션에 붙여 넣을 요청문
 
+> **완료됨 (2026-11-24): 이 요청문을 더 이상 붙여 넣지 마세요.** 4편은 세아 채널 PC 세션이 크롬 YouTube Studio로 Prof H Lab 채널에 공개로 올렸습니다(ep1 `-QpIRKTADXw`, ep2 `Cx54-DoZS0g`, ep3 `BHhCXHFNCfo`, season1 `VXqBhjOERLk`; 11개 언어 제목·설명·자막 포함). 다시 보내면 같은 영상이 중복 업로드됩니다. 영상 ID는 `shorts/youtube-ids.json`, 새 쇼츠의 업로드·연결 절차는 `daily/youtube-shorts-guide.md`에 있습니다.
+
+
 운영자님 PC의 유튜브 세션(예: 「SEAH 음악 채널기획서」, 「호랑이와 까치 쇼츠 11개 언어」, 「노을이 영상 업로드」)은 API로 공개 업로드, 예약, 썸네일 설정을 이미 하고 있습니다. 클라우드의 Verdict Picks 세션은 그 세션들에 직접 메시지를 보낼 수 없습니다. 아래 글을 그 세션에 그대로 붙여 넣어 주세요.
 
 ---
