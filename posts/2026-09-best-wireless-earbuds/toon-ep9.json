@@ -1,0 +1,114 @@
+{
+ "id": "ep9",
+ "title": "Which Phone, Grandma?",
+ "panels": 12,
+ "ai_art": true,
+ "series": "Verdict Picks Toon",
+ "slices": [
+  {
+   "file": "ep9-1.webp",
+   "w": 800,
+   "h": 620,
+   "alt": "Comic, part 1 of 13: Verdict Picks Toon: Which Phone, Grandma?"
+  },
+  {
+   "file": "ep9-2.webp",
+   "w": 800,
+   "h": 1362,
+   "alt": "Comic, part 2 of 13: Caption: Thanksgiving night. The Black Friday deals are already up. Jo: Grandma, I'm getting you earbuds. The fancy white ones are on sale!"
+  },
+  {
+   "file": "ep9-3.webp",
+   "w": 800,
+   "h": 927,
+   "alt": "Comic, part 3 of 13: Caption: Earbuds are built around one kind of phone. The sale ad rarely says which."
+  },
+  {
+   "file": "ep9-4.webp",
+   "w": 800,
+   "h": 1532,
+   "alt": "Comic, part 4 of 13: Grandma June: Lovely, dear. Will they work with my phone? Grandma June: It's the one your cousin set up. Not an iPhone."
+  },
+  {
+   "file": "ep9-5.webp",
+   "w": 800,
+   "h": 940,
+   "alt": "Comic, part 5 of 13: Jo: NOT AN IPHONE?!"
+  },
+  {
+   "file": "ep9-6.webp",
+   "w": 800,
+   "h": 1352,
+   "alt": "Comic, part 6 of 13: Vera: On Android, AirPods work as plain Bluetooth earbuds. Vera: No instant pairing, no Find My, most of the settings gone."
+  },
+  {
+   "file": "ep9-7.webp",
+   "w": 800,
+   "h": 580,
+   "alt": "Comic, part 7 of 13: Board, Match the earbuds to the phone first: iPhone AirPods Pro 3; Samsung Galaxy Galaxy Buds4 Pro; Pixel or other Android Sony WF-1000XM6; Any phone, under $100 Soundcore Liberty 4 NC Source: our guide's phone-and-budget table, November 2026."
+  },
+  {
+   "file": "ep9-8.webp",
+   "w": 800,
+   "h": 919,
+   "alt": "Comic, part 8 of 13: Jo: So the sale price comes second? Vera: Phone first. Then compare the price with the list price, in dollars."
+  },
+  {
+   "file": "ep9-9.webp",
+   "w": 800,
+   "h": 780,
+   "alt": "Comic, part 9 of 13: Board, Black Friday week: list price vs. seen: AirPods Pro 3 (Walmart) $249 → $149; Galaxy Buds4 Pro (Samsung) $249.99 → $179.99; Sony WF-1000XM6 (Best Buy) $329.99 → $250 Sources: Macworld, Nov 25; Samsung.com, Nov 26; CNN Underscored, Nov 23, 2026."
+  },
+  {
+   "file": "ep9-10.webp",
+   "w": 800,
+   "h": 877,
+   "alt": "Comic, part 10 of 13: Caption: The next morning. Grandma June: This one feels loose. Jo: Try another tip size. Lots of people need a different size in each ear."
+  },
+  {
+   "file": "ep9-11.webp",
+   "w": 800,
+   "h": 897,
+   "alt": "Comic, part 11 of 13: Vera: Fit is what happy owners mention first. Run the fit test in the app, too. Vera: And keep the receipt. One bud that stops charging is the classic complaint."
+  },
+  {
+   "file": "ep9-12.webp",
+   "w": 800,
+   "h": 1487,
+   "alt": "Comic, part 12 of 13: Grandma June: Jo! The dishwasher stopped! Jo: It's still running, Grandma. That's noise cancelling."
+  },
+  {
+   "file": "ep9-13.webp",
+   "w": 800,
+   "h": 1061,
+   "alt": "Comic, part 13 of 13: Caption: Phone first, fit second, price third. The full comparison of twelve pairs is below. Vera: Pick your phone's row. Which earbuds fit your phone? Twelve pairs, compared below."
+  }
+ ],
+ "transcript": [
+  "Verdict Picks Toon: Which Phone, Grandma?",
+  "Caption: Thanksgiving night. The Black Friday deals are already up.",
+  "Jo: Grandma, I'm getting you earbuds. The fancy white ones are on sale!",
+  "Caption: Earbuds are built around one kind of phone. The sale ad rarely says which.",
+  "Grandma June: Lovely, dear. Will they work with my phone?",
+  "Grandma June: It's the one your cousin set up. Not an iPhone.",
+  "Jo: NOT AN IPHONE?!",
+  "Vera: On Android, AirPods work as plain Bluetooth earbuds.",
+  "Vera: No instant pairing, no Find My, most of the settings gone.",
+  "Board, Match the earbuds to the phone first: iPhone AirPods Pro 3; Samsung Galaxy Galaxy Buds4 Pro; Pixel or other Android Sony WF-1000XM6; Any phone, under $100 Soundcore Liberty 4 NC",
+  "Source: our guide's phone-and-budget table, November 2026.",
+  "Jo: So the sale price comes second?",
+  "Vera: Phone first. Then compare the price with the list price, in dollars.",
+  "Board, Black Friday week: list price vs. seen: AirPods Pro 3 (Walmart) $249 → $149; Galaxy Buds4 Pro (Samsung) $249.99 → $179.99; Sony WF-1000XM6 (Best Buy) $329.99 → $250",
+  "Sources: Macworld, Nov 25; Samsung.com, Nov 26; CNN Underscored, Nov 23, 2026.",
+  "Caption: The next morning.",
+  "Grandma June: This one feels loose.",
+  "Jo: Try another tip size. Lots of people need a different size in each ear.",
+  "Vera: Fit is what happy owners mention first. Run the fit test in the app, too.",
+  "Vera: And keep the receipt. One bud that stops charging is the classic complaint.",
+  "Grandma June: Jo! The dishwasher stopped!",
+  "Jo: It's still running, Grandma. That's noise cancelling.",
+  "Caption: Phone first, fit second, price third. The full comparison of twelve pairs is below.",
+  "Vera: Pick your phone's row.",
+  "Which earbuds fit your phone? Twelve pairs, compared below."
+ ]
+}

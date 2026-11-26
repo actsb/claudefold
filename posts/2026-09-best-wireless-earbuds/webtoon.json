@@ -1,0 +1,389 @@
+{
+ "id": "ep9",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 9 · Best wireless earbuds of 2026",
+ "ai_art": true,
+ "title": "Which Phone, Grandma?",
+ "subtitle": "Jo is buying Black Friday earbuds for Grandma June. One question changes the order.",
+ "end": "Which earbuds fit your phone? Twelve pairs, compared below.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "prompt": "Thanksgiving evening in a warm, cozy kitchen after dinner, string lights and a half-eaten pie on the counter. Jo sits at the wooden kitchen table with an open laptop, seen from the side so its blank screen glow lights her face; the back of the lid is matte plain gray with no emblem, no light and no shape on it. She looks excited, leaning in. Grandma June sits in an armchair nearby knitting, smiling fondly at her. Medium-wide shot from slightly above, with a tall warm wall and ceiling filling the upper third of the same scene. Full-bleed single image, edge to edge, no split frames, no bands.",
+    "cast": [
+     "jo",
+     "june"
+    ]
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Thanksgiving night. The Black Friday deals are already up.",
+     "x": 30,
+     "y": 30,
+     "w": 480,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Grandma, I'm getting you earbuds. The fancy white ones are on sale!",
+     "x": 540,
+     "y": 150,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Close-up on a wooden kitchen table: two small generic unbranded earbud charging cases side by side, one glossy white and one matte black, lids open showing plain earbuds, next to a cup of tea and a slice of pumpkin pie on a plate. Warm lamp light, shallow depth of field. No people, no logos. Full-bleed single image, edge to edge, no split frames, no bands."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Earbuds are built around one kind of phone. The sale ad rarely says which.",
+     "x": 30,
+     "y": 24,
+     "w": 640
+    }
+   ]
+  },
+  {
+   "gap": 560,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "prompt": "Grandma June proudly holds up her smartphone with both hands, showing its plain back to the viewer (matte, no logo, no camera branding, no text), a sweet innocent smile, cozy living room behind her with soft lamp light. The top third of the frame is a plain warm wall for lettering. Full-bleed single image, edge to edge, no split frames, no bands.",
+    "cast": [
+     "june"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Lovely, dear. Will they work with my phone?",
+     "x": 420,
+     "y": 40,
+     "w": 440
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "It's the one your cousin set up. Not an iPhone.",
+     "x": 440,
+     "y": 210,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "prompt": "Comedic super-deformed chibi version of Jo in shock, glasses sliding down her nose, mouth wide open, eyes as huge white circles, tiny body, bright yellow background with radiating burst lines. Funny reaction panel. Full-bleed single image, edge to edge, no split frames, no bands.",
+    "cast": [
+     "jo"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "kind": "shout",
+     "text": "NOT AN IPHONE?!",
+     "x": 400,
+     "y": 40,
+     "w": 560,
+     "size": 42
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "prompt": "Vera makes a confident entrance in a bright, tidy living room, one hand raised presenting a glowing holographic diagram: a plain smartphone outline connected by a dotted line to a pair of small round stemless earbuds (simple pebble shapes, no stems), with small floating icons of a map pin, a gear and a link symbol fading out. Dynamic pose, sparkles of light, upbeat. The top third of the frame is a plain bright wall for lettering. Full-bleed single image, edge to edge, no split frames, no bands.",
+    "cast": [
+     "vera"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "On Android, AirPods work as plain Bluetooth earbuds.",
+     "x": 420,
+     "y": 50,
+     "w": 460
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "No instant pairing, no Find My, most of the settings gone.",
+     "x": 440,
+     "y": 230,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 420,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "Match the earbuds to the phone first",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "iPhone",
+       "AirPods Pro 3",
+       "#1E8E5A"
+      ],
+      [
+       "Samsung Galaxy",
+       "Galaxy Buds4 Pro",
+       "#1E8E5A"
+      ],
+      [
+       "Pixel or other Android",
+       "Sony WF-1000XM6",
+       "#1E8E5A"
+      ],
+      [
+       "Any phone, under $100",
+       "Soundcore Liberty 4 NC",
+       "#1B2A41"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: our guide's phone-and-budget table, November 2026.",
+     "x": 360,
+     "y": 350,
+     "w": 640,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "prompt": "Jo stands holding her plain laptop against her chest, sheepish and thoughtful; Vera stands beside her with a calm half-smile, pointing one finger up as if making a point. Bright kitchen with autumn leaves visible through the window.  Full-bleed single image, edge to edge, no split frames, no bands. The upper part of the picture is calm empty space that belongs to the same room (the softly lit wall and ceiling continue upward without any line, band, frame or change of color).",
+    "cast": [
+     "jo",
+     "vera"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "So the sale price comes second?",
+     "x": 210,
+     "y": 14,
+     "w": 360
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Phone first. Then compare the price with the list price, in dollars.",
+     "x": 590,
+     "y": 14,
+     "w": 380,
+     "size": 26
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 440,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "Black Friday week: list price vs. seen",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "AirPods Pro 3 (Walmart)",
+       "$249 → $149",
+       "#1E8E5A"
+      ],
+      [
+       "Galaxy Buds4 Pro (Samsung)",
+       "$249.99 → $179.99",
+       "#1E8E5A"
+      ],
+      [
+       "Sony WF-1000XM6 (Best Buy)",
+       "$329.99 → $250",
+       "#1E8E5A"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Sources: Macworld, Nov 25; Samsung.com, Nov 26; CNN Underscored, Nov 23, 2026.",
+     "x": 360,
+     "y": 330,
+     "w": 640,
+     "size": 19,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "The next morning in a sunny living room: Grandma June sits on the sofa gently pressing one small plain earbud into her ear with a slightly doubtful face, while Jo kneels beside her holding out an open palm with tiny silicone ear tips in three sizes. Bright cheerful morning light.  Full-bleed single image, edge to edge, no split frames, no bands. The upper part of the picture is calm empty space that belongs to the same room (the softly lit wall and ceiling continue upward without any line, band, frame or change of color).",
+    "cast": [
+     "jo",
+     "june"
+    ]
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The next morning.",
+     "x": 30,
+     "y": 30,
+     "w": 260,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "This one feels loose.",
+     "x": 560,
+     "y": 40,
+     "w": 300
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Try another tip size. Lots of people need a different size in each ear.",
+     "x": 520,
+     "y": 190,
+     "w": 440,
+     "size": 24
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Vera sits at a tidy desk with a closed plain notebook, explaining with an open palm, friendly and patient. On the desk lie a small matte charcoal pebble-shaped earbud case, closed and a little dish of spare silicone ear tips. Soft daylight.  Full-bleed single image, edge to edge, no split frames, no bands. The upper part of the picture is calm empty space that belongs to the same room (the softly lit wall and ceiling continue upward without any line, band, frame or change of color). The notebook is closed with a plain cover; nothing written anywhere.",
+    "cast": [
+     "vera"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Fit is what happy owners mention first. Run the fit test in the app, too.",
+     "x": 560,
+     "y": 30,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "And keep the receipt. One bud that stops charging is the classic complaint.",
+     "x": 560,
+     "y": 200,
+     "w": 420,
+     "size": 24
+    }
+   ]
+  },
+  {
+   "gap": 560,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "prompt": "Evening of the same day, cozy living room with a dishwasher humming in the open kitchen behind. Grandma June sits in her armchair with her eyes closed and a blissful smile, small plain earbuds in her ears, swaying slightly to music. Jo leans on the armchair beside her, grinning. Warm lamp light, a few soft musical-note sparkles in the air.  Full-bleed single image, edge to edge, no split frames, no bands. The upper part of the picture is calm empty space that belongs to the same room (the softly lit wall and ceiling continue upward without any line, band, frame or change of color).",
+    "cast": [
+     "june",
+     "jo"
+    ]
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Jo! The dishwasher stopped!",
+     "x": 420,
+     "y": 40,
+     "w": 420
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "It's still running, Grandma. That's noise cancelling.",
+     "x": 430,
+     "y": 200,
+     "w": 440
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "prompt": "Wide warm group shot in the living room at night: Grandma June laughing with her knitting in her lap, Jo sitting on the arm of her chair, Vera standing nearby giving a friendly wave to the viewer. Christmas-season lights starting to go up in the window.  Full-bleed single image, edge to edge, no split frames, no bands. The upper part of the picture is calm empty space that belongs to the same room (the softly lit wall and ceiling continue upward without any line, band, frame or change of color).",
+    "cast": [
+     "jo",
+     "june",
+     "vera"
+    ]
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Phone first, fit second, price third. The full comparison of twelve pairs is below.",
+     "x": 30,
+     "y": 24,
+     "w": 740
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Pick your phone's row.",
+     "x": 660,
+     "y": 340,
+     "w": 280,
+     "size": 24
+    }
+   ]
+  }
+ ]
+}

@@ -736,27 +736,28 @@
     "pro3"
    ],
    "model": "AirPods Pro 3 (2025); the AirPods 4 and Pro 2 are older models.",
-   "street": "List $249 at Apple; Target $179.99 (both Nov 21, 2026)",
-   "good": "under $190",
-   "great": "$180 or less",
+   "street": "List $249 at Apple (no cut; gift card Nov 27–30); $149 at Walmart (Macworld, Nov 25, 2026); $150 at Best Buy (CNN Underscored, Nov 23, 2026)",
+   "good": "under $170",
+   "great": "$150 or less",
    "verdict": "buy",
-   "why": "Target's $179.99 (Nov 21, 2026) is still below last year's Black Friday low of $219.99; Apple's own store shows no sale.",
-   "sources": "apple.com and target.com, Nov 21, 2026; TechBuzz, Nov 20, 2025",
-   "checked": "2026-11-21",
+   "why": "$149 is $100 under list and $20 under the previous low of $169 (June 2026, Macworld); last year's Black Friday low was $219.99. Buy.",
+   "sources": "Macworld, Nov 25, 2026; CNN Underscored, Nov 23, 2026; apple.com, Nov 26, 2026",
+   "checked": "2026-11-26",
    "stores": [
     {
      "name": "Apple",
      "url": "https://www.apple.com/shop/buy-airpods/airpods-pro-3",
-     "seen": "$249.00 list, Nov 21, 2026"
-    },
-    {
-     "name": "Target",
-     "url": "https://www.target.com/p/ap2022-true-wireless-bluetooth-headphones/-/A-85978609",
-     "seen": "$179.99, Nov 21, 2026"
+     "seen": "$249 list, Nov 26, 2026"
     },
     {
      "name": "Walmart",
-     "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350"
+     "url": "https://www.walmart.com/ip/AirPods-Pro-3/17835006350",
+     "seen": "$149, Nov 25, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/6376563.p",
+     "seen": "$150, Nov 23, 2026"
     }
    ]
   },
@@ -803,22 +804,23 @@
     "xm6"
    ],
    "model": "WF-1000XM6 (2026); the XM5 is last year's model and much cheaper.",
-   "street": "List $329.99; $299.99 at Target and Best Buy (Best Buy from a search snippet), Nov 16, 2026",
+   "street": "List $329.99; $250 at Best Buy and Sony (CNN Underscored, Nov 23, 2026)",
    "good": "under $280",
    "great": "$260 or less",
-   "verdict": "wait",
-   "why": "Target and Best Buy took $30 off (9%) on Nov 16, 2026, short of our line. It is its first Black Friday, and Adobe expects electronics to bottom out on Cyber Monday (30% off in its Sept 28, 2026 forecast): wait.",
-   "sources": "Target, Nov 16, 2026; Best Buy search snippet; Adobe forecast, Sept 28, 2026; SoundGuys, Oct 5, 2026",
-   "checked": "2026-11-16",
+   "verdict": "buy",
+   "why": "$250 is $80 (24%) under list and below the October low of $258 (Android Authority, Nov 24, 2026), and already at our great line. Adobe expects electronics to bottom out on Cyber Monday, but this is the XM6's first real cut: buy.",
+   "sources": "CNN Underscored, Nov 23, 2026 (search snippet); Android Authority and SoundGuys, Nov 24, 2026; Adobe, Sept 28 and Nov 25, 2026",
+   "checked": "2026-11-26",
    "stores": [
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/6667490.p",
+     "seen": "$250, Nov 23, 2026"
+    },
     {
      "name": "Target",
      "url": "https://www.target.com/p/sony-wf1000xm6-s/-/A-95009025",
      "seen": "$299.99, Nov 16, 2026"
-    },
-    {
-     "name": "Best Buy",
-     "url": "https://www.bestbuy.com/product/sony-wf-1000xm6-best-truly-wireless-noise-cancelling-earbuds-black/J7XSRH5W6P"
     }
    ]
   },
@@ -2927,9 +2929,153 @@
      "seen": "about $22.99 for 40 pairs in search snippet, Nov 2026"
     }
    ]
+  },
+  {
+   "key": "bose-qc-ultra-earbuds-2",
+   "category": "tech",
+   "name": "Bose QuietComfort Ultra Earbuds (2nd Gen)",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "bose"
+   ],
+   "model": "QC Ultra Earbuds 2nd Gen (2025, wireless charging case); the 1st Gen has no wireless charging.",
+   "street": "List $299; $229 at Bose through Jan 3, 2027 (bose.com, Nov 26, 2026); $229 at Best Buy (search result, Nov 26)",
+   "good": "under $240",
+   "great": "$229 or less",
+   "verdict": "buy",
+   "why": "$229 matches the low 9to5Toys reported on Oct 30, 2026, and Bose's offer runs to January 3, so there is no rush, but no reason to wait for lower either.",
+   "sources": "bose.com, Nov 26, 2026; Best Buy search result; 9to5Toys, Oct 30, 2026",
+   "checked": "2026-11-26",
+   "stores": [
+    {
+     "name": "Bose",
+     "url": "https://www.bose.com/p/earbuds/bose-quietcomfort-ultra-earbuds-2nd-gen/QCUE2-HEADPHONEIN.html",
+     "seen": "$229, Nov 26, 2026"
+    }
+   ]
+  },
+  {
+   "key": "galaxy-buds4-pro",
+   "category": "tech",
+   "name": "Samsung Galaxy Buds4 Pro",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "buds4pro"
+   ],
+   "model": "Galaxy Buds4 Pro (SM-R640, March 2026); not the cheaper Buds4.",
+   "street": "List $249.99; $179.99 at Samsung (samsung.com, Nov 26, 2026); Best Buy $249.99 (undated search result)",
+   "good": "under $200",
+   "great": "$180 or less",
+   "verdict": "buy",
+   "why": "$70 off at Samsung is the lowest price we found at the stores we checked. One snippet of Samsung's promo terms ties the saving to buying a case in the same order (unverified): check the cart.",
+   "sources": "samsung.com, Nov 26, 2026",
+   "checked": "2026-11-26",
+   "stores": [
+    {
+     "name": "Samsung",
+     "url": "https://www.samsung.com/us/audio-sound/galaxy-buds4-pro/buy/galaxy-buds4-pro-black-sku-sm-r640nzkaxar/",
+     "seen": "$179.99, Nov 26, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/samsung-galaxy-buds4-pro-wireless-earbud-headphones-black/JJGRF3Q958/sku/6668660"
+    }
+   ]
+  },
+  {
+   "key": "pixel-buds-pro-2",
+   "category": "tech",
+   "name": "Google Pixel Buds Pro 2",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "pixel"
+   ],
+   "model": "Pixel Buds Pro 2 (2024; new Olive color 2026); there is no Pro 3.",
+   "street": "List $229; $169 at the Google Store through Dec 1 and Best Buy through Nov 28 (search results, Nov 26, 2026)",
+   "good": "under $180",
+   "great": "$169 or less",
+   "verdict": "buy",
+   "why": "$169 is $60 off and the lowest price we found at the stores we checked; the offer ends December 1.",
+   "sources": "Google Store and Best Buy search results, Nov 26, 2026; 9to5Toys, Oct 30, 2026",
+   "checked": "2026-11-26",
+   "stores": [
+    {
+     "name": "Google Store",
+     "url": "https://store.google.com/product/pixel_buds_pro_2?hl=en-US",
+     "seen": "$169, Nov 26, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/google-pixel-buds-pro-2-wireless-earbuds-with-active-noise-cancellation-bluetooth-headphones-hazel/J39HHJXTGX",
+     "seen": "$169, Nov 26, 2026"
+    }
+   ]
+  },
+  {
+   "key": "soundcore-liberty-4-nc",
+   "category": "tech",
+   "name": "Anker Soundcore Liberty 4 NC",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "liberty"
+   ],
+   "model": "Liberty 4 NC (A3947); the Liberty 5 is newer and pricier.",
+   "street": "List $99.99; $69.99 at Best Buy (search result, Nov 26, 2026); Soundcore shows a $30-off badge",
+   "good": "under $75",
+   "great": "$65 or less",
+   "verdict": "buy",
+   "why": "$30 off is the usual holiday cut and no lower price turned up at the stores we checked.",
+   "sources": "Best Buy search result and soundcore.com, Nov 26, 2026",
+   "checked": "2026-11-26",
+   "stores": [
+    {
+     "name": "Soundcore",
+     "url": "https://www.soundcore.com/products/liberty-4-nc-a3947z11",
+     "seen": "$99.99 with $30-off badge, Nov 26, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/soundcore-by-anker-liberty-4-nc-noise-canceling-true-wireless-earbud-headphones-navy-blue/JJ8586VSHS/sku/10846505",
+     "seen": "$69.99, Nov 26, 2026"
+    }
+   ]
+  },
+  {
+   "key": "technics-eah-az100",
+   "category": "tech",
+   "name": "Technics EAH-AZ100",
+   "guide": "earbuds",
+   "card": [
+    "posts/2026-09-best-wireless-earbuds",
+    "technics"
+   ],
+   "model": "EAH-AZ100 (2025); the AZ80 is the older model.",
+   "street": "List $299.99; $149.99 at Technics (us.technics.com, Nov 26, 2026); B&H $199.99 (Slickdeals, Nov 14)",
+   "good": "under $180",
+   "great": "$150 or less",
+   "verdict": "buy",
+   "why": "Half price, matching its 2026 low and $73 under last Black Friday's $222.99 (SoundGuys, Nov 2025).",
+   "sources": "us.technics.com, Nov 26, 2026; Slickdeals, Nov 14, 2026; SoundGuys, Nov 2025",
+   "checked": "2026-11-26",
+   "stores": [
+    {
+     "name": "Technics",
+     "url": "https://us.technics.com/products/premium-hi-fi-true-wireless-earbuds-with-dolby-atmos-and-noise-cancelling-eah-az100",
+     "seen": "$149.99, Nov 26, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/product/technics-reference-class-az100-true-wireless-noise-cancelling-in-ear-headphones-black/J3Z7HSL8R6/sku/11078993"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 26, 2026: earbuds guide re-checked for Black Friday week. AirPods Pro 3 $149 at Walmart (buy, new great line $150); Sony WF-1000XM6 $250 at Best Buy (now buy, was wait); added Bose QC Ultra Earbuds 2nd Gen ($229 at Bose, buy), Galaxy Buds4 Pro ($179.99 at Samsung, buy), Pixel Buds Pro 2 ($169 at Google, buy), Soundcore Liberty 4 NC ($69.99 at Best Buy, buy) and Technics EAH-AZ100 ($149.99 at Technics, buy). No CPSC recall found for any of them.",
   "Nov 25, 2026: four hand warmers added for the rechargeable hand warmer recalls guide. THAW 2K 2-pack $24.99 at Target: buy. Zippo HeatBank 9s $37.46-$44.96 on sale at zippo.com but mostly sold out: ok. THAW 5K $39.99 at THAW: ok under $35. HotHands 10 pairs $7.49 at Target: buy. No CPSC recall found for these; the rechargeable HotHands H163650 is recalled.",
   "Nov 24, 2026: robot vacuum guide re-checked. Saros 10R no longer sold new in the US (Roborock's page redirects to the Saros 20); Dreame X50 Ultra $799.99 at Dreame, verdict now buy (was wait); added Qrevo Curv 2 Flow ($599.99, buy), Dreame L50 Ultra ($649.99, buy) and Narwal Flow 2 ($949.99, ok).",
   "Nov 23, 2026: six camera-free robot vacuums added for the “Robot vacuums without a camera” guide. Roborock Q10 S5+ $229.99 and Q7 M5+ $199.99 at Roborock: buy. eufy Omni C28 $379.99 on eufy's Black Friday page: buy if the cart shows it. Ecovacs Deebot N30 Pro Omni $315: ok. Roomba 205 out of stock at iRobot: ok under $250. Tapo RV30 Max Plus $289.99, only 12% off: wait. No CPSC recall found for a robot vacuum from these brands.",

@@ -12,7 +12,7 @@ Art: Google Gemini (gemini-2.5-flash-image) from our scripts, via `scripts/toon_
 | 6 | Grandma June's Present (Short first) | posts/2026-09-noco-boost-plus-gb40-jump-starter | 9 | Short 2026-11-25 |
 | 7 | Grandma June's All-Day Stew (Short first) | posts/2026-10-instant-pot-duo-6-quart | 8 | Short 2026-11-25 |
 | 8 | The Number on the Bottom | posts/2026-11-rechargeable-hand-warmer-recalls-2026 | 12 | 2026-11-25 (renumbered from 5 on 11-25: 5–7 went to the Shorts made the same day) |
-| 5 | The Number on the Bottom | posts/2026-11-rechargeable-hand-warmer-recalls-2026 | 13 | 2026-11-25 |
+| 9 | Which Phone, Grandma? | posts/2026-09-best-wireless-earbuds | 12 | 2026-11-26 (improve day) |
 
 Videos (shorts/): ep1.mp4, ep2.mp4, ep3.mp4, ep5.mp4, ep6.mp4, ep7.mp4 (YouTube IDs in shorts/youtube-ids.json) (YouTube Shorts, 1080x1920) and season1.mp4 (episodes 1-3, 1920x1080, 4:13, chapters), each with 11-language subtitles and metadata; Blogger page "Verdict Picks Toon" (brand/pages/toon.html, scripts/toon_page.py).
 
