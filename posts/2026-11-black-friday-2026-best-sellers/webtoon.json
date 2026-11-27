@@ -1,0 +1,260 @@
+{
+ "id": "ep11",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 11 · Black Friday 2026",
+ "ai_art": true,
+ "title": "Forty Tabs, One Cart",
+ "subtitle": "6 a.m. on Black Friday. Sam has forty deal tabs open. Jo has a rule.",
+ "end": "What is actually selling, and the price that makes each deal real: the list is below.",
+ "style": "Black Friday morning palette: dark blue dawn outside, warm lamp and screen glow inside, pops of red sale color.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "sam",
+     "biscuit"
+    ],
+    "prompt": "6 a.m., still dark blue outside the window: Sam sits cross-legged on his sofa in a hoodie with a laptop and a phone, both screens crowded with abstract red-and-yellow sale tiles (nothing readable), coffee mug steaming, Biscuit asleep on a cushion. Comic, cozy, slightly overwhelmed. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Black Friday, 6:02 a.m.",
+     "x": 30,
+     "y": 30,
+     "w": 330,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "Forty tabs. Every single one says DEAL.",
+     "x": 520,
+     "y": 110,
+     "w": 420
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo",
+     "sam"
+    ],
+    "prompt": "Jo, in a coat with snow on her shoulders, leans over the back of the sofa holding a takeaway coffee and points at Sam's laptop with a knowing smile; Sam looks up at her, startled. Warm lamp light. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Americans spent $7.1 billion online on Thanksgiving alone, says Adobe.",
+     "x": 470,
+     "y": 30,
+     "w": 560
+    }
+   ]
+  },
+  {
+   "gap": 140,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "sam"
+    ],
+    "prompt": "Comic extreme close-up of Sam's shocked face, eyes huge, coffee mid-spill, manga speed lines radiating behind him. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "kind": "shout",
+     "text": "BILLION? With a B?",
+     "x": 400,
+     "y": 40,
+     "w": 520,
+     "size": 34
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 440,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 22,
+     "title": "What is actually selling (Nov 26-27, 2026)",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "Game consoles on Thanksgiving",
+       "+1,058% vs Oct (Adobe)"
+      ],
+      [
+       "NeeDoh toys at Walmart",
+       "80% sold by midday"
+      ],
+      [
+       "Nintendo Switch 2",
+       "No. 1 console of 2026 (Circana)"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Sources: Adobe via USA Today; Walmart's merchandising chief via Fox Business; Circana via VGChartz.",
+     "x": 360,
+     "y": 300,
+     "w": 620,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera bursts into frame through a shower of falling red sale tags and confetti, one finger raised like a referee calling a foul, confident grin, dynamic pose. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Popular isn't the same as cheap.",
+     "x": 420,
+     "y": 60,
+     "w": 440
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Check one thing before you click: the model number.",
+     "x": 440,
+     "y": 220,
+     "w": 460
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Vera stands between two big generic flat TV boxes that look almost identical (blank boxes, no logos), tapping one box's small blank label with a pen, like a detective. Bright store aisle. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Some doorbuster TVs are store-only versions with their own model numbers. Compare the model number, not the box.",
+     "x": 30,
+     "y": 24,
+     "w": 700,
+     "dark": true
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "h": 440,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 40,
+     "y": 40,
+     "w": 640,
+     "size": 23,
+     "title": "Buy today or wait for Cyber Monday?",
+     "color": "#1E8E5A",
+     "rows": [
+      [
+       "TVs, toys, appliances",
+       "Black Friday"
+      ],
+      [
+       "Apparel, furniture",
+       "Black Friday"
+      ],
+      [
+       "Electronics, computers",
+       "Cyber Monday"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Adobe's 2026 forecast of the best day for each category (Sept 28, 2026).",
+     "x": 360,
+     "y": 300,
+     "w": 620,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 160,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo",
+     "sam"
+    ],
+    "prompt": "Jo and Sam side by side on the sofa looking at one phone together, Jo pointing at a simple line chart of a price dropping (no numbers or words), Sam nodding, both focused and amused. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "Our rule: it's a deal only at or under its past low.",
+     "x": 420,
+     "y": 40,
+     "w": 480
+    }
+   ]
+  },
+  {
+   "gap": 520,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "sam",
+     "jo",
+     "biscuit"
+    ],
+    "prompt": "Morning sun now streaming in: Sam closes the laptop triumphantly while Jo high-fives him; Biscuit jumps up wagging; one small cart icon glows on the phone screen (no text). Joyful, warm, funny ending. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "sam",
+     "text": "One cart. Three things. Zero regret.",
+     "x": 540,
+     "y": 40,
+     "w": 460
+    }
+   ]
+  }
+ ]
+}

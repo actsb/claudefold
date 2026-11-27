@@ -1080,6 +1080,38 @@
    "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini"
   },
   {
+   "key": "black-friday-2026-best-sellers",
+   "slug": "black-friday-2026-best-sellers",
+   "date": "2026-11-27",
+   "status": "writing",
+   "format": "roundup",
+   "model": "posts/2026-09-prime-big-deal-days-2026",
+   "name": "Black Friday 2026 best sellers",
+   "short": "Black Friday best sellers",
+   "category": "generic",
+   "art": {
+    "shape": "tile",
+    "label": "Black Friday best sellers"
+   },
+   "search": "black friday deals",
+   "title": "Black Friday 2026 Best Sellers: The Deals People Are Actually Buying",
+   "slug_title": "Black Friday 2026 Best Sellers",
+   "labels": [
+    "Black Friday",
+    "Deals",
+    "Best Sellers",
+    "Gifts",
+    "Buying Guide",
+    "Amazon Finds"
+   ],
+   "hook": "owner request 2026-11-27: what is actually selling this Black Friday (Adobe Thanksgiving actuals, Circana, Walmart's merchandising chief, NBC Select readers), with real non-Amazon deal prices and the biggest searches",
+   "picks": "research/daily-2026-11-27-black-friday-sellers.md, research/daily-2026-11-27-black-friday-seo.md and the price briefs",
+   "cluster": "deals",
+   "source": "owner request 2026-11-27",
+   "url": "https://acts39.blogspot.com/2026/11/black-friday-2026-best-sellers.html",
+   "dir": "posts/2026-11-black-friday-2026-best-sellers"
+  },
+  {
    "key": "ninja-creami-models",
    "slug": "ninja-creami-vs-deluxe-vs-swirl",
    "date": "2026-11-30",
