@@ -1,0 +1,14 @@
+[
+  {"post": "kitchenaid-mixers", "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini", "id": "kitchenaid-classic", "name": "KitchenAid Classic 4.5 Qt Tilt-Head K45SSWH (White)", "asin": "B00004SGFW", "variant": "White K45SSWH", "confidence": "high",
+   "evidence": ["https://www.amazon.com/KitchenAid-Classic-Quart-Tilt-Head-K45SSWH/dp/B00004SGFW", "https://www.tomsguide.com/home/how-to-choose-the-best-kitchenaid-stand-mixer"],
+   "notes": "Amazon search-result URL/title names K45SS White (read from the URL, page not opened); Tom's Guide links the same ASIN. dp link used."},
+  {"post": "kitchenaid-mixers", "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini", "id": "kitchenaid-artisan", "name": "KitchenAid Artisan 5 Qt KSM150PSER (Empire Red)", "asin": "B00005UP2P", "variant": "Empire Red KSM150PSER", "confidence": "high",
+   "evidence": ["https://www.amazon.com/KitchenAid-KSM150PSER-Artisan-Tilt-Head-Pouring/dp/B00005UP2P", "https://www.tomsguide.com/home/how-to-choose-the-best-kitchenaid-stand-mixer"],
+   "notes": "Search-result title names KSM150PS Empire Red; Tom's Guide links the same ASIN. B076B1VM3W (used on earlier posts) is Ink Blue KSM150PSIB, confirmed the same way via tomsguide.com/best-picks/best-stand-mixers."},
+  {"post": "kitchenaid-mixers", "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini", "id": "kitchenaid-artisan-mini", "name": "KitchenAid Artisan Mini 3.5 Qt KSM3316XCU (Contour Silver)", "asin": "B01HKATXF0", "variant": "Contour Silver KSM3316XCU", "confidence": "high",
+   "evidence": ["https://us.amazon.com/Kitchenaid-Artisan-3-5-Qt-Tilt-Head-Stand-Beater/dp/B01HKATXF0", "https://www.tomsguide.com/news/which-kitchenaid-stand-mixer-should-I-buy"],
+   "notes": "Search-result title names KSM3316X Contour Silver; Tom's Guide links amazon.com/KitchenAid-KSM3316XCU-Artisan-Mixers-Contour/dp/B01HKATXF0."},
+  {"post": "kitchenaid-mixers", "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini", "id": "kitchenaid-bowl-lift-55", "name": "KitchenAid 5.5 Qt Bowl-Lift KSM55SXXX", "asin": null, "variant": "any", "confidence": "low",
+   "evidence": ["https://www.amazon.com/KitchenAid-Bowl-Lift-Speeds-KSM55SXXX-Porcelain/dp/B0G8HN99MK"],
+   "notes": "Only one source (search-result URL, Porcelain White B0G8HN99MK); no second source. Search link kept."}
+]

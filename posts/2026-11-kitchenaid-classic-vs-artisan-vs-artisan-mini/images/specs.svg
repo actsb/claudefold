@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-label="Four KitchenAid mixers, spec by spec"><rect width="1200" height="480" rx="18" fill="#F7F5F0"/><g font-family="-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif">
+<text x="40" y="52" font-size="30" font-weight="800" fill="#1B2A41" text-anchor="start">Four KitchenAid mixers, spec by spec</text>
+<text x="40" y="84" font-size="20" font-weight="400" fill="#555" text-anchor="start">Bowl on the box, usable space measured by ATK, motor, height and the price seen in Nov 2026</text>
+<rect x="40" y="116" width="1120" height="40" rx="10" fill="#1B2A41"/>
+<text x="74" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Mixer</text>
+<text x="326.5098039215687" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Bowl / usable</text>
+<text x="568.0784313725491" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Motor · height</text>
+<text x="842.5882352941178" y="142" font-size="15" font-weight="700" fill="#fff" text-anchor="start">Price seen</text>
+<rect x="40" y="168" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="194" r="12" fill="#1E8E5A"/><path d="M 55 194 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="198" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Classic 4.5 qt (K45SS)</text>
+<text x="326.5098039215687" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">4.5 qt / 3.25 qt</text>
+<text x="568.0784313725491" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">275 W · about 14 in</text>
+<text x="842.5882352941178" y="196" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$279.99 (Target, Nov 27)</text>
+<rect x="40" y="230" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="256" r="12" fill="#1E8E5A"/><path d="M 55 256 l 4 4 l 7 -8" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="74" y="260" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Bowl-lift 5.5 qt (KSM55)</text>
+<text x="326.5098039215687" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">5.5 qt / not tested</text>
+<text x="568.0784313725491" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">500 W · about 16.5 in</text>
+<text x="842.5882352941178" y="258" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$299.99 (Target, Nov 27)</text>
+<rect x="40" y="292" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="318" r="12" fill="#C9781B"/><rect x="54" y="316.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="322" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Artisan 5 qt (KSM150)</text>
+<text x="326.5098039215687" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">5 qt / 3 qt</text>
+<text x="568.0784313725491" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">325 W · about 14 in</text>
+<text x="842.5882352941178" y="320" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$349.99 (Target, Nov 27)</text>
+<rect x="40" y="354" width="1120" height="52" rx="10" fill="#fff" stroke="#E3E1DB"/>
+<circle cx="60" cy="380" r="12" fill="#C9781B"/><rect x="54" y="378.5" width="12" height="3" rx="1.5" fill="#fff"/>
+<text x="74" y="384" font-size="16" font-weight="700" fill="#1B2A41" text-anchor="start">Artisan Mini 3.5 qt</text>
+<text x="326.5098039215687" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">3.5 qt / 1.9 qt</text>
+<text x="568.0784313725491" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">250 W · 12.3 in</text>
+<text x="842.5882352941178" y="382" font-size="14.5" font-weight="400" fill="#333" text-anchor="start">$329.99 (KitchenAid.com, Nov 19)</text>
+<text x="40" y="430" font-size="13" font-weight="400" fill="#888" text-anchor="start">Sources: America's Test Kitchen (Oct 1, 2026, usable capacity and weights); KitchenAid help pages (height, cookies); Target listings (watts, bowl-lift</text><text x="40" y="447" font-size="13" font-weight="400" fill="#888" text-anchor="start">weight); prices at Target Nov 27 and KitchenAid.com Nov 19, 2026.</text>
+</g></svg>

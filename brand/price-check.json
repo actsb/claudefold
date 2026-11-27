@@ -3072,9 +3072,145 @@
      "url": "https://www.bestbuy.com/product/technics-reference-class-az100-true-wireless-noise-cancelling-in-ear-headphones-black/J3Z7HSL8R6/sku/11078993"
     }
    ]
+  },
+  {
+   "key": "kitchenaid-classic-nov27-2026",
+   "category": "kitchen",
+   "name": "KitchenAid Classic 4.5-Quart Stand Mixer (K45SS)",
+   "guide": "kitchenaid-mixers",
+   "card": [
+    "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+    "kitchenaid-classic"
+   ],
+   "model": "Classic K45SS (K45SSWH White, K45SSOB Onyx Black), 275 W; not Target's KSM96 or the Deluxe KSM97, which sell at the same price.",
+   "street": "$279.99 at Target (“reg $399.99”, Nov 27, 2026), Kohl's (Nov 27) and KitchenAid.com (Nov 19)",
+   "good": "under $280",
+   "great": "$230 or less",
+   "verdict": "ok",
+   "why": "$279.99 is the usual event price. The lows were $199.99 at Lowe's for one day (Dec 26, 2025) and $212 at Target with Circle 15% (Dec 1, 2024); Kohl's Cash ($15 per $50, to Nov 30) lowers it if you spend the Cash.",
+   "sources": "target.com, fetched Nov 27, 2026; NBC Select Black Friday tracker, Nov 27, 2026; The Dialed-In Home, Nov 19, 2026; Slickdeals, Dec 26, 2025 and Dec 1, 2024",
+   "checked": "2026-11-27",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.K45SSWH.html",
+     "seen": "$279.99 sale, Nov 19, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kitchenaid-classic-4-5qt-stand-mixer-white/-/A-80204121",
+     "seen": "$279.99, reg $399.99, Nov 27, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/kitchenaid-classic-series-4-5-quart-tilt-head-stand-mixer-k45sswh-blanco/3463353.p",
+     "seen": "$279.99 in search result"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-artisan-nov27-2026",
+   "category": "kitchen",
+   "name": "KitchenAid Artisan 5-Quart Stand Mixer (KSM150PS, Black Friday check)",
+   "guide": "kitchenaid-mixers",
+   "card": [
+    "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+    "kitchenaid-artisan"
+   ],
+   "model": "Artisan KSM150PS plus a colour code, 325 W; not the Artisan Plus KSM50PKVX, a KSM154 or KSM195 bundle, or the Classic.",
+   "street": "$349.99 at Target (“reg $499.99”, Nov 27, 2026) and KitchenAid.com (Nov 19); Walmart $349.95 (Nov 20)",
+   "good": "under $350",
+   "great": "$300 or less",
+   "verdict": "wait",
+   "why": "Flat at $349.99 since early November. Target's 15% in-cart offer took it to $297.49 on Nov 30, 2025 (Cyber Monday weekend) and Lowe's sold it at $299 on Dec 26, 2025; a 2026 repeat is not confirmed. Target's holiday price match (to Dec 24) covers its own later drops if you buy now.",
+   "sources": "target.com, fetched Nov 27, 2026; The Dialed-In Home, Nov 19, 2026; Slickdeals, Nov 30 and Dec 26, 2025; Target holiday fact sheet, Nov 2026",
+   "checked": "2026-11-27",
+   "stores": [
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kitchenaid-artisan-series-5-quart-tilt-head-stand-mixer-ksm150/-/A-10154630",
+     "seen": "$349.99, reg $499.99, Nov 27, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/KitchenAid-Artisan-Series-5-Quart-Tilt-Head-Stand-Mixer-White-KSM150PS/15173450",
+     "seen": "$349.95, Nov 20, 2026"
+    },
+    {
+     "name": "Best Buy",
+     "url": "https://www.bestbuy.com/site/kitchenaid-artisan-5-qt-stand-mixer-dried-rose-dried-rose/6424705.p",
+     "seen": "$389.95 (Dried Rose) in search result"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-artisan-mini-nov27-2026",
+   "category": "kitchen",
+   "name": "KitchenAid Artisan Mini 3.5-Quart Stand Mixer (KSM3316X)",
+   "guide": "kitchenaid-mixers",
+   "card": [
+    "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+    "kitchenaid-artisan-mini"
+   ],
+   "model": "Artisan Mini 3.5 qt, KSM3316X plus a colour code (KSM3311X is the older code), 250 W.",
+   "street": "$329.99 at KitchenAid.com (“reg $449.99”, Nov 19, 2026); Best Buy $349.99 from a marketplace seller (search result); not sold at Target",
+   "good": "under $330",
+   "great": "$280 or less",
+   "verdict": "wait",
+   "why": "At $329.99 it costs $20 less than the full-size Artisan and $50 more than the Classic, with 1.9 quarts of usable bowl (America's Test Kitchen, Oct 2026). KitchenAid.com sold it for $240 in November 2023.",
+   "sources": "The Dialed-In Home (KitchenAid.com sale), Nov 19, 2026; Best Buy search result, Nov 2026; Slickdeals, Nov 24, 2023; America's Test Kitchen, Oct 1, 2026",
+   "checked": "2026-11-27",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://kitchenaid.com/countertop-appliances/stand-mixers/artisan-mini-tilt-head-stand-mixers/p.artisan-mini-3.5-quart-tilt-head-stand-mixer.ksm3316xer.html",
+     "seen": "$329.99 sale, Nov 19, 2026"
+    },
+    {
+     "name": "Walmart",
+     "url": "https://www.walmart.com/ip/116962278",
+     "seen": "KSM3316X Empire Red listing, price not seen"
+    }
+   ]
+  },
+  {
+   "key": "kitchenaid-bowl-lift-55-nov27-2026",
+   "category": "kitchen",
+   "name": "KitchenAid 5.5-Quart Bowl-Lift Stand Mixer (KSM55)",
+   "guide": "kitchenaid-mixers",
+   "card": [
+    "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+    "kitchenaid-bowl-lift-55"
+   ],
+   "model": "5.5-quart bowl-lift KSM55SXXX plus a colour code (Target lists it as KSM55), 11 speeds; not the 6- or 7-quart bowl-lifts.",
+   "street": "$299.99 at Target (“reg $499.99”, Nov 27, 2026), KitchenAid.com (Nov 19) and Best Buy; Walmart $299 (Nov 22, 2026)",
+   "good": "under $300",
+   "great": "$255 or less",
+   "verdict": "buy",
+   "why": "40% off and $50 less than the Artisan for a bigger bowl and a bowl-lift. Lower prices needed a stack: $254.99 at Target with 15% in cart (Nov 30, 2025) and a $200 Best Buy app drop (Jul 24, 2025).",
+   "sources": "target.com, fetched Nov 27, 2026; The Dialed-In Home, Nov 19, 2026; Slickdeals price history, Nov 22, 2026 and Nov 30, 2025",
+   "checked": "2026-11-27",
+   "stores": [
+    {
+     "name": "KitchenAid",
+     "url": "https://kitchenaid.com/countertop-appliances/stand-mixers/bowl-lift-stand-mixers/p.kitchenaid-5.5-quart-bowl-lift-stand-mixer.ksm55sxxxpl.html",
+     "seen": "$299.99 sale, Nov 19, 2026"
+    },
+    {
+     "name": "Target",
+     "url": "https://www.target.com/p/kitchenaid-5-5-quart-bowl-lift-stand-mixer-ksm55/-/A-88857295",
+     "seen": "$299.99, reg $499.99, Nov 27, 2026"
+    },
+    {
+     "name": "Kohl's",
+     "url": "https://www.kohls.com/product/prd-7828738/kitchenaid-ksm55sx-55-qt-bowl-lift-stand-mixer.jsp",
+     "seen": "$299.99 in search result"
+    }
+   ]
   }
  ],
  "changelog": [
+  "Nov 27, 2026 (Black Friday): four KitchenAid stand mixers added for the Classic vs Artisan vs Mini guide. Classic K45SS $279.99 at Target: ok (great at $230). Artisan KSM150 $349.99 at Target, flat since early November: wait for under $300. Artisan Mini $329.99 at KitchenAid.com: wait. 5.5-quart bowl-lift KSM55 $299.99 at Target: buy. No CPSC recall of any KitchenAid stand mixer.",
   "Nov 26, 2026: earbuds guide re-checked for Black Friday week. AirPods Pro 3 $149 at Walmart (buy, new great line $150); Sony WF-1000XM6 $250 at Best Buy (now buy, was wait); added Bose QC Ultra Earbuds 2nd Gen ($229 at Bose, buy), Galaxy Buds4 Pro ($179.99 at Samsung, buy), Pixel Buds Pro 2 ($169 at Google, buy), Soundcore Liberty 4 NC ($69.99 at Best Buy, buy) and Technics EAH-AZ100 ($149.99 at Technics, buy). No CPSC recall found for any of them.",
   "Nov 25, 2026: four hand warmers added for the rechargeable hand warmer recalls guide. THAW 2K 2-pack $24.99 at Target: buy. Zippo HeatBank 9s $37.46-$44.96 on sale at zippo.com but mostly sold out: ok. THAW 5K $39.99 at THAW: ok under $35. HotHands 10 pairs $7.49 at Target: buy. No CPSC recall found for these; the rechargeable HotHands H163650 is recalled.",
   "Nov 24, 2026: robot vacuum guide re-checked. Saros 10R no longer sold new in the US (Roborock's page redirects to the Saros 20); Dreame X50 Ultra $799.99 at Dreame, verdict now buy (was wait); added Qrevo Curv 2 Flow ($599.99, buy), Dreame L50 Ultra ($649.99, buy) and Narwal Flow 2 ($949.99, ok).",

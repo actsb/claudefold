@@ -1,84 +1,69 @@
 [
-  {
-    "type": "steps",
-    "name": "howto",
-    "title": "The KitchenAid mixers in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      },
-      {
-        "head": "WRITE",
-        "body": "WRITE"
-      }
-    ]
-  },
-  {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
-      {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
-      },
-      {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
-      },
-      {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
-      }
-    ]
-  }
+ {
+  "type": "matrix",
+  "name": "specs",
+  "title": "Four KitchenAid mixers, spec by spec",
+  "sub": "Bowl on the box, usable space measured by ATK, motor, height and the price seen in Nov 2026",
+  "footer": "Sources: America's Test Kitchen (Oct 1, 2026, usable capacity and weights); KitchenAid help pages (height, cookies); Target listings (watts, bowl-lift weight); prices at Target Nov 27 and KitchenAid.com Nov 19, 2026.",
+  "columns": [
+   {"head": "Mixer", "w": 250},
+   {"head": "Bowl / usable", "w": 220},
+   {"head": "Motor · height", "w": 250},
+   {"head": "Price seen", "w": 300}
+  ],
+  "rows": [
+   {"verdict": "win", "cells": ["Classic 4.5 qt (K45SS)", "4.5 qt / 3.25 qt", "275 W · about 14 in", "$279.99 (Target, Nov 27)"]},
+   {"verdict": "win", "cells": ["Bowl-lift 5.5 qt (KSM55)", "5.5 qt / not tested", "500 W · about 16.5 in", "$299.99 (Target, Nov 27)"]},
+   {"verdict": "ok", "cells": ["Artisan 5 qt (KSM150)", "5 qt / 3 qt", "325 W · about 14 in", "$349.99 (Target, Nov 27)"]},
+   {"verdict": "ok", "cells": ["Artisan Mini 3.5 qt", "3.5 qt / 1.9 qt", "250 W · 12.3 in", "$329.99 (KitchenAid.com, Nov 19)"]}
+  ]
+ },
+ {
+  "type": "matrix",
+  "name": "prices",
+  "title": "Is today's price good? Our lines for each mixer",
+  "sub": "Price seen Nov 2026, the lowest price we found in past sales at other stores, and our buy lines",
+  "footer": "Sources: target.com Nov 27, 2026; KitchenAid.com via The Dialed-In Home Nov 19, 2026; Slickdeals threads (Dec 1, 2024; Nov 30 and Dec 26, 2025). Stacked deals need a coupon or store card.",
+  "columns": [
+   {"head": "Mixer", "w": 230},
+   {"head": "Seen now", "w": 200},
+   {"head": "Past low (store, date)", "w": 330},
+   {"head": "Good / great", "w": 260}
+  ],
+  "rows": [
+   {"verdict": "win", "cells": ["Bowl-lift 5.5 qt", "$299.99", "$254.99 Target, 15% in cart (Nov 30, 2025)", "under $300 / $255"]},
+   {"verdict": "win", "cells": ["Classic 4.5 qt", "$279.99", "$199.99 Lowe's (Dec 26, 2025)", "under $280 / $230"]},
+   {"verdict": "ok", "cells": ["Artisan 5 qt", "$349.99", "$297.49 Target, 15% in cart (Nov 30, 2025)", "under $350 / $300"]},
+   {"verdict": "no", "cells": ["Artisan Mini", "$329.99", "$240 KitchenAid.com (Nov 2023)", "under $330 / $280"]}
+  ]
+ },
+ {
+  "type": "steps",
+  "name": "howto",
+  "title": "Set up a KitchenAid tilt-head the way the manual says",
+  "sub": "Six steps for the first week, while the return window is open",
+  "footer": "From KitchenAid's owner's manuals (KSM150, Mini KSM3300 series) and KitchenAid's help pages, read Nov 27, 2026.",
+  "items": [
+   {"head": "Check the model", "body": "The plate under the head or the box should say K45SS, KSM150, KSM3316 or KSM55, the one you paid for."},
+   {"head": "Do the dime test", "body": "Dime in the empty steel bowl, flat beater, speed 1. It should nudge the dime, not drag it."},
+   {"head": "Turn the screw a little", "body": "Clockwise lowers the beater on a tilt-head. At most 1/8 to 1/4 turn at a time."},
+   {"head": "Dough on speed 2", "body": "The manual: never above speed 2 for yeast dough. About 2 minutes after it clings to the hook."},
+   {"head": "Respect the flour limit", "body": "Stiff dough is what makes tilt-heads bounce and run hot. Split big batches."},
+   {"head": "Let it cool", "body": "If it stops or feels hot, unplug it and wait about 30 minutes before the next batch."}
+  ]
+ },
+ {
+  "type": "stores",
+  "name": "stores",
+  "title": "Where to buy a KitchenAid mixer this week",
+  "sub": "What we saw at each store, Nov 19 to 27, 2026",
+  "footer": "Policies as published in Nov 2026; KitchenAid.com's return window is 30 days on one page and 60 on another. The buttons show today's price.",
+  "rows": [
+   {"store": "Target", "price": "Classic $279.99, Artisan $349.99, bowl-lift $299.99", "ship": "Free over $35 or pickup", "returns": "90 days", "note": "Holiday price match to Dec 24 (own prices); no Mini", "verdict": "win"},
+   {"store": "Amazon", "price": "See today's price (button)", "ship": "Free with Prime", "returns": "Per Amazon's policy", "note": "Check \"sold by\" and the model number", "verdict": "ok"},
+   {"store": "Kohl's", "price": "Classic $279.99 (Nov 27)", "ship": "Per Kohl's policy", "returns": "Per Kohl's policy", "note": "Kohl's Cash $15 per $50 (to Nov 30)", "verdict": "ok"},
+   {"store": "KitchenAid.com", "price": "Mini $329.99, others as Target", "ship": "Free over $49.99", "returns": "30 or 60 days (pages differ)", "note": "Only store with every colour; refurbished units", "verdict": "ok"},
+   {"store": "Marketplace sellers", "price": "Varies", "ship": "Varies", "returns": "Seller's terms", "note": "KitchenAid warns about unauthorized sellers", "verdict": "no"}
+  ]
+ }
 ]

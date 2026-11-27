@@ -1,38 +1,15 @@
 {
-  "strips": [
-    {
-      "id": "in-real-life",
-      "card": "kitchenaid-mixers",
-      "title": "A day with the KitchenAid mixers — in real life",
-      "panels": [
-        {
-          "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "present"
-          }
-        },
-        {
-          "glyph": "check",
-          "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
-        },
-        {
-          "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
-          "host": {
-            "pose": "thumbsup"
-          }
-        }
-      ]
-    }
-  ]
+ "strips": [
+  {
+   "id": "in-real-life",
+   "card": "kitchenaid-classic",
+   "title": "A new stand mixer in its first week: in real life",
+   "panels": [
+    {"glyph": "clock", "head": "Before you buy", "text": "Measure under the cabinets and count your biggest batch. That picks the size.", "host": {"pose": "present"}},
+    {"glyph": "check", "product": true, "head": "Day one", "text": "Read the model number on the box. Then do the dime test before the first batch."},
+    {"glyph": "warning", "head": "First bread", "text": "Speed 2 only, and split a stiff dough. A bouncing head means too much dough."},
+    {"glyph": "sun", "head": "Day 30", "text": "Leaking grease or a grinding gear? It is still inside the return window.", "host": {"pose": "thumbsup"}}
+   ]
+  }
+ ]
 }

@@ -1,32 +1,126 @@
 {
   "category": "generic",
-  "buy_title": "The exact KitchenAid mixers to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
+  "buy_title": "The exact KitchenAid mixers to order, and the model number to check",
+  "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from Target, Kohl's, Walmart, Best Buy and KitchenAid.com between November 19 and 27, 2026 and move with sales; the buttons show today's price.",
   "cards": [
     {
-      "id": "kitchenaid-mixers",
+      "id": "kitchenaid-classic",
       "category": "generic",
-      "name": "KitchenAid Classic vs Artisan vs Artisan Mini",
-      "short": "KitchenAid mixers",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
+      "name": "KitchenAid Classic 4.5-Quart Tilt-Head Stand Mixer (K45SS)",
+      "short": "KitchenAid Classic",
+      "badge": "Our top pick · America's Test Kitchen's mid-priced winner",
+      "chip": "4.5 qt · 275 W · 10 speeds · no bowl handle",
       "art": {
         "shape": "tile",
-        "label": "KitchenAid mixers"
+        "label": "KitchenAid Classic K45SS"
       },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=KitchenAid+Artisan+stand+mixer&tag=verdictpicks-20",
+      "price": "$279.99 at Target (\"reg $399.99\") on Nov 27, 2026, the same at Kohl's and KitchenAid.com. Past lows: $199.99 at Lowe's (Dec 26, 2025) and $212 at Target with Circle 15% (Dec 1, 2024).",
+      "buy_if": "you bake cookies, cakes and the odd loaf: America's Test Kitchen (Oct 1, 2026) found it does nearly everything the Artisan does for about $150 less on list, and Consumer Reports says it performs on par with the other KitchenAids it tested.",
+      "skip_if": "you want a bowl with a handle and a pouring shield (the Artisan has both), or you knead stiff bread dough every week (the 5.5-quart bowl-lift is $299.99 today).",
+      "owners": "4.8 of 5 at Target (13,176 reviews) and Walmart (11,042), seen Nov 27, 2026. Praise: easy, sturdy, good value. Complaints: no bowl handle, the head bounces and the motor runs hot on stiff bread dough, and some Walmart buyers got units that looked used.",
+      "cta": "https://www.amazon.com/dp/B00004SGFW?tag=verdictpicks-20",
       "video": "",
       "video_title": "",
       "video_channel": "",
       "video_why": "",
       "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
+        "tier": "Top pick",
+        "pick": "Classic Series 4.5-quart tilt-head, model K45SSWH (White). Not the KSM96 or the Deluxe KSM97, which sell at the same $279.99 with a higher \"reg\" price",
+        "check": "The model number starts K45SS; 275 W; sold by Amazon.com, KitchenAid or a big-box store; inspect a store-pickup box for signs of a return",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "kitchenaid-bowl-lift-55",
+      "category": "generic",
+      "name": "KitchenAid 5.5-Quart Bowl-Lift Stand Mixer (KSM55)",
+      "short": "KitchenAid 5.5 qt bowl-lift",
+      "badge": "Best deal today · for bread bakers",
+      "chip": "5.5 qt · bowl-lift · 11 speeds · 27.5 lb",
+      "art": {
+        "shape": "tile",
+        "label": "KitchenAid 5.5 qt bowl-lift"
+      },
+      "price": "$299.99 at Target (\"reg $499.99\"), KitchenAid.com and Best Buy; $299 at Walmart (Nov 22, 2026). Lower prices needed a stack: $254.99 at Target with 15% in cart (Nov 30, 2025).",
+      "buy_if": "you bake bread or double batches: KitchenAid says to choose a bowl-lift for those, the bowl locks at three points instead of a hinged head, and today it costs $50 less than the Artisan.",
+      "skip_if": "your cabinets are low (about 16½ inches tall, KitchenAid) or you need to lift it in and out of a cupboard (27.5 lb per Target).",
+      "owners": "4.9 of 5 at Best Buy (2,090 reviews, Black Matte) and about 4.4 at Walmart (938), seen Nov 27, 2026. Praise: no flex while kneading, big bowl, quiet. Complaints: too tall for one buyer's cabinets, a paddle coating that flaked, a few loud units exchanged.",
+      "cta": "https://www.amazon.com/s?k=KitchenAid+5.5+Quart+Bowl-Lift+Stand+Mixer+KSM55&tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "For bread",
+        "pick": "5.5-quart bowl-lift, model KSM55SXXX plus a colour code (Target lists it as KSM55). Not the 6-quart or 7-quart bowl-lift, which are different machines",
+        "check": "5.5 qt and 11 speeds in the title; sold by Amazon.com or KitchenAid; measure under your cabinets first",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "kitchenaid-artisan",
+      "category": "generic",
+      "name": "KitchenAid Artisan 5-Quart Tilt-Head Stand Mixer (KSM150PS)",
+      "short": "KitchenAid Artisan",
+      "badge": "The upgrade · bowl handle, pouring shield, 20+ colours",
+      "chip": "5 qt · 325 W · 10 speeds · bowl handle",
+      "art": {
+        "shape": "cylinder",
+        "body": "#C8102E",
+        "accent": "#1B2A41"
+      },
+      "photo": {
+        "file": "brand/photos/kitchenaid-artisan-5-quart-tilt-head.jpg",
+        "kind": "brand",
+        "credit": "Photo: BenFrantzDale, CC BY-SA 2.0, Wikimedia Commons",
+        "source": "https://commons.wikimedia.org/wiki/File:Red_KitchenAid_Artisan.jpg",
+        "terms": "https://creativecommons.org/licenses/by-sa/2.0/",
+        "uses": [
+          "web",
+          "social"
+        ],
+        "checked": "2026-11-01"
+      },
+      "price": "$349.99 at Target (\"reg $499.99\") on Nov 27, 2026, flat since early November; $349.95 at Walmart (Nov 20). Last year's low: $297.49 at Target with 15% in cart (Nov 30, 2025).",
+      "buy_if": "you want the bowl handle, the pouring shield and the colour: Food Network (Oct 12, 2026) and CNN Underscored name it best overall. Under $300 is the price to wait for.",
+      "skip_if": "you want the most mixer for the money today: the Classic is $70 less and the 5.5-quart bowl-lift $50 less.",
+      "owners": "4.9 of 5 at Target (25,794 reviews) and 4.8 at Best Buy (3,692, Ice), seen Nov 27, 2026. Praise: lasts for years, attachments, colours. Complaints: heavy to store, the head bounces or unlocks on heavy dough, coated beaters that chip.",
+      "cta": "https://www.amazon.com/dp/B00005UP2P?tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "The upgrade",
+        "pick": "Artisan Series 5-quart tilt-head, model KSM150PSER (Empire Red). Not the Artisan Plus (KSM50PKVX), a KSM154 or KSM195 bundle, or the 4.5-quart Classic",
+        "check": "The model number starts KSM150; 325 W; colours are priced differently, so pick the colour after the price",
+        "label": "See today's price"
+      }
+    },
+    {
+      "id": "kitchenaid-artisan-mini",
+      "category": "generic",
+      "name": "KitchenAid Artisan Mini 3.5-Quart Tilt-Head Stand Mixer (KSM3316X)",
+      "short": "KitchenAid Artisan Mini",
+      "badge": "Small kitchens only · wait for a deeper cut",
+      "chip": "3.5 qt · 250 W · 16 lb · 12.3 in tall",
+      "art": {
+        "shape": "tile",
+        "label": "KitchenAid Artisan Mini"
+      },
+      "price": "$329.99 at KitchenAid.com (\"reg $449.99\", Nov 19, 2026), only $20 under the full-size Artisan. Target does not sell it. Past low: $240 at KitchenAid.com (Nov 2023).",
+      "buy_if": "counter or cabinet space is the problem and you bake small batches: it is about 12.3 inches tall and 16 lb (KitchenAid), and America's Test Kitchen named it the best small mixer.",
+      "skip_if": "you double recipes or bake bread: ATK measured 1.9 quarts of usable bowl, it cannot take the ice cream bowl, and Fresh Loaf posters found it weak on bread dough.",
+      "owners": "4.9 of 5 at Best Buy on 158 reviews (some incentivized) and about 4.7 at Walmart (456), seen Nov 27, 2026. Praise: compact, light, takes the same hub attachments. Complaints: the small bowl, a toy-like feel for some, and strain on bread.",
+      "cta": "https://www.amazon.com/dp/B01HKATXF0?tag=verdictpicks-20",
+      "video": "",
+      "video_title": "",
+      "video_channel": "",
+      "video_why": "",
+      "buy": {
+        "tier": "Small kitchens",
+        "pick": "Artisan Mini 3.5-quart tilt-head, model KSM3316XCU (Contour Silver); KSM3311X is the older code of the same mixer",
+        "check": "3.5 qt in the title; sold by Amazon.com or KitchenAid, not a marketplace seller; buy at $280 or less",
         "label": "See today's price"
       }
     }

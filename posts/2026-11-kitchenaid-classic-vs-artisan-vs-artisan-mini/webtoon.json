@@ -1,0 +1,394 @@
+{
+ "id": "ep10",
+ "series": "Verdict Picks Toon",
+ "episode": "Episode 10 · KitchenAid Classic vs Artisan vs Mini",
+ "ai_art": true,
+ "title": "Twelve Dozen Cookies",
+ "subtitle": "Grandma June bakes for the whole street. Jo wants to buy her a stand mixer on Black Friday. Three of them look exactly alike.",
+ "end": "Which mixer, and what price is worth it? The four models, side by side, are below.",
+ "panels": [
+  {
+   "gap": 120,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "jo"
+    ],
+    "prompt": "Warm, cluttered home kitchen on a December evening, string lights in the window and snow outside. June stands at the counter with flour on her apron and cheeks, holding a simple generic handheld electric mixer over a big ceramic bowl of cookie dough, rubbing her tired shoulder with the other hand. Dozens of cookies cool on wire racks around her. Jo leans in the doorway smiling, still in her winter coat. Medium-wide shot, cozy golden light. Keep the top third of the image calm and simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "December. Grandma June bakes cookies for the whole street.",
+     "x": 24,
+     "y": 440,
+     "w": 470,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "Twelve dozen this year. My arm gave up at six.",
+     "x": 500,
+     "y": 24,
+     "w": 280
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Jo sits at a wooden kitchen table with a laptop (screen facing away from the viewer, plain unbranded lid with no logo), grinning with determination, one finger raised as if she just had an idea. A plate of cookies beside her. Warm evening lamp light. Keep the top third of the image simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "It's Black Friday. I'm getting you a stand mixer.",
+     "x": 380,
+     "y": 30,
+     "w": 390
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "whisper",
+     "text": "A real one? Oh, Jo.",
+     "x": 40,
+     "y": 170,
+     "w": 250
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "jo"
+    ],
+    "prompt": "Over-the-shoulder view of Jo looking at three plain, generic, unbranded stand mixers lined up on a shelf in a bright store aisle: one small, two medium, all the same rounded shape in different colors (pale green, red, white), no logos, no badges, no labels, no text. Jo scratches her head, puzzled. Bright even store light. Keep the top third simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "Three KitchenAid tilt-head models. Same shape. Different model numbers.",
+     "x": 24,
+     "y": 22,
+     "w": 520
+    },
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "The little one must be the cheap one.",
+     "x": 520,
+     "y": 150,
+     "w": 260
+    }
+   ]
+  },
+  {
+   "gap": 540,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "vera"
+    ],
+    "prompt": "Dynamic impact panel: Vera steps in from the side with a confident smile, one hand raised like a stop sign, the other holding a clipboard. Bright burst background with radiating light lines in teal and gold, sparkles. Heroic, playful energy. Keep the top third of the image simple. The background fills the whole frame from the very top edge to the bottom with no horizontal line, no panel border and no blank strip. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "kind": "shout",
+     "text": "Not even close.",
+     "x": 420,
+     "y": 40,
+     "w": 350,
+     "size": 34
+    },
+    {
+     "t": "sfx",
+     "text": "!!",
+     "x": 80,
+     "y": 600,
+     "size": 100,
+     "rot": -8
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "h": 380,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 30,
+     "y": 36,
+     "w": 700,
+     "size": 23,
+     "title": "Prices seen, Nov 19 to 27, 2026",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "Classic, 4.5 qt (Target, Nov 27)",
+       "$279.99",
+       "#1E8E5A"
+      ],
+      [
+       "Artisan Mini, 3.5 qt (KitchenAid.com)",
+       "$329.99",
+       "#C1121F"
+      ],
+      [
+       "Artisan, 5 qt (Target, Nov 27)",
+       "$349.99",
+       "#1B2A41"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Sources: target.com, Nov 27, 2026; KitchenAid.com sale, Nov 19, 2026 (via The Dialed-In Home).",
+     "x": 380,
+     "y": 290,
+     "w": 680,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 140,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "june"
+    ],
+    "prompt": "Comedic super-deformed chibi version of June in her apron, eyes huge and round, both hands on her cheeks in shock, a puff of flour bursting around her, bright pink background with radiating burst lines. Funny reaction panel. Keep the top third simple. The background fills the whole frame from the very top edge to the bottom with no horizontal line, no panel border and no blank strip. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "june",
+     "kind": "shout",
+     "text": "The SMALL one costs MORE?",
+     "x": 40,
+     "y": 600,
+     "w": 420,
+     "size": 36
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "vera",
+     "june"
+    ],
+    "prompt": "In June's kitchen, Vera holds up two plain stainless steel mixing bowls side by side, one small and one larger, and points at the inside of the small one; June leans in squinting through her glasses, skeptical. Warm kitchen light, cookies on racks in the background. Keep the top third simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "And the number on the bowl is not what fits in it.",
+     "x": 24,
+     "y": 450,
+     "w": 460
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "A test kitchen measured what each bowl really works with.",
+     "x": 500,
+     "y": 24,
+     "w": 280
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "h": 380,
+   "bg": "board",
+   "items": [
+    {
+     "t": "card",
+     "x": 30,
+     "y": 36,
+     "w": 700,
+     "size": 23,
+     "title": "Usable bowl space, measured",
+     "color": "#1B2A41",
+     "rows": [
+      [
+       "Classic (4.5 qt on the box)",
+       "3.25 qt",
+       "#1E8E5A"
+      ],
+      [
+       "Artisan (5 qt on the box)",
+       "3 qt",
+       "#1B2A41"
+      ],
+      [
+       "Artisan Mini (3.5 qt on the box)",
+       "1.9 qt",
+       "#C1121F"
+      ]
+     ]
+    },
+    {
+     "t": "text",
+     "text": "Source: America's Test Kitchen, The Best Stand Mixers of 2026 (Oct 1, 2026).",
+     "x": 380,
+     "y": 290,
+     "w": 680,
+     "size": 18,
+     "color": "#555"
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "vera"
+    ],
+    "prompt": "June's kitchen table covered with neat rows of round sugar cookies on baking sheets; June counts them on her fingers with a determined look while Vera sits on the table edge with her clipboard, smiling. Warm, festive light, a small decorated tree in the corner. Keep the top third simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "KitchenAid says the Classic and Artisan make up to 9 dozen cookies a batch. The Mini, 5.",
+     "x": 24,
+     "y": 22,
+     "w": 470
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "So twelve dozen is two batches either way.",
+     "x": 540,
+     "y": 200,
+     "w": 240
+    }
+   ]
+  },
+  {
+   "gap": 200,
+   "full": true,
+   "art": {
+    "size": "1024x1024",
+    "cast": [
+     "jo",
+     "vera"
+    ],
+    "prompt": "Jo holds up a round loaf of homemade braided Christmas bread with a hopeful, curious face; Vera, beside her, nods thoughtfully with one finger raised as she explains. Cozy kitchen, warm evening light. Keep the top third simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "say",
+     "who": "jo",
+     "text": "And Grandma's Christmas bread?",
+     "x": 30,
+     "y": 330,
+     "w": 280
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "For stiff bread dough every week, KitchenAid points to a bowl-lift. The 5.5-quart is $299.99 at Target today.",
+     "x": 340,
+     "y": 24,
+     "w": 430
+    }
+   ]
+  },
+  {
+   "gap": 540,
+   "full": true,
+   "art": {
+    "size": "1536x1024",
+    "cast": [
+     "june",
+     "jo"
+    ],
+    "prompt": "Heartwarming moment the next morning: June hugs Jo tightly in the sunny kitchen; on the counter behind them sits a large plain cardboard box with no printing, no logo and no picture on it. Golden morning light, happy tears in June's eyes. Keep the top third simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "The decision: the Classic. Cookies, cakes and the odd loaf, for $70 less than the Artisan.",
+     "x": 24,
+     "y": 22,
+     "w": 560,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "june",
+     "text": "That's a lot of butter.",
+     "x": 560,
+     "y": 230,
+     "w": 220
+    }
+   ]
+  },
+  {
+   "gap": 220,
+   "full": true,
+   "art": {
+    "size": "1024x1536",
+    "cast": [
+     "june",
+     "vera"
+    ],
+    "prompt": "June sits at the kitchen counter reading a plain paper instruction booklet (no readable text on it) through her glasses, a bowl of bread dough covered with a towel beside her; Vera leans over her shoulder pointing to a page with a playful wink. Soft afternoon light, peaceful and warm. Keep the top third of the image simple. Full-bleed single image, edge to edge, no split frames."
+   },
+   "items": [
+    {
+     "t": "narr",
+     "text": "One rule from KitchenAid's manual: yeast dough goes on speed 2. Never higher.",
+     "x": 24,
+     "y": 22,
+     "w": 500,
+     "dark": true
+    },
+    {
+     "t": "say",
+     "who": "vera",
+     "text": "Higher speeds strain the motor. Speed 2, and patience.",
+     "x": 30,
+     "y": 250,
+     "w": 300
+    },
+    {
+     "t": "narr",
+     "text": "Verdict Picks: KitchenAid Classic vs Artisan vs Mini, and the price to wait for.",
+     "x": 24,
+     "y": 1000,
+     "w": 520,
+     "dark": true
+    }
+   ]
+  }
+ ]
+}
