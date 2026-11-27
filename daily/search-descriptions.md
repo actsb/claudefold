@@ -10,6 +10,12 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## Black Friday 2026 Best Sellers: The Deals People Are Actually Buying
+https://acts39.blogspot.com/2026/11/black-friday-2026-best-sellers.html
+```text
+Black Friday 2026 best sellers: the 12 deals people are buying, from AirPods Pro 3 at $179.99 to Switch 2, with real store prices.
+```
+
 ## KitchenAid Classic vs Artisan vs Artisan Mini 2026: Which Stand Mixer, and the Price to Wait For
 
 https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini.html
