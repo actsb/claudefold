@@ -345,6 +345,7 @@ POSTS = {
     },
     "kitchenaid-mixers": {
         "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+        "url": "https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini.html",
         "title": "KitchenAid Classic vs Artisan vs Artisan Mini 2026: Which Stand Mixer, and the Price to Wait For",
         "slug_title": "KitchenAid Classic vs Artisan vs Mini 2026",
         "labels": ["Kitchen", "Stand Mixers", "Comparison", "Price Check", "Buying Guide", "Amazon Finds"],

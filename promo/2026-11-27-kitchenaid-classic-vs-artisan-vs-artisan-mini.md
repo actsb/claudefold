@@ -1,6 +1,6 @@
 # Promotion kit — KitchenAid Classic vs Artisan vs Artisan Mini (buying guide, November 27, 2026)
 
-Post: https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini-2026.html
+Post: https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini.html
 Cover: `posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini/images/cover.png` · Pin: `images/pin.png` · Share: `images/howto.png`, `images/stores.png`, `images/strips/in-real-life.png`
 
 Disclosure on every social post: "Amazon links in the guide are paid links."
