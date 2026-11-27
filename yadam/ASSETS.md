@@ -15,7 +15,7 @@ Updated 2026-11-21 after the cloud work folder was wiped by a container restart.
 ## Production queue (user-approved 11-23, in this order)
 1. Arirang Decoded Short: regional Arirangs (auto, film scenes) — DONE 69cR6SZJuzI, scheduled public 2026-11-24 07:00 KST
 2. Tiger kindness folktale Short (Vrew) — instruction sheet yadam/vrew/tk01_지시문.md (11-23)
-3. Secret royal inspector Park Mun-su 2-part Shorts (Vrew) — instruction sheet yadam/vrew/pm01_02_지시문.md (11-23)
+3. Secret royal inspector Park Mun-su 2-part Shorts (Vrew) — DONE on km: pwUkKgG4SDI, 2uEzs9TqiMo. Korean version for gsb: yadam/vrew/pm_ko_지시문.md (11-27)
 4. Over Arirang Pass best-scene Shorts (auto, pilot_short.py)
 No jeoseung saja / afterlife-judge topics on our channel.
 Vrew output folder on the user's PC (D540win11): D:\Vrew반입\<job>\out (not Google Drive). Vrew jobs run in a session on the PC bridge environment "D540win11:D:\Claude_Work".
