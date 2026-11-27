@@ -1,83 +1,169 @@
 [
   {
-    "type": "steps",
-    "name": "howto",
-    "title": "The Black Friday best sellers in five minutes",
-    "sub": "WRITE: what the steps get you",
-    "footer": "WRITE: source (the manual, the brand's page)",
-    "items": [
+    "type": "matrix",
+    "name": "prices",
+    "title": "Black Friday 2026 best sellers: price today vs regular",
+    "sub": "Prices seen at non-Amazon US stores, Nov 12-27, 2026; our verdict on whether it is a real deal",
+    "footer": "Sources: NBC Select (Nov 27), MacRumors (Nov 12-18), 9to5Toys (Nov 22-27), Siliconera, Fox Business, retailer pages. Amazon prices are not shown; the buttons show today's.",
+    "columns": [
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Product",
+        "w": 300
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Price (store)",
+        "w": 270
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Regular",
+        "w": 150
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "head": "Verdict",
+        "w": 300
+      }
+    ],
+    "rows": [
+      {
+        "verdict": "win",
+        "cells": [
+          "AirPods Pro 3",
+          "$179.99 (Target)",
+          "$249.99",
+          "Buy: best price of 2026"
+        ]
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "verdict": "ok",
+        "cells": [
+          "Switch 2 + Mario Kart",
+          "$499.99 (Nintendo)",
+          "$549.99",
+          "OK: same as 2025"
+        ]
       },
       {
-        "head": "WRITE",
-        "body": "WRITE"
+        "verdict": "win",
+        "cells": [
+          "AirTag (2nd gen)",
+          "$18 (Best Buy)",
+          "$29",
+          "Buy: matches record low"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Roomba 105 Vac",
+          "$149 (Walmart)",
+          "$299.99",
+          "Buy for tidy floors"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Cuisinart ClearView AFC-4",
+          "$99.95 (Williams Sonoma)",
+          "$139.95",
+          "Buy if 4 qt is enough"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Owala FreeSip 24 oz",
+          "$23.97 (Walmart)",
+          "$29.97",
+          "OK: about $6 off"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Nespresso Vertuo Pop",
+          "$59 (Walmart)",
+          "$119",
+          "Buy: half price"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Oral-B iO3",
+          "$59.99 (Target)",
+          "$89.99",
+          "OK: its usual low"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Hisense 75\" H5 (75H5R1)",
+          "$328 (Walmart)",
+          "$668",
+          "Buy for a spare room"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Dyson Airwrap i.d.",
+          "$499.99 (Dyson)",
+          "$649.99",
+          "OK, or FlexStyle $199"
+        ]
+      },
+      {
+        "verdict": "ok",
+        "cells": [
+          "Ring Battery Doorbell 2K",
+          "$39.99 (Best Buy)",
+          "$99.99",
+          "Only with a Ring plan"
+        ]
+      },
+      {
+        "verdict": "win",
+        "cells": [
+          "Ray-Ban Meta Gen 2",
+          "$284 (Best Buy)",
+          "$379",
+          "Buy: lowest yet"
+        ]
       }
     ]
   },
   {
-    "type": "stores",
-    "name": "stores",
-    "title": "Where to buy it, and why Amazon usually wins",
-    "sub": "WRITE: month, what was compared",
-    "footer": "Prices and policies as seen in the month of writing; the buttons show today's.",
-    "rows": [
+    "type": "steps",
+    "name": "howto",
+    "title": "Is it a real Black Friday deal? Check it in 60 seconds",
+    "sub": "The four checks that catch most fake deals",
+    "footer": "Sources: our deal checklist; Adobe 2026 holiday forecast (Sept 28, 2026); Which? (Nov 2025).",
+    "items": [
       {
-        "store": "Amazon",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "win"
+        "head": "Match the model number",
+        "body": "Doorbuster TVs and bundles are often store-only versions."
       },
       {
-        "store": "Walmart",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "head": "Find the past low",
+        "body": "A deal is real at or under the lowest price of the last year."
       },
       {
-        "store": "Target",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "head": "Ignore the 'reg' price",
+        "body": "Some stores show a list price nobody pays."
       },
       {
-        "store": "Brand store",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "ok"
+        "head": "Check the seller",
+        "body": "Buy from the store or the maker, not a marketplace seller."
       },
       {
-        "store": "Temu / look-alikes",
-        "price": "WRITE",
-        "ship": "WRITE",
-        "returns": "WRITE",
-        "note": "WRITE",
-        "verdict": "no"
+        "head": "Know the better day",
+        "body": "Adobe: TVs and toys on Black Friday, laptops on Cyber Monday."
+      },
+      {
+        "head": "Check recalls",
+        "body": "Search cpsc.gov or our Recall Check for the exact model."
       }
     ]
   }

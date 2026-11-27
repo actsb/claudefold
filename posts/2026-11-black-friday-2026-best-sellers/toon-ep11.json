@@ -1,0 +1,80 @@
+{
+ "id": "ep11",
+ "title": "Forty Tabs, One Cart",
+ "panels": 9,
+ "ai_art": true,
+ "series": "Verdict Picks Toon",
+ "slices": [
+  {
+   "file": "ep11-1.webp",
+   "w": 800,
+   "h": 620,
+   "alt": "Comic, part 1 of 9: Verdict Picks Toon: Forty Tabs, One Cart"
+  },
+  {
+   "file": "ep11-2.webp",
+   "w": 800,
+   "h": 1332,
+   "alt": "Comic, part 2 of 9: Caption: Black Friday, 6:02 a.m. Sam: Forty tabs. Every single one says DEAL."
+  },
+  {
+   "file": "ep11-3.webp",
+   "w": 800,
+   "h": 687,
+   "alt": "Comic, part 3 of 9: Jo: Americans spent $7.1 billion online on Thanksgiving alone, says Adobe."
+  },
+  {
+   "file": "ep11-4.webp",
+   "w": 800,
+   "h": 950,
+   "alt": "Comic, part 4 of 9: Sam: BILLION? With a B?"
+  },
+  {
+   "file": "ep11-5.webp",
+   "w": 800,
+   "h": 780,
+   "alt": "Comic, part 5 of 9: Board, What is actually selling (Nov 26-27, 2026): Consoles on Thanksgiving +1,058% (Adobe); NeeDoh toys at Walmart 80% sold by midday; Nintendo Switch 2 No. 1 console of 2026 (Circana) Sources: Adobe via USA Today; Walmart's merchandising chief via Fox Business; Circana via VGChartz."
+  },
+  {
+   "file": "ep11-6.webp",
+   "w": 800,
+   "h": 1532,
+   "alt": "Comic, part 6 of 9: Vera: Popular isn't the same as cheap. Vera: Check one thing before you click: the model number."
+  },
+  {
+   "file": "ep11-7.webp",
+   "w": 800,
+   "h": 1297,
+   "alt": "Comic, part 7 of 9: Caption: Some doorbuster TVs are store-only versions with their own model numbers. Compare the model number, not the box. Board, Buy today or wait for Cyber Monday?: TVs, toys, appliances Black Friday; Apparel, furniture Black Friday; Electronics, computers Cyber Monday Adobe's 2026 forecast of the best day for each category (Sept 28, 2026)."
+  },
+  {
+   "file": "ep11-8.webp",
+   "w": 800,
+   "h": 1140,
+   "alt": "Comic, part 8 of 9: Jo: Our rule: it's a deal only at or under its past low."
+  },
+  {
+   "file": "ep11-9.webp",
+   "w": 800,
+   "h": 1284,
+   "alt": "Comic, part 9 of 9: Sam: One cart. Three things. Zero regret. What is actually selling, and the price that makes each deal real: the list is below."
+  }
+ ],
+ "transcript": [
+  "Verdict Picks Toon: Forty Tabs, One Cart",
+  "Caption: Black Friday, 6:02 a.m.",
+  "Sam: Forty tabs. Every single one says DEAL.",
+  "Jo: Americans spent $7.1 billion online on Thanksgiving alone, says Adobe.",
+  "Sam: BILLION? With a B?",
+  "Board, What is actually selling (Nov 26-27, 2026): Consoles on Thanksgiving +1,058% (Adobe); NeeDoh toys at Walmart 80% sold by midday; Nintendo Switch 2 No. 1 console of 2026 (Circana)",
+  "Sources: Adobe via USA Today; Walmart's merchandising chief via Fox Business; Circana via VGChartz.",
+  "Vera: Popular isn't the same as cheap.",
+  "Vera: Check one thing before you click: the model number.",
+  "Caption: Some doorbuster TVs are store-only versions with their own model numbers. Compare the model number, not the box.",
+  "Board, Buy today or wait for Cyber Monday?: TVs, toys, appliances Black Friday; Apparel, furniture Black Friday; Electronics, computers Cyber Monday",
+  "Adobe's 2026 forecast of the best day for each category (Sept 28, 2026).",
+  "Jo: Our rule: it's a deal only at or under its past low.",
+  "Sam: One cart. Three things. Zero regret.",
+  "What is actually selling, and the price that makes each deal real: the list is below."
+ ]
+}

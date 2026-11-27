@@ -2,13 +2,13 @@
   "strips": [
     {
       "id": "in-real-life",
-      "card": "black-friday-2026-best-sellers",
-      "title": "A day with the Black Friday best sellers — in real life",
+      "card": "airpods-pro-3",
+      "title": "Black Friday in four moves",
       "panels": [
         {
           "glyph": "clock",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Before you click",
+          "text": "Write down three things you came for. The rest is noise.",
           "host": {
             "pose": "present"
           }
@@ -16,18 +16,18 @@
         {
           "glyph": "check",
           "product": true,
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Check the model",
+          "text": "Doorbuster TVs and bundles can be store-only versions."
         },
         {
           "glyph": "warning",
-          "head": "WRITE",
-          "text": "WRITE"
+          "head": "Compare the past low",
+          "text": "$499.99 for Switch 2 matches 2025; it is not new."
         },
         {
           "glyph": "sun",
-          "head": "WRITE",
-          "text": "WRITE",
+          "head": "Buy, then stop",
+          "text": "Electronics may dip again on Cyber Monday, Nov 30.",
           "host": {
             "pose": "thumbsup"
           }

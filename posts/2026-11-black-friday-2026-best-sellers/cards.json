@@ -1,34 +1,331 @@
 {
-  "category": "generic",
-  "buy_title": "The exact Black Friday best sellers to order, and what to check on the listing",
-  "buy_total": "The button shows today's price; as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay.",
-  "cards": [
-    {
-      "id": "black-friday-2026-best-sellers",
-      "category": "generic",
-      "name": "Black Friday 2026 best sellers",
-      "short": "Black Friday best sellers",
-      "badge": "WRITE: category · why it is the value pick",
-      "chip": "WRITE: three spec words",
-      "art": {
-        "shape": "tile",
-        "label": "Black Friday best sellers"
-      },
-      "price": "WRITE: a price band, or a non-Amazon price with source and date (never an Amazon price)",
-      "buy_if": "WRITE: who it is for",
-      "skip_if": "WRITE: who should skip it and what to buy instead",
-      "owners": "WRITE: praise / complaints from owner reviews at non-Amazon retailers or forums, with source and date (never Amazon stars, counts or quotes)",
-      "cta": "https://www.amazon.com/s?k=black+friday+deals&tag=verdictpicks-20",
-      "video": "",
-      "video_title": "",
-      "video_channel": "",
-      "video_why": "",
-      "buy": {
-        "tier": "The pick",
-        "pick": "WRITE: exact variant/size/colour",
-        "check": "WRITE: sold-by line, model number, what marks a counterfeit",
-        "label": "See today's price"
-      }
-    }
-  ]
+ "category": "generic",
+ "buy_title": "The exact Black Friday best sellers to order, and the model to check",
+ "buy_total": "The buttons are paid links: as an Amazon Associate we earn from qualifying purchases, and it never changes what you pay. Prices in this guide come from Target, Walmart, Best Buy, Costco, Bloomingdale's, Williams Sonoma, Nintendo, Dyson and other maker stores between November 12 and 27, 2026 and move fast this week; the buttons show today's price.",
+ "cards": [
+  {
+   "id": "airpods-pro-3",
+   "category": "generic",
+   "name": "Apple AirPods Pro 3",
+   "short": "AirPods Pro 3",
+   "badge": "No. 1 on NBC Select readers' Black Friday list · Adobe hot seller",
+   "chip": "Noise canceling · hearing-aid mode · USB-C",
+   "art": {
+    "shape": "tile",
+    "label": "AirPods Pro 3"
+   },
+   "price": "$179.99 at Target (reg $249.99, ad of Nov 18, 2026); $199 at Walmart (Nov 12, MacRumors).",
+   "buy_if": "you use an iPhone and want the best all-round earbuds; $179.99 is $70 under list and the deal most sites call the best of 2026.",
+   "skip_if": "you use Android (you lose the Apple features) or you only want earbuds for calls: the base AirPods at $129 (Walmart) do that.",
+   "owners": "The pick NBC Select's readers bought most on Black Friday 2026 (NBC, Nov 27). Its 2025 predecessor topped The Verge's reader purchases last year.",
+   "cta": "https://www.amazon.com/s?k=AirPods+Pro+3&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Best seller",
+    "pick": "AirPods Pro 3 (2025 model, USB-C)",
+    "check": "The listing says AirPods Pro 3, not Pro 2; sold by Apple or a big-box store",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "switch-2-mario-kart",
+   "category": "generic",
+   "name": "Nintendo Switch 2 + Mario Kart World bundle",
+   "short": "Switch 2 bundle",
+   "badge": "Best-selling console of 2026 (Circana) · consoles +1,058% on Thanksgiving (Adobe)",
+   "chip": "Console + Mario Kart World download",
+   "art": {
+    "shape": "tile",
+    "label": "Switch 2 bundle"
+   },
+   "price": "$499.99 at Nintendo and Walmart (reg $549.99), Nov 22-Dec 5, 2026 (Siliconera; 9to5Toys).",
+   "buy_if": "a Switch 2 is on the gift list anyway: the bundle saves $50 against the 2026 list price and includes the year's biggest game.",
+   "skip_if": "you think it is cheaper than last year: the same bundle was $499 at Best Buy, Walmart and Target in 2025; only the list price went up.",
+   "owners": "Circana's best-selling US console for October 2026 and for the year to date (VGChartz report). Adobe saw console sales jump 1,058% on Thanksgiving against October's daily average.",
+   "cta": "https://www.amazon.com/s?k=Nintendo+Switch+2+Mario+Kart+World+bundle&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Gaming",
+    "pick": "Switch 2 + Mario Kart World bundle",
+    "check": "Sold by Nintendo or a big-box store; the game is a download code in the box",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "airtag-2",
+   "category": "generic",
+   "name": "Apple AirTag (2nd generation)",
+   "short": "AirTag 2",
+   "badge": "On NBC Select readers' list · No. 1 in The Verge's 2025 reader purchases",
+   "chip": "Find My · louder speaker · longer range",
+   "art": {
+    "shape": "tile",
+    "label": "AirTag 2"
+   },
+   "price": "$18 at Best Buy and Walmart, $18.99 at Target (reg $29-29.99), Nov 27, 2026 (NBC Select; DealNews). 4-pack $80 at Best Buy (reg $99).",
+   "buy_if": "you want a cheap gift that solves lost keys, bags or luggage for iPhone users; $18 matches the lowest price deal trackers have seen (9to5Toys, Nov 24).",
+   "skip_if": "you use Android: AirTags need an iPhone. Also skip 4-packs labeled MX542, which are the first generation.",
+   "owners": "Target owners rate it 4.35 of 5 (295 reviews, Nov 27). Our full review covers range, battery and privacy alerts.",
+   "cta": "https://www.amazon.com/s?k=Apple+AirTag+2nd+generation&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Stocking stuffer",
+    "pick": "AirTag (2nd generation), single MFE94LL/A or 4-pack MFEA4LL/A",
+    "check": "The title says 2nd generation",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "roomba-105",
+   "category": "generic",
+   "name": "iRobot Roomba 105 Vac",
+   "short": "Roomba 105",
+   "badge": "On NBC Select readers' list · half price",
+   "chip": "LiDAR navigation · app mapping · no dock",
+   "art": {
+    "shape": "tile",
+    "label": "Roomba 105"
+   },
+   "price": "$149 at Walmart and $149.99 at Target (reg $299.99), Nov 27, 2026 (NBC Select; target.com). Roomba 105 Combo (vacuum + mop) $169.99 at iRobot.com through Nov 28.",
+   "buy_if": "you want a first robot vacuum for hard floors and tidy rooms at half price.",
+   "skip_if": "you have a puppy or cords everywhere (it has no camera to recognize them) or want it to empty itself: the 105 with AutoEmpty dock is $249.99 at iRobot.com.",
+   "owners": "Target owners rate it 3.7 of 5 (307 reviews, Nov 27): good for the money, but some report getting stuck. See our camera-free robot vacuum guide.",
+   "cta": "https://www.amazon.com/s?k=iRobot+Roomba+105+Vac&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Home",
+    "pick": "Roomba 105 Vac (Target model Q312020)",
+    "check": "Not the Roomba 104, a different model; Combo = vacuum and mop",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "cuisinart-clearview",
+   "category": "generic",
+   "name": "Cuisinart ClearView 4-qt Glass Basket Air Fryer (AFC-4)",
+   "short": "Cuisinart ClearView",
+   "badge": "On NBC Select readers' list · see-through glass basket",
+   "chip": "4 qt · glass basket · 6 presets",
+   "art": {
+    "shape": "tile",
+    "label": "Cuisinart ClearView"
+   },
+   "price": "$99.95 at Bloomingdale's and Williams Sonoma (reg $139.95), Nov 27, 2026 (NBC Select). Kohl's shows $139.95 against a \"reg\" $209.99.",
+   "buy_if": "you want to watch food crisp without pulling the basket, and a basket that is glass, not coated metal.",
+   "skip_if": "you cook for four or more: 4 quarts is small. The Ninja 4-qt is $59 at Walmart if the glass basket doesn't matter.",
+   "owners": "Readers of NBC Select bought it in numbers this Black Friday. Look-alike warning: Target's Cuisinart AIR-160 is an ordinary basket fryer, not ClearView.",
+   "cta": "https://www.amazon.com/s?k=Cuisinart+ClearView+air+fryer+AFC-4&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Kitchen",
+    "pick": "ClearView glass-basket air fryer, model AFC-4 (AFC-4B/4C/4TP are colors)",
+    "check": "Model starts AFC-4; not AIR-160",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "owala-freesip",
+   "category": "generic",
+   "name": "Owala FreeSip 24 oz Stainless Steel Bottle",
+   "short": "Owala FreeSip",
+   "badge": "On NBC Select readers' list · stocking-stuffer favorite",
+   "chip": "24 oz · sip or swig lid · keeps cold 24 h",
+   "art": {
+    "shape": "tile",
+    "label": "Owala FreeSip"
+   },
+   "price": "$23.97 at Walmart (reg $29.97, black), Nov 27, 2026 (NBC Select); about $23.99 with 20% off at owalalife.com through Nov 30; Target $29.99.",
+   "buy_if": "you want the bottle teens and coworkers ask for, at about $6 off.",
+   "skip_if": "you need it dishwasher-safe all over (the lid is; hand-wash the body) or you want the FreeSip Twist, a different lid.",
+   "owners": "Target owners rate it 4.29 of 5 (6,334 reviews, Nov 27). Our review covers leaks, cleaning and sizes.",
+   "cta": "https://www.amazon.com/s?k=Owala+FreeSip+24+oz&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Stocking stuffer",
+    "pick": "FreeSip 24 oz stainless steel",
+    "check": "FreeSip, not FreeSip Twist; colors vary by store",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "vertuo-pop",
+   "category": "generic",
+   "name": "Nespresso Vertuo Pop",
+   "short": "Vertuo Pop",
+   "badge": "On NBC Select readers' list · half price at Walmart",
+   "chip": "Vertuo pods · 4 cup sizes · compact",
+   "art": {
+    "shape": "tile",
+    "label": "Vertuo Pop"
+   },
+   "price": "$59 at Walmart (was $119, with a coffee tasting set), Nov 27, 2026 (NBC Select); $89.99 at Target. Pop+ with Aeroccino3 $129.99 at Nespresso.com.",
+   "buy_if": "you want a small pod machine that makes both espresso and full mugs; $59 equals Walmart's July 2025 low.",
+   "skip_if": "you want cheap pods: Vertuo pods come only from Nespresso. A drip maker costs far less per cup.",
+   "owners": "Walmart owners rate it 4.4 of 5 (5,180 reviews, per NBC Select, Nov 27).",
+   "cta": "https://www.amazon.com/s?k=Nespresso+Vertuo+Pop&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Kitchen",
+    "pick": "Vertuo Pop (or Pop+ with Aeroccino if you want milk foam)",
+    "check": "Pop, Pop+ and bundles are different SKUs: compare like for like",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "oral-b-io3",
+   "category": "generic",
+   "name": "Oral-B iO Series 3 Electric Toothbrush",
+   "short": "Oral-B iO3",
+   "badge": "On NBC Select readers' list · $30 off",
+   "chip": "Magnetic drive · pressure sensor · 2-min timer",
+   "art": {
+    "shape": "tile",
+    "label": "Oral-B iO3"
+   },
+   "price": "$59.99 at Target and OralB.com (reg $89.99), Nov 27, 2026 (NBC Select).",
+   "buy_if": "you want Oral-B's iO motor and pressure light at the lowest price it usually reaches.",
+   "skip_if": "you want a screen or app coaching: those start at the iO5. Refills cost more than standard Oral-B heads.",
+   "owners": "Target owners rate it 4.0 of 5 (801 reviews, Nov 27).",
+   "cta": "https://www.amazon.com/s?k=Oral-B+iO+Series+3&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Gift",
+    "pick": "iO Series 3 (sold as iO3, iO3 Limited, Deep Clean or duo packs)",
+    "check": "Check what is in the box: heads, case, charger",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "hisense-75-h5",
+   "category": "generic",
+   "name": "Hisense 75-inch H5 Roku TV (75H5R1)",
+   "short": "Hisense 75\" H5",
+   "badge": "A best TV deal of 2026 in several deal roundups",
+   "chip": "75 in · 4K · Roku built in",
+   "art": {
+    "shape": "tile",
+    "label": "Hisense 75\" H5"
+   },
+   "price": "$328 at Walmart (reg $668), Nov 12-16, 2026 (MacRumors TV roundup).",
+   "buy_if": "you want the biggest screen for the money in a bedroom, basement or kids' room.",
+   "skip_if": "you watch fast sports or games in a bright room: a budget 4K panel is not a mini-LED or OLED. TCL's 65-inch QM6K Pro is $499.99 at Costco.",
+   "owners": "Several 2026 roundups (MacRumors, Tom's Guide, Fox) call it a top TV deal; Walmart's merchandising chief said TVs were selling strongly on Black Friday morning (Fox Business, Nov 27).",
+   "cta": "https://www.amazon.com/s?k=Hisense+75H5R1+75+inch&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "TV",
+    "pick": "Hisense 75H5R1 (75-inch H5 Roku)",
+    "check": "Doorbuster TVs often carry store-specific model numbers: match the full model",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "dyson-airwrap",
+   "category": "generic",
+   "name": "Dyson Airwrap i.d. Multi-Styler",
+   "short": "Dyson Airwrap i.d.",
+   "badge": "Adobe's 2026 hot-seller forecast · $150 off",
+   "chip": "Curls, waves, smooths · app-set routines",
+   "art": {
+    "shape": "tile",
+    "label": "Dyson Airwrap i.d."
+   },
+   "price": "$499.99 at Dyson.com and $499 at Sephora (reg $649.99), Nov 27, 2026 (NBC Select); Costco has it at the same price with serum, Nov 16-30.",
+   "buy_if": "you have the budget and want Dyson's styler at its first big cut of 2026.",
+   "skip_if": "you want 80% of the result for 40% of the price: the Shark FlexStyle was $199-229 this week (Walmart, Best Buy).",
+   "owners": "On Adobe's pre-season list of products expected to sell best (Sept 28, 2026). Avoid unbranded \"multi-stylers\": CPSC recalled several in 2025-2026.",
+   "cta": "https://www.amazon.com/s?k=Dyson+Airwrap+i.d.&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Splurge",
+    "pick": "Airwrap i.d. (or the Shark FlexStyle as the budget pick)",
+    "check": "Sold by Dyson, Sephora, Costco or Amazon.com, never a marketplace seller",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "ring-battery-2k",
+   "category": "generic",
+   "name": "Ring Battery Doorbell 2K",
+   "short": "Ring Doorbell 2K",
+   "badge": "One of 2026's most-cited deals · 60% off",
+   "chip": "Battery · 2K video · head-to-toe view",
+   "art": {
+    "shape": "tile",
+    "label": "Ring Doorbell 2K"
+   },
+   "price": "$39.99 at Best Buy (reg $99.99), Nov 22 and 27, 2026 (9to5Toys).",
+   "buy_if": "you already pay for Ring Home or will: at $39.99 the doorbell itself is nearly free.",
+   "skip_if": "you never want a plan: without one it is a live camera that saves no video. Ring Solo is $49.99 a year. Our no-subscription doorbell guide has better picks.",
+   "owners": "Covered in our video doorbell guide, with the three-year cost of every plan.",
+   "cta": "https://www.amazon.com/s?k=Ring+Battery+Doorbell+2K&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Home",
+    "pick": "Ring Battery Doorbell 2K",
+    "check": "Budget for Ring Solo ($49.99 a year) if you want saved video",
+    "label": "See today's price"
+   }
+  },
+  {
+   "id": "ray-ban-meta-gen2",
+   "category": "generic",
+   "name": "Ray-Ban Meta Wayfarer (Gen 2)",
+   "short": "Ray-Ban Meta Gen 2",
+   "badge": "Adobe's 2026 hot-seller forecast · lowest price yet",
+   "chip": "Camera · open-ear audio · Meta AI",
+   "art": {
+    "shape": "tile",
+    "label": "Ray-Ban Meta Gen 2"
+   },
+   "price": "$284 at Best Buy (reg $379), Nov 25, 2026 (9to5Toys); Meta's sale runs through Nov 30.",
+   "buy_if": "you want the smart glasses everyone asks about, at the lowest price tracked so far (The Gadgeteer, Nov 21).",
+   "skip_if": "you mind a camera on your face in shared spaces, or you need prescription lenses (extra cost).",
+   "owners": "Meta AI glasses are on Adobe's 2026 hot-seller list. Our smart glasses guide compares them with the rest.",
+   "cta": "https://www.amazon.com/s?k=Ray-Ban+Meta+Wayfarer+Gen+2&tag=verdictpicks-20",
+   "video": "",
+   "video_title": "",
+   "video_channel": "",
+   "video_why": "",
+   "buy": {
+    "tier": "Tech",
+    "pick": "Ray-Ban Meta Wayfarer Gen 2",
+    "check": "Gen 1 frames are still sold: check Gen 2",
+    "label": "See today's price"
+   }
+  }
+ ]
 }

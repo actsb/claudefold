@@ -54,9 +54,14 @@
      "t": "say",
      "who": "jo",
      "text": "Americans spent $7.1 billion online on Thanksgiving alone, says Adobe.",
-     "x": 470,
-     "y": 30,
-     "w": 560
+     "x": 165,
+     "y": 12,
+     "w": 300,
+     "size": 23,
+     "tail": [
+      360,
+      150
+     ]
     }
    ]
   },
@@ -98,8 +103,8 @@
      "color": "#1B2A41",
      "rows": [
       [
-       "Game consoles on Thanksgiving",
-       "+1,058% vs Oct (Adobe)"
+       "Consoles on Thanksgiving",
+       "+1,058% (Adobe)"
       ],
       [
        "NeeDoh toys at Walmart",

@@ -1,26 +1,28 @@
 {
-  "hero": "black-friday-2026-best-sellers",
-  "title_size": 66,
+  "hero": "airpods-pro-3",
+  "title_size": 62,
   "title": [
-    "Black Friday best sellers:",
-    "WRITE: line two",
-    "WRITE: line three"
+    "Black Friday 2026",
+    "best sellers: what",
+    "people are buying"
   ],
   "subtitle": [
-    "WRITE: one sentence of what the guide answers,",
-    "wrapped at about fifty characters per line,",
-    "three lines at most."
+    "12 deals the sales data backs, the",
+    "real price at Target, Walmart and Best",
+    "Buy, and the traps in each one."
   ],
-  "footer": "Product of the day · Black Friday 2026 best sellers · Verdict Picks",
-  "alt": "Black Friday 2026 best sellers: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "footer": "Deal guide · Black Friday 2026 · Verdict Picks",
+  "alt": "Black Friday 2026 best sellers: the 12 deals people are actually buying, with real prices at Target, Walmart and Best Buy (Verdict Picks)",
   "pin": [
-    "WRITE: bullet one",
-    "WRITE: bullet two",
-    "WRITE: bullet three"
+    "AirPods Pro 3 $179.99 at Target",
+    "Switch 2 bundle: same as 2025",
+    "AirTag $18, Roomba 105 $149"
   ],
   "url": "https://acts39.blogspot.com/2026/11/black-friday-2026-best-sellers.html",
   "style": "bright",
   "products": [
-    "black-friday-2026-best-sellers"
+    "airpods-pro-3",
+    "switch-2-mario-kart",
+    "airtag-2"
   ]
 }
