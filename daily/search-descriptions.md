@@ -10,6 +10,14 @@ Blogger uses this text for each post's `<meta name="description">` and its share
 
 Every description is 150 characters or fewer (Blogger's limit). Newest first; the daily Routine adds each new post at the top of the list.
 
+## KitchenAid Classic vs Artisan vs Artisan Mini 2026: Which Stand Mixer, and the Price to Wait For
+
+https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini.html
+
+```text
+KitchenAid Classic vs Artisan vs Mini 2026: usable bowl space, motor, model-number traps and the Black Friday price worth paying for each mixer.
+```
+
 ## Rechargeable Hand Warmers: 1.58 Million Recalled in 2026. 8 Model Numbers to Check Before You Charge One
 
 https://acts39.blogspot.com/2026/11/rechargeable-hand-warmer-recalls-2026.html
