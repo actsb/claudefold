@@ -1,0 +1,26 @@
+{
+  "hero": "kitchenaid-mixers",
+  "title_size": 66,
+  "title": [
+    "KitchenAid mixers:",
+    "WRITE: line two",
+    "WRITE: line three"
+  ],
+  "subtitle": [
+    "WRITE: one sentence of what the guide answers,",
+    "wrapped at about fifty characters per line,",
+    "three lines at most."
+  ],
+  "footer": "Product of the day · KitchenAid Classic vs Artisan vs Artisan Mini · Verdict Picks",
+  "alt": "KitchenAid Classic vs Artisan vs Artisan Mini: is it worth it, how to use it, and why Amazon is the place to buy it (Verdict Picks)",
+  "pin": [
+    "WRITE: bullet one",
+    "WRITE: bullet two",
+    "WRITE: bullet three"
+  ],
+  "url": "https://acts39.blogspot.com/2026/11/kitchenaid-classic-vs-artisan-vs-mini-2026.html",
+  "style": "bright",
+  "products": [
+    "kitchenaid-mixers"
+  ]
+}

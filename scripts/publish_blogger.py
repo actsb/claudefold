@@ -343,6 +343,12 @@ POSTS = {
         "slug_title": "Rechargeable Hand Warmer Recalls 2026",
         "labels": ["Winter", "Hand Warmers", "Recalls", "Safety", "Buying Guide", "Amazon Finds"],
     },
+    "kitchenaid-mixers": {
+        "dir": "posts/2026-11-kitchenaid-classic-vs-artisan-vs-artisan-mini",
+        "title": "KitchenAid Classic vs Artisan vs Artisan Mini 2026: Which Stand Mixer, and the Price to Wait For",
+        "slug_title": "KitchenAid Classic vs Artisan vs Mini 2026",
+        "labels": ["Kitchen", "Stand Mixers", "Comparison", "Price Check", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
