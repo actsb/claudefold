@@ -350,6 +350,12 @@ POSTS = {
         "slug_title": "KitchenAid Classic vs Artisan vs Mini 2026",
         "labels": ["Kitchen", "Stand Mixers", "Comparison", "Price Check", "Buying Guide", "Amazon Finds"],
     },
+    "black-friday-2026-best-sellers": {
+        "dir": "posts/2026-11-black-friday-2026-best-sellers",
+        "title": "Black Friday 2026 Best Sellers: The Deals People Are Actually Buying",
+        "slug_title": "Black Friday 2026 Best Sellers",
+        "labels": ["Black Friday", "Deals", "Best Sellers", "Gifts", "Buying Guide", "Amazon Finds"],
+    },
 }
 PAGES = [
     ("About Verdict Picks", "brand/pages/about.html"),
