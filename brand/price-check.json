@@ -159,21 +159,23 @@
     "freesip"
    ],
    "model": "FreeSip 24 oz stainless (the 32 oz lists at $35–$40).",
-   "street": "$29.99 list; Target $23.99 (Sep 6, 2026) and $25.49 (Oct 1, 2026)",
+   "street": "$29.99 list; Owala.com 20% off sitewide Nov 22–30, 2026 (about $23.99); Target $29.99, Nov 28, 2026",
    "good": "under $25",
    "great": "about $24",
-   "verdict": "ok",
-   "why": "Under $25 has been easy to find all autumn; Owala.com's 20% sitewide sale last Black Friday matched it, and no 2026 Black Friday Owala deal was announced as of October 24, so there is little to wait for.",
-   "sources": "Slickdeals trackers, Sep 6 and Oct 1, 2026; Owala.com sale, Nov 26 – Dec 1, 2025; NBC News Select, Nov 2025",
-   "checked": "2026-10-24",
+   "verdict": "buy",
+   "why": "Owala.com takes 20% off sitewide at checkout from Nov 22 to Nov 30, 2026 (11:59 pm MT), which puts the 24 oz FreeSip at about $23.99, our great line; Target was at the full $29.99 on Nov 28, 2026.",
+   "sources": "owalalife.com Black Friday page and FreeSip page, fetched Nov 28, 2026; target.com, fetched Nov 28, 2026",
+   "checked": "2026-11-28",
    "stores": [
     {
      "name": "Owala",
-     "url": "https://owalalife.com/products/freesip"
+     "url": "https://owalalife.com/products/freesip",
+     "seen": "$29.99 list, 20% off at checkout through Nov 30, 2026"
     },
     {
      "name": "Target",
-     "url": "https://www.target.com/p/owala-freesip-24oz-stainless-steel-water-bottle-alpine-sport/-/A-86722059"
+     "url": "https://www.target.com/p/owala-freesip-24oz-stainless-steel-water-bottle-alpine-sport/-/A-86722059",
+     "seen": "$29.99, Nov 28, 2026"
     },
     {
      "name": "Walmart",
@@ -195,9 +197,9 @@
    "good": "under $100",
    "great": "$85 or less",
    "verdict": "ok",
-   "why": "Corrected Nov 20, 2026: the $74.62 Walmart deal we cited was the Little Green 3369, not the 1400B. Bissell's own store had the 1400B at $94.99 (was $129.99) on Nov 20, 2026, the lowest dated 1400B price we found.",
-   "sources": "Slickdeals, Oct 7, 2026 (Walmart); CNN Underscored, Nov 19, 2025; Bissell list price",
-   "checked": "2026-10-25",
+   "why": "Re-checked Nov 28, 2026: Bissell's and Walmart's pages blocked our check and Bissell's Black Friday page did not list the 1400B, so the latest price we could confirm is still $94.99 (was $129.99) at Bissell on Nov 20, 2026. Search listings showed lower undated figures we could not confirm. (Corrected Nov 20, 2026: the $74.62 Walmart deal was the Little Green 3369, not the 1400B.)",
+   "sources": "bissell.com, Nov 20, 2026; Bissell Black Friday page, Nov 28, 2026; Slickdeals, Oct 7, 2026 (Walmart 3369); Bissell list price",
+   "checked": "2026-11-28",
    "stores": [
     {
      "name": "BISSELL",
@@ -771,22 +773,23 @@
     "airtag2"
    ],
    "model": "AirTag 2nd generation, 4-pack (a single is $29 list).",
-   "street": "List $99; Target $89.99 (Oct 2026)",
+   "street": "List $99 at Apple; Target $79.99 (was $99.99), Nov 28, 2026",
    "good": "under $90",
    "great": "$80 or less",
-   "verdict": "wait",
-   "why": "It launched in January 2026, so there is no Black Friday record; the deepest cut reported so far is about 19% off list (Aug 24, 2026), and $80 would match it.",
-   "sources": "MacRumors, Aug 24, 2026; 9to5Toys, Aug 2026; The Points Guy, Oct 2026",
-   "checked": "2026-10-22",
+   "verdict": "buy",
+   "why": "Target had the 4-pack at $79.99 on Nov 28, 2026, the day after Black Friday: right at our great line and about 20% off list, matching the deepest cut reported since launch (about 19%, Aug 24, 2026). Apple's own store stays at $99 with free engraving.",
+   "sources": "target.com and apple.com, fetched Nov 28, 2026; MacRumors, Aug 24, 2026",
+   "checked": "2026-11-28",
    "stores": [
     {
      "name": "Apple",
      "url": "https://www.apple.com/shop/buy-airtag/airtag/4-pack",
-     "seen": "$99.00 list, Oct 2026"
+     "seen": "$99.00 list, Nov 28, 2026"
     },
     {
      "name": "Target",
-     "url": "https://www.target.com/p/apple-airtag-4-pack-2nd-generation/-/A-85990990"
+     "url": "https://www.target.com/p/apple-airtag-4-pack-2nd-generation/-/A-85990990",
+     "seen": "$79.99, Nov 28, 2026"
     },
     {
      "name": "Best Buy",
@@ -956,18 +959,18 @@
     "thermopop2"
    ],
    "model": "ThermoPop 2 (not the original ThermoPop).",
-   "street": "About $39 list at ThermoWorks, October 2026; $35 at launch (2022)",
+   "street": "ThermoWorks $19.99 Black Friday doorbuster (list $39), Nov 28, 2026; $31 on July 1, 2026",
    "good": "under $35",
    "great": "about $31",
    "verdict": "buy",
-   "why": "Thanksgiving is November 26. ThermoWorks ran it at $31 (20% off) on July 1, 2026 and at $24.50 (30% off) on October 5, 2023, but not reliably before the holiday, and you want time for an ice-bath test.",
-   "sources": "ThermoWorks list price, October 2026; ThermoWorks via America's Test Kitchen, July 1, 2026; TVWBB, October 5, 2023",
-   "checked": "2026-10-23",
+   "why": "ThermoWorks' Black Friday/Saturday doorbuster had the 4.5-inch ThermoPop 2 at $19.99 (list $39) on Nov 28, 2026, the lowest price we have on record; it reads as a Friday-Saturday offer, so after it ends anything under $35 is still a fair buy.",
+   "sources": "thermoworks.com, fetched Nov 28, 2026; ThermoWorks via America's Test Kitchen, July 1, 2026",
+   "checked": "2026-11-28",
    "stores": [
     {
      "name": "ThermoWorks",
      "url": "https://www.thermoworks.com/products/thermopop-2",
-     "seen": "$39 list, Oct 2026"
+     "seen": "$19.99 doorbuster (list $39), Nov 28, 2026"
     }
    ]
   },
@@ -980,19 +983,19 @@
     "posts/2026-10-meat-thermometer",
     "thermapen-one"
    ],
-   "model": "Thermapen ONE, any colour (the NANO is a different, newer model).",
-   "street": "$74 in colour closeout at ThermoWorks (Oct 23, 2026); $115 list (Oct 29, 2026)",
+   "model": "Thermapen ONE (closeout). Its successor, the Thermapen NANO, is a different, newer model ($119 introductory at ThermoWorks, Nov 2026).",
+   "street": "Closeout: one limited-edition colour left at $89 (list $115), ThermoWorks, Nov 28, 2026; regular colours were $74 on Oct 23, 2026",
    "good": "under $75",
    "great": "about $62",
-   "verdict": "buy",
-   "why": "It is being closed out, so colours are running out; ThermoWorks has sold it at $62 to $76 several times (Black Friday 2022, 2024, Nov 10, 2025), but this year's successor may change that.",
-   "sources": "thermoworks.com, Oct 23, 2026; Slickdeals, Nov 10, 2025 and Aug 21, 2026; TVWBB Black Friday 2022 thread",
-   "checked": "2026-10-23",
+   "verdict": "wait",
+   "why": "The regular-colour closeout at $74 has sold out; on Nov 28, 2026 ThermoWorks listed only the Brook Trout edition at $89, above our good line, and its old Thermapen ONE page now redirects to the NANO ($119 introductory, with a 10% off banner). Pay $89 only if you want this colour; otherwise compare the NANO.",
+   "sources": "thermoworks.com (thermapen-one-disc, thermapen-nano), fetched Nov 28, 2026; thermoworks.com, Oct 23, 2026",
+   "checked": "2026-11-28",
    "stores": [
     {
      "name": "ThermoWorks",
-     "url": "https://www.thermoworks.com/products/thermapen-one",
-     "seen": "$115 list, Oct 2026"
+     "url": "https://www.thermoworks.com/products/thermapen-one-disc",
+     "seen": "$89 closeout, one colour, Nov 28, 2026"
     }
    ]
   },
@@ -3210,6 +3213,7 @@
   }
  ],
  "changelog": [
+  "Week of Nov 28, 2026 (weekly refresh, the day after Black Friday): AirTag 2 4-pack $79.99 at Target, now buy (was wait). ThermoPop 2 $19.99 ThermoWorks doorbuster, the lowest we have recorded: buy. Thermapen ONE regular colours sold out; one $89 edition left and the NANO succeeds it: now wait. Owala FreeSip 24 oz about $23.99 with Owala.com's 20% off through Nov 30: buy. Bissell Little Green 1400B: store pages blocked, last confirmed $94.99 (Nov 20) stands, ok. No CPSC recall for any of them.",
   "Nov 27, 2026 (Black Friday): four KitchenAid stand mixers added for the Classic vs Artisan vs Mini guide. Classic K45SS $279.99 at Target: ok (great at $230). Artisan KSM150 $349.99 at Target, flat since early November: wait for under $300. Artisan Mini $329.99 at KitchenAid.com: wait. 5.5-quart bowl-lift KSM55 $299.99 at Target: buy. No CPSC recall of any KitchenAid stand mixer.",
   "Nov 26, 2026: earbuds guide re-checked for Black Friday week. AirPods Pro 3 $149 at Walmart (buy, new great line $150); Sony WF-1000XM6 $250 at Best Buy (now buy, was wait); added Bose QC Ultra Earbuds 2nd Gen ($229 at Bose, buy), Galaxy Buds4 Pro ($179.99 at Samsung, buy), Pixel Buds Pro 2 ($169 at Google, buy), Soundcore Liberty 4 NC ($69.99 at Best Buy, buy) and Technics EAH-AZ100 ($149.99 at Technics, buy). No CPSC recall found for any of them.",
   "Nov 25, 2026: four hand warmers added for the rechargeable hand warmer recalls guide. THAW 2K 2-pack $24.99 at Target: buy. Zippo HeatBank 9s $37.46-$44.96 on sale at zippo.com but mostly sold out: ok. THAW 5K $39.99 at THAW: ok under $35. HotHands 10 pairs $7.49 at Target: buy. No CPSC recall found for these; the rechargeable HotHands H163650 is recalled.",
